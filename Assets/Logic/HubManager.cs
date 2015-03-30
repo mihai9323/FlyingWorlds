@@ -31,8 +31,9 @@ public class HubManager : MonoBehaviour {
 	public static void ShowCharacters(){
 		s_Instance.m_Characters.SetActive(true);
 	}
-	public static void ShowCharacter(){
+	public static void ShowCharacter(Character character){
 		s_Instance.m_Character.SetActive(true);
+		s_Instance.m_Character.GetComponent<CharacterPanel>().SetInfo(character);
 	}
 	public static void ShowInventory(){
 		s_Instance.m_Inventory.SetActive(true);
