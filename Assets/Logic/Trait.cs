@@ -13,4 +13,10 @@ public class Trait {
 	
 	public float moraleBonus;
 	
+	public bool immuneToMagic;
+	
+	public float orderResponse;
+	public LabelManager.LabelType lifeGoal;
+	public LabelManager.LabelType[] hateOtherLabel;
+	public LabelManager.LabelType[] hateSelfLabel;
 }

@@ -13,7 +13,9 @@ public class TraitManager : MonoBehaviour {
 		ByTheBooks,
 		Scared,
 		Drunk,
-		Fatty
+		Fatty,
+		Jolly,
+		Persuasive
 	}
 	
 	[SerializeField] Trait[] traits;
@@ -31,5 +33,28 @@ public class TraitManager : MonoBehaviour {
 		if(traitDictionary.ContainsKey(trait)){
 			return traitDictionary[trait];
 		}else return null;
+	}
+	public static TraitTypes[] GetRandomTraitsTypes(int number){
+		TraitTypes[] traits = new TraitTypes[number];
+		for(int c =0 ; c<number;c++){
+			bool ok = true;
+			TraitTypes rT = (TraitTypes)((int)Random.Range(0,9));
+			foreach(TraitTypes t in traits){
+				if(t == rT){
+					ok = false;
+				}
+			}
+			while(!ok){
+				ok = true;
+				rT = (TraitTypes)((int)Random.Range(0,9));
+				foreach(TraitTypes t in traits){
+					if(t == rT){
+						ok = false;
+					}
+				}
+			}
+			traits[c] = rT;
+		}
+		return traits;
 	}
 }

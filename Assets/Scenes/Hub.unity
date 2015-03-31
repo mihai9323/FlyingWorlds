@@ -284,7 +284,7 @@ Prefab:
     - target: {fileID: 11446118, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
       propertyPath: character
       value: 
-      objectReference: {fileID: 1908843118}
+      objectReference: {fileID: 280228378}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
   m_RootGameObject: {fileID: 1802444084}
@@ -1621,7 +1621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182b9bf3c7fed4346afdef7b6bbb68b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 384059251}
+  character: {fileID: 1600368319}
 --- !u!1 &82197613
 GameObject:
   m_ObjectHideFlags: 0
@@ -3016,6 +3016,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: .5
       objectReference: {fileID: 0}
+    - target: {fileID: 11446118, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 728361500}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
   m_RootGameObject: {fileID: 370528756}
@@ -3301,6 +3305,63 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 770874209}
   m_GameObject: {fileID: 273448556}
+--- !u!1 &280228377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 280228379}
+  - 114: {fileID: 280228378}
+  m_Layer: 0
+  m_Name: Character3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &280228378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 280228377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f3ae564af11fb45a69f1098f4d2662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Traits: 
+  Skills:
+    melee: 0
+    archery: 0
+    magic: 0
+  WeaponItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  ArmorItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  Level: 0
+  Labels: 
+--- !u!4 &280228379
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 280228377}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1300376122}
+  m_RootOrder: 2
 --- !u!1 &294367906
 GameObject:
   m_ObjectHideFlags: 0
@@ -4372,7 +4433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182b9bf3c7fed4346afdef7b6bbb68b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
+  character: {fileID: 728361500}
 --- !u!1 &373903090
 GameObject:
   m_ObjectHideFlags: 0
@@ -4383,6 +4444,8 @@ GameObject:
   - 4: {fileID: 373903092}
   - 114: {fileID: 373903091}
   - 114: {fileID: 373903093}
+  - 114: {fileID: 373903095}
+  - 114: {fileID: 373903094}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -4437,16 +4500,26 @@ MonoBehaviour:
     armorBonus: 1
     meleeBonus: 1
     rangedBonus: 1
-    magicBonus: .25
+    magicBonus: 0
     moraleBonus: 1
+    immuneToMagic: 1
+    orderResponse: 0
+    lifeGoal: 2
+    hateOtherLabel: 
+    hateSelfLabel: 0a000000
   - name: Gypsy
     traitType: 1
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
+    healthBonus: 1
+    armorBonus: 1
+    meleeBonus: 1
+    rangedBonus: 1
+    magicBonus: 1
+    moraleBonus: 1
+    immuneToMagic: 0
+    orderResponse: 1
+    lifeGoal: 10
+    hateOtherLabel: 
+    hateSelfLabel: 
   - name: Fabulous
     traitType: 2
     healthBonus: 0
@@ -4455,6 +4528,11 @@ MonoBehaviour:
     rangedBonus: 0
     magicBonus: 0
     moraleBonus: 0
+    immuneToMagic: 0
+    orderResponse: 0
+    lifeGoal: 0
+    hateOtherLabel: 
+    hateSelfLabel: 
   - name: By the books
     traitType: 3
     healthBonus: 0
@@ -4463,6 +4541,11 @@ MonoBehaviour:
     rangedBonus: 0
     magicBonus: 0
     moraleBonus: 0
+    immuneToMagic: 0
+    orderResponse: 0
+    lifeGoal: 0
+    hateOtherLabel: 00000000
+    hateSelfLabel: 
   - name: Scared
     traitType: 4
     healthBonus: 0
@@ -4471,6 +4554,119 @@ MonoBehaviour:
     rangedBonus: 0
     magicBonus: 0
     moraleBonus: 0
+    immuneToMagic: 0
+    orderResponse: 0
+    lifeGoal: 0
+    hateOtherLabel: 
+    hateSelfLabel: 
+  - name: Drunk
+    traitType: 5
+    healthBonus: 0
+    armorBonus: 0
+    meleeBonus: 0
+    rangedBonus: 0
+    magicBonus: 0
+    moraleBonus: 0
+    immuneToMagic: 0
+    orderResponse: 0
+    lifeGoal: 0
+    hateOtherLabel: 
+    hateSelfLabel: 
+  - name: Fatty
+    traitType: 6
+    healthBonus: 0
+    armorBonus: 0
+    meleeBonus: 0
+    rangedBonus: 0
+    magicBonus: 0
+    moraleBonus: 0
+    immuneToMagic: 0
+    orderResponse: 0
+    lifeGoal: 0
+    hateOtherLabel: 
+    hateSelfLabel: 
+  - name: Jolly
+    traitType: 7
+    healthBonus: 0
+    armorBonus: 0
+    meleeBonus: 0
+    rangedBonus: 0
+    magicBonus: 0
+    moraleBonus: 0
+    immuneToMagic: 0
+    orderResponse: 0
+    lifeGoal: 0
+    hateOtherLabel: 
+    hateSelfLabel: 
+  - name: Persuasive
+    traitType: 8
+    healthBonus: 0
+    armorBonus: 0
+    meleeBonus: 0
+    rangedBonus: 0
+    magicBonus: 0
+    moraleBonus: 0
+    immuneToMagic: 0
+    orderResponse: 0
+    lifeGoal: 0
+    hateOtherLabel: 
+    hateSelfLabel: 
+--- !u!114 &373903094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 373903090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93b871a88ed0114185b64590c520b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameCharacters:
+  - {fileID: 979493576}
+  - {fileID: 1627482288}
+  - {fileID: 280228378}
+  - {fileID: 1600368319}
+  - {fileID: 728361500}
+  - {fileID: 1556416376}
+  - {fileID: 1581055651}
+  - {fileID: 1347398770}
+  _firstName:
+  - Alan
+  - Borris
+  - George
+  - Dylan
+  - Ivan
+  - Drake
+  - Nick
+  - Mark
+  _secondName:
+  - the Bear
+  - the Hound
+  - the Old
+  - the Great
+  - the Fat
+  - the Weak
+  - the Dragon
+  - the Cute
+--- !u!114 &373903095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 373903090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40de59c98bec02e4d9d289daacad4ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  labels:
+  - labelType: 0
+    dontLikeOtherString: They call themselves worriors, but when it comes to battle
+      they all run like cowards!
+    dontLikeSelfString: Last battle I was so scared. I am so ashamed!
+    likeOtherString: 
+    likeSelfString: 
 --- !u!1 &380842899
 GameObject:
   m_ObjectHideFlags: 0
@@ -4794,63 +4990,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 620577486}
   m_GameObject: {fileID: 382687462}
---- !u!1 &384059250
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 384059252}
-  - 114: {fileID: 384059251}
-  m_Layer: 0
-  m_Name: Character
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &384059251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 384059250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f3ae564af11fb45a69f1098f4d2662, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Borris
-  Traits: 0400000001000000
-  Skills:
-    melee: 1
-    archery: 1
-    magic: 1
-  Thinks: I like this
-  WeaponItem:
-    Damage: 3
-    Defence: 0
-    Speed: 1
-    itemType: 2
-  ArmorItem:
-    Damage: 0
-    Defence: 3
-    Speed: 0
-    itemType: 1
-  Level: 1
---- !u!4 &384059252
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 384059250}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 429.77652, y: 328.586273, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
 --- !u!1 &388248251
 GameObject:
   m_ObjectHideFlags: 0
@@ -8060,6 +8199,63 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+--- !u!1 &728361499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 728361501}
+  - 114: {fileID: 728361500}
+  m_Layer: 0
+  m_Name: Character5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &728361500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 728361499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f3ae564af11fb45a69f1098f4d2662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Traits: 
+  Skills:
+    melee: 0
+    archery: 0
+    magic: 0
+  WeaponItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  ArmorItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  Level: 0
+  Labels: 
+--- !u!4 &728361501
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 728361499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1300376122}
+  m_RootOrder: 4
 --- !u!1 &736281262
 GameObject:
   m_ObjectHideFlags: 0
@@ -8337,6 +8533,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: .5
       objectReference: {fileID: 0}
+    - target: {fileID: 11446118, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1581055651}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
   m_RootGameObject: {fileID: 2108879237}
@@ -12823,7 +13023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182b9bf3c7fed4346afdef7b6bbb68b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
+  character: {fileID: 1556416376}
 --- !u!1 &930987556
 GameObject:
   m_ObjectHideFlags: 0
@@ -13317,6 +13517,63 @@ RectTransform:
   m_AnchoredPosition: {x: 91.3908386, y: -25.8279152}
   m_SizeDelta: {x: 54.2605629, y: 51.6558304}
   m_Pivot: {x: .5, y: .5}
+--- !u!1 &979493575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 979493577}
+  - 114: {fileID: 979493576}
+  m_Layer: 0
+  m_Name: Character1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &979493576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 979493575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f3ae564af11fb45a69f1098f4d2662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Traits: 
+  Skills:
+    melee: 0
+    archery: 0
+    magic: 0
+  WeaponItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  ArmorItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  Level: 0
+  Labels: 
+--- !u!4 &979493577
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 979493575}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1300376122}
+  m_RootOrder: 0
 --- !u!1001 &988616007
 Prefab:
   m_ObjectHideFlags: 0
@@ -14063,63 +14320,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1084478996}
---- !u!1 &1084670321
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1084670323}
-  - 114: {fileID: 1084670322}
-  m_Layer: 0
-  m_Name: Character
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1084670322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1084670321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f3ae564af11fb45a69f1098f4d2662, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Alan
-  Traits: 0000000001000000
-  Skills:
-    melee: 1
-    archery: 1
-    magic: 1
-  Thinks: I like this
-  WeaponItem:
-    Damage: 4
-    Defence: 0
-    Speed: 2
-    itemType: 3
-  ArmorItem:
-    Damage: 0
-    Defence: 3
-    Speed: 0
-    itemType: 1
-  Level: 1
---- !u!4 &1084670323
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1084670321}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 429.77652, y: 328.586273, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
 --- !u!1 &1087926051
 GameObject:
   m_ObjectHideFlags: 0
@@ -14413,7 +14613,7 @@ Prefab:
     - target: {fileID: 11446118, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
       propertyPath: character
       value: 
-      objectReference: {fileID: 1084670322}
+      objectReference: {fileID: 979493576}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
   m_RootGameObject: {fileID: 1706676515}
@@ -16418,6 +16618,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: .5
       objectReference: {fileID: 0}
+    - target: {fileID: 11446118, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1347398770}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
   m_RootGameObject: {fileID: 1659458933}
@@ -16634,6 +16838,41 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1294499232}
+--- !u!1 &1300376121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1300376122}
+  m_Layer: 0
+  m_Name: Characters
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1300376122
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1300376121}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 429.77652, y: 328.586273, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 979493577}
+  - {fileID: 1627482289}
+  - {fileID: 280228379}
+  - {fileID: 1600368320}
+  - {fileID: 728361501}
+  - {fileID: 1556416377}
+  - {fileID: 1581055652}
+  - {fileID: 1347398771}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
 --- !u!1 &1306899985
 GameObject:
   m_ObjectHideFlags: 0
@@ -16909,6 +17148,63 @@ Prefab:
   m_RootGameObject: {fileID: 341548668}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1347398769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1347398771}
+  - 114: {fileID: 1347398770}
+  m_Layer: 0
+  m_Name: Character8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1347398770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1347398769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f3ae564af11fb45a69f1098f4d2662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Traits: 
+  Skills:
+    melee: 0
+    archery: 0
+    magic: 0
+  WeaponItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  ArmorItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  Level: 0
+  Labels: 
+--- !u!4 &1347398771
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1347398769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1300376122}
+  m_RootOrder: 7
 --- !u!1001 &1355040179
 Prefab:
   m_ObjectHideFlags: 0
@@ -17235,7 +17531,7 @@ Prefab:
     - target: {fileID: 11446118, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
       propertyPath: character
       value: 
-      objectReference: {fileID: 384059251}
+      objectReference: {fileID: 1600368319}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
   m_RootGameObject: {fileID: 78461215}
@@ -18781,6 +19077,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: .5
       objectReference: {fileID: 0}
+    - target: {fileID: 11446118, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1556416376}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
   m_RootGameObject: {fileID: 929855957}
@@ -19103,7 +19403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182b9bf3c7fed4346afdef7b6bbb68b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 1704354544}
+  character: {fileID: 1627482288}
 --- !u!1 &1533579499
 GameObject:
   m_ObjectHideFlags: 0
@@ -19482,6 +19782,63 @@ Prefab:
   m_RootGameObject: {fileID: 1533579499}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1556416375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1556416377}
+  - 114: {fileID: 1556416376}
+  m_Layer: 0
+  m_Name: Character6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1556416376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1556416375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f3ae564af11fb45a69f1098f4d2662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Traits: 
+  Skills:
+    melee: 0
+    archery: 0
+    magic: 0
+  WeaponItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  ArmorItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  Level: 0
+  Labels: 
+--- !u!4 &1556416377
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1556416375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1300376122}
+  m_RootOrder: 5
 --- !u!1 &1561214818
 GameObject:
   m_ObjectHideFlags: 0
@@ -20147,6 +20504,63 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 770874209}
   m_GameObject: {fileID: 1578645826}
+--- !u!1 &1581055650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1581055652}
+  - 114: {fileID: 1581055651}
+  m_Layer: 0
+  m_Name: Character7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1581055651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1581055650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f3ae564af11fb45a69f1098f4d2662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Traits: 
+  Skills:
+    melee: 0
+    archery: 0
+    magic: 0
+  WeaponItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  ArmorItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  Level: 0
+  Labels: 
+--- !u!4 &1581055652
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1581055650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1300376122}
+  m_RootOrder: 6
 --- !u!1 &1587507735
 GameObject:
   m_ObjectHideFlags: 0
@@ -20491,6 +20905,63 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 770874209}
   m_GameObject: {fileID: 1597084998}
+--- !u!1 &1600368318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1600368320}
+  - 114: {fileID: 1600368319}
+  m_Layer: 0
+  m_Name: Character4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1600368319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1600368318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f3ae564af11fb45a69f1098f4d2662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Traits: 
+  Skills:
+    melee: 0
+    archery: 0
+    magic: 0
+  WeaponItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  ArmorItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  Level: 0
+  Labels: 
+--- !u!4 &1600368320
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1600368318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1300376122}
+  m_RootOrder: 3
 --- !u!1001 &1614351670
 Prefab:
   m_ObjectHideFlags: 0
@@ -20657,12 +21128,69 @@ Prefab:
     - target: {fileID: 11446118, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
       propertyPath: character
       value: 
-      objectReference: {fileID: 1704354544}
+      objectReference: {fileID: 1627482288}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef16caee8b4f77341b24f40025c9abae, type: 2}
   m_RootGameObject: {fileID: 1523023670}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1627482287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1627482289}
+  - 114: {fileID: 1627482288}
+  m_Layer: 0
+  m_Name: Character2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1627482288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1627482287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f3ae564af11fb45a69f1098f4d2662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Traits: 
+  Skills:
+    melee: 0
+    archery: 0
+    magic: 0
+  WeaponItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  ArmorItem:
+    Damage: 0
+    Defence: 0
+    Speed: 0
+    itemType: 0
+  Level: 0
+  Labels: 
+--- !u!4 &1627482289
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1627482287}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1300376122}
+  m_RootOrder: 1
 --- !u!1 &1637775393
 GameObject:
   m_ObjectHideFlags: 0
@@ -21159,7 +21687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182b9bf3c7fed4346afdef7b6bbb68b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
+  character: {fileID: 1347398770}
 --- !u!1001 &1699564529
 Prefab:
   m_ObjectHideFlags: 0
@@ -21333,63 +21861,6 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
---- !u!1 &1704354543
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1704354545}
-  - 114: {fileID: 1704354544}
-  m_Layer: 0
-  m_Name: Character
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1704354544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1704354543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f3ae564af11fb45a69f1098f4d2662, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Dylan
-  Traits: 0200000001000000
-  Skills:
-    melee: 1
-    archery: 2
-    magic: 1
-  Thinks: I like this
-  WeaponItem:
-    Damage: 3
-    Defence: 0
-    Speed: 1
-    itemType: 2
-  ArmorItem:
-    Damage: 0
-    Defence: 3
-    Speed: 0
-    itemType: 1
-  Level: 1
---- !u!4 &1704354545
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1704354543}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 429.77652, y: 328.586273, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
 --- !u!1 &1706676515
 GameObject:
   m_ObjectHideFlags: 0
@@ -21542,7 +22013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182b9bf3c7fed4346afdef7b6bbb68b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 1084670322}
+  character: {fileID: 979493576}
 --- !u!1 &1730846501
 GameObject:
   m_ObjectHideFlags: 0
@@ -22707,7 +23178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182b9bf3c7fed4346afdef7b6bbb68b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 1908843118}
+  character: {fileID: 280228378}
 --- !u!1 &1812999804
 GameObject:
   m_ObjectHideFlags: 0
@@ -24052,63 +24523,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 770874209}
   m_GameObject: {fileID: 1900041488}
---- !u!1 &1908843117
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1908843119}
-  - 114: {fileID: 1908843118}
-  m_Layer: 0
-  m_Name: Character
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1908843118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1908843117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f3ae564af11fb45a69f1098f4d2662, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Drake
-  Traits: 0300000001000000
-  Skills:
-    melee: 1
-    archery: 1
-    magic: 1
-  Thinks: I like this
-  WeaponItem:
-    Damage: 5
-    Defence: 0
-    Speed: 1
-    itemType: 2
-  ArmorItem:
-    Damage: 0
-    Defence: 3
-    Speed: 0
-    itemType: 1
-  Level: 1
---- !u!4 &1908843119
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1908843117}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 429.77652, y: 328.586273, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
 --- !u!1001 &1924058806
 Prefab:
   m_ObjectHideFlags: 0
@@ -26070,7 +26484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 182b9bf3c7fed4346afdef7b6bbb68b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
+  character: {fileID: 1581055651}
 --- !u!1 &2136074754
 GameObject:
   m_ObjectHideFlags: 0
