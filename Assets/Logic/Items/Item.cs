@@ -15,9 +15,14 @@ public class Item  {
 	public float Damage;
 	public float Defence;
 	public float Speed;
+	public int shine;
 	public ItemType itemType;
 	public Character itemOwner;
-	
+	public int Value{
+		get{
+			return (int)(50 * (Damage + Defence + Speed) * (1+shine));
+		}
+	}
 	public Item(){
 		itemType = ItemType.None;
 		Damage =0;

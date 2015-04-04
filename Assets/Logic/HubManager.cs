@@ -10,9 +10,11 @@ public class HubManager : MonoBehaviour {
 	[SerializeField] GameObject m_Characters, m_Character, m_Inventory,m_Shop;
 	[SerializeField] Farm m_farm;
 	[SerializeField] Mine m_mine;
+	[SerializeField] Shop m_shop;
 	
 	public static Farm farm{get{return s_Instance.m_farm;}}
 	public static Mine mine{get{return s_Instance.m_mine;}}
+	public static Shop shop{get{return s_Instance.m_shop;}}
 	
 	
 	
@@ -42,11 +44,15 @@ public class HubManager : MonoBehaviour {
 		
 	}
 	public static void ShowInventory(){
+		InventoryManager.PopulateInventory();
 		s_Instance.m_Inventory.SetActive(true);
 	}
 	public static void ShowShop(){
+		InventoryManager.PopulateInventory();
+		InventoryManager.PopulateShop();
 		s_Instance.m_Shop.SetActive(true);
 		CharacterManager.SelectedCharacter = null;
+		
 	}
 	//Hide functions
 	public static void HideCharacters(){
