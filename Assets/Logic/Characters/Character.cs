@@ -8,7 +8,28 @@ public class Character : MonoBehaviour {
 	public TraitManager.TraitTypes[] Traits;
 	public Skillset Skills;
 	
-	public Item WeaponItem,ArmorItem;
+	public Item WeaponItem{
+		get{
+			if(weaponItem == null) return new Item();
+			return weaponItem;
+		}
+		set{
+			weaponItem = value;
+		}
+	}
+	
+	public Item ArmorItem{
+		get{
+			if(armorItem == null) return new Item();
+			return armorItem;
+		}
+		set{
+			armorItem = value;
+		}
+	}
+	
+	[SerializeField] Item weaponItem, armorItem;
+	
 	public int Level;
 	public LabelManager.LabelType[] Labels;
 	
@@ -54,6 +75,7 @@ public class Character : MonoBehaviour {
 	
 	
 	public void CreateCharacter(){
+		Level = 1;
 		Traits = TraitManager.GetRandomTraitsTypes(2);
 		Skills.CreateSkillset();
 		Name = CharacterManager.GenerateCharacterName();

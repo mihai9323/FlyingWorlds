@@ -14,8 +14,11 @@ public class HubManager : MonoBehaviour {
 	public static Farm farm{get{return s_Instance.m_farm;}}
 	public static Mine mine{get{return s_Instance.m_mine;}}
 	
+	
+	
 	private void Awake(){
 		s_Instance = this;
+		CharacterManager.SelectedCharacter = null;
 	}
 	private void Start(){
 		m_Character.SetActive(false);
@@ -30,16 +33,20 @@ public class HubManager : MonoBehaviour {
 	//Show functions
 	public static void ShowCharacters(){
 		s_Instance.m_Characters.SetActive(true);
+		CharacterManager.SelectedCharacter = null;
 	}
 	public static void ShowCharacter(Character character){
 		s_Instance.m_Character.SetActive(true);
 		s_Instance.m_Character.GetComponent<CharacterPanel>().SetInfo(character);
+		CharacterManager.SelectedCharacter = character;
+		
 	}
 	public static void ShowInventory(){
 		s_Instance.m_Inventory.SetActive(true);
 	}
 	public static void ShowShop(){
 		s_Instance.m_Shop.SetActive(true);
+		CharacterManager.SelectedCharacter = null;
 	}
 	//Hide functions
 	public static void HideCharacters(){
@@ -49,6 +56,7 @@ public class HubManager : MonoBehaviour {
 	}
 	public static void HideCharacter(){
 		s_Instance.m_Character.SetActive(false);
+		CharacterManager.SelectedCharacter = null;
 		HideInventory();
 	}
 	public static void HideInventory(){

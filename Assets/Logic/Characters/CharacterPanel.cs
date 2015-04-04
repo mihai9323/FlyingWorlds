@@ -3,7 +3,10 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class CharacterPanel : MonoBehaviour {
-
+	
+	
+	[SerializeField] ItemOnCharacter m_weapon_item, m_armor_item;
+	
 	[SerializeField] Text m_name;
 	[SerializeField] Text m_health;
 	[SerializeField] Text m_armor;
@@ -18,6 +21,10 @@ public class CharacterPanel : MonoBehaviour {
 	[SerializeField] Text m_thinks;
 	
 	public void SetInfo(Character character){
+	
+		m_weapon_item.DisplayItem(character.WeaponItem);
+		m_armor_item.DisplayItem(character.ArmorItem);
+	
 		m_name.text = character.Name;
 		m_health.text = "Heath:"+character.MaxHealth.ToString()+"/"+ character.MaxHealth.ToString();
 		m_armor.text = "Armor:"+character.Armor.ToString();

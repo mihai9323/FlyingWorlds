@@ -9,6 +9,8 @@ public class CharacterManager : MonoBehaviour {
 	[SerializeField] string[] _firstName;
 	[SerializeField] string[] _secondName;
 	
+	public static Character SelectedCharacter;
+	
 	public static Character[] gameCharacters{
 		set{s_Instance._gameCharacters = value;}
 		get{ return s_Instance._gameCharacters;}
