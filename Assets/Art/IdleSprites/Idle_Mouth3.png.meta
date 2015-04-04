@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 1eef240b8c8505e49aaf3a8d6a941fcc
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Idle_Mouth3_0
+    21300002: Idle_Mouth3_1
+    21300004: Idle_Mouth3_2
+    21300006: Idle_Mouth3_3
+    21300008: Idle_Mouth3_4
+    21300010: Idle_Mouth3_5
+    21300012: Idle_Mouth3_6
+    21300014: Idle_Mouth3_7
+    21300016: Idle_Mouth3_8
+    21300018: Idle_Mouth3_9
+    21300020: Idle_Mouth3_10
+    21300022: Idle_Mouth3_11
+    21300024: Idle_Mouth3_12
+    21300026: Idle_Mouth3_13
+    21300028: Idle_Mouth3_14
+    21300030: Idle_Mouth3_15
+    21300032: Idle_Mouth3_16
+    21300034: Idle_Mouth3_17
+    21300036: Idle_Mouth3_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Idle_Mouth3_1
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 391
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Mouth3_4
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 391
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Mouth3_6
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 391
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Mouth3_8
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 391
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Mouth3_9
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 391
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Mouth3_10
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 391
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Mouth3_11
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 391
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 391
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Mouth3_13
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 391
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Mouth3_14
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 391
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Mouth3_16
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 391
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Mouth3_17
+      rect:
+        serializedVersion: 2
+        x: 3010
+        y: 391
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Mouth3_18
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 391
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

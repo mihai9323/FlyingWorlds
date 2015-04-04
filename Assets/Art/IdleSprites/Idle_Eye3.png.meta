@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 00bcabdf86807874e87ea0559cf4314f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Idle_Eye3_0
+    21300002: Idle_Eye3_2
+    21300004: Idle_Eye3_4
+    21300006: Idle_Eye3_6
+    21300008: Idle_Eye3_8
+    21300010: Idle_Eye3_10
+    21300012: Idle_Eye3_12
+    21300014: Idle_Eye3_14
+    21300016: Idle_Eye3_16
+    21300018: Idle_Eye3_18
+    21300020: Idle_Eye3_20
+    21300022: Idle_Eye3_22
+    21300024: Idle_Eye3_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Idle_Eye3_0
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 440
+        width: 125
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye3_2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 440
+        width: 127
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye3_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 439
+        width: 126
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye3_6
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 439
+        width: 126
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye3_8
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 438
+        width: 127
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye3_10
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 438
+        width: 127
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye3_12
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 438
+        width: 126
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye3_14
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 438
+        width: 127
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye3_16
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 438
+        width: 127
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye3_18
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 439
+        width: 125
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye3_20
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 439
+        width: 127
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye3_22
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 440
+        width: 127
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye3_24
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 440
+        width: 127
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
