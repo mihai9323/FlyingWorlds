@@ -1,11 +1,22 @@
 fileFormatVersion: 2
 guid: 905a087fb71f9bd42b43a784b9695138
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: FrontArm_00000_0
+    21300002: FrontArm_00000_1
+    21300004: FrontArm_00000_2
+    21300006: FrontArm_00000_3
+    21300008: FrontArm_00000_4
+    21300010: FrontArm_00000_5
+    21300012: FrontArm_00000_6
+    21300014: FrontArm_00000_7
+    21300016: FrontArm_00000_8
+    21300018: FrontArm_00000_9
+    21300020: FrontArm_00000_10
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,27 +32,137 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: FrontArm_00000_0
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 326
+        width: 85
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FrontArm_00000_1
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 327
+        width: 85
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FrontArm_00000_2
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 327
+        width: 86
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FrontArm_00000_3
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 327
+        width: 86
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FrontArm_00000_4
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 327
+        width: 85
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FrontArm_00000_5
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 326
+        width: 85
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FrontArm_00000_6
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 326
+        width: 85
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FrontArm_00000_7
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 325
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FrontArm_00000_8
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 325
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FrontArm_00000_9
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 325
+        width: 83
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FrontArm_00000_10
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 325
+        width: 83
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

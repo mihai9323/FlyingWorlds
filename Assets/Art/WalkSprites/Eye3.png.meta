@@ -1,11 +1,22 @@
 fileFormatVersion: 2
 guid: ea471e1044cbb484790c54273cbe4853
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Eye3_0
+    21300002: Eye3_2
+    21300004: Eye3_4
+    21300006: Eye3_6
+    21300008: Eye3_8
+    21300010: Eye3_10
+    21300012: Eye3_12
+    21300014: Eye3_14
+    21300016: Eye3_16
+    21300018: Eye3_18
+    21300020: Eye3_20
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,27 +32,137 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Eye3_0
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 443
+        width: 125
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 443
+        width: 125
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 443
+        width: 125
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_6
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 443
+        width: 125
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_8
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 443
+        width: 125
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_10
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 443
+        width: 125
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_12
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 443
+        width: 125
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_14
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 443
+        width: 125
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_16
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 443
+        width: 125
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_18
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 443
+        width: 125
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_20
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 443
+        width: 125
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -1,11 +1,22 @@
 fileFormatVersion: 2
 guid: 5c6e528f2260ea648b5225a55b73353c
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Mouth1_0
+    21300002: Mouth1_1
+    21300004: Mouth1_2
+    21300006: Mouth1_3
+    21300008: Mouth1_4
+    21300010: Mouth1_5
+    21300012: Mouth1_6
+    21300014: Mouth1_7
+    21300016: Mouth1_8
+    21300018: Mouth1_9
+    21300020: Mouth1_10
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,27 +32,137 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Mouth1_0
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 396
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth1_1
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 396
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth1_2
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 396
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth1_3
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 396
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth1_4
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 397
+        width: 54
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth1_5
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 396
+        width: 55
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth1_6
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 396
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth1_7
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 397
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth1_8
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 396
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth1_9
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 397
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth1_10
+      rect:
+        serializedVersion: 2
+        x: 2761
+        y: 396
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

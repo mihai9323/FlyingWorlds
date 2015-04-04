@@ -1,11 +1,22 @@
 fileFormatVersion: 2
 guid: 084d5d6ac22580943a8b2e4390f989ae
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Sword_00000_0
+    21300002: Sword_00000_1
+    21300004: Sword_00000_2
+    21300006: Sword_00000_3
+    21300008: Sword_00000_4
+    21300010: Sword_00000_5
+    21300012: Sword_00000_6
+    21300014: Sword_00000_7
+    21300016: Sword_00000_8
+    21300018: Sword_00000_9
+    21300020: Sword_00000_10
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,27 +32,137 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Sword_00000_0
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 301
+        width: 69
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sword_00000_1
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 301
+        width: 66
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sword_00000_2
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 302
+        width: 63
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sword_00000_3
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 302
+        width: 62
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sword_00000_4
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 302
+        width: 65
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sword_00000_5
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 301
+        width: 68
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sword_00000_6
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 300
+        width: 72
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sword_00000_7
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 300
+        width: 75
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sword_00000_8
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 299
+        width: 78
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sword_00000_9
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 299
+        width: 79
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sword_00000_10
+      rect:
+        serializedVersion: 2
+        x: 2756
+        y: 299
+        width: 79
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -1,11 +1,22 @@
 fileFormatVersion: 2
 guid: f01e1a713173014459cc0e1347d98ffa
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Beard2_0
+    21300002: Beard2_2
+    21300004: Beard2_4
+    21300006: Beard2_6
+    21300008: Beard2_8
+    21300010: Beard2_10
+    21300012: Beard2_12
+    21300014: Beard2_14
+    21300016: Beard2_16
+    21300018: Beard2_18
+    21300020: Beard2_20
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,27 +32,137 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Beard2_0
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 409
+        width: 100
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beard2_2
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 409
+        width: 100
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beard2_4
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 409
+        width: 100
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beard2_6
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 409
+        width: 100
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beard2_8
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 409
+        width: 100
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beard2_10
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 409
+        width: 100
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beard2_12
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 409
+        width: 100
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beard2_14
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 409
+        width: 100
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beard2_16
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 409
+        width: 100
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beard2_18
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 409
+        width: 100
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beard2_20
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 409
+        width: 100
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
