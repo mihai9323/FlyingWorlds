@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 73887b3b833f84c48a87f0bac70f1f9c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Idle_Bow_0
+    21300002: Idle_Bow_1
+    21300004: Idle_Bow_2
+    21300006: Idle_Bow_3
+    21300008: Idle_Bow_4
+    21300010: Idle_Bow_5
+    21300012: Idle_Bow_6
+    21300014: Idle_Bow_7
+    21300016: Idle_Bow_8
+    21300018: Idle_Bow_9
+    21300020: Idle_Bow_10
+    21300022: Idle_Bow_11
+    21300024: Idle_Bow_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Idle_Bow_0
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 302
+        width: 246
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Bow_1
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 302
+        width: 244
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Bow_2
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 302
+        width: 244
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Bow_3
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 301
+        width: 244
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Bow_4
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 301
+        width: 245
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Bow_5
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 301
+        width: 243
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Bow_6
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 301
+        width: 243
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Bow_7
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 301
+        width: 242
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Bow_8
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 301
+        width: 244
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Bow_9
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 302
+        width: 245
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Bow_10
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 302
+        width: 244
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Bow_11
+      rect:
+        serializedVersion: 2
+        x: 2897
+        y: 302
+        width: 244
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Bow_12
+      rect:
+        serializedVersion: 2
+        x: 3147
+        y: 302
+        width: 245
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 5ad98f54b0baac24cbb7a8713cae4154
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Hair3_0
+    21300002: Hair3_1
+    21300004: Hair3_2
+    21300006: Hair3_3
+    21300008: Hair3_4
+    21300010: Hair3_5
+    21300012: Hair3_6
+    21300014: Hair3_7
+    21300016: Hair3_8
+    21300018: Hair3_9
+    21300020: Hair3_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Hair3_0
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 353
+        width: 236
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair3_1
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 350
+        width: 234
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair3_2
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 348
+        width: 231
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair3_3
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 347
+        width: 231
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair3_4
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 350
+        width: 233
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair3_5
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 352
+        width: 236
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair3_6
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 352
+        width: 235
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair3_7
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 349
+        width: 233
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair3_8
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 347
+        width: 230
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair3_9
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 348
+        width: 232
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair3_10
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 351
+        width: 234
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

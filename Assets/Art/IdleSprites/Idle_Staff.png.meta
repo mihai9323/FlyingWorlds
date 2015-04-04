@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 9701fe91bbf2a464b9326df2ecee29f9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Idle_Staff_0
+    21300002: Idle_Staff_1
+    21300004: Idle_Staff_2
+    21300006: Idle_Staff_3
+    21300008: Idle_Staff_4
+    21300010: Idle_Staff_5
+    21300012: Idle_Staff_6
+    21300014: Idle_Staff_7
+    21300016: Idle_Staff_8
+    21300018: Idle_Staff_9
+    21300020: Idle_Staff_10
+    21300022: Idle_Staff_11
+    21300024: Idle_Staff_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Idle_Staff_0
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 243
+        width: 57
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Staff_1
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 242
+        width: 56
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Staff_2
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 242
+        width: 57
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Staff_3
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 242
+        width: 57
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Staff_4
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 242
+        width: 55
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Staff_5
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 242
+        width: 56
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Staff_6
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 242
+        width: 58
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Staff_7
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 242
+        width: 58
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Staff_8
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 242
+        width: 56
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Staff_9
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 242
+        width: 56
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Staff_10
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 242
+        width: 56
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Staff_11
+      rect:
+        serializedVersion: 2
+        x: 3002
+        y: 242
+        width: 56
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Staff_12
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 243
+        width: 56
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

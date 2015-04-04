@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 8ee62dadfe49933449c566b5616e294f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Staff_00000_0
+    21300002: Staff_00000_1
+    21300004: Staff_00000_2
+    21300006: Staff_00000_3
+    21300008: Staff_00000_4
+    21300010: Staff_00000_5
+    21300012: Staff_00000_6
+    21300014: Staff_00000_7
+    21300016: Staff_00000_8
+    21300018: Staff_00000_9
+    21300020: Staff_00000_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Staff_00000_0
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 252
+        width: 57
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Staff_00000_1
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 253
+        width: 56
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Staff_00000_2
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 253
+        width: 57
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Staff_00000_3
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 254
+        width: 57
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Staff_00000_4
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 253
+        width: 57
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Staff_00000_5
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 252
+        width: 56
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Staff_00000_6
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 252
+        width: 57
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Staff_00000_7
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 251
+        width: 56
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Staff_00000_8
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 251
+        width: 56
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Staff_00000_9
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 251
+        width: 55
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Staff_00000_10
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 251
+        width: 55
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
