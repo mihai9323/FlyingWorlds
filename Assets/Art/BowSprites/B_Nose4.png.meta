@@ -1,11 +1,28 @@
 fileFormatVersion: 2
 guid: 8092e3c77481bc148a76f47c9ebfd66b
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: B_Nose4_0
+    21300002: B_Nose4_1
+    21300004: B_Nose4_2
+    21300006: B_Nose4_3
+    21300008: B_Nose4_4
+    21300010: B_Nose4_5
+    21300012: B_Nose4_6
+    21300014: B_Nose4_7
+    21300016: B_Nose4_8
+    21300018: B_Nose4_9
+    21300020: B_Nose4_10
+    21300022: B_Nose4_11
+    21300024: B_Nose4_12
+    21300026: B_Nose4_13
+    21300028: B_Nose4_14
+    21300030: B_Nose4_15
+    21300032: B_Nose4_16
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,27 +38,197 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: B_Nose4_0
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 231
+        width: 62
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_1
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 231
+        width: 62
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_2
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 232
+        width: 62
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_3
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 234
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_4
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 235
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_5
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 236
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_6
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 236
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_7
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 238
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_8
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 239
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_9
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 240
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_10
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 241
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_11
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 239
+        width: 63
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_12
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 236
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_13
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 234
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_14
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 231
+        width: 62
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_15
+      rect:
+        serializedVersion: 2
+        x: 4027
+        y: 231
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Nose4_16
+      rect:
+        serializedVersion: 2
+        x: 4277
+        y: 231
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

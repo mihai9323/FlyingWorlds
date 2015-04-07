@@ -1,11 +1,28 @@
 fileFormatVersion: 2
 guid: 70e9e6042cd93744381dd037ec88f435
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: B_FrontArm_0
+    21300002: B_FrontArm_1
+    21300004: B_FrontArm_2
+    21300006: B_FrontArm_3
+    21300008: B_FrontArm_4
+    21300010: B_FrontArm_5
+    21300012: B_FrontArm_6
+    21300014: B_FrontArm_7
+    21300016: B_FrontArm_8
+    21300018: B_FrontArm_9
+    21300020: B_FrontArm_10
+    21300022: B_FrontArm_11
+    21300024: B_FrontArm_12
+    21300026: B_FrontArm_13
+    21300028: B_FrontArm_14
+    21300030: B_FrontArm_15
+    21300032: B_FrontArm_16
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,27 +38,197 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: B_FrontArm_0
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 125
+        width: 85
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_1
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 125
+        width: 85
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_2
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 125
+        width: 86
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 125
+        width: 86
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_4
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 125
+        width: 85
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_5
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 118
+        width: 83
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_6
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 113
+        width: 79
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_7
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 108
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_8
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 104
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_9
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 100
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_10
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 99
+        width: 50
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_11
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 99
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_12
+      rect:
+        serializedVersion: 2
+        x: 3201
+        y: 99
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_13
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 101
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_14
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 106
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_15
+      rect:
+        serializedVersion: 2
+        x: 3959
+        y: 113
+        width: 79
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_FrontArm_16
+      rect:
+        serializedVersion: 2
+        x: 4212
+        y: 122
+        width: 85
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

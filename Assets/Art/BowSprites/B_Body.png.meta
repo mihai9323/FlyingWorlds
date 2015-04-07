@@ -1,11 +1,28 @@
 fileFormatVersion: 2
 guid: c6aa2652e87ac11468759d257b94dff2
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: B_Body_0
+    21300002: B_Body_1
+    21300004: B_Body_2
+    21300006: B_Body_3
+    21300008: B_Body_4
+    21300010: B_Body_5
+    21300012: B_Body_6
+    21300014: B_Body_7
+    21300016: B_Body_8
+    21300018: B_Body_9
+    21300020: B_Body_10
+    21300022: B_Body_11
+    21300024: B_Body_12
+    21300026: B_Body_13
+    21300028: B_Body_14
+    21300030: B_Body_15
+    21300032: B_Body_16
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,27 +38,197 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: B_Body_0
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 67
+        width: 156
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_1
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 67
+        width: 159
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_2
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 67
+        width: 160
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_3
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 67
+        width: 161
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_4
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 67
+        width: 163
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_5
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 67
+        width: 164
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_6
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 67
+        width: 165
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_7
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 67
+        width: 168
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_8
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 67
+        width: 169
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_9
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 67
+        width: 170
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_10
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 67
+        width: 172
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_11
+      rect:
+        serializedVersion: 2
+        x: 2908
+        y: 67
+        width: 168
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_12
+      rect:
+        serializedVersion: 2
+        x: 3161
+        y: 67
+        width: 165
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_13
+      rect:
+        serializedVersion: 2
+        x: 3415
+        y: 67
+        width: 161
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_14
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 67
+        width: 157
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_15
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 67
+        width: 156
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Body_16
+      rect:
+        serializedVersion: 2
+        x: 4168
+        y: 67
+        width: 157
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

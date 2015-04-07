@@ -1,11 +1,28 @@
 fileFormatVersion: 2
 guid: 2199708f50353d34eaf1d97cc704b689
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: B_Hair4_0
+    21300002: B_Hair4_1
+    21300004: B_Hair4_2
+    21300006: B_Hair4_3
+    21300008: B_Hair4_4
+    21300010: B_Hair4_5
+    21300012: B_Hair4_6
+    21300014: B_Hair4_7
+    21300016: B_Hair4_8
+    21300018: B_Hair4_9
+    21300020: B_Hair4_10
+    21300022: B_Hair4_11
+    21300024: B_Hair4_12
+    21300026: B_Hair4_13
+    21300028: B_Hair4_14
+    21300030: B_Hair4_15
+    21300032: B_Hair4_16
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,27 +38,197 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: B_Hair4_0
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 210
+        width: 177
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 210
+        width: 176
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_2
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 210
+        width: 177
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_3
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 210
+        width: 177
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_4
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 209
+        width: 177
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_5
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 209
+        width: 175
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_6
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 209
+        width: 176
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_7
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 209
+        width: 176
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_8
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 208
+        width: 175
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_9
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 208
+        width: 175
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_10
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 208
+        width: 174
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_11
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 208
+        width: 176
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_12
+      rect:
+        serializedVersion: 2
+        x: 3145
+        y: 209
+        width: 177
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_13
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 210
+        width: 175
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_14
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 210
+        width: 178
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_15
+      rect:
+        serializedVersion: 2
+        x: 3901
+        y: 210
+        width: 177
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair4_16
+      rect:
+        serializedVersion: 2
+        x: 4151
+        y: 210
+        width: 177
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

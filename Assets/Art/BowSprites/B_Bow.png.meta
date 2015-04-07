@@ -1,11 +1,28 @@
 fileFormatVersion: 2
 guid: 3b54238062da55443ae6bd4c290ccf33
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: B_Bow_0
+    21300002: B_Bow_1
+    21300004: B_Bow_2
+    21300006: B_Bow_3
+    21300008: B_Bow_4
+    21300010: B_Bow_5
+    21300012: B_Bow_6
+    21300014: B_Bow_7
+    21300016: B_Bow_8
+    21300018: B_Bow_9
+    21300020: B_Bow_10
+    21300022: B_Bow_11
+    21300024: B_Bow_12
+    21300026: B_Bow_13
+    21300028: B_Bow_14
+    21300030: B_Bow_15
+    21300032: B_Bow_16
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,27 +38,197 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: B_Bow_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 108
+        width: 228
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_1
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 84
+        width: 207
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_2
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 55
+        width: 154
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_3
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 35
+        width: 108
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_4
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 25
+        width: 62
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_5
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 25
+        width: 99
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_6
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 36
+        width: 144
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_7
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 37
+        width: 153
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_8
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 38
+        width: 152
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_9
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 37
+        width: 152
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_10
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 37
+        width: 152
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_11
+      rect:
+        serializedVersion: 2
+        x: 2937
+        y: 37
+        width: 152
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_12
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 37
+        width: 153
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_13
+      rect:
+        serializedVersion: 2
+        x: 3478
+        y: 24
+        width: 93
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_14
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 30
+        width: 93
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_15
+      rect:
+        serializedVersion: 2
+        x: 3930
+        y: 60
+        width: 165
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Bow_16
+      rect:
+        serializedVersion: 2
+        x: 4146
+        y: 106
+        width: 226
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

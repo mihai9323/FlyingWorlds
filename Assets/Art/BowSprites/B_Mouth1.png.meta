@@ -1,11 +1,28 @@
 fileFormatVersion: 2
 guid: e73ecf0591285e34a9b2bc79d18ad5f0
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: B_Mouth1_2
+    21300002: B_Mouth1_3
+    21300004: B_Mouth1_5
+    21300006: B_Mouth1_6
+    21300008: B_Mouth1_7
+    21300010: B_Mouth1_8
+    21300012: B_Mouth1_10
+    21300014: B_Mouth1_11
+    21300016: B_Mouth1_16
+    21300018: B_Mouth1_18
+    21300020: B_Mouth1_19
+    21300022: B_Mouth1_20
+    21300024: B_Mouth1_21
+    21300026: B_Mouth1_24
+    21300028: B_Mouth1_25
+    21300030: B_Mouth1_26
+    21300032: B_Mouth1_28
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,27 +38,197 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: B_Mouth1_2
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 202
+        width: 50
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_3
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 203
+        width: 50
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_5
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 204
+        width: 49
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_6
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 205
+        width: 50
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_7
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 206
+        width: 49
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_8
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 207
+        width: 50
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_10
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 205
+        width: 50
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_11
+      rect:
+        serializedVersion: 2
+        x: 3259
+        y: 203
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_16
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 198
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_18
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 198
+        width: 57
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_19
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 199
+        width: 50
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_20
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 200
+        width: 51
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_21
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 201
+        width: 49
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_24
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 200
+        width: 50
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_25
+      rect:
+        serializedVersion: 2
+        x: 3760
+        y: 198
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_26
+      rect:
+        serializedVersion: 2
+        x: 4011
+        y: 198
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Mouth1_28
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 198
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

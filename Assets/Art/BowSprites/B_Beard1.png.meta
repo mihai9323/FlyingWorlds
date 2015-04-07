@@ -1,11 +1,28 @@
 fileFormatVersion: 2
 guid: 70a4fcb4bcbda504cbcb3d7a50d1cc65
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: B_Beard1_0
+    21300002: B_Beard1_1
+    21300004: B_Beard1_2
+    21300006: B_Beard1_3
+    21300008: B_Beard1_4
+    21300010: B_Beard1_5
+    21300012: B_Beard1_6
+    21300014: B_Beard1_7
+    21300016: B_Beard1_8
+    21300018: B_Beard1_9
+    21300020: B_Beard1_10
+    21300022: B_Beard1_11
+    21300024: B_Beard1_12
+    21300026: B_Beard1_13
+    21300028: B_Beard1_14
+    21300030: B_Beard1_15
+    21300032: B_Beard1_16
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,27 +38,197 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: B_Beard1_0
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 137
+        width: 166
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_1
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 137
+        width: 167
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_2
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 138
+        width: 167
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_3
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 139
+        width: 167
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_4
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 140
+        width: 166
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_5
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 140
+        width: 167
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_6
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 141
+        width: 167
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_7
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 142
+        width: 167
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_8
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 143
+        width: 165
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_9
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 144
+        width: 167
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_10
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 144
+        width: 167
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_11
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 143
+        width: 167
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_12
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 140
+        width: 167
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_13
+      rect:
+        serializedVersion: 2
+        x: 3443
+        y: 139
+        width: 166
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_14
+      rect:
+        serializedVersion: 2
+        x: 3694
+        y: 137
+        width: 165
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_15
+      rect:
+        serializedVersion: 2
+        x: 3943
+        y: 137
+        width: 166
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_16
+      rect:
+        serializedVersion: 2
+        x: 4193
+        y: 137
+        width: 166
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
