@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: 3b4379c29819f4e20a5a2412f3ad7e50
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: S_Eye2_0
+    21300002: S_Eye2_1
+    21300004: S_Eye2_2
+    21300006: S_Eye2_3
+    21300008: S_Eye2_4
+    21300010: S_Eye2_5
+    21300012: S_Eye2_6
+    21300014: S_Eye2_7
+    21300016: S_Eye2_8
+    21300018: S_Eye2_9
+    21300020: S_Eye2_10
+    21300022: S_Eye2_11
+    21300024: S_Eye2_12
+    21300026: S_Eye2_13
+    21300028: S_Eye2_14
+    21300030: S_Eye2_15
+    21300032: S_Eye2_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: S_Eye2_0
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2319
+        width: 147
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_1
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2314
+        width: 162
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_2
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 2309
+        width: 176
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_3
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 2314
+        width: 140
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_4
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 2329
+        width: 150
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_5
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1827
+        width: 160
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_6
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1827
+        width: 154
+        height: 74
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_7
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1831
+        width: 154
+        height: 79
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_8
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1821
+        width: 179
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_9
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1818
+        width: 170
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1287
+        width: 157
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_11
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1274
+        width: 189
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_12
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1280
+        width: 182
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_13
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 1268
+        width: 211
+        height: 159
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_14
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1284
+        width: 195
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 774
+        width: 220
+        height: 166
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eye2_16
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 780
+        width: 217
+        height: 163
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

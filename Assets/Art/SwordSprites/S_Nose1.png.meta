@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: 72161176edd184904bb640c2076a1466
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: S_Nose1_0
+    21300002: S_Nose1_1
+    21300004: S_Nose1_2
+    21300006: S_Nose1_3
+    21300008: S_Nose1_4
+    21300010: S_Nose1_5
+    21300012: S_Nose1_6
+    21300014: S_Nose1_7
+    21300016: S_Nose1_8
+    21300018: S_Nose1_9
+    21300020: S_Nose1_10
+    21300022: S_Nose1_11
+    21300024: S_Nose1_12
+    21300026: S_Nose1_13
+    21300028: S_Nose1_14
+    21300030: S_Nose1_15
+    21300032: S_Nose1_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: S_Nose1_0
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2318
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_1
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 2319
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_2
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 2321
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_3
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 2322
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_4
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 2323
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1824
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_6
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1826
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_7
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1827
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_8
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 1828
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_9
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 1823
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_10
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1318
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_11
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1313
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_12
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1307
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_13
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1309
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_14
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 1312
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_15
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 815
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Nose1_16
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 818
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
