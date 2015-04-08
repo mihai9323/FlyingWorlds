@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: 6b6dd21492ad5470b969fbc902ded61b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: S_Eyebrow_0
+    21300002: S_Eyebrow_1
+    21300004: S_Eyebrow_2
+    21300006: S_Eyebrow_3
+    21300008: S_Eyebrow_4
+    21300010: S_Eyebrow_5
+    21300012: S_Eyebrow_6
+    21300014: S_Eyebrow_7
+    21300016: S_Eyebrow_8
+    21300018: S_Eyebrow_9
+    21300020: S_Eyebrow_10
+    21300022: S_Eyebrow_11
+    21300024: S_Eyebrow_12
+    21300026: S_Eyebrow_13
+    21300028: S_Eyebrow_14
+    21300030: S_Eyebrow_15
+    21300032: S_Eyebrow_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: S_Eyebrow_0
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2361
+        width: 67
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_1
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2362
+        width: 68
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_2
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 2363
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_3
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 2364
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_4
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 2365
+        width: 69
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1866
+        width: 69
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_6
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1867
+        width: 69
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_7
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 1868
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_8
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 1869
+        width: 68
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_9
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1866
+        width: 68
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_10
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1361
+        width: 68
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_11
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1357
+        width: 68
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_12
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1351
+        width: 66
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_13
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1354
+        width: 67
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_14
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 1356
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 858
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Eyebrow_16
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 861
+        width: 68
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
