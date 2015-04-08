@@ -1,11 +1,28 @@
 fileFormatVersion: 2
 guid: bcce9df83ec3a4f0b953127fa0739c17
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: S_Hairstyle3_0
+    21300002: S_Hairstyle3_1
+    21300004: S_Hairstyle3_2
+    21300006: S_Hairstyle3_3
+    21300008: S_Hairstyle3_4
+    21300010: S_Hairstyle3_5
+    21300012: S_Hairstyle3_6
+    21300014: S_Hairstyle3_7
+    21300016: S_Hairstyle3_8
+    21300018: S_Hairstyle3_9
+    21300020: S_Hairstyle3_10
+    21300022: S_Hairstyle3_11
+    21300024: S_Hairstyle3_12
+    21300026: S_Hairstyle3_13
+    21300028: S_Hairstyle3_14
+    21300030: S_Hairstyle3_15
+    21300032: S_Hairstyle3_16
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,27 +38,197 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: S_Hairstyle3_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2235
+        width: 228
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_1
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 2234
+        width: 227
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_2
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 2232
+        width: 224
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_3
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 2231
+        width: 221
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_4
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 2230
+        width: 219
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1728
+        width: 217
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_6
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1727
+        width: 214
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_7
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1726
+        width: 211
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_8
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1725
+        width: 208
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_9
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 1729
+        width: 218
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_10
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1235
+        width: 228
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_11
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1240
+        width: 238
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_12
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1246
+        width: 248
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_13
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1244
+        width: 245
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_14
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 1241
+        width: 239
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_15
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 738
+        width: 235
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Hairstyle3_16
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 735
+        width: 229
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
