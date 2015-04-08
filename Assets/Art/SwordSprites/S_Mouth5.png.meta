@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: b8c7cdd826306436aa844c12073bd2e5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: S_Mouth5_0
+    21300002: S_Mouth5_1
+    21300004: S_Mouth5_2
+    21300006: S_Mouth5_3
+    21300008: S_Mouth5_4
+    21300010: S_Mouth5_5
+    21300012: S_Mouth5_6
+    21300014: S_Mouth5_7
+    21300016: S_Mouth5_8
+    21300018: S_Mouth5_9
+    21300020: S_Mouth5_10
+    21300022: S_Mouth5_11
+    21300024: S_Mouth5_12
+    21300026: S_Mouth5_13
+    21300028: S_Mouth5_14
+    21300030: S_Mouth5_15
+    21300032: S_Mouth5_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: S_Mouth5_0
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 2280
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_1
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 2282
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_2
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 2283
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_3
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 2284
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_4
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 2285
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1786
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_6
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1787
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_7
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1787
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_8
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1788
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_9
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 1785
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_10
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1281
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_11
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1276
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_12
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1271
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_13
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1273
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_14
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 1275
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_15
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 778
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S_Mouth5_16
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 780
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
