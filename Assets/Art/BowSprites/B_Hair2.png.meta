@@ -19,6 +19,8 @@ TextureImporter:
     21300028: B_Hair2_14
     21300030: B_Hair2_15
     21300032: B_Hair2_16
+    21300034: B_Hair2_17
+    21300036: B_Hair2_18
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -63,170 +65,190 @@ TextureImporter:
     - name: B_Hair2_0
       rect:
         serializedVersion: 2
-        x: 162
-        y: 216
-        width: 167
-        height: 150
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_1
       rect:
         serializedVersion: 2
-        x: 411
-        y: 216
-        width: 167
-        height: 151
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_2
       rect:
         serializedVersion: 2
-        x: 661
-        y: 216
-        width: 165
-        height: 151
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_3
       rect:
         serializedVersion: 2
-        x: 910
-        y: 216
-        width: 165
-        height: 151
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_4
       rect:
         serializedVersion: 2
-        x: 1159
-        y: 214
-        width: 165
-        height: 153
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_5
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 214
-        width: 165
-        height: 153
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_6
       rect:
         serializedVersion: 2
-        x: 1657
-        y: 214
-        width: 164
-        height: 153
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_7
       rect:
         serializedVersion: 2
-        x: 1905
-        y: 213
-        width: 165
-        height: 155
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_8
       rect:
         serializedVersion: 2
-        x: 2154
-        y: 213
-        width: 165
-        height: 155
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_9
       rect:
         serializedVersion: 2
-        x: 2404
-        y: 213
-        width: 164
-        height: 155
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_10
       rect:
         serializedVersion: 2
-        x: 2652
-        y: 212
-        width: 164
-        height: 156
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_11
       rect:
         serializedVersion: 2
-        x: 2904
-        y: 213
-        width: 165
-        height: 155
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_12
       rect:
         serializedVersion: 2
-        x: 3157
-        y: 214
-        width: 165
-        height: 153
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_13
       rect:
         serializedVersion: 2
-        x: 3410
-        y: 216
-        width: 165
-        height: 151
+        x: 1500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_14
       rect:
         serializedVersion: 2
-        x: 3661
-        y: 216
-        width: 168
-        height: 151
+        x: 2000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_15
       rect:
         serializedVersion: 2
-        x: 3912
-        y: 216
-        width: 167
-        height: 150
+        x: 0
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Hair2_16
       rect:
         serializedVersion: 2
-        x: 4162
-        y: 216
-        width: 167
-        height: 150
+        x: 500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair2_17
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Hair2_18
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

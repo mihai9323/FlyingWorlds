@@ -19,6 +19,8 @@ TextureImporter:
     21300028: B_Beard1_14
     21300030: B_Beard1_15
     21300032: B_Beard1_16
+    21300034: B_Beard1_17
+    21300036: B_Beard1_18
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -63,170 +65,190 @@ TextureImporter:
     - name: B_Beard1_0
       rect:
         serializedVersion: 2
-        x: 193
-        y: 137
-        width: 166
-        height: 96
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_1
       rect:
         serializedVersion: 2
-        x: 443
-        y: 137
-        width: 167
-        height: 97
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_2
       rect:
         serializedVersion: 2
-        x: 693
-        y: 138
-        width: 167
-        height: 98
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_3
       rect:
         serializedVersion: 2
-        x: 943
-        y: 139
-        width: 167
-        height: 98
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_4
       rect:
         serializedVersion: 2
-        x: 1194
-        y: 140
-        width: 166
-        height: 98
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_5
       rect:
         serializedVersion: 2
-        x: 1443
-        y: 140
-        width: 167
-        height: 99
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_6
       rect:
         serializedVersion: 2
-        x: 1693
-        y: 141
-        width: 167
-        height: 99
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_7
       rect:
         serializedVersion: 2
-        x: 1943
-        y: 142
-        width: 167
-        height: 99
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_8
       rect:
         serializedVersion: 2
-        x: 2194
-        y: 143
-        width: 165
-        height: 99
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_9
       rect:
         serializedVersion: 2
-        x: 2444
-        y: 144
-        width: 167
-        height: 99
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_10
       rect:
         serializedVersion: 2
-        x: 2693
-        y: 144
-        width: 167
-        height: 100
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_11
       rect:
         serializedVersion: 2
-        x: 2943
-        y: 143
-        width: 167
-        height: 99
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_12
       rect:
         serializedVersion: 2
-        x: 3193
-        y: 140
-        width: 167
-        height: 99
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_13
       rect:
         serializedVersion: 2
-        x: 3443
-        y: 139
-        width: 166
-        height: 98
+        x: 1500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_14
       rect:
         serializedVersion: 2
-        x: 3694
-        y: 137
-        width: 165
-        height: 97
+        x: 2000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_15
       rect:
         serializedVersion: 2
-        x: 3943
-        y: 137
-        width: 166
-        height: 96
+        x: 0
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: B_Beard1_16
       rect:
         serializedVersion: 2
-        x: 4193
-        y: 137
-        width: 166
-        height: 96
+        x: 500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_17
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: B_Beard1_18
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
