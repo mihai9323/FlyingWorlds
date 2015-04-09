@@ -13,6 +13,7 @@ TextureImporter:
     21300016: Bow_8
     21300018: Bow_9
     21300020: Bow_10
+    21300022: Bow_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,110 +58,120 @@ TextureImporter:
     - name: Bow_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 310
-        width: 245
-        height: 128
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bow_1
       rect:
         serializedVersion: 2
-        x: 392
-        y: 310
-        width: 247
-        height: 126
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bow_2
       rect:
         serializedVersion: 2
-        x: 641
-        y: 311
-        width: 250
-        height: 122
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bow_3
       rect:
         serializedVersion: 2
-        x: 891
-        y: 311
-        width: 250
-        height: 122
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bow_4
       rect:
         serializedVersion: 2
-        x: 1142
-        y: 310
-        width: 248
-        height: 126
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bow_5
       rect:
         serializedVersion: 2
-        x: 1393
-        y: 310
-        width: 245
-        height: 127
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bow_6
       rect:
         serializedVersion: 2
-        x: 1644
-        y: 309
-        width: 243
-        height: 131
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bow_7
       rect:
         serializedVersion: 2
-        x: 1895
-        y: 309
-        width: 241
-        height: 134
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bow_8
       rect:
         serializedVersion: 2
-        x: 2146
-        y: 309
-        width: 238
-        height: 136
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bow_9
       rect:
         serializedVersion: 2
-        x: 2395
-        y: 309
-        width: 240
-        height: 135
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bow_10
       rect:
         serializedVersion: 2
-        x: 2644
-        y: 309
-        width: 243
-        height: 132
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bow_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

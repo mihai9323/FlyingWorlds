@@ -13,6 +13,7 @@ TextureImporter:
     21300016: Sword_00000_8
     21300018: Sword_00000_9
     21300020: Sword_00000_10
+    21300022: Sword_00000_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,110 +58,120 @@ TextureImporter:
     - name: Sword_00000_0
       rect:
         serializedVersion: 2
-        x: 256
-        y: 301
-        width: 69
-        height: 284
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sword_00000_1
       rect:
         serializedVersion: 2
-        x: 506
-        y: 301
-        width: 66
-        height: 286
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sword_00000_2
       rect:
         serializedVersion: 2
-        x: 756
-        y: 302
-        width: 63
-        height: 286
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sword_00000_3
       rect:
         serializedVersion: 2
-        x: 1006
-        y: 302
-        width: 62
-        height: 286
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sword_00000_4
       rect:
         serializedVersion: 2
-        x: 1256
-        y: 302
-        width: 65
-        height: 285
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sword_00000_5
       rect:
         serializedVersion: 2
-        x: 1506
-        y: 301
-        width: 68
-        height: 285
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sword_00000_6
       rect:
         serializedVersion: 2
-        x: 1756
-        y: 300
-        width: 72
-        height: 284
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sword_00000_7
       rect:
         serializedVersion: 2
-        x: 2006
-        y: 300
-        width: 75
-        height: 283
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sword_00000_8
       rect:
         serializedVersion: 2
-        x: 2256
-        y: 299
-        width: 78
-        height: 283
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sword_00000_9
       rect:
         serializedVersion: 2
-        x: 2506
-        y: 299
-        width: 79
-        height: 282
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sword_00000_10
       rect:
         serializedVersion: 2
-        x: 2756
-        y: 299
-        width: 79
-        height: 282
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sword_00000_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

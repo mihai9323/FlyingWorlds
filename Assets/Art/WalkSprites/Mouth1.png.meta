@@ -13,6 +13,7 @@ TextureImporter:
     21300016: Mouth1_8
     21300018: Mouth1_9
     21300020: Mouth1_10
+    21300022: Mouth1_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,112 +58,122 @@ TextureImporter:
     - name: Mouth1_0
       rect:
         serializedVersion: 2
-        x: 261
-        y: 396
-        width: 49
-        height: 21
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mouth1_1
       rect:
         serializedVersion: 2
-        x: 511
-        y: 396
-        width: 49
-        height: 21
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mouth1_2
       rect:
         serializedVersion: 2
-        x: 762
-        y: 396
-        width: 49
-        height: 21
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mouth1_3
       rect:
         serializedVersion: 2
-        x: 1011
-        y: 396
-        width: 49
-        height: 21
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mouth1_4
       rect:
         serializedVersion: 2
-        x: 1261
-        y: 397
-        width: 54
-        height: 21
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mouth1_5
       rect:
         serializedVersion: 2
-        x: 1511
-        y: 396
-        width: 55
-        height: 22
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mouth1_6
       rect:
         serializedVersion: 2
-        x: 1760
-        y: 396
-        width: 49
-        height: 21
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mouth1_7
       rect:
         serializedVersion: 2
-        x: 2011
-        y: 397
-        width: 49
-        height: 21
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mouth1_8
       rect:
         serializedVersion: 2
-        x: 2261
-        y: 396
-        width: 48
-        height: 21
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mouth1_9
       rect:
         serializedVersion: 2
-        x: 2511
-        y: 397
-        width: 48
-        height: 21
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mouth1_10
       rect:
         serializedVersion: 2
-        x: 2761
-        y: 396
-        width: 49
-        height: 21
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth1_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

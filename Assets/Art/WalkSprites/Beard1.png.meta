@@ -13,6 +13,7 @@ TextureImporter:
     21300016: Beard1_8
     21300018: Beard1_9
     21300020: Beard1_10
+    21300022: Beard1_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,110 +58,120 @@ TextureImporter:
     - name: Beard1_0
       rect:
         serializedVersion: 2
-        x: 194
-        y: 336
-        width: 164
-        height: 96
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Beard1_1
       rect:
         serializedVersion: 2
-        x: 444
-        y: 336
-        width: 164
-        height: 95
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Beard1_2
       rect:
         serializedVersion: 2
-        x: 694
-        y: 336
-        width: 164
-        height: 95
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Beard1_3
       rect:
         serializedVersion: 2
-        x: 944
-        y: 336
-        width: 164
-        height: 95
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Beard1_4
       rect:
         serializedVersion: 2
-        x: 1194
-        y: 336
-        width: 164
-        height: 95
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Beard1_5
       rect:
         serializedVersion: 2
-        x: 1444
-        y: 336
-        width: 164
-        height: 96
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Beard1_6
       rect:
         serializedVersion: 2
-        x: 1694
-        y: 336
-        width: 164
-        height: 95
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Beard1_7
       rect:
         serializedVersion: 2
-        x: 1944
-        y: 336
-        width: 164
-        height: 95
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Beard1_8
       rect:
         serializedVersion: 2
-        x: 2194
-        y: 336
-        width: 164
-        height: 95
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Beard1_9
       rect:
         serializedVersion: 2
-        x: 2444
-        y: 336
-        width: 164
-        height: 95
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Beard1_10
       rect:
         serializedVersion: 2
-        x: 2694
-        y: 336
-        width: 164
-        height: 95
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Beard1_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

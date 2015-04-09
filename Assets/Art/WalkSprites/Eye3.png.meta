@@ -13,6 +13,12 @@ TextureImporter:
     21300016: Eye3_16
     21300018: Eye3_18
     21300020: Eye3_20
+    21300022: Eye3_1
+    21300024: Eye3_3
+    21300026: Eye3_5
+    21300028: Eye3_7
+    21300030: Eye3_9
+    21300032: Eye3_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,112 +63,122 @@ TextureImporter:
     - name: Eye3_0
       rect:
         serializedVersion: 2
-        x: 223
-        y: 443
-        width: 125
-        height: 60
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Eye3_2
       rect:
         serializedVersion: 2
-        x: 472
-        y: 443
-        width: 125
-        height: 60
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Eye3_4
       rect:
         serializedVersion: 2
-        x: 720
-        y: 443
-        width: 125
-        height: 60
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Eye3_6
       rect:
         serializedVersion: 2
-        x: 970
-        y: 443
-        width: 125
-        height: 60
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_7
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Eye3_8
       rect:
         serializedVersion: 2
-        x: 1221
-        y: 443
-        width: 125
-        height: 60
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye3_9
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Eye3_10
       rect:
         serializedVersion: 2
-        x: 1473
-        y: 443
-        width: 125
-        height: 60
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Eye3_12
+    - name: Eye3_11
       rect:
         serializedVersion: 2
-        x: 1722
-        y: 443
-        width: 125
-        height: 60
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Eye3_14
-      rect:
-        serializedVersion: 2
-        x: 1971
-        y: 443
-        width: 125
-        height: 60
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Eye3_16
-      rect:
-        serializedVersion: 2
-        x: 2220
-        y: 443
-        width: 125
-        height: 60
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Eye3_18
-      rect:
-        serializedVersion: 2
-        x: 2471
-        y: 443
-        width: 125
-        height: 60
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Eye3_20
-      rect:
-        serializedVersion: 2
-        x: 2722
-        y: 443
-        width: 125
-        height: 60
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

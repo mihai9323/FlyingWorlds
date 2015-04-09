@@ -13,6 +13,7 @@ TextureImporter:
     21300016: Hair1_8
     21300018: Hair1_9
     21300020: Hair1_10
+    21300022: Hair1_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,110 +58,120 @@ TextureImporter:
     - name: Hair1_0
       rect:
         serializedVersion: 2
-        x: 159
-        y: 414
-        width: 194
-        height: 158
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hair1_1
       rect:
         serializedVersion: 2
-        x: 407
-        y: 416
-        width: 194
-        height: 155
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hair1_2
       rect:
         serializedVersion: 2
-        x: 655
-        y: 416
-        width: 195
-        height: 154
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hair1_3
       rect:
         serializedVersion: 2
-        x: 904
-        y: 414
-        width: 196
-        height: 156
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hair1_4
       rect:
         serializedVersion: 2
-        x: 1156
-        y: 413
-        width: 195
-        height: 158
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hair1_5
       rect:
         serializedVersion: 2
-        x: 1409
-        y: 412
-        width: 193
-        height: 159
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hair1_6
       rect:
         serializedVersion: 2
-        x: 1658
-        y: 415
-        width: 194
-        height: 156
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hair1_7
       rect:
         serializedVersion: 2
-        x: 1906
-        y: 413
-        width: 195
-        height: 158
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hair1_8
       rect:
         serializedVersion: 2
-        x: 2154
-        y: 416
-        width: 196
-        height: 154
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hair1_9
       rect:
         serializedVersion: 2
-        x: 2405
-        y: 416
-        width: 195
-        height: 154
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Hair1_10
       rect:
         serializedVersion: 2
-        x: 2657
-        y: 416
-        width: 195
-        height: 155
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair1_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -13,6 +13,7 @@ TextureImporter:
     21300016: Staff_00000_8
     21300018: Staff_00000_9
     21300020: Staff_00000_10
+    21300022: Staff_00000_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,110 +58,120 @@ TextureImporter:
     - name: Staff_00000_0
       rect:
         serializedVersion: 2
-        x: 243
-        y: 252
-        width: 57
-        height: 313
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Staff_00000_1
       rect:
         serializedVersion: 2
-        x: 491
-        y: 253
-        width: 56
-        height: 313
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Staff_00000_2
       rect:
         serializedVersion: 2
-        x: 738
-        y: 253
-        width: 57
-        height: 313
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Staff_00000_3
       rect:
         serializedVersion: 2
-        x: 987
-        y: 254
-        width: 57
-        height: 313
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Staff_00000_4
       rect:
         serializedVersion: 2
-        x: 1240
-        y: 253
-        width: 57
-        height: 313
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Staff_00000_5
       rect:
         serializedVersion: 2
-        x: 1493
-        y: 252
-        width: 56
-        height: 314
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Staff_00000_6
       rect:
         serializedVersion: 2
-        x: 1745
-        y: 252
-        width: 57
-        height: 313
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Staff_00000_7
       rect:
         serializedVersion: 2
-        x: 1998
-        y: 251
-        width: 56
-        height: 313
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Staff_00000_8
       rect:
         serializedVersion: 2
-        x: 2251
-        y: 251
-        width: 56
-        height: 313
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Staff_00000_9
       rect:
         serializedVersion: 2
-        x: 2502
-        y: 251
-        width: 55
-        height: 312
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Staff_00000_10
       rect:
         serializedVersion: 2
-        x: 2752
-        y: 251
-        width: 55
-        height: 312
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Staff_00000_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
