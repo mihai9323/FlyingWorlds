@@ -59,130 +59,130 @@ TextureImporter:
     - name: Idle_Bow_0
       rect:
         serializedVersion: 2
-        x: 146
-        y: 302
-        width: 246
-        height: 128
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Bow_1
       rect:
         serializedVersion: 2
-        x: 397
-        y: 302
-        width: 244
-        height: 130
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Bow_2
       rect:
         serializedVersion: 2
-        x: 647
-        y: 302
-        width: 244
-        height: 131
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Bow_3
       rect:
         serializedVersion: 2
-        x: 897
-        y: 301
-        width: 244
-        height: 132
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Bow_4
       rect:
         serializedVersion: 2
-        x: 1147
-        y: 301
-        width: 245
-        height: 133
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Bow_5
       rect:
         serializedVersion: 2
-        x: 1398
-        y: 301
-        width: 243
-        height: 133
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Bow_6
       rect:
         serializedVersion: 2
-        x: 1648
-        y: 301
-        width: 243
-        height: 133
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Bow_7
       rect:
         serializedVersion: 2
-        x: 1898
-        y: 301
-        width: 242
-        height: 133
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Bow_8
       rect:
         serializedVersion: 2
-        x: 2147
-        y: 301
-        width: 244
-        height: 133
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Bow_9
       rect:
         serializedVersion: 2
-        x: 2397
-        y: 302
-        width: 245
-        height: 131
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Bow_10
       rect:
         serializedVersion: 2
-        x: 2648
-        y: 302
-        width: 244
-        height: 131
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Bow_11
       rect:
         serializedVersion: 2
-        x: 2897
-        y: 302
-        width: 244
-        height: 130
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Bow_12
       rect:
         serializedVersion: 2
-        x: 3147
-        y: 302
-        width: 245
-        height: 128
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

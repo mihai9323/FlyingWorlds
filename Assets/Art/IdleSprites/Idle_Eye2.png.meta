@@ -15,6 +15,12 @@ TextureImporter:
     21300020: Idle_Eye2_20
     21300022: Idle_Eye2_22
     21300024: Idle_Eye2_24
+    21300026: Idle_Eye2_1
+    21300028: Idle_Eye2_3
+    21300030: Idle_Eye2_5
+    21300032: Idle_Eye2_7
+    21300034: Idle_Eye2_9
+    21300036: Idle_Eye2_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -59,132 +65,132 @@ TextureImporter:
     - name: Idle_Eye2_0
       rect:
         serializedVersion: 2
-        x: 220
-        y: 440
-        width: 125
-        height: 59
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye2_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eye2_2
       rect:
         serializedVersion: 2
-        x: 470
-        y: 440
-        width: 127
-        height: 59
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye2_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eye2_4
       rect:
         serializedVersion: 2
-        x: 720
-        y: 439
-        width: 126
-        height: 60
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eye2_6
       rect:
         serializedVersion: 2
-        x: 970
-        y: 439
-        width: 126
-        height: 60
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye2_7
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eye2_8
       rect:
         serializedVersion: 2
-        x: 1221
-        y: 438
-        width: 127
-        height: 61
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye2_9
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eye2_10
       rect:
         serializedVersion: 2
-        x: 1471
-        y: 438
-        width: 127
-        height: 60
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Eye2_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eye2_12
       rect:
         serializedVersion: 2
-        x: 1721
-        y: 438
-        width: 126
-        height: 60
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_Eye2_14
-      rect:
-        serializedVersion: 2
-        x: 1970
-        y: 438
-        width: 127
-        height: 60
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_Eye2_16
-      rect:
-        serializedVersion: 2
-        x: 2220
-        y: 438
-        width: 127
-        height: 61
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_Eye2_18
-      rect:
-        serializedVersion: 2
-        x: 2473
-        y: 439
-        width: 123
-        height: 60
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_Eye2_20
-      rect:
-        serializedVersion: 2
-        x: 2720
-        y: 439
-        width: 127
-        height: 60
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_Eye2_22
-      rect:
-        serializedVersion: 2
-        x: 2970
-        y: 440
-        width: 127
-        height: 59
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_Eye2_24
-      rect:
-        serializedVersion: 2
-        x: 3219
-        y: 440
-        width: 127
-        height: 59
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

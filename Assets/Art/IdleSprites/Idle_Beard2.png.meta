@@ -15,6 +15,12 @@ TextureImporter:
     21300020: Idle_Beard2_20
     21300022: Idle_Beard2_22
     21300024: Idle_Beard2_24
+    21300026: Idle_Beard2_1
+    21300028: Idle_Beard2_3
+    21300030: Idle_Beard2_5
+    21300032: Idle_Beard2_7
+    21300034: Idle_Beard2_9
+    21300036: Idle_Beard2_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -59,132 +65,132 @@ TextureImporter:
     - name: Idle_Beard2_0
       rect:
         serializedVersion: 2
-        x: 238
-        y: 405
-        width: 97
-        height: 23
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Beard2_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Beard2_2
       rect:
         serializedVersion: 2
-        x: 488
-        y: 405
-        width: 97
-        height: 23
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Beard2_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Beard2_4
       rect:
         serializedVersion: 2
-        x: 739
-        y: 405
-        width: 95
-        height: 23
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Beard2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Beard2_6
       rect:
         serializedVersion: 2
-        x: 989
-        y: 405
-        width: 96
-        height: 23
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Beard2_7
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Beard2_8
       rect:
         serializedVersion: 2
-        x: 1239
-        y: 405
-        width: 97
-        height: 23
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Beard2_9
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Beard2_10
       rect:
         serializedVersion: 2
-        x: 1488
-        y: 403
-        width: 97
-        height: 25
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Beard2_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Beard2_12
       rect:
         serializedVersion: 2
-        x: 1738
-        y: 399
-        width: 100
-        height: 29
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_Beard2_14
-      rect:
-        serializedVersion: 2
-        x: 1989
-        y: 403
-        width: 96
-        height: 25
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_Beard2_16
-      rect:
-        serializedVersion: 2
-        x: 2239
-        y: 405
-        width: 95
-        height: 23
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_Beard2_18
-      rect:
-        serializedVersion: 2
-        x: 2489
-        y: 405
-        width: 95
-        height: 23
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_Beard2_20
-      rect:
-        serializedVersion: 2
-        x: 2739
-        y: 404
-        width: 95
-        height: 23
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_Beard2_22
-      rect:
-        serializedVersion: 2
-        x: 2988
-        y: 405
-        width: 97
-        height: 23
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_Beard2_24
-      rect:
-        serializedVersion: 2
-        x: 3239
-        y: 405
-        width: 95
-        height: 23
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

@@ -59,130 +59,130 @@ TextureImporter:
     - name: Idle_FrontArm_0
       rect:
         serializedVersion: 2
-        x: 214
-        y: 318
-        width: 84
-        height: 43
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_FrontArm_1
       rect:
         serializedVersion: 2
-        x: 463
-        y: 317
-        width: 85
-        height: 45
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_FrontArm_2
       rect:
         serializedVersion: 2
-        x: 713
-        y: 317
-        width: 84
-        height: 45
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_FrontArm_3
       rect:
         serializedVersion: 2
-        x: 963
-        y: 317
-        width: 84
-        height: 45
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_FrontArm_4
       rect:
         serializedVersion: 2
-        x: 1212
-        y: 317
-        width: 86
-        height: 45
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_FrontArm_5
       rect:
         serializedVersion: 2
-        x: 1462
-        y: 317
-        width: 86
-        height: 45
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_FrontArm_6
       rect:
         serializedVersion: 2
-        x: 1713
-        y: 315
-        width: 84
-        height: 47
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_FrontArm_7
       rect:
         serializedVersion: 2
-        x: 1963
-        y: 317
-        width: 84
-        height: 45
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_FrontArm_8
       rect:
         serializedVersion: 2
-        x: 2213
-        y: 317
-        width: 84
-        height: 45
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_FrontArm_9
       rect:
         serializedVersion: 2
-        x: 2462
-        y: 317
-        width: 86
-        height: 45
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_FrontArm_10
       rect:
         serializedVersion: 2
-        x: 2712
-        y: 317
-        width: 86
-        height: 45
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_FrontArm_11
       rect:
         serializedVersion: 2
-        x: 2963
-        y: 317
-        width: 85
-        height: 45
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_FrontArm_12
       rect:
         serializedVersion: 2
-        x: 3214
-        y: 317
-        width: 83
-        height: 44
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

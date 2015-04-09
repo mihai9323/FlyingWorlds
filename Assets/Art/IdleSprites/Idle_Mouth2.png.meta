@@ -59,130 +59,130 @@ TextureImporter:
     - name: Idle_Mouth2_0
       rect:
         serializedVersion: 2
-        x: 259
-        y: 386
-        width: 47
-        height: 37
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Mouth2_1
       rect:
         serializedVersion: 2
-        x: 509
-        y: 386
-        width: 48
-        height: 37
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Mouth2_2
       rect:
         serializedVersion: 2
-        x: 758
-        y: 386
-        width: 49
-        height: 36
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Mouth2_3
       rect:
         serializedVersion: 2
-        x: 1008
-        y: 385
-        width: 49
-        height: 37
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Mouth2_4
       rect:
         serializedVersion: 2
-        x: 1259
-        y: 385
-        width: 48
-        height: 37
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Mouth2_5
       rect:
         serializedVersion: 2
-        x: 1509
-        y: 385
-        width: 49
-        height: 37
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Mouth2_6
       rect:
         serializedVersion: 2
-        x: 1759
-        y: 385
-        width: 49
-        height: 37
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Mouth2_7
       rect:
         serializedVersion: 2
-        x: 2008
-        y: 385
-        width: 49
-        height: 37
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Mouth2_8
       rect:
         serializedVersion: 2
-        x: 2258
-        y: 385
-        width: 49
-        height: 37
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Mouth2_9
       rect:
         serializedVersion: 2
-        x: 2509
-        y: 385
-        width: 48
-        height: 37
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Mouth2_10
       rect:
         serializedVersion: 2
-        x: 2759
-        y: 386
-        width: 47
-        height: 36
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Mouth2_11
       rect:
         serializedVersion: 2
-        x: 3009
-        y: 386
-        width: 48
-        height: 37
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Mouth2_12
       rect:
         serializedVersion: 2
-        x: 3258
-        y: 386
-        width: 49
-        height: 37
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

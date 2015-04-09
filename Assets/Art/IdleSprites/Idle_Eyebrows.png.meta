@@ -59,130 +59,130 @@ TextureImporter:
     - name: Idle_Eyebrows_0
       rect:
         serializedVersion: 2
-        x: 253
-        y: 467
-        width: 67
-        height: 38
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eyebrows_1
       rect:
         serializedVersion: 2
-        x: 503
-        y: 467
-        width: 67
-        height: 38
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eyebrows_2
       rect:
         serializedVersion: 2
-        x: 753
-        y: 467
-        width: 67
-        height: 38
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eyebrows_3
       rect:
         serializedVersion: 2
-        x: 1003
-        y: 467
-        width: 69
-        height: 38
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eyebrows_4
       rect:
         serializedVersion: 2
-        x: 1254
-        y: 467
-        width: 68
-        height: 38
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eyebrows_5
       rect:
         serializedVersion: 2
-        x: 1504
-        y: 467
-        width: 68
-        height: 38
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eyebrows_6
       rect:
         serializedVersion: 2
-        x: 1754
-        y: 466
-        width: 69
-        height: 39
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eyebrows_7
       rect:
         serializedVersion: 2
-        x: 2004
-        y: 467
-        width: 69
-        height: 38
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eyebrows_8
       rect:
         serializedVersion: 2
-        x: 2253
-        y: 467
-        width: 69
-        height: 38
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eyebrows_9
       rect:
         serializedVersion: 2
-        x: 2504
-        y: 467
-        width: 67
-        height: 38
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eyebrows_10
       rect:
         serializedVersion: 2
-        x: 2753
-        y: 467
-        width: 68
-        height: 38
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eyebrows_11
       rect:
         serializedVersion: 2
-        x: 3003
-        y: 467
-        width: 67
-        height: 38
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Eyebrows_12
       rect:
         serializedVersion: 2
-        x: 3252
-        y: 467
-        width: 67
-        height: 38
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

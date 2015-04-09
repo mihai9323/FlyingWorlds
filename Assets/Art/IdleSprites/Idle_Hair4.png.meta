@@ -59,130 +59,130 @@ TextureImporter:
     - name: Idle_Hair4_0
       rect:
         serializedVersion: 2
-        x: 151
-        y: 406
-        width: 176
-        height: 177
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Hair4_1
       rect:
         serializedVersion: 2
-        x: 402
-        y: 406
-        width: 177
-        height: 177
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Hair4_2
       rect:
         serializedVersion: 2
-        x: 652
-        y: 406
-        width: 177
-        height: 177
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Hair4_3
       rect:
         serializedVersion: 2
-        x: 902
-        y: 406
-        width: 177
-        height: 177
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Hair4_4
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 406
-        width: 177
-        height: 177
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Hair4_5
       rect:
         serializedVersion: 2
-        x: 1403
-        y: 406
-        width: 178
-        height: 177
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Hair4_6
       rect:
         serializedVersion: 2
-        x: 1654
-        y: 406
-        width: 176
-        height: 177
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Hair4_7
       rect:
         serializedVersion: 2
-        x: 1903
-        y: 406
-        width: 177
-        height: 177
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Hair4_8
       rect:
         serializedVersion: 2
-        x: 2152
-        y: 406
-        width: 177
-        height: 177
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Hair4_9
       rect:
         serializedVersion: 2
-        x: 2402
-        y: 406
-        width: 177
-        height: 177
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Hair4_10
       rect:
         serializedVersion: 2
-        x: 2651
-        y: 406
-        width: 177
-        height: 177
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Hair4_11
       rect:
         serializedVersion: 2
-        x: 2902
-        y: 406
-        width: 177
-        height: 177
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Hair4_12
       rect:
         serializedVersion: 2
-        x: 3152
-        y: 406
-        width: 176
-        height: 177
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

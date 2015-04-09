@@ -59,130 +59,130 @@ TextureImporter:
     - name: Idle_Nose4_0
       rect:
         serializedVersion: 2
-        x: 277
-        y: 425
-        width: 61
-        height: 38
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Nose4_1
       rect:
         serializedVersion: 2
-        x: 527
-        y: 425
-        width: 62
-        height: 38
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Nose4_2
       rect:
         serializedVersion: 2
-        x: 777
-        y: 424
-        width: 62
-        height: 38
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Nose4_3
       rect:
         serializedVersion: 2
-        x: 1027
-        y: 424
-        width: 62
-        height: 38
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Nose4_4
       rect:
         serializedVersion: 2
-        x: 1278
-        y: 423
-        width: 60
-        height: 39
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Nose4_5
       rect:
         serializedVersion: 2
-        x: 1528
-        y: 422
-        width: 61
-        height: 40
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Nose4_6
       rect:
         serializedVersion: 2
-        x: 1778
-        y: 422
-        width: 61
-        height: 39
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Nose4_7
       rect:
         serializedVersion: 2
-        x: 2028
-        y: 422
-        width: 61
-        height: 40
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Nose4_8
       rect:
         serializedVersion: 2
-        x: 2277
-        y: 422
-        width: 62
-        height: 40
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Nose4_9
       rect:
         serializedVersion: 2
-        x: 2527
-        y: 424
-        width: 61
-        height: 38
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Nose4_10
       rect:
         serializedVersion: 2
-        x: 2777
-        y: 424
-        width: 62
-        height: 38
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Nose4_11
       rect:
         serializedVersion: 2
-        x: 3027
-        y: 425
-        width: 62
-        height: 38
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Idle_Nose4_12
       rect:
         serializedVersion: 2
-        x: 3277
-        y: 425
-        width: 61
-        height: 38
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
