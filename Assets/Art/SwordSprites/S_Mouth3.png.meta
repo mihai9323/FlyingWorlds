@@ -63,170 +63,170 @@ TextureImporter:
     - name: S_Mouth3_0
       rect:
         serializedVersion: 2
-        x: 260
-        y: 2285
-        width: 48
-        height: 26
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_1
       rect:
         serializedVersion: 2
-        x: 759
-        y: 2286
-        width: 49
-        height: 25
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_2
       rect:
         serializedVersion: 2
-        x: 1259
-        y: 2287
-        width: 49
-        height: 25
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_3
       rect:
         serializedVersion: 2
-        x: 1759
-        y: 2288
-        width: 49
-        height: 25
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_4
       rect:
         serializedVersion: 2
-        x: 2258
-        y: 2289
-        width: 49
-        height: 24
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_5
       rect:
         serializedVersion: 2
-        x: 258
-        y: 1790
-        width: 49
-        height: 25
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_6
       rect:
         serializedVersion: 2
-        x: 758
-        y: 1791
-        width: 49
-        height: 25
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_7
       rect:
         serializedVersion: 2
-        x: 1257
-        y: 1792
-        width: 49
-        height: 25
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_8
       rect:
         serializedVersion: 2
-        x: 1757
-        y: 1793
-        width: 49
-        height: 26
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_9
       rect:
         serializedVersion: 2
-        x: 2258
-        y: 1789
-        width: 49
-        height: 25
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_10
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1285
-        width: 48
-        height: 26
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_11
       rect:
         serializedVersion: 2
-        x: 761
-        y: 1281
-        width: 48
-        height: 26
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_12
       rect:
         serializedVersion: 2
-        x: 1262
-        y: 1277
-        width: 48
-        height: 27
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_13
       rect:
         serializedVersion: 2
-        x: 1762
-        y: 1279
-        width: 48
-        height: 26
+        x: 1500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_14
       rect:
         serializedVersion: 2
-        x: 2261
-        y: 1281
-        width: 49
-        height: 26
+        x: 2000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_15
       rect:
         serializedVersion: 2
-        x: 260
-        y: 783
-        width: 49
-        height: 26
+        x: 0
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Mouth3_16
       rect:
         serializedVersion: 2
-        x: 760
-        y: 785
-        width: 49
-        height: 25
+        x: 500
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

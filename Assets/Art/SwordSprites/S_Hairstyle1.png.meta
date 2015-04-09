@@ -63,170 +63,170 @@ TextureImporter:
     - name: S_Hairstyle1_0
       rect:
         serializedVersion: 2
-        x: 154
-        y: 2305
-        width: 195
-        height: 153
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_1
       rect:
         serializedVersion: 2
-        x: 652
-        y: 2307
-        width: 197
-        height: 151
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_2
       rect:
         serializedVersion: 2
-        x: 1150
-        y: 2306
-        width: 198
-        height: 152
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_3
       rect:
         serializedVersion: 2
-        x: 1648
-        y: 2306
-        width: 199
-        height: 152
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_4
       rect:
         serializedVersion: 2
-        x: 2146
-        y: 2306
-        width: 200
-        height: 152
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_5
       rect:
         serializedVersion: 2
-        x: 144
-        y: 1805
-        width: 201
-        height: 152
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_6
       rect:
         serializedVersion: 2
-        x: 642
-        y: 1805
-        width: 201
-        height: 152
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_7
       rect:
         serializedVersion: 2
-        x: 1140
-        y: 1804
-        width: 202
-        height: 153
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_8
       rect:
         serializedVersion: 2
-        x: 1639
-        y: 1804
-        width: 202
-        height: 154
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_9
       rect:
         serializedVersion: 2
-        x: 2145
-        y: 1805
-        width: 200
-        height: 153
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_10
       rect:
         serializedVersion: 2
-        x: 153
-        y: 1305
-        width: 196
-        height: 153
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_11
       rect:
         serializedVersion: 2
-        x: 661
-        y: 1299
-        width: 194
-        height: 159
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_12
       rect:
         serializedVersion: 2
-        x: 1169
-        y: 1293
-        width: 195
-        height: 164
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_13
       rect:
         serializedVersion: 2
-        x: 1666
-        y: 1295
-        width: 194
-        height: 162
+        x: 1500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_14
       rect:
         serializedVersion: 2
-        x: 2162
-        y: 1298
-        width: 194
-        height: 160
+        x: 2000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_15
       rect:
         serializedVersion: 2
-        x: 158
-        y: 802
-        width: 194
-        height: 156
+        x: 0
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Hairstyle1_16
       rect:
         serializedVersion: 2
-        x: 654
-        y: 805
-        width: 196
-        height: 153
+        x: 500
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

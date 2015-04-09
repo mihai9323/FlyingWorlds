@@ -63,170 +63,170 @@ TextureImporter:
     - name: S_FrontArm_0
       rect:
         serializedVersion: 2
-        x: 214
-        y: 2211
-        width: 83
-        height: 42
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_1
       rect:
         serializedVersion: 2
-        x: 715
-        y: 2214
-        width: 86
-        height: 38
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_2
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 2215
-        width: 88
-        height: 37
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_3
       rect:
         serializedVersion: 2
-        x: 1718
-        y: 2216
-        width: 87
-        height: 36
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_4
       rect:
         serializedVersion: 2
-        x: 2219
-        y: 2216
-        width: 87
-        height: 42
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_5
       rect:
         serializedVersion: 2
-        x: 221
-        y: 1717
-        width: 84
-        height: 49
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_6
       rect:
         serializedVersion: 2
-        x: 723
-        y: 1718
-        width: 81
-        height: 55
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_7
       rect:
         serializedVersion: 2
-        x: 1225
-        y: 1719
-        width: 77
-        height: 62
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_8
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 1720
-        width: 71
-        height: 68
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_9
       rect:
         serializedVersion: 2
-        x: 2220
-        y: 1716
-        width: 86
-        height: 45
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_10
       rect:
         serializedVersion: 2
-        x: 214
-        y: 1212
-        width: 85
-        height: 41
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_11
       rect:
         serializedVersion: 2
-        x: 707
-        y: 1193
-        width: 70
-        height: 68
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_12
       rect:
         serializedVersion: 2
-        x: 1202
-        y: 1185
-        width: 45
-        height: 85
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_13
       rect:
         serializedVersion: 2
-        x: 1703
-        y: 1186
-        width: 56
-        height: 80
+        x: 1500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_14
       rect:
         serializedVersion: 2
-        x: 2206
-        y: 1192
-        width: 68
-        height: 70
+        x: 2000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_15
       rect:
         serializedVersion: 2
-        x: 209
-        y: 699
-        width: 78
-        height: 59
+        x: 0
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_FrontArm_16
       rect:
         serializedVersion: 2
-        x: 713
-        y: 710
-        width: 84
-        height: 44
+        x: 500
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

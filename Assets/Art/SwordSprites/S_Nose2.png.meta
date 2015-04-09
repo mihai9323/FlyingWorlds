@@ -63,170 +63,170 @@ TextureImporter:
     - name: S_Nose2_0
       rect:
         serializedVersion: 2
-        x: 279
-        y: 2319
-        width: 40
-        height: 38
+        x: 0
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_1
       rect:
         serializedVersion: 2
-        x: 778
-        y: 2320
-        width: 41
-        height: 38
+        x: 500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_2
       rect:
         serializedVersion: 2
-        x: 1277
-        y: 2321
-        width: 41
-        height: 38
+        x: 1000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_3
       rect:
         serializedVersion: 2
-        x: 1776
-        y: 2322
-        width: 41
-        height: 39
+        x: 1500
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_4
       rect:
         serializedVersion: 2
-        x: 2276
-        y: 2323
-        width: 41
-        height: 39
+        x: 2000
+        y: 2000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_5
       rect:
         serializedVersion: 2
-        x: 275
-        y: 1824
-        width: 41
-        height: 39
+        x: 0
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_6
       rect:
         serializedVersion: 2
-        x: 774
-        y: 1826
-        width: 41
-        height: 38
+        x: 500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_7
       rect:
         serializedVersion: 2
-        x: 1273
-        y: 1827
-        width: 41
-        height: 38
+        x: 1000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_8
       rect:
         serializedVersion: 2
-        x: 1772
-        y: 1828
-        width: 41
-        height: 38
+        x: 1500
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_9
       rect:
         serializedVersion: 2
-        x: 2275
-        y: 1824
-        width: 41
-        height: 38
+        x: 2000
+        y: 1500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_10
       rect:
         serializedVersion: 2
-        x: 278
-        y: 1319
-        width: 41
-        height: 38
+        x: 0
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_11
       rect:
         serializedVersion: 2
-        x: 781
-        y: 1314
-        width: 41
-        height: 38
+        x: 500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_12
       rect:
         serializedVersion: 2
-        x: 1284
-        y: 1308
-        width: 40
-        height: 39
+        x: 1000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_13
       rect:
         serializedVersion: 2
-        x: 1783
-        y: 1310
-        width: 40
-        height: 39
+        x: 1500
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_14
       rect:
         serializedVersion: 2
-        x: 2281
-        y: 1314
-        width: 41
-        height: 38
+        x: 2000
+        y: 1000
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_15
       rect:
         serializedVersion: 2
-        x: 280
-        y: 816
-        width: 41
-        height: 38
+        x: 0
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: S_Nose2_16
       rect:
         serializedVersion: 2
-        x: 779
-        y: 819
-        width: 41
-        height: 38
+        x: 500
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
