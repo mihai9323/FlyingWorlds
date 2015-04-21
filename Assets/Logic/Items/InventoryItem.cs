@@ -39,6 +39,7 @@ public class InventoryItem : MonoBehaviour {
 		}else if(CharacterManager.SelectedCharacter.ArmorItem !=null){
 			SwapItem(CharacterManager.SelectedCharacter.ArmorItem);
 		}
+
 	}
 
 	void SwapItem (Item charactersItem, bool armor = true)
@@ -51,7 +52,9 @@ public class InventoryItem : MonoBehaviour {
 		else CharacterManager.SelectedCharacter.WeaponItem = auxItem;
 		
 		DisplayItem ();
+		CharacterManager.SelectedCharacter.CharacterPortrait.LoadCharacter ();
 		HubManager.ShowCharacter (CharacterManager.SelectedCharacter);
-		
+
+
 	}
 }
