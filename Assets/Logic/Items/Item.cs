@@ -23,6 +23,13 @@ public class Item  {
 			return (int)(50 * (Damage + Defence + Speed) * (1+shine));
 		}
 	}
+	public Color color{
+		get{
+			Color c;
+			GetSprite(out c);
+			return c;
+		}
+	}
 	public Item(){
 		itemType = ItemType.None;
 		Damage =0;

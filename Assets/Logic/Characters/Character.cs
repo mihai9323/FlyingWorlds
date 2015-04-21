@@ -7,7 +7,8 @@ public class Character : MonoBehaviour {
 	public string Name;
 	public TraitManager.TraitTypes[] Traits;
 	public Skillset Skills;
-	
+	public CharacterLooks Looks;
+
 	public Item WeaponItem{
 		get{
 			if(weaponItem == null) return new Item();
@@ -79,7 +80,7 @@ public class Character : MonoBehaviour {
 		Traits = TraitManager.GetRandomTraitsTypes(2);
 		Skills.CreateSkillset();
 		Name = CharacterManager.GenerateCharacterName();
-		
+		Looks.GenerateLooks ();
 		
 	}
 	
