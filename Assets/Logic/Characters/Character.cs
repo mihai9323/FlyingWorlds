@@ -15,6 +15,7 @@ public class Character : MonoBehaviour {
 			return weaponItem;
 		}
 		set{
+			Looks.SetActiveWeapon(value);
 			weaponItem = value;
 		}
 	}
@@ -25,6 +26,7 @@ public class Character : MonoBehaviour {
 			return armorItem;
 		}
 		set{
+			Looks.SetActiveArmor(value);
 			armorItem = value;
 		}
 	}

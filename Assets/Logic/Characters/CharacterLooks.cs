@@ -8,22 +8,29 @@ public class CharacterLooks : MonoBehaviour {
 	[HideInInspector]public BodyPart a_body,a_beard,a_eyes,a_eyebrows,a_hair,a_frontArm,a_mouthes,a_noses,a_weapon;
 	private Color bodyColor;
 	public void GenerateLooks(){
-		a_body = getAndActivateBodyPart (body);
-		a_beard = getAndActivateBodyPart (beards);
-		a_eyes = getAndActivateBodyPart (eyes);
-		a_eyebrows = getAndActivateBodyPart (eyebrows);
-		a_hair = getAndActivateBodyPart (hair);
-		a_frontArm = getAndActivateBodyPart (frontArms);
-		a_mouthes = getAndActivateBodyPart (mouthes);
-		a_noses = getAndActivateBodyPart (noses);
+		(a_body = getAndActivateBodyPart (body)).BuildRandomColor();
+		(a_beard = getAndActivateBodyPart (beards)).BuildRandomColor();
+		(a_eyes = getAndActivateBodyPart (eyes)).BuildRandomColor();
+		(a_eyebrows = getAndActivateBodyPart (eyebrows)).BuildRandomColor();
+		(a_hair = getAndActivateBodyPart (hair)).BuildRandomColor();
+		(a_frontArm = getAndActivateBodyPart (frontArms)).BuildRandomColor();
+		(a_mouthes = getAndActivateBodyPart (mouthes)).BuildRandomColor();
+		(a_noses = getAndActivateBodyPart (noses)).BuildRandomColor();
 		bodyColor = a_body.GetComponent<SpriteRenderer> ().color;
 	}
 	public void SetActiveWeapon(Item item){
+		RemoveActiveWeapon ();
+		Debug.Log (item.color);
 		switch (item.itemType) {
 		case Item.ItemType.Magic: a_weapon = weapons[0]; a_weapon.gameObject.SetActive(true); a_weapon.BuildColor(item.color); break;
-		case Item.ItemType.Melee: a_weapon = weapons[0]; a_weapon.gameObject.SetActive(true); a_weapon.BuildColor(item.color); break;
-		case Item.ItemType.Ranged: a_weapon = weapons[0]; a_weapon.gameObject.SetActive(true); a_weapon.BuildColor(item.color); break;
+		case Item.ItemType.Melee: a_weapon = weapons[1]; a_weapon.gameObject.SetActive(true); a_weapon.BuildColor(item.color); break;
+		case Item.ItemType.Ranged: a_weapon = weapons[2]; a_weapon.gameObject.SetActive(true); a_weapon.BuildColor(item.color); break;
 		case Item.ItemType.None: if(a_weapon!=null) a_weapon.gameObject.SetActive(false); break;
+		}
+	}
+	public void RemoveActiveWeapon(){
+		foreach (BodyPart weapon in weapons) {
+			weapon.gameObject.SetActive(false);
 		}
 	}
 	public void SetActiveArmor(Item item){
@@ -45,4 +52,5 @@ public class CharacterLooks : MonoBehaviour {
 		}
 		return bp;
 	}
+
 }

@@ -10,9 +10,10 @@ public class InventoryItem : MonoBehaviour {
 	
 	public Item itemInField;
 	
-	public int buttonId;
+		
 	
-	private void Start(){
+	private void OnEnable(){
+
 		DisplayItem();
 	}
 	

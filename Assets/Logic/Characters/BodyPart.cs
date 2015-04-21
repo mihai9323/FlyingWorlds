@@ -3,9 +3,7 @@ using System.Collections;
 
 public class BodyPart : MonoBehaviour {
 
-	private void Start(){
-		BuildRandomColor ();
-	}
+
 	private void Awake(){
 		this.gameObject.SetActive (false);
 	}
