@@ -1,9 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameData : MonoBehaviour {
+public class GameData  {
 
-	private static GameData s_Instance;
 
-	public static int NumberOfCoins  = 3000;
+
+	public static int NumberOfCoins{
+		set{
+			numberOfCoins = value;
+			ResourceBar.SetCoinCount();
+		}
+		get{
+			return numberOfCoins;
+		}
+	}
+	private static int numberOfCoins = 300;
 }
