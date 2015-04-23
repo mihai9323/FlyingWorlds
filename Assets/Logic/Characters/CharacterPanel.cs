@@ -26,7 +26,7 @@ public class CharacterPanel : MonoBehaviour {
 		m_armor_item.DisplayItem(character.ArmorItem);
 	
 		m_name.text = character.Name;
-		m_health.text = "Heath:"+character.MaxHealth.ToString()+"/"+ character.MaxHealth.ToString();
+		m_health.text = "Heath:"+character.Health.ToString()+"/"+ character.MaxHealth.ToString();
 		m_armor.text = "Armor:"+character.Armor.ToString();
 		m_dmg.text = "Damage:"+character.Damage.ToString();
 		m_morale.text = "Morale:"+ character.Moral.ToString()+"%";

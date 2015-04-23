@@ -8,10 +8,13 @@ public class Portrait : MonoBehaviour {
 	bool waited;
 
 	private IEnumerator LoadCoroutine(){
-		while (!character.Ready) {
-			yield return null;
+		yield return null;
+		if (character) {
+			while (!character.Ready) {
+				yield return null;
+			}
+			LoadCharacter ();
 		}
-		LoadCharacter ();
 	}
 	private void OnEnable(){
 		StartCoroutine ("LoadCoroutine");
@@ -20,6 +23,7 @@ public class Portrait : MonoBehaviour {
 		HubManager.ShowCharacter(character);
 	}
 	public void LoadCharacter(){
+
 		Debug.Log (character.Name);
 		waited = true;
 		iBody.sprite = character.Looks.a_body.mySprite;

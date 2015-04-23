@@ -57,7 +57,14 @@ public class Character : MonoBehaviour {
 			return iThink();
 		}	
 	}
-	
+	private int health;
+	public int Health {
+		get{ return health;}
+		set {
+			health = (int)Mathf.Clamp(value,0,MaxHealth);
+		}
+
+	}
 	public int MaxHealth{
 		get{
 			

@@ -11,7 +11,7 @@ public class Road : MonoBehaviour {
 				CharacterManager.MoveAllActiveHereAndChangeState (RoadWorldSpace.position,Character.FightState.Waiting,
 				                                                  delegate() {
 																	Debug.Log("All characters at destination callback");
-																	GameData.LoadScene(GameScenes.Fight);
+																	Invoke ("LoadFightSceneDelayed",1.2f);
 				                                                 });
 				HubManager.HideAll ();
 				HubManager.interactable = false;
@@ -19,6 +19,10 @@ public class Road : MonoBehaviour {
 			} else
 				Debug.Log ("Party empty");
 		}
+	}
+
+	private void LoadFightSceneDelayed(){
+		GameData.LoadScene(GameScenes.Fight);
 	}
 
 }
