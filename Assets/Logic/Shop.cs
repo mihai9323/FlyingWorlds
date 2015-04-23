@@ -14,6 +14,9 @@ public class Shop : MonoBehaviour {
 	[SerializeField] Text SwapPrice;
 	[SerializeField] Text SellPrice;
 
+	[SerializeField] Text T_my_item_name;
+	[SerializeField] Text T_other_item_name;
+
 	[SerializeField] GameObject BuyButton,SwapButton,SellButton;
 	
 	private int myItemValue, otherItemValue;
@@ -43,6 +46,7 @@ public class Shop : MonoBehaviour {
 			myItemValue = item.Value;
 
 		}
+		T_my_item_name.text = "SELL \n" + item.ItemName;
 		DisplayButtons ();
 	}
 	public void CompareSaleItem(Item item){
@@ -68,6 +72,7 @@ public class Shop : MonoBehaviour {
 			otherItemValue = item.Value;
 		
 		}
+		T_other_item_name.text = "BUY \n" + item.ItemName;
 		DisplayButtons ();
 	}
 
@@ -112,7 +117,7 @@ public class Shop : MonoBehaviour {
 			BuyButton.SetActive(false);
 			SellButton.SetActive(false);
 			SwapButton.SetActive(false);
-		}
+		}else
 		if (myItemValue == 0 && otherItemValue != 0) {
 
 			if(!InventoryManager.InventoryIsFull()){
@@ -121,16 +126,17 @@ public class Shop : MonoBehaviour {
 			}
 			SellButton.SetActive(false);
 			SwapButton.SetActive(false);
-		}
+		}else
 		if (myItemValue != 0 && otherItemValue == 0) {
 			BuyButton.SetActive(false);
-
+			Debug.Log("Check Shop is not full");
 			if(!InventoryManager.ShopIsFull()){
+				Debug.Log("Shop is not full");
 				SellButton.SetActive(true);
 				SellPrice.text = "Sell for:"+myItemValue;
 			}
 			SwapButton.SetActive(false);
-		}
+		}else
 		if (myItemValue != 0 && otherItemValue != 0) {
 			BuyButton.SetActive(false);
 			SellButton.SetActive(false);

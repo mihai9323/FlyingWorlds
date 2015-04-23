@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 public class Portrait : MonoBehaviour {
 	
-	[SerializeField] Character character;
+	public Character character;
 	[SerializeField] Image iBody,iBeard,iEyes,iEyeBrow,iHair,iFrontArm,iMouth,iNose,iWeapon;
 	bool waited;
 

@@ -30,19 +30,15 @@ public class InventoryItem : MonoBehaviour {
 	}
 	public void SelectItem(){
 		
-		if(itemInField.itemType == Item.ItemType.Armor){
+		if (itemInField.itemType == Item.ItemType.Armor) {
 			SwapItem (CharacterManager.SelectedCharacter.ArmorItem);
-		}else if(itemInField.itemType != Item.ItemType.None){
+		} else if (itemInField.itemType != Item.ItemType.None) {
 			SwapItem(CharacterManager.SelectedCharacter.WeaponItem, false);
-		}else if(CharacterManager.SelectedCharacter.WeaponItem.itemType != null){
-			SwapItem(CharacterManager.SelectedCharacter.WeaponItem, false);
-		}else if(CharacterManager.SelectedCharacter.ArmorItem !=null){
-			SwapItem(CharacterManager.SelectedCharacter.ArmorItem);
 		}
 
 	}
 
-	void SwapItem (Item charactersItem, bool armor = true)
+	public void SwapItem (Item charactersItem, bool armor = true)
 	{
 		Item auxItem = itemInField;
 		auxItem.itemOwner = CharacterManager.SelectedCharacter;

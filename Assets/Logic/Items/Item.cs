@@ -11,7 +11,22 @@ public class Item  {
 		Magic
 		
 	}
-	
+	public string ItemName{
+		get{
+			if(string.IsNullOrEmpty(item_name)){
+				return itemType == ItemType.Armor ? "Armor" :
+					   itemType == ItemType.Melee ? "Sword" :
+					   itemType == ItemType.Ranged? "Bow" :
+					   itemType == ItemType.Magic ? "Staff" : "None";
+								  
+			}else return item_name;
+		}
+		set{
+			item_name = value;
+		}
+	}
+
+	private string item_name;
 	public float Damage;
 	public float Defence;
 	public float Speed;
@@ -20,7 +35,7 @@ public class Item  {
 	public Character itemOwner;
 	public int Value{
 		get{
-			return (int)(50 * (Damage + Defence + Speed) * (1+shine));
+			return (int)(50 * (Damage + 3*Defence + Speed) * (1+shine) + ItemName.Length * 20);
 		}
 	}
 	public Color color{
@@ -39,7 +54,7 @@ public class Item  {
 	public Item(int dmg, int def, int speed){
 		ItemType iType;
 		float rNr = Random.value;
-		if(rNr<0.4f) iType = ItemType.Armor;
+		if (rNr < 0.4f) { iType = ItemType.Armor; dmg = 0; speed = 0;}
 		else if(rNr<0.6f){ iType = ItemType.Melee; def = 0; }
 		else if(rNr<.8f){ iType = ItemType.Ranged; def = 0; }
 		else if(rNr<1f){ iType = ItemType.Magic; def = 0; }
@@ -52,6 +67,11 @@ public class Item  {
 		
 	}
 	public Item(int dmg, int def, int speed, ItemType type){
+		if (type == ItemType.Armor)
+			def = 0;
+		else {
+			dmg = speed = 0;
+		}
 		this.Damage = dmg;
 		this.Defence = def;
 		this.Speed = speed;
@@ -59,7 +79,6 @@ public class Item  {
 	}
 	public Sprite GetSprite(out Color color){
 		color = CalculateColor();
-
 		switch(itemType){
 			case ItemType.None: return null; break;
 		    case ItemType.Armor: return SpriteManager.ArmorSprite; break;

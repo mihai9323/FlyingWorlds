@@ -53,7 +53,7 @@ public class InventoryManager : MonoBehaviour {
 		return true;
 	}
 	public static bool ShopIsFull(){
-		foreach (ShopItem item in ShopItems) {
+		foreach (ShopItem item in ForSaleItems) {
 			if(item.itemInField == null || item.itemInField.itemType == Item.ItemType.None){
 				return false;
 			}
@@ -103,6 +103,17 @@ public class InventoryManager : MonoBehaviour {
 		c = itemArray.Count;
 		return null;
 	}
+	public static InventoryItem GetNextEmptyInventorySpot(int lookFrom){
+		for (int i = lookFrom; i<InventoryItems.Length; i++) {
+			Item item = InventoryItems[i].itemInField;
+			if(item == null || (item.itemOwner == null && item.itemType == Item.ItemType.None)){
+				return InventoryItems[i];
+			}
+		}
+		return null;
+	}
+
+
 	public static List<Item> GenerateItems(int nr, float minVal, float maxVal){
 		List<Item> generatedItems = new List<Item>();
 		for(int i =0; i<nr; i++){

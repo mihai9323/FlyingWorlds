@@ -14,5 +14,5 @@ public class GameData  {
 			return numberOfCoins;
 		}
 	}
-	private static int numberOfCoins = 300;
+	private static int numberOfCoins = 30000;
 }

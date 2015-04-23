@@ -14,7 +14,13 @@ public class ItemOnCharacter : MonoBehaviour {
 	
 	public Item currentItem;
 	public void OpenInventory(){
-		HubManager.ShowInventory();
+		if (!HubManager.InventoryOpen)
+			HubManager.ShowInventory ();
+		else if (!InventoryManager.InventoryIsFull ()) {
+			InventoryManager.GetNextEmptyInventorySpot(0).SwapItem(this.currentItem, allowedItem == TypeOfField.armor);
+		} else {
+			Debug.Log("Inventory full");
+		}
 	}
 	
 	public void DisplayItem(Item item){

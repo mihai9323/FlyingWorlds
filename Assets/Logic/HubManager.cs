@@ -27,6 +27,7 @@ public class HubManager : MonoBehaviour {
 		m_Characters.SetActive(false);
 		m_Inventory.SetActive(false);
 		m_Shop.SetActive(false);
+	
 	}
 	
 	
@@ -54,6 +55,7 @@ public class HubManager : MonoBehaviour {
 		CharacterManager.SelectedCharacter = null;
 		
 	}
+
 	//Hide functions
 	public static void HideCharacters(){
 		s_Instance.m_Characters.SetActive(false);
@@ -71,4 +73,12 @@ public class HubManager : MonoBehaviour {
 	public static void HideShop(){
 		s_Instance.m_Shop.SetActive(false);
 	}
+
+	//Checks
+	public static bool InventoryOpen{
+		get{
+			return s_Instance.m_Inventory.activeInHierarchy;
+		}
+	}
+
 }

@@ -10,6 +10,7 @@ public class CloseButton : MonoBehaviour {
 		case "Character":  HubManager.HideCharacter(); break;
 		case "Inventory":  HubManager.HideInventory(); break;
 		case "Shop": HubManager.HideShop(); break;
+	
 			
 		}
 	}

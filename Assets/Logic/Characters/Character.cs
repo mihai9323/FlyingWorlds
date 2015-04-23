@@ -4,11 +4,24 @@ using System.Collections.Generic;
 
 public class Character : MonoBehaviour {
 
+	public enum FightState
+	{
+		None,
+		Attack,
+		StandGround,
+		Fallback,
+		Flee
+	}
+	[HideInInspector]public FightState fightState;
 	public string Name;
 	public TraitManager.TraitTypes[] Traits;
 	public Skillset Skills;
 	public CharacterLooks Looks;
 	public Portrait CharacterPortrait;
+
+	public float movementSpeed = 1.0f;
+	public float fleeSpeed = 1.5f;
+	public bool inFightingParty;
 	public Item WeaponItem{
 		get{
 			if(weaponItem == null) return new Item();
@@ -70,8 +83,17 @@ public class Character : MonoBehaviour {
 			return (int)Mathf.Clamp ((int)(TraitManager.GetTrait(Traits[0]).moraleBonus + TraitManager.GetTrait(Traits[1]).moraleBonus) + CalculateMoral(),0,100);
 		}
 	}
-	
-	
+
+	private Vector2 movement_target;
+	private float current_speed;
+
+	private void Start(){
+		CharacterManager.onAllMoveHere += MoveCharacterToPosition;
+	}
+	private void OnDestroy(){
+		CharacterManager.onAllMoveHere -= MoveCharacterToPosition;
+	}
+
 	public float CalculateMoral(){
 		return 0.5f;
 	}
@@ -109,5 +131,39 @@ public class Character : MonoBehaviour {
 			}
 		}
 		return message;
+	}
+
+	public void MoveCharacterToPosition(Vector2 position){
+		movement_target = position;
+		current_speed =  (fightState == FightState.Attack || fightState == FightState.None)? movementSpeed : fleeSpeed;
+		StopCoroutine("MoveToPosition");
+		StartCoroutine("MoveToPosition");
+	}
+	private IEnumerator MoveToPosition(){
+		float remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
+		while (remainingDistance>.2f) {
+			this.transform.position = Vector2.Lerp(transform.position,movement_target, (current_speed * Time.deltaTime)/remainingDistance);
+			yield return null;
+		}
+	}
+	
+	private float CustomSqrDistance(Vector3 myPosition, Vector2 targetPosition){
+			Vector2 auxPos = new Vector2 (myPosition.x, myPosition.y);
+			return Vector2.SqrMagnitude(targetPosition - auxPos);
+		}
+	public void AddToParty(){
+		if (!CharacterManager.partyFull) {
+			if(!this.inFightingParty){
+				this.inFightingParty = true;
+				CharacterManager.onAllActiveMoveHere += MoveCharacterToPosition;
+			}else Debug.LogWarning("Allready in party");
+		} else
+			Debug.Log ("Sorry full party");
+	}
+	public void RemoveFromParty(){
+		if(this.inFightingParty){
+			this.inFightingParty = false;
+			CharacterManager.onAllActiveMoveHere -= MoveCharacterToPosition;
+		}else Debug.LogWarning("Allready removed from party");
 	}
 }
