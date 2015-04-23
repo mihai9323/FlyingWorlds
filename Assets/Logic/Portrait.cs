@@ -13,19 +13,24 @@ public class Portrait : MonoBehaviour {
 			while (!character.Ready) {
 				yield return null;
 			}
-			LoadCharacter ();
+			while(character.Ready){
+				yield return new WaitForSeconds(1f/12);
+				LoadCharacter ();
+			}
+
 		}
 	}
 	private void OnEnable(){
 		StartCoroutine ("LoadCoroutine");
 	}
+
 	public void OpenPortrait(){
 		HubManager.ShowCharacter(character);
 	}
 	public void LoadCharacter(){
 
-		Debug.Log (character.Name);
-		waited = true;
+
+
 		iBody.sprite = character.Looks.a_body.mySprite;
 		iBody.color = character.Looks.a_body.myColor;
 

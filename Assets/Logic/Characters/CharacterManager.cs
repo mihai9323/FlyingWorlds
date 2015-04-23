@@ -13,7 +13,16 @@ public class CharacterManager : MonoBehaviour {
 
 	[SerializeField] string[] _firstName;
 	[SerializeField] string[] _secondName;
-	
+	[SerializeField] Transform[] characterSpawnPlaces;
+
+	public static Transform[] CharacterSpawnPlaces{
+		get{
+			return s_Instance.characterSpawnPlaces;
+		}
+		set{
+			s_Instance.characterSpawnPlaces = value;
+		}
+	}
 	public static Character SelectedCharacter;
 	
 	public static Character[] gameCharacters{
@@ -53,6 +62,18 @@ public class CharacterManager : MonoBehaviour {
 			c.CreateCharacter();
 		}
 	}
+	private void OnEnable(){
+		LoadCharactersFromBattle ();
+	}
+	private void LoadCharactersFromBattle(){
+		for (int i = 0; i<gameCharacters.Length; i++) {
+			Character c = gameCharacters[i];
+			c.transform.parent = characterSpawnPlaces[i].transform;
+			c.MoveCharacterToPosition(c.transform.parent.position,delegate(Character character) {
+
+			});
+		}
+	}
 	
 	public static string GenerateCharacterName(){
 		return s_Instance._firstName[(int)Random.Range(0,s_Instance._firstName.Length)] + " " +
@@ -61,12 +82,12 @@ public class CharacterManager : MonoBehaviour {
 
 	public static void MoveAllHere(Vector2 position){
 		foreach (Character c in gameCharacters) {
-			c.MoveCharacterToPosition(position);
+			c.MoveCharacterToPosition(position,delegate(Character character) {});
 		}
 	}
 	public static void MoveAllActiveHere(Vector2 position){
 		foreach (Character c in gameCharacters) {
-			if(c.inFightingParty)c.MoveCharacterToPosition(position);
+			if(c.inFightingParty)c.MoveCharacterToPosition(position,delegate(Character character) {});
 		}
 	}
 	public static bool CheckAllActiveState(Character.FightState state){

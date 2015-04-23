@@ -25,8 +25,9 @@ public class CharacterLooks : MonoBehaviour {
 		case Item.ItemType.Magic: a_weapon = weapons[0]; a_weapon.gameObject.SetActive(true); a_weapon.BuildColor(item.color); break;
 		case Item.ItemType.Melee: a_weapon = weapons[1]; a_weapon.gameObject.SetActive(true); a_weapon.BuildColor(item.color); break;
 		case Item.ItemType.Ranged: a_weapon = weapons[2]; a_weapon.gameObject.SetActive(true); a_weapon.BuildColor(item.color); break;
-		case Item.ItemType.None: if(a_weapon!=null) a_weapon.gameObject.SetActive(false); a_weapon.BuildColor(new Color(0,0,0,0)); break;
+		case Item.ItemType.None: if(a_weapon!=null) {a_weapon.gameObject.SetActive(false); a_weapon.BuildColor(new Color(0,0,0,0));} break;
 		}
+		Debug.Log (a_weapon.gameObject.name);
 	}
 	public void RemoveActiveWeapon(){
 		foreach (BodyPart weapon in weapons) {

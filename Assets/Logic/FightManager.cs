@@ -12,9 +12,19 @@ public class FightManager : MonoBehaviour {
 	}
 
 	[SerializeField] CharacterFightController[] fightControllers;
+	[SerializeField] Transform[] characterSpawnPlaces;
+
 	public static CharacterFightController[] FightControllers{
 		get{
 			return s_Instance.fightControllers;
+		}
+	}
+	public static Transform[] CharacterSpawnPlaces{
+		get{
+			return s_Instance.characterSpawnPlaces;
+		}
+		set{
+			s_Instance.characterSpawnPlaces = value;
 		}
 	}
 
@@ -24,6 +34,9 @@ public class FightManager : MonoBehaviour {
 			if(character.inFightingParty){
 				Debug.Log("load: "+character.Name);
 				FightControllers[c].LoadCharacterIn(character);
+				character.transform.position = CharacterSpawnPlaces[c].transform.position;
+				character.transform.parent = CharacterSpawnPlaces[c].transform;
+				character.FaceDirection(1);
 				c++;
 			}
 		}

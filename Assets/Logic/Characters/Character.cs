@@ -30,8 +30,9 @@ public class Character : MonoBehaviour {
 			return weaponItem;
 		}
 		set{
-			Looks.SetActiveWeapon(value);
 			weaponItem = value;
+			Looks.SetActiveWeapon(value);
+
 		}
 	}
 	
@@ -144,14 +145,7 @@ public class Character : MonoBehaviour {
 		return message;
 	}
 
-	public void MoveCharacterToPosition(Vector2 position){
-		movement_target = position;
-		current_speed =  (fightState == FightState.Attack || fightState == FightState.Idle)? movementSpeed : fleeSpeed;
-		Looks.StartAnimation (AnimationNames.kWalk);
-		StopCoroutine("MoveToPosition");
-		StartCoroutine("MoveToPosition", null);
 
-	}
 	public void MoveCharacterToPosition(Vector2 position, VOID_FUNCTION_CHARACTER callback){
 		movement_target = position;
 		current_speed =  (fightState == FightState.Attack || fightState == FightState.Idle)? movementSpeed : fleeSpeed;
@@ -185,8 +179,9 @@ public class Character : MonoBehaviour {
 	}
 
 	private void FaceTarget(){
-		if(transform.position.x>movement_target.x) transform.localScale = new Vector3(-origScale.x,origScale.y,origScale.z);
-		else  transform.localScale = origScale;
+
+		FaceDirection ((int)(movement_target.x-transform.position.x));
+
 	}
 	private float CustomSqrDistance(Vector3 myPosition, Vector2 targetPosition){
 			Vector2 auxPos = new Vector2 (myPosition.x, myPosition.y);
@@ -206,5 +201,10 @@ public class Character : MonoBehaviour {
 			this.inFightingParty = false;
 
 		}else Debug.LogWarning("Allready removed from party");
+	}
+	public void FaceDirection(int direction){
+		Vector3 lScale = origScale;
+		lScale.x = Mathf.Abs (lScale.x) * Mathf.Sign (direction);
+		transform.localScale = lScale;
 	}
 }
