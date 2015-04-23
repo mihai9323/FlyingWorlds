@@ -33,7 +33,15 @@ public class CharacterManager : MonoBehaviour {
 			return count >=4;
 		}
 	}
-
+	public static bool partyEmpty{
+		get{
+			int count = 0;
+			foreach(Character c in gameCharacters){
+				if(c.inFightingParty) count ++;
+			}
+			return count == 0;
+		}
+	}
 	
 	private void Awake(){
 		s_Instance = this;

@@ -86,9 +86,10 @@ public class Character : MonoBehaviour {
 
 	private Vector2 movement_target;
 	private float current_speed;
-
+	private Vector3 origScale;
 	private void Start(){
 		CharacterManager.onAllMoveHere += MoveCharacterToPosition;
+		origScale = transform.localScale;
 	}
 	private void OnDestroy(){
 		CharacterManager.onAllMoveHere -= MoveCharacterToPosition;
@@ -136,17 +137,37 @@ public class Character : MonoBehaviour {
 	public void MoveCharacterToPosition(Vector2 position){
 		movement_target = position;
 		current_speed =  (fightState == FightState.Attack || fightState == FightState.None)? movementSpeed : fleeSpeed;
+		Looks.StartAnimation (AnimationNames.kWalk);
 		StopCoroutine("MoveToPosition");
 		StartCoroutine("MoveToPosition");
+
 	}
+
+
 	private IEnumerator MoveToPosition(){
 		float remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
+		float initialDistance = Vector2.Distance(this.transform.position,movement_target);
+		Vector2 initialPosition = transform.position;
+		float ct = 0;
 		while (remainingDistance>.2f) {
-			this.transform.position = Vector2.Lerp(transform.position,movement_target, (current_speed * Time.deltaTime)/remainingDistance);
+			FaceTarget();
+			float initZ = transform.position.z;
+			ct += movementSpeed * Time.deltaTime /initialDistance;
+			this.transform.position = Vector2.Lerp(initialPosition, 
+			                                       movement_target, 
+			                                       ct
+			                                       );
+			transform.position = new Vector3(transform.position.x,transform.position.y,initZ);
 			yield return null;
+			remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
 		}
+		Looks.StopAnimation ();
 	}
-	
+
+	private void FaceTarget(){
+		if(transform.position.x>movement_target.x) transform.localScale = new Vector3(-origScale.x,origScale.y,origScale.z);
+		else  transform.localScale = origScale;
+	}
 	private float CustomSqrDistance(Vector3 myPosition, Vector2 targetPosition){
 			Vector2 auxPos = new Vector2 (myPosition.x, myPosition.y);
 			return Vector2.SqrMagnitude(targetPosition - auxPos);

@@ -4,6 +4,8 @@ using System.Collections;
 public class BodyPart : MonoBehaviour {
 
 	public Color myColor;
+	private Animator animator;
+	private string currentAnimation;
 	public Sprite mySprite{
 		get{
 			return this.gameObject.GetComponent<SpriteRenderer>().sprite;
@@ -11,7 +13,7 @@ public class BodyPart : MonoBehaviour {
 	}
 	private void Awake(){
 		this.gameObject.SetActive (false);
-
+		this.animator = this.gameObject.GetComponent<Animator> ();
 	}
 
 	public void BuildRandomColor(){
@@ -22,6 +24,18 @@ public class BodyPart : MonoBehaviour {
 		this.GetComponent<SpriteRenderer> ().color = color;
 		myColor = color;
 	}
+
+	public void StartAnimation(string animation){
+		if (!string.IsNullOrEmpty (currentAnimation)) {
+			StopAnimation();
+		}
+		animator.SetBool (animation, true);
+		currentAnimation = animation;
+	}
+	public void StopAnimation(){
+		animator.SetBool (currentAnimation, false);
+	}
+
 
 
 }

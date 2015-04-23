@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class CharacterLooks : MonoBehaviour {
@@ -52,6 +52,28 @@ public class CharacterLooks : MonoBehaviour {
 			bp.gameObject.SetActive(true);
 		}
 		return bp;
+	}
+	public void StartAnimation(string animation){
+		if(a_body!=null)a_body.StartAnimation (animation);
+		if(a_beard!=null)a_beard.StartAnimation (animation);
+		if(a_eyes!=null)a_eyes.StartAnimation (animation);
+		if(a_eyebrows!=null)a_eyebrows.StartAnimation (animation);
+		if(a_hair!=null)a_hair.StartAnimation (animation);
+		if(a_frontArm!=null)a_frontArm.StartAnimation (animation);
+		if(a_mouthes!=null)a_mouthes.StartAnimation (animation);
+		if(a_noses!=null)a_noses.StartAnimation (animation);
+		if(a_weapon!=null)a_weapon.StartAnimation (animation);
+	}
+	public void StopAnimation(){
+		if(a_body!=null)a_body.StopAnimation ();
+		if(a_beard!=null)a_beard.StopAnimation ();
+		if(a_eyes!=null)a_eyes.StopAnimation ();
+		if(a_eyebrows!=null)a_eyebrows.StopAnimation ();
+		if(a_hair!=null)a_hair.StopAnimation ();
+		if(a_frontArm!=null)a_frontArm.StopAnimation ();
+		if(a_mouthes!=null)a_mouthes.StopAnimation ();
+		if(a_noses!=null)a_noses.StopAnimation ();
+		if(a_weapon!=null)a_weapon.StopAnimation ();
 	}
 
 }
