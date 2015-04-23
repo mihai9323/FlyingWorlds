@@ -56,10 +56,6 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: MagicAttack
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: MagicAttack
     m_EventTreshold: 0
@@ -184,10 +180,6 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: MagicAttack
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: MagicAttack
     m_EventTreshold: 0
@@ -232,10 +224,6 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: BowShot
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: BowShot
     m_EventTreshold: 0
@@ -256,10 +244,6 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: MagicAttack
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: SwordAttack
     m_EventTreshold: 0
@@ -304,10 +288,6 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: BowShot
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: BowShot
     m_EventTreshold: 0
@@ -328,10 +308,6 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: SwordAttack
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: Walk
     m_EventTreshold: 0
@@ -352,10 +328,6 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: MagicAttack
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: SwordAttack
     m_EventTreshold: 0
@@ -490,6 +462,13 @@ StateMachine:
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
+      first: {fileID: 110215118}
+      second:
+      - {fileID: 110152791}
+      - {fileID: 110136856}
+      - {fileID: 110138282}
+      - {fileID: 110119395}
+    data:
       first: {fileID: 110202510}
       second:
       - {fileID: 110102510}
@@ -506,13 +485,6 @@ StateMachine:
       - {fileID: 110151160}
       - {fileID: 110165654}
       - {fileID: 110100000}
-    data:
-      first: {fileID: 110215118}
-      second:
-      - {fileID: 110152791}
-      - {fileID: 110136856}
-      - {fileID: 110138282}
-      - {fileID: 110119395}
     data:
       first: {fileID: 110200000}
       second:
@@ -536,6 +508,16 @@ StateMachine:
   - {x: 168, y: 74, z: 0}
   m_OrderedTransitions:
     data:
+      first: {fileID: 0}
+      second: []
+    data:
+      first: {fileID: 110215118}
+      second:
+      - {fileID: 110152791}
+      - {fileID: 110136856}
+      - {fileID: 110138282}
+      - {fileID: 110119395}
+    data:
       first: {fileID: 110202510}
       second:
       - {fileID: 110102510}
@@ -553,29 +535,10 @@ StateMachine:
       - {fileID: 110165654}
       - {fileID: 110100000}
     data:
-      first: {fileID: 110215118}
-      second:
-      - {fileID: 110152791}
-      - {fileID: 110136856}
-      - {fileID: 110138282}
-      - {fileID: 110119395}
-    data:
       first: {fileID: 110200000}
       second:
       - {fileID: 110117948}
       - {fileID: 110115118}
-    data:
-      first: {fileID: 0}
-      second: []
-    data:
-      first: {fileID: 0}
-      second: []
-    data:
-      first: {fileID: 0}
-      second: []
-    data:
-      first: {fileID: 0}
-      second: []
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 0, y: -132, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

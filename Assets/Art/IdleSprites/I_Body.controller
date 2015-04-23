@@ -67,10 +67,6 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: BowShot
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: BowShot
     m_EventTreshold: 0
@@ -143,10 +139,6 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: MagicAttack
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: SwordAttack
     m_EventTreshold: 0
@@ -215,10 +207,6 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: SwordAttack
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: Walk
     m_EventTreshold: 0
@@ -283,10 +271,6 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: MagicAttack
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: MagicAttack
     m_EventTreshold: 0
@@ -307,10 +291,6 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: MagicAttack
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: SwordAttack
     m_EventTreshold: 0
@@ -331,16 +311,16 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: MagicAttack
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 2
     m_ConditionEvent: SwordAttack
     m_EventTreshold: 0
     m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: Walk
+    m_EventTreshold: 0
+    m_ExitTime: 1
+  - m_ConditionMode: 5
+    m_ConditionEvent: MagicAttack
     m_EventTreshold: 0
     m_ExitTime: 1
   m_Atomic: 1
@@ -407,10 +387,6 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: MagicAttack
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: MagicAttack
     m_EventTreshold: 0
@@ -431,10 +407,6 @@ Transition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: BowShot
-    m_EventTreshold: 0
-    m_ExitTime: 1
   - m_ConditionMode: 1
     m_ConditionEvent: BowShot
     m_EventTreshold: 0
@@ -538,6 +510,16 @@ StateMachine:
   - {x: 132, y: -60, z: 0}
   m_OrderedTransitions:
     data:
+      first: {fileID: 0}
+      second: []
+    data:
+      first: {fileID: 110280163}
+      second:
+      - {fileID: 110147531}
+      - {fileID: 110193587}
+      - {fileID: 110128862}
+      - {fileID: 110191458}
+    data:
       first: {fileID: 110209038}
       second:
       - {fileID: 110109038}
@@ -555,29 +537,10 @@ StateMachine:
       - {fileID: 110171219}
       - {fileID: 110169681}
     data:
-      first: {fileID: 110280163}
-      second:
-      - {fileID: 110147531}
-      - {fileID: 110193587}
-      - {fileID: 110128862}
-      - {fileID: 110191458}
-    data:
       first: {fileID: 110269681}
       second:
       - {fileID: 110163751}
       - {fileID: 110180163}
-    data:
-      first: {fileID: 0}
-      second: []
-    data:
-      first: {fileID: 0}
-      second: []
-    data:
-      first: {fileID: 0}
-      second: []
-    data:
-      first: {fileID: 0}
-      second: []
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
@@ -614,6 +577,13 @@ StateMachine:
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
+      first: {fileID: 110280163}
+      second:
+      - {fileID: 110147531}
+      - {fileID: 110193587}
+      - {fileID: 110128862}
+      - {fileID: 110191458}
+    data:
       first: {fileID: 110209038}
       second:
       - {fileID: 110109038}
@@ -630,13 +600,6 @@ StateMachine:
       - {fileID: 110106373}
       - {fileID: 110171219}
       - {fileID: 110169681}
-    data:
-      first: {fileID: 110280163}
-      second:
-      - {fileID: 110147531}
-      - {fileID: 110193587}
-      - {fileID: 110128862}
-      - {fileID: 110191458}
     data:
       first: {fileID: 110269681}
       second:
