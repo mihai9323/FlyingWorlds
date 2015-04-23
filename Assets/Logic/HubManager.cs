@@ -15,7 +15,8 @@ public class HubManager : MonoBehaviour {
 	public static Farm farm{get{return s_Instance.m_farm;}}
 	public static Mine mine{get{return s_Instance.m_mine;}}
 	public static Shop shop{get{return s_Instance.m_shop;}}
-	
+
+	public static bool interactable = true;
 	
 	
 	private void Awake(){
@@ -35,45 +36,63 @@ public class HubManager : MonoBehaviour {
 	
 	//Show functions
 	public static void ShowCharacters(){
-		s_Instance.m_Characters.SetActive(true);
-		CharacterManager.SelectedCharacter = null;
+		if (interactable) {
+			s_Instance.m_Characters.SetActive (true);
+			CharacterManager.SelectedCharacter = null;
+		}
 	}
 	public static void ShowCharacter(Character character){
-		s_Instance.m_Character.SetActive(true);
-		s_Instance.m_Character.GetComponent<CharacterPanel>().SetInfo(character);
-		CharacterManager.SelectedCharacter = character;
+		if (interactable) {
+			s_Instance.m_Character.SetActive (true);
+			s_Instance.m_Character.GetComponent<CharacterPanel> ().SetInfo (character);
+			CharacterManager.SelectedCharacter = character;
+		}
 		
 	}
 	public static void ShowInventory(){
-		InventoryManager.PopulateInventory();
-		s_Instance.m_Inventory.SetActive(true);
+		if (interactable) {
+			InventoryManager.PopulateInventory ();
+			s_Instance.m_Inventory.SetActive (true);
+		}
 	}
 	public static void ShowShop(){
-		InventoryManager.PopulateInventory();
-		InventoryManager.PopulateShop();
-		s_Instance.m_Shop.SetActive(true);
-		CharacterManager.SelectedCharacter = null;
-		
+		if (interactable) {
+			InventoryManager.PopulateInventory ();
+			InventoryManager.PopulateShop ();
+			s_Instance.m_Shop.SetActive (true);
+			CharacterManager.SelectedCharacter = null;
+		}
 	}
 
 	//Hide functions
 	public static void HideCharacters(){
-		s_Instance.m_Characters.SetActive(false);
-		HideCharacter();
+		if (interactable) {
+			s_Instance.m_Characters.SetActive (false);
+			HideCharacter ();
+		}
 		
 	}
 	public static void HideCharacter(){
-		s_Instance.m_Character.SetActive(false);
-		CharacterManager.SelectedCharacter = null;
-		HideInventory();
+		if (interactable) {
+			s_Instance.m_Character.SetActive (false);
+			CharacterManager.SelectedCharacter = null;
+			HideInventory ();
+		}
 	}
 	public static void HideInventory(){
-		s_Instance.m_Inventory.SetActive(false);
+		if (interactable) {
+			s_Instance.m_Inventory.SetActive (false);
+		}
 	}
 	public static void HideShop(){
-		s_Instance.m_Shop.SetActive(false);
+		if (interactable) {
+			s_Instance.m_Shop.SetActive (false);
+		}
 	}
-
+	public static void HideAll(){
+		HideShop ();
+		HideCharacters ();
+	}
 	//Checks
 	public static bool InventoryOpen{
 		get{

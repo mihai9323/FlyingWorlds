@@ -5,9 +5,20 @@ public class Road : MonoBehaviour {
 	public Transform RoadWorldSpace;
 
 	public void OnClick(){
-		if ( !CharacterManager.partyEmpty) {
-			CharacterManager.MoveAllActiveHere(RoadWorldSpace.position);
-		} else
-			Debug.Log ("Party empty");
+		if (HubManager.interactable) {
+			if (!CharacterManager.partyEmpty) {
+				CharacterManager.ChangeAllActiveStateTo(Character.FightState.MovingToBattle);
+				CharacterManager.MoveAllActiveHereAndChangeState (RoadWorldSpace.position,Character.FightState.Waiting,
+				                                                  delegate() {
+																	Debug.Log("All characters at destination callback");
+																	GameData.LoadScene(GameScenes.Fight);
+				                                                 });
+				HubManager.HideAll ();
+				HubManager.interactable = false;
+
+			} else
+				Debug.Log ("Party empty");
+		}
 	}
+
 }

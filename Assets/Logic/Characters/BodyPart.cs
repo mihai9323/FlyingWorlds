@@ -34,6 +34,7 @@ public class BodyPart : MonoBehaviour {
 	}
 	public void StopAnimation(){
 		animator.SetBool (currentAnimation, false);
+		currentAnimation = "";
 	}
 
 

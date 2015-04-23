@@ -6,7 +6,9 @@ public class Character : MonoBehaviour {
 
 	public enum FightState
 	{
-		None,
+		Idle,
+		MovingToBattle,
+		Waiting,
 		Attack,
 		StandGround,
 		Fallback,
@@ -87,12 +89,13 @@ public class Character : MonoBehaviour {
 	private Vector2 movement_target;
 	private float current_speed;
 	private Vector3 origScale;
+	private Character character;
 	private void Start(){
-		CharacterManager.onAllMoveHere += MoveCharacterToPosition;
+
 		origScale = transform.localScale;
 	}
 	private void OnDestroy(){
-		CharacterManager.onAllMoveHere -= MoveCharacterToPosition;
+
 	}
 
 	public float CalculateMoral(){
@@ -107,7 +110,7 @@ public class Character : MonoBehaviour {
 		Name = CharacterManager.GenerateCharacterName();
 		Looks.GenerateLooks ();
 		Ready = true;
-		
+
 	}
 	
 	private string iThink(){
@@ -136,15 +139,23 @@ public class Character : MonoBehaviour {
 
 	public void MoveCharacterToPosition(Vector2 position){
 		movement_target = position;
-		current_speed =  (fightState == FightState.Attack || fightState == FightState.None)? movementSpeed : fleeSpeed;
+		current_speed =  (fightState == FightState.Attack || fightState == FightState.Idle)? movementSpeed : fleeSpeed;
 		Looks.StartAnimation (AnimationNames.kWalk);
 		StopCoroutine("MoveToPosition");
-		StartCoroutine("MoveToPosition");
+		StartCoroutine("MoveToPosition", null);
 
+	}
+	public void MoveCharacterToPosition(Vector2 position, VOID_FUNCTION_CHARACTER callback){
+		movement_target = position;
+		current_speed =  (fightState == FightState.Attack || fightState == FightState.Idle)? movementSpeed : fleeSpeed;
+		Looks.StartAnimation (AnimationNames.kWalk);
+		StopCoroutine("MoveToPosition");
+		StartCoroutine("MoveToPosition",callback);
+		
 	}
 
 
-	private IEnumerator MoveToPosition(){
+	private IEnumerator MoveToPosition(VOID_FUNCTION_CHARACTER callback){
 		float remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
 		float initialDistance = Vector2.Distance(this.transform.position,movement_target);
 		Vector2 initialPosition = transform.position;
@@ -161,6 +172,8 @@ public class Character : MonoBehaviour {
 			yield return null;
 			remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
 		}
+		if (callback != null)
+			callback (this);
 		Looks.StopAnimation ();
 	}
 
@@ -176,7 +189,7 @@ public class Character : MonoBehaviour {
 		if (!CharacterManager.partyFull) {
 			if(!this.inFightingParty){
 				this.inFightingParty = true;
-				CharacterManager.onAllActiveMoveHere += MoveCharacterToPosition;
+
 			}else Debug.LogWarning("Allready in party");
 		} else
 			Debug.Log ("Sorry full party");
@@ -184,7 +197,7 @@ public class Character : MonoBehaviour {
 	public void RemoveFromParty(){
 		if(this.inFightingParty){
 			this.inFightingParty = false;
-			CharacterManager.onAllActiveMoveHere -= MoveCharacterToPosition;
+
 		}else Debug.LogWarning("Allready removed from party");
 	}
 }

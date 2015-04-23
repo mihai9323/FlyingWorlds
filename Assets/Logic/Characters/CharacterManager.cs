@@ -7,8 +7,7 @@ public class CharacterManager : MonoBehaviour {
 
 	private static CharacterManager s_Instance;
 
-	public static event VOID_FUNCTION_VECTOR2 onAllMoveHere;
-	public static event VOID_FUNCTION_VECTOR2 onAllActiveMoveHere;
+
 
 	[SerializeField] Character[] _gameCharacters;
 
@@ -61,11 +60,51 @@ public class CharacterManager : MonoBehaviour {
 	}
 
 	public static void MoveAllHere(Vector2 position){
-		if (onAllMoveHere != null)
-			onAllMoveHere (position);
+		foreach (Character c in gameCharacters) {
+			c.MoveCharacterToPosition(position);
+		}
 	}
 	public static void MoveAllActiveHere(Vector2 position){
-		if (onAllActiveMoveHere != null)
-			onAllActiveMoveHere (position);
+		foreach (Character c in gameCharacters) {
+			if(c.inFightingParty)c.MoveCharacterToPosition(position);
+		}
 	}
+	public static bool CheckAllActiveState(Character.FightState state){
+		foreach (Character c in gameCharacters) {
+			if(c.inFightingParty && c.fightState != state){
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public static void MoveAllActiveHereAndChangeState(Vector2 position,Character.FightState state, VOID_FUNCTION callback = null){
+		foreach (Character c in gameCharacters) {
+			if(c.inFightingParty){
+				Debug.Log("Logged name:"+c.Name);
+					c.MoveCharacterToPosition(position, delegate(Character character) {
+					Debug.Log("Character reached destination callback"+character.Name);
+					character.fightState = state;
+					if(callback!=null){
+						if(CheckAllActiveState(state)){
+							Debug.Log("All characters are active checked");
+							callback();
+						}
+					}
+				});
+			}
+		}
+	}
+	public static void ChangeAllStateTo(Character.FightState state){
+		foreach (Character c in gameCharacters) {
+			c.fightState = state;
+		}
+	}
+	public static void ChangeAllActiveStateTo(Character.FightState state){
+		foreach (Character c in gameCharacters) {
+			if(c.inFightingParty)c.fightState = state;
+		}
+	}
+
+
 }
