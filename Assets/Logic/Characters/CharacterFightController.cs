@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class CharacterFightController : MonoBehaviour {
 
 	[SerializeField] Portrait portrait;
-	[SerializeField] Text t_Health, t_Morale, t_Damage;
+	[SerializeField] Text t_Health, t_Range, t_Damage;
 	private Character character;
 
 	public void LoadCharacterIn(Character character){
@@ -23,13 +23,43 @@ public class CharacterFightController : MonoBehaviour {
 
 	private void UpdateStats(){
 		t_Damage.text = "Damage:"+character.Damage.ToString();
-		t_Morale.text = "Morale:"+character.Moral.ToString();
+		t_Range.text = "Range:"+character.WeaponItem.Range.ToString();
 		t_Health.text = "Health:"+character.Health.ToString();
 	}
 	private IEnumerator RefreshStats(){
 		while (enabled && character!=null) {
 			UpdateStats();
 			yield return new WaitForSeconds(.5f);
+		}
+	}
+
+	public void Flee(){
+		if (character != null) {
+
+			character.fightState = FightState.Flee;
+			character.Tick();
+		}
+	}
+	public void FallBack(){
+		if (character != null && character.fightState != FightState.Flee) {
+			character.fightState = FightState.Fallback;
+			character.currentTarget = null;
+			character.Tick();
+		}
+	}
+	public void StandGround(){
+		if (character != null && character.fightState != FightState.Flee) {
+			character.fightState = FightState.StandGround;
+			character.currentTarget = null;
+			character.Tick();
+		}
+	}
+	public void Attack(){
+		if (character != null && character.fightState != FightState.Flee) {
+			character.fightState = FightState.Attack;
+			character.currentTarget = null;
+
+			character.Tick();
 		}
 	}
 }

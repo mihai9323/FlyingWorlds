@@ -2,6 +2,7 @@
 
 public delegate void VOID_FUNCTION(); 
 public delegate void VOID_FUNCTION_CHARACTER(Character c);
+public delegate void VOID_FUNCTION_ENEMY(Enemy e);
 public delegate void VOID_FUNCTION_VECTOR2(Vector2 vector);
 public delegate void VOID_FUNCTION_VECTOR2_CALLBACK(Vector2 v, VOID_FUNCTION_CHARACTER callback);
 public struct AnimationNames{
@@ -14,4 +15,14 @@ public struct AnimationNames{
 public enum GameScenes{
 	Hub,
 	Fight
+}
+public enum FightState
+{
+	Idle,
+	MovingToBattle,
+	Waiting,
+	Attack,
+	StandGround,
+	Fallback,
+	Flee
 }

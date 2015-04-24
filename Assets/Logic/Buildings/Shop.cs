@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 public class Shop : MonoBehaviour {
@@ -41,7 +41,7 @@ public class Shop : MonoBehaviour {
 			
 		}else{
 			T_my_dmg.text = "DMG: "+item.Damage;
-			T_my_speed.text = "SPD: "+item.Speed;
+			T_my_speed.text = "SPD: "+item.Range;
 			T_my_shine.text = "SHINE: "+ item.shine;
 			myItemValue = item.Value;
 
@@ -67,7 +67,7 @@ public class Shop : MonoBehaviour {
 			
 		}else{
 			T_other_dmg.text = "DMG: "+item.Damage;
-			T_other_speed.text = "SPD: "+item.Speed;
+			T_other_speed.text = "SPD: "+item.Range;
 			T_other_shine.text = "SHINE: "+ item.shine;
 			otherItemValue = item.Value;
 		

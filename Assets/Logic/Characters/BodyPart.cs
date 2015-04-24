@@ -29,11 +29,11 @@ public class BodyPart : MonoBehaviour {
 		if (!string.IsNullOrEmpty (currentAnimation)) {
 			StopAnimation();
 		}
-		animator.SetBool (animation, true);
+		if(!string.IsNullOrEmpty(animation) && animator !=null)animator.SetBool (animation, true);
 		currentAnimation = animation;
 	}
 	public void StopAnimation(){
-		animator.SetBool (currentAnimation, false);
+		if(!string.IsNullOrEmpty(currentAnimation))animator.SetBool (currentAnimation, false);
 		currentAnimation = "";
 	}
 

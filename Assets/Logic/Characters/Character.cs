@@ -4,17 +4,9 @@ using System.Collections.Generic;
 
 public class Character : MonoBehaviour {
 
-	public enum FightState
-	{
-		Idle,
-		MovingToBattle,
-		Waiting,
-		Attack,
-		StandGround,
-		Fallback,
-		Flee
-	}
+
 	[HideInInspector]public FightState fightState;
+	public AI ai;
 	public string Name;
 	public TraitManager.TraitTypes[] Traits;
 	public Skillset Skills;
@@ -24,6 +16,8 @@ public class Character : MonoBehaviour {
 	public float movementSpeed = 1.0f;
 	public float fleeSpeed = 1.5f;
 	public bool inFightingParty;
+	public bool fled;
+	public DetectEnemy enemyDetective;
 	public Item WeaponItem{
 		get{
 			if(weaponItem == null) return new Item();
@@ -69,7 +63,7 @@ public class Character : MonoBehaviour {
 	public int MaxHealth{
 		get{
 			
-			return (int)(Level * (TraitManager.GetTrait(Traits[0]).healthBonus + TraitManager.GetTrait(Traits[1]).healthBonus + 1));
+			return (int)(Level * (TraitManager.GetTrait(Traits[0]).healthBonus + TraitManager.GetTrait(Traits[1]).healthBonus + 20));
 		}
 	}
 	public int Armor {
@@ -98,6 +92,7 @@ public class Character : MonoBehaviour {
 	private float current_speed;
 	private Vector3 origScale;
 	private Character character;
+	private Transform movement_target_transform;
 	private void Start(){
 
 		origScale = transform.localScale;
@@ -113,10 +108,12 @@ public class Character : MonoBehaviour {
 	
 	public void CreateCharacter(){
 		Level = 1;
+
 		Traits = TraitManager.GetRandomTraitsTypes(2);
 		Skills.CreateSkillset();
 		Name = CharacterManager.GenerateCharacterName();
 		Looks.GenerateLooks ();
+		Health = MaxHealth;
 		Ready = true;
 
 	}
@@ -144,7 +141,14 @@ public class Character : MonoBehaviour {
 		}
 		return message;
 	}
+	public void Hit(int damage){
 
+		Health -= Mathf.Max (damage-Armor,1);
+		if (Health <= 0) {
+			fightState = FightState.Flee;
+
+		}
+	}
 
 	public void MoveCharacterToPosition(Vector2 position, VOID_FUNCTION_CHARACTER callback){
 		movement_target = position;
@@ -156,7 +160,7 @@ public class Character : MonoBehaviour {
 	}
 
 
-	private IEnumerator MoveToPosition(VOID_FUNCTION_CHARACTER callback){
+	public IEnumerator MoveToPosition(VOID_FUNCTION_CHARACTER callback){
 		float remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
 		float initialDistance = Vector2.Distance(this.transform.position,movement_target);
 		Vector2 initialPosition = transform.position;
@@ -173,9 +177,10 @@ public class Character : MonoBehaviour {
 			yield return null;
 			remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
 		}
+		Looks.StopAnimation ();
 		if (callback != null)
 			callback (this);
-		Looks.StopAnimation ();
+
 	}
 
 	private void FaceTarget(){
@@ -206,5 +211,131 @@ public class Character : MonoBehaviour {
 		Vector3 lScale = origScale;
 		lScale.x = Mathf.Abs (lScale.x) * Mathf.Sign (direction);
 		transform.localScale = lScale;
+	}
+	public void StartAITick(){
+		StartCoroutine ("AITick");
+	}
+	public void StopAITick(){
+		StopCoroutine ("AITick");
+	}
+
+	public Enemy currentTarget;
+
+
+	public void MoveCharacterToTransform(Transform trans, VOID_FUNCTION_CHARACTER callback){
+		movement_target_transform = trans;
+		current_speed = movementSpeed;
+		Looks.StartAnimation (AnimationNames.kWalk);
+		StopCoroutine("MoveToTransform");
+		StopCoroutine("MoveToPosition");
+		StartCoroutine("MoveToTransform",callback);
+		
+	}	
+	public IEnumerator MoveToTransform(VOID_FUNCTION_CHARACTER callback){
+		movement_target = movement_target_transform.position;
+		float remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
+		float initialDistance = Vector2.Distance(this.transform.position,movement_target);
+		Vector2 initialPosition = transform.position;
+		float ct = 0;
+		while (remainingDistance>weaponItem.Range) {
+			FaceTarget();
+			float initZ = transform.position.z;
+			
+			movement_target = movement_target_transform.position;
+			
+			
+			
+			
+			this.transform.position += (-transform.position + (Vector3)movement_target).normalized * Time.deltaTime * movementSpeed;
+			transform.position = new Vector3(transform.position.x,transform.position.y,initZ);
+			yield return null;
+			remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
+		}
+		Looks.StopAnimation ();
+		if (callback != null)
+			callback (this);
+		
+	}
+
+
+	private void FindTargetAndAttack(){
+		enemyDetective.StartDetection (delegate(Enemy e) {
+			Enemy targetCharacter = e;
+			if (targetCharacter!=null && targetCharacter != currentTarget) {
+				Debug.Log("New target found");
+				currentTarget = targetCharacter;
+				MoveCharacterToTransform(currentTarget.transform,
+				                         delegate(Character c) {
+					if(currentTarget!=null)currentTarget.Hit(this.Damage);	
+					StopCoroutine("AITick");
+					Invoke("StartAITick",1.2f);
+					
+					Looks.StartAnimation(weaponItem.fightAnimation);
+					
+				});
+			}else if (targetCharacter == null) {
+				StopCoroutine("AITick");
+				Looks.StopAnimation();
+			}
+		});
+
+
+		
+	}
+
+	public void Flee(){
+		fled = true;
+		MoveCharacterToPosition (FightManager.FleeTarget.position, delegate(Character c) {
+			StopAITick();
+			if(FightManager.BattleLost){
+				Debug.Log("Battle was lost");
+			}
+		});
+	}
+	public void StandGround(){ 
+		enemyDetective.StartDetection (delegate(Enemy e) {
+			Enemy targetCharacter = e;
+			if (targetCharacter!=null && targetCharacter != currentTarget) {
+				currentTarget = targetCharacter;
+				if(CustomSqrDistance(transform.position,currentTarget.transform.position)<weaponItem.Range*3f/2){
+					
+					MoveCharacterToTransform(currentTarget.transform,
+					                         delegate(Character c) {
+						currentTarget.Hit(this.Damage);	
+						StopCoroutine("AITick");
+						Invoke("StartAITick",1.2f);
+						
+						Looks.StartAnimation(weaponItem.fightAnimation);
+						
+					});
+				}
+			}else if (targetCharacter == null) {
+				StopCoroutine("AITick");
+				Looks.StopAnimation();
+			}
+		});
+
+	
+	}
+	public void FallBack(){
+		MoveCharacterToPosition (FightManager.FleeTarget.position, delegate(Character c) {
+			fightState = FightState.Flee;
+		});
+		fightState = FightState.Attack;
+	}
+	private IEnumerator AITick(){
+		while (!fled) {
+			Tick ();
+			yield return new WaitForSeconds(4.0f + Random.value);
+		}
+	}
+	public void Tick(){
+		
+		switch(fightState){
+		case FightState.Attack: FindTargetAndAttack(); break;
+		case FightState.Fallback: FallBack(); break;
+		case FightState.StandGround: StandGround(); break;
+		case FightState.Flee: Flee(); break;
+		}
 	}
 }

@@ -6,6 +6,7 @@ public class GameData:MonoBehaviour  {
 	private static GameData s_Instance;
 
 	public GameObject hubScene, fightScene;
+
 	public static int TurnNumber = 0;
 	private void Start(){
 		s_Instance = this;

@@ -25,17 +25,28 @@ public class Item  {
 			item_name = value;
 		}
 	}
+	public string fightAnimation{
+		get{
+
+				return
+			   itemType == ItemType.Melee ? AnimationNames.kSwordAttack :
+			   itemType == ItemType.Ranged? AnimationNames.kBowAttack :
+			   itemType == ItemType.Magic ? AnimationNames.kMagicAttack : "";
+				
+
+		}
+	}
 
 	private string item_name;
 	public float Damage;
 	public float Defence;
-	public float Speed;
+	public float Range;
 	public int shine;
 	public ItemType itemType;
 	public Character itemOwner;
 	public int Value{
 		get{
-			return (int)(50 * (Damage + 3*Defence + Speed) * (1+shine) + ItemName.Length * 20);
+			return (int)(50 * (Damage + 3*Defence + Range) * (1+shine) + ItemName.Length * 20);
 		}
 	}
 	public Color color{
@@ -49,34 +60,24 @@ public class Item  {
 		itemType = ItemType.None;
 		Damage =0;
 		Defence = 0;
-		Speed = 0;
+		Range = 0;
 	}
-	public Item(int dmg, int def, int speed){
+	public Item(int dmg, int def, int range){
 		ItemType iType;
 		float rNr = Random.value;
-		if (rNr < 0.4f) { iType = ItemType.Armor; dmg = 0; speed = 0;}
-		else if(rNr<0.6f){ iType = ItemType.Melee; def = 0; }
-		else if(rNr<.8f){ iType = ItemType.Ranged; def = 0; }
-		else if(rNr<1f){ iType = ItemType.Magic; def = 0; }
+		if (rNr < 0.4f) { iType = ItemType.Armor; dmg = 0; range = 0;}
+		else if(rNr<0.6f){ iType = ItemType.Melee; def = 0; range = Mathf.Clamp(range,0,2); }
+		else if(rNr<.8f){ iType = ItemType.Ranged; def = 0; range = Mathf.Clamp(range,6,20);}
+		else if(rNr<1f){ iType = ItemType.Magic; def = 0; range = Mathf.Clamp(range,6,20);}
 		else iType = ItemType.None;
 		
 		this.Damage = dmg;
 		this.Defence = def;
-		this.Speed = speed;
+		this.Range = range;
 		this.itemType = iType;
 		
 	}
-	public Item(int dmg, int def, int speed, ItemType type){
-		if (type == ItemType.Armor)
-			def = 0;
-		else {
-			dmg = speed = 0;
-		}
-		this.Damage = dmg;
-		this.Defence = def;
-		this.Speed = speed;
-		this.itemType = type;
-	}
+
 	public Sprite GetSprite(out Color color){
 		color = CalculateColor();
 		switch(itemType){

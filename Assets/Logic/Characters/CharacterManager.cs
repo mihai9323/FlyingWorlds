@@ -90,7 +90,7 @@ public class CharacterManager : MonoBehaviour {
 			if(c.inFightingParty)c.MoveCharacterToPosition(position,delegate(Character character) {});
 		}
 	}
-	public static bool CheckAllActiveState(Character.FightState state){
+	public static bool CheckAllActiveState(FightState state){
 		foreach (Character c in gameCharacters) {
 			if(c.inFightingParty && c.fightState != state){
 				return false;
@@ -99,7 +99,7 @@ public class CharacterManager : MonoBehaviour {
 		return true;
 	}
 
-	public static void MoveAllActiveHereAndChangeState(Vector2 position,Character.FightState state, VOID_FUNCTION callback = null){
+	public static void MoveAllActiveHereAndChangeState(Vector2 position,FightState state, VOID_FUNCTION callback = null){
 		foreach (Character c in gameCharacters) {
 			if(c.inFightingParty){
 				Debug.Log("Logged name:"+c.Name);
@@ -116,12 +116,12 @@ public class CharacterManager : MonoBehaviour {
 			}
 		}
 	}
-	public static void ChangeAllStateTo(Character.FightState state){
+	public static void ChangeAllStateTo(FightState state){
 		foreach (Character c in gameCharacters) {
 			c.fightState = state;
 		}
 	}
-	public static void ChangeAllActiveStateTo(Character.FightState state){
+	public static void ChangeAllActiveStateTo(FightState state){
 		foreach (Character c in gameCharacters) {
 			if(c.inFightingParty)c.fightState = state;
 		}
