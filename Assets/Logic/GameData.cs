@@ -6,7 +6,7 @@ public class GameData:MonoBehaviour  {
 	private static GameData s_Instance;
 
 	public GameObject hubScene, fightScene;
-
+	public static int TurnNumber = 0;
 	private void Start(){
 		s_Instance = this;
 		LoadScene (GameScenes.Hub);
@@ -23,6 +23,7 @@ public class GameData:MonoBehaviour  {
 	public static void LoadScene(GameScenes scene){
 		if (scene == GameScenes.Hub) {
 			HubManager.interactable = true;
+			TurnNumber ++;
 			s_Instance.hubScene.SetActive (true);
 			s_Instance.fightScene.SetActive (false);
 		} else if(scene == GameScenes.Fight) {

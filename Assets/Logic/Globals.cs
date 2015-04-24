@@ -9,6 +9,7 @@ public struct AnimationNames{
 	public const string kMagicAttack = "MagicAttack";
 	public const string kSwordAttack = "SwordAttack";
 	public const string kWalk = "Walk";
+	public const string kEnemyAttack = "Attack";
 }
 public enum GameScenes{
 	Hub,
