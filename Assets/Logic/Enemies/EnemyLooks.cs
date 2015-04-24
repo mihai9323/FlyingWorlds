@@ -37,7 +37,7 @@ public class EnemyLooks : MonoBehaviour {
 			if(a_weapon!=null)a_weapon.StopAnimation ();
 		}
 	public void HideAll(){
-		Debug.Log ("ENEMY DOWN");
+		this.gameObject.SetActive (false);
 		a_body.gameObject.SetActive (false);
 		a_weapon.gameObject.SetActive (false);
 		a_head.gameObject.SetActive (false);

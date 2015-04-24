@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 public class Enemy : MonoBehaviour {
 	public FightState fightState;
@@ -9,7 +11,7 @@ public class Enemy : MonoBehaviour {
 	[SerializeField] string fightAnimationName;
 	[SerializeField] float attackRange;
 	public AI ai;
-	public DetectEnemy enemyDetective;
+
 	public int Damage{
 		get{
 			switch(weapon.itemType){
@@ -22,7 +24,7 @@ public class Enemy : MonoBehaviour {
 	}
 	public int MaxHealth{
 		get{
-			return (int)((skillset.magic + skillset.melee + skillset.archery) * GameData.TurnNumber); 
+			return (int)Mathf.Max (2,((skillset.magic + skillset.melee + skillset.archery) * GameData.TurnNumber)); 
 		}
 	}
 	private int currentHealth;
@@ -34,9 +36,9 @@ public class Enemy : MonoBehaviour {
 	public void Hit(int damage){
 		currentHealth -= damage;
 		Debug.Log ("HIT:"+MaxHealth +"/"+currentHealth);
-		if (currentHealth <= 0) {
+		if (currentHealth <= 1) {
 			dead = true;
-			looks.HideAll();
+			Destroy(this.gameObject);
 		}
 	}
 	public void MoveEnemyToPosition(Vector2 position, VOID_FUNCTION_ENEMY callback){
@@ -114,7 +116,8 @@ public class Enemy : MonoBehaviour {
 		currentHealth = MaxHealth;
 		origScale = transform.localScale;
 		FaceDirection (-1);
-		StartCoroutine ("AITick");
+		StartAITick ();
+		dead = false;
 
 	}
 	public void FaceDirection(int direction){
@@ -133,19 +136,23 @@ public class Enemy : MonoBehaviour {
 	}
 
 	private IEnumerator AITick(){
+		yield return new WaitForSeconds (.2f);
 		while (!dead) {
 			FindTarget();
 
-			yield return new WaitForSeconds(4.0f + Random.value);
+			yield return new WaitForSeconds(4.0f + Random.value*5);
 		}
 	}
 	private Character currentTarget;
 
 	private void FindTarget(){
-		float distance = float.MaxValue;
+
 		Character targetCharacter = null;
-		enemyDetective.StartDetection (delegate(Character c) {
-			targetCharacter = c;
+		GameObject gob= GameObject.FindGameObjectsWithTag("CHARACTER").OrderBy(go => Vector3.SqrMagnitude(go.transform.position- transform.position)).FirstOrDefault();
+		if(gob!=null && gob.GetComponent<Character>()!=null) targetCharacter = gob.GetComponent<Character>();
+
+		
+			
 			if (targetCharacter != null && targetCharacter != currentTarget) {
 				currentTarget = targetCharacter;
 				MoveEnemyToTransform (currentTarget.transform,
@@ -157,16 +164,16 @@ public class Enemy : MonoBehaviour {
 					
 				});
 			} else if (targetCharacter == null) {
-				StopCoroutine ("AITick");
+				StartAITick();
 				looks.StopAnimation ();
 			}
-		});
+
 
 
 	}
 
 	private void StartAITick(){
-		StartCoroutine ("AITick");
+		if(this.gameObject.activeInHierarchy)StartCoroutine ("AITick");
 	}
 
 

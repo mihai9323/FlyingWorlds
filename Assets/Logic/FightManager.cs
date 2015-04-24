@@ -11,7 +11,7 @@ public class FightManager : MonoBehaviour {
 	private void OnEnable(){
 		Vector3 mPos = s_Instance.minSpawn.position;
 		Vector3 MPos = s_Instance.maxSpawn.position;
-		EnemyManager.GenerateEnemies (new float[3]{.2f,.5f,.3f},3,mPos,MPos,enemyTypes);
+		EnemyManager.GenerateEnemies (new float[3]{.2f,.5f,.3f},10,mPos,MPos,enemyTypes);
 		LoadCharactersInScene ();
 		StartCharactersAI ();
 	}

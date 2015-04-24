@@ -526,7 +526,6 @@ MonoBehaviour:
   fightAnimationName: MagicAttack
   attackRange: 9
   ai: {fileID: 11403854}
-  enemyDetective: {fileID: 11428300}
   dead: 0
   current_speed: 0
   movementSpeed: 1.29999995

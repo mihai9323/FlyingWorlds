@@ -489,7 +489,6 @@ MonoBehaviour:
   fightAnimationName: SwordAttack
   attackRange: .200000003
   ai: {fileID: 11403854}
-  enemyDetective: {fileID: 11471128}
   dead: 0
   current_speed: 0
   movementSpeed: 1.29999995

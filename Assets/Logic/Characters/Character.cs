@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 public class Character : MonoBehaviour {
 
@@ -17,7 +18,7 @@ public class Character : MonoBehaviour {
 	public float fleeSpeed = 1.5f;
 	public bool inFightingParty;
 	public bool fled;
-	public DetectEnemy enemyDetective;
+
 	public Item WeaponItem{
 		get{
 			if(weaponItem == null) return new Item();
@@ -144,7 +145,7 @@ public class Character : MonoBehaviour {
 	public void Hit(int damage){
 
 		Health -= Mathf.Max (damage-Armor,1);
-		if (Health <= 0) {
+		if (Health <= 1) {
 			fightState = FightState.Flee;
 
 		}
@@ -237,7 +238,7 @@ public class Character : MonoBehaviour {
 		float initialDistance = Vector2.Distance(this.transform.position,movement_target);
 		Vector2 initialPosition = transform.position;
 		float ct = 0;
-		while (remainingDistance>weaponItem.Range) {
+		while (remainingDistance>weaponItem.Range && movement_target_transform!=null) {
 			FaceTarget();
 			float initZ = transform.position.z;
 			
@@ -259,8 +260,10 @@ public class Character : MonoBehaviour {
 
 
 	private void FindTargetAndAttack(){
-		enemyDetective.StartDetection (delegate(Enemy e) {
-			Enemy targetCharacter = e;
+		Enemy targetCharacter = null;
+		GameObject gob= GameObject.FindGameObjectsWithTag("ENEMY").OrderBy(go => Vector3.SqrMagnitude(go.transform.position- transform.position)).FirstOrDefault();
+		if(gob!=null && gob.GetComponent<Enemy>()!=null)targetCharacter = gob.GetComponent<Enemy>();
+			
 			if (targetCharacter!=null && targetCharacter != currentTarget) {
 				Debug.Log("New target found");
 				currentTarget = targetCharacter;
@@ -277,7 +280,7 @@ public class Character : MonoBehaviour {
 				StopCoroutine("AITick");
 				Looks.StopAnimation();
 			}
-		});
+	
 
 
 		
@@ -293,12 +296,13 @@ public class Character : MonoBehaviour {
 		});
 	}
 	public void StandGround(){ 
-		enemyDetective.StartDetection (delegate(Enemy e) {
-			Enemy targetCharacter = e;
+		Enemy targetCharacter = null;
+		GameObject gob= GameObject.FindGameObjectsWithTag("ENEMY").OrderBy(go => Vector3.SqrMagnitude(go.transform.position- transform.position)).FirstOrDefault();
+		if(gob!=null && gob.GetComponent<Enemy>()!=null)targetCharacter = gob.GetComponent<Enemy>();
 			if (targetCharacter!=null && targetCharacter != currentTarget) {
 				currentTarget = targetCharacter;
 				if(CustomSqrDistance(transform.position,currentTarget.transform.position)<weaponItem.Range*3f/2){
-					
+				Looks.StartAnimation(AnimationNames.kWalk);
 					MoveCharacterToTransform(currentTarget.transform,
 					                         delegate(Character c) {
 						currentTarget.Hit(this.Damage);	
@@ -308,12 +312,21 @@ public class Character : MonoBehaviour {
 						Looks.StartAnimation(weaponItem.fightAnimation);
 						
 					});
+				}else{
+					
+					StopAllCoroutines();
+					Invoke("StartAITick",1.2f);
+											
+					Looks.StopAnimation();
+				
 				}
-			}else if (targetCharacter == null) {
-				StopCoroutine("AITick");
+
+		}else if (targetCharacter == null) {
+				StopAllCoroutines();
+				
 				Looks.StopAnimation();
 			}
-		});
+
 
 	
 	}

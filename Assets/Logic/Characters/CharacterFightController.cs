@@ -14,7 +14,7 @@ public class CharacterFightController : MonoBehaviour {
 			portrait.character = character;
 			StopAllCoroutines ();
 			UpdateStats ();
-			StartCoroutine (RefreshStats ());
+
 		} else {
 			Debug.Log("Character is null");
 			this.gameObject.SetActive (false);
@@ -24,12 +24,11 @@ public class CharacterFightController : MonoBehaviour {
 	private void UpdateStats(){
 		t_Damage.text = "Damage:"+character.Damage.ToString();
 		t_Range.text = "Range:"+character.WeaponItem.Range.ToString();
-		t_Health.text = "Health:"+character.Health.ToString();
+		t_Health.text = "Health:"+character.Health.ToString()+"/"+character.MaxHealth.ToString();
 	}
-	private IEnumerator RefreshStats(){
-		while (enabled && character!=null) {
+	private void Update(){
+		if (enabled && character!=null) {
 			UpdateStats();
-			yield return new WaitForSeconds(.5f);
 		}
 	}
 

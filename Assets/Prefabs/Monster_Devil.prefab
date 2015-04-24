@@ -489,7 +489,6 @@ MonoBehaviour:
   fightAnimationName: BowShot
   attackRange: 10
   ai: {fileID: 11403854}
-  enemyDetective: {fileID: 11436634}
   dead: 0
   current_speed: 0
   movementSpeed: 1.29999995
