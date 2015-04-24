@@ -1,26 +1,32 @@
 fileFormatVersion: 2
-guid: 42980a2bf60b487439b23897d3922311
+guid: 43915fc19cb3d074d87343156807a189
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Body_Bow_0
-    21300002: Body_Bow_1
-    21300004: Body_Bow_2
-    21300006: Body_Bow_3
-    21300008: Body_Bow_4
-    21300010: Body_Bow_5
-    21300012: Body_Bow_6
-    21300014: Body_Bow_7
-    21300016: Body_Bow_8
-    21300018: Body_Bow_9
-    21300020: Body_Bow_10
-    21300022: Body_Bow_11
-    21300024: Body_Bow_12
-    21300026: Body_Bow_13
-    21300028: Body_Bow_14
-    21300030: Body_Bow_15
-    21300032: Body_Bow_16
-    21300034: Body_Bow_17
-    21300036: Body_Bow_18
+    21300000: Fireball_0
+    21300002: Fireball_1
+    21300004: Fireball_2
+    21300006: Fireball_3
+    21300008: Fireball_4
+    21300010: Fireball_5
+    21300012: Fireball_6
+    21300014: Fireball_7
+    21300016: Fireball_8
+    21300018: Fireball_9
+    21300020: Fireball_10
+    21300022: Fireball_11
+    21300024: Fireball_12
+    21300026: Fireball_13
+    21300028: Fireball_14
+    21300030: Fireball_15
+    21300032: Fireball_16
+    21300034: Fireball_17
+    21300036: Fireball_18
+    21300038: Fireball_19
+    21300040: Fireball_20
+    21300042: Fireball_21
+    21300044: Fireball_22
+    21300046: Fireball_23
+    21300048: Fireball_24
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -40,8 +46,8 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -3
-  maxTextureSize: 4096
+  textureFormat: -1
+  maxTextureSize: 1024
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -62,7 +68,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Body_Bow_0
+    - name: Fireball_0
       rect:
         serializedVersion: 2
         x: 0
@@ -72,7 +78,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_1
+    - name: Fireball_1
       rect:
         serializedVersion: 2
         x: 500
@@ -82,7 +88,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_2
+    - name: Fireball_2
       rect:
         serializedVersion: 2
         x: 1000
@@ -92,7 +98,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_3
+    - name: Fireball_3
       rect:
         serializedVersion: 2
         x: 1500
@@ -102,7 +108,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_4
+    - name: Fireball_4
       rect:
         serializedVersion: 2
         x: 2000
@@ -112,7 +118,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_5
+    - name: Fireball_5
       rect:
         serializedVersion: 2
         x: 0
@@ -122,7 +128,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_6
+    - name: Fireball_6
       rect:
         serializedVersion: 2
         x: 500
@@ -132,7 +138,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_7
+    - name: Fireball_7
       rect:
         serializedVersion: 2
         x: 1000
@@ -142,7 +148,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_8
+    - name: Fireball_8
       rect:
         serializedVersion: 2
         x: 1500
@@ -152,7 +158,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_9
+    - name: Fireball_9
       rect:
         serializedVersion: 2
         x: 2000
@@ -162,7 +168,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_10
+    - name: Fireball_10
       rect:
         serializedVersion: 2
         x: 0
@@ -172,7 +178,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_11
+    - name: Fireball_11
       rect:
         serializedVersion: 2
         x: 500
@@ -182,7 +188,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_12
+    - name: Fireball_12
       rect:
         serializedVersion: 2
         x: 1000
@@ -192,7 +198,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_13
+    - name: Fireball_13
       rect:
         serializedVersion: 2
         x: 1500
@@ -202,7 +208,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_14
+    - name: Fireball_14
       rect:
         serializedVersion: 2
         x: 2000
@@ -212,7 +218,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_15
+    - name: Fireball_15
       rect:
         serializedVersion: 2
         x: 0
@@ -222,7 +228,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_16
+    - name: Fireball_16
       rect:
         serializedVersion: 2
         x: 500
@@ -232,7 +238,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_17
+    - name: Fireball_17
       rect:
         serializedVersion: 2
         x: 1000
@@ -242,11 +248,71 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Body_Bow_18
+    - name: Fireball_18
       rect:
         serializedVersion: 2
         x: 1500
         y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fireball_19
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fireball_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fireball_21
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fireball_22
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fireball_23
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fireball_24
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
         width: 500
         height: 500
       alignment: 0
