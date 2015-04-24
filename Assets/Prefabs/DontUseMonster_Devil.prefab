@@ -116,7 +116,7 @@ GameObject:
   - 65: {fileID: 6594094}
   - 54: {fileID: 5455876}
   m_Layer: 0
-  m_Name: Monster_Devil
+  m_Name: DontUseMonster_Devil
   m_TagString: ENEMY
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

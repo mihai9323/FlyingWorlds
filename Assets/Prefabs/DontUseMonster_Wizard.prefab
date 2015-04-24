@@ -44,7 +44,7 @@ GameObject:
   - 65: {fileID: 6590694}
   - 54: {fileID: 5455876}
   m_Layer: 0
-  m_Name: Monster_Wizard
+  m_Name: DontUseMonster_Wizard
   m_TagString: ENEMY
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
