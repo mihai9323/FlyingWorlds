@@ -44,8 +44,9 @@ public class HubManager : MonoBehaviour {
 	public static void ShowCharacter(Character character){
 		if (interactable) {
 			s_Instance.m_Character.SetActive (true);
-			s_Instance.m_Character.GetComponent<CharacterPanel> ().SetInfo (character);
+
 			CharacterManager.SelectedCharacter = character;
+			s_Instance.m_Character.GetComponent<CharacterPanel> ().SetInfo (character);
 		}
 		
 	}

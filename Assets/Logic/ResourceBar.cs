@@ -12,7 +12,7 @@ public class ResourceBar : MonoBehaviour {
 		SetCoinCount ();
 	}
 	public static void SetCoinCount(){
-		CoinsTextField.text = GameData.NumberOfCoins.ToString() + " Coins";
+		CoinsTextField.text = GameData.NumberOfCoins.ToString() ;
 	}
 
 }

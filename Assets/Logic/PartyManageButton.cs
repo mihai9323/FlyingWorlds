@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class PartyManageButton : MonoBehaviour {
 
 	private Image button_image;
+	[SerializeField] Text t_Text;
 	private Character affected_character;
 	private void Awake(){
 		button_image = this.gameObject.GetComponent<Image> ();
@@ -20,7 +21,7 @@ public class PartyManageButton : MonoBehaviour {
 	}
 
 	public void UpdateImage(){
-		button_image.color = (affected_character.inFightingParty) ? Color.green : Color.red;
+		t_Text.text = (affected_character.inFightingParty) ? "BATTLE" : "SLEEPING";
 	}
 
 }

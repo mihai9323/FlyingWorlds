@@ -17,7 +17,7 @@ public class CharacterPanel : MonoBehaviour {
 	[SerializeField] Text m_melee;
 	[SerializeField] Text m_archery;
 	[SerializeField] Text m_magic;
-	[SerializeField] Text m_level;
+
 	[SerializeField] Text m_thinks;
 	
 	public void SetInfo(Character character){
@@ -35,7 +35,7 @@ public class CharacterPanel : MonoBehaviour {
 		m_melee.text = "Melee: "+character.Skills.melee;
 		m_archery.text = "Archery: "+character.Skills.archery;
 		m_magic.text = "Magic: "+ character.Skills.magic;
-		m_level.text = "Level: "+character.Level;
+
 		m_thinks.text = character.Thinks;
 	}
 }

@@ -52,5 +52,6 @@ public class InventoryItem : MonoBehaviour {
 		HubManager.ShowCharacter (CharacterManager.SelectedCharacter);
 
 
+
 	}
 }

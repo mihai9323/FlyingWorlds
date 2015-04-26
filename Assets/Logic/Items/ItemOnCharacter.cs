@@ -24,13 +24,18 @@ public class ItemOnCharacter : MonoBehaviour {
 	}
 	
 	public void DisplayItem(Item item){
-		if(item==null){
-			item = new Item();
-		}
-		currentItem = item;
 		Color outColor;
-		m_itemSprite.sprite = currentItem.GetSprite(out outColor);
+		Sprite sprite;
+		if (item == null || item.itemType == Item.ItemType.None) {
+			item = new Item ();
+			outColor = new Color(0,0,0,0);
+
+		} else {
+			sprite = item.GetSprite(out outColor);
+			m_itemSprite.sprite = sprite;
+		}
 		m_itemSprite.color = outColor;
+		currentItem = item;
 	}
 	
 	

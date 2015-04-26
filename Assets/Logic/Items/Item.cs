@@ -81,7 +81,7 @@ public class Item  {
 	public Sprite GetSprite(out Color color){
 		color = CalculateColor();
 		switch(itemType){
-			case ItemType.None: return null; break;
+			case ItemType.None: return null; color = new Color(0,0,0,0); break;
 		    case ItemType.Armor: return SpriteManager.ArmorSprite; break;
 		    case ItemType.Melee: return SpriteManager.SwordSprite; break;
 		    case ItemType.Ranged: return SpriteManager.BowSprite; break;
