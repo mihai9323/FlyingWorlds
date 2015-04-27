@@ -16,7 +16,7 @@ public class CharacterFightController : MonoBehaviour {
 			UpdateStats ();
 
 		} else {
-			Debug.Log("Character is null");
+
 			this.gameObject.SetActive (false);
 		}
 	}

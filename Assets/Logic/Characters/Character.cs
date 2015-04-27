@@ -265,7 +265,7 @@ public class Character : MonoBehaviour {
 		if(gob!=null && gob.GetComponent<Enemy>()!=null)targetCharacter = gob.GetComponent<Enemy>();
 			
 			if (targetCharacter!=null && targetCharacter != currentTarget) {
-				Debug.Log("New target found");
+				
 				currentTarget = targetCharacter;
 				MoveCharacterToTransform(currentTarget.transform,
 				                         delegate(Character c) {

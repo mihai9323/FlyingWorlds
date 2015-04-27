@@ -52,7 +52,7 @@ public class FightManager : MonoBehaviour {
 		int c = 0;
 		foreach(Character character in CharacterManager.gameCharacters){
 			if(character.inFightingParty){
-				Debug.Log("load: "+character.Name);
+
 				FightControllers[c].LoadCharacterIn(character);
 				character.transform.position = CharacterSpawnPlaces[c].transform.position;
 				character.transform.parent = CharacterSpawnPlaces[c].transform;

@@ -102,13 +102,13 @@ public class CharacterManager : MonoBehaviour {
 	public static void MoveAllActiveHereAndChangeState(Vector2 position,FightState state, VOID_FUNCTION callback = null){
 		foreach (Character c in gameCharacters) {
 			if(c.inFightingParty){
-				Debug.Log("Logged name:"+c.Name);
+
 					c.MoveCharacterToPosition(position, delegate(Character character) {
-					Debug.Log("Character reached destination callback"+character.Name);
+				
 					character.fightState = state;
 					if(callback!=null){
 						if(CheckAllActiveState(state)){
-							Debug.Log("All characters are active checked");
+
 							callback();
 						}
 					}

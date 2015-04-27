@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour {
 	[SerializeField]private float current_speed, movementSpeed;
 	public void Hit(int damage){
 		currentHealth -= damage;
-		Debug.Log ("HIT:"+MaxHealth +"/"+currentHealth);
+
 		if (currentHealth <= 1) {
 			dead = true;
 			Destroy(this.gameObject);

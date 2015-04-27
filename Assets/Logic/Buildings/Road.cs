@@ -10,7 +10,7 @@ public class Road : MonoBehaviour {
 				CharacterManager.ChangeAllActiveStateTo(FightState.MovingToBattle);
 				CharacterManager.MoveAllActiveHereAndChangeState (RoadWorldSpace.position,FightState.Waiting,
 				                                                  delegate() {
-																	Debug.Log("All characters at destination callback");
+																	
 																	Invoke ("LoadFightSceneDelayed",1.2f);
 				                                                 });
 				HubManager.HideAll ();

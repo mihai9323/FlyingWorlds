@@ -1,19 +1,29 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class BodyPart : MonoBehaviour {
 
 	public Color myColor;
 	private Animator animator;
 	private string currentAnimation;
+
+	private SpriteRenderer sRenderer;
+
+	 
 	public Sprite mySprite{
-		get{
-			return this.gameObject.GetComponent<SpriteRenderer>().sprite;
+		get {
+			return sRenderer.sprite;
 		}
 	}
+
 	private void Awake(){
+		sRenderer = this.gameObject.GetComponent<SpriteRenderer> ();
 		this.gameObject.SetActive (false);
 		this.animator = this.gameObject.GetComponent<Animator> ();
+
+
+
 	}
 
 	public void BuildRandomColor(){
@@ -29,12 +39,14 @@ public class BodyPart : MonoBehaviour {
 		if (!string.IsNullOrEmpty (currentAnimation)) {
 			StopAnimation();
 		}
-		if(!string.IsNullOrEmpty(animation) && animator !=null)animator.SetBool (animation, true);
+		if(!string.IsNullOrEmpty(animation) && animator !=null)animator.SetBool (HashIDs.AnimationStringToID(animation), true);
 		currentAnimation = animation;
+		//StartCoroutine ("Animate");
 	}
 	public void StopAnimation(){
-		if(!string.IsNullOrEmpty(currentAnimation))animator.SetBool (currentAnimation, false);
-		currentAnimation = "";
+		if(!string.IsNullOrEmpty(currentAnimation))animator.SetBool (HashIDs.AnimationStringToID(currentAnimation), false);
+
+		//StopCoroutine ("Animate");
 	}
 
 

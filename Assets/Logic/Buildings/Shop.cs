@@ -129,9 +129,9 @@ public class Shop : MonoBehaviour {
 		}else
 		if (myItemValue != 0 && otherItemValue == 0) {
 			BuyButton.SetActive(false);
-			Debug.Log("Check Shop is not full");
+
 			if(!InventoryManager.ShopIsFull()){
-				Debug.Log("Shop is not full");
+
 				SellButton.SetActive(true);
 				SellPrice.text = "Sell for:"+myItemValue;
 			}

@@ -5,6 +5,9 @@ public class CharacterLooks : MonoBehaviour {
 
 	[SerializeField] BodyPart[] body,beards,eyes,eyebrows,hair,frontArms,mouthes,noses,weapons;
 
+
+
+
 	[HideInInspector]public BodyPart a_body,a_beard,a_eyes,a_eyebrows,a_hair,a_frontArm,a_mouthes,a_noses,a_weapon;
 	private Color bodyColor;
 	public void GenerateLooks(){
