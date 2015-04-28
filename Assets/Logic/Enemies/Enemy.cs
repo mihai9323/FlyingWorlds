@@ -37,7 +37,10 @@ public class Enemy : MonoBehaviour {
 		currentHealth -= damage;
 
 		if (currentHealth <= 1) {
+			this.tag = "Dead";
 			dead = true;
+			FightManager.CheckWin();
+			StopAllCoroutines();
 			Destroy(this.gameObject);
 		}
 	}
@@ -88,7 +91,7 @@ public class Enemy : MonoBehaviour {
 		float initialDistance = Vector2.Distance(this.transform.position,movement_target);
 		Vector2 initialPosition = transform.position;
 		float ct = 0;
-		while (remainingDistance>attackRange) {
+		while (remainingDistance>attackRange*attackRange) {
 			FaceTarget();
 			float initZ = transform.position.z;
 
@@ -127,7 +130,7 @@ public class Enemy : MonoBehaviour {
 	}
 	private void FaceTarget(){
 		
-		FaceDirection ((int)(movement_target.x-transform.position.x));
+		if(movement_target!=null)FaceDirection ((int)(movement_target.x-transform.position.x));
 		
 	}
 	private float CustomSqrDistance(Vector3 myPosition, Vector2 targetPosition){
@@ -140,7 +143,7 @@ public class Enemy : MonoBehaviour {
 		while (!dead) {
 			FindTarget();
 
-			yield return new WaitForSeconds(4.0f + Random.value*5);
+			yield return new WaitForSeconds(.5f + Random.value*.5f);
 		}
 	}
 	private Character currentTarget;
@@ -153,17 +156,29 @@ public class Enemy : MonoBehaviour {
 
 		
 			
-			if (targetCharacter != null && targetCharacter != currentTarget) {
-				currentTarget = targetCharacter;
-				MoveEnemyToTransform (currentTarget.transform,
-				                      delegate(Enemy e) {
-					currentTarget.Hit (this.Damage);	
-					StopCoroutine ("AITick");
-					Invoke ("StartAITick", 1.2f);
-					looks.StartAnimation (fightAnimationName);
-					
-				});
-			} else if (targetCharacter == null) {
+			if (targetCharacter != null && currentTarget != targetCharacter) {
+				
+					currentTarget = targetCharacter;
+					MoveEnemyToTransform (currentTarget.transform,
+						                      delegate(Enemy e) {
+						currentTarget.Hit (this.Damage);	
+						FaceTarget ();						
+						StopAllCoroutines();
+						Invoke ("StartAITick", 1f);
+						looks.StartAnimation (fightAnimationName);
+												
+					});
+				
+		}else if (targetCharacter == currentTarget) {
+			if (targetCharacter != null && CustomSqrDistance (this.transform.position, targetCharacter.transform.position)<attackRange*attackRange){
+				currentTarget.Hit (this.Damage);	
+				StopAllCoroutines ();
+				Invoke ("StartAITick", 1.2f);
+				
+				looks.StartAnimation (fightAnimationName);
+				FaceTarget ();
+			}
+		} else if (targetCharacter == null) {
 				StartAITick();
 				looks.StopAnimation ();
 			}
@@ -173,7 +188,11 @@ public class Enemy : MonoBehaviour {
 	}
 
 	private void StartAITick(){
-		if(this.gameObject.activeInHierarchy)StartCoroutine ("AITick");
+		if (this.gameObject.activeInHierarchy) {
+			StopCoroutine ("AITick");
+			StartCoroutine ("AITick");
+
+		}
 	}
 
 

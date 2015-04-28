@@ -69,8 +69,9 @@ public class CharacterManager : MonoBehaviour {
 		for (int i = 0; i<gameCharacters.Length; i++) {
 			Character c = gameCharacters[i];
 			c.transform.parent = characterSpawnPlaces[i].transform;
+			c.Looks.StartAnimation(AnimationNames.kWalk);
 			c.MoveCharacterToPosition(c.transform.parent.position,delegate(Character character) {
-
+				character.Looks.StopAnimation();
 			});
 		}
 	}
@@ -126,6 +127,12 @@ public class CharacterManager : MonoBehaviour {
 			if(c.inFightingParty)c.fightState = state;
 		}
 	}
+	public static void CleanUpAfterFight(){
+		foreach (Character c in gameCharacters) {
+			if(c.inFightingParty) c.CleanUpAfterFight();
+		}
+	}
+
 
 
 }

@@ -11,7 +11,7 @@ public class FightManager : MonoBehaviour {
 	private void OnEnable(){
 		Vector3 mPos = s_Instance.minSpawn.position;
 		Vector3 MPos = s_Instance.maxSpawn.position;
-		EnemyManager.GenerateEnemies (new float[3]{.2f,.5f,.3f},10,mPos,MPos,enemyTypes);
+		EnemyManager.GenerateEnemies (new float[3]{.2f,.5f,.3f},2,mPos,MPos,enemyTypes);
 		LoadCharactersInScene ();
 		StartCharactersAI ();
 	}
@@ -58,6 +58,7 @@ public class FightManager : MonoBehaviour {
 				character.transform.parent = CharacterSpawnPlaces[c].transform;
 				character.FaceDirection(1);
 				character.fightState = FightState.StandGround;
+				character.tag = "CHARACTER";
 				c++;
 			}
 		}
@@ -78,5 +79,33 @@ public class FightManager : MonoBehaviour {
 				c.StopAITick();
 			}
 		}
+	}
+	public static void CheckWin(){
+		bool win = true;
+		if(EnemyManager.LevelEnemies != null && EnemyManager.LevelEnemies.Length>0){
+			foreach (Enemy e in EnemyManager.LevelEnemies) {
+				if(e!=null && !e.dead){
+					win = false;
+					break;
+				}
+			}
+		}
+		if (win) {
+			Debug.Log("BattleWon!");
+			CleanUpFight();
+			GameData.LoadScene(GameScenes.Hub);
+		}
+	}
+	public static void CheckLost(){
+		if(FightManager.BattleLost){
+			Debug.Log("BattleLost!");
+			CleanUpFight();
+			GameData.LoadScene(GameScenes.Hub);
+		}
+	}
+	public static void CleanUpFight(){
+		EnemyManager.CleanUP();
+		CharacterManager.CleanUpAfterFight();
+
 	}
 }

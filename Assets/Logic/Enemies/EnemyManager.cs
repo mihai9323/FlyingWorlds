@@ -28,4 +28,12 @@ public class EnemyManager : MonoBehaviour {
 			LevelEnemies[i].GenerateEnemy();
 		}
 	}
+	public static void CleanUP(){
+		if (LevelEnemies != null) {
+			for(int i =0; i<LevelEnemies.Length; i++){
+				if(LevelEnemies[i]!=null)Destroy(LevelEnemies[i].gameObject);
+			}
+		}
+		LevelEnemies = null;
+	}
 }

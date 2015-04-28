@@ -148,6 +148,7 @@ public class Character : MonoBehaviour {
 		if (Health <= 1) {
 			fightState = FightState.Flee;
 
+			this.tag = "Dead";
 		}
 	}
 
@@ -186,7 +187,7 @@ public class Character : MonoBehaviour {
 
 	private void FaceTarget(){
 
-		FaceDirection ((int)(movement_target.x-transform.position.x));
+		if(movement_target!=null)FaceDirection ((int)(movement_target.x-transform.position.x));
 
 	}
 	private float CustomSqrDistance(Vector3 myPosition, Vector2 targetPosition){
@@ -217,7 +218,13 @@ public class Character : MonoBehaviour {
 		StartCoroutine ("AITick");
 	}
 	public void StopAITick(){
-		StopCoroutine ("AITick");
+
+		if (this.gameObject.activeInHierarchy) {
+			StopCoroutine ("AITick");
+
+			
+		}
+
 	}
 
 	public Enemy currentTarget;
@@ -238,7 +245,7 @@ public class Character : MonoBehaviour {
 		float initialDistance = Vector2.Distance(this.transform.position,movement_target);
 		Vector2 initialPosition = transform.position;
 		float ct = 0;
-		while (remainingDistance>weaponItem.Range && movement_target_transform!=null) {
+		while (remainingDistance>weaponItem.Range*weaponItem.Range && movement_target_transform!=null) {
 			FaceTarget();
 			float initZ = transform.position.z;
 			
@@ -264,20 +271,30 @@ public class Character : MonoBehaviour {
 		GameObject gob= GameObject.FindGameObjectsWithTag("ENEMY").OrderBy(go => Vector3.SqrMagnitude(go.transform.position- transform.position)).FirstOrDefault();
 		if(gob!=null && gob.GetComponent<Enemy>()!=null)targetCharacter = gob.GetComponent<Enemy>();
 			
-			if (targetCharacter!=null && targetCharacter != currentTarget) {
+			if (targetCharacter != null && currentTarget != targetCharacter) {
 				
-				currentTarget = targetCharacter;
-				MoveCharacterToTransform(currentTarget.transform,
+			currentTarget = targetCharacter;
+			MoveCharacterToTransform (currentTarget.transform,
 				                         delegate(Character c) {
-					if(currentTarget!=null)currentTarget.Hit(this.Damage);	
-					StopCoroutine("AITick");
-					Invoke("StartAITick",1.2f);
+				if (currentTarget != null)
+					currentTarget.Hit (this.Damage);	
+				StopAllCoroutines ();
+				Invoke ("StartAITick", 1.2f);
 					
-					Looks.StartAnimation(weaponItem.fightAnimation);
+				Looks.StartAnimation (weaponItem.fightAnimation);
+				FaceTarget ();
+			});
+		} else if (targetCharacter == currentTarget) {
+			if (currentTarget != null && CustomSqrDistance (this.transform.position, currentTarget.transform.position)<weaponItem.Range*weaponItem.Range){
+					currentTarget.Hit (this.Damage);	
+					StopAllCoroutines ();
+					Invoke ("StartAITick", 1.2f);
 					
-				});
-			}else if (targetCharacter == null) {
-				StopCoroutine("AITick");
+					Looks.StartAnimation (weaponItem.fightAnimation);
+					FaceTarget ();
+				}
+		}else if (targetCharacter == null) {
+				StopAITick();
 				Looks.StopAnimation();
 			}
 	
@@ -290,9 +307,7 @@ public class Character : MonoBehaviour {
 		fled = true;
 		MoveCharacterToPosition (FightManager.FleeTarget.position, delegate(Character c) {
 			StopAITick();
-			if(FightManager.BattleLost){
-				Debug.Log("Battle was lost");
-			}
+			FightManager.CheckLost();
 		});
 	}
 	public void StandGround(){ 
@@ -301,7 +316,7 @@ public class Character : MonoBehaviour {
 		if(gob!=null && gob.GetComponent<Enemy>()!=null)targetCharacter = gob.GetComponent<Enemy>();
 			if (targetCharacter!=null && targetCharacter != currentTarget) {
 				currentTarget = targetCharacter;
-				if(CustomSqrDistance(transform.position,currentTarget.transform.position)<weaponItem.Range*3f/2){
+				if(CustomSqrDistance(transform.position,currentTarget.transform.position)<weaponItem.Range*weaponItem.Range*3f/2){
 				Looks.StartAnimation(AnimationNames.kWalk);
 					MoveCharacterToTransform(currentTarget.transform,
 					                         delegate(Character c) {
@@ -310,9 +325,18 @@ public class Character : MonoBehaviour {
 						Invoke("StartAITick",1.2f);
 						
 						Looks.StartAnimation(weaponItem.fightAnimation);
-						
+						FaceTarget();
 					});
-				}else{
+				}else if (targetCharacter == currentTarget) {
+				if (currentTarget != null && CustomSqrDistance (this.transform.position, currentTarget.transform.position)<weaponItem.Range*weaponItem.Range){
+					currentTarget.Hit (this.Damage);	
+					StopAllCoroutines ();
+					Invoke ("StartAITick", 1.2f);
+					
+					Looks.StartAnimation (weaponItem.fightAnimation);
+					FaceTarget ();
+				}
+			}else{
 					
 					StopAllCoroutines();
 					Invoke("StartAITick",1.2f);
@@ -334,12 +358,12 @@ public class Character : MonoBehaviour {
 		MoveCharacterToPosition (FightManager.FleeTarget.position, delegate(Character c) {
 			fightState = FightState.Flee;
 		});
-		fightState = FightState.Attack;
+		fightState = FightState.Fallback;
 	}
 	private IEnumerator AITick(){
 		while (!fled) {
 			Tick ();
-			yield return new WaitForSeconds(4.0f + Random.value);
+			yield return new WaitForSeconds(.5f + Random.value*.5f);
 		}
 	}
 	public void Tick(){
@@ -350,5 +374,12 @@ public class Character : MonoBehaviour {
 		case FightState.StandGround: StandGround(); break;
 		case FightState.Flee: Flee(); break;
 		}
+	}
+	public void CleanUpAfterFight(){
+		StopAITick ();
+		this.currentTarget = null;
+		this.fightState = FightState.Idle;
+		this.Looks.StartAnimation (AnimationNames.kWalk);
+		this.transform.position = FightManager.FleeTarget.position;
 	}
 }
