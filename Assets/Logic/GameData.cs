@@ -51,6 +51,7 @@ public class GameData:MonoBehaviour  {
 		TurnNumber ++;
 		NumberOfCoins += HubManager.farm.incomePerTurn;
 		CharacterManager.LoadCharactersFromBattle ();
+		InventoryManager.GenerateShopItems (12, HubManager.shop.level * 5, HubManager.shop.level * 10);
 	}
 
 	private static int numberOfCoins = 1000;

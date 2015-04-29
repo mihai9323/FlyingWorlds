@@ -41,8 +41,9 @@ public class InventoryManager : MonoBehaviour {
 				
 	}
 
-	public static void GenerateShopItems(int minVal, int maxVal){
-
+	public static void GenerateShopItems(int count, int minVal, int maxVal){
+		ItemsForSale = s_Instance.GenerateItems (count, minVal, maxVal);
+		PopulateShop ();
 	}
 	public static void GenerateLootItems(int count, int minVal, int maxVal){
 
