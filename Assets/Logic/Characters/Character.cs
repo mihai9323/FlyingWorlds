@@ -158,6 +158,7 @@ public class Character : MonoBehaviour {
 		current_speed =  (fightState == FightState.Attack || fightState == FightState.Idle)? movementSpeed : fleeSpeed;
 		Looks.StartAnimation (AnimationNames.kWalk);
 		StopCoroutine("MoveToPosition");
+		StopCoroutine ("MoveToTransform");
 		StartCoroutine("MoveToPosition",callback);
 	}
 
@@ -325,7 +326,7 @@ public class Character : MonoBehaviour {
 	private void Attack (Enemy targetCharacter)
 	{
 		if (targetCharacter != null) {
-			bool targetDied = currentTarget.Hit (this.Damage);
+			bool targetDied = targetCharacter.Hit (this.Damage);
 			Looks.StartAnimation (weaponItem.fightAnimation);
 			FaceDirection((int)(targetCharacter.transform.position.x - this.transform.position.x));
 
@@ -374,12 +375,21 @@ public class Character : MonoBehaviour {
 		}
 	}
 	public void Tick(){
-		
-		switch(fightState){
-		case FightState.Attack: FindTargetAndAttack(); break;
-		case FightState.Fallback: FallBack(); break;
-		case FightState.StandGround: StandGround(); break;
-		case FightState.Flee: Flee(); break;
+		if (!fled) {
+			switch (fightState) {
+			case FightState.Attack:
+				FindTargetAndAttack ();
+				break;
+			case FightState.Fallback:
+				FallBack ();
+				break;
+			case FightState.StandGround:
+				StandGround ();
+				break;
+			case FightState.Flee:
+				Flee ();
+				break;
+			}
 		}
 	}
 	public void CleanUpAfterFight(){

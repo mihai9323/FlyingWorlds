@@ -58,7 +58,7 @@ public class CharacterFightController : MonoBehaviour {
 			character.fightState = FightState.Attack;
 			character.currentTarget = null;
 
-			character.Tick();
+
 		}
 	}
 }
