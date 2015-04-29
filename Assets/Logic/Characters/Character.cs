@@ -94,18 +94,18 @@ public class Character : MonoBehaviour {
 	private Vector3 origScale;
 	private Character character;
 	private Transform movement_target_transform;
-	private void Start(){
+	private void Awake(){
 
 		origScale = transform.localScale;
 	}
 	private void OnDestroy(){
 
-	}
+	} 
 
 	public float CalculateMoral(){
 		return 0.5f;
 	}
-	
+
 	
 	public void CreateCharacter(){
 		Level = 1;

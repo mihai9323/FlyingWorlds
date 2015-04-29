@@ -26123,6 +26123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abad3902f5f280249b9a3a4be138925c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgrade_text: {fileID: 1978340419}
 --- !u!1 &829356576
 GameObject:
   m_ObjectHideFlags: 0
@@ -35692,6 +35693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abad3902f5f280249b9a3a4be138925c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  upgrade_text: {fileID: 675025669}
 --- !u!1 &1148366558
 GameObject:
   m_ObjectHideFlags: 0
@@ -64398,7 +64400,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ccfbb1036779f64a878c1563ceb3539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  upgradeButton: {fileID: 828723443}
+  upgradeButton: {fileID: 828723448}
+  farmLevel: 1
 --- !u!1 &1958162703
 GameObject:
   m_ObjectHideFlags: 0

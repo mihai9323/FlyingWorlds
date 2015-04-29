@@ -7,10 +7,13 @@ public class GameData:MonoBehaviour  {
 
 	public GameObject hubScene, fightScene;
 
-	public static int TurnNumber = 0;
+	public static int TurnNumber = 1;
+	private static GameScenes currentScene;
 	private void Start(){
 		s_Instance = this;
+		currentScene = GameScenes.None;
 		LoadScene (GameScenes.Hub);
+
 	}
 	public static int NumberOfCoins{
 		set{
@@ -22,16 +25,33 @@ public class GameData:MonoBehaviour  {
 		}
 	}
 	public static void LoadScene(GameScenes scene){
+		GameScenes prevScene = currentScene;
 		if (scene == GameScenes.Hub) {
 			HubManager.interactable = true;
-			TurnNumber ++;
 			s_Instance.hubScene.SetActive (true);
 			s_Instance.fightScene.SetActive (false);
+			if(prevScene == GameScenes.Fight){
+				ComeBackFromBattle();
+			}
 		} else if(scene == GameScenes.Fight) {
 			s_Instance.hubScene.SetActive (false);
 			s_Instance.fightScene.SetActive (true);
 		}
+		currentScene = scene;
+	}
+	public static bool Pay(int coins){
+		if(numberOfCoins>coins){
+			NumberOfCoins -= coins;
+			return true;
+		}
+		return false;
 	}
 
-	private static int numberOfCoins = 30000;
+	public static void ComeBackFromBattle(){
+		TurnNumber ++;
+		NumberOfCoins += HubManager.farm.incomePerTurn;
+		CharacterManager.LoadCharactersFromBattle ();
+	}
+
+	private static int numberOfCoins = 1000;
 }

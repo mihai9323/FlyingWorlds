@@ -56,23 +56,23 @@ public class CharacterManager : MonoBehaviour {
 	}
 	private void Start(){
 		CreateCharacters();
+		LoadCharactersFromBattle ();
 	}
 	private static void CreateCharacters(){
 		foreach(Character c in gameCharacters){
 			c.CreateCharacter();
 		}
 	}
-	private void OnEnable(){
-		LoadCharactersFromBattle ();
-	}
-	private void LoadCharactersFromBattle(){
+
+	public static void LoadCharactersFromBattle(){
 		for (int i = 0; i<gameCharacters.Length; i++) {
 			Character c = gameCharacters[i];
-			c.transform.parent = characterSpawnPlaces[i].transform;
+			c.transform.parent = s_Instance.characterSpawnPlaces[i].transform;
 			c.Looks.StartAnimation(AnimationNames.kWalk);
 			c.MoveCharacterToPosition(c.transform.parent.position,delegate(Character character) {
 				character.Looks.StopAnimation();
 			});
+			c.Health += c.MaxHealth/2;
 		}
 	}
 	

@@ -13,6 +13,7 @@ public struct AnimationNames{
 	public const string kEnemyAttack = "Attack";
 }
 public enum GameScenes{
+	None,
 	Hub,
 	Fight
 }
