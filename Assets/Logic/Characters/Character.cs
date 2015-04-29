@@ -6,7 +6,7 @@ using System.Linq;
 public class Character : MonoBehaviour {
 
 
-	[HideInInspector]public FightState fightState;
+	public FightState fightState;
 	public AI ai;
 	public string Name;
 	public TraitManager.TraitTypes[] Traits;
@@ -142,6 +142,7 @@ public class Character : MonoBehaviour {
 		}
 		return message;
 	}
+
 	public void Hit(int damage){
 
 		Health -= Mathf.Max (damage-Armor,1);
@@ -158,7 +159,6 @@ public class Character : MonoBehaviour {
 		Looks.StartAnimation (AnimationNames.kWalk);
 		StopCoroutine("MoveToPosition");
 		StartCoroutine("MoveToPosition",callback);
-		
 	}
 
 
@@ -210,9 +210,11 @@ public class Character : MonoBehaviour {
 		}else Debug.LogWarning("Allready removed from party");
 	}
 	public void FaceDirection(int direction){
-		Vector3 lScale = origScale;
-		lScale.x = Mathf.Abs (lScale.x) * Mathf.Sign (direction);
-		transform.localScale = lScale;
+		if (direction != 0) {
+			Vector3 lScale = origScale;
+			lScale.x = Mathf.Abs (lScale.x) * Mathf.Sign (direction);
+			transform.localScale = lScale;
+		}
 	}
 	public void StartAITick(){
 		StartCoroutine ("AITick");
@@ -266,43 +268,45 @@ public class Character : MonoBehaviour {
 	}
 
 
+
 	private void FindTargetAndAttack(){
-		Enemy targetCharacter = null;
-		GameObject gob= GameObject.FindGameObjectsWithTag("ENEMY").OrderBy(go => Vector3.SqrMagnitude(go.transform.position- transform.position)).FirstOrDefault();
-		if(gob!=null && gob.GetComponent<Enemy>()!=null)targetCharacter = gob.GetComponent<Enemy>();
+		var target = FindTarget ();
 			
-			if (targetCharacter != null && currentTarget != targetCharacter) {
-				
-			currentTarget = targetCharacter;
-			MoveCharacterToTransform (currentTarget.transform,
-				                         delegate(Character c) {
-				if (currentTarget != null)
-					currentTarget.Hit (this.Damage);	
-				StopAllCoroutines ();
-				Invoke ("StartAITick", 1.2f);
-					
-				Looks.StartAnimation (weaponItem.fightAnimation);
-				FaceTarget ();
-			});
-		} else if (targetCharacter == currentTarget) {
-			if (currentTarget != null && CustomSqrDistance (this.transform.position, currentTarget.transform.position)<weaponItem.Range*weaponItem.Range){
-					currentTarget.Hit (this.Damage);	
-					StopAllCoroutines ();
-					Invoke ("StartAITick", 1.2f);
-					
-					Looks.StartAnimation (weaponItem.fightAnimation);
-					FaceTarget ();
+		if (target == null) {
+			StopFight ();
+		} else {
+			if (IsNewTarget (target)) {
+				MoveAndAttack (target);
+			} else if (IsSameTarget (target)) {
+				if (IsInWeaponRange (target)) {
+					Attack (target);						
+				} else {
+					MoveAndAttack (target);
 				}
-		}else if (targetCharacter == null) {
-				StopAITick();
-				Looks.StopAnimation();
 			}
-	
-
-
-		
+		}
 	}
 
+	public void StandGround(){ 
+		var target = FindTarget ();
+		if (target == null) {
+			StopFight ();
+		} else {
+			if (IsNewTarget (target)) {
+				if (IsInWeaponRange (target, 1.5f)) {
+					MoveAndAttack (target);
+				} else {
+					currentTarget = target;
+				}
+			} else if (IsSameTarget (target)) {
+				if (IsInWeaponRange (target)) {
+					Attack (target);
+				} else if (IsInWeaponRange (target, 1.5f)) {
+					MoveAndAttack (target);
+				}
+			}
+		}
+	}
 	public void Flee(){
 		fled = true;
 		MoveCharacterToPosition (FightManager.FleeTarget.position, delegate(Character c) {
@@ -310,50 +314,53 @@ public class Character : MonoBehaviour {
 			FightManager.CheckLost();
 		});
 	}
-	public void StandGround(){ 
-		Enemy targetCharacter = null;
-		GameObject gob= GameObject.FindGameObjectsWithTag("ENEMY").OrderBy(go => Vector3.SqrMagnitude(go.transform.position- transform.position)).FirstOrDefault();
-		if(gob!=null && gob.GetComponent<Enemy>()!=null)targetCharacter = gob.GetComponent<Enemy>();
-			if (targetCharacter!=null && targetCharacter != currentTarget) {
-				currentTarget = targetCharacter;
-				if(CustomSqrDistance(transform.position,currentTarget.transform.position)<weaponItem.Range*weaponItem.Range*3f/2){
-				Looks.StartAnimation(AnimationNames.kWalk);
-					MoveCharacterToTransform(currentTarget.transform,
-					                         delegate(Character c) {
-						currentTarget.Hit(this.Damage);	
-						StopCoroutine("AITick");
-						Invoke("StartAITick",1.2f);
-						
-						Looks.StartAnimation(weaponItem.fightAnimation);
-						FaceTarget();
-					});
-				}else if (targetCharacter == currentTarget) {
-				if (currentTarget != null && CustomSqrDistance (this.transform.position, currentTarget.transform.position)<weaponItem.Range*weaponItem.Range){
-					currentTarget.Hit (this.Damage);	
-					StopAllCoroutines ();
-					Invoke ("StartAITick", 1.2f);
-					
-					Looks.StartAnimation (weaponItem.fightAnimation);
-					FaceTarget ();
-				}
-			}else{
-					
-					StopAllCoroutines();
-					Invoke("StartAITick",1.2f);
-											
-					Looks.StopAnimation();
-				
-				}
 
-		}else if (targetCharacter == null) {
-				StopAllCoroutines();
-				
-				Looks.StopAnimation();
-			}
-
-
-	
+	private void MoveAndAttack (Enemy targetCharacter)
+	{
+		currentTarget = targetCharacter;
+		MoveCharacterToTransform (currentTarget.transform, delegate (Character c) {
+			Attack (targetCharacter);
+		});
 	}
+	private void Attack (Enemy targetCharacter)
+	{
+		if (targetCharacter != null) {
+			bool targetDied = currentTarget.Hit (this.Damage);
+			Looks.StartAnimation (weaponItem.fightAnimation);
+			FaceDirection((int)(targetCharacter.transform.position.x - this.transform.position.x));
+
+		}
+		StopAllCoroutines ();
+		Invoke ("StartAITick", 1.2f);
+
+	}
+	private void StopFight ()
+	{
+		StopAITick ();
+		Looks.StopAnimation ();
+	}
+	private Enemy FindTarget ()
+	{
+		Enemy targetCharacter = null;
+		GameObject gob = GameObject.FindGameObjectsWithTag ("ENEMY").OrderBy (go => Vector3.SqrMagnitude (go.transform.position - transform.position)).FirstOrDefault ();
+		if (gob != null && gob.GetComponent<Enemy> () != null)
+			targetCharacter = gob.GetComponent<Enemy> ();
+		return targetCharacter;
+	}
+	private bool IsNewTarget (Enemy targetCharacter)
+	{
+		return targetCharacter != null && currentTarget != targetCharacter;
+	}
+	private bool IsSameTarget (Enemy targetCharacter)
+	{
+		return targetCharacter == currentTarget;
+	}
+		
+	private bool IsInWeaponRange (Enemy target, float percent = 1.0f)
+	{
+		return CustomSqrDistance (this.transform.position, target.transform.position) < weaponItem.Range * weaponItem.Range * percent;
+	}
+
 	public void FallBack(){
 		MoveCharacterToPosition (FightManager.FleeTarget.position, delegate(Character c) {
 			fightState = FightState.Flee;
@@ -376,10 +383,11 @@ public class Character : MonoBehaviour {
 		}
 	}
 	public void CleanUpAfterFight(){
-		StopAITick ();
+		this.StopAllCoroutines ();
 		this.currentTarget = null;
 		this.fightState = FightState.Idle;
-		this.Looks.StartAnimation (AnimationNames.kWalk);
-		this.transform.position = FightManager.FleeTarget.position;
+		this.Looks.StopAnimation ();
+		this.transform.position = HubManager.road.RoadWorldSpace.position;
+		RemoveFromParty ();
 	}
 }

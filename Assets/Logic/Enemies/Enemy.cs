@@ -33,7 +33,7 @@ public class Enemy : MonoBehaviour {
 	private Vector3 movement_target;
 	private Transform movement_target_transform;
 	[SerializeField]private float current_speed, movementSpeed;
-	public void Hit(int damage){
+	public bool Hit(int damage){
 		currentHealth -= damage;
 
 		if (currentHealth <= 1) {
@@ -41,9 +41,12 @@ public class Enemy : MonoBehaviour {
 			dead = true;
 			FightManager.CheckWin();
 			StopAllCoroutines();
-			Destroy(this.gameObject);
+			Destroy(this.gameObject,1f);
+			return true;
 		}
+		return false;
 	}
+
 	public void MoveEnemyToPosition(Vector2 position, VOID_FUNCTION_ENEMY callback){
 		movement_target = position;
 		current_speed = movementSpeed;

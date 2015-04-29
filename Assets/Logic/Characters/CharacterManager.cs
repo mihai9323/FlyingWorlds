@@ -129,7 +129,11 @@ public class CharacterManager : MonoBehaviour {
 	}
 	public static void CleanUpAfterFight(){
 		foreach (Character c in gameCharacters) {
-			if(c.inFightingParty) c.CleanUpAfterFight();
+			Debug.Log(c.Name);
+			if(c.inFightingParty){
+				c.CleanUpAfterFight();
+				Debug.Log ("in party");
+			}else Debug.Log("not in party");
 		}
 	}
 

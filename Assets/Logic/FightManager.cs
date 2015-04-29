@@ -91,9 +91,7 @@ public class FightManager : MonoBehaviour {
 			}
 		}
 		if (win) {
-			Debug.Log("BattleWon!");
-			CleanUpFight();
-			GameData.LoadScene(GameScenes.Hub);
+			s_Instance.StartCoroutine(s_Instance.WinDelayed(2.0f));
 		}
 	}
 	public static void CheckLost(){
@@ -107,5 +105,11 @@ public class FightManager : MonoBehaviour {
 		EnemyManager.CleanUP();
 		CharacterManager.CleanUpAfterFight();
 
+	}
+	private IEnumerator WinDelayed(float time){
+		yield return new WaitForSeconds (time);
+		Debug.Log("BattleWon!");
+		CleanUpFight();
+		GameData.LoadScene(GameScenes.Hub);
 	}
 }

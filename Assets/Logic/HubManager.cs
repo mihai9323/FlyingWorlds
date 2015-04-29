@@ -11,10 +11,11 @@ public class HubManager : MonoBehaviour {
 	[SerializeField] Farm m_farm;
 	[SerializeField] Mine m_mine;
 	[SerializeField] Shop m_shop;
-	
+	[SerializeField] Road m_road;
 	public static Farm farm{get{return s_Instance.m_farm;}}
 	public static Mine mine{get{return s_Instance.m_mine;}}
 	public static Shop shop{get{return s_Instance.m_shop;}}
+	public static Road road{ get { return s_Instance.m_road; } }
 
 	public static bool interactable = true;
 	

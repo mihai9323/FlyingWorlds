@@ -11019,6 +11019,7 @@ MonoBehaviour:
   m_farm: {fileID: 1954944447}
   m_mine: {fileID: 1408677159}
   m_shop: {fileID: 896485589}
+  m_road: {fileID: 906434424}
 --- !u!4 &373903092
 Transform:
   m_ObjectHideFlags: 0
@@ -27765,7 +27766,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 869934235}
   m_Layer: 0
-  m_Name: Road
+  m_Name: RoadPlace
   m_TagString: Untagged
   m_Icon: {fileID: 266726316, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -43038,6 +43039,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11488956, guid: b4f6f5e2500ec9a4699250df5262b471, type: 2}
+      propertyPath: m_road
+      value: 
+      objectReference: {fileID: 906434424}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b4f6f5e2500ec9a4699250df5262b471, type: 2}
   m_RootGameObject: {fileID: 373903090}
