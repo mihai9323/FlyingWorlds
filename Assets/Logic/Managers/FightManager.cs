@@ -5,6 +5,17 @@ public class FightManager : MonoBehaviour {
 	private static FightManager s_Instance;
 	[SerializeField] Transform minSpawn, maxSpawn;
 	[SerializeField] Enemy[] enemyTypes;
+	[SerializeField] Projectile _fireBall, _arrow;
+	public static Projectile fireBall{
+		get{
+			return s_Instance._fireBall;
+		}
+	}
+	public static Projectile arrow{
+		get{
+			return s_Instance._arrow;
+		}
+	}
 	private void Awake(){
 		s_Instance = this;
 	}

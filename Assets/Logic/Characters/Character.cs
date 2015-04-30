@@ -328,14 +328,25 @@ public class Character : MonoBehaviour {
 	private void Attack (Enemy targetCharacter)
 	{
 		if (targetCharacter != null) {
-			bool targetDied = targetCharacter.Hit (this.Damage);
+		
 			Looks.StartAnimation (weaponItem.fightAnimation);
 			FaceDirection((int)(targetCharacter.transform.position.x - this.transform.position.x));
+			if(weaponItem.fightAnimation == AnimationNames.kBowAttack){
+				ShootProjectile(FightManager.arrow,targetCharacter);
+			}else if(weaponItem.fightAnimation == AnimationNames.kMagicAttack){
+				ShootProjectile(FightManager.fireBall,targetCharacter);
+			}else{
+				targetCharacter.Hit (this.Damage);
+			}
 
 		}
 		StopAllCoroutines ();
 		Invoke ("StartAITick", 1.2f);
 
+	}
+	private void ShootProjectile(Projectile p, Enemy target){
+		Projectile missile = Instantiate (p, transform.position, Quaternion.identity) as Projectile;
+		missile.ShootMonster (target.transform.position, this.Damage, null);
 	}
 	private void StopFight ()
 	{

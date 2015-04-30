@@ -166,22 +166,13 @@ public class Enemy : MonoBehaviour {
 					currentTarget = targetCharacter;
 					MoveEnemyToTransform (currentTarget.transform,
 						                      delegate(Enemy e) {
-						currentTarget.Hit (this.Damage);	
-						FaceTarget ();						
-						StopAllCoroutines();
-						Invoke ("StartAITick", 1f);
-						looks.StartAnimation (fightAnimationName);
-												
+						Attack (targetCharacter);
+				
 					});
 				
 		}else if (targetCharacter == currentTarget) {
 			if (targetCharacter != null && CustomSqrDistance (this.transform.position, targetCharacter.transform.position)<attackRange*attackRange){
-				currentTarget.Hit (this.Damage);	
-				StopAllCoroutines ();
-				Invoke ("StartAITick", 1.2f);
-				
-				looks.StartAnimation (fightAnimationName);
-				FaceTarget ();
+				Attack (targetCharacter);
 			}
 		} else if (targetCharacter == null) {
 				StartAITick();
@@ -191,7 +182,25 @@ public class Enemy : MonoBehaviour {
 
 
 	}
+	private void Attack (Character targetCharacter)
+	{
+		if (targetCharacter != null) {
 
+			looks.StartAnimation (fightAnimationName);
+			FaceDirection((int)(targetCharacter.transform.position.x - this.transform.position.x));
+			if(fightAnimationName == AnimationNames.kBowAttack){
+				ShootProjectile(FightManager.arrow,targetCharacter);
+			}else if(fightAnimationName == AnimationNames.kMagicAttack){
+				ShootProjectile(FightManager.fireBall,targetCharacter);
+			}else{
+				targetCharacter.Hit (this.Damage);
+			}
+
+		}
+		StopAllCoroutines ();
+		Invoke ("StartAITick", 1.2f);
+		
+	}
 	private void StartAITick(){
 		if (this.gameObject.activeInHierarchy) {
 			StopCoroutine ("AITick");
@@ -200,7 +209,10 @@ public class Enemy : MonoBehaviour {
 		}
 	}
 
-
+	private void ShootProjectile(Projectile p, Character target){
+		Projectile missile = Instantiate (p, transform.position, Quaternion.identity) as Projectile;
+		missile.ShootCharacter (target.transform.position, this.Damage, null);
+	}
 
 
 }
