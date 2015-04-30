@@ -176,6 +176,7 @@ public class Character : MonoBehaviour {
 			                                       movement_target, 
 			                                       ct
 			                                       );
+			initZ = Mathf.Lerp(-10,0,Camera.main.WorldToScreenPoint(transform.position).y/Screen.height);
 			transform.position = new Vector3(transform.position.x,transform.position.y,initZ);
 			yield return null;
 			remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
@@ -258,6 +259,7 @@ public class Character : MonoBehaviour {
 			
 			
 			this.transform.position += (-transform.position + (Vector3)movement_target).normalized * Time.deltaTime * movementSpeed;
+			initZ = Mathf.Lerp(-10,0,Camera.main.WorldToScreenPoint(transform.position).y/Screen.height);
 			transform.position = new Vector3(transform.position.x,transform.position.y,initZ);
 			yield return null;
 			remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
