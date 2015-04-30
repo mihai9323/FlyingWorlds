@@ -35,7 +35,7 @@ public class ColorCodes{
 		},
 		//Devil
 		new float[3,2]{
-			{.9f,1},{0f,.1f},{0.02f,.3f}
+			{.7f,.9f},{0f,.1f},{0.02f,.2f}
 		}
 	};
 	private static Color getColor(int r,int g, int b, int a = 255){
