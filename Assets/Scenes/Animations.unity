@@ -73,7 +73,6 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
-    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &1458580
 GameObject:
@@ -140,7 +139,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 95e3a514136434a3f8213705587223e2, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95e3a514136434a3f8213705587223e2, type: 2}
@@ -1149,10 +1148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 142bddcd8730fa3419bcd38c2f7c2a06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  a_weapon: {fileID: 0}
-  a_body: {fileID: 0}
   a_head: {fileID: 1729533347}
-  a_frontArm: {fileID: 0}
 --- !u!114 &610929419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2623,10 +2619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 142bddcd8730fa3419bcd38c2f7c2a06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  a_weapon: {fileID: 0}
-  a_body: {fileID: 0}
   a_head: {fileID: 729975995}
-  a_frontArm: {fileID: 0}
 --- !u!114 &1427679271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3519,10 +3512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 142bddcd8730fa3419bcd38c2f7c2a06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  a_weapon: {fileID: 0}
-  a_body: {fileID: 0}
   a_head: {fileID: 1754743694}
-  a_frontArm: {fileID: 0}
 --- !u!114 &2087610099
 MonoBehaviour:
   m_ObjectHideFlags: 0
