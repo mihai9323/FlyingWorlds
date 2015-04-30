@@ -1177,6 +1177,7 @@ MonoBehaviour:
   fightAnimationName: SwordAttack
   attackRange: .200000003
   ai: {fileID: 610929417}
+  monsterType: 0
   dead: 0
   current_speed: 0
   movementSpeed: 1.29999995
@@ -2648,6 +2649,7 @@ MonoBehaviour:
   fightAnimationName: BowShot
   attackRange: 10
   ai: {fileID: 1427679269}
+  monsterType: 0
   dead: 0
   current_speed: 0
   movementSpeed: 1.29999995
@@ -2764,6 +2766,135 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!1 &1567892991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 147422, guid: 0ef9fae9076ac614ea5ec145da93b78b, type: 2}
+  m_PrefabInternal: {fileID: 1651902937}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1567892995}
+  - 212: {fileID: 1567892994}
+  - 114: {fileID: 1567892993}
+  - 95: {fileID: 1567892992}
+  m_Layer: 0
+  m_Name: MagicBall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1567892992
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9547422, guid: 0ef9fae9076ac614ea5ec145da93b78b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1651902937}
+  m_GameObject: {fileID: 1567892991}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 083846b1031b25b4193d73578f92bd22, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1567892993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11447422, guid: 0ef9fae9076ac614ea5ec145da93b78b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1651902937}
+  m_GameObject: {fileID: 1567892991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d2682f1c413e614fa3267f81adf4631, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 2
+  arrowHeight: 0
+  areaOfAttack: 2
+  rotate: 1
+--- !u!212 &1567892994
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21247422, guid: 0ef9fae9076ac614ea5ec145da93b78b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1651902937}
+  m_GameObject: {fileID: 1567892991}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300048, guid: 43915fc19cb3d074d87343156807a189, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1567892995
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 447422, guid: 0ef9fae9076ac614ea5ec145da93b78b, type: 2}
+  m_PrefabInternal: {fileID: 1651902937}
+  m_GameObject: {fileID: 1567892991}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.79900002, y: .342000008, z: .00999999978}
+  m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+--- !u!1001 &1651902937
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 447422, guid: 0ef9fae9076ac614ea5ec145da93b78b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.79900002
+      objectReference: {fileID: 0}
+    - target: {fileID: 447422, guid: 0ef9fae9076ac614ea5ec145da93b78b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .342000008
+      objectReference: {fileID: 0}
+    - target: {fileID: 447422, guid: 0ef9fae9076ac614ea5ec145da93b78b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: .00999999978
+      objectReference: {fileID: 0}
+    - target: {fileID: 447422, guid: 0ef9fae9076ac614ea5ec145da93b78b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447422, guid: 0ef9fae9076ac614ea5ec145da93b78b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447422, guid: 0ef9fae9076ac614ea5ec145da93b78b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447422, guid: 0ef9fae9076ac614ea5ec145da93b78b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 447422, guid: 0ef9fae9076ac614ea5ec145da93b78b, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0ef9fae9076ac614ea5ec145da93b78b, type: 2}
+  m_RootGameObject: {fileID: 1567892991}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1729533346
 GameObject:
   m_ObjectHideFlags: 0
@@ -3541,6 +3672,7 @@ MonoBehaviour:
   fightAnimationName: MagicAttack
   attackRange: 9
   ai: {fileID: 2087610097}
+  monsterType: 0
   dead: 0
   current_speed: 0
   movementSpeed: 1.29999995
