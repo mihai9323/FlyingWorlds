@@ -69,6 +69,9 @@ public class CharacterManager : MonoBehaviour {
 			Character c = gameCharacters[i];
 			c.transform.parent = s_Instance.characterSpawnPlaces[i].transform;
 			c.Looks.StartAnimation(AnimationNames.kWalk);
+			Vector3 lPos = c.transform.localPosition;
+			lPos.z = 0;
+			c.transform.localPosition = lPos;
 			c.MoveCharacterToPosition(c.transform.parent.position,delegate(Character character) {
 				character.Looks.StopAnimation();
 			});

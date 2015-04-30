@@ -2045,7 +2045,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 81379539}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -100}
+  m_LocalPosition: {x: 0, y: 0, z: -350}
   m_LocalScale: {x: .404687494, y: .404687494, z: .404687494}
   m_Children:
   - {fileID: 1479708607}
@@ -26830,7 +26830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &828723444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33017,7 +33017,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 994114314}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -100}
+  m_LocalPosition: {x: 0, y: 0, z: -350}
   m_LocalScale: {x: .404687494, y: .404687494, z: 1}
   m_Children:
   - {fileID: 1026162888}
@@ -35694,7 +35694,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1087976940}
-        m_MethodName: Upgrade
+        m_MethodName: ShowUpgradeButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

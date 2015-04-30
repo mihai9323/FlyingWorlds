@@ -15,7 +15,7 @@ public class Farm : MonoBehaviour {
 			return (int)(upgradeCost*.8f);
 		}
 	}
-	public void Upgrade(){
+	[HideInInspector]public void Upgrade(){
 		if (GameData.Pay (upgradeCost)) {
 			farmLevel++;
 			upgradeButton.gameObject.SetActive(false);
