@@ -6307,7 +6307,7 @@ Transform:
   m_GameObject: {fileID: 238508371}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.69000006, y: .00999999978, z: .00999999978}
-  m_LocalScale: {x: .5, y: .5, z: .400000006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 204952071}
   m_RootOrder: 2
@@ -7523,7 +7523,7 @@ Transform:
   m_PrefabInternal: {fileID: 1967680406}
   m_GameObject: {fileID: 256854111}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: 1.80999994, z: -4}
+  m_LocalPosition: {x: -8.60999966, y: 4.44999981, z: -4}
   m_LocalScale: {x: .400000006, y: .400000006, z: .400000006}
   m_Children:
   - {fileID: 1198237908}
@@ -7931,7 +7931,7 @@ Transform:
   m_GameObject: {fileID: 263662407}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.01000023, y: .400000006, z: .00999999978}
-  m_LocalScale: {x: .5, y: .5, z: .400000006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 204952071}
   m_RootOrder: 1
@@ -16590,6 +16590,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11429722, guid: 5394edc992ec09b4ca3ff52ef1e02cc6, type: 2}
+      propertyPath: _monsterShader
+      value: 
+      objectReference: {fileID: 4800000, guid: ba79a15420b60704cb1e310cdb954ed4, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5394edc992ec09b4ca3ff52ef1e02cc6, type: 2}
   m_RootGameObject: {fileID: 1020662649}
@@ -26830,7 +26834,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &828723444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29780,7 +29784,7 @@ Transform:
   m_GameObject: {fileID: 896943224}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.51999998, y: -.689999998, z: .00999999978}
-  m_LocalScale: {x: .5, y: .5, z: .400000006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 204952071}
   m_RootOrder: 3
@@ -34285,6 +34289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3eba607b4249524f8fc7f792ec5e4e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _monsterShader: {fileID: 4800000, guid: ba79a15420b60704cb1e310cdb954ed4, type: 3}
   swordSprite: {fileID: 21300000, guid: 42cae84e9a8b47c44a87e3b43b34fa32, type: 3}
   bowSprte: {fileID: 21300000, guid: a584f9b2a286a6046b46fdc56e459ca5, type: 3}
   staffSprite: {fileID: 21300000, guid: 68a5a118ccac3474fae34e7549edfd6a, type: 3}
@@ -45460,7 +45465,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1384138637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: 1.80999994, z: -4}
+  m_LocalPosition: {x: -8.60999966, y: 4.44999981, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1300376122}
@@ -67757,11 +67762,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 484224, guid: be6b766f217edea48bf211da4888837b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.25
+      value: -8.60999966
       objectReference: {fileID: 0}
     - target: {fileID: 484224, guid: be6b766f217edea48bf211da4888837b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.80999994
+      value: 4.44999981
       objectReference: {fileID: 0}
     - target: {fileID: 470978, guid: be6b766f217edea48bf211da4888837b, type: 2}
       propertyPath: m_LocalPosition.x
@@ -71708,7 +71713,7 @@ Transform:
   m_GameObject: {fileID: 2052195616}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.92999983, y: -1.15999997, z: .00999999978}
-  m_LocalScale: {x: .5, y: .5, z: .400000006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 204952071}
   m_RootOrder: 4

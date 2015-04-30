@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour {
 	[SerializeField] string fightAnimationName;
 	[SerializeField] float attackRange;
 	public AI ai;
-
+	[SerializeField] MonsterTypes monsterType;
 	public int Damage{
 		get{
 			switch(weapon.itemType){
@@ -116,7 +116,7 @@ public class Enemy : MonoBehaviour {
 
 
 	public void GenerateEnemy(){
-		looks.GenerateLooks ();
+		looks.GenerateLooks (monsterType);
 		looks.SetActiveWeapon (weapon);
 		skillset.CreateSkillset (true);
 		currentHealth = MaxHealth;

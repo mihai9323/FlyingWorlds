@@ -4,10 +4,10 @@ using System.Collections;
 public class EnemyLooks : MonoBehaviour {
 
 	[SerializeField] BodyPart  a_head;
-	private Color bodyColor;
 
-	public void GenerateLooks(){
-	
+
+	public void GenerateLooks(MonsterTypes monsterType){
+		a_head.BuildAndSetRandomColors (ColorCodes.getColorConfig(monsterType));
 		ShowAll ();
 
 	}

@@ -34,6 +34,22 @@ public class BodyPart : MonoBehaviour {
 		this.GetComponent<SpriteRenderer> ().color = color;
 		myColor = color;
 	}
+	public void BuildAndSetRandomColors(float[,] faceRandom){
+		Color[] colors = new Color[6];
+		for (int i =0; i<6; i++) {
+			if(i<3)colors[i] = new Color(Random.Range(faceRandom[0,0],faceRandom[0,1]),Random.Range(faceRandom[1,0],faceRandom[1,1]),Random.Range(faceRandom[2,0],faceRandom[2,1]));
+			else colors[i] = new Color(Random.value,Random.value,Random.value); 
+		}
+		SetColors (colors);
+	}
+	public void SetColors(Color[] colors){
+		Material mat = new Material (SpriteManager.monsterShader);
+		mat.SetColor ("_Color", ColorCodes.tint);
+		for (int i =0; i<6; i++) {
+			mat.SetColor("_Color"+(i+1).ToString(),colors[i]);
+		}
+		sRenderer.material = mat;
+	}
 
 	public void StartAnimation(string animation){
 		if (!string.IsNullOrEmpty (currentAnimation)) {
