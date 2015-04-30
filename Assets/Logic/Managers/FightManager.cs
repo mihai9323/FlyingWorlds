@@ -6,6 +6,11 @@ public class FightManager : MonoBehaviour {
 	[SerializeField] Transform minSpawn, maxSpawn;
 	[SerializeField] Enemy[] enemyTypes;
 	[SerializeField] Projectile _fireBall, _arrow;
+	public static Transform s_transform{
+		get{
+			return s_Instance.transform;
+		}
+	}
 	public static Projectile fireBall{
 		get{
 			return s_Instance._fireBall;

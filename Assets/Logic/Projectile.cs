@@ -11,10 +11,15 @@ public class Projectile : MonoBehaviour {
 
 
 	public void ShootCharacter(Vector3 targetPos, int damage, VOID_FUNCTION_CHARACTER OnCharacterResponse){
+		this.transform.parent = FightManager.s_transform;
 		StartCoroutine (WaitForResponse (targetPos, damage, OnCharacterResponse));
 	}
 	public void ShootMonster(Vector3 targetMonster,int damage, VOID_FUNCTION_ENEMY OnEnemyResponse){
+		this.transform.parent = FightManager.s_transform;
 		StartCoroutine (WaitForResponse (targetMonster, damage, OnEnemyResponse));
+	}
+	private void OnDisable(){
+		Destroy (this.gameObject);
 	}
 
 	private IEnumerator	Move(Vector3 targetPos){
