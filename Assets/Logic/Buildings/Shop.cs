@@ -3,76 +3,101 @@ using System.Collections;
 using UnityEngine.UI;
 public class Shop : MonoBehaviour {
 	[SerializeField] Text T_my_dmg;
-	[SerializeField] Text T_my_speed;
-	[SerializeField] Text T_my_shine;
+	[SerializeField] Text t_my_range;
+
 	
 	[SerializeField] Text T_other_dmg;
-	[SerializeField] Text T_other_speed;
-	[SerializeField] Text T_other_shine;
-	
-	[SerializeField] Text BuyPrice;
-	[SerializeField] Text SwapPrice;
-	[SerializeField] Text SellPrice;
+	[SerializeField] Text T_other_range;
+
+
+	[SerializeField] Text T_myItemValue;
+	[SerializeField] Text T_buyItemValue;
+
+
+	[SerializeField] Text T_buyButton;
+	[SerializeField] Text T_swapButton;
+	[SerializeField] Text T_sellButton;
 
 	[SerializeField] Text T_my_item_name;
 	[SerializeField] Text T_other_item_name;
-
+	[SerializeField] Text T_ShopName;
+	[SerializeField] Text T_ShopUpgrade;
 	[SerializeField] GameObject BuyButton,SwapButton,SellButton;
 	
 	private int myItemValue, otherItemValue;
 
 	public Item sellItem, buyItem;
-	public int level;
+	public int level = 1;
+	public int upgradeCost{
+		get{
+			return (int)((level + 1) * 30 * Mathf.Pow(2,level+1));
+		}
+	}
+	public void OnEnable(){
+		T_ShopName.text = "SHOP Level " + level;
+		T_ShopUpgrade.text = "Upgrade For " + upgradeCost;
+
+		T_my_dmg.text = "";
+		t_my_range.text = "";
+		T_myItemValue.text = "";
+		myItemValue = 0;
+
+		T_other_dmg.text = "";
+		T_other_range.text = "";
+		T_buyItemValue.text = "";
+		otherItemValue = 0;
+	}
 	public void CompareMyItem(Item item){
 		sellItem = item;
 		if(item.itemType == Item.ItemType.None){
-			T_my_dmg.text = "No Item Selected";
-			T_my_speed.text = "";
-			T_my_shine.text = "";
+			T_my_dmg.text = "";
+			t_my_range.text = "";
+			T_myItemValue.text = "";
 			myItemValue = 0;
 
 		}
 		else if(item.itemType == Item.ItemType.Armor){
 			T_my_dmg.text = "DEF: "+item.Defence;
-			T_my_speed.text = "";
-			T_my_shine.text= "SHINE: "+ item.shine;
+			t_my_range.text = "";
+			T_myItemValue.text = "VALUE: " + item.Value;
 			myItemValue = item.Value;
 	
 			
 		}else{
 			T_my_dmg.text = "DMG: "+item.Damage;
-			T_my_speed.text = "RNG: "+item.Range;
-			T_my_shine.text = "SHINE: "+ item.shine;
+			t_my_range.text = "RNG: "+item.Range;
+			T_myItemValue.text = "VALUE: " + item.Value;
 			myItemValue = item.Value;
 
 		}
-		T_my_item_name.text = "SELL \n" + item.ItemName;
+		T_my_item_name.text = item.ItemName;
+
 		DisplayButtons ();
 	}
 	public void CompareSaleItem(Item item){
 		buyItem = item;
 		if(item.itemType == Item.ItemType.None){
-			T_other_dmg.text = "No item selected";
-			T_other_speed.text = "";
-			T_other_shine.text = "";
+			T_other_dmg.text = "";
+			T_other_range.text = "";
+			T_buyItemValue.text = "";
 			otherItemValue = 0;
 		
 		}
 		else if(item.itemType == Item.ItemType.Armor){
 			T_other_dmg.text = "DEF: "+item.Defence;
-			T_other_speed.text = "";
-			T_other_shine.text = "SHINE: "+ item.shine;
+			T_other_range.text = "";
+			T_buyItemValue.text = "VALUE: " + item.Value;
 			otherItemValue = item.Value;
 
 			
 		}else{
 			T_other_dmg.text = "DMG: "+item.Damage;
-			T_other_speed.text = "RNG: "+item.Range;
-			T_other_shine.text = "SHINE: "+ item.shine;
+			T_other_range.text = "RNG: "+item.Range;
+			T_buyItemValue.text = "VALUE: " + item.Value;
 			otherItemValue = item.Value;
 		
 		}
-		T_other_item_name.text = "BUY \n" + item.ItemName;
+		T_other_item_name.text = item.ItemName;
 		DisplayButtons ();
 	}
 
@@ -94,7 +119,8 @@ public class Shop : MonoBehaviour {
 		InventoryManager.PopulateShop ();
 	}
 	private void BuyFunctionality(){
-		if (GameData.NumberOfCoins > otherItemValue) {
+
+		if (GameData.Pay(otherItemValue)) {
 			if(InventoryManager.ItemsForSale.Contains(buyItem)){
 				GameData.NumberOfCoins -= otherItemValue;
 				InventoryManager.ItemsInInventory.Add(buyItem);
@@ -104,6 +130,7 @@ public class Shop : MonoBehaviour {
 		}
 	}
 	private void SellFunctionality(){
+
 		if(InventoryManager.ItemsInInventory.Contains(sellItem)){
 			GameData.NumberOfCoins += myItemValue;
 			InventoryManager.ItemsForSale.Add(sellItem);
@@ -122,7 +149,7 @@ public class Shop : MonoBehaviour {
 
 			if(!InventoryManager.InventoryIsFull()){
 				BuyButton.SetActive(true);
-				BuyPrice.text = "Buy for:"+otherItemValue;
+				T_buyButton.text = "Buy for:"+otherItemValue;
 			}
 			SellButton.SetActive(false);
 			SwapButton.SetActive(false);
@@ -133,7 +160,7 @@ public class Shop : MonoBehaviour {
 			if(!InventoryManager.ShopIsFull()){
 
 				SellButton.SetActive(true);
-				SellPrice.text = "Sell for:"+myItemValue;
+				T_sellButton.text = "Sell for:"+myItemValue;
 			}
 			SwapButton.SetActive(false);
 		}else
@@ -141,10 +168,16 @@ public class Shop : MonoBehaviour {
 			BuyButton.SetActive(false);
 			SellButton.SetActive(false);
 			SwapButton.SetActive(true);
-			SwapPrice.text = "Swap for:"+(otherItemValue - myItemValue).ToString();
+			T_swapButton.text = "Swap for:"+(otherItemValue - myItemValue).ToString();
 		}
 	}
-
+	public void UpgradeShop(){
+		if (GameData.HasCoins (upgradeCost)) {
+			Debug.LogWarning ("Show are you sure you want to upgrade");
+		} else {
+			Debug.LogWarning("Show you dont have enough coins notification");
+		}
+	}
 	public void ShowShop(){
 		HubManager.ShowShop();
 	}

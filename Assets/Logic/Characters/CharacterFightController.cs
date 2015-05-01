@@ -4,7 +4,8 @@ using UnityEngine.UI;
 public class CharacterFightController : MonoBehaviour {
 
 	[SerializeField] Portrait portrait;
-	[SerializeField] Text t_Health, t_Range, t_Damage;
+
+	[SerializeField] HealthBar healthBar;
 	private Character character;
 
 	public void LoadCharacterIn(Character character){
@@ -22,9 +23,9 @@ public class CharacterFightController : MonoBehaviour {
 	}
 
 	private void UpdateStats(){
-		t_Damage.text = "Damage:"+character.Damage.ToString();
-		t_Range.text = "Range:"+character.WeaponItem.Range.ToString();
-		t_Health.text = "Health:"+character.Health.ToString()+"/"+character.MaxHealth.ToString();
+
+		healthBar.UpdateStatus (character.MaxHealth, character.Health);
+
 	}
 	private void Update(){
 		if (enabled && character!=null) {

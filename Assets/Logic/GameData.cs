@@ -40,8 +40,14 @@ public class GameData:MonoBehaviour  {
 		currentScene = scene;
 	}
 	public static bool Pay(int coins){
-		if(numberOfCoins>coins){
+		if(HasCoins(coins)){
 			NumberOfCoins -= coins;
+			return true;
+		}
+		return false;
+	}
+	public static bool HasCoins(int coins){
+		if(numberOfCoins>=coins){
 			return true;
 		}
 		return false;

@@ -17,21 +17,21 @@ public class InventoryManager : MonoBehaviour {
 	
 	[SerializeField] InventoryItem[] inventoryItems;
 	
-	public static ShopItem[] ShopItems{
+	public static ShopItem[] myItemsInShop{
 		get{
-			return s_Instance.shopItems;
+			return s_Instance._myItemsInShop;
 		}
 	}
 	
-	[SerializeField] ShopItem[] shopItems;
+	[SerializeField] ShopItem[] _myItemsInShop;
 	
-	public static ShopItem[] ForSaleItems{
+	public static ShopItem[] shopKeeperItems{
 		get{
-			return s_Instance.forSaleItems;
+			return s_Instance._shopsKeeperItems;
 		}
 	}
 	
-	[SerializeField] ShopItem[] forSaleItems;
+	[SerializeField] ShopItem[] _shopsKeeperItems;
 	
 	
 	private void Awake(){
@@ -62,7 +62,7 @@ public class InventoryManager : MonoBehaviour {
 		return true;
 	}
 	public static bool ShopIsFull(){
-		foreach (ShopItem item in ForSaleItems) {
+		foreach (ShopItem item in shopKeeperItems) {
 			if(item.itemInField == null || item.itemInField.itemType == Item.ItemType.None){
 				return false;
 			}
@@ -76,28 +76,28 @@ public class InventoryManager : MonoBehaviour {
 			Item item = GetNextNotUsedItem(ref c,ItemsInInventory);
 			if(item!=null){
 				InventoryItems[i].itemInField = item;
-				ShopItems[i].itemInField = item;
+				myItemsInShop[i].itemInField = item;
 		
 			}else{
 				InventoryItems[i].itemInField = new Item();
-				ShopItems[i].itemInField = new Item();
+				myItemsInShop[i].itemInField = new Item();
 			}
-			ShopItems[i].DisplayItem();
+			myItemsInShop[i].DisplayItem();
 		}
 	}
 	public static void PopulateShop(){
 		int c = 0;
-		for(int i =0; i<ForSaleItems.Length; i++){
+		for(int i =0; i<shopKeeperItems.Length; i++){
 			Item item = GetNextNotUsedItem(ref c,ItemsForSale);
 			if(item!=null){
-				ForSaleItems[i].itemInField = item;
+				shopKeeperItems[i].itemInField = item;
 				
 				
 			}else{
-				ForSaleItems[i].itemInField = new Item();
+				shopKeeperItems[i].itemInField = new Item();
 				
 			}
-			ForSaleItems[i].DisplayItem();
+			shopKeeperItems[i].DisplayItem();
 		}
 	}
 	private static Item GetNextNotUsedItem(ref int c, List<Item> itemArray){
