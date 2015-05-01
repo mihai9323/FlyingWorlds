@@ -210,7 +210,7 @@ public class Character : MonoBehaviour {
 
 			}else Debug.LogWarning("Allready in party");
 		} else
-			Debug.Log ("Sorry full party");
+			HubManager.notification.ShowNotification("Your fighting party is to large \n Kick someone out before inviting a new member!","Sure!");
 	}
 	public void RemoveFromParty(){
 		if(this.inFightingParty){

@@ -17,7 +17,9 @@ public class Road : MonoBehaviour {
 				HubManager.interactable = false;
 
 			} else
-				Debug.Log ("Party empty");
+				HubManager.notification.ShowNotification("You haven't chosen any great champions for the next battle! \n Go to the barracks and prepare your man!","Let's go!",delegate() {
+					HubManager.ShowCharacters();
+				});
 		}
 	}
 

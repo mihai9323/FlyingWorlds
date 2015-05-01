@@ -47,7 +47,7 @@ public class GameData:MonoBehaviour  {
 		return false;
 	}
 	public static bool HasCoins(int coins){
-		if(numberOfCoins>=coins){
+		if(NumberOfCoins>=coins){
 			return true;
 		}
 		return false;

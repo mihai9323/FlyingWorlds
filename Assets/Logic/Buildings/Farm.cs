@@ -15,22 +15,25 @@ public class Farm : MonoBehaviour {
 			return (int)(upgradeCost*.8f);
 		}
 	}
-	[HideInInspector]public void Upgrade(){
+	public void Upgrade(){
 		if (GameData.Pay (upgradeCost)) {
 			farmLevel++;
-			upgradeButton.gameObject.SetActive(false);
+		} else {
+			HubManager.notification.ShowNotification("Your treasury doesn't support this investment!","Oh!");
 		}
-		ShowUpgradeButton ();
+
 	}
 
 	public void ShowUpgradeButton(){
-		upgradeButton.SetText ("Upgrade to level "+(farmLevel+1).ToString()+" for "+upgradeCost.ToString()+" and earn "+incomePerTurn.ToString()+"per turn");
-		upgradeButton.gameObject.SetActive(true);
-		StopCoroutine ("HideUpgrade");
-		StartCoroutine ("HideUpgrade", 3.0f);
+		HubManager.notification.ShowConfirm(
+			"Upgrade to level "+(farmLevel+1).ToString()+" for "+upgradeCost.ToString()+" and earn "+incomePerTurn.ToString()+"per turn",
+			"YES",
+			"NO",
+			delegate() {
+				Upgrade();
+			}
+		);
 	}
-	private IEnumerator HideUpgrade(float time){
-		yield return new WaitForSeconds (time);
-		upgradeButton.gameObject.SetActive(false);
-	}
+
+	
 }

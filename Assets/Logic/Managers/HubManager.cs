@@ -12,11 +12,12 @@ public class HubManager : MonoBehaviour {
 
 	[SerializeField] Shop m_shop;
 	[SerializeField] Road m_road;
+	[SerializeField] NotificationBox m_notif;
 	public static Farm farm{get{return s_Instance.m_farm;}}
 
 	public static Shop shop{get{return s_Instance.m_shop;}}
 	public static Road road{ get { return s_Instance.m_road; } }
-
+	public static NotificationBox notification{ get { return s_Instance.m_notif; } }
 	public static bool interactable = true;
 	
 	

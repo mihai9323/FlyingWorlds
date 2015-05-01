@@ -23,7 +23,7 @@ public class Shop : MonoBehaviour {
 	[SerializeField] Text T_ShopName;
 	[SerializeField] Text T_ShopUpgrade;
 	[SerializeField] GameObject BuyButton,SwapButton,SellButton;
-	
+	[SerializeField] GameObject Empty;
 	private int myItemValue, otherItemValue;
 
 	public Item sellItem, buyItem;
@@ -120,14 +120,15 @@ public class Shop : MonoBehaviour {
 	}
 	private void BuyFunctionality(){
 
-		if (GameData.Pay(otherItemValue)) {
-			if(InventoryManager.ItemsForSale.Contains(buyItem)){
-				GameData.NumberOfCoins -= otherItemValue;
-				InventoryManager.ItemsInInventory.Add(buyItem);
-				InventoryManager.ItemsForSale.Remove(buyItem);
-				CompareSaleItem(new Item());
+		if (InventoryManager.ItemsForSale.Contains (buyItem)) {
+			if (GameData.Pay (otherItemValue)) {
+				InventoryManager.ItemsInInventory.Add (buyItem);
+				InventoryManager.ItemsForSale.Remove (buyItem);
+				CompareSaleItem (new Item ());
+			}else {
+				HubManager.notification.ShowNotification("You do not have enough coins to buy the "+buyItem.ItemName+"\n Come back when you have enough!","Ok!",null);
 			}
-		}
+		} 
 	}
 	private void SellFunctionality(){
 
@@ -144,6 +145,7 @@ public class Shop : MonoBehaviour {
 			BuyButton.SetActive(false);
 			SellButton.SetActive(false);
 			SwapButton.SetActive(false);
+
 		}else
 		if (myItemValue == 0 && otherItemValue != 0) {
 
@@ -170,6 +172,7 @@ public class Shop : MonoBehaviour {
 			SwapButton.SetActive(true);
 			T_swapButton.text = "Swap for:"+(otherItemValue - myItemValue).ToString();
 		}
+		Empty.SetActive(!BuyButton.activeInHierarchy && !SellButton.activeInHierarchy && !SwapButton.activeInHierarchy);
 	}
 	public void UpgradeShop(){
 		if (GameData.HasCoins (upgradeCost)) {
