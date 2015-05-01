@@ -101,7 +101,7 @@ public class Enemy : MonoBehaviour {
 			float initZ = transform.position.z;
 
 			movement_target = movement_target_transform.position;
-
+			movement_target += Vector3.one * Random.value;
 
 
 
@@ -194,7 +194,7 @@ public class Enemy : MonoBehaviour {
 			}else if(fightAnimationName == AnimationNames.kMagicAttack){
 				ShootProjectile(FightManager.fireBall,targetCharacter);
 			}else{
-				targetCharacter.Hit (this.Damage);
+				targetCharacter.Hit (this.Damage,.5f);
 			}
 
 		}

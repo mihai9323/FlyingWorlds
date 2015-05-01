@@ -147,12 +147,16 @@ public class Character : MonoBehaviour {
 		return message;
 	}
 
-	public void Hit(int damage){
+	public void Hit(int damage,float time=0){
+		StartCoroutine (BeHitDelayed (time,damage));
 
+	}
+	private IEnumerator BeHitDelayed(float time,int damage){
+		if(time>0)yield return new WaitForSeconds (time);
 		Health -= Mathf.Max (damage-Armor,1);
 		if (Health <= 1) {
 			fightState = FightState.Flee;
-
+			
 			this.tag = "Dead";
 		}
 	}
