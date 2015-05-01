@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour {
 	[SerializeField] float attackRange;
 	public AI ai;
 	[SerializeField] MonsterTypes monsterType;
+	public float attackTime = 1.5f;
 	public int Damage{
 		get{
 			switch(weapon.itemType){
@@ -198,7 +199,7 @@ public class Enemy : MonoBehaviour {
 
 		}
 		StopAllCoroutines ();
-		Invoke ("StartAITick", 1.2f);
+		Invoke ("StartAITick", attackTime);
 		
 	}
 	private void StartAITick(){

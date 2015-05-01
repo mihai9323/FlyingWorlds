@@ -47,7 +47,7 @@ public class Character : MonoBehaviour {
 	public int Level;
 	public LabelManager.LabelType[] Labels;
 	public bool Ready;
-	
+	public float attackTime  = 1.3f;
 	public string Thinks{
 		get{
 			return iThink();
@@ -97,7 +97,11 @@ public class Character : MonoBehaviour {
 	private void Awake(){
 
 		origScale = transform.localScale;
+		PlaceOnLayer ();
 	}
+
+
+
 	private void OnDestroy(){
 
 	} 
@@ -176,8 +180,7 @@ public class Character : MonoBehaviour {
 			                                       movement_target, 
 			                                       ct
 			                                       );
-			initZ = Mathf.Lerp(-10,0,Camera.main.WorldToScreenPoint(transform.position).y/Screen.height);
-			transform.position = new Vector3(transform.position.x,transform.position.y,initZ);
+			PlaceOnLayer();
 			yield return null;
 			remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
 		}
@@ -186,7 +189,11 @@ public class Character : MonoBehaviour {
 			callback (this);
 
 	}
-
+	void PlaceOnLayer ()
+	{
+		float z = Mathf.Lerp (-10, 0, Camera.main.WorldToScreenPoint (transform.position).y / Screen.height);
+		transform.position = new Vector3 (transform.position.x, transform.position.y, z);
+	}
 	private void FaceTarget(){
 
 		if(movement_target!=null)FaceDirection ((int)(movement_target.x-transform.position.x));
@@ -259,8 +266,7 @@ public class Character : MonoBehaviour {
 			
 			
 			this.transform.position += (-transform.position + (Vector3)movement_target).normalized * Time.deltaTime * movementSpeed;
-			initZ = Mathf.Lerp(-10,0,Camera.main.WorldToScreenPoint(transform.position).y/Screen.height);
-			transform.position = new Vector3(transform.position.x,transform.position.y,initZ);
+			PlaceOnLayer();
 			yield return null;
 			remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
 		}
@@ -341,7 +347,7 @@ public class Character : MonoBehaviour {
 
 		}
 		StopAllCoroutines ();
-		Invoke ("StartAITick", 1.2f);
+		Invoke ("StartAITick", attackTime);
 
 	}
 	private void ShootProjectile(Projectile p, Enemy target){
@@ -411,6 +417,7 @@ public class Character : MonoBehaviour {
 		this.fightState = FightState.Idle;
 		this.Looks.StopAnimation ();
 		this.transform.position = HubManager.road.RoadWorldSpace.position;
+		this.fled = false;
 		RemoveFromParty ();
 	}
 }
