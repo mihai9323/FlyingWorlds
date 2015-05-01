@@ -8,7 +8,7 @@ public class Projectile : MonoBehaviour {
 	[SerializeField]private float arrowHeight = 3;
 	[SerializeField]private float areaOfAttack = 1;
 	[SerializeField]private bool rotate = true;
-
+	[SerializeField]private bool affectedByDayTime = true;
 
 	public void ShootCharacter(Vector3 targetPos, int damage, VOID_FUNCTION_CHARACTER OnCharacterResponse){
 		this.transform.parent = FightManager.s_transform;
@@ -23,6 +23,9 @@ public class Projectile : MonoBehaviour {
 	}
 
 	private IEnumerator	Move(Vector3 targetPos){
+		if (affectedByDayTime) {
+			this.GetComponent<SpriteRenderer>().color = FightManager.battles[GameData.nextBattleID].dayColor;
+		}
 		Vector3 lScale = transform.localScale;
 		lScale.x *= (int)Mathf.Sign (targetPos.x - transform.position.x);
 		transform.localScale = lScale;

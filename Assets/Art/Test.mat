@@ -7,8 +7,9 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Test
-  m_Shader: {fileID: 4800000, guid: ba79a15420b60704cb1e310cdb954ed4, type: 3}
-  m_ShaderKeywords: []
+  m_Shader: {fileID: 4800000, guid: 5d6ca84ee4f845c4a9a081725a55ab7c, type: 3}
+  m_ShaderKeywords:
+  - PIXELSNAP_ON
   m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
@@ -20,8 +21,16 @@ Material:
           m_Texture: {fileID: 2800000, guid: c535d0a1aa7774d439010c329624f884, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+    m_Floats:
+      data:
+        first:
+          name: PixelSnap
+        second: 1
     m_Colors:
+      data:
+        first:
+          name: _LightColor
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _Color

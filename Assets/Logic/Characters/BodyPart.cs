@@ -25,7 +25,9 @@ public class BodyPart : MonoBehaviour {
 
 
 	}
-
+	public void SetLightColor(Color color){
+		sRenderer.material.SetColor ("_LightColor", color);
+	}
 	public void BuildRandomColor(){
 		myColor = new Color (Random.value, Random.value, Random.value, 1.0f);
 		this.GetComponent<SpriteRenderer> ().color = myColor;
@@ -36,9 +38,10 @@ public class BodyPart : MonoBehaviour {
 	}
 	public void BuildAndSetRandomColors(float[,] faceRandom){
 		Color[] colors = new Color[6];
+		Color dayColor = FightManager.battles [GameData.nextBattleID].dayColor;
 		for (int i =0; i<6; i++) {
-			if(i<3)colors[i] = new Color(Random.Range(faceRandom[0,0],faceRandom[0,1]),Random.Range(faceRandom[1,0],faceRandom[1,1]),Random.Range(faceRandom[2,0],faceRandom[2,1]));
-			else colors[i] = new Color(Random.value,Random.value,Random.value); 
+			if(i<3)colors[i] = new Color(Random.Range(faceRandom[0,0],faceRandom[0,1])*dayColor.r,Random.Range(faceRandom[1,0],faceRandom[1,1])*dayColor.g,Random.Range(faceRandom[2,0],faceRandom[2,1])*dayColor.b);
+			else colors[i] = new Color(Random.value*dayColor.r,Random.value*dayColor.g,Random.value*dayColor.b); 
 		}
 		SetColors (colors);
 	}

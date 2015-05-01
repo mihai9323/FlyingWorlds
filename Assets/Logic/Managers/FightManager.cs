@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using System.Collections.Generic;
 public class FightManager : MonoBehaviour {
 	private static FightManager s_Instance;
 	[SerializeField] Transform minSpawn, maxSpawn;
@@ -21,16 +21,7 @@ public class FightManager : MonoBehaviour {
 			return s_Instance._arrow;
 		}
 	}
-	private void Awake(){
-		s_Instance = this;
-	}
-	private void OnEnable(){
-		Vector3 mPos = s_Instance.minSpawn.position;
-		Vector3 MPos = s_Instance.maxSpawn.position;
-		EnemyManager.GenerateEnemies (new float[3]{.2f,.5f,.3f},20,mPos,MPos,enemyTypes);
-		LoadCharactersInScene ();
-		StartCharactersAI ();
-	}
+
 	[SerializeField] Transform fleeTarget;
 	public static Transform FleeTarget{
 		get{
@@ -39,7 +30,9 @@ public class FightManager : MonoBehaviour {
 	}
 	[SerializeField] CharacterFightController[] fightControllers;
 	[SerializeField] Transform[] characterSpawnPlaces;
+	[SerializeField] Battle[] battlePresets;
 
+	public static Dictionary<string, Battle> battles;
 	public static CharacterFightController[] FightControllers{
 		get{
 			return s_Instance.fightControllers;
@@ -64,6 +57,31 @@ public class FightManager : MonoBehaviour {
 		}
 	}
 
+	void Awake(){
+		s_Instance = this;
+		battles = new Dictionary<string,Battle>(battlePresets.Length);
+		foreach (Battle b in battlePresets) {
+			battles.Add(b.id,b);
+		}
+	}
+
+	void OnEnable(){
+		foreach (Battle b in battlePresets) {
+			b.fightBackground.SetActive(false);
+		}
+		StartBattle ();
+	}
+	public void StartBattle(){
+
+		this.gameObject.SetActive (true);
+		Vector3 mPos = s_Instance.minSpawn.position;
+		Vector3 MPos = s_Instance.maxSpawn.position;
+		battles [GameData.nextBattleID].Generate ();
+		EnemyManager.GenerateEnemies (20,mPos,MPos,enemyTypes);
+		LoadCharactersInScene ();
+		StartCharactersAI ();
+	}
+
 	public static void LoadCharactersInScene(){
 		int c = 0;
 		foreach(Character character in CharacterManager.gameCharacters){
@@ -75,6 +93,7 @@ public class FightManager : MonoBehaviour {
 				character.FaceDirection(1);
 				character.fightState = FightState.StandGround;
 				character.tag = "CHARACTER";
+				character.Looks.SetLight(battles[GameData.nextBattleID].dayColor);
 				c++;
 			}
 		}

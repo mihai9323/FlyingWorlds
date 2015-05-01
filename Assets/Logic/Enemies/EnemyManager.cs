@@ -10,7 +10,8 @@ public class EnemyManager : MonoBehaviour {
 		s_Instance = this;
 	}
 
-	public static void GenerateEnemies(float[] typeChance, int number, Vector3 minPos, Vector3 maxPos, Enemy[] enemyTypes){
+	public static void GenerateEnemies(int number, Vector3 minPos, Vector3 maxPos, Enemy[] enemyTypes){
+		float[] typeChance = FightManager.battles[GameData.nextBattleID].monsterSpawnChances;
 		LevelEnemies = new Enemy[number];
 		for(int i = 0; i<number; i++){
 			int eType = 0;

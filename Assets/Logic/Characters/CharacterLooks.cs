@@ -32,6 +32,17 @@ public class CharacterLooks : MonoBehaviour {
 		}
 
 	}
+	public void SetLight(Color light){
+		if(a_body!=null)a_body.SetLightColor (light);
+		if(a_beard!=null)a_beard.SetLightColor (light);
+		if(a_eyes!=null)a_eyes.SetLightColor (light);
+		if(a_eyebrows!=null)a_eyebrows.SetLightColor (light);
+		if(a_hair!=null)a_hair.SetLightColor (light);
+		if(a_frontArm!=null)a_frontArm.SetLightColor (light);
+		if(a_mouthes!=null)a_mouthes.SetLightColor (light);
+		if(a_noses!=null)a_noses.SetLightColor (light);
+		if(a_weapon!=null)a_weapon.SetLightColor (light);
+	}
 	public void RemoveActiveWeapon(){
 		foreach (BodyPart weapon in weapons) {
 			weapon.gameObject.SetActive(false);

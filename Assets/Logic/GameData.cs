@@ -8,6 +8,8 @@ public class GameData:MonoBehaviour  {
 	public GameObject hubScene, fightScene;
 
 	public static int TurnNumber = 1;
+	[SerializeField] string _nextBattleID;
+	public static string nextBattleID{ get { return s_Instance._nextBattleID; } set { s_Instance._nextBattleID = value; } }
 	private static GameScenes currentScene;
 	private void Start(){
 		s_Instance = this;

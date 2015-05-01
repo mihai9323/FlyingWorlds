@@ -60,6 +60,7 @@ MonoBehaviour:
   arrowHeight: 2
   areaOfAttack: 1
   rotate: 1
+  affectedByDayTime: 0
 --- !u!212 &21247422
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -419,5 +419,6 @@ public class Character : MonoBehaviour {
 		this.transform.position = HubManager.road.RoadWorldSpace.position;
 		this.fled = false;
 		RemoveFromParty ();
+		this.Looks.SetLight (Color.white);
 	}
 }
