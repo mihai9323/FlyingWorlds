@@ -15,6 +15,21 @@ public class CharacterManager : MonoBehaviour {
 	[SerializeField] string[] _secondName;
 	[SerializeField] Transform[] characterSpawnPlaces;
 
+	public static int partyMoral{
+		get{
+			float v = 0;
+			foreach(Character c in gameCharacters){
+				if(c.trait0.buffs.Contains(BuffsAndDebuffs.BuffType.MoreMoraleParty) || c.trait0.buffs.Contains(BuffsAndDebuffs.BuffType.MoreMoraleParty)){
+					v+= (BuffsAndDebuffs.buffDefinitions[BuffsAndDebuffs.BuffType.MoreMoraleParty].maxAdditiveValue * c.CalculatePlainMoral());
+				}
+				if(c.trait0.buffs.Contains(BuffsAndDebuffs.BuffType.LessMoraleParty) || c.trait0.buffs.Contains(BuffsAndDebuffs.BuffType.LessMoraleParty)){
+					v+= (BuffsAndDebuffs.buffDefinitions[BuffsAndDebuffs.BuffType.LessMoraleParty].maxAdditiveValue * c.CalculatePlainMoral());
+				}
+			}
+			return Mathf.RoundToInt(v);
+		}
+	}
+
 	public static Transform[] CharacterSpawnPlaces{
 		get{
 			return s_Instance.characterSpawnPlaces;

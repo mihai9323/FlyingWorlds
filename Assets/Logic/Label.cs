@@ -132,10 +132,10 @@ public class Label  {
 			if(c!= character){
 				int cValue = 0;
 				if(c.WeaponItem!= null && c.WeaponItem.itemType != Item.ItemType.None){
-					cValue += character.WeaponItem.Value;
+					cValue += c.WeaponItem.Value;
 				}
 				if(c.ArmorItem!= null && c.ArmorItem.itemType != Item.ItemType.None){
-					cValue += character.ArmorItem.Value;
+					cValue += c.ArmorItem.Value;
 				}
 				if(cValue>myValue){
 					return false;

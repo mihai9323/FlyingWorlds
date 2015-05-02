@@ -18,7 +18,16 @@ public class Character : MonoBehaviour {
 	public float fleeSpeed = 1.5f;
 	public bool inFightingParty;
 	public bool fled;
-
+	public Trait trait0{
+		get{
+			return TraitManager.GetTrait(Traits[0]);
+		}
+	}
+	public Trait trait1{
+		get{
+			return TraitManager.GetTrait(Traits[1]);
+		}
+	}
 	public Item WeaponItem{
 		get{
 			if(weaponItem == null) return new Item();
@@ -87,7 +96,7 @@ public class Character : MonoBehaviour {
 	}
 	public int Moral{
 		get{
-			return (int)Mathf.Clamp (CalculateMoral(),0,100);
+			return (int)Mathf.Clamp (CalculateMoral()*100,0,100);
 		}
 	}
 
@@ -109,7 +118,24 @@ public class Character : MonoBehaviour {
 	} 
 
 	public float CalculateMoral(){
-		return 0.5f;
+		int moral = 5;
+		foreach (Label l in labels.Values) {
+			if(TraitManager.GetTrait(this.Traits[0]).influencedBy.Contains(l.labelType) || TraitManager.GetTrait(this.Traits[1]).influencedBy.Contains(l.labelType)){
+				moral += l.moraleChange;
+			}
+		}
+		moral = Mathf.Clamp (moral + CharacterManager.partyMoral, 0, 10);
+		return (float)moral / 10;
+	}
+	public float CalculatePlainMoral(){
+		int moral = 5;
+		foreach (Label l in labels.Values) {
+			if(TraitManager.GetTrait(this.Traits[0]).influencedBy.Contains(l.labelType) || TraitManager.GetTrait(this.Traits[1]).influencedBy.Contains(l.labelType)){
+				moral += l.moraleChange;
+			}
+		}
+		moral = Mathf.Clamp (moral, 0, 10);
+		return (float)moral / 10;
 	}
 
 	
