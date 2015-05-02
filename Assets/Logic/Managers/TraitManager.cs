@@ -7,15 +7,19 @@ public class TraitManager : MonoBehaviour {
 	private static TraitManager s_Instance;
 	
 	public enum TraitTypes{
-		DoesntBelieveInMagic,
-		Gypsy,
-		Fabulous,
-		ByTheBooks,
+		Melee,
+		Archery,
+		Magic,
+		Armory,
 		Scared,
-		Drunk,
-		Fatty,
-		Jolly,
-		Persuasive
+		ArmyMan,
+		Fabulous,
+		Brave,
+		Clown,
+		Pessimist,
+		Farmer,
+		ShopClerk
+
 	}
 	
 	[SerializeField] Trait[] traits;

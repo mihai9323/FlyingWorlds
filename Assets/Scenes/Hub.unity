@@ -3422,6 +3422,7 @@ Transform:
   m_Children:
   - {fileID: 373903092}
   - {fileID: 1146951728}
+  - {fileID: 737542612}
   - {fileID: 678051977}
   - {fileID: 1020662651}
   - {fileID: 779693542}
@@ -15084,7 +15085,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 429722, guid: 5394edc992ec09b4ca3ff52ef1e02cc6, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11429722, guid: 5394edc992ec09b4ca3ff52ef1e02cc6, type: 2}
       propertyPath: _monsterShader
@@ -19648,6 +19649,50 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 658059690}
+--- !u!1001 &662422036
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 150551197}
+    m_Modifications:
+    - target: {fileID: 442998, guid: c5de62ff9536adb46b572d73a71df800, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 429.77652
+      objectReference: {fileID: 0}
+    - target: {fileID: 442998, guid: c5de62ff9536adb46b572d73a71df800, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 328.586273
+      objectReference: {fileID: 0}
+    - target: {fileID: 442998, guid: c5de62ff9536adb46b572d73a71df800, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 442998, guid: c5de62ff9536adb46b572d73a71df800, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 442998, guid: c5de62ff9536adb46b572d73a71df800, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 442998, guid: c5de62ff9536adb46b572d73a71df800, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 442998, guid: c5de62ff9536adb46b572d73a71df800, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 442998, guid: c5de62ff9536adb46b572d73a71df800, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c5de62ff9536adb46b572d73a71df800, type: 2}
+  m_RootGameObject: {fileID: 737542611}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &669341681
 GameObject:
   m_ObjectHideFlags: 0
@@ -19977,118 +20022,64 @@ MonoBehaviour:
   traits:
   - name: Non believer
     traitType: 0
-    healthBonus: 1
-    armorBonus: 1
-    meleeBonus: 1
-    rangedBonus: 1
-    magicBonus: 0
-    moraleBonus: 1
-    immuneToMagic: 1
-    orderResponse: 0
+    buffs: 
+    debuffs: 
     lifeGoal: 2
     hateOtherLabel: 
     hateSelfLabel: 0a000000
   - name: Gypsy
     traitType: 1
-    healthBonus: 1
-    armorBonus: 1
-    meleeBonus: 1
-    rangedBonus: 1
-    magicBonus: 1
-    moraleBonus: 1
-    immuneToMagic: 0
-    orderResponse: 1
+    buffs: 
+    debuffs: 
     lifeGoal: 10
     hateOtherLabel: 
     hateSelfLabel: 
   - name: Fabulous
     traitType: 2
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
-    immuneToMagic: 0
-    orderResponse: 0
+    buffs: 
+    debuffs: 
     lifeGoal: 0
     hateOtherLabel: 
     hateSelfLabel: 
   - name: By the books
     traitType: 3
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
-    immuneToMagic: 0
-    orderResponse: 0
+    buffs: 
+    debuffs: 
     lifeGoal: 0
     hateOtherLabel: 00000000
     hateSelfLabel: 
   - name: Scared
     traitType: 4
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
-    immuneToMagic: 0
-    orderResponse: 0
+    buffs: 
+    debuffs: 
     lifeGoal: 0
     hateOtherLabel: 
     hateSelfLabel: 
   - name: Drunk
     traitType: 5
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
-    immuneToMagic: 0
-    orderResponse: 0
+    buffs: 
+    debuffs: 
     lifeGoal: 0
     hateOtherLabel: 
     hateSelfLabel: 
   - name: Fatty
     traitType: 6
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
-    immuneToMagic: 0
-    orderResponse: 0
+    buffs: 
+    debuffs: 
     lifeGoal: 0
     hateOtherLabel: 
     hateSelfLabel: 
   - name: Jolly
     traitType: 7
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
-    immuneToMagic: 0
-    orderResponse: 0
+    buffs: 
+    debuffs: 
     lifeGoal: 0
     hateOtherLabel: 
     hateSelfLabel: 
   - name: Persuasive
     traitType: 8
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
-    immuneToMagic: 0
-    orderResponse: 0
+    buffs: 
+    debuffs: 
     lifeGoal: 0
     hateOtherLabel: 
     hateSelfLabel: 
@@ -20103,7 +20094,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 150551197}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!1 &679519647
 GameObject:
   m_ObjectHideFlags: 0
@@ -22611,6 +22602,177 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &737542611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 142998, guid: c5de62ff9536adb46b572d73a71df800, type: 2}
+  m_PrefabInternal: {fileID: 662422036}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 737542612}
+  - 114: {fileID: 737542613}
+  m_Layer: 0
+  m_Name: Buffs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &737542612
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 442998, guid: c5de62ff9536adb46b572d73a71df800, type: 2}
+  m_PrefabInternal: {fileID: 662422036}
+  m_GameObject: {fileID: 737542611}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 429.77652, y: 328.586273, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 150551197}
+  m_RootOrder: 2
+--- !u!114 &737542613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11442998, guid: c5de62ff9536adb46b572d73a71df800,
+    type: 2}
+  m_PrefabInternal: {fileID: 662422036}
+  m_GameObject: {fileID: 737542611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8a5e8ed6af690b439a08c494cb27b17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buffDefinitions:
+  - name: Melee Bonus
+    buffType: 0
+    maxEffectPercentValue: .5
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Archery Bonus
+    buffType: 1
+    maxEffectPercentValue: .5
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Magic Bonus
+    buffType: 2
+    maxEffectPercentValue: .5
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: ' Armor Bonus'
+    buffType: 3
+    maxEffectPercentValue: 1
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Party Dodge Bonus
+    buffType: 4
+    maxEffectPercentValue: .200000003
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Party Attack Bonus
+    buffType: 5
+    maxEffectPercentValue: .200000003
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Discipline Bonus
+    buffType: 6
+    maxEffectPercentValue: .5
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Shiny Bonus
+    buffType: 7
+    maxEffectPercentValue: 3
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Consolation Bonus
+    buffType: 8
+    maxEffectPercentValue: 0
+    maxAdditiveValue: 3
+    doesntFight: 0
+  - name: Happy Bonus
+    buffType: 9
+    maxEffectPercentValue: 0
+    maxAdditiveValue: 1
+    doesntFight: 0
+  - name: Better attack
+    buffType: 10
+    maxEffectPercentValue: 2
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Better Crops
+    buffType: 11
+    maxEffectPercentValue: .5
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Discount bonus
+    buffType: 12
+    maxEffectPercentValue: .25
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Weak melee
+    buffType: 13
+    maxEffectPercentValue: .200000003
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Bow Debuff
+    buffType: 14
+    maxEffectPercentValue: .200000003
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Magic Debuff
+    buffType: 15
+    maxEffectPercentValue: .200000003
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Armor Debuff
+    buffType: 16
+    maxEffectPercentValue: .5
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: More Casualties
+    buffType: 17
+    maxEffectPercentValue: .200000003
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Uneffective
+    buffType: 18
+    maxEffectPercentValue: .300000012
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Undisciplined
+    buffType: 19
+    maxEffectPercentValue: .300000012
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Hated
+    buffType: 20
+    maxEffectPercentValue: 0
+    maxAdditiveValue: 2
+    doesntFight: 0
+  - name: Doesn't want to fight
+    buffType: 21
+    maxEffectPercentValue: 0
+    maxAdditiveValue: 0
+    doesntFight: 1
+  - name: Unhappy
+    buffType: 22
+    maxEffectPercentValue: 0
+    maxAdditiveValue: 1
+    doesntFight: 0
+  - name: Not in shape
+    buffType: 23
+    maxEffectPercentValue: .5
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Draught
+    buffType: 24
+    maxEffectPercentValue: .600000024
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Infaltion
+    buffType: 25
+    maxEffectPercentValue: .300000012
+    maxAdditiveValue: 0
+    doesntFight: 0
 --- !u!1 &741313793
 GameObject:
   m_ObjectHideFlags: 0
@@ -24064,7 +24226,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 150551197}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!114 &779693543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31508,7 +31670,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 150551197}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1 &1026162887
 GameObject:
   m_ObjectHideFlags: 0
@@ -44871,7 +45033,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 444418, guid: 06640896c05b6a94ab9e8993d767dce5, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11444418, guid: 06640896c05b6a94ab9e8993d767dce5, type: 2}
       propertyPath: inventoryItems.Array.data[0]
@@ -47278,7 +47440,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 499526, guid: d69f1a75a6e0e78448a8561829f1802e, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d69f1a75a6e0e78448a8561829f1802e, type: 2}
@@ -48553,7 +48715,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1539971922
 Transform:
   m_ObjectHideFlags: 0

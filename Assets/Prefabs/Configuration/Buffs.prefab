@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &142998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 442998}
+  - 114: {fileID: 11442998}
+  m_Layer: 0
+  m_Name: Buffs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &442998
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 429.77652, y: 328.586273, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11442998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8a5e8ed6af690b439a08c494cb27b17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buffDefinitions:
+  - name: Melee Bonus
+    buffType: 0
+    maxEffectPercentValue: .5
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Archery Bonus
+    buffType: 1
+    maxEffectPercentValue: .5
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Magic Bonus
+    buffType: 2
+    maxEffectPercentValue: .5
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: ' Armor Bonus'
+    buffType: 3
+    maxEffectPercentValue: 1
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Party Dodge Bonus
+    buffType: 4
+    maxEffectPercentValue: .200000003
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Party Attack Bonus
+    buffType: 5
+    maxEffectPercentValue: .200000003
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Discipline Bonus
+    buffType: 6
+    maxEffectPercentValue: .5
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Shiny Bonus
+    buffType: 7
+    maxEffectPercentValue: 3
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Consolation Bonus
+    buffType: 8
+    maxEffectPercentValue: 0
+    maxAdditiveValue: 3
+    doesntFight: 0
+  - name: Happy Bonus
+    buffType: 9
+    maxEffectPercentValue: 0
+    maxAdditiveValue: 1
+    doesntFight: 0
+  - name: Better attack
+    buffType: 10
+    maxEffectPercentValue: 2
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Better Crops
+    buffType: 11
+    maxEffectPercentValue: .5
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Discount bonus
+    buffType: 12
+    maxEffectPercentValue: .25
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Weak melee
+    buffType: 13
+    maxEffectPercentValue: .200000003
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Bow Debuff
+    buffType: 14
+    maxEffectPercentValue: .200000003
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Magic Debuff
+    buffType: 15
+    maxEffectPercentValue: .200000003
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Armor Debuff
+    buffType: 16
+    maxEffectPercentValue: .5
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: More Casualties
+    buffType: 17
+    maxEffectPercentValue: .200000003
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Uneffective
+    buffType: 18
+    maxEffectPercentValue: .300000012
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Undisciplined
+    buffType: 19
+    maxEffectPercentValue: .300000012
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Hated
+    buffType: 20
+    maxEffectPercentValue: 0
+    maxAdditiveValue: 2
+    doesntFight: 0
+  - name: Doesn't want to fight
+    buffType: 21
+    maxEffectPercentValue: 0
+    maxAdditiveValue: 0
+    doesntFight: 1
+  - name: Unhappy
+    buffType: 22
+    maxEffectPercentValue: 0
+    maxAdditiveValue: 1
+    doesntFight: 0
+  - name: Not in shape
+    buffType: 23
+    maxEffectPercentValue: .5
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Draught
+    buffType: 24
+    maxEffectPercentValue: .600000024
+    maxAdditiveValue: 0
+    doesntFight: 0
+  - name: Infaltion
+    buffType: 25
+    maxEffectPercentValue: .300000012
+    maxAdditiveValue: 0
+    doesntFight: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 142998}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

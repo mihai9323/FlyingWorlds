@@ -18,6 +18,7 @@ public class Farm : MonoBehaviour {
 	public void Upgrade(){
 		if (GameData.Pay (upgradeCost)) {
 			farmLevel++;
+			CharacterManager.CheckLabels(LabelManager.checkAfterBuildingUpdate);
 		} else {
 			HubManager.notification.ShowNotification("Your treasury doesn't support this investment!","Oh!");
 		}

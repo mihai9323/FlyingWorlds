@@ -176,9 +176,15 @@ public class Shop : MonoBehaviour {
 	}
 	public void UpgradeShop(){
 		if (GameData.HasCoins (upgradeCost)) {
-			Debug.LogWarning ("Show are you sure you want to upgrade");
+			HubManager.notification.ShowConfirm("Are you sure you want to pay "+upgradeCost+" coins for this upgrade?","Sure!","I am not!",delegate() {
+				if(GameData.Pay(upgradeCost)){
+					level++;
+					InventoryManager.GenerateShopItems (12, HubManager.shop.level * 5, HubManager.shop.level * 10);
+					CharacterManager.CheckLabels(LabelManager.checkAfterBuildingUpdate);
+				}
+			});
 		} else {
-			Debug.LogWarning("Show you dont have enough coins notification");
+			HubManager.notification.ShowNotification("You dont have enough gold for this upgrade! \n Come back when you have enough!","cancel");
 		}
 	}
 	public void ShowShop(){

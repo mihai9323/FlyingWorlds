@@ -131,6 +131,8 @@ public class CharacterManager : MonoBehaviour {
 		}
 	}
 	public static void CleanUpAfterFight(){
+		CheckLabels (LabelManager.checkFirstWhenComeFromBattle);
+		CheckLabels (LabelManager.checkSecondWhenComeFromBattle);
 		foreach (Character c in gameCharacters) {
 			Debug.Log(c.Name);
 			if(c.inFightingParty){
@@ -140,6 +142,20 @@ public class CharacterManager : MonoBehaviour {
 		}
 	}
 
+	public static void CheckLabels(LabelManager.LabelType[] labelGroup){
+		foreach (Character c in gameCharacters) {
+			foreach(LabelManager.LabelType lt in labelGroup){
+				if(c.labels.ContainsKey(lt)){
+					Label testLabel = c.labels[lt];
+					if(!testLabel.isActive(c)){
+						c.labels.Remove(lt);
+					}
+				}else if(LabelManager.GetLabel(lt).isActive(c)){
+					c.labels.Add(lt,new Label(LabelManager.GetLabel(lt)));
+				}
+			}
+		}
+	}
 
 
 }
