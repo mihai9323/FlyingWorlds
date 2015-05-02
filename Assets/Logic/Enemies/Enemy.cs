@@ -63,7 +63,7 @@ public class Enemy : MonoBehaviour {
 		Vector2 initialPosition = transform.position;
 		float ct = 0;
 		while (remainingDistance>.2f) {
-			FaceTarget();
+			FaceTarget(movement_target);
 			float initZ = transform.position.z;
 			ct += movementSpeed * Time.deltaTime /initialDistance;
 			this.transform.position = Vector2.Lerp(initialPosition, 
@@ -97,19 +97,21 @@ public class Enemy : MonoBehaviour {
 		Vector2 initialPosition = transform.position;
 		float ct = 0;
 		while (remainingDistance>attackRange*attackRange) {
-			FaceTarget();
+			float prevX = transform.position.x;
 			float initZ = transform.position.z;
 
-			movement_target = movement_target_transform.position;
-			movement_target += Vector3.one * Random.value;
+			movement_target = movement_target_transform.position + movement_target_transform.right *attackRange *.5f;
 
 
-
-			this.transform.position += (-transform.position + movement_target).normalized * Time.deltaTime * movementSpeed;
+			this.transform.position += (movement_target-transform.position).normalized * Time.deltaTime * movementSpeed;
 			initZ = Mathf.Lerp(-10,0,Camera.main.WorldToScreenPoint(transform.position).y/Screen.height);
 			transform.position = new Vector3(transform.position.x,transform.position.y,initZ);
+			float curX = transform.position.x;
+
+
 			yield return null;
 			remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
+			FaceDirection((int)Mathf.Sign(curX - prevX));
 		}
 		looks.StopAnimation ();
 		if (callback != null)
@@ -130,13 +132,15 @@ public class Enemy : MonoBehaviour {
 
 	}
 	public void FaceDirection(int direction){
-		Vector3 lScale = origScale;
-		lScale.x = Mathf.Abs (lScale.x) * Mathf.Sign (direction);
-		transform.localScale = lScale;
+		if(direction!=0){
+			Vector3 lScale = origScale;
+			lScale.x = Mathf.Abs (lScale.x) * Mathf.Sign (direction);
+			transform.localScale = lScale;
+		}
 	}
-	private void FaceTarget(){
+	private void FaceTarget(Vector3 target){
 		
-		if(movement_target!=null)FaceDirection ((int)(movement_target.x-transform.position.x));
+		FaceDirection ((int)(target.x-transform.position.x));
 		
 	}
 	private float CustomSqrDistance(Vector3 myPosition, Vector2 targetPosition){
@@ -172,7 +176,7 @@ public class Enemy : MonoBehaviour {
 					});
 				
 		}else if (targetCharacter == currentTarget) {
-			if (targetCharacter != null && CustomSqrDistance (this.transform.position, targetCharacter.transform.position)<attackRange*attackRange){
+			if (targetCharacter != null && CustomSqrDistance (this.transform.position, targetCharacter.transform.position)<attackRange*attackRange*4){
 				Attack (targetCharacter);
 			}
 		} else if (targetCharacter == null) {
@@ -188,7 +192,7 @@ public class Enemy : MonoBehaviour {
 		if (targetCharacter != null) {
 
 			looks.StartAnimation (fightAnimationName);
-			FaceDirection((int)(targetCharacter.transform.position.x - this.transform.position.x));
+
 			if(fightAnimationName == AnimationNames.kBowAttack){
 				ShootProjectile(FightManager.arrow,targetCharacter);
 			}else if(fightAnimationName == AnimationNames.kMagicAttack){
