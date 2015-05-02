@@ -49,8 +49,9 @@ public class InventoryItem : MonoBehaviour {
 		
 		DisplayItem ();
 		CharacterManager.SelectedCharacter.CharacterPortrait.LoadCharacter ();
-		HubManager.ShowCharacter (CharacterManager.SelectedCharacter);
 		CharacterManager.CheckLabels (LabelManager.checkWhenWeaponsChange);
+		HubManager.ShowCharacter (CharacterManager.SelectedCharacter);
+
 
 
 	}

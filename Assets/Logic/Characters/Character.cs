@@ -97,7 +97,7 @@ public class Character : MonoBehaviour {
 	private Character character;
 	private Transform movement_target_transform;
 	private void Awake(){
-
+		labels = new Dictionary<LabelManager.LabelType, Label> ();
 		origScale = transform.localScale;
 		PlaceOnLayer ();
 	}
@@ -116,7 +116,7 @@ public class Character : MonoBehaviour {
 	public void CreateCharacter(){
 		Level = 1;
 
-		Traits = TraitManager.GetRandomTraitsTypes(2);
+		Traits = TraitManager.GetRandomTraitsTypes();
 		Skills.CreateSkillset();
 		Name = CharacterManager.GenerateCharacterName();
 		Looks.GenerateLooks ();
@@ -127,7 +127,14 @@ public class Character : MonoBehaviour {
 	
 	private string iThink(){
 		string message="";
-
+		foreach (TraitManager.TraitTypes t in Traits) {
+			Trait trait = TraitManager.GetTrait(t);
+			foreach(Label l in labels.Values){
+				if(trait.influencedBy.Contains(l.labelType)){
+					message+= l.effectString("")+"\n";
+				}
+			}
+		}
 		return message;
 	}
 
@@ -195,7 +202,7 @@ public class Character : MonoBehaviour {
 		if (!CharacterManager.partyFull) {
 			if(!this.inFightingParty){
 				this.inFightingParty = true;
-
+				this.foughtInLastBattle = true;
 			}else Debug.LogWarning("Allready in party");
 		} else
 			HubManager.notification.ShowNotification("Your fighting party is to large \n Kick someone out before inviting a new member!","Sure!");
@@ -327,10 +334,13 @@ public class Character : MonoBehaviour {
 			FaceDirection((int)(targetCharacter.transform.position.x - this.transform.position.x));
 			if(weaponItem.fightAnimation == AnimationNames.kBowAttack){
 				ShootProjectile(FightManager.arrow,targetCharacter);
+				damageDealtInLastBattle += this.Damage;
 			}else if(weaponItem.fightAnimation == AnimationNames.kMagicAttack){
 				ShootProjectile(FightManager.fireBall,targetCharacter);
+				damageDealtInLastBattle += this.Damage;
 			}else{
 				targetCharacter.Hit (this.Damage);
+				damageDealtInLastBattle += this.Damage;
 			}
 
 		}
@@ -408,6 +418,7 @@ public class Character : MonoBehaviour {
 		this.transform.position = HubManager.road.RoadWorldSpace.position;
 		this.fled = false;
 		RemoveFromParty ();
+		damageDealtInLastBattle = 0;
 		this.Looks.SetLight (Color.white);
 	}
 }

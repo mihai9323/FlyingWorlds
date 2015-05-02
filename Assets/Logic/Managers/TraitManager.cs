@@ -25,7 +25,10 @@ public class TraitManager : MonoBehaviour {
 	[SerializeField] Trait[] traits;
 	
 	private static Dictionary<TraitTypes,Trait> traitDictionary;
-	
+	private void Awake(){
+		s_Instance = this;
+		traitUse = new int[12];
+	}
 	private void Start(){
 		traitDictionary = new Dictionary<TraitTypes, Trait>();
 		foreach(Trait t in traits){
@@ -38,27 +41,31 @@ public class TraitManager : MonoBehaviour {
 			return traitDictionary[trait];
 		}else return null;
 	}
-	public static TraitTypes[] GetRandomTraitsTypes(int number){
-		TraitTypes[] traits = new TraitTypes[number];
-		for(int c =0 ; c<number;c++){
-			bool ok = true;
-			TraitTypes rT = (TraitTypes)((int)Random.Range(0,9));
-			foreach(TraitTypes t in traits){
-				if(t == rT){
-					ok = false;
-				}
-			}
-			while(!ok){
-				ok = true;
-				rT = (TraitTypes)((int)Random.Range(0,9));
-				foreach(TraitTypes t in traits){
-					if(t == rT){
-						ok = false;
-					}
-				}
-			}
-			traits[c] = rT;
-		}
+	public static TraitTypes[] GetRandomTraitsTypes(){
+		TraitTypes[] traits = new TraitTypes[2];
+		traits[0] = getRandomTraitType(5,12);
+		traits[1] = getRandomTraitType(0,4);
+
 		return traits;
 	}
+	private static TraitTypes getRandomTraitType(int fromTrait, int toTrait){
+		List<int> availableTraits = new List<int>();
+		int minValue = 8;
+		for(int i = fromTrait; i<toTrait; i++){
+			if(traitUse[i]<minValue){
+				minValue = traitUse[i];
+			}
+		}
+		for(int i = fromTrait; i<toTrait; i++){
+			if(traitUse[i] == minValue){
+				minValue = traitUse[i];
+				availableTraits.Add(i);
+			}
+		}
+		int rV = (int)Random.Range(0,availableTraits.Count);
+		traitUse [availableTraits [rV]]++;
+		return s_Instance.traits[availableTraits[rV]].traitType;
+		
+	}
+	private static int[] traitUse;
 }

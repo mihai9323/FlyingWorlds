@@ -23,7 +23,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 429.77652, y: 328.586273, z: 0}
+  m_LocalPosition: {x: 429.77652, y: 328.586273, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -40,123 +40,66 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   traits:
-  - name: Non believer
+  - name: Swordsman
     traitType: 0
-    healthBonus: 1
-    armorBonus: 1
-    meleeBonus: 1
-    rangedBonus: 1
-    magicBonus: 0
-    moraleBonus: 1
-    immuneToMagic: 1
-    orderResponse: 0
-    lifeGoal: 2
-    hateOtherLabel: 
-    hateSelfLabel: 0a000000
-  - name: Gypsy
+    buffs: 00000000
+    debuffs: 0d000000
+    influencedBy: 000000000100000013000000
+  - name: Marksman
     traitType: 1
-    healthBonus: 1
-    armorBonus: 1
-    meleeBonus: 1
-    rangedBonus: 1
-    magicBonus: 1
-    moraleBonus: 1
-    immuneToMagic: 0
-    orderResponse: 1
-    lifeGoal: 10
-    hateOtherLabel: 
-    hateSelfLabel: 
-  - name: Fabulous
+    buffs: 01000000
+    debuffs: 0e000000
+    influencedBy: 020000000300000014000000
+  - name: Wizzard
     traitType: 2
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
-    immuneToMagic: 0
-    orderResponse: 0
-    lifeGoal: 0
-    hateOtherLabel: 
-    hateSelfLabel: 
-  - name: By the books
+    buffs: 02000000
+    debuffs: 0f000000
+    influencedBy: 040000000500000015000000
+  - name: Knight
     traitType: 3
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
-    immuneToMagic: 0
-    orderResponse: 0
-    lifeGoal: 0
-    hateOtherLabel: 00000000
-    hateSelfLabel: 
-  - name: Scared
+    buffs: 03000000
+    debuffs: 10000000
+    influencedBy: 060000000700000016000000
+  - name: Coward
     traitType: 4
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
-    immuneToMagic: 0
-    orderResponse: 0
-    lifeGoal: 0
-    hateOtherLabel: 
-    hateSelfLabel: 
-  - name: Drunk
+    buffs: 04000000
+    debuffs: 11000000
+    influencedBy: 080000000900000017000000
+  - name: Veteran
     traitType: 5
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
-    immuneToMagic: 0
-    orderResponse: 0
-    lifeGoal: 0
-    hateOtherLabel: 
-    hateSelfLabel: 
-  - name: Fatty
+    buffs: 06000000
+    debuffs: 13000000
+    influencedBy: 0c00000019000000
+  - name: Fabulous
     traitType: 6
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
-    immuneToMagic: 0
-    orderResponse: 0
-    lifeGoal: 0
-    hateOtherLabel: 
-    hateSelfLabel: 
-  - name: Jolly
+    buffs: 07000000
+    debuffs: 14000000
+    influencedBy: 1a0000000d000000
+  - name: Brave
     traitType: 7
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
-    immuneToMagic: 0
-    orderResponse: 0
-    lifeGoal: 0
-    hateOtherLabel: 
-    hateSelfLabel: 
-  - name: Persuasive
+    buffs: 05000000
+    debuffs: 12000000
+    influencedBy: 0a0000000b00000018000000
+  - name: Clown
     traitType: 8
-    healthBonus: 0
-    armorBonus: 0
-    meleeBonus: 0
-    rangedBonus: 0
-    magicBonus: 0
-    moraleBonus: 0
-    immuneToMagic: 0
-    orderResponse: 0
-    lifeGoal: 0
-    hateOtherLabel: 
-    hateSelfLabel: 
+    buffs: 09000000
+    debuffs: 16000000
+    influencedBy: 0f00000010000000
+  - name: Evil
+    traitType: 9
+    buffs: 0a000000
+    debuffs: 17000000
+    influencedBy: 0f00000010000000
+  - name: Farmer
+    traitType: 10
+    buffs: 0b000000
+    debuffs: 18000000
+    influencedBy: 110000001c000000
+  - name: Shop Clerk
+    traitType: 11
+    buffs: 0c000000
+    debuffs: 19000000
+    influencedBy: 120000001d000000
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

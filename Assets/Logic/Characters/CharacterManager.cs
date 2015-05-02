@@ -62,6 +62,12 @@ public class CharacterManager : MonoBehaviour {
 		foreach(Character c in gameCharacters){
 			c.CreateCharacter();
 		}
+		CheckLabels (LabelManager.checkFirstWhenComeFromBattle);
+		CheckLabels (LabelManager.checkSecondWhenComeFromBattle);
+		CheckLabels (LabelManager.checkWhenWeaponsChange);
+		CheckLabels (LabelManager.checkAfterBuildingUpdate);
+
+
 	}
 
 	public static void LoadCharactersFromBattle(){
@@ -137,8 +143,10 @@ public class CharacterManager : MonoBehaviour {
 			Debug.Log(c.Name);
 			if(c.inFightingParty){
 				c.CleanUpAfterFight();
-				Debug.Log ("in party");
-			}else Debug.Log("not in party");
+			
+			}else{
+				c.foughtInLastBattle = false;
+			}
 		}
 	}
 

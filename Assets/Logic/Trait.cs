@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 [System.Serializable]
 public class Trait {
 
@@ -9,6 +10,7 @@ public class Trait {
 	public BuffsAndDebuffs.BuffType[] buffs;
 	public BuffsAndDebuffs.BuffType[] debuffs;
 
-	public LabelManager.LabelType[] likesLabel;
-	public LabelManager.LabelType[] doesntLikeLable;
+	public List<LabelManager.LabelType> influencedBy;
+
+
 }

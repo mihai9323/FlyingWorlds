@@ -4,18 +4,18 @@ using System.Collections;
 public class Label  {
 
 	
-	public LabelManager.LabelType labelType;
 	public string name;
+	public LabelManager.LabelType labelType;
 
 	public int moraleChange;	
 
 	[SerializeField] string _effectString;
 
 
-	int timeSinceCreation;
+	[HideInInspector]public int receivedTurn;
 
 
-	private string effectString(string name){
+	public string effectString(string name){
 		return _effectString.Replace ("[name]", name);
 	}
 
@@ -25,11 +25,9 @@ public class Label  {
 		this._effectString = l._effectString;
 
 
-		this.timeSinceCreation = 0;
+		this.receivedTurn = GameData.TurnNumber;
 	}
-	public void UpdateTime(){
-		timeSinceCreation++;
-	}
+
 	public bool isActive(Character character){
 
 			
@@ -148,7 +146,7 @@ public class Label  {
 	}
 	public static bool IsFair(){
 		foreach (Character c in CharacterManager.gameCharacters) {
-			if(c.labels.ContainsKey(LabelManager.LabelType.bestGearValue) && Label.HasBestGear(c)){
+			if(c.labels.ContainsKey(LabelManager.LabelType.bestGearValue) && Label.HasBestGear(c) && c.labels[LabelManager.LabelType.bestGearValue].receivedTurn +2  > GameData.TurnNumber){
 				return false;
 			}
 		}

@@ -23,7 +23,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 147082}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 429.77652, y: 328.586273, z: 0}
+  m_LocalPosition: {x: 429.77652, y: 328.586273, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -39,13 +39,170 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40de59c98bec02e4d9d289daacad4ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _checkWhenWeaponsChange: 00000000010000000200000003000000040000000500000006000000070000000d000000130000001400000015000000160000000e0000001b0000000f00000010000000
+  _checkFirstWhenComeFromBattle: 1e00000017000000090000000a0000000e0000001b000000080000000b0000001800000017000000
+  _checkSecondWhenComeFromBattle: 0c000000190000000f00000010000000
+  _checkAfterBuildingUpdate: 1c0000001d00000011000000120000000f00000010000000
   labels:
-  - labelType: 0
-    dontLikeOtherString: They call themselves worriors, but when it comes to battle
-      they all run like cowards!
-    dontLikeSelfString: Last battle I was so scared. I am so ashamed!
-    likeOtherString: 
-    likeSelfString: 
+  - name: Has Sword
+    labelType: 0
+    moraleChange: 1
+    _effectString: Thank you for giving me a sword!
+    receivedTurn: 0
+  - name: Best Sword
+    labelType: 1
+    moraleChange: 2
+    _effectString: Wow! I have the best sword!
+    receivedTurn: 0
+  - name: Has Bow
+    labelType: 2
+    moraleChange: 1
+    _effectString: Cool! I have a bow!
+    receivedTurn: 0
+  - name: Best bow
+    labelType: 3
+    moraleChange: 2
+    _effectString: Awesome! This bow is the best!
+    receivedTurn: 0
+  - name: Has staff
+    labelType: 4
+    moraleChange: 1
+    _effectString: Having a staff makes me want to fight
+    receivedTurn: 0
+  - name: Has best staff
+    labelType: 5
+    moraleChange: 2
+    _effectString: I love this staff!
+    receivedTurn: 0
+  - name: Has good armor
+    labelType: 6
+    moraleChange: 1
+    _effectString: I feel protected
+    receivedTurn: 0
+  - name: Has best armor
+    labelType: 7
+    moraleChange: 2
+    _effectString: Nothing can hit me in this armor!
+    receivedTurn: 0
+  - name: A lot of health
+    labelType: 8
+    moraleChange: 1
+    _effectString: The last battle did not scare me!
+    receivedTurn: 0
+  - name: Not hit
+    labelType: 9
+    moraleChange: 2
+    _effectString: I was unhit in the previous battle!
+    receivedTurn: 0
+  - name: Is fighting
+    labelType: 10
+    moraleChange: 1
+    _effectString: I enjoy fighting!
+    receivedTurn: 0
+  - name: Most damage
+    labelType: 11
+    moraleChange: 2
+    _effectString: No one kills more than I do!
+    receivedTurn: 0
+  - name: Nobody fled
+    labelType: 12
+    moraleChange: 1
+    _effectString: I like those guys! I can count on them having my back in battles!
+    receivedTurn: 0
+  - name: Best gear
+    labelType: 13
+    moraleChange: 1
+    _effectString: My gear is shiny! Golden I can say!
+    receivedTurn: 0
+  - name: Fairness
+    labelType: 14
+    moraleChange: 1
+    _effectString: You are a great leader!
+    receivedTurn: 0
+  - name: High Team Morale
+    labelType: 15
+    moraleChange: 1
+    _effectString: What a sunny day!
+    receivedTurn: 0
+  - name: Low team morale
+    labelType: 16
+    moraleChange: -3
+    _effectString: Everyone is so blue today
+    receivedTurn: 0
+  - name: Good farm
+    labelType: 17
+    moraleChange: 1
+    _effectString: We had a very good season! Look at all that grain!
+    receivedTurn: 0
+  - name: Good shop
+    labelType: 18
+    moraleChange: 1
+    _effectString: The shop got now stuff! And they are cheap!
+    receivedTurn: 0
+  - name: No Sword
+    labelType: 19
+    moraleChange: -1
+    _effectString: Give me a sword! I am a swordsman!
+    receivedTurn: 0
+  - name: No bow
+    labelType: 20
+    moraleChange: -1
+    _effectString: Give me a bow! I know how to use it!
+    receivedTurn: 0
+  - name: No staff
+    labelType: 21
+    moraleChange: -1
+    _effectString: Where did my staff go?
+    receivedTurn: 0
+  - name: Bad armor
+    labelType: 22
+    moraleChange: -1
+    _effectString: This armor sucks! Give me a proper one!
+    receivedTurn: 0
+  - name: Hit in battle
+    labelType: 23
+    moraleChange: -1
+    _effectString: I am injured! You should rest me the next battle
+    receivedTurn: 0
+  - name: Not fighting
+    labelType: 24
+    moraleChange: -1
+    _effectString: Send me to battle! I haven't trained all my life to sleep in the
+      barracks!
+    receivedTurn: 0
+  - name: Party member fled
+    labelType: 25
+    moraleChange: -1
+    _effectString: This useless man! They call themselves worriors, but when they
+      see danger they run away!
+    receivedTurn: 0
+  - name: Not best gear
+    labelType: 26
+    moraleChange: -1
+    _effectString: This gear is not fit for me! Give me worthy of my name!
+    receivedTurn: 0
+  - name: Unfair
+    labelType: 27
+    moraleChange: -1
+    _effectString: Things should change around here! This leadership sucks! It is
+      always the same guy having all the best weapons
+    receivedTurn: 0
+  - name: Bad farm
+    labelType: 28
+    moraleChange: -1
+    _effectString: The recent floods destroyed all of our crops!
+    receivedTurn: 0
+  - name: Bad shop
+    labelType: 29
+    moraleChange: -1
+    _effectString: Those pesky bandits stole everything! There are only crappy items
+      in the shop! And they are also so expensive
+    receivedTurn: 0
+  - name: Fled
+    labelType: 30
+    moraleChange: -1
+    _effectString: I had to run for my life in the last fight!
+    receivedTurn: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
