@@ -16,7 +16,8 @@ public class AnimationNames{
 public enum MonsterTypes{
 	Wizard,
 	Pirate,
-	Devil
+	Devil,
+	Knight
 }
 public class ColorCodes{
 	private static Color[] _tint = new Color[3]{
