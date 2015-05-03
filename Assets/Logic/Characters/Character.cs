@@ -187,15 +187,13 @@ public class Character : MonoBehaviour {
 		int moral = 5;
 		foreach (Label l in labels.Values) {
 			if(TraitManager.GetTrait(this.Traits[0]).influencedBy.Contains(l.labelType) || TraitManager.GetTrait(this.Traits[1]).influencedBy.Contains(l.labelType)){
-				moral += l.moraleChange;
+				moral += l.moraleChange * Mathf.Clamp(GameData.TurnNumber - l.receivedTurn+1,1,5);
 			}
 		}
 		if (this == CharacterManager.hasWorstGear) {
-		
 			moral += CharacterManager.worstGearMoraleBonus;
 		}
 		if (this == CharacterManager.hasBestGear) {
-		
 			moral += CharacterManager.bestGearMoraleBonus;
 		}
 		moral = Mathf.Clamp (moral + CharacterManager.partyMoral, 0, 10);
@@ -205,7 +203,7 @@ public class Character : MonoBehaviour {
 		int moral = 5;
 		foreach (Label l in labels.Values) {
 			if(TraitManager.GetTrait(this.Traits[0]).influencedBy.Contains(l.labelType) || TraitManager.GetTrait(this.Traits[1]).influencedBy.Contains(l.labelType)){
-				moral += l.moraleChange;
+				moral += l.moraleChange * Mathf.Clamp(GameData.TurnNumber - l.receivedTurn+1,1,3);
 			}
 		}
 		moral = Mathf.Clamp (moral, 0, 10);
