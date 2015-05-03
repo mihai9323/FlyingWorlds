@@ -18,7 +18,8 @@ public class TraitManager : MonoBehaviour {
 		Clown,
 		Pessimist,
 		Farmer,
-		ShopClerk
+		ShopClerk,
+		Fair
 
 	}
 	
@@ -27,7 +28,7 @@ public class TraitManager : MonoBehaviour {
 	private static Dictionary<TraitTypes,Trait> traitDictionary;
 	private void Awake(){
 		s_Instance = this;
-		traitUse = new int[12];
+		traitUse = new int[13];
 	}
 	private void Start(){
 		traitDictionary = new Dictionary<TraitTypes, Trait>();
@@ -43,7 +44,7 @@ public class TraitManager : MonoBehaviour {
 	}
 	public static TraitTypes[] GetRandomTraitsTypes(){
 		TraitTypes[] traits = new TraitTypes[2];
-		traits[0] = getRandomTraitType(5,12);
+		traits[0] = getRandomTraitType(5,13);
 		traits[1] = getRandomTraitType(0,4);
 
 		return traits;

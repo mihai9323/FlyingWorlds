@@ -214,12 +214,12 @@ MonoBehaviour:
     Defence: 0
     Range: 0
     shine: 0
-    itemType: 0
+    itemType: 4
     itemOwner: {fileID: 0}
   fightAnimationName: MagicAttack
-  attackRange: 9
   ai: {fileID: 11442758}
   monsterType: 0
+  attackTime: 1.5
   dead: 0
   current_speed: 0
   movementSpeed: 1.29999995

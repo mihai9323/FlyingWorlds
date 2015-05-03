@@ -55,7 +55,29 @@ public class Character : MonoBehaviour {
 	public int damageDealtInLastBattle;
 	public bool foughtInLastBattle;
 
-	public int Level;
+	public int Level{
+		get{
+			return Mathf.Max((int)((this.Skills.archery + this.Skills.magic + this.Skills.melee)/5),1);
+		}
+	}/// <summary>
+	/// Gets the orders the character follows 
+	/// 0 - Flee
+	/// 1 - Stand Ground
+	/// 2 - Retreat and Stand ground
+	/// 3 - All
+	/// </summary>
+	/// <value>The orders.</value>
+	public int Orders{
+		get{
+			if(trait0.debuffs.Contains(BuffsAndDebuffs.BuffType.StandGround) || trait1.debuffs.Contains(BuffsAndDebuffs.BuffType.StandGround)){
+				float morale = CalculateMoral();
+				if(morale<.2f) return 0;
+				if(morale<.3f) return 1;
+				if(morale<.4f) return 2;
+			}
+			return 3;
+		}
+	}
 	public Dictionary<LabelManager.LabelType,Label> labels;
 	public bool Ready;
 	public float attackTime  = 1.3f;
@@ -75,23 +97,63 @@ public class Character : MonoBehaviour {
 	public int MaxHealth{
 		get{
 			
-			return (int)(Level * (20));
+			return (int)(15+ Level * 5);
 		}
 	}
+	public int armor, damage;
+	public float primeTarget;
 	public int Armor {
 		get{
-			return (int)(ArmorItem.Defence * ( 1));
+			return (int)(ArmorItem.Defence *  (BuffInfluence(new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.MoreDefenseSelf,BuffsAndDebuffs.BuffType.LessDefenseSelf},
+															new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.MoreDefenseSelf,BuffsAndDebuffs.BuffType.LessDefenseSelf},
+															1,
+															CalculateMoral())
+			             					  +CharacterManager.partyDefence
+			                                  + (float)Level/10)
+			);
+		}
+	}
+	public float PrimeTarget{
+		get{
+			return BuffInfluence(new BuffsAndDebuffs.BuffType[1]{BuffsAndDebuffs.BuffType.PrimeTargetSelf},null,0,CalculateMoral());
 		}
 	}
 	public int Damage{
 		get{
 			if(WeaponItem.itemType == Item.ItemType.Magic){
-				return (int)((Level + Skills.magic) * WeaponItem.Damage );			
+						return (int)((Level + Skills.magic+(
+							BuffInfluence(new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.MoreMagicDamageSelf,BuffsAndDebuffs.BuffType.MoreDamgeSelf},
+										  new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.LessMagicDamageSelf,BuffsAndDebuffs.BuffType.LessDamageSelf},
+										  1,
+										  CalculateMoral())
+						   +CharacterManager.partyDamageBonus)) * WeaponItem.Damage );			
 			}else if(WeaponItem.itemType == Item.ItemType.Melee){
-				return (int)((Level + Skills.melee) * WeaponItem.Damage );			
+						return (int)((Level + Skills.melee+(
+							BuffInfluence(new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.MoreMeleeDamageSelf,BuffsAndDebuffs.BuffType.MoreDamgeSelf},
+							new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.LessMeleeDamageSelf,BuffsAndDebuffs.BuffType.LessDamageSelf},
+							1,
+							CalculateMoral())
+						   +CharacterManager.partyDamageBonus)) * WeaponItem.Damage );			
 			}else if(WeaponItem.itemType == Item.ItemType.Ranged){
-				return (int)((Level + Skills.archery ) * WeaponItem.Damage);			
+						return (int)((Level + Skills.archery+(
+						BuffInfluence(new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.MoreBowDamageSelf,BuffsAndDebuffs.BuffType.MoreDamgeSelf},
+						new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.LessBowDamageSelf,BuffsAndDebuffs.BuffType.LessDamageSelf},
+						1,
+						CalculateMoral())
+					   +CharacterManager.partyDamageBonus)) * WeaponItem.Damage );			
 			}else return (int)(Level + Skills.melee );			
+		}
+	}
+	public int GearValue{
+		get{
+			int val = 0;
+			if (WeaponItem != null && WeaponItem.itemType != Item.ItemType.None) {
+				val += WeaponItem.Value;
+			}
+			if (ArmorItem != null && ArmorItem.itemType != Item.ItemType.None) {
+				val += ArmorItem.Value;
+			}
+			return val;
 		}
 	}
 	public int Moral{
@@ -111,7 +173,11 @@ public class Character : MonoBehaviour {
 		PlaceOnLayer ();
 	}
 
-
+	public void SetStaticStats(){
+		damage = Damage;
+		armor = Armor;
+		primeTarget = PrimeTarget;
+	}
 
 	private void OnDestroy(){
 
@@ -123,6 +189,14 @@ public class Character : MonoBehaviour {
 			if(TraitManager.GetTrait(this.Traits[0]).influencedBy.Contains(l.labelType) || TraitManager.GetTrait(this.Traits[1]).influencedBy.Contains(l.labelType)){
 				moral += l.moraleChange;
 			}
+		}
+		if (this == CharacterManager.hasWorstGear) {
+		
+			moral += CharacterManager.worstGearMoraleBonus;
+		}
+		if (this == CharacterManager.hasBestGear) {
+		
+			moral += CharacterManager.bestGearMoraleBonus;
 		}
 		moral = Mathf.Clamp (moral + CharacterManager.partyMoral, 0, 10);
 		return (float)moral / 10;
@@ -137,11 +211,34 @@ public class Character : MonoBehaviour {
 		moral = Mathf.Clamp (moral, 0, 10);
 		return (float)moral / 10;
 	}
+	public float BuffInfluence(BuffsAndDebuffs.BuffType[] buffs, BuffsAndDebuffs.BuffType[] debuffs, byte mode,float morale){
+		float v = mode;
+		if (buffs != null) {
+			foreach (BuffsAndDebuffs.BuffType buff in buffs) {
+				if (trait0.buffs.Contains (buff) || trait1.buffs.Contains (buff)) {
+					if (mode == 0)
+						v += (BuffsAndDebuffs.buffDefinitions [buff].maxAdditiveValue * Mathf.Clamp ((morale - 0.5f) * 2, 0, 1));
+					if (mode == 1)
+						v += (BuffsAndDebuffs.buffDefinitions [buff].maxEffectPercentValue * Mathf.Clamp ((morale - 0.5f) * 2, 0, 1));
+				}
+			}
+		}
+		if (debuffs != null) {
+			foreach (BuffsAndDebuffs.BuffType debuff in debuffs) {
+				if (trait0.debuffs.Contains (debuff) || trait1.debuffs.Contains (debuff)) {
+					if (mode == 0)
+						v -= (BuffsAndDebuffs.buffDefinitions [debuff].maxAdditiveValue * Mathf.Clamp ((1 - morale * 2), 0, 1));
+					if (mode == 1)
+						v -= (BuffsAndDebuffs.buffDefinitions [debuff].maxEffectPercentValue * Mathf.Clamp ((1 - morale * 2), 0, 1));
+				}
+			}
+		}
+		return v;
+	}
+	
 
 	
 	public void CreateCharacter(){
-		Level = 1;
-
 		Traits = TraitManager.GetRandomTraitsTypes();
 		Skills.CreateSkillset();
 		Name = CharacterManager.GenerateCharacterName();
@@ -170,7 +267,7 @@ public class Character : MonoBehaviour {
 	}
 	private IEnumerator BeHitDelayed(float time,int damage){
 		if(time>0)yield return new WaitForSeconds (time);
-		Health -= Mathf.Max (damage-Armor,1);
+		Health -= Mathf.Max (damage-armor,1);
 		if (Health <= 1) {
 			fightState = FightState.Flee;
 			
@@ -360,13 +457,13 @@ public class Character : MonoBehaviour {
 			FaceDirection((int)(targetCharacter.transform.position.x - this.transform.position.x));
 			if(weaponItem.fightAnimation == AnimationNames.kBowAttack){
 				ShootProjectile(FightManager.arrow,targetCharacter);
-				damageDealtInLastBattle += this.Damage;
+				damageDealtInLastBattle += this.damage;
 			}else if(weaponItem.fightAnimation == AnimationNames.kMagicAttack){
 				ShootProjectile(FightManager.fireBall,targetCharacter);
-				damageDealtInLastBattle += this.Damage;
+				damageDealtInLastBattle += this.damage;
 			}else{
-				targetCharacter.Hit (this.Damage);
-				damageDealtInLastBattle += this.Damage;
+				targetCharacter.Hit (this.damage);
+				damageDealtInLastBattle += this.damage;
 			}
 
 		}
@@ -376,7 +473,7 @@ public class Character : MonoBehaviour {
 	}
 	private void ShootProjectile(Projectile p, Enemy target){
 		Projectile missile = Instantiate (p, transform.position, Quaternion.identity) as Projectile;
-		missile.ShootMonster (target.transform.position, this.Damage, null);
+		missile.ShootMonster (target.transform.position, this.damage, null);
 	}
 	private void StopFight ()
 	{

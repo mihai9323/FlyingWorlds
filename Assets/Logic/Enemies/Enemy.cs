@@ -9,7 +9,12 @@ public class Enemy : MonoBehaviour {
 	public Skillset skillset;
 	public Item weapon;
 	[SerializeField] string fightAnimationName;
-	[SerializeField] float attackRange;
+	private float attackRange{
+		get{
+			return weapon.Range;
+		}
+		
+	}
 	public AI ai;
 	[SerializeField] MonsterTypes monsterType;
 	public float attackTime = 1.5f;
@@ -18,7 +23,7 @@ public class Enemy : MonoBehaviour {
 			switch(weapon.itemType){
 			case Item.ItemType.Magic: return (int)(weapon.Damage * skillset.magic); break;
 			case Item.ItemType.Melee: return (int)(weapon.Damage * skillset.melee); break;
-			case Item.ItemType.Ranged: return (int)(weapon.Damage * skillset.archery); break;
+			case Item.ItemType.Ranged: return (int)(weapon.Damage * skillset.archery);  break;
 			}
 			return 0;
 		}
@@ -121,6 +126,7 @@ public class Enemy : MonoBehaviour {
 
 
 	public void GenerateEnemy(){
+		weapon = new Item (weapon.itemType, GameData.TurnNumber);
 		looks.GenerateLooks (monsterType);
 		looks.SetActiveWeapon (weapon);
 		skillset.CreateSkillset (true);
@@ -161,7 +167,7 @@ public class Enemy : MonoBehaviour {
 	private void FindTarget(){
 
 		Character targetCharacter = null;
-		GameObject gob= GameObject.FindGameObjectsWithTag("CHARACTER").OrderBy(go => Vector3.SqrMagnitude(go.transform.position- transform.position)).FirstOrDefault();
+		GameObject gob= GameObject.FindGameObjectsWithTag("CHARACTER").OrderBy(go => Vector3.SqrMagnitude(go.transform.position- transform.position)- Mathf.Pow(go.GetComponent<Character>().primeTarget,2)).FirstOrDefault();
 		if(gob!=null && gob.GetComponent<Character>()!=null) targetCharacter = gob.GetComponent<Character>();
 
 		
@@ -176,7 +182,7 @@ public class Enemy : MonoBehaviour {
 					});
 				
 		}else if (targetCharacter == currentTarget) {
-			if (targetCharacter != null && CustomSqrDistance (this.transform.position, targetCharacter.transform.position)<attackRange*attackRange*4){
+			if (targetCharacter != null && CustomSqrDistance (this.transform.position, targetCharacter.transform.position)<attackRange*attackRange){
 				Attack (targetCharacter);
 			}
 		} else if (targetCharacter == null) {

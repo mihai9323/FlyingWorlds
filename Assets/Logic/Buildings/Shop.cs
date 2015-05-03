@@ -24,6 +24,14 @@ public class Shop : MonoBehaviour {
 	[SerializeField] Text T_ShopUpgrade;
 	[SerializeField] GameObject BuyButton,SwapButton,SellButton;
 	[SerializeField] GameObject Empty;
+
+	public float priceVariance{
+		get{
+			return CharacterManager.GetPartyBonus(new BuffsAndDebuffs.BuffType[1]{BuffsAndDebuffs.BuffType.ShopDiscount},
+												  new BuffsAndDebuffs.BuffType[1]{BuffsAndDebuffs.BuffType.ShopMoreExpensive},1,false);
+		}
+	}
+
 	private int myItemValue, otherItemValue;
 
 	public Item sellItem, buyItem;
@@ -87,16 +95,17 @@ public class Shop : MonoBehaviour {
 			T_other_dmg.text = "DEF: "+item.Defence;
 			T_other_range.text = "";
 			T_buyItemValue.text = "VALUE: " + item.Value;
-			otherItemValue = item.Value;
+			otherItemValue = (int)((float)item.Value * priceVariance);
 
 			
 		}else{
 			T_other_dmg.text = "DMG: "+item.Damage;
 			T_other_range.text = "RNG: "+item.Range;
 			T_buyItemValue.text = "VALUE: " + item.Value;
-			otherItemValue = item.Value;
+			otherItemValue = (int)((float)item.Value * priceVariance);
 		
 		}
+		Debug.Log ("price var: "+priceVariance);
 		T_other_item_name.text = item.ItemName;
 		DisplayButtons ();
 	}

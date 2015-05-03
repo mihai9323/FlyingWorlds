@@ -41,21 +41,21 @@ public class CharacterFightController : MonoBehaviour {
 		}
 	}
 	public void FallBack(){
-		if (character != null && character.fightState != FightState.Flee) {
+		if (character != null && character.fightState != FightState.Flee && character.Orders>=2) {
 			character.fightState = FightState.Fallback;
 			character.currentTarget = null;
 			character.Tick();
 		}
 	}
 	public void StandGround(){
-		if (character != null && character.fightState != FightState.Flee) {
+		if (character != null && character.fightState != FightState.Flee  && character.Orders>=1) {
 			character.fightState = FightState.StandGround;
 			character.currentTarget = null;
 			character.Tick();
 		}
 	}
 	public void Attack(){
-		if (character != null && character.fightState != FightState.Flee) {
+		if (character != null && character.fightState != FightState.Flee && character.Orders>=3) {
 			character.fightState = FightState.Attack;
 			character.currentTarget = null;
 

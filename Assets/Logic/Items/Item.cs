@@ -62,6 +62,15 @@ public class Item  {
 		Defence = 0;
 		Range = 0;
 	}
+	public Item(ItemType type, int power){
+		this.itemType = type;
+		switch (type) {
+		case ItemType.Magic: this.Range = 2 + power * Random.value; this.Defence = 0; this.Damage = 1+ power * Random.value*2; break;
+		case ItemType.Melee: this.Range = 1; this.Defence = 0; this.Damage = 3+ power * Random.value*3; break;
+		case ItemType.Ranged: this.Range = 3 + power * Random.value; this.Defence = 0; this.Damage = 1+ power * Random.value; break;
+
+		}
+	}
 	public Item(int dmg, int def, int range){
 		ItemType iType;
 		float rNr = Random.value;

@@ -6,6 +6,7 @@ public class Skillset  {
 	public float melee;
 	public float archery;
 	public float magic;
+
 	
 	public void CreateSkillset(){
 		melee = Random.Range(0,5);
@@ -13,10 +14,11 @@ public class Skillset  {
 		magic = Random.Range(0,5);
 	}
 	public void CreateSkillset(bool turnBased){
-		int min = GameData.TurnNumber;
-		int max = GameData.TurnNumber + 2;
+		int min = GameData.TurnNumber/2;
+		int max = GameData.TurnNumber;
 		melee = Random.Range(min,max);
 		archery = Random.Range (min,max);
 		magic = Random.Range(min,max);
+
 	}
 }

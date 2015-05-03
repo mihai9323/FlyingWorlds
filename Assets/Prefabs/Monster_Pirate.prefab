@@ -226,12 +226,12 @@ MonoBehaviour:
     Defence: 0
     Range: 0
     shine: 0
-    itemType: 0
+    itemType: 2
     itemOwner: {fileID: 0}
   fightAnimationName: SwordAttack
-  attackRange: .200000003
   ai: {fileID: 11408650}
   monsterType: 1
+  attackTime: 1.5
   dead: 0
   current_speed: 0
   movementSpeed: 1.29999995

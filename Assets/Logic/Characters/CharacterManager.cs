@@ -17,18 +17,69 @@ public class CharacterManager : MonoBehaviour {
 
 	public static int partyMoral{
 		get{
-			float v = 0;
-			foreach(Character c in gameCharacters){
-				if(c.trait0.buffs.Contains(BuffsAndDebuffs.BuffType.MoreMoraleParty) || c.trait0.buffs.Contains(BuffsAndDebuffs.BuffType.MoreMoraleParty)){
-					v+= (BuffsAndDebuffs.buffDefinitions[BuffsAndDebuffs.BuffType.MoreMoraleParty].maxAdditiveValue * c.CalculatePlainMoral());
-				}
-				if(c.trait0.buffs.Contains(BuffsAndDebuffs.BuffType.LessMoraleParty) || c.trait0.buffs.Contains(BuffsAndDebuffs.BuffType.LessMoraleParty)){
-					v+= (BuffsAndDebuffs.buffDefinitions[BuffsAndDebuffs.BuffType.LessMoraleParty].maxAdditiveValue * c.CalculatePlainMoral());
-				}
-			}
-			return Mathf.RoundToInt(v);
+			return Mathf.RoundToInt(
+				GetPartyBonus(new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.MoreMoraleParty,BuffsAndDebuffs.BuffType.LessMoraleParty},
+							  new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.MoreMoraleParty,BuffsAndDebuffs.BuffType.LessMoraleParty},0,true)
+			);
 		}
 	}
+	public static float partyDamageBonus{
+		get{
+			return GetPartyBonus(new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.GivesMoreDamageParty,BuffsAndDebuffs.BuffType.LessDamageGivenParty},
+								 new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.GivesMoreDamageParty,BuffsAndDebuffs.BuffType.LessDamageGivenParty},1,false);
+		}
+	}
+	public static float partyFlee{
+		get{
+			return GetPartyBonus(new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.LessFleeParty,BuffsAndDebuffs.BuffType.MoreFleeParty},
+				 				 new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.LessFleeParty,BuffsAndDebuffs.BuffType.MoreFleeParty},1,false);
+		}
+	}
+	public static float partyDefence{
+		get{
+			return GetPartyBonus(new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.TakesLessDamageParty, BuffsAndDebuffs.BuffType.MoreDamageTakenParty},
+								 new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.TakesLessDamageParty,BuffsAndDebuffs.BuffType.MoreDamageTakenParty},1,false);
+		}
+	}
+	public static int worstGearMoraleBonus{
+		get{
+			return Mathf.RoundToInt(
+				GetPartyBonus(new BuffsAndDebuffs.BuffType[1]{BuffsAndDebuffs.BuffType.MoreMoraleWorstGear},
+							  new BuffsAndDebuffs.BuffType[1]{BuffsAndDebuffs.BuffType.MoreMoraleWorstGear}, 0,true)
+				);
+		}
+	}
+	public static int bestGearMoraleBonus{
+		get{
+			return Mathf.RoundToInt(
+				GetPartyBonus(new BuffsAndDebuffs.BuffType[1]{BuffsAndDebuffs.BuffType.LessMoraleForBestGear},
+							  new BuffsAndDebuffs.BuffType[1]{BuffsAndDebuffs.BuffType.LessMoraleForBestGear}, 0,true)
+				);
+		}
+	}
+	public static void SetAllCharactersStaticProperties(){
+		foreach (Character character in gameCharacters) {
+			character.SetStaticStats();
+		}
+	}
+	/// <summary>
+	/// Gets the party bonus.
+	/// </summary>
+	/// <returns>The party bonus.</returns>
+	/// <param name="influenceBuffs">Influence buffs.</param>
+	/// <param name="mode">Mode 0 = additive, 1 = multiply</param>
+	public static float GetPartyBonus(BuffsAndDebuffs.BuffType[] buffs, BuffsAndDebuffs.BuffType[] debuffs, byte mode, bool plainMorale){
+		float v = mode;
+		foreach(Character c in gameCharacters){
+			float morale = 0;
+			if(plainMorale) morale = c.CalculatePlainMoral();
+			else morale = c.CalculateMoral();
+			v+= c.BuffInfluence(buffs,debuffs,mode,morale)-mode;
+		}
+		return v;
+	}
+
+	public static Character hasBestGear, hasWorstGear;
 
 	public static Transform[] CharacterSpawnPlaces{
 		get{
@@ -45,7 +96,23 @@ public class CharacterManager : MonoBehaviour {
 		get{ return s_Instance._gameCharacters;}
 	}
 
-
+	public static void CalculateBestAndWorstGear(){
+		int bestValue = 0;
+		int worstValue = int.MaxValue;
+		Character bG = null, wG=null;
+		foreach (Character c in gameCharacters) {
+			if(c.GearValue>bestValue){
+				bestValue  = c.GearValue;
+				bG = c;
+			}
+			if(c.GearValue<worstValue){
+				worstValue = c.GearValue;
+				wG = c;
+			}
+		}
+		hasBestGear = bG;
+		hasWorstGear = wG;
+	}
 
 	public static bool partyFull{
 		get{
@@ -77,6 +144,7 @@ public class CharacterManager : MonoBehaviour {
 		foreach(Character c in gameCharacters){
 			c.CreateCharacter();
 		}
+		CalculateBestAndWorstGear ();
 		CheckLabels (LabelManager.checkFirstWhenComeFromBattle);
 		CheckLabels (LabelManager.checkSecondWhenComeFromBattle);
 		CheckLabels (LabelManager.checkWhenWeaponsChange);

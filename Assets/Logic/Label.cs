@@ -121,22 +121,11 @@ public class Label  {
 		return true;
 	}
 	public static bool HasBestGear(Character character){
-		int myValue = 0;
-		if(character.WeaponItem!= null && character.WeaponItem.itemType != Item.ItemType.None){
-			myValue += character.WeaponItem.Value;
-		}
-		if(character.ArmorItem!= null && character.ArmorItem.itemType != Item.ItemType.None){
-			myValue += character.ArmorItem.Value;
-		}
+		int myValue = character.GearValue;
+
 		foreach (Character c in CharacterManager.gameCharacters) {
 			if(c!= character){
-				int cValue = 0;
-				if(c.WeaponItem!= null && c.WeaponItem.itemType != Item.ItemType.None){
-					cValue += c.WeaponItem.Value;
-				}
-				if(c.ArmorItem!= null && c.ArmorItem.itemType != Item.ItemType.None){
-					cValue += c.ArmorItem.Value;
-				}
+				int cValue = c.GearValue;
 				if(cValue>myValue){
 					return false;
 				}

@@ -10,9 +10,15 @@ public class Farm : MonoBehaviour {
 			return (int)((farmLevel + 1) * 10 * Mathf.Pow(2,farmLevel+1));
 		}
 	}
+	public float priceVariance{
+		get{
+			return CharacterManager.GetPartyBonus(new BuffsAndDebuffs.BuffType[1]{BuffsAndDebuffs.BuffType.FarmGeneratesMoreCoins},
+			new BuffsAndDebuffs.BuffType[1]{BuffsAndDebuffs.BuffType.FarmGenerateLessCoins},1,false);
+		}
+	}
 	public int incomePerTurn{
 		get{
-			return (int)(upgradeCost*.8f);
+			return (int)(upgradeCost*.8f * priceVariance);
 		}
 	}
 	public void Upgrade(){

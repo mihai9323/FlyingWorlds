@@ -260,12 +260,12 @@ MonoBehaviour:
     Defence: 0
     Range: 0
     shine: 0
-    itemType: 0
+    itemType: 3
     itemOwner: {fileID: 0}
   fightAnimationName: BowShot
-  attackRange: 10
   ai: {fileID: 11434068}
   monsterType: 2
+  attackTime: 1.5
   dead: 0
   current_speed: 0
   movementSpeed: 1.29999995

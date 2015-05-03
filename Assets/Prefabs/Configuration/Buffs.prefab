@@ -77,13 +77,13 @@ MonoBehaviour:
     doesntFight: 0
   - name: Shiny Bonus
     buffType: 7
-    maxEffectPercentValue: 3
-    maxAdditiveValue: 0
+    maxEffectPercentValue: 0
+    maxAdditiveValue: 13
     doesntFight: 0
   - name: Consolation Bonus
     buffType: 8
     maxEffectPercentValue: 0
-    maxAdditiveValue: 3
+    maxAdditiveValue: 5
     doesntFight: 0
   - name: Happy Bonus
     buffType: 9
@@ -102,7 +102,7 @@ MonoBehaviour:
     doesntFight: 0
   - name: Discount bonus
     buffType: 12
-    maxEffectPercentValue: .25
+    maxEffectPercentValue: -.25
     maxAdditiveValue: 0
     doesntFight: 0
   - name: Weak melee
@@ -143,7 +143,7 @@ MonoBehaviour:
   - name: Hated
     buffType: 20
     maxEffectPercentValue: 0
-    maxAdditiveValue: 2
+    maxAdditiveValue: 5
     doesntFight: 0
   - name: Doesn't want to fight
     buffType: 21
@@ -167,7 +167,7 @@ MonoBehaviour:
     doesntFight: 0
   - name: Infaltion
     buffType: 25
-    maxEffectPercentValue: .300000012
+    maxEffectPercentValue: -.300000012
     maxAdditiveValue: 0
     doesntFight: 0
 --- !u!1001 &100100000

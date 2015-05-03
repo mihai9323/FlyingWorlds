@@ -136,7 +136,7 @@ MonoBehaviour:
     receivedTurn: 0
   - name: Good shop
     labelType: 18
-    moraleChange: 1
+    moraleChange: 2
     _effectString: The shop got now stuff! And they are cheap!
     receivedTurn: 0
   - name: No Sword
@@ -194,7 +194,7 @@ MonoBehaviour:
     receivedTurn: 0
   - name: Bad shop
     labelType: 29
-    moraleChange: -1
+    moraleChange: -2
     _effectString: Those pesky bandits stole everything! There are only crappy items
       in the shop! And they are also so expensive
     receivedTurn: 0

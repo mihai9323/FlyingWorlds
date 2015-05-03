@@ -11,7 +11,7 @@ public class Road : MonoBehaviour {
 				CharacterManager.MoveAllActiveHereAndChangeState (RoadWorldSpace.position,FightState.Waiting,
 				                                                  delegate() {
 																	
-																	Invoke ("LoadFightSceneDelayed",1.2f);
+																	Invoke ("LoadFightSceneDelayed",.1f);
 				                                                 });
 				HubManager.HideAll ();
 				HubManager.interactable = false;
@@ -24,6 +24,7 @@ public class Road : MonoBehaviour {
 	}
 
 	private void LoadFightSceneDelayed(){
+		CharacterManager.SetAllCharactersStaticProperties ();
 		GameData.LoadScene(GameScenes.Fight);
 	}
 
