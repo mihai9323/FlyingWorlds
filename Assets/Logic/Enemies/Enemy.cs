@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour {
 		
 	}
 	public AI ai;
-	[SerializeField] MonsterTypes monsterType;
+	public MonsterTypes monsterType;
 	public float attackTime = 1.5f;
 	public int Damage{
 		get{

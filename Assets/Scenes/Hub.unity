@@ -939,6 +939,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 760162133}
 --- !u!114 &32459539
 MonoBehaviour:
@@ -2812,6 +2813,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &130463777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3453,6 +3455,940 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 679d2c252abbb0644b2eb1e623bab428, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &152112561
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 150551197}
+    m_Modifications:
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[0]._effectString.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._effectString.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[2]._effectString.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._effectString.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[4]._effectString.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[5]._effectString.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[6]._effectString.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[7]._effectString.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[8]._effectString.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[9]._effectString.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[19]._effectString.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[10]._effectString.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[11]._effectString.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[12]._effectString.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[13]._effectString.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[14]._effectString.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[15]._effectString.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[16]._effectString.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[17]._effectString.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[18]._effectString.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[20]._effectString.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[21]._effectString.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[22]._effectString.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[23]._effectString.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[24]._effectString.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[25]._effectString.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[26]._effectString.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[27]._effectString.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[28]._effectString.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[29]._effectString.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[30]._effectString.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._notAccomplished.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._notAccomplished.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[5]._notAccomplished.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[7]._notAccomplished.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[8]._notAccomplished.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[9]._notAccomplished.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[10]._notAccomplished.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[11]._notAccomplished.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 429.77652
+      objectReference: {fileID: 0}
+    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 328.586273
+      objectReference: {fileID: 0}
+    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[0]._effectString.Array.data[0]
+      value: I like this sword!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[0]._effectString.Array.data[1]
+      value: This is a good weapon!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[0]._effectString.Array.data[2]
+      value: This is a good weapon!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[19]._effectString.Array.data[0]
+      value: I would like a sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[19]._effectString.Array.data[1]
+      value: I would like a pointy stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[19]._effectString.Array.data[2]
+      value: I would like a different weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._effectString.Array.data[0]
+      value: It is shiny!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._effectString.Array.data[1]
+      value: It has the best steel
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._notAccomplished.Array.data[0]
+      value: But I wish I had a sword like [name]'s!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._notAccomplished.Array.data[1]
+      value: But I have a feeling that this sword is not the best...
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._notAccomplished.Array.data[2]
+      value: But I think I deserve a better one!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._notAccomplished.Array.data[3]
+      value: But [name] got a better weapon than me!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[2]._effectString.Array.data[0]
+      value: I'm happy I don't fight with a sword!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._effectString.Array.data[2]
+      value: It is very sharp!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._effectString.Array.data[3]
+      value: I heard it was expenisve
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._effectString.Array.data[4]
+      value: I killed many pirates with it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[0].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[2].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3].prerequisite
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[4].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[5].prerequisite
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[6].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[7].prerequisite
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[8].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[9].prerequisite
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[10].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[11].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[12].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[13].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[14].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[15].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[16].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[17].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[18].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[19].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[20].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[21].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[22].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[23].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[24].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[25].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[26].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[27].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[28].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[29].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[30].prerequisite
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[2]._effectString.Array.data[1]
+      value: I'm happy I am far from that magic crap!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[2]._effectString.Array.data[2]
+      value: Thanks for the bow
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._effectString.Array.data[0]
+      value: My weapon is the best!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._effectString.Array.data[1]
+      value: My weapon is shiny
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._effectString.Array.data[2]
+      value: My weapon has a nice string!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._effectString.Array.data[3]
+      value: My weapon looks cool!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._effectString.Array.data[4]
+      value: My weapon has a good grip!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._notAccomplished.Array.data[0]
+      value: But I sure would like a better bow!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._effectString.Array.data[5]
+      value: The [color] suits me!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1].color
+      value: But I heard that [name]'s [color] weapons is better
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._effectString.Array.data[5]
+      value: My weapon is the best beacuse it is [color]!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._notAccomplished.Array.data[1]
+      value: But I would appreciate a bow like [name]'s!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._notAccomplished.Array.data[2]
+      value: But the [color] bow would be nicer
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3].color
+      value: But [name] got a a better one.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[4]._effectString.Array.data[0]
+      value: I love magic!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[4]._effectString.Array.data[1]
+      value: Thanks for the staff!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[4]._effectString.Array.data[2]
+      value: This [color] staff looks nice!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[5]._effectString.Array.data[0]
+      value: The [color] staff is the most powerful! Thanks for giving it to me
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[5]._notAccomplished.Array.data[0]
+      value: But a [color] staff would be better
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[5]._notAccomplished.Array.data[1]
+      value: But [name]'s staff is stronger
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[5]._notAccomplished.Array.data[2]
+      value: But [name]'s staff is made from a better kind of wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[5]._effectString.Array.data[1]
+      value: My [color] staff has no match!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[5]._effectString.Array.data[2]
+      value: My [color] staff killed a lot of [monster]s.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._effectString.Array.data[6]
+      value: This [color] sword killed a lot of [monster]s!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._effectString.Array.data[7]
+      value: This sword is a [monster] killer!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[1]._notAccomplished.Array.data[4]
+      value: But I would like the [monster] killer sword from [name]
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._effectString.Array.data[6]
+      value: I heard that a lot of [monster]s were killed with this bow!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._effectString.Array.data[7]
+      value: This [color] bow killed a lot of [monster]s
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._notAccomplished.Array.data[3]
+      value: But the [monster]killer bow would be much better
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._notAccomplished.Array.data[4]
+      value: But the [monster]killer bow from [name] would be much better
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[3]._notAccomplished.Array.data[5]
+      value: But [name]'s bow is much better! He killed a lot of [monster]s with it
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[4]._effectString.Array.data[3]
+      value: 'This magical '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[5]._effectString.Array.data[3]
+      value: I killed a lot of [monster]s with my staff
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[5]._notAccomplished.Array.data[3]
+      value: But the [monster]killler staff would be much better
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[5]._notAccomplished.Array.data[4]
+      value: But the mighty [color] [monster]killer staff would be much better! I
+        have heard that [name] has it
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[6]._effectString.Array.data[0]
+      value: I feel protected in this armor
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[6]._effectString.Array.data[1]
+      value: I feel secure
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[6]._effectString.Array.data[2]
+      value: Thanks for the [color] armor
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[7]._effectString.Array.data[0]
+      value: This [color] material makes it much stronger than others
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[7]._effectString.Array.data[1]
+      value: It looks good on me
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[7]._effectString.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[7]._notAccomplished.Array.data[0]
+      value: But I have heard about an armor made of a [color] material which is much
+        better!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[7]._notAccomplished.Array.data[1]
+      value: But the [color] armor is more shiny
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[7]._notAccomplished.Array.data[2]
+      value: But I have seen [name] wearing a much better armor than me
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[8]._effectString.Array.data[0]
+      value: The last battle was easy
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[8]._effectString.Array.data[1]
+      value: The battle of the [location] left me with only minor injuries
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[8]._effectString.Array.data[2]
+      value: I think the battle of the [location] went well. I wasn't injured sevearly
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[8]._notAccomplished.Array.data[0]
+      value: The battle of the [location] was very hard, I almost died!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[8]._notAccomplished.Array.data[1]
+      value: It was very scary at the [location] I thought I will die!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[8]._notAccomplished.Array.data[2]
+      value: Please don't send me to the [location] ever again!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[9]._effectString.Array.data[0]
+      value: Ha! Nothing hit me in the last battle!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[9]._effectString.Array.data[1]
+      value: Ha! I was unhit in the battle of the [location]
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[9]._effectString.Array.data[2]
+      value: I can fight if nothing gets close to me.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[9]._notAccomplished.Array.data[0]
+      value: I got an arrow to the knee in the battle of the [location]
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[9]._notAccomplished.Array.data[1]
+      value: The last battle gave me a huge scar!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[9]._notAccomplished.Array.data[2]
+      value: Have you seen that huge monsters in the last fight?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[10]._effectString.Array.data[0]
+      value: I like smashing things
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[10]._effectString.Array.data[1]
+      value: Killing is what I do!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[10]._effectString.Array.data[2]
+      value: Where are the goblins?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[10]._notAccomplished.Array.data[0]
+      value: Come on send me to battle!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[10]._notAccomplished.Array.data[1]
+      value: It's been a while since I last fought! I start to get rusty!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[10]._notAccomplished.Array.data[2]
+      value: I miss being on the front line!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[11]._effectString.Array.data[0]
+      value: I killed everything I found in the battle of the [location]
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[11]._effectString.Array.data[1]
+      value: I like killing! Send them to me!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[11]._notAccomplished.Array.data[0]
+      value: I envy [name] for how much he managed to kill
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[11]._notAccomplished.Array.data[1]
+      value: Oh that [name] he thinks he can kill more than I do.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[11]._notAccomplished.Array.data[2]
+      value: '[name] beat me this time. Next time I will kill more!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[11]._notAccomplished.Array.data[3]
+      value: The [location] was not good for me. [name] managed to be better than
+        me.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[12]._effectString.Array.data[0]
+      value: This is what I call discipline!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[12]._effectString.Array.data[1]
+      value: No one fled! I like this squad!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[12]._effectString.Array.data[2]
+      value: Keep up the good work guys!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[13]._effectString.Array.data[0]
+      value: Oh! I am so shiny in this [color] armor!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[13]._effectString.Array.data[1]
+      value: Look at me this sword is priceless!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[13]._effectString.Array.data[2]
+      value: I am so pretty in this armor!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[13]._effectString.Array.data[3]
+      value: No one matches my beauty!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[13]._effectString.Array.data[4]
+      value: I wonder why all the enemies are shooting at me... It must be my looks
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[13]._effectString.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[14]._effectString.Array.data[0]
+      value: Good work giving everyone equal chances!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[14]._effectString.Array.data[1]
+      value: I like working for you
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[15]._effectString.Array.data[0]
+      value: Everyone is so happy today!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[15]._effectString.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[16]._effectString.Array.data[0]
+      value: 'I wonder why everyone is crying today! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[17]._effectString.Array.data[0]
+      value: The farm looks very clean and tidy today
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[17]._effectString.Array.data[1]
+      value: The farmland is very well taken care of
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[17]._effectString.Array.data[2]
+      value: The corn looks very healthy
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[18]._effectString.Array.data[0]
+      value: The shop has new things!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[18]._effectString.Array.data[1]
+      value: I heard that the shop might have a discount soon!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[18]._effectString.Array.data[2]
+      value: The shop just got new items
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[19]._effectString.Array.data[3]
+      value: Give me a sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[19]._effectString.Array.data[4]
+      value: What am I suppose to do without a sword?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[19]._effectString.Array.data[5]
+      value: Do you even think I can live without a sword?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[20]._effectString.Array.data[0]
+      value: Give me a bow
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[20]._effectString.Array.data[1]
+      value: I would like a different weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[20]._effectString.Array.data[2]
+      value: I like ranged weapons
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[20]._effectString.Array.data[3]
+      value: I hate magic
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[20]._effectString.Array.data[4]
+      value: Where is that bow?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[20]._effectString.Array.data[5]
+      value: I forgot where I left my bow
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[20]._effectString.Array.data[6]
+      value: I lost my bow during the last hunt. Can you help me?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[21]._effectString.Array.data[0]
+      value: I think that I forgot my staff in the tower. Could you give me a new
+        one?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[21]._effectString.Array.data[1]
+      value: Where is that stuff? I think I left it here somewhere
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[21]._effectString.Array.data[2]
+      value: I would like a staff. I heard legends about some very good black ones.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[21]._effectString.Array.data[3]
+      value: I can't fight without my old wooden staff
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[22]._effectString.Array.data[0]
+      value: Give me some discent armor
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[22]._effectString.Array.data[1]
+      value: My life is to valuable. I cant fight without a real armor
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[22]._effectString.Array.data[2]
+      value: Where is my armor?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[22]._effectString.Array.data[3]
+      value: That blacksmith forgot to send me my armor. Where is he?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[23]._effectString.Array.data[0]
+      value: It's to dangerous out htere
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[23]._effectString.Array.data[1]
+      value: I dont want to die!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[23]._effectString.Array.data[2]
+      value: Why am I always in the line o fire?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[23]._effectString.Array.data[3]
+      value: I didn't sign up for this mess!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[23]._effectString.Array.data[4]
+      value: The [location] was very dangerous!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[24]._effectString.Array.data[0]
+      value: Send me to battle!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[24]._effectString.Array.data[1]
+      value: I didn't train all my life to sleep in the barracks!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[24]._effectString.Array.data[2]
+      value: I want to fight! Send me to battle! I will do anything to kill something!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[25]._effectString.Array.data[0]
+      value: '[name] is wothless! He fled again!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[25]._effectString.Array.data[1]
+      value: '[name] calls himself a worrior, but he is nothing, but a coward!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[25]._effectString.Array.data[2]
+      value: Maybe if [name] would be more responsable we will win some fights!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[26]._effectString.Array.data[0]
+      value: Look at me! I look so stupid in this gear!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[26]._effectString.Array.data[1]
+      value: Give me something worthy of my name!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[26]._effectString.Array.data[2]
+      value: Give me some weapons worthy of me!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[26]._effectString.Array.data[3]
+      value: This armor is ugly!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[26]._effectString.Array.data[4]
+      value: Only peasants wear armor like this one! Give me something proper!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[27]._effectString.Array.data[0]
+      value: You should consider giving some more attention to the weaker aswell
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[27]._effectString.Array.data[1]
+      value: Why is it that only [name] gets the best gear?
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[27]._effectString.Array.data[2]
+      value: I think you should consider taking some leadership classes!
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[28]._effectString.Array.data[0]
+      value: This farm needs better attention
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[28]._effectString.Array.data[1]
+      value: We should putting up some more scarecraws, our harvest is ruined by birds
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[28]._effectString.Array.data[2]
+      value: The farm security is pretty low, people are stealing our crops
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[28]._effectString.Array.data[3]
+      value: Consider upgrading the farm if you dont want us to starve
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[28]._effectString.Array.data[4]
+      value: We should produce more food, so we can sell some for profit
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[29]._effectString.Array.data[0]
+      value: We should send some more trade caravans to get better wears in ths shop
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[29]._effectString.Array.data[1]
+      value: We should upgrade the shop to fit in more expenisve swords
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[29]._effectString.Array.data[2]
+      value: If the market would be larger maybe better armor would get sold into
+        our town
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[29]._effectString.Array.data[3]
+      value: I would like to buy some better equipemnt, but this shop doesn't have
+        anything usefull
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[30]._effectString.Array.data[0]
+      value: I had no choice but to flee from the last fight
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+      propertyPath: labels.Array.data[30]._effectString.Array.data[1]
+      value: I know that a fighter should not flee, but I had no option!
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
+  m_RootGameObject: {fileID: 1146951726}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &153434788
 GameObject:
   m_ObjectHideFlags: 0
@@ -3572,6 +4508,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 2134521462}
 --- !u!114 &162820306
 MonoBehaviour:
@@ -4938,6 +5875,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &215644454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5073,6 +6011,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 757457299}
 --- !u!114 &224601203
 MonoBehaviour:
@@ -6226,6 +7165,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   armorItem:
     Damage: 0
     Defence: 0
@@ -6233,6 +7173,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   damageDealtInLastBattle: 0
   foughtInLastBattle: 0
   Ready: 0
@@ -6514,6 +7455,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &269407791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9553,6 +10495,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1607817293}
 --- !u!114 &360566219
 MonoBehaviour:
@@ -10048,6 +10991,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   armorItem:
     Damage: 0
     Defence: 0
@@ -10055,6 +10999,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   damageDealtInLastBattle: 0
   foughtInLastBattle: 0
   Ready: 0
@@ -10419,6 +11364,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1989314921}
 --- !u!114 &393999650
 MonoBehaviour:
@@ -11476,6 +12422,7 @@ MonoBehaviour:
     shine: 0
     itemType: 1
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &426693536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12944,6 +13891,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &459769517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13749,6 +14697,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   armorItem:
     Damage: 0
     Defence: 0
@@ -13756,6 +14705,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   damageDealtInLastBattle: 0
   foughtInLastBattle: 0
   Ready: 0
@@ -14007,6 +14957,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 202161798}
 --- !u!114 &497817426
 MonoBehaviour:
@@ -14149,6 +15100,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &502350285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14776,6 +15728,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1482285577}
 --- !u!114 &516041105
 MonoBehaviour:
@@ -15162,6 +16115,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &533005375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15461,6 +16415,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1409405443}
 --- !u!114 &540845347
 MonoBehaviour:
@@ -15889,6 +16844,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1441510112}
 --- !u!114 &552759074
 MonoBehaviour:
@@ -16025,6 +16981,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1960777947}
 --- !u!114 &553697059
 MonoBehaviour:
@@ -16905,6 +17862,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &581377652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17384,6 +18342,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &596122597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17783,6 +18742,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1482213911}
 --- !u!114 &609180862
 MonoBehaviour:
@@ -19578,6 +20538,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &658059693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19994,22 +20955,22 @@ MonoBehaviour:
     traitType: 1
     buffs: 01000000
     debuffs: 0e000000
-    influencedBy: 0200000003000000140000001e000000
+    influencedBy: 020000000300000014000000
   - name: Wizzard
     traitType: 2
     buffs: 02000000
     debuffs: 0f000000
-    influencedBy: 0400000005000000150000001e000000
+    influencedBy: 040000000500000015000000
   - name: Knight
     traitType: 3
     buffs: 03000000
     debuffs: 10000000
-    influencedBy: 0600000007000000160000001e000000
+    influencedBy: 060000000700000016000000
   - name: Coward
     traitType: 4
     buffs: 04000000
     debuffs: 11000000
-    influencedBy: 0800000009000000170000001e000000
+    influencedBy: 080000000900000017000000
   - name: Veteran
     traitType: 5
     buffs: 06000000
@@ -20019,7 +20980,7 @@ MonoBehaviour:
     traitType: 6
     buffs: 07000000
     debuffs: 14000000
-    influencedBy: 1a0000000d0000001e000000
+    influencedBy: 1a0000000d000000
   - name: Brave
     traitType: 7
     buffs: 05000000
@@ -20029,27 +20990,27 @@ MonoBehaviour:
     traitType: 8
     buffs: 09000000
     debuffs: 16000000
-    influencedBy: 0f000000100000001e000000
+    influencedBy: 0f00000010000000
   - name: Evil
     traitType: 9
     buffs: 10000000
     debuffs: 0a000000
-    influencedBy: 0f000000100000001e000000
+    influencedBy: 0f00000010000000
   - name: Farmer
     traitType: 10
     buffs: 0b000000
     debuffs: 18000000
-    influencedBy: 110000001c0000001e000000
+    influencedBy: 110000001c000000
   - name: Shop Clerk
     traitType: 11
     buffs: 0c000000
     debuffs: 19000000
-    influencedBy: 120000001d0000001e000000
+    influencedBy: 120000001d000000
   - name: Fair
     traitType: 12
     buffs: 08000000
     debuffs: 15000000
-    influencedBy: 1b0000000e0000001e000000
+    influencedBy: 1b0000000e000000
 --- !u!4 &678051977
 Transform:
   m_ObjectHideFlags: 0
@@ -20417,6 +21378,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 2114850577}
 --- !u!114 &682777912
 MonoBehaviour:
@@ -20728,6 +21690,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &687348042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21658,6 +22621,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1968275080}
 --- !u!114 &702277899
 MonoBehaviour:
@@ -22179,6 +23143,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &725458466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23527,6 +24492,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 956033203}
 --- !u!114 &763597088
 MonoBehaviour:
@@ -23691,6 +24657,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 598420374}
 --- !u!114 &772821536
 MonoBehaviour:
@@ -25184,6 +26151,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   armorItem:
     Damage: 0
     Defence: 0
@@ -25191,6 +26159,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   damageDealtInLastBattle: 0
   foughtInLastBattle: 0
   Ready: 0
@@ -25662,6 +26631,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &829489591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26880,6 +27850,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1156561236}
 --- !u!114 &859273068
 MonoBehaviour:
@@ -27018,6 +27989,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &860389182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28067,6 +29039,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 316915756}
 --- !u!114 &888026794
 MonoBehaviour:
@@ -31515,6 +32488,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1715660187}
 --- !u!114 &1019533395
 MonoBehaviour:
@@ -31842,6 +32816,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 787643956}
 --- !u!114 &1038443285
 MonoBehaviour:
@@ -33646,6 +34621,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 876333403}
 --- !u!114 &1098290010
 MonoBehaviour:
@@ -35566,6 +36542,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &1135005267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35845,7 +36822,7 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 147082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
-  m_PrefabInternal: {fileID: 1486082071}
+  m_PrefabInternal: {fileID: 152112561}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1146951728}
@@ -35862,7 +36839,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146,
     type: 2}
-  m_PrefabInternal: {fileID: 1486082071}
+  m_PrefabInternal: {fileID: 152112561}
   m_GameObject: {fileID: 1146951726}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -35876,168 +36853,523 @@ MonoBehaviour:
   labels:
   - name: Has Sword
     labelType: 0
+    prerequisite: 31
     moraleChange: 1
-    _effectString: Thank you for giving me a sword!
+    _effectString:
+    - I like this sword!
+    - This is a good weapon!
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Best Sword
     labelType: 1
+    prerequisite: 0
     moraleChange: 2
-    _effectString: Wow! I have the best sword!
+    _effectString:
+    - It is shiny!
+    - It has the best steel
+    - It is very sharp!
+    - I heard it was expenisve
+    - I killed many pirates with it!
+    - The [color] suits me!
+    - This [color] sword killed a lot of [monster]s!
+    - This sword is a [monster] killer!
+    _notAccomplished:
+    - But I wish I had a sword like [name]'s!
+    - But I have a feeling that this sword is not the best...
+    - But I think I deserve a better one!
+    - But [name] got a better weapon than me!
+    - But I would like the [monster] killer sword from [name]
+    color: But I heard that [name]'s [color] weapons is better
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Has Bow
     labelType: 2
+    prerequisite: 31
     moraleChange: 1
-    _effectString: Cool! I have a bow!
+    _effectString:
+    - I'm happy I don't fight with a sword!
+    - I'm happy I am far from that magic crap!
+    - Thanks for the bow
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Best bow
     labelType: 3
+    prerequisite: 2
     moraleChange: 2
-    _effectString: Awesome! This bow is the best!
+    _effectString:
+    - My weapon is the best!
+    - My weapon is shiny
+    - My weapon has a nice string!
+    - My weapon looks cool!
+    - My weapon has a good grip!
+    - My weapon is the best beacuse it is [color]!
+    - I heard that a lot of [monster]s were killed with this bow!
+    - This [color] bow killed a lot of [monster]s
+    _notAccomplished:
+    - But I sure would like a better bow!
+    - But I would appreciate a bow like [name]'s!
+    - But the [color] bow would be nicer
+    - But the [monster]killer bow would be much better
+    - But the [monster]killer bow from [name] would be much better
+    - But [name]'s bow is much better! He killed a lot of [monster]s with it
+    color: But [name] got a a better one.
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Has staff
     labelType: 4
+    prerequisite: 31
     moraleChange: 1
-    _effectString: Having a staff makes me want to fight
+    _effectString:
+    - I love magic!
+    - Thanks for the staff!
+    - This [color] staff looks nice!
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Has best staff
     labelType: 5
+    prerequisite: 4
     moraleChange: 2
-    _effectString: I love this staff!
+    _effectString:
+    - The [color] staff is the most powerful! Thanks for giving it to me
+    - My [color] staff has no match!
+    - My [color] staff killed a lot of [monster]s.
+    - I killed a lot of [monster]s with my staff
+    _notAccomplished:
+    - But a [color] staff would be better
+    - But [name]'s staff is stronger
+    - But [name]'s staff is made from a better kind of wood
+    - But the [monster]killler staff would be much better
+    - But the mighty [color] [monster]killer staff would be much better! I have heard
+      that [name] has it
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Has good armor
     labelType: 6
+    prerequisite: 31
     moraleChange: 1
-    _effectString: I feel protected
+    _effectString:
+    - I feel protected in this armor
+    - I feel secure
+    - Thanks for the [color] armor
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Has best armor
     labelType: 7
+    prerequisite: 6
     moraleChange: 2
-    _effectString: Nothing can hit me in this armor!
+    _effectString:
+    - This [color] material makes it much stronger than others
+    - It looks good on me
+    _notAccomplished:
+    - But I have heard about an armor made of a [color] material which is much better!
+    - But the [color] armor is more shiny
+    - But I have seen [name] wearing a much better armor than me
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: A lot of health
     labelType: 8
+    prerequisite: 31
     moraleChange: 1
-    _effectString: The last battle did not scare me!
+    _effectString:
+    - The last battle was easy
+    - The battle of the [location] left me with only minor injuries
+    - I think the battle of the [location] went well. I wasn't injured sevearly
+    _notAccomplished:
+    - The battle of the [location] was very hard, I almost died!
+    - It was very scary at the [location] I thought I will die!
+    - Please don't send me to the [location] ever again!
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Not hit
     labelType: 9
+    prerequisite: 8
     moraleChange: 2
-    _effectString: I was unhit in the previous battle!
+    _effectString:
+    - Ha! Nothing hit me in the last battle!
+    - Ha! I was unhit in the battle of the [location]
+    - I can fight if nothing gets close to me.
+    _notAccomplished:
+    - I got an arrow to the knee in the battle of the [location]
+    - The last battle gave me a huge scar!
+    - Have you seen that huge monsters in the last fight?
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Is fighting
     labelType: 10
+    prerequisite: 31
     moraleChange: 1
-    _effectString: I enjoy fighting!
+    _effectString:
+    - I like smashing things
+    - Killing is what I do!
+    - Where are the goblins?
+    _notAccomplished:
+    - Come on send me to battle!
+    - It's been a while since I last fought! I start to get rusty!
+    - I miss being on the front line!
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Most damage
     labelType: 11
+    prerequisite: 31
     moraleChange: 2
-    _effectString: No one kills more than I do!
+    _effectString:
+    - I killed everything I found in the battle of the [location]
+    - I like killing! Send them to me!
+    _notAccomplished:
+    - I envy [name] for how much he managed to kill
+    - Oh that [name] he thinks he can kill more than I do.
+    - '[name] beat me this time. Next time I will kill more!'
+    - The [location] was not good for me. [name] managed to be better than me.
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Nobody fled
     labelType: 12
+    prerequisite: 31
     moraleChange: 1
-    _effectString: I like those guys! I can count on them having my back in battles!
+    _effectString:
+    - This is what I call discipline!
+    - No one fled! I like this squad!
+    - Keep up the good work guys!
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Best gear
     labelType: 13
+    prerequisite: 31
     moraleChange: 1
-    _effectString: My gear is shiny! Golden I can say!
+    _effectString:
+    - Oh! I am so shiny in this [color] armor!
+    - Look at me this sword is priceless!
+    - I am so pretty in this armor!
+    - No one matches my beauty!
+    - I wonder why all the enemies are shooting at me... It must be my looks
+    _notAccomplished:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Fairness
     labelType: 14
+    prerequisite: 31
     moraleChange: 1
-    _effectString: You are a great leader!
+    _effectString:
+    - Good work giving everyone equal chances!
+    - I like working for you
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: High Team Morale
     labelType: 15
+    prerequisite: 31
     moraleChange: 1
-    _effectString: What a sunny day!
+    _effectString:
+    - Everyone is so happy today!
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Low team morale
     labelType: 16
+    prerequisite: 31
     moraleChange: -3
-    _effectString: Everyone is so blue today
+    _effectString:
+    - 'I wonder why everyone is crying today! '
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Good farm
     labelType: 17
+    prerequisite: 31
     moraleChange: 1
-    _effectString: We had a very good season! Look at all that grain!
+    _effectString:
+    - The farm looks very clean and tidy today
+    - The farmland is very well taken care of
+    - The corn looks very healthy
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Good shop
     labelType: 18
+    prerequisite: 31
     moraleChange: 2
-    _effectString: The shop got now stuff! And they are cheap!
+    _effectString:
+    - The shop has new things!
+    - I heard that the shop might have a discount soon!
+    - The shop just got new items
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: No Sword
     labelType: 19
+    prerequisite: 31
     moraleChange: -1
-    _effectString: Give me a sword! I am a swordsman!
+    _effectString:
+    - I would like a sword
+    - I would like a pointy stick
+    - I would like a different weapon
+    - Give me a sword
+    - What am I suppose to do without a sword?
+    - Do you even think I can live without a sword?
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: No bow
     labelType: 20
+    prerequisite: 31
     moraleChange: -1
-    _effectString: Give me a bow! I know how to use it!
+    _effectString:
+    - Give me a bow
+    - I would like a different weapon
+    - I like ranged weapons
+    - I hate magic
+    - Where is that bow?
+    - I forgot where I left my bow
+    - I lost my bow during the last hunt. Can you help me?
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: No staff
     labelType: 21
+    prerequisite: 31
     moraleChange: -1
-    _effectString: Where did my staff go?
+    _effectString:
+    - I think that I forgot my staff in the tower. Could you give me a new one?
+    - Where is that stuff? I think I left it here somewhere
+    - I would like a staff. I heard legends about some very good black ones.
+    - I can't fight without my old wooden staff
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Bad armor
     labelType: 22
+    prerequisite: 31
     moraleChange: -1
-    _effectString: This armor sucks! Give me a proper one!
+    _effectString:
+    - Give me some discent armor
+    - My life is to valuable. I cant fight without a real armor
+    - Where is my armor?
+    - That blacksmith forgot to send me my armor. Where is he?
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Hit in battle
     labelType: 23
+    prerequisite: 31
     moraleChange: -1
-    _effectString: I am injured! You should rest me the next battle
+    _effectString:
+    - It's to dangerous out htere
+    - I dont want to die!
+    - Why am I always in the line o fire?
+    - I didn't sign up for this mess!
+    - The [location] was very dangerous!
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Not fighting
     labelType: 24
+    prerequisite: 31
     moraleChange: -1
-    _effectString: Send me to battle! I haven't trained all my life to sleep in the
-      barracks!
+    _effectString:
+    - Send me to battle!
+    - I didn't train all my life to sleep in the barracks!
+    - I want to fight! Send me to battle! I will do anything to kill something!
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Party member fled
     labelType: 25
+    prerequisite: 31
     moraleChange: -1
-    _effectString: This useless man! They call themselves worriors, but when they
-      see danger they run away!
+    _effectString:
+    - '[name] is wothless! He fled again!'
+    - '[name] calls himself a worrior, but he is nothing, but a coward!'
+    - Maybe if [name] would be more responsable we will win some fights!
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Not best gear
     labelType: 26
+    prerequisite: 31
     moraleChange: -1
-    _effectString: This gear is not fit for me! Give me worthy of my name!
+    _effectString:
+    - Look at me! I look so stupid in this gear!
+    - Give me something worthy of my name!
+    - Give me some weapons worthy of me!
+    - This armor is ugly!
+    - Only peasants wear armor like this one! Give me something proper!
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Unfair
     labelType: 27
+    prerequisite: 31
     moraleChange: -1
-    _effectString: Things should change around here! This leadership sucks! It is
-      always the same guy having all the best weapons
+    _effectString:
+    - You should consider giving some more attention to the weaker aswell
+    - Why is it that only [name] gets the best gear?
+    - I think you should consider taking some leadership classes!
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Bad farm
     labelType: 28
+    prerequisite: 31
     moraleChange: -1
-    _effectString: The recent floods destroyed all of our crops!
+    _effectString:
+    - This farm needs better attention
+    - We should putting up some more scarecraws, our harvest is ruined by birds
+    - The farm security is pretty low, people are stealing our crops
+    - Consider upgrading the farm if you dont want us to starve
+    - We should produce more food, so we can sell some for profit
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Bad shop
     labelType: 29
+    prerequisite: 31
     moraleChange: -2
-    _effectString: Those pesky bandits stole everything! There are only crappy items
-      in the shop! And they are also so expensive
+    _effectString:
+    - We should send some more trade caravans to get better wears in ths shop
+    - We should upgrade the shop to fit in more expenisve swords
+    - If the market would be larger maybe better armor would get sold into our town
+    - I would like to buy some better equipemnt, but this shop doesn't have anything
+      usefull
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
   - name: Fled
     labelType: 30
+    prerequisite: 31
     moraleChange: -1
-    _effectString: I had to run for my life in the last fight!
+    _effectString:
+    - I had no choice but to flee from the last fight
+    - I know that a fighter should not flee, but I had no option!
+    _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
+    causeLocation: 
+    causeName: 
 --- !u!4 &1146951728
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
-  m_PrefabInternal: {fileID: 1486082071}
+  m_PrefabInternal: {fileID: 152112561}
   m_GameObject: {fileID: 1146951726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 429.77652, y: 328.586273, z: -2}
@@ -36520,6 +37852,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1583063686}
 --- !u!114 &1162200023
 MonoBehaviour:
@@ -37426,6 +38759,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &1186503319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37709,6 +39043,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 398285034}
 --- !u!114 &1189605275
 MonoBehaviour:
@@ -39428,6 +40763,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 2028640004}
 --- !u!114 &1252010213
 MonoBehaviour:
@@ -39754,6 +41090,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1268504077}
 --- !u!114 &1258246678
 MonoBehaviour:
@@ -40138,6 +41475,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &1267811803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40337,6 +41675,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 357823879}
 --- !u!114 &1270546287
 MonoBehaviour:
@@ -40603,6 +41942,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &1283314232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41688,6 +43028,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   buyItem:
     Damage: 0
     Defence: 0
@@ -41695,6 +43036,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   level: 1
 --- !u!1 &1319374272
 GameObject:
@@ -42072,6 +43414,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 70598467}
 --- !u!114 &1339699382
 MonoBehaviour:
@@ -42919,6 +44262,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1573627352}
 --- !u!114 &1352832712
 MonoBehaviour:
@@ -43250,6 +44594,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 14393047}
 --- !u!114 &1367791432
 MonoBehaviour:
@@ -43647,6 +44992,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &1379964280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43957,6 +45303,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &1386473746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44162,6 +45509,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &1388189745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45266,6 +46614,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1152940633}
 --- !u!114 &1434186972
 MonoBehaviour:
@@ -45819,6 +47168,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 598833206}
 --- !u!114 &1456094077
 MonoBehaviour:
@@ -46588,6 +47938,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 704863426}
 --- !u!114 &1474890004
 MonoBehaviour:
@@ -47074,50 +48425,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1482285575}
---- !u!1001 &1486082071
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 150551197}
-    m_Modifications:
-    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 429.77652
-      objectReference: {fileID: 0}
-    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 328.586273
-      objectReference: {fileID: 0}
-    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 447082, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 7ae1fae84a6c14047b7e95ecdb6aa146, type: 2}
-  m_RootGameObject: {fileID: 1146951726}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1 &1490185603
 GameObject:
   m_ObjectHideFlags: 0
@@ -48698,6 +50005,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1762641347}
 --- !u!114 &1558383070
 MonoBehaviour:
@@ -49330,6 +50638,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1685799775}
 --- !u!114 &1579274392
 MonoBehaviour:
@@ -50657,6 +51966,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 767509}
 --- !u!114 &1637446851
 MonoBehaviour:
@@ -51474,6 +52784,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1100434259}
 --- !u!114 &1659443165
 MonoBehaviour:
@@ -52667,6 +53978,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   armorItem:
     Damage: 0
     Defence: 0
@@ -52674,6 +53986,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   damageDealtInLastBattle: 0
   foughtInLastBattle: 0
   Ready: 0
@@ -54251,6 +55564,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   armorItem:
     Damage: 0
     Defence: 0
@@ -54258,6 +55572,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   damageDealtInLastBattle: 0
   foughtInLastBattle: 0
   Ready: 0
@@ -54416,6 +55731,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &1754088732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55553,6 +56869,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 866792841}
 --- !u!114 &1798799950
 MonoBehaviour:
@@ -56308,6 +57625,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &1820592915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56525,6 +57843,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1211147621}
 --- !u!114 &1823693168
 MonoBehaviour:
@@ -56885,6 +58204,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1413542444}
 --- !u!114 &1837850309
 MonoBehaviour:
@@ -57705,6 +59025,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 899866390}
 --- !u!114 &1857538006
 MonoBehaviour:
@@ -58089,6 +59410,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &1862365374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58937,6 +60259,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 689865829}
 --- !u!114 &1881757212
 MonoBehaviour:
@@ -59756,6 +61079,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   armorItem:
     Damage: 0
     Defence: 0
@@ -59763,6 +61087,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   damageDealtInLastBattle: 0
   foughtInLastBattle: 0
   Ready: 0
@@ -63793,6 +65118,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 580655448}
 --- !u!114 &1968937965
 MonoBehaviour:
@@ -64662,6 +65988,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 829531551}
 --- !u!114 &1990104856
 MonoBehaviour:
@@ -65267,6 +66594,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 875694138}
 --- !u!114 &2000474348
 MonoBehaviour:
@@ -66523,6 +67851,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1013614702}
 --- !u!114 &2045602051
 MonoBehaviour:
@@ -66760,6 +68089,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   armorItem:
     Damage: 0
     Defence: 0
@@ -66767,6 +68097,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   damageDealtInLastBattle: 0
   foughtInLastBattle: 0
   Ready: 0
@@ -67254,6 +68585,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 339852298}
 --- !u!114 &2057419582
 MonoBehaviour:
@@ -67712,6 +69044,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1476973362}
 --- !u!114 &2072180804
 MonoBehaviour:
@@ -67800,6 +69133,46 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 150551197}
     m_Modifications:
+    - target: {fileID: 11499526, guid: d69f1a75a6e0e78448a8561829f1802e, type: 2}
+      propertyPath: traits.Array.data[1].influencedBy.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499526, guid: d69f1a75a6e0e78448a8561829f1802e, type: 2}
+      propertyPath: traits.Array.data[2].influencedBy.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499526, guid: d69f1a75a6e0e78448a8561829f1802e, type: 2}
+      propertyPath: traits.Array.data[3].influencedBy.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499526, guid: d69f1a75a6e0e78448a8561829f1802e, type: 2}
+      propertyPath: traits.Array.data[4].influencedBy.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499526, guid: d69f1a75a6e0e78448a8561829f1802e, type: 2}
+      propertyPath: traits.Array.data[6].influencedBy.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499526, guid: d69f1a75a6e0e78448a8561829f1802e, type: 2}
+      propertyPath: traits.Array.data[8].influencedBy.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499526, guid: d69f1a75a6e0e78448a8561829f1802e, type: 2}
+      propertyPath: traits.Array.data[9].influencedBy.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499526, guid: d69f1a75a6e0e78448a8561829f1802e, type: 2}
+      propertyPath: traits.Array.data[10].influencedBy.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499526, guid: d69f1a75a6e0e78448a8561829f1802e, type: 2}
+      propertyPath: traits.Array.data[11].influencedBy.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499526, guid: d69f1a75a6e0e78448a8561829f1802e, type: 2}
+      propertyPath: traits.Array.data[12].influencedBy.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 499526, guid: d69f1a75a6e0e78448a8561829f1802e, type: 2}
       propertyPath: m_LocalPosition.x
       value: 429.77652
@@ -68448,6 +69821,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &2098258526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69005,6 +70379,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
 --- !u!114 &2109636746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69204,6 +70579,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1380612170}
 --- !u!114 &2115069310
 MonoBehaviour:
@@ -70401,6 +71777,7 @@ MonoBehaviour:
     shine: 0
     itemType: 0
     itemOwner: {fileID: 0}
+    colorName: 
   itemImage: {fileID: 1957691935}
 --- !u!114 &2138147668
 MonoBehaviour:

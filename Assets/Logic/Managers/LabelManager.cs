@@ -36,7 +36,8 @@ public class LabelManager : MonoBehaviour {
 		unfair,
 		badFarm,
 		badShop,
-		fled
+		fled,
+		none
 
 		
 	}

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 [System.Serializable]
 public class Item  {
 
@@ -25,6 +26,7 @@ public class Item  {
 			item_name = value;
 		}
 	}
+	public Dictionary<MonsterTypes, int> monstersKilled;
 	public string fightAnimation{
 		get{
 
@@ -49,6 +51,19 @@ public class Item  {
 			return (int)(50 * (Damage + 3*Defence + Range) * (1+shine) + ItemName.Length * 20);
 		}
 	}
+	public string MostMonstersKilled{
+		get{
+			KeyValuePair<MonsterTypes,int> bestPair;
+			bestPair = new KeyValuePair<MonsterTypes, int>(MonsterTypes.Devil,0);
+			foreach(KeyValuePair<MonsterTypes,int> pair in monstersKilled){
+				if(pair.Value>bestPair.Value){
+					bestPair = pair;
+				}
+			}
+			return bestPair.Key.ToString();
+		}
+	}
+	public string colorName;
 	public Color color{
 		get{
 			Color c;
@@ -61,6 +76,7 @@ public class Item  {
 		Damage =0;
 		Defence = 0;
 		Range = 0;
+		monstersKilled = new Dictionary<MonsterTypes,int>();
 	}
 	public Item(ItemType type, int power){
 		this.itemType = type;
@@ -70,6 +86,7 @@ public class Item  {
 		case ItemType.Ranged: this.Range = 3 + power * Random.value; this.Defence = 0; this.Damage = 1+ power * Random.value; break;
 
 		}
+		monstersKilled = new Dictionary<MonsterTypes,int>();
 	}
 	public Item(int dmg, int def, int range){
 		ItemType iType;
@@ -84,7 +101,7 @@ public class Item  {
 		this.Defence = def;
 		this.Range = range;
 		this.itemType = iType;
-		
+		monstersKilled = new Dictionary<MonsterTypes,int>();
 	}
 
 	public Sprite GetSprite(out Color color){
@@ -100,11 +117,23 @@ public class Item  {
 	}
 	
 	private Color CalculateColor(){
-		if(Damage<10) return Color.white;
-		else if(Damage<20) return Color.green;
-		else if(Damage<30) return Color.red;
-		else if(Damage<40) return Color.blue;
-		else return Color.black;
+		if (Damage < 10) {
+			colorName = "White";
+			return Color.white;
+		}else if (Damage < 20) {
+			colorName = "Green";
+			return Color.green;
+		}if (Damage < 30) {
+			colorName = "Red";
+			return Color.red;
+		}if (Damage < 40) {
+			colorName = "Blue";
+			return Color.blue;
+		} else {
+			colorName = "Black";
+			return Color.black;
+		}
+
 	}
 
 }

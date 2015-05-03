@@ -9,7 +9,8 @@ public class GameData:MonoBehaviour  {
 
 	public static int TurnNumber = 1;
 	[SerializeField] string _nextBattleID;
-	public static string nextBattleID{ get { return s_Instance._nextBattleID; } set { s_Instance._nextBattleID = value; } }
+	public static string prevBattleID;
+	public static string nextBattleID{ get { return s_Instance._nextBattleID; } set { if(value != s_Instance._nextBattleID) prevBattleID = s_Instance._nextBattleID; s_Instance._nextBattleID = value; } }
 	private static GameScenes currentScene;
 	private void Start(){
 		s_Instance = this;

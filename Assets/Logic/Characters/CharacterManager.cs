@@ -236,13 +236,29 @@ public class CharacterManager : MonoBehaviour {
 	public static void CheckLabels(LabelManager.LabelType[] labelGroup){
 		foreach (Character c in gameCharacters) {
 			foreach(LabelManager.LabelType lt in labelGroup){
+				string name="",location="",color="",monster="";
 				if(c.labels.ContainsKey(lt)){
 					Label testLabel = c.labels[lt];
-					if(!testLabel.isActive(c)){
+					if(!testLabel.isActive(c,out name,out location,out color,out monster)){
 						c.labels.Remove(lt);
+					}else{
+						if(name != "" && testLabel.causeName != name){
+							testLabel.causeName = name;
+						}
+						if(location != "" && testLabel.causeLocation != location){
+							testLabel.causeLocation = location;
+						}
+						if(color != "" && testLabel.color != color){
+							testLabel.color = color;
+						}
+						if(monster != "" && testLabel.monster != monster){
+							testLabel.monster = monster;
+						}
 					}
-				}else if(LabelManager.GetLabel(lt).isActive(c)){
-					c.labels.Add(lt,new Label(LabelManager.GetLabel(lt)));
+				}else if(LabelManager.GetLabel(lt).isActive(c,out name,out location,out color,out monster)){
+					if(c.Name == name) name = "me";
+					c.labels.Add(lt,new Label(LabelManager.GetLabel(lt),name,location,color,monster));
+
 				}
 			}
 		}

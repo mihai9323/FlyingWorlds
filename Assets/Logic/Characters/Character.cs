@@ -250,11 +250,24 @@ public class Character : MonoBehaviour {
 		string message="";
 		foreach (TraitManager.TraitTypes t in Traits) {
 			Trait trait = TraitManager.GetTrait(t);
-			foreach(Label l in labels.Values){
-				if(trait.influencedBy.Contains(l.labelType)){
-					message+= l.effectString("")+"\n";
+			foreach(LabelManager.LabelType lt in trait.influencedBy){
+				if(labels.ContainsKey(lt)){
+					message+= labels[lt].effectString(t)+"\n";
+				}else{
+					string name,location,color,monster;
+					LabelManager.GetLabel(lt).isActive(this,out name,out location,out color,out monster);
+
+					if((LabelManager.GetLabel(lt).hasNotAccomplished) && labels.ContainsKey(LabelManager.GetLabel(lt).prerequisite))message += LabelManager.GetLabel(lt).notAccomplishedString(name,location,color,monster)+"\n";
 				}
 			}
+			/*
+			foreach(Label l in labels.Values){
+
+				if(trait.influencedBy.Contains(l.labelType)){
+					message+= l.effectString(t)+"\n";
+				}
+			}
+			*/
 		}
 		return message;
 	}
@@ -460,7 +473,11 @@ public class Character : MonoBehaviour {
 				ShootProjectile(FightManager.fireBall,targetCharacter);
 				damageDealtInLastBattle += this.damage;
 			}else{
-				targetCharacter.Hit (this.damage);
+				if(targetCharacter.Hit (this.damage)){
+					if(this.weaponItem.monstersKilled.ContainsKey(targetCharacter.monsterType)){
+						this.weaponItem.monstersKilled[targetCharacter.monsterType]++;
+					}else this.weaponItem.monstersKilled.Add(targetCharacter.monsterType,1);
+				}
 				damageDealtInLastBattle += this.damage;
 			}
 
@@ -471,7 +488,13 @@ public class Character : MonoBehaviour {
 	}
 	private void ShootProjectile(Projectile p, Enemy target){
 		Projectile missile = Instantiate (p, transform.position, Quaternion.identity) as Projectile;
-		missile.ShootMonster (target.transform.position, this.damage, null);
+		missile.ShootMonster (target.transform.position, this.damage, delegate(Enemy e) {
+			if(e!=null && e.dead){
+				if(this.weaponItem.monstersKilled.ContainsKey(e.monsterType)){
+					this.weaponItem.monstersKilled[e.monsterType]++;
+				}else this.weaponItem.monstersKilled.Add(e.monsterType,1);
+			}
+		});
 	}
 	private void StopFight ()
 	{
