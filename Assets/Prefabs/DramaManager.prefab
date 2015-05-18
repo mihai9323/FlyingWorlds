@@ -363,7 +363,154 @@ MonoBehaviour:
     previousQuestFailedMiniBossKilled: 
     revangeQuestWithItem: With [pr] retrieved, we are ready to face [mbn] again! This
       time it will surely fall in our favor.
-    revangeQuestWithoutItem: 
+    revangeQuestWithoutItem: With the experience we got at the [pl], am I confident
+      that [mbn] will be defeated this time.
+    previousQuestBossSuccessful: 
+    previousQuestBossFailed: 
+    boss:
+      bossType: 0
+      name: 
+      actions: []
+      prefab: {fileID: 0}
+    location:
+      locationType: 0
+      locationBackground: {fileID: 0}
+      locationName: 
+      monsterChances: []
+      itemRewardName: []
+      defaultAttacker: 
+    moment:
+      momentType: 0
+      momentName: 
+      momentColor: {r: 0, g: 0, b: 0, a: 0}
+      monsterChances: []
+    numberOfEnemies: 6
+  - appearances: 0
+    questType: 4
+    questGiver: {fileID: 0}
+    possibleBossTypes: 01000000030000000500000007000000
+    possibleLocations: 0100000002000000030000000400000005000000
+    possibleMoments: 0000000001000000
+    giverTrait: 7
+    questState: 0
+    saved: 
+    _attacker: 
+    _rewardName: 
+    firstQuest: 
+    previousQuestSuccesfulNoMiniBoss: '[pl] was an easy win, we let us take a chance
+      and defeat [mbn] at [mbl]!
+
+      [pl] was an easy win, we let us take a chance and defeat [mbn] at [mbl]!
+
+      [pl] was an easy win, we let us take a chance and defeat [mbn] at [mbl]!'
+    previousQuestFailedNoMiniBoss: I know that the battle at [pl] was a disappointment,
+      but I say we take a chance and fight [mbn]!
+    previousQuestSuccesfulMiniBossKilled: 
+    previousQuestFailedMiniBossKilled: 
+    revangeQuestWithItem: I am sure that the [pr] will do the difference in the fight
+      against [mbn]! Let us hurry to [mbl] to defeat him.
+    revangeQuestWithoutItem: 'We do not need [pr] to defeat [mbn], he is not as tough
+      as he looks, I say we fight him again at [cl]! '
+    previousQuestBossSuccessful: 
+    previousQuestBossFailed: 
+    boss:
+      bossType: 0
+      name: 
+      actions: []
+      prefab: {fileID: 0}
+    location:
+      locationType: 0
+      locationBackground: {fileID: 0}
+      locationName: 
+      monsterChances: []
+      itemRewardName: []
+      defaultAttacker: 
+    moment:
+      momentType: 0
+      momentName: 
+      momentColor: {r: 0, g: 0, b: 0, a: 0}
+      monsterChances: []
+    numberOfEnemies: 6
+  - appearances: 0
+    questType: 5
+    questGiver: {fileID: 0}
+    possibleBossTypes: 02000000040000000800000006000000
+    possibleLocations: 0100000002000000030000000400000005000000
+    possibleMoments: 0200000000000000
+    giverTrait: 6
+    questState: 0
+    saved: 
+    _attacker: 
+    _rewardName: 
+    firstQuest: 
+    previousQuestSuccesfulNoMiniBoss: 
+    previousQuestFailedNoMiniBoss: 
+    previousQuestSuccesfulMiniBossKilled: 'With the win at [pl] and  [mbn] defeated
+      we now face the mighty [ebn], with my good looking equipment I think we should
+      attack before he wants to [eba] again.
+
+'
+    previousQuestFailedMiniBossKilled: Even though we lost the battle of [pl], I still
+      look fabulous! I think this gives us an advantage over [ebn] and we should strike
+      immediately.
+    revangeQuestWithItem: 'With the [r] from the previous battle, our team looks even
+      fabulous than before. [ebn] will not be able to defend himself against our great
+      fashion sense. '
+    revangeQuestWithoutItem: The [pr] from [pl], was not as good looking as the equipment
+      we have now so it is not a big deal that we did not get it. I am sure with the
+      experience we have gotten since the last battle against [ebn] will we be able
+      to defeat him this time.
+    previousQuestBossSuccessful: 
+    previousQuestBossFailed: 
+    boss:
+      bossType: 0
+      name: 
+      actions: []
+      prefab: {fileID: 0}
+    location:
+      locationType: 0
+      locationBackground: {fileID: 0}
+      locationName: 
+      monsterChances: []
+      itemRewardName: []
+      defaultAttacker: 
+    moment:
+      momentType: 0
+      momentName: 
+      momentColor: {r: 0, g: 0, b: 0, a: 0}
+      monsterChances: []
+    numberOfEnemies: 6
+  - appearances: 0
+    questType: 5
+    questGiver: {fileID: 0}
+    possibleBossTypes: 02000000040000000800000006000000
+    possibleLocations: 0100000002000000030000000400000005000000
+    possibleMoments: 0200000000000000
+    giverTrait: 4
+    questState: 0
+    saved: 
+    _attacker: 
+    _rewardName: 
+    firstQuest: 
+    previousQuestSuccesfulNoMiniBoss: 
+    previousQuestFailedNoMiniBoss: 
+    previousQuestSuccesfulMiniBossKilled: The last battle at [pl] gave the team a
+      confidence boost. I am still afraid of the battle against [ebn] which is right
+      ahead of us.
+    previousQuestFailedMiniBossKilled: 'The [a] really made me afraid of [ebn]s army.
+      The team however is confident that we stand a chance against him, the battle
+      of against him is right in front of us!
+
+'
+    revangeQuestWithItem: 'I feel more secure with the [pr] retrieved from [pl], it
+      will surely be useful when fighting [ebn] again!
+
+'
+    revangeQuestWithoutItem: ' We have grown stronger since last time we fought against
+      [ebn], the battle at [pl] really boosted my confidence and i am not as scared
+      as I was when we fought him the first time. I say we fight him again!
+
+'
     previousQuestBossSuccessful: 
     previousQuestBossFailed: 
     boss:
