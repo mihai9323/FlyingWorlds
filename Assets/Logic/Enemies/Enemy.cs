@@ -9,13 +9,18 @@ public class Enemy : MonoBehaviour {
 	public Skillset skillset;
 	public Item weapon;
 	[SerializeField] string fightAnimationName;
-	public AudioClip swordSlash;
+
 	private float attackRange{
 		get{
 			return weapon.Range;
 		}
 		
 	}
+	public AudioClip swordSlashSound;
+	public AudioClip fireBallSound;
+	public AudioClip bowSound;
+	public AudioClip hitSound;
+
 	public AI ai;
 	public MonsterTypes monsterType;
 	public float attackTime = 1.5f;
@@ -42,7 +47,8 @@ public class Enemy : MonoBehaviour {
 	[SerializeField]private float current_speed, movementSpeed;
 	public bool Hit(int damage){
 		currentHealth -= damage;
-
+		if (hitSound != null)
+			AudioSource.PlayClipAtPoint (hitSound, transform.position);
 		if (currentHealth <= 1) {
 			this.tag = "Dead";
 			dead = true;
@@ -64,6 +70,7 @@ public class Enemy : MonoBehaviour {
 		
 	}	
 	public IEnumerator MoveToPosition(VOID_FUNCTION_ENEMY callback){
+		this.audio.Play ();
 		float remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
 		float initialDistance = Vector2.Distance(this.transform.position,movement_target);
 		Vector2 initialPosition = transform.position;
@@ -81,6 +88,7 @@ public class Enemy : MonoBehaviour {
 			yield return null;
 			remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
 		}
+		this.audio.Stop ();
 		looks.StopAnimation ();
 		if (callback != null)
 			callback (this);
@@ -97,6 +105,7 @@ public class Enemy : MonoBehaviour {
 		
 	}	
 	public IEnumerator MoveToTransform(VOID_FUNCTION_ENEMY callback){
+		this.audio.Play ();
 		movement_target = movement_target_transform.position;
 		float remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
 		float initialDistance = Vector2.Distance(this.transform.position,movement_target);
@@ -120,6 +129,7 @@ public class Enemy : MonoBehaviour {
 			FaceDirection((int)Mathf.Sign(curX - prevX));
 		}
 		looks.StopAnimation ();
+		this.audio.Stop ();
 		if (callback != null)
 			callback (this);
 
@@ -175,18 +185,21 @@ public class Enemy : MonoBehaviour {
 
 		
 			
-			if (targetCharacter != null && currentTarget != targetCharacter) {
+		if (targetCharacter != null && currentTarget != targetCharacter) {
 				
 					currentTarget = targetCharacter;
 					MoveEnemyToTransform (currentTarget.transform,
 						                      delegate(Enemy e) {
 						Attack (targetCharacter);
 				
-					});
+				});
 				
 		}else if (targetCharacter == currentTarget) {
 			if (targetCharacter != null && CustomSqrDistance (this.transform.position, targetCharacter.transform.position)<attackRange*attackRange){
 				Attack (targetCharacter);
+			}else{
+				StartAITick();
+				looks.StopAnimation ();
 			}
 		} else if (targetCharacter == null) {
 				StartAITick();
@@ -204,11 +217,14 @@ public class Enemy : MonoBehaviour {
 
 			if(fightAnimationName == AnimationNames.kBowAttack){
 				ShootProjectile(FightManager.arrow,targetCharacter);
+				if(bowSound!=null)AudioSource.PlayClipAtPoint(bowSound,this.transform.position);
 			}else if(fightAnimationName == AnimationNames.kMagicAttack){
 				ShootProjectile(FightManager.fireBall,targetCharacter);
+				if(fireBallSound!=null)AudioSource.PlayClipAtPoint(fireBallSound,this.transform.position);
 			}else{
+
 				targetCharacter.Hit (this.Damage,.5f);
-				if(swordSlash!=null)AudioSource.PlayClipAtPoint(swordSlash,this.transform.position);
+				if(swordSlashSound!=null)AudioSource.PlayClipAtPoint(swordSlashSound,this.transform.position);
 			}
 
 		}

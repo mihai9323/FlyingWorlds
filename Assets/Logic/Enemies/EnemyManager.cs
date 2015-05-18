@@ -22,14 +22,14 @@ public class EnemyManager : MonoBehaviour {
 			float totalChance = typeChance[eType];
 			float rChance = Random.value;
 			while(rChance>totalChance){
-				totalChance += typeChance[++eType];
+				totalChance += typeChance[(++eType)%4];
 			}
 			Vector3 mPos = minPos;
 			Vector3 MPos = maxPos;
 			Vector3 randomSpawnPos = new Vector3(mPos.x + Random.Range(0,MPos.x - mPos.x),
 			                                     mPos.y + Random.Range(0,MPos.y - mPos.y),
 			                                     mPos.z + Random.Range(0,MPos.z - mPos.z));
-			LevelEnemies[i] = Instantiate(enemyTypes[eType],randomSpawnPos,Quaternion.identity) as Enemy;
+			LevelEnemies[i] = Instantiate(enemyTypes[eType%4],randomSpawnPos,Quaternion.identity) as Enemy;
 			LevelEnemies[i].GenerateEnemy();
 		}
 		if (mBoss == 1) {

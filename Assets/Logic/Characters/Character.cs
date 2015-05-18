@@ -19,7 +19,10 @@ public class Character : MonoBehaviour {
 	public bool inFightingParty;
 	public bool fled;
 
-	public AudioClip swordSlash;
+	public AudioClip swordSlashSound;
+	public AudioClip fireBallSound;
+	public AudioClip bowSound;
+	public AudioClip hitSound;
 
 	public Trait trait0{
 		get{
@@ -277,6 +280,8 @@ public class Character : MonoBehaviour {
 	}
 
 	public void Hit(int damage,float time=0){
+		if (hitSound != null)
+			AudioSource.PlayClipAtPoint (hitSound, transform.position);
 		StartCoroutine (BeHitDelayed (time,damage));
 
 	}
@@ -301,6 +306,7 @@ public class Character : MonoBehaviour {
 
 
 	public IEnumerator MoveToPosition(VOID_FUNCTION_CHARACTER callback){
+		this.audio.Play ();
 		float remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
 		float initialDistance = Vector2.Distance(this.transform.position,movement_target);
 		Vector2 initialPosition = transform.position;
@@ -318,6 +324,7 @@ public class Character : MonoBehaviour {
 			remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
 		}
 		Looks.StopAnimation ();
+		this.audio.Stop ();
 		if (callback != null)
 			callback (this);
 
@@ -384,6 +391,7 @@ public class Character : MonoBehaviour {
 		
 	}	
 	public IEnumerator MoveToTransform(VOID_FUNCTION_CHARACTER callback){
+		this.audio.Play ();
 		movement_target = movement_target_transform.position;
 		float remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
 		float initialDistance = Vector2.Distance(this.transform.position,movement_target);
@@ -403,6 +411,7 @@ public class Character : MonoBehaviour {
 			yield return null;
 			remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
 		}
+		this.audio.Stop ();
 		Looks.StopAnimation ();
 		if (callback != null)
 			callback (this);
@@ -474,11 +483,13 @@ public class Character : MonoBehaviour {
 				ShootProjectile(FightManager.arrow,targetCharacter);
 				damageDealtInLastBattle += this.damage;
 				Skills.archery+=.1f;
+				if(bowSound!=null)AudioSource.PlayClipAtPoint(bowSound,this.transform.position);
 
 			}else if(weaponItem.fightAnimation == AnimationNames.kMagicAttack){
 				ShootProjectile(FightManager.fireBall,targetCharacter);
 				damageDealtInLastBattle += this.damage;
 				Skills.magic+=.1f;
+				if(fireBallSound!=null)AudioSource.PlayClipAtPoint(fireBallSound,this.transform.position);
 
 			}else{
 				if(targetCharacter.Hit (this.damage)){
@@ -486,9 +497,10 @@ public class Character : MonoBehaviour {
 						this.weaponItem.monstersKilled[targetCharacter.monsterType]++;
 					}else this.weaponItem.monstersKilled.Add(targetCharacter.monsterType,1);
 				}
+				if(swordSlashSound!=null)AudioSource.PlayClipAtPoint(swordSlashSound,this.transform.position);
 				damageDealtInLastBattle += this.damage;
 				Skills.melee+=.1f;
-				if(swordSlash!=null)AudioSource.PlayClipAtPoint(swordSlash,this.transform.position);
+
 			}
 
 		}

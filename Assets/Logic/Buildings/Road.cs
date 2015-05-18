@@ -3,10 +3,11 @@ using System.Collections;
 
 public class Road : MonoBehaviour {
 	public Transform RoadWorldSpace;
-
+	public bool CharactersTravellingToFightScene;
 	public void OnClick(){
 		if (HubManager.interactable) {
 			if (!CharacterManager.partyEmpty) {
+				CharactersTravellingToFightScene = true;
 				CharacterManager.ChangeAllActiveStateTo(FightState.MovingToBattle);
 				CharacterManager.MoveAllActiveHereAndChangeState (RoadWorldSpace.position,FightState.Waiting,
 				                                                  delegate() {
@@ -26,7 +27,10 @@ public class Road : MonoBehaviour {
 
 	private void LoadFightSceneDelayed(){
 		CharacterManager.SetAllCharactersStaticProperties ();
+		CharactersTravellingToFightScene = false;
 		GameData.LoadScene(GameScenes.Fight);
+
 	}
+
 
 }

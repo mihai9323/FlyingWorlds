@@ -11,8 +11,9 @@ public class QuestUI : MonoBehaviour {
 
 	private bool questTextWritten;
 	private int lastChar;
-
+	private bool configured;
 	public void Configure(Quest quest){
+		configured = true;
 		this.quest = quest;
 		questTextWritten = false;
 		lastChar = 0;
@@ -20,15 +21,19 @@ public class QuestUI : MonoBehaviour {
 		questText.text = "";
 		QuestImage.sprite = quest.battle.fightBackground.GetComponent<SpriteRenderer> ().sprite;
 		QuestImage.color = quest.battle.dayColor;
-		StopAllCoroutines ();
-		StartCoroutine(WriteText(quest.calculateQuestString()));
+		if (this.gameObject.activeInHierarchy) {
+			StopAllCoroutines ();
+			StartCoroutine (WriteText (this.quest.calculateQuestString ()));
+		}
 	}
-	private void OnEnabled(){
-		if (questTextWritten) {
-			this.questText.text = quest.calculateQuestString ();
-		} else {
-			StopAllCoroutines();
-			StartCoroutine(WriteText(this.quest.calculateQuestString()));
+	private void OnEnable(){
+		if (configured) {
+			if (questTextWritten) {
+				this.questText.text = quest.calculateQuestString ();
+			} else {
+				StopAllCoroutines ();
+				StartCoroutine (WriteText (this.quest.calculateQuestString ()));
+			}
 		}
 	}
 	private IEnumerator WriteText(string writeText){

@@ -127,4 +127,22 @@ public class HubManager : MonoBehaviour {
 		}
 	}
 
+	private void Update(){
+		if (road.CharactersTravellingToFightScene) {
+			Debug.Log("traveling");
+			if(Input.GetMouseButtonDown(0)){
+				
+				foreach(Character c in CharacterManager.gameCharacters){
+					if(c.inFightingParty){
+						c.MoveCharacterToPosition(c.transform.position,delegate(Character character) {
+
+						});
+					}
+				}
+				road.CharactersTravellingToFightScene = false;
+				HubManager.interactable = true;
+			}
+		}
+	}
+
 }

@@ -32,14 +32,16 @@ public class Farm : MonoBehaviour {
 	}
 
 	public void ShowUpgradeButton(){
-		HubManager.notification.ShowConfirm(
-			"Upgrade to level "+(farmLevel+1).ToString()+" for "+upgradeCost.ToString()+" and earn "+incomePerTurn.ToString()+"per turn",
+		if (HubManager.interactable) {
+			HubManager.notification.ShowConfirm (
+			"Upgrade to level " + (farmLevel + 1).ToString () + " for " + upgradeCost.ToString () + " and earn " + incomePerTurn.ToString () + "per turn",
 			"YES",
 			"NO",
 			delegate() {
-				Upgrade();
+				Upgrade ();
 			}
-		);
+			);
+		}
 	}
 
 	

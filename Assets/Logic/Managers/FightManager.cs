@@ -75,14 +75,18 @@ public class FightManager : MonoBehaviour {
 	public void StartBattle(){
 
 		this.gameObject.SetActive (true);
+
+		battles [GameData.nextBattleID].Generate ();
+		AddEnemies ();
+
+	}
+	public void AddEnemies(){
 		Vector3 mPos = s_Instance.minSpawn.position;
 		Vector3 MPos = s_Instance.maxSpawn.position;
-		battles [GameData.nextBattleID].Generate ();
 		EnemyManager.GenerateEnemies (10,mPos,MPos,enemyTypes);
 		LoadCharactersInScene ();
 		StartCharactersAI ();
 	}
-
 	public static void LoadCharactersInScene(){
 		int c = 0;
 		foreach(Character character in CharacterManager.gameCharacters){
