@@ -1,0 +1,554 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &169052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 469052}
+  - 114: {fileID: 11469052}
+  m_Layer: 0
+  m_Name: DramaManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &469052
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169052}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.91110182, y: -1.47640133, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11469052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94abec184230dc47b39f60fcdaf0757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameQuests:
+  - appearances: 0
+    questType: 0
+    questGiver: {fileID: 0}
+    possibleBossTypes: 
+    possibleLocations: 01000000020000000400000005000000
+    possibleMoments: 000000000100000002000000
+    giverTrait: 0
+    questState: 0
+    saved: 
+    _attacker: 
+    _rewardName: 
+    firstQuest: I have heard tales about a powerful [r] in [cl]. I would be very pleased
+      to have it in battle!
+    previousQuestSuccesfulNoMiniBoss: One of the prisoners we captured after the battle
+      of [pl] gave us the name of [mbn]. I think we should arm ourselves against him.
+      We should arm ourselves with  [r] from [cl].
+    previousQuestFailedNoMiniBoss: As we fled the battle of [pl] the enemies shouted
+      the warcry of [mbn]. We should defenetly be more prepaired next time. I heard
+      stories of a great weapon from [cl].
+    previousQuestSuccesfulMiniBossKilled: 'After defeating the [pa] we found a note
+      on one of them containing this message "[ebn] commands you to fetch the [r]
+      from [cl]". I think that this is a great opportunity to be one step ahed of
+      our enemies. '
+    previousQuestFailedMiniBossKilled: After we fled from the fight at [cl] we saw
+      in the distance some [a] walking towards the [cl]. We should see what they are
+      up to.
+    revangeQuestWithItem: 
+    revangeQuestWithoutItem: 
+    previousQuestBossSuccessful: After defeating [mbn] and seeing how powerful his
+      weapon from [cl] was, we should try to get equipment with similar power.
+    previousQuestBossFailed: After the defeat in the previous fight against [mbn]
+      we should get more prepaired. I know of this [r] located at the [cl]. There
+      might be some [a] there, but it shouldn't be a problem.
+    boss:
+      bossType: 0
+      name: 
+      actions: []
+      prefab: {fileID: 0}
+    location:
+      locationType: 0
+      locationBackground: {fileID: 0}
+      locationName: 
+      monsterChances: []
+      itemRewardName: []
+      defaultAttacker: 
+    moment:
+      momentType: 0
+      momentName: 
+      momentColor: {r: 0, g: 0, b: 0, a: 0}
+      monsterChances: []
+    numberOfEnemies: 10
+  - appearances: 0
+    questType: 0
+    questGiver: {fileID: 0}
+    possibleBossTypes: 
+    possibleLocations: 02000000000000000400000003000000
+    possibleMoments: 0200000001000000
+    giverTrait: 1
+    questState: 0
+    saved: 
+    _attacker: 
+    _rewardName: 
+    firstQuest: 
+    previousQuestSuccesfulNoMiniBoss: The grand archer of Hildebrandus Castle lost
+      his [r] at [cl] while fighting against [mbn]. This bow would be a great contribution
+      to our cause.
+    previousQuestFailedNoMiniBoss: After last [pt]'s defeat I went to the Tavern where
+      I met this traveler, named [ebn]. He was talking about a mysterious weapon located
+      somewhere in the [cl]. We should give it a shot at finding it! Though, it might
+      be guarded by some [a].
+    previousQuestSuccesfulMiniBossKilled: The [pr] was a great addition to our cause,
+      however evil forces are gathering at [ebl] and we should be even more prepaired.
+      Have you heard the tales about the [r] guarded by [a]?
+    previousQuestFailedMiniBossKilled: Unfortunately we couldn't get the [pr], but
+      don't lose hope there are still ways of defeating [ebn]. For instance there
+      is the [r] guarded by [a] in the [cl].
+    revangeQuestWithItem: 
+    revangeQuestWithoutItem: 
+    previousQuestBossSuccessful: 'Wow what a battle! [mbn] is dead! He will no longer
+      [mba]. However there are rummors that an even greater force is gathering at
+      the [ebl]. Some of the [a] managed to escape towards [cl] with the [r]. Let''s
+      get them! '
+    previousQuestBossFailed: Oh no we lost the battle against [mbn]! In the heat of
+      the battle I noticed that he sent his [a] with a [r] for safe keeping at the[cl].
+      We should launch a surprise attack and get it for ourselves.
+    boss:
+      bossType: 0
+      name: 
+      actions: []
+      prefab: {fileID: 0}
+    location:
+      locationType: 0
+      locationBackground: {fileID: 0}
+      locationName: 
+      monsterChances: []
+      itemRewardName: []
+      defaultAttacker: 
+    moment:
+      momentType: 0
+      momentName: 
+      momentColor: {r: 0, g: 0, b: 0, a: 0}
+      monsterChances: []
+    numberOfEnemies: 10
+  - appearances: 0
+    questType: 0
+    questGiver: {fileID: 0}
+    possibleBossTypes: 
+    possibleLocations: 040000000200000003000000
+    possibleMoments: 000000000100000002000000
+    giverTrait: 2
+    questState: 0
+    saved: 
+    _attacker: 
+    _rewardName: 
+    firstQuest: 
+    previousQuestSuccesfulNoMiniBoss: 'After yesterday''s success I had a vision that
+      we were not able to defeat the mighty power of [mbn] who wants to [mba] if we
+      do not get the [r] from [cl], '
+    previousQuestFailedNoMiniBoss: After returning from the lost battle of [pl] I
+      read through some old textbooks describing a [r] at [cl]. With this weapon I
+      am sure we wont face anymore defeats.
+    previousQuestSuccesfulMiniBossKilled: I sense that evil powers are gathering at
+      [ebl]. The only way to stop them is to get the [r] from the [a].
+    previousQuestFailedMiniBossKilled: Even though we didn't get the [pr] we shouldn't
+      give up. [ebn] can still be beaten if we get the [r] from the [cl].
+    revangeQuestWithItem: 
+    revangeQuestWithoutItem: 
+    previousQuestBossSuccessful: '[mbn]''s forces are fleeing towards the [ebl]. I
+      sense we still have challenges ahead of us. We should look for the [r] mentioned
+      in the ancient scrolls.'
+    previousQuestBossFailed: The force was strong in [mbn]! We should maybe try again
+      after we retrieve the [r].
+    boss:
+      bossType: 0
+      name: 
+      actions: []
+      prefab: {fileID: 0}
+    location:
+      locationType: 0
+      locationBackground: {fileID: 0}
+      locationName: 
+      monsterChances: []
+      itemRewardName: []
+      defaultAttacker: 
+    moment:
+      momentType: 0
+      momentName: 
+      momentColor: {r: 0, g: 0, b: 0, a: 0}
+      monsterChances: []
+    numberOfEnemies: 11
+  - appearances: 0
+    questType: 0
+    questGiver: {fileID: 0}
+    possibleBossTypes: 
+    possibleLocations: 030000000500000000000000
+    possibleMoments: 0000000001000000
+    giverTrait: 3
+    questState: 0
+    saved: 
+    _attacker: 
+    _rewardName: 
+    firstQuest: 
+    previousQuestSuccesfulNoMiniBoss: The [pr] we gained from the last battle is no
+      real match compared to the [r] we can gain from fighting the [a] at [cl]. What
+      are we waiting for?
+    previousQuestFailedNoMiniBoss: While running from the bitter defeat I head the
+      war horns of [mbn]. He is very powerful! A good [r] will greatly help us in
+      the fight against this evil.
+    previousQuestSuccesfulMiniBossKilled: Even though [mbn] was killed a few days
+      ago, and that we were successful in our last battle against [pa], and that we
+      got a [pr], the war is not over. We still need to kill [ebn]. We need to get
+      [r] from the [cl] to be prepaired for this confruntation.
+    previousQuestFailedMiniBossKilled: Oh no! We lost! This is not what knights do!
+      At least we should go and get [r] from the [cl] to be prepaired next time!
+    revangeQuestWithItem: 
+    revangeQuestWithoutItem: 
+    previousQuestBossSuccessful: That was a good fight! We were victorious and [mbn]
+      is dead! The [mbl] is much more peaceful now. However I received intel from
+      one of my former fighting partners that an even more powerful enemy wants to
+      [eba]. Sir, we should get [r] in order to kill this new threat.
+    previousQuestBossFailed: This is not good! We lost! We need the [r] from the [cl]
+      in order to kill [mbn] in our next confruntation.
+    boss:
+      bossType: 0
+      name: 
+      actions: []
+      prefab: {fileID: 0}
+    location:
+      locationType: 0
+      locationBackground: {fileID: 0}
+      locationName: 
+      monsterChances: []
+      itemRewardName: []
+      defaultAttacker: 
+    moment:
+      momentType: 0
+      momentName: 
+      momentColor: {r: 0, g: 0, b: 0, a: 0}
+      monsterChances: []
+    numberOfEnemies: 10
+  - appearances: 0
+    questType: 1
+    questGiver: {fileID: 0}
+    possibleBossTypes: 
+    possibleLocations: 00000000
+    possibleMoments: 0000000001000000
+    giverTrait: 10
+    questState: 0
+    saved: 
+    _attacker: bandits
+    _rewardName: plow
+    firstQuest: During the night the bandits took our plow could you help us get it
+      back? This will increase the yield of our farm!
+    previousQuestSuccesfulNoMiniBoss: '[mbn] sent a band of thugs to plunder our farm.
+      They took our plow! We should get it back in order to maintain our field'
+    previousQuestFailedNoMiniBoss: Now that we didn't get the [pr], it might be a
+      good idea to spend some time around the village and help our farmers.
+    previousQuestSuccesfulMiniBossKilled: 'Oh I am so hungry after last [pt]''s battle!
+      I sent some villagers into the forrest to gather some mushrooms, but they haven''t
+      returned. Can you look for them? '
+    previousQuestFailedMiniBossKilled: With all the refugees fleeing from [pl] we
+      should help our farmers increase their yield by getting them a new plow.
+    revangeQuestWithItem: 
+    revangeQuestWithoutItem: 
+    previousQuestBossSuccessful: Oh what a victory over [mbn]! I sent some of the
+      farmers into the forrest to gather some fruits for the feast! They haven't returned.
+      Can you look for them?
+    previousQuestBossFailed: After the defeat at [pl] we, the farmers thought that
+      it would be nice if we gathered some healing plants from the forrest. Unfortunately
+      we were attacked by [a]. Some of the lads are still in the forrest. Can you
+      look for them?
+    boss:
+      bossType: 0
+      name: 
+      actions: []
+      prefab: {fileID: 0}
+    location:
+      locationType: 0
+      locationBackground: {fileID: 0}
+      locationName: 
+      monsterChances: []
+      itemRewardName: []
+      defaultAttacker: 
+    moment:
+      momentType: 0
+      momentName: 
+      momentColor: {r: 0, g: 0, b: 0, a: 0}
+      monsterChances: []
+    numberOfEnemies: 6
+  - appearances: 0
+    questType: 2
+    questGiver: {fileID: 0}
+    possibleBossTypes: 
+    possibleLocations: 0000000001000000
+    possibleMoments: 000000000100000002000000
+    giverTrait: 11
+    questState: 0
+    saved: 
+    _attacker: 
+    _rewardName: new shop inventory
+    firstQuest: My trade caravans were attacked in the [cl] by [a]. I will make sure
+      that we will get new weapons in the shop if you help me!
+    previousQuestSuccesfulNoMiniBoss: I heard you did a very good job in your latest
+      adventure! Could you help me bring some goods from [cl]? I am afraid of attackers.
+      Lately [mbn] sent more [a] out on the trade routes.
+    previousQuestFailedNoMiniBoss: I am terribly sorry for your lose! I feel that
+      it is partly my fault for not keeping my stock up to date! However I have a
+      contact in [mbn]'s territory. Maybe you can reach him! Beware though, it might
+      be dangerous. You might need to fight some [a].
+    previousQuestSuccesfulMiniBossKilled: After your latest success I am confident
+      that you are the right man for this job! I heard that [ebn] has intercepted
+      one of my caravans caring high quality goods. His minions are keeping them at
+      [cl], could you please get them for me? I will reward you with a [r].
+    previousQuestFailedMiniBossKilled: I know you had a hard time during the battle
+      of [pl], but I need your help in order to keep up with [ebn]'s quipment. I have
+      a contact waiting for us at [cl], but I need some bodyguards to safely get me
+      there.
+    revangeQuestWithItem: 
+    revangeQuestWithoutItem: 
+    previousQuestBossSuccessful: 'Defeating [mbn] opened up some new trading opportunities
+      in the [cl]. However there are some [a] who are still blocking the way. If you
+      help me with this, I can provide you with stronger equipment. '
+    previousQuestBossFailed: It seems like [mbn] was too strong for you! You look
+      like you need better equipment! I can do that for you, if you help me bring
+      more caravans to our town by making the road through the [cl] safer.
+    boss:
+      bossType: 0
+      name: 
+      actions: []
+      prefab: {fileID: 0}
+    location:
+      locationType: 0
+      locationBackground: {fileID: 0}
+      locationName: 
+      monsterChances: []
+      itemRewardName: []
+      defaultAttacker: 
+    moment:
+      momentType: 0
+      momentName: 
+      momentColor: {r: 0, g: 0, b: 0, a: 0}
+      monsterChances: []
+    numberOfEnemies: 6
+  - appearances: 0
+    questType: 4
+    questGiver: {fileID: 0}
+    possibleBossTypes: 01000000030000000500000007000000
+    possibleLocations: 0100000002000000030000000400000005000000
+    possibleMoments: 0200000000000000
+    giverTrait: 5
+    questState: 0
+    saved: 
+    _attacker: 
+    _rewardName: 
+    firstQuest: 
+    previousQuestSuccesfulNoMiniBoss: The victory of [pl] gave us a strategic advantage
+      over [mbn]! We should strike now! A [ct] attack at [mbl] will take him by surprise!
+    previousQuestFailedNoMiniBoss: While we were butchered at [pl], [mbn] attacked
+      [mbl]. We should go and face him, or all is lost!
+    previousQuestSuccesfulMiniBossKilled: 
+    previousQuestFailedMiniBossKilled: 
+    revangeQuestWithItem: With [pr] retrieved, we are ready to face [mbn] again! This
+      time it will surely fall in our favor.
+    revangeQuestWithoutItem: 
+    previousQuestBossSuccessful: 
+    previousQuestBossFailed: 
+    boss:
+      bossType: 0
+      name: 
+      actions: []
+      prefab: {fileID: 0}
+    location:
+      locationType: 0
+      locationBackground: {fileID: 0}
+      locationName: 
+      monsterChances: []
+      itemRewardName: []
+      defaultAttacker: 
+    moment:
+      momentType: 0
+      momentName: 
+      momentColor: {r: 0, g: 0, b: 0, a: 0}
+      monsterChances: []
+    numberOfEnemies: 6
+  _bossList:
+  - bossType: 1
+    name: Dangalf
+    actions:
+    - plague the land
+    prefab: {fileID: 11442754, guid: 3733b5816b3fc044fb37ba5e0be86926, type: 2}
+  - bossType: 2
+    name: Okdel the Insane
+    actions:
+    - transform the king into a frog
+    - summon the [mbn] at [mbl]
+    - resurrect the [mbn] at [mbl]
+    prefab: {fileID: 11442754, guid: 032d3a754c3844949a5ac48ddd4316c5, type: 2}
+  - bossType: 3
+    name: Smaxon
+    actions:
+    - burn the [mbl]
+    prefab: {fileID: 11434072, guid: 38a105d7f17e6b64885846b490f2ec68, type: 2}
+  - bossType: 4
+    name: Prakigam
+    actions:
+    - see the world burn
+    - destroy everything at [ebl]
+    prefab: {fileID: 11434072, guid: 036fa189be2f2374890a6351c512a3ce, type: 2}
+  - bossType: 5
+    name: Lord Karakh
+    actions:
+    - serve the [ebn]
+    - terrify people with his mighty sword
+    prefab: {fileID: 11408646, guid: 12b798868548c0a46bd779bd6064f7f6, type: 2}
+  - bossType: 6
+    name: Prince Heudebrand
+    actions:
+    - rule his people with an iron hand
+    - kill the king
+    - take over the [ebl]
+    prefab: {fileID: 11408646, guid: 47e84e235f90f0b4fb25f8485885a24a, type: 2}
+  - bossType: 7
+    name: Orford "No-Tongue" Brooks
+    actions:
+    - silently rape and plunder everything at the [mbl]
+    - plunder the kings rum trade route
+    prefab: {fileID: 11408646, guid: 3dee9ba3a7142a64b820b3a62d5b0408, type: 2}
+  - bossType: 8
+    name: Sack "Jay" Parrow
+    actions:
+    - steal from the kings treasury
+    - attack the [ebl]
+    - kidnap the princess
+    prefab: {fileID: 11408646, guid: 7bf2f4096c2d13440a2e11f92fc8a375, type: 2}
+  _locationList:
+  - locationType: 0
+    locationBackground: {fileID: 0}
+    locationName: Mystic Woods
+    monsterChances:
+    - .100000001
+    - .300000012
+    - .5
+    - 0
+    itemRewardName:
+    - magic
+    - wooden
+    - mossy
+    - cherry
+    defaultAttacker: Wizzards
+  - locationType: 1
+    locationBackground: {fileID: 0}
+    locationName: Fearsome Wastes
+    monsterChances:
+    - .400000006
+    - .400000006
+    - .100000001
+    - .100000001
+    itemRewardName:
+    - sandy
+    - windy
+    - ancient
+    defaultAttacker: Raiders
+  - locationType: 4
+    locationBackground: {fileID: 0}
+    locationName: Dolruse Tower of the Arcane
+    monsterChances:
+    - .200000003
+    - 0
+    - .600000024
+    - .200000003
+    itemRewardName:
+    - magic
+    - arcane
+    - cursed
+    defaultAttacker: Evil Mages
+  - locationType: 5
+    locationBackground: {fileID: 0}
+    locationName: Buccaner's Bay
+    monsterChances:
+    - .100000001
+    - .800000012
+    - .100000001
+    - 0
+    itemRewardName:
+    - buccaner's
+    - captain's
+    - sailor's
+    defaultAttacker: Pirates
+  - locationType: 2
+    locationBackground: {fileID: 0}
+    locationName: Iron Rise
+    monsterChances:
+    - .699999988
+    - .100000001
+    - .200000003
+    - 0
+    itemRewardName:
+    - fire
+    - molten
+    - burning
+    - ember
+    defaultAttacker: Devils
+  - locationType: 3
+    locationBackground: {fileID: 0}
+    locationName: Hildebrandus Castle
+    monsterChances:
+    - 0
+    - 0
+    - .400000006
+    - .600000024
+    itemRewardName:
+    - royal
+    - golden
+    - platinum
+    defaultAttacker: Evil Knights
+  _momentList:
+  - momentType: 0
+    momentName: Dawn
+    momentColor: {r: 1, g: .953448296, b: .801470578, a: 1}
+    monsterChances:
+    - 0
+    - .200000003
+    - 0
+    - 0
+  - momentType: 1
+    momentName: Day
+    momentColor: {r: 1, g: 1, b: 1, a: 1}
+    monsterChances:
+    - 0
+    - 0
+    - 0
+    - 0
+  - momentType: 2
+    momentName: Night
+    momentColor: {r: .168685108, g: .238485873, b: .573529422, a: 1}
+    monsterChances:
+    - .200000003
+    - 0
+    - 0
+    - 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 169052}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

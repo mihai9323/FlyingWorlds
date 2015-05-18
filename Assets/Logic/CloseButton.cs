@@ -26,8 +26,10 @@ public class CloseButton : MonoBehaviour {
 			HubManager.interactable = true;
 	}
 	private void Start(){
-		if (m_tutorialPanel.activeInHierarchy) {
-			HubManager.interactable = false;
+		if (m_tutorialPanel != null) {
+			if (m_tutorialPanel.activeInHierarchy) {
+				HubManager.interactable = false;
+			}
 		}
 	}
 }
