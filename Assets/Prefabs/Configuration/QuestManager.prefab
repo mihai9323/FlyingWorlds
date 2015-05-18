@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &119504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 419504}
+  - 114: {fileID: 11419504}
+  m_Layer: 0
+  m_Name: QuestManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &419504
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119504}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.28016448, y: .059194345, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11419504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 103144b675894394f9159ebb3ef9f680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _questPresets:
+  - _location: 1
+    _timeOfDay: 2
+    _questType: 1
+    _givenByTrait: 10
+    _rewardType: 4
+    _currentQuestString:
+    - We should help those poor farmers. They have been attacked by [monster]s in
+      the forrest.
+    _rewardString:
+    - If we help them, they might come and work on our farm!
+    _aftermathSuccess: []
+    _aftermathFailed: []
+    infoAboutNextQuestsIfSuccess:
+    - set: 0
+      questLocation: 2
+      questTime: 1
+      questType: 3
+      rewardType: 3
+    infoAboutNextQuestsIfFailed:
+    - set: 0
+      questLocation: 1
+      questTime: 4
+      questType: 2
+      rewardType: 0
+  - _location: 1
+    _timeOfDay: 4
+    _questType: 2
+    _givenByTrait: 4
+    _rewardType: 1
+    _currentQuestString: []
+    _rewardString: []
+    _aftermathSuccess: []
+    _aftermathFailed: []
+    infoAboutNextQuestsIfSuccess: []
+    infoAboutNextQuestsIfFailed: []
+  - _location: 0
+    _timeOfDay: 0
+    _questType: 0
+    _givenByTrait: 0
+    _rewardType: 0
+    _currentQuestString: []
+    _rewardString: []
+    _aftermathSuccess: []
+    _aftermathFailed: []
+    infoAboutNextQuestsIfSuccess: []
+    infoAboutNextQuestsIfFailed: []
+  - _location: 0
+    _timeOfDay: 0
+    _questType: 0
+    _givenByTrait: 0
+    _rewardType: 0
+    _currentQuestString: []
+    _rewardString: []
+    _aftermathSuccess: []
+    _aftermathFailed: []
+    infoAboutNextQuestsIfSuccess: []
+    infoAboutNextQuestsIfFailed: []
+  - _location: 0
+    _timeOfDay: 0
+    _questType: 0
+    _givenByTrait: 0
+    _rewardType: 0
+    _currentQuestString: []
+    _rewardString: []
+    _aftermathSuccess: []
+    _aftermathFailed: []
+    infoAboutNextQuestsIfSuccess: []
+    infoAboutNextQuestsIfFailed: []
+  _questInfo:
+  - set: 1
+    questLocation: 0
+    questTime: 0
+    questType: 1
+    rewardType: 0
+  - set: 1
+    questLocation: 0
+    questTime: 0
+    questType: 3
+    rewardType: 0
+  _rewards: []
+  _questLocations: []
+  _questTimes: []
+  _miniBosses: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 119504}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

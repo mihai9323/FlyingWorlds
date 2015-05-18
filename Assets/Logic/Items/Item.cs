@@ -103,6 +103,22 @@ public class Item  {
 		this.itemType = iType;
 		monstersKilled = new Dictionary<MonsterTypes,int>();
 	}
+	public Item(ItemType iType,int dmg, int def, int range, string name){
+
+
+		if (iType == ItemType.Armor) {  dmg = 0; range = 0;}
+		else if(iType == ItemType.Melee){  def = 0; range = Mathf.Clamp(range,0,2); }
+		else if(iType == ItemType.Ranged){  def = 0; range = Mathf.Clamp(range,6,20);}
+		else if(iType == ItemType.Magic){  def = 0; range = Mathf.Clamp(range,6,20);}
+
+		
+		this.Damage = dmg;
+		this.Defence = def;
+		this.Range = range;
+		this.itemType = iType;
+		this.ItemName = name+" "+ this.ItemName;
+		monstersKilled = new Dictionary<MonsterTypes,int>();
+	}
 
 	public Sprite GetSprite(out Color color){
 		color = CalculateColor();
@@ -117,18 +133,30 @@ public class Item  {
 	}
 	
 	private Color CalculateColor(){
-		if (Damage < 10) {
+		if (Damage + Defence < 5) {
+			colorName = "Gray";
+			return Color.gray;
+		} else if (Damage + Defence < 10) {
 			colorName = "White";
 			return Color.white;
-		}else if (Damage < 20) {
+		} else if (Damage + Defence < 18) {
 			colorName = "Green";
 			return Color.green;
-		}if (Damage < 30) {
-			colorName = "Red";
-			return Color.red;
-		}if (Damage < 40) {
+		} else if (Damage + Defence < 25) {
+			colorName = "Yellow";
+			return Color.yellow;
+		} else if (Damage + Defence < 35) {
+			colorName = "Cyan";
+			return Color.cyan;
+		}else if (Damage + Defence < 42) {
 			colorName = "Blue";
 			return Color.blue;
+		}else if (Damage + Defence < 50) {
+			colorName = "Red";
+			return Color.red;
+		}else if (Damage + Defence < 60) {
+			colorName = "Magenta";
+			return Color.magenta;
 		} else {
 			colorName = "Black";
 			return Color.black;

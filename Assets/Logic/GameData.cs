@@ -12,8 +12,12 @@ public class GameData:MonoBehaviour  {
 	public static string prevBattleID;
 	public static string nextBattleID{ get { return s_Instance._nextBattleID; } set { if(value != s_Instance._nextBattleID) prevBattleID = s_Instance._nextBattleID; s_Instance._nextBattleID = value; } }
 	private static GameScenes currentScene;
-	private void Start(){
+	private void Awake(){
 		s_Instance = this;
+	}
+	private void Start(){
+	
+		prevBattleID = nextBattleID;
 		currentScene = GameScenes.None;
 		LoadScene (GameScenes.Hub);
 
@@ -36,6 +40,7 @@ public class GameData:MonoBehaviour  {
 			if(prevScene == GameScenes.Fight){
 				ComeBackFromBattle();
 			}
+			HubManager.ShowQuestInfo();
 		} else if(scene == GameScenes.Fight) {
 			s_Instance.hubScene.SetActive (false);
 			s_Instance.fightScene.SetActive (true);
@@ -63,5 +68,5 @@ public class GameData:MonoBehaviour  {
 		InventoryManager.GenerateShopItems (12, HubManager.shop.level * 5, HubManager.shop.level * 10);
 	}
 
-	private static int numberOfCoins = 1000;
+	private static int numberOfCoins = 2000;
 }

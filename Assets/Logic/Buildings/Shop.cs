@@ -190,6 +190,8 @@ public class Shop : MonoBehaviour {
 					level++;
 					InventoryManager.GenerateShopItems (12, HubManager.shop.level * 5, HubManager.shop.level * 10);
 					CharacterManager.CheckLabels(LabelManager.checkAfterBuildingUpdate);
+					HubManager.HideAll();
+					HubManager.ShowShop();
 				}
 			});
 		} else {

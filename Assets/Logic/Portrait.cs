@@ -17,7 +17,6 @@ public class Portrait : MonoBehaviour {
 				yield return new WaitForSeconds(1f/12);
 				LoadCharacter ();
 			}
-
 		}
 	}
 	private void OnEnable(){
@@ -28,8 +27,6 @@ public class Portrait : MonoBehaviour {
 		HubManager.ShowCharacter(character);
 	}
 	public void LoadCharacter(){
-
-
 
 		iBody.sprite = character.Looks.a_body.mySprite;
 		iBody.color = character.Looks.a_body.myColor;

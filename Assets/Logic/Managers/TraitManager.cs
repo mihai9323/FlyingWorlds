@@ -29,8 +29,7 @@ public class TraitManager : MonoBehaviour {
 	private void Awake(){
 		s_Instance = this;
 		traitUse = new int[13];
-	}
-	private void Start(){
+	
 		traitDictionary = new Dictionary<TraitTypes, Trait>();
 		foreach(Trait t in traits){
 			traitDictionary.Add(t.traitType,t);

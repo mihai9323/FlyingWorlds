@@ -6,6 +6,7 @@ public class FightManager : MonoBehaviour {
 	[SerializeField] Transform minSpawn, maxSpawn;
 	[SerializeField] Enemy[] enemyTypes;
 	[SerializeField] Projectile _fireBall, _arrow;
+	[SerializeField] DramaManager dramaManager;
 	public static Transform s_transform{
 		get{
 			return s_Instance.transform;
@@ -77,7 +78,7 @@ public class FightManager : MonoBehaviour {
 		Vector3 mPos = s_Instance.minSpawn.position;
 		Vector3 MPos = s_Instance.maxSpawn.position;
 		battles [GameData.nextBattleID].Generate ();
-		EnemyManager.GenerateEnemies (20,mPos,MPos,enemyTypes);
+		EnemyManager.GenerateEnemies (10,mPos,MPos,enemyTypes);
 		LoadCharactersInScene ();
 		StartCharactersAI ();
 	}
@@ -133,6 +134,7 @@ public class FightManager : MonoBehaviour {
 		if(FightManager.BattleLost){
 			Debug.Log("BattleLost!");
 			CleanUpFight();
+			s_Instance.dramaManager.FinishQuest(false);
 			GameData.LoadScene(GameScenes.Hub);
 		}
 	}
@@ -143,6 +145,7 @@ public class FightManager : MonoBehaviour {
 	}
 	private IEnumerator WinDelayed(float time){
 		yield return new WaitForSeconds (time);
+		s_Instance.dramaManager.FinishQuest(true);
 		Debug.Log("BattleWon!");
 		CleanUpFight();
 		GameData.LoadScene(GameScenes.Hub);

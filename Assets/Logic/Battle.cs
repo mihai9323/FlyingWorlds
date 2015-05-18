@@ -17,4 +17,12 @@ public class Battle {
 			sr.color = dayColor;
 		}
 	}
+	public Battle(string id, string location, string moment, GameObject fightBackground, Color dayColor, float[] monsterSpawnChances){
+		this.id = id;
+		this.location = location;
+		this.moment = moment;
+		this.fightBackground = fightBackground;
+		this.dayColor = dayColor;
+		this.monsterSpawnChances = monsterSpawnChances;
+	}
 }

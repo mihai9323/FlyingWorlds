@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using System.Collections.Generic;
 
 
 public class CharacterManager : MonoBehaviour {
@@ -14,7 +14,14 @@ public class CharacterManager : MonoBehaviour {
 	[SerializeField] string[] _firstName;
 	[SerializeField] string[] _secondName;
 	[SerializeField] Transform[] characterSpawnPlaces;
-
+	public static Dictionary<TraitManager.TraitTypes,List<Character>> charactersByTrait {
+		get{ if(s_Instance._charactersByTrait == null){
+				GetCharactersByTraits();
+			} 
+			return s_Instance._charactersByTrait;
+		}
+	}
+	private Dictionary<TraitManager.TraitTypes,List<Character>> _charactersByTrait;
 	public static int partyMoral{
 		get{
 			return Mathf.RoundToInt(
@@ -135,6 +142,7 @@ public class CharacterManager : MonoBehaviour {
 	
 	private void Awake(){
 		s_Instance = this;
+
 	}
 	private void Start(){
 		CreateCharacters();
@@ -263,6 +271,20 @@ public class CharacterManager : MonoBehaviour {
 			}
 		}
 	}
-
+	public static void GetCharactersByTraits(){
+		s_Instance._charactersByTrait = new Dictionary<TraitManager.TraitTypes, List<Character>> ();
+		foreach (Character c in gameCharacters) {
+			if(s_Instance._charactersByTrait.ContainsKey(c.Traits[0])) s_Instance._charactersByTrait[c.Traits[0]].Add(c);
+			else{
+				s_Instance._charactersByTrait.Add(c.Traits[0],new List<Character>());
+				s_Instance._charactersByTrait[c.Traits[0]].Add(c);
+			}
+			if(s_Instance._charactersByTrait.ContainsKey(c.Traits[1])) s_Instance._charactersByTrait[c.Traits[1]].Add(c);
+			else{
+				s_Instance._charactersByTrait.Add(c.Traits[1],new List<Character>());
+				s_Instance._charactersByTrait[c.Traits[1]].Add(c);
+			}
+		}
+	}
 
 }

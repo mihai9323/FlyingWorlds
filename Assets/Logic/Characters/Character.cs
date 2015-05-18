@@ -18,6 +18,9 @@ public class Character : MonoBehaviour {
 	public float fleeSpeed = 1.5f;
 	public bool inFightingParty;
 	public bool fled;
+
+	public AudioClip swordSlash;
+
 	public Trait trait0{
 		get{
 			return TraitManager.GetTrait(Traits[0]);
@@ -113,6 +116,7 @@ public class Character : MonoBehaviour {
 			);
 		}
 	}
+
 	public float PrimeTarget{
 		get{
 			return BuffInfluence(new BuffsAndDebuffs.BuffType[1]{BuffsAndDebuffs.BuffType.PrimeTargetSelf},null,0,CalculateMoral());
@@ -279,7 +283,7 @@ public class Character : MonoBehaviour {
 	private IEnumerator BeHitDelayed(float time,int damage){
 		if(time>0)yield return new WaitForSeconds (time);
 		Health -= Mathf.Max (damage-armor,1);
-		if (Health <= 1) {
+		if (Health <= MaxHealth * CharacterManager.partyFlee * .5f) {
 			fightState = FightState.Flee;
 			
 			this.tag = "Dead";
@@ -469,9 +473,13 @@ public class Character : MonoBehaviour {
 			if(weaponItem.fightAnimation == AnimationNames.kBowAttack){
 				ShootProjectile(FightManager.arrow,targetCharacter);
 				damageDealtInLastBattle += this.damage;
+				Skills.archery+=.1f;
+
 			}else if(weaponItem.fightAnimation == AnimationNames.kMagicAttack){
 				ShootProjectile(FightManager.fireBall,targetCharacter);
 				damageDealtInLastBattle += this.damage;
+				Skills.magic+=.1f;
+
 			}else{
 				if(targetCharacter.Hit (this.damage)){
 					if(this.weaponItem.monstersKilled.ContainsKey(targetCharacter.monsterType)){
@@ -479,6 +487,8 @@ public class Character : MonoBehaviour {
 					}else this.weaponItem.monstersKilled.Add(targetCharacter.monsterType,1);
 				}
 				damageDealtInLastBattle += this.damage;
+				Skills.melee+=.1f;
+				if(swordSlash!=null)AudioSource.PlayClipAtPoint(swordSlash,this.transform.position);
 			}
 
 		}

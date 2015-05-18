@@ -46,853 +46,237 @@ MonoBehaviour:
   labels:
   - name: Has Sword
     labelType: 0
+    prerequisite: 31
     moraleChange: 1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - I like this sword!
+    - This is a good weapon!
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Best Sword
     labelType: 1
+    prerequisite: 0
     moraleChange: 2
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - It is shiny!
+    - It has the best steel
+    - It is very sharp!
+    - I heard it was expenisve
+    - I killed many pirates with it!
+    - The [color] suits me!
+    - This [color] sword killed a lot of [monster]s!
+    - This sword is a [monster] killer!
     _notAccomplished:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - But I wish I had a sword like [name]'s!
+    - But I have a feeling that this sword is not the best...
+    - But I think I deserve a better one!
+    - But [name] got a better weapon than me!
+    - But I would like the [monster] killer sword from [name]
+    color: But I heard that [name]'s [color] weapons is better
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Has Bow
     labelType: 2
+    prerequisite: 31
     moraleChange: 1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - I'm happy I don't fight with a sword!
+    - I'm happy I am far from that magic crap!
+    - Thanks for the bow
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Best bow
     labelType: 3
+    prerequisite: 2
     moraleChange: 2
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - My weapon is the best!
+    - My weapon is shiny
+    - My weapon has a nice string!
+    - My weapon looks cool!
+    - My weapon has a good grip!
+    - My weapon is the best beacuse it is [color]!
+    - I heard that a lot of [monster]s were killed with this bow!
+    - This [color] bow killed a lot of [monster]s
     _notAccomplished:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - But I sure would like a better bow!
+    - But I would appreciate a bow like [name]'s!
+    - But the [color] bow would be nicer
+    - But the [monster]killer bow would be much better
+    - But the [monster]killer bow from [name] would be much better
+    - But [name]'s bow is much better! He killed a lot of [monster]s with it
+    color: But [name] got a a better one.
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Has staff
     labelType: 4
+    prerequisite: 31
     moraleChange: 1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - I love magic!
+    - Thanks for the staff!
+    - This [color] staff looks nice!
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Has best staff
     labelType: 5
+    prerequisite: 4
     moraleChange: 2
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - The [color] staff is the most powerful! Thanks for giving it to me
+    - My [color] staff has no match!
+    - My [color] staff killed a lot of [monster]s.
+    - I killed a lot of [monster]s with my staff
     _notAccomplished:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - But a [color] staff would be better
+    - But [name]'s staff is stronger
+    - But [name]'s staff is made from a better kind of wood
+    - But the [monster]killler staff would be much better
+    - But the mighty [color] [monster]killer staff would be much better! I have heard
+      that [name] has it
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Has good armor
     labelType: 6
+    prerequisite: 31
     moraleChange: 1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - I feel protected in this armor
+    - I feel secure in this armor
+    - Thanks for the [color] armor
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Has best armor
     labelType: 7
+    prerequisite: 6
     moraleChange: 2
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - This [color] material makes it much stronger than others
+    - It looks good on me
     _notAccomplished:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - But I have heard about an armor made of a [color] material which is much better!
+    - But the [color] armor is more shiny
+    - But I have seen [name] wearing a much better armor than me
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: A lot of health
     labelType: 8
+    prerequisite: 31
     moraleChange: 1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    _notAccomplished: []
+    - The last battle was easy
+    - The battle of the [location] left me with only minor injuries
+    - I think the battle of the [location] went well. I wasn't injured sevearly
+    _notAccomplished:
+    - The battle of the [location] was very hard, I almost died!
+    - It was very scary at the [location] I thought I will die!
+    - Please don't send me to the [location] ever again!
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Not hit
     labelType: 9
+    prerequisite: 8
     moraleChange: 2
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    _notAccomplished: []
+    - Ha! Nothing hit me in the last battle!
+    - Ha! I was unhit in the battle of the [location]
+    - I can fight if nothing gets close to me.
+    _notAccomplished:
+    - I got an arrow to the knee in the battle of the [location]
+    - The last battle gave me a huge scar!
+    - Have you seen that huge monsters in the last fight?
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Is fighting
     labelType: 10
+    prerequisite: 31
     moraleChange: 1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - I like smashing things
+    - Killing is what I do!
+    - Where are the goblins?
     _notAccomplished:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - Come on send me to battle!
+    - It's been a while since I last fought! I start to get rusty!
+    - I miss being on the front line!
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Most damage
     labelType: 11
+    prerequisite: 31
     moraleChange: 2
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - I killed everything I found in the battle of the [location]
+    - I like killing! Send them to me!
     _notAccomplished:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - I envy [name] for how much he managed to kill
+    - Oh that [name] he thinks he can kill more than I do.
+    - '[name] beat me this time. Next time I will kill more!'
+    - The [location] was not good for me. [name] managed to be better than me.
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Nobody fled
     labelType: 12
+    prerequisite: 31
     moraleChange: 1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - This is what I call discipline!
+    - No one fled! I like this squad!
+    - Keep up the good work guys!
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Best gear
     labelType: 13
+    prerequisite: 31
     moraleChange: 1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - Oh! I am so shiny in this [color] armor!
+    - Look at me this sword is priceless!
+    - I am so pretty in this armor!
+    - No one matches my beauty!
+    - I wonder why all the enemies are shooting at me... It must be my looks
     _notAccomplished:
     - 
     - 
@@ -920,925 +304,257 @@ MonoBehaviour:
     - 
     - 
     - 
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Fairness
     labelType: 14
+    prerequisite: 31
     moraleChange: 1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - Good work giving everyone equal chances!
+    - I like working for you
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: High Team Morale
     labelType: 15
+    prerequisite: 31
     moraleChange: 1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - Everyone is so happy today!
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Low team morale
     labelType: 16
+    prerequisite: 31
     moraleChange: -3
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - 'I wonder why everyone is crying today! '
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Good farm
     labelType: 17
+    prerequisite: 31
     moraleChange: 1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - The farm looks very clean and tidy today
+    - The farmland is very well taken care of
+    - The corn looks very healthy
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Good shop
     labelType: 18
+    prerequisite: 31
     moraleChange: 2
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - The shop has new things!
+    - I heard that the shop might have a discount soon!
+    - The shop just got new items
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: No Sword
     labelType: 19
+    prerequisite: 31
     moraleChange: -1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - I would like a sword
+    - I would like a pointy stick
+    - I would like a different weapon
+    - Give me a sword
+    - What am I suppose to do without a sword?
+    - Do you even think I can live without a sword?
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: No bow
     labelType: 20
+    prerequisite: 31
     moraleChange: -1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - Give me a bow
+    - I would like a different weapon
+    - I like ranged weapons
+    - I hate magic
+    - Where is that bow?
+    - I forgot where I left my bow
+    - I lost my bow during the last hunt. Can you help me?
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: No staff
     labelType: 21
+    prerequisite: 31
     moraleChange: -1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - I think that I forgot my staff in the tower. Could you give me a new one?
+    - Where is that stuff? I think I left it here somewhere
+    - I would like a staff. I heard legends about some very good black ones.
+    - I can't fight without my old wooden staff
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Bad armor
     labelType: 22
+    prerequisite: 31
     moraleChange: -1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - Give me some discent armor
+    - My life is to valuable. I cant fight without a real armor
+    - Where is my armor?
+    - That blacksmith forgot to send me my armor. Where is he?
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Hit in battle
     labelType: 23
+    prerequisite: 31
     moraleChange: -1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - It's to dangerous out htere
+    - I dont want to die!
+    - Why am I always in the line o fire?
+    - I didn't sign up for this mess!
+    - The [location] was very dangerous!
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Not fighting
     labelType: 24
+    prerequisite: 31
     moraleChange: -1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - Send me to battle!
+    - I didn't train all my life to sleep in the barracks!
+    - I want to fight! Send me to battle! I will do anything to kill something!
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Party member fled
     labelType: 25
+    prerequisite: 31
     moraleChange: -1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - '[name] is wothless! He fled again!'
+    - '[name] calls himself a worrior, but he is nothing, but a coward!'
+    - Maybe if [name] would be more responsable we will win some fights!
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Not best gear
     labelType: 26
+    prerequisite: 31
     moraleChange: -1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - Look at me! I look so stupid in this gear!
+    - Give me something worthy of my name!
+    - Give me some weapons worthy of me!
+    - This armor is ugly!
+    - Only peasants wear armor like this one! Give me something proper!
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Unfair
     labelType: 27
+    prerequisite: 31
     moraleChange: -1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - You should consider giving some more attention to the weaker aswell
+    - Why is it that only [name] gets the best gear?
+    - I think you should consider taking some leadership classes!
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Bad farm
     labelType: 28
+    prerequisite: 31
     moraleChange: -1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - This farm needs better attention
+    - We should putting up some more scarecraws, our harvest is ruined by birds
+    - The farm security is pretty low, people are stealing our crops
+    - Consider upgrading the farm if you dont want us to starve
+    - We should produce more food, so we can sell some for profit
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Bad shop
     labelType: 29
+    prerequisite: 31
     moraleChange: -2
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - We should send some more trade caravans to get better wears in ths shop
+    - We should upgrade the shop to fit in more expenisve swords
+    - If the market would be larger maybe better armor would get sold into our town
+    - I would like to buy some better equipemnt, but this shop doesn't have anything
+      usefull
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 
   - name: Fled
     labelType: 30
+    prerequisite: 31
     moraleChange: -1
     _effectString:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - I had no choice but to flee from the last fight
+    - I know that a fighter should not flee, but I had no option!
     _notAccomplished: []
+    color: 
+    monster: 
     receivedTurn: 0
     causeLocation: 
     causeName: 

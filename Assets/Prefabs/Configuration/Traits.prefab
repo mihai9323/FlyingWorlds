@@ -45,26 +45,26 @@ MonoBehaviour:
     buffs: 00000000
     debuffs: 0d000000
     influencedBy: 000000000100000013000000
-  - name: Marksman
+  - name: Archer
     traitType: 1
     buffs: 01000000
     debuffs: 0e000000
-    influencedBy: 0200000003000000140000001e000000
+    influencedBy: 020000000300000014000000
   - name: Wizzard
     traitType: 2
     buffs: 02000000
     debuffs: 0f000000
-    influencedBy: 0400000005000000150000001e000000
+    influencedBy: 040000000500000015000000
   - name: Knight
     traitType: 3
     buffs: 03000000
     debuffs: 10000000
-    influencedBy: 0600000007000000160000001e000000
+    influencedBy: 060000000700000016000000
   - name: Coward
     traitType: 4
     buffs: 04000000
     debuffs: 11000000
-    influencedBy: 0800000009000000170000001e000000
+    influencedBy: 080000000900000017000000
   - name: Veteran
     traitType: 5
     buffs: 06000000
@@ -74,7 +74,7 @@ MonoBehaviour:
     traitType: 6
     buffs: 07000000
     debuffs: 14000000
-    influencedBy: 1a0000000d0000001e000000
+    influencedBy: 1a0000000d000000
   - name: Brave
     traitType: 7
     buffs: 05000000
@@ -84,27 +84,27 @@ MonoBehaviour:
     traitType: 8
     buffs: 09000000
     debuffs: 16000000
-    influencedBy: 0f000000100000001e000000
+    influencedBy: 0f00000010000000
   - name: Evil
     traitType: 9
     buffs: 10000000
     debuffs: 0a000000
-    influencedBy: 0f000000100000001e000000
+    influencedBy: 0f00000010000000
   - name: Farmer
     traitType: 10
     buffs: 0b000000
     debuffs: 18000000
-    influencedBy: 110000001c0000001e000000
+    influencedBy: 110000001c000000
   - name: Shop Clerk
     traitType: 11
     buffs: 0c000000
     debuffs: 19000000
-    influencedBy: 120000001d0000001e000000
+    influencedBy: 120000001d000000
   - name: Fair
     traitType: 12
     buffs: 08000000
     debuffs: 15000000
-    influencedBy: 1b0000000e0000001e000000
+    influencedBy: 1b0000000e000000
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

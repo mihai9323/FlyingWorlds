@@ -25,7 +25,7 @@ public class ColorCodes{
 		getColor(117,39,124),
 		getColor(124,118,39)
 	};
-	private static float[][,] _colorRandomConfig = new float[3][,]{
+	private static float[][,] _colorRandomConfig = new float[4][,]{
 		//Wizard
 		new float[3,2]{
 			{.6f,1},{.6f,1},{.0f,.7f}
@@ -37,6 +37,10 @@ public class ColorCodes{
 		//Devil
 		new float[3,2]{
 			{.7f,.9f},{0f,.1f},{0.02f,.2f}
+		},
+		//Devil
+		new float[3,2]{
+			{.6f,1},{.6f,1},{.0f,.5f}
 		}
 	};
 	private static Color getColor(int r,int g, int b, int a = 255){

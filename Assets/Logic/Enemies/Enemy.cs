@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour {
 	public Skillset skillset;
 	public Item weapon;
 	[SerializeField] string fightAnimationName;
+	public AudioClip swordSlash;
 	private float attackRange{
 		get{
 			return weapon.Range;
@@ -30,7 +31,7 @@ public class Enemy : MonoBehaviour {
 	}
 	public int MaxHealth{
 		get{
-			return (int)Mathf.Max (2,((skillset.magic + skillset.melee + skillset.archery) * GameData.TurnNumber)); 
+			return (int)Mathf.Max (2,skillset.health); 
 		}
 	}
 	private int currentHealth;
@@ -125,8 +126,10 @@ public class Enemy : MonoBehaviour {
 	}
 
 
-	public void GenerateEnemy(){
-		weapon = new Item (weapon.itemType, GameData.TurnNumber);
+	public void GenerateEnemy(bool isBoss = false){
+		if (weapon == null || weapon.itemType == Item.ItemType.None || weapon.Damage == 0) {
+			weapon = new Item (weapon.itemType, GameData.TurnNumber);
+		}
 		looks.GenerateLooks (monsterType);
 		looks.SetActiveWeapon (weapon);
 		skillset.CreateSkillset (true);
@@ -205,6 +208,7 @@ public class Enemy : MonoBehaviour {
 				ShootProjectile(FightManager.fireBall,targetCharacter);
 			}else{
 				targetCharacter.Hit (this.Damage,.5f);
+				if(swordSlash!=null)AudioSource.PlayClipAtPoint(swordSlash,this.transform.position);
 			}
 
 		}

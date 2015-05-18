@@ -9,7 +9,7 @@ public class Projectile : MonoBehaviour {
 	[SerializeField]private float areaOfAttack = 1;
 	[SerializeField]private bool rotate = true;
 	[SerializeField]private bool affectedByDayTime = true;
-
+	[SerializeField]private AudioClip soundClip;
 	public void ShootCharacter(Vector3 targetPos, int damage, VOID_FUNCTION_CHARACTER OnCharacterResponse){
 		this.transform.parent = FightManager.s_transform;
 		if(enabled)StartCoroutine (WaitForResponse (targetPos, damage, OnCharacterResponse));

@@ -9,17 +9,19 @@ public class HubManager : MonoBehaviour {
 	
 	[SerializeField] GameObject m_Characters, m_Character, m_Inventory,m_Shop;
 	[SerializeField] Farm m_farm;
-
+	[SerializeField] QuestUI m_questUI;
 	[SerializeField] Shop m_shop;
 	[SerializeField] Road m_road;
 	[SerializeField] NotificationBox m_notif;
+
 	public static Farm farm{get{return s_Instance.m_farm;}}
 
 	public static Shop shop{get{return s_Instance.m_shop;}}
 	public static Road road{ get { return s_Instance.m_road; } }
+	public static QuestUI questUI{ get { return s_Instance.m_questUI; } }
 	public static NotificationBox notification{ get { return s_Instance.m_notif; } }
 	public static bool interactable = true;
-	
+
 	
 	private void Awake(){
 		s_Instance = this;
@@ -33,18 +35,24 @@ public class HubManager : MonoBehaviour {
 	
 	}
 	
-	
+	private void OnEnable(){
+		ShowQuestInfo ();
+	}
 	
 	
 	//Show functions
 	public static void ShowCharacters(){
 		if (interactable) {
+			HideAll();
 			s_Instance.m_Characters.SetActive (true);
 			CharacterManager.SelectedCharacter = null;
+			ShowCharacter(CharacterManager.gameCharacters[0]);
+			ShowInventory();
 		}
 	}
 	public static void ShowCharacter(Character character){
 		if (interactable) {
+
 			s_Instance.m_Character.SetActive (true);
 
 			CharacterManager.SelectedCharacter = character;
@@ -54,16 +62,25 @@ public class HubManager : MonoBehaviour {
 	}
 	public static void ShowInventory(){
 		if (interactable) {
+		
 			InventoryManager.PopulateInventory ();
 			s_Instance.m_Inventory.SetActive (true);
 		}
 	}
 	public static void ShowShop(){
 		if (interactable) {
+			HideAll();
 			InventoryManager.PopulateInventory ();
 			InventoryManager.PopulateShop ();
 			s_Instance.m_Shop.SetActive (true);
 			CharacterManager.SelectedCharacter = null;
+		}
+	}
+	public static void ShowQuestInfo(){
+		HideAll ();
+
+		if (interactable) {
+			s_Instance.m_questUI.gameObject.SetActive(true);
 		}
 	}
 
@@ -92,7 +109,14 @@ public class HubManager : MonoBehaviour {
 			s_Instance.m_Shop.SetActive (false);
 		}
 	}
+	public static void HideQuestUI(){
+		if (interactable) {
+			s_Instance.m_questUI.gameObject.SetActive(false);
+		}
+	}
+	                             
 	public static void HideAll(){
+		HideQuestUI ();
 		HideShop ();
 		HideCharacters ();
 	}

@@ -169,7 +169,7 @@ public class Label  {
 	}
 	public static bool HasDoneMostDamage(Character character, out string name, out string location){
 		name = "";
-		if (FightManager.battles!=null && FightManager.battles [GameData.prevBattleID] != null) {
+		if (FightManager.battles!=null && FightManager.battles.ContainsKey(GameData.prevBattleID)) {
 			location = FightManager.battles [GameData.prevBattleID].location;
 		} else
 			location = "Last battle";
@@ -183,7 +183,7 @@ public class Label  {
 		return true;
 	}
 	public static bool NobodyFled(out string fledName, out string location){
-		if (FightManager.battles!=null && FightManager.battles [GameData.prevBattleID] != null) {
+		if (FightManager.battles!=null && FightManager.battles.ContainsKey(GameData.prevBattleID)) {
 			location = FightManager.battles [GameData.prevBattleID].location;
 		} else
 			location = "Last battle";
