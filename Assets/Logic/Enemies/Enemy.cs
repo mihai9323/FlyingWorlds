@@ -198,12 +198,19 @@ public class Enemy : MonoBehaviour {
 			if (targetCharacter != null && CustomSqrDistance (this.transform.position, targetCharacter.transform.position)<attackRange*attackRange){
 				Attack (targetCharacter);
 			}else{
-				StartAITick();
-				looks.StopAnimation ();
+				if(targetCharacter!=null){
+					MoveEnemyToTransform (currentTarget.transform,
+					                      delegate(Enemy e) {
+						Attack (targetCharacter);
+						
+					});
+				}
+			
 			}
 		} else if (targetCharacter == null) {
-				StartAITick();
+				
 				looks.StopAnimation ();
+				StartAITick();
 			}
 
 

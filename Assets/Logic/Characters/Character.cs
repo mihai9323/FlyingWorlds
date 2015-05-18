@@ -245,7 +245,7 @@ public class Character : MonoBehaviour {
 	
 	public void CreateCharacter(){
 		Traits = TraitManager.GetRandomTraitsTypes();
-		Skills.CreateSkillset();
+		Skills.CreateOneSkillset();
 		Name = CharacterManager.GenerateCharacterName();
 		Looks.GenerateLooks ();
 		Health = MaxHealth;
@@ -288,7 +288,7 @@ public class Character : MonoBehaviour {
 	private IEnumerator BeHitDelayed(float time,int damage){
 		if(time>0)yield return new WaitForSeconds (time);
 		Health -= Mathf.Max (damage-armor,1);
-		if (Health <= MaxHealth * CharacterManager.partyFlee * .5f) {
+		if (Health <= MaxHealth * (.5f- CharacterManager.partyFlee*.2f)) {
 			fightState = FightState.Flee;
 			
 			this.tag = "Dead";

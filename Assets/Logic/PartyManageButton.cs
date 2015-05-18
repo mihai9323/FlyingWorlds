@@ -18,6 +18,8 @@ public class PartyManageButton : MonoBehaviour {
 		if(affected_character.inFightingParty)	affected_character.RemoveFromParty();
 		else affected_character.AddToParty();
 		UpdateImage ();
+
+		HubManager.ShowCharacter (affected_character);
 	}
 
 	public void UpdateImage(){

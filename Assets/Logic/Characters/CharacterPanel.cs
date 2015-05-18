@@ -32,9 +32,9 @@ public class CharacterPanel : MonoBehaviour {
 		m_morale.text = "Morale:"+ character.Moral.ToString()+"%";
 		m_trait1.text = TraitManager.GetTrait(character.Traits[0]).name;
 		m_trait2.text = TraitManager.GetTrait(character.Traits[1]).name;
-		m_melee.text = "Melee: "+character.Skills.melee;
-		m_archery.text = "Archery: "+character.Skills.archery;
-		m_magic.text = "Magic: "+ character.Skills.magic;
+		m_melee.text = "Melee: "+character.Skills.melee.ToString("n1");
+		m_archery.text = "Archery: "+character.Skills.archery.ToString("n1");
+		m_magic.text = "Magic: "+ character.Skills.magic.ToString("n1");
 
 		m_thinks.text = character.Thinks;
 	}

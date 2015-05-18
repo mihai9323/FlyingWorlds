@@ -6,7 +6,7 @@ public class Portrait : MonoBehaviour {
 	public Character character;
 	[SerializeField] Image iBody,iBeard,iEyes,iEyeBrow,iHair,iFrontArm,iMouth,iNose,iWeapon;
 	bool waited;
-
+	bool activeProfile;
 	private IEnumerator LoadCoroutine(){
 		yield return null;
 		if (character) {
@@ -22,7 +22,10 @@ public class Portrait : MonoBehaviour {
 	private void OnEnable(){
 		StartCoroutine ("LoadCoroutine");
 	}
-
+	private void Start(){
+		this.GetComponent<Image> ().color = Color.gray;
+		activeProfile = false;
+	}
 	public void OpenPortrait(){
 		HubManager.ShowCharacter(character);
 	}
@@ -57,5 +60,22 @@ public class Portrait : MonoBehaviour {
 		} else
 			iWeapon.color = new Color (0, 0, 0, 0);
 
+	}
+	private void Update(){
+		if (enabled) {
+			if(this.transform.parent.name == "Grid"){
+				if(this.character == CharacterManager.SelectedCharacter){
+					if(!activeProfile){
+						activeProfile = true;
+						this.GetComponent<Image>().color = Color.white;
+					}
+				}else{
+					if(activeProfile){
+						activeProfile = false;
+						this.GetComponent<Image>().color = Color.gray;
+					}
+				}
+			}
+		}
 	}
 }

@@ -241,13 +241,20 @@ public class Quest {
 				correctType +=0.2f;
 			}
 			float goodMorale = 0;
-			List<Character> CharactersWithTrait  = CharacterManager.charactersByTrait[giverTrait];
-			foreach(Character c in CharactersWithTrait){
-				if(c.CalculateMoral()>goodMorale){
-					goodMorale = c.CalculateMoral();
-					questGiver = c;
+		
+			if(CharacterManager.charactersByTrait.ContainsKey(giverTrait)){
+				List<Character> CharactersWithTrait  = CharacterManager.charactersByTrait[giverTrait];
+				foreach(Character c in CharactersWithTrait){
+					if(c.CalculateMoral()>goodMorale){
+						goodMorale = c.CalculateMoral();
+						questGiver = c;
+					}
 				}
+			}else{
+				goodMorale = -10;
+				questGiver = null;
 			}
+
 			float fewAppearances = 1 - ((this.appearances - DramaManager.minAppearances ) / Mathf.Max(1,(DramaManager.maxAppearances - DramaManager.minAppearances)));
 			float v =1-((correctType+goodMorale+fewAppearances)/3);
 			Debug.Log("Quest Fittness for "+questType+" "+giverTrait+":"+v );
