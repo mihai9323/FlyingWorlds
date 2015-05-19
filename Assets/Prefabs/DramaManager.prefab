@@ -244,20 +244,20 @@ MonoBehaviour:
     questType: 1
     questGiver: {fileID: 0}
     possibleBossTypes: 
-    possibleLocations: 00000000
+    possibleLocations: 0000000003000000
     possibleMoments: 0000000001000000
     giverTrait: 10
     questState: 0
     saved: 
-    _attacker: bandits
+    _attacker: 
     _rewardName: plow
     firstQuest: "The lands of Ahor are usually a quiet and peaceful land, however
-      recently it has been invaded by a greater evil. Every corner of Ahor have been
+      recently it has been invaded by a great evil. Every corner of Ahor have been
       infected, except for one little village. Here they strive to keep Ahor and its
       people safe.\nThe only knowledge we have about this evil is the name of an officer
       in the enemy ranks, [mbn]. [mbn] is evil he wants to [mba]. In order to restore
       peace to the land we must fight this evil! Yet the champions of the village
-      are not capable of facing him, they need experienced leader like you! \nBandits
+      are not capable of facing him, they need experienced leader like you! \n[a]
       stole the villages plow during the night, gather your champions and get it back,
       to help the local farmers to keep the income of the village high!"
     previousQuestSuccesfulNoMiniBoss: '[mbn] sent a band of thugs to plunder our farm.
@@ -308,7 +308,7 @@ MonoBehaviour:
     _attacker: 
     _rewardName: new shop inventory
     firstQuest: "The lands of Ahor are usually a quiet and peaceful land, however
-      recently it has been invaded by a greater evil. Every corner of Ahor have been
+      recently it has been invaded by a great evil. Every corner of Ahor have been
       infected, except for one little village. Here they strive to keep Ahor and its
       people safe.\nThe only knowledge we have about this evil is the name of an officer
       in the enemy ranks, [mbn]. [mbn] is evil he wants to [mba]. In order to restore
