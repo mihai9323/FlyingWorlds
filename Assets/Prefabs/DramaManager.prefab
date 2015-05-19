@@ -54,8 +54,8 @@ MonoBehaviour:
     firstQuest: I have heard tales about a powerful [r] in [cl]. I would be very pleased
       to have it in battle!
     previousQuestSuccesfulNoMiniBoss: One of the prisoners we captured after the battle
-      of [pl] gave us the name of [mbn]. I think we should arm ourselves against him.
-      We should arm ourselves with  [r] from [cl].
+      of [pl] told us about [r] which is of great interrest to our enemy. I think
+      we should arm ourselves against [mbn] and retrieve it from [cl].
     previousQuestFailedNoMiniBoss: As we fled the battle of [pl] the enemies shouted
       the warcry of [mbn]. We should defenetly be more prepaired next time. I heard
       stories of a great weapon from [cl].
@@ -111,7 +111,7 @@ MonoBehaviour:
       somewhere in the [cl]. We should give it a shot at finding it! Though, it might
       be guarded by some [a].
     previousQuestSuccesfulMiniBossKilled: The [pr] was a great addition to our cause,
-      however evil forces are gathering at [ebl] and we should be even more prepaired.
+      however evil forces are gathering at [ebl] and we should be even more prepared.
       Have you heard the tales about the [r] guarded by [a]?
     previousQuestFailedMiniBossKilled: Unfortunately we couldn't get the [pr], but
       don't lose hope there are still ways of defeating [ebn]. For instance there
