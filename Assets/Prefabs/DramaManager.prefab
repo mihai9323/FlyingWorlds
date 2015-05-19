@@ -251,8 +251,15 @@ MonoBehaviour:
     saved: 
     _attacker: bandits
     _rewardName: plow
-    firstQuest: During the night the bandits took our plow could you help us get it
-      back? This will increase the yield of our farm!
+    firstQuest: "The lands of Ahor are usually a quiet and peaceful land, however
+      recently it has been invaded by a greater evil. Every corner of Ahor have been
+      infected, except for one little village. Here they strive to keep Ahor and its
+      people safe.\nThe only knowledge we have about this evil is the name of an officer
+      in the enemy ranks, [mbn]. [mbn] is evil he wants to [mba]. In order to restore
+      peace to the land we must fight this evil! Yet the champions of the village
+      are not capable of facing him, they need experienced leader like you! \nBandits
+      stole the villages plow during the night, gather your champions and get it back,
+      to help the local farmers to keep the income of the village high!"
     previousQuestSuccesfulNoMiniBoss: '[mbn] sent a band of thugs to plunder our farm.
       They took our plow! We should get it back in order to maintain our field'
     previousQuestFailedNoMiniBoss: Now that we didn't get the [pr], it might be a
@@ -300,8 +307,16 @@ MonoBehaviour:
     saved: 
     _attacker: 
     _rewardName: new shop inventory
-    firstQuest: My trade caravans were attacked in the [cl] by [a]. I will make sure
-      that we will get new weapons in the shop if you help me!
+    firstQuest: "The lands of Ahor are usually a quiet and peaceful land, however
+      recently it has been invaded by a greater evil. Every corner of Ahor have been
+      infected, except for one little village. Here they strive to keep Ahor and its
+      people safe.\nThe only knowledge we have about this evil is the name of an officer
+      in the enemy ranks, [mbn]. [mbn] is evil he wants to [mba]. In order to restore
+      peace to the land we must fight this evil! Yet the champions of the village
+      are not capable of facing him, they need experienced leader like you! \nTrade
+      Caravans have been attacked by [a] in the [cl], you should gather your champions
+      and head there, this will help the shop keeper of the town with keeping his
+      inventory relevant."
     previousQuestSuccesfulNoMiniBoss: I heard you did a very good job in your latest
       adventure! Could you help me bring some goods from [cl]? I am afraid of attackers.
       Lately [mbn] sent more [a] out on the trade routes.
@@ -558,7 +573,7 @@ MonoBehaviour:
   - bossType: 5
     name: Lord Karakh
     actions:
-    - serve the [ebn]
+    - serve the evil lord [ebn]
     - terrify people with his mighty sword
     prefab: {fileID: 11408646, guid: 12b798868548c0a46bd779bd6064f7f6, type: 2}
   - bossType: 6
