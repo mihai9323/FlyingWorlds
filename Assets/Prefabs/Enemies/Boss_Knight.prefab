@@ -277,16 +277,16 @@ MonoBehaviour:
   fightState: 0
   looks: {fileID: 11408648}
   skillset:
-    melee: 35
+    melee: 6
     archery: 1
     magic: 1
-    health: 7000
+    health: 5000
   weapon:
-    Damage: 35
+    Damage: 15
     Defence: 100
     Range: 1.79999995
     shine: 0
-    itemType: 0
+    itemType: 2
     itemOwner: {fileID: 0}
     colorName: 
   fightAnimationName: SwordAttack
@@ -296,7 +296,7 @@ MonoBehaviour:
   hitSound: {fileID: 8300000, guid: b3e43958e02b54e838e836746a552375, type: 3}
   ai: {fileID: 11408650}
   monsterType: 3
-  attackTime: 1.5
+  attackTime: 2
   dead: 0
   current_speed: 0
   movementSpeed: 1.29999995

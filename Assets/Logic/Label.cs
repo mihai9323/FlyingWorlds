@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 [System.Serializable]
 public class Label  {
@@ -66,7 +66,7 @@ public class Label  {
 		this.causeName = causeName;
 		this.causeLocation = causeLocation;
 		this.color = color;
-		this.receivedTurn = GameData.TurnNumber;
+		this.receivedTurn = GameData.Progression;
 		this.monster = monster;
 	}
 
@@ -183,8 +183,8 @@ public class Label  {
 		return true;
 	}
 	public static bool NobodyFled(out string fledName, out string location){
-		if (FightManager.battles!=null && FightManager.battles.ContainsKey(GameData.prevBattleID)) {
-			location = FightManager.battles [GameData.prevBattleID].location;
+		if (DramaManager.previousQuest!=null) {
+			location = DramaManager.previousQuest.location.locationName;
 		} else
 			location = "Last battle";
 		fledName = "";
@@ -227,7 +227,7 @@ public class Label  {
 	public static bool IsFair(Character character,out string notFairName){
 		notFairName = "";
 		foreach (Character c in CharacterManager.gameCharacters) {
-			if(c.labels.ContainsKey(LabelManager.LabelType.bestGearValue) && Label.HasBestGear(c) && c.labels[LabelManager.LabelType.bestGearValue].receivedTurn +2  < GameData.TurnNumber){
+			if(c.labels.ContainsKey(LabelManager.LabelType.bestGearValue) && Label.HasBestGear(c) && c.labels[LabelManager.LabelType.bestGearValue].receivedTurn +2  < GameData.Progression){
 				notFairName = c.Name;
 				if(c == character){
 					notFairName = "me";

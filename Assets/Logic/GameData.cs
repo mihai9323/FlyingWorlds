@@ -4,21 +4,31 @@ using System.Collections;
 public class GameData:MonoBehaviour  {
 
 	private static GameData s_Instance;
-
+	private static int numberOfCoins;
 	public GameObject hubScene, fightScene;
 
-	public static int TurnNumber = 1;
+	public static int Progression = 1;
 	[SerializeField] string _nextBattleID;
+
 	public static string prevBattleID;
 	public static string nextBattleID{ get { return s_Instance._nextBattleID; } set { if(value != s_Instance._nextBattleID) prevBattleID = s_Instance._nextBattleID; s_Instance._nextBattleID = value; } }
-	private static GameScenes currentScene;
+	private static GameScenes _currentScene;
+	public static GameScenes currentScene{
+		get{
+			return _currentScene;
+		}
+	}
 	private void Awake(){
 		s_Instance = this;
+		numberOfCoins = 2000;
+		Progression = 1;
+		_currentScene = GameScenes.Hub;
 	}
 	private void Start(){
-	
+
+
 		prevBattleID = nextBattleID;
-		currentScene = GameScenes.None;
+		_currentScene = GameScenes.None;
 		LoadScene (GameScenes.Hub);
 
 	}
@@ -32,7 +42,8 @@ public class GameData:MonoBehaviour  {
 		}
 	}
 	public static void LoadScene(GameScenes scene){
-		GameScenes prevScene = currentScene;
+		GameScenes prevScene = _currentScene;
+		_currentScene = scene;
 		if (scene == GameScenes.Hub) {
 			HubManager.interactable = true;
 			s_Instance.hubScene.SetActive (true);
@@ -45,7 +56,7 @@ public class GameData:MonoBehaviour  {
 			s_Instance.hubScene.SetActive (false);
 			s_Instance.fightScene.SetActive (true);
 		}
-		currentScene = scene;
+
 	}
 	public static bool Pay(int coins){
 		if(HasCoins(coins)){
@@ -62,11 +73,11 @@ public class GameData:MonoBehaviour  {
 	}
 
 	public static void ComeBackFromBattle(){
-		TurnNumber ++;
+	
 		NumberOfCoins += HubManager.farm.incomePerTurn;
 		CharacterManager.LoadCharactersFromBattle ();
 		InventoryManager.GenerateShopItems (12, HubManager.shop.level * 5, HubManager.shop.level * 10);
 	}
 
-	private static int numberOfCoins = 2000;
+
 }

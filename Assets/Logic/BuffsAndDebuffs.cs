@@ -36,7 +36,7 @@ public class BuffsAndDebuffs : MonoBehaviour {
 	public Buff[] _buffDefinitions;
 	public static Dictionary<BuffsAndDebuffs.BuffType,Buff> buffDefinitions;
 
-	public void Awake(){
+	private void Awake(){
 
 		buffDefinitions = new Dictionary<BuffsAndDebuffs.BuffType, Buff> (_buffDefinitions.Length);
 		foreach(Buff b in _buffDefinitions){

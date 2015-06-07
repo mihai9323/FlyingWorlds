@@ -48,7 +48,7 @@ public class Item  {
 	public Character itemOwner;
 	public int Value{
 		get{
-			return (int)(50 * (Damage + 3*Defence + Range) * (1+shine) + ItemName.Length * 20);
+			return (int)(40 * (Damage + 2*Defence + 2*Range) * (1+shine) + ItemName.Length * 20);
 		}
 	}
 	public string MostMonstersKilled{
@@ -82,7 +82,7 @@ public class Item  {
 		this.itemType = type;
 		switch (type) {
 		case ItemType.Magic: this.Range = 2 + power * Random.value; this.Defence = 0; this.Damage = 1+ power * Random.value*2; break;
-		case ItemType.Melee: this.Range = 1; this.Defence = 0; this.Damage = 3+ power * Random.value*3; break;
+		case ItemType.Melee: this.Range = 1; this.Defence = 1+ power * Random.value; this.Damage = 3+ power * Random.value*3; break;
 		case ItemType.Ranged: this.Range = 3 + power * Random.value; this.Defence = 0; this.Damage = 1+ power * Random.value; break;
 
 		}
@@ -92,7 +92,7 @@ public class Item  {
 		ItemType iType;
 		float rNr = Random.value;
 		if (rNr < 0.4f) { iType = ItemType.Armor; dmg = 0; range = 0;}
-		else if(rNr<0.6f){ iType = ItemType.Melee; def = 0; range = Mathf.Clamp(range,0,2); }
+		else if(rNr<0.6f){ iType = ItemType.Melee; def = (int)((float)def * .3f); range = Mathf.Clamp(range,0,2); }
 		else if(rNr<.8f){ iType = ItemType.Ranged; def = 0; range = Mathf.Clamp(range,6,20);}
 		else if(rNr<1f){ iType = ItemType.Magic; def = 0; range = Mathf.Clamp(range,6,20);}
 		else iType = ItemType.None;
@@ -103,11 +103,27 @@ public class Item  {
 		this.itemType = iType;
 		monstersKilled = new Dictionary<MonsterTypes,int>();
 	}
+	public Item(ItemType iType,int dmg, int def, int range){
+		
+		
+		if (iType == ItemType.Armor) {  dmg = 0; range = 0;}
+		else if(iType == ItemType.Melee){  def = (int)((float)def * .3f); range = Mathf.Clamp(range,0,2); }
+		else if(iType == ItemType.Ranged){  def = 0; range = Mathf.Clamp(range,6,20);}
+		else if(iType == ItemType.Magic){  def = 0; range = Mathf.Clamp(range,6,20);}
+		
+		
+		this.Damage = dmg;
+		this.Defence = def;
+		this.Range = range;
+		this.itemType = iType;
+
+		monstersKilled = new Dictionary<MonsterTypes,int>();
+	}
 	public Item(ItemType iType,int dmg, int def, int range, string name){
 
 
 		if (iType == ItemType.Armor) {  dmg = 0; range = 0;}
-		else if(iType == ItemType.Melee){  def = 0; range = Mathf.Clamp(range,0,2); }
+		else if(iType == ItemType.Melee){  def = (int)((float)def * .3f); range = Mathf.Clamp(range,0,2); }
 		else if(iType == ItemType.Ranged){  def = 0; range = Mathf.Clamp(range,6,20);}
 		else if(iType == ItemType.Magic){  def = 0; range = Mathf.Clamp(range,6,20);}
 
@@ -119,6 +135,7 @@ public class Item  {
 		this.ItemName = name+" "+ this.ItemName;
 		monstersKilled = new Dictionary<MonsterTypes,int>();
 	}
+
 
 	public Sprite GetSprite(out Color color){
 		color = CalculateColor();

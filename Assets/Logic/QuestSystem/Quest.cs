@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 [System.Serializable]
@@ -27,7 +27,7 @@ public class Quest {
 		NotStarted,
 		Completed,
 		Failed,
-		WaitingRevange
+		WaitingRevenge
 	}
 	[HideInInspector]public QuestState questState;
 
@@ -48,19 +48,19 @@ public class Quest {
 			}else return _rewardName;
 		}
 	}
-	public string firstQuest;
-	public string previousQuestSuccesfulNoMiniBoss;
-	public string previousQuestFailedNoMiniBoss;
-	public string previousQuestSuccesfulMiniBossKilled	;
-	public string previousQuestFailedMiniBossKilled;
+	[TextArea(3,10)][SerializeField] string firstQuest;
+	[TextArea(3,10)][SerializeField] string previousQuestSuccesfulNoMiniBoss;
+	[TextArea(3,10)][SerializeField] string previousQuestFailedNoMiniBoss;
+	[TextArea(3,10)][SerializeField] string previousQuestSuccesfulMiniBossKilled;
+	[TextArea(3,10)][SerializeField] string previousQuestFailedMiniBossKilled;
 
-	public string revangeQuestWithItem;
-	public string revangeQuestWithoutItem;
-	public string previousQuestBossSuccessful;
-	public string previousQuestBossFailed;
+	[TextArea(3,10)][SerializeField] string revangeQuestWithItem;
+	[TextArea(3,10)][SerializeField] string revangeQuestWithoutItem;
+	[TextArea(3,10)][SerializeField] string previousQuestBossSuccessful;
+	[TextArea(3,10)][SerializeField] string previousQuestBossFailed;
 	private Item rewardItem;
 	private int rewardCoins;
-	private string monsterAction;
+	public string monsterAction;
 	[HideInInspector]public Boss boss; 
 	[HideInInspector]public Location location;
 	[HideInInspector]public Moment moment;
@@ -94,11 +94,10 @@ public class Quest {
 			s = firstQuest;
 			s = ReplaceTags (s);
 		} else {
-			if (this.questState == QuestState.WaitingRevange) {
+			if (this.questState == QuestState.WaitingRevenge) {
 				if (DramaManager.previousQuest.questType == QuestType.ItemQuest && DramaManager.previousQuest.questState == QuestState.Completed) {
 					s = revangeQuestWithItem;
 					s = ReplaceTags (s);
-			
 				} else {
 					s = revangeQuestWithoutItem;
 					s = ReplaceTags (s);
@@ -109,7 +108,7 @@ public class Quest {
 					s = ReplaceTags (s);
 
 				} else {
-					if (DramaManager.hasMiniBoss)
+					if (DramaManager.hasMiniBossQuest)
 						s = previousQuestSuccesfulMiniBossKilled;
 					else
 						s = previousQuestSuccesfulNoMiniBoss;
@@ -120,107 +119,140 @@ public class Quest {
 				if (DramaManager.previousQuest != null && (DramaManager.previousQuest.questType == QuestType.MinibossQuest || DramaManager.previousQuest.questType == QuestType.EndBossQuest)) {
 					s = previousQuestBossFailed;
 					s = ReplaceTags (s);
-
-				
-		
 				} else {
 					s = previousQuestFailedNoMiniBoss;
-					if (DramaManager.hasMiniBoss)
+					if (DramaManager.hasMiniBossQuest)
 						s = previousQuestFailedMiniBossKilled;
 					else
 						s = previousQuestFailedNoMiniBoss;
 					s = ReplaceTags (s);
 				}
-
-
-
 			}
 		}
 		return s;
 	}
 	private string ReplaceTags(string s){
+		if (DramaManager.previousQuest != null) {
+			s = s.Replace ("[pr]", string.IsNullOrEmpty(DramaManager.previousQuest.rewardName)? "experience":DramaManager.previousQuest.rewardName);
+			s = s.Replace ("[pl]", DramaManager.previousQuest.location.locationName);
+			s = s.Replace ("[pt]", DramaManager.previousQuest.moment.momentName);
+			s = s.Replace ("[pa]", string.IsNullOrEmpty(DramaManager.previousQuest.attacker)? "enemies":DramaManager.previousQuest.attacker);
+		}
+		s = s.Replace("[ct]",this.moment.momentName);
+		s = s.Replace("[cl]",this.location.locationName);
+		s = s.Replace("[a]", this.attacker);
+		s = s.Replace ("[r]", this.rewardName);
 		if (DramaManager.MiniBossQuest != null) {
 			s = s.Replace ("[mba]", DramaManager.MiniBossQuest.monsterAction);
 			s = s.Replace ("[mbl]", DramaManager.MiniBossQuest.location.locationName);
 			s = s.Replace ("[mbt]", DramaManager.MiniBossQuest.moment.momentName);
 			s = s.Replace ("[mbn]", DramaManager.MiniBossQuest.boss.name);
-		}
-		
+		}		
 		if (DramaManager.EndBossQuest != null) {
 			s = s.Replace ("[eba]", DramaManager.EndBossQuest.monsterAction);
 			s = s.Replace ("[ebl]", DramaManager.EndBossQuest.location.locationName);
 			s = s.Replace ("[ebt]", DramaManager.EndBossQuest.moment.momentName);
 			s = s.Replace ("[ebn]", DramaManager.EndBossQuest.boss.name);
 		}
-		
-		if (DramaManager.previousQuest != null) {
-			s = s.Replace ("[pr]", DramaManager.previousQuest.rewardName);
-			s = s.Replace ("[pl]", DramaManager.previousQuest.location.locationName);
-			s = s.Replace ("[pt]", DramaManager.previousQuest.moment.momentName);
-			s = s.Replace ("[pa]", DramaManager.previousQuest.attacker);
+		if(!DramaManager.hasMiniBossQuest && DramaManager.MiniBossQuest!=null){
+			s = s.Replace ("[pba]", DramaManager.MiniBossQuest.monsterAction);
+			s = s.Replace ("[pbl]", DramaManager.MiniBossQuest.location.locationName);
+			s = s.Replace ("[pbt]", DramaManager.MiniBossQuest.moment.momentName);
+			s = s.Replace ("[pbn]", DramaManager.MiniBossQuest.boss.name);
+		}else if(DramaManager.EndBossQuest!=null){
+			s = s.Replace ("[pba]", DramaManager.EndBossQuest.monsterAction);
+			s = s.Replace ("[pbl]", DramaManager.EndBossQuest.location.locationName);
+			s = s.Replace ("[pbt]", DramaManager.EndBossQuest.moment.momentName);
+			s = s.Replace ("[pbn]", DramaManager.EndBossQuest.boss.name);
 		}
-		s = s.Replace("[ct]",this.moment.momentName);
-		s = s.Replace("[cl]",this.location.locationName);
-		s = s.Replace("[a]", this.attacker);
-		s = s.Replace ("[r]", this.rewardName);
 		return s;
 	}
-	public void GenerateRandomQuest(){
+	public void GenerateQuest(){
 
 		appearances++;
+		if (this.questType == QuestType.EndBossQuest || this.questType == QuestType.MinibossQuest) {
+			LoadBossQuest();
+		} else {
+			GenerateRandomQuest ();
+		}
+	}
+	public void GenerateBossQuest(){
+		GenerateRandomQuest ();
+	}
+	void LoadBossQuest(){
+		if (this.questType == QuestType.EndBossQuest) {
+			this.location = DramaManager.EndBossQuest.location;
+			this.boss = DramaManager.EndBossQuest.boss;
+			this.moment = DramaManager.EndBossQuest.moment;
+			this.monsterAction = DramaManager.EndBossQuest.monsterAction;
+
+		} else if (this.questType == QuestType.MinibossQuest) {
+			this.location = DramaManager.MiniBossQuest.location;
+			this.boss = DramaManager.MiniBossQuest.boss;
+			this.moment = DramaManager.MiniBossQuest.moment;
+			this.monsterAction = DramaManager.MiniBossQuest.monsterAction;
+		}
+	}
+	void GenerateRandomQuest ()
+	{
 		if (this.questState == QuestState.Completed) {
 			this.questState = QuestState.NotStarted;
 		}
 		if (this.possibleBossTypes != null && this.possibleBossTypes.Count > 0) {
-			this.boss = DramaManager.bossList [possibleBossTypes [Mathf.Clamp((int)Random.Range (0, possibleBossTypes.Count),0,possibleBossTypes.Count-1)]];
+			this.boss = DramaManager.bossList [possibleBossTypes [Mathf.Clamp ((int)Random.Range (0, possibleBossTypes.Count), 0, possibleBossTypes.Count - 1)]];
 			this.monsterAction = this.boss.GetRandomAction;
-		} else {
+		}
+		else {
 			this.boss = null;
 			this.monsterAction = "";
 		}
+		this.location = DramaManager.locationList [possibleLocations [Mathf.Clamp ((int)Random.Range (0, possibleLocations.Count), 0, possibleLocations.Count - 1)]];
+		if (DramaManager.previousQuest != null) {
 
-		this.location = DramaManager.locationList [possibleLocations [Mathf.Clamp((int)Random.Range (0, possibleLocations.Count),0,possibleLocations.Count-1)]];
-		if(DramaManager.previousQuest != null){
-			while(this.location.locationName == DramaManager.previousQuest.location.locationName){
-				this.location = DramaManager.locationList [possibleLocations [Mathf.Clamp((int)Random.Range (0, possibleLocations.Count),0,possibleLocations.Count-1)]];
+			while (this.location.locationName == DramaManager.previousQuest.location.locationName) {
+				this.location = DramaManager.locationList [possibleLocations [Mathf.Clamp ((int)Random.Range (0, possibleLocations.Count), 0, possibleLocations.Count - 1)]];
 			}
 		}
-		this.moment = DramaManager.momentList[possibleMoments[Mathf.Clamp((int)Random.Range (0, possibleMoments.Count),0,possibleMoments.Count-1)]];
+		this.moment = DramaManager.momentList [possibleMoments [Mathf.Clamp ((int)Random.Range (0, possibleMoments.Count), 0, possibleMoments.Count - 1)]];
 		if (questType == QuestType.ItemQuest) {
 			switch (giverTrait) {
 			case TraitManager.TraitTypes.Magic:
-				rewardItem = new Item (Item.ItemType.Magic, Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), Random.Range (2 * HubManager.shop.level, 5 * HubManager.shop.level), location.GetRandomRewardName ());
+				rewardItem = new Item (Item.ItemType.Magic, Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), location.GetRandomRewardName ());
 				break;
 			case TraitManager.TraitTypes.Archery:
-				rewardItem = new Item (Item.ItemType.Ranged, Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), Random.Range (2 * HubManager.shop.level, 5 * HubManager.shop.level), location.GetRandomRewardName ());
+				rewardItem = new Item (Item.ItemType.Ranged, Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), location.GetRandomRewardName ());
 				break;
 			case TraitManager.TraitTypes.Melee:
 				rewardItem = new Item (Item.ItemType.Melee, Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), (int)Random.Range (.3f * HubManager.shop.level, .8f * HubManager.shop.level), location.GetRandomRewardName ());
 				break;
 			case TraitManager.TraitTypes.Armory:
-				rewardItem = new Item (Item.ItemType.Armor, Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), Random.Range (2 * HubManager.shop.level, 5 * HubManager.shop.level), location.GetRandomRewardName ());
+				rewardItem = new Item (Item.ItemType.Armor, Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), Random.Range (12 * HubManager.shop.level, 15 * HubManager.shop.level), location.GetRandomRewardName ());
 				break;
 			}
-		} else if (questType == QuestType.GoldQuest) {
-			rewardCoins = 500 * Mathf.Max(1,GameData.TurnNumber);
 		}
+		else
+			if (questType == QuestType.GoldQuest) {
+				rewardCoins = 500 * Mathf.Max (1, GameData.Progression);
+			}
 	}
-	public float Fittness{
+
+	public float Fitness{
 		get{
 			float correctType = 0;
 			if(this == DramaManager.previousQuest){
 					correctType = -3;
 			}else
-			if(DramaManager.hasFarmUpgrade && DramaManager.hasItemQuest && DramaManager.hasMiniBoss && DramaManager.hasShopUpgrade){
+			if(DramaManager.hasFarmQuest && DramaManager.hasItemQuest && DramaManager.hasMiniBossQuest && DramaManager.hasShopQuest){
 				if(this.questType == QuestType.EndBossQuest) correctType = 1;
 				else correctType = 0;
-			}else if(DramaManager.hasFarmUpgrade && DramaManager.hasItemQuest && DramaManager.hasMiniBoss){
+			}else if((DramaManager.hasFarmQuest || DramaManager.hasShopQuest) && DramaManager.hasItemQuest){
+				if(this.questType == QuestType.MinibossQuest) correctType = 3f;
+				else if(this.questType == QuestType.FarmQuest || this.questType == QuestType.ShopQuest) correctType = .2f;
+				else correctType = 0;
+			}else if(DramaManager.hasFarmQuest && DramaManager.hasItemQuest){
 				if(this.questType == QuestType.ShopQuest) correctType = 1;
 				else correctType = 0;
-			}else if(DramaManager.hasFarmUpgrade && DramaManager.hasItemQuest){
-				if(this.questType == QuestType.MinibossQuest) correctType = 1;
-				else correctType = 0;
-			}else if(DramaManager.hasFarmUpgrade){
+			}else if(DramaManager.hasFarmQuest){
 				if(this.questType == QuestType.ItemQuest) correctType = 1;
 				else correctType = 0;
 			}else{
@@ -233,13 +265,19 @@ public class Quest {
 				}
 				else correctType = -0.1f;
 			}
+
+
 			if(this.questState == QuestState.Completed){
 				correctType -= 3;
 			}else if(this.questState == QuestState.Failed){
 				correctType -=1;
-			}else if(this.questState == QuestState.WaitingRevange){
+			}else if(this.questState == QuestState.WaitingRevenge){
 				correctType +=0.2f;
 			}
+			if(!DramaManager.hasMiniBossQuest && this.questType == QuestType.EndBossQuest) correctType -= 10;
+			if(DramaManager.hasMiniBossQuest && this.questType == QuestType.MinibossQuest) correctType -=10;
+			if(this.questType == QuestType.MinibossQuest && DramaManager.previousQuest !=null && DramaManager.previousQuest.questType == QuestType.MinibossQuest) correctType -= 10;
+			if(this.questType == QuestType.EndBossQuest && DramaManager.previousQuest !=null && DramaManager.previousQuest.questType == QuestType.EndBossQuest) correctType -= 10;
 			float goodMorale = 0;
 		
 			if(CharacterManager.charactersByTrait.ContainsKey(giverTrait)){
@@ -257,7 +295,7 @@ public class Quest {
 
 			float fewAppearances = 1 - ((this.appearances - DramaManager.minAppearances ) / Mathf.Max(1,(DramaManager.maxAppearances - DramaManager.minAppearances)));
 			float v =1-((correctType+goodMorale+fewAppearances)/3);
-			Debug.Log("Quest Fittness for "+questType+" "+giverTrait+":"+v );
+			Debug.Log("Quest Fitness for "+questType+" "+giverTrait+":"+v );
 			return  v;
 		}
 	}
@@ -266,13 +304,13 @@ public class Quest {
 			ApplyReward ();
 
 			if (questType == QuestType.EndBossQuest) {
-				Application.LoadLevel(1);
+				Application.LoadLevel(Application.loadedLevel+1);
 			}else{
 				questState = QuestState.Completed;
 			}
 		}else{
 			if(questType == QuestType.EndBossQuest || questType == QuestType.MinibossQuest){
-				questState = QuestState.WaitingRevange;
+				questState = QuestState.WaitingRevenge;
 			}else questState = QuestState.Failed;
 		}
 	}

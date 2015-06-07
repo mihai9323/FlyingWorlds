@@ -19,12 +19,13 @@ public class BodyPart : MonoBehaviour {
 
 	private void Awake(){
 		sRenderer = this.gameObject.GetComponent<SpriteRenderer> ();
-		this.gameObject.SetActive (false);
+		if(Application.loadedLevelName == "Hub")this.gameObject.SetActive (false);
 		this.animator = this.gameObject.GetComponent<Animator> ();
-
+		myColor = sRenderer.color;
 
 
 	}
+
 	public void SetLightColor(Color color){
 		sRenderer.material.SetColor ("_LightColor", color);
 	}
@@ -40,7 +41,9 @@ public class BodyPart : MonoBehaviour {
 		Color[] colors = new Color[6];
 		Color dayColor = FightManager.battles [GameData.nextBattleID].dayColor;
 		for (int i =0; i<6; i++) {
-			if(i<3)colors[i] = new Color(Random.Range(faceRandom[0,0],faceRandom[0,1])*dayColor.r,Random.Range(faceRandom[1,0],faceRandom[1,1])*dayColor.g,Random.Range(faceRandom[2,0],faceRandom[2,1])*dayColor.b);
+			if(i<3)colors[i] = new Color(Random.Range(faceRandom[0,0],faceRandom[0,1])*dayColor.r,
+			                             Random.Range(faceRandom[1,0],faceRandom[1,1])*dayColor.g,
+			                             Random.Range(faceRandom[2,0],faceRandom[2,1])*dayColor.b);
 			else colors[i] = new Color(Random.value*dayColor.r,Random.value*dayColor.g,Random.value*dayColor.b); 
 		}
 		SetColors (colors);

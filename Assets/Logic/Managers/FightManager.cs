@@ -7,6 +7,7 @@ public class FightManager : MonoBehaviour {
 	[SerializeField] Enemy[] enemyTypes;
 	[SerializeField] Projectile _fireBall, _arrow;
 	[SerializeField] DramaManager dramaManager;
+	[SerializeField] StaticDramaManager staticDramaManager;
 	public static Transform s_transform{
 		get{
 			return s_Instance.transform;
@@ -29,6 +30,12 @@ public class FightManager : MonoBehaviour {
 			return s_Instance.fleeTarget;
 		}
 	}
+	public static Transform RetreatTarget{
+		get{
+			return s_Instance.retreatTarget;
+		}
+	}
+	[SerializeField] Transform retreatTarget;
 	[SerializeField] CharacterFightController[] fightControllers;
 	[SerializeField] Transform[] characterSpawnPlaces;
 	[SerializeField] Battle[] battlePresets;
@@ -70,7 +77,7 @@ public class FightManager : MonoBehaviour {
 		foreach (Battle b in battlePresets) {
 			b.fightBackground.SetActive(false);
 		}
-		StartBattle ();
+		if(GameData.currentScene == GameScenes.Fight)StartBattle ();
 	}
 	public void StartBattle(){
 
@@ -80,6 +87,7 @@ public class FightManager : MonoBehaviour {
 		AddEnemies ();
 
 	}
+
 	public void AddEnemies(){
 		Vector3 mPos = s_Instance.minSpawn.position;
 		Vector3 MPos = s_Instance.maxSpawn.position;
@@ -99,6 +107,7 @@ public class FightManager : MonoBehaviour {
 				character.fightState = FightState.StandGround;
 				character.tag = "CHARACTER";
 				character.Looks.SetLight(battles[GameData.nextBattleID].dayColor);
+				character.PlaceOnLayer();
 				c++;
 			}
 		}
@@ -138,7 +147,10 @@ public class FightManager : MonoBehaviour {
 		if(FightManager.BattleLost){
 			Debug.Log("BattleLost!");
 			CleanUpFight();
-			s_Instance.dramaManager.FinishQuest(false);
+			GameData.Progression --;
+			GameData.Progression = Mathf.Max(GameData.Progression,0);
+			if(s_Instance.dramaManager!=null)s_Instance.dramaManager.FinishQuest(false);
+			if(s_Instance.staticDramaManager!=null)s_Instance.staticDramaManager.FinishQuest(false);
 			GameData.LoadScene(GameScenes.Hub);
 		}
 	}
@@ -149,7 +161,9 @@ public class FightManager : MonoBehaviour {
 	}
 	private IEnumerator WinDelayed(float time){
 		yield return new WaitForSeconds (time);
-		s_Instance.dramaManager.FinishQuest(true);
+		GameData.Progression +=2;
+		if(s_Instance.dramaManager!=null)s_Instance.dramaManager.FinishQuest(true);
+		if(s_Instance.staticDramaManager!=null)s_Instance.staticDramaManager.FinishQuest(true);
 		Debug.Log("BattleWon!");
 		CleanUpFight();
 		GameData.LoadScene(GameScenes.Hub);

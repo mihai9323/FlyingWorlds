@@ -38,11 +38,11 @@ public class Shop : MonoBehaviour {
 	public int level = 1;
 	public int upgradeCost{
 		get{
-			return (int)((level + 1) * 30 * Mathf.Pow(2,level+1));
+			return (int)((level + 1) * 800);
 		}
 	}
 	public void OnEnable(){
-		T_ShopName.text = "SHOP Level " + level;
+		T_ShopName.text = "Level " + level;
 		T_ShopUpgrade.text = "Upgrade For " + upgradeCost;
 
 		T_my_dmg.text = "";
@@ -65,17 +65,18 @@ public class Shop : MonoBehaviour {
 
 		}
 		else if(item.itemType == Item.ItemType.Armor){
-			T_my_dmg.text = "DEF: "+item.Defence;
+			T_my_dmg.text = "DEFENSE: "+item.Defence;
 			t_my_range.text = "";
 			T_myItemValue.text = "VALUE: " + item.Value;
-			myItemValue = item.Value;
+			myItemValue = (int)(item.Value * priceVariance *.75f);
 	
 			
 		}else{
-			T_my_dmg.text = "DMG: "+item.Damage;
-			t_my_range.text = "RNG: "+item.Range;
+			T_my_dmg.text = "DAMAGE: "+item.Damage;
+			if(item.itemType != Item.ItemType.Melee)t_my_range.text = "RANGE: "+item.Range;
+			else t_my_range.text = "DEFENSE:"+item.Defence;
 			T_myItemValue.text = "VALUE: " + item.Value;
-			myItemValue = item.Value;
+			myItemValue = (int)(item.Value * priceVariance *.75f);
 
 		}
 		T_my_item_name.text = item.ItemName;
@@ -92,15 +93,16 @@ public class Shop : MonoBehaviour {
 		
 		}
 		else if(item.itemType == Item.ItemType.Armor){
-			T_other_dmg.text = "DEF: "+item.Defence;
+			T_other_dmg.text = "DEFENSE: "+item.Defence;
 			T_other_range.text = "";
 			T_buyItemValue.text = "VALUE: " + item.Value;
 			otherItemValue = (int)((float)item.Value * priceVariance);
 
 			
 		}else{
-			T_other_dmg.text = "DMG: "+item.Damage;
-			T_other_range.text = "RNG: "+item.Range;
+			T_other_dmg.text = "DAMAGE: "+item.Damage;
+			if(item.itemType != Item.ItemType.Melee)T_other_range.text = "RANGE: "+item.Range;
+			else T_other_range.text = "DEFENSE:"+item.Defence;
 			T_buyItemValue.text = "VALUE: " + item.Value;
 			otherItemValue = (int)((float)item.Value * priceVariance);
 		
@@ -122,10 +124,23 @@ public class Shop : MonoBehaviour {
 
 	}
 	public void SwapItem(){
-		BuyFunctionality ();
-		SellFunctionality ();
-		InventoryManager.PopulateInventory ();
-		InventoryManager.PopulateShop ();
+		if (GameData.HasCoins (Mathf.Max(0,otherItemValue - myItemValue))) {
+			SellFunctionality ();
+			BuyFunctionality ();
+			InventoryManager.PopulateInventory ();
+			InventoryManager.PopulateShop ();
+		} else {
+			HubManager.notification.ShowConfirm("You do not have enough coins to make the swap. Do you want to only sell your item for "+myItemValue+" instead?",
+			                                    "Yes!",
+			                                    "No!",
+			                                    delegate(){SellFunctionality();},
+			                                    null
+			                                    );
+
+		}
+
+
+
 	}
 	private void BuyFunctionality(){
 
@@ -179,7 +194,13 @@ public class Shop : MonoBehaviour {
 			BuyButton.SetActive(false);
 			SellButton.SetActive(false);
 			SwapButton.SetActive(true);
-			T_swapButton.text = "Swap for:"+(otherItemValue - myItemValue).ToString();
+			int sValue = (otherItemValue - myItemValue);
+			if(sValue> 0){
+				T_swapButton.text = "Swap items for:"+(otherItemValue - myItemValue).ToString();
+			}else{
+				T_swapButton.text = "Swap items and receive:"+(-otherItemValue + myItemValue).ToString();
+			}
+
 		}
 		Empty.SetActive(!BuyButton.activeInHierarchy && !SellButton.activeInHierarchy && !SwapButton.activeInHierarchy);
 	}

@@ -277,12 +277,12 @@ MonoBehaviour:
   fightState: 0
   looks: {fileID: 11408648}
   skillset:
-    melee: 30
+    melee: 6
     archery: 1
     magic: 1
-    health: 5000
+    health: 4000
   weapon:
-    Damage: 30
+    Damage: 20
     Defence: 20
     Range: 3
     shine: 0

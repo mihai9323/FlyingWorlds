@@ -24,7 +24,7 @@ public class TraitManager : MonoBehaviour {
 	}
 	
 	[SerializeField] Trait[] traits;
-	
+	private static int[] traitUse;
 	private static Dictionary<TraitTypes,Trait> traitDictionary;
 	private void Awake(){
 		s_Instance = this;
@@ -43,7 +43,7 @@ public class TraitManager : MonoBehaviour {
 	}
 	public static TraitTypes[] GetRandomTraitsTypes(){
 		TraitTypes[] traits = new TraitTypes[2];
-		traits[0] = getRandomTraitType(5,13);
+		traits[0] = getRandomTraitType(4,13);
 		traits[1] = getRandomTraitType(0,4);
 
 		return traits;
@@ -67,5 +67,5 @@ public class TraitManager : MonoBehaviour {
 		return s_Instance.traits[availableTraits[rV]].traitType;
 		
 	}
-	private static int[] traitUse;
+
 }

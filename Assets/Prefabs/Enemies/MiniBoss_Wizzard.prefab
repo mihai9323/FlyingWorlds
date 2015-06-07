@@ -265,14 +265,14 @@ MonoBehaviour:
   fightState: 0
   looks: {fileID: 11442756}
   skillset:
-    melee: 3
-    archery: 2
-    magic: 7
-    health: 300
+    melee: 1
+    archery: 1
+    magic: 1
+    health: 500
   weapon:
-    Damage: 20
-    Defence: 20
-    Range: 5
+    Damage: 15
+    Defence: 1
+    Range: 10
     shine: 0
     itemType: 4
     itemOwner: {fileID: 0}
@@ -284,7 +284,7 @@ MonoBehaviour:
   hitSound: {fileID: 8300000, guid: b3e43958e02b54e838e836746a552375, type: 3}
   ai: {fileID: 11442758}
   monsterType: 0
-  attackTime: 3
+  attackTime: 4
   dead: 0
   current_speed: 0
   movementSpeed: 1.5

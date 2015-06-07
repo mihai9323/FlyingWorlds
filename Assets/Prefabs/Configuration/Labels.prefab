@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _checkWhenWeaponsChange: 00000000010000000200000003000000040000000500000006000000070000000d000000130000001400000015000000160000000e0000001b0000000f00000010000000
-  _checkFirstWhenComeFromBattle: 1e00000017000000090000000a0000000e0000001b000000080000000b0000001800000017000000
+  _checkFirstWhenComeFromBattle: 1e00000017000000090000000a0000000e0000001b000000080000000b00000018000000
   _checkSecondWhenComeFromBattle: 0c000000190000000f00000010000000
   _checkAfterBuildingUpdate: 1c0000001d00000011000000120000000f00000010000000
   labels:
@@ -65,7 +65,7 @@ MonoBehaviour:
     - It is shiny!
     - It has the best steel
     - It is very sharp!
-    - I heard it was expenisve
+    - I heard it was expensive!
     - I killed many pirates with it!
     - The [color] suits me!
     - This [color] sword killed a lot of [monster]s!
@@ -87,8 +87,10 @@ MonoBehaviour:
     moraleChange: 1
     _effectString:
     - I'm happy I don't fight with a sword!
-    - I'm happy I am far from that magic crap!
+    - I'm happy to be far from that magic crap!
     - Thanks for the bow
+    - This weapon suits me
+    - This is a good bow
     _notAccomplished: []
     color: 
     monster: 
@@ -100,12 +102,12 @@ MonoBehaviour:
     prerequisite: 2
     moraleChange: 2
     _effectString:
-    - My weapon is the best!
-    - My weapon is shiny
-    - My weapon has a nice string!
-    - My weapon looks cool!
-    - My weapon has a good grip!
-    - My weapon is the best beacuse it is [color]!
+    - My bow is the best!
+    - My bow is shiny
+    - My bow has a nice string!
+    - My bow looks cool!
+    - My bow has a good grip!
+    - My bow is the best beacuse it is [color]!
     - I heard that a lot of [monster]s were killed with this bow!
     - This [color] bow killed a lot of [monster]s
     _notAccomplished:
@@ -125,7 +127,7 @@ MonoBehaviour:
     prerequisite: 31
     moraleChange: 1
     _effectString:
-    - I love magic!
+    - I love my magic weapon!
     - Thanks for the staff!
     - This [color] staff looks nice!
     _notAccomplished: []
@@ -144,7 +146,7 @@ MonoBehaviour:
     - My [color] staff killed a lot of [monster]s.
     - I killed a lot of [monster]s with my staff
     _notAccomplished:
-    - But a [color] staff would be better
+    - But the [color] staff would be better
     - But [name]'s staff is stronger
     - But [name]'s staff is made from a better kind of wood
     - But the [monster]killler staff would be much better
@@ -195,7 +197,7 @@ MonoBehaviour:
     - I think the battle of the [location] went well. I wasn't injured sevearly
     _notAccomplished:
     - The battle of the [location] was very hard, I almost died!
-    - It was very scary at the [location] I thought I will die!
+    - It was very scary at the [location] I thought I would die!
     - Please don't send me to the [location] ever again!
     color: 
     monster: 
@@ -213,7 +215,7 @@ MonoBehaviour:
     _notAccomplished:
     - I got an arrow to the knee in the battle of the [location]
     - The last battle gave me a huge scar!
-    - Have you seen that huge monsters in the last fight?
+    - Did you see that huge monster in the last fight?
     color: 
     monster: 
     receivedTurn: 0
@@ -226,7 +228,7 @@ MonoBehaviour:
     _effectString:
     - I like smashing things
     - Killing is what I do!
-    - Where are the goblins?
+    - Where are the enemies?
     _notAccomplished:
     - Come on send me to battle!
     - It's been a while since I last fought! I start to get rusty!
@@ -244,10 +246,10 @@ MonoBehaviour:
     - I killed everything I found in the battle of the [location]
     - I like killing! Send them to me!
     _notAccomplished:
-    - I envy [name] for how much he managed to kill
-    - Oh that [name] he thinks he can kill more than I do.
+    - I envy [name] for how many he managed to kill
+    - Oh that [name], he thinks he can kill more than I do.
     - '[name] beat me this time. Next time I will kill more!'
-    - The [location] was not good for me. [name] managed to be better than me.
+    - The [location] was not good for me. [name] managed to kill more than me.
     color: 
     monster: 
     receivedTurn: 0
@@ -273,37 +275,11 @@ MonoBehaviour:
     moraleChange: 1
     _effectString:
     - Oh! I am so shiny in this [color] armor!
-    - Look at me this sword is priceless!
+    - Look at me, this sword is priceless!
     - I am so pretty in this armor!
     - No one matches my beauty!
     - I wonder why all the enemies are shooting at me... It must be my looks
-    _notAccomplished:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    _notAccomplished: []
     color: 
     monster: 
     receivedTurn: 0
@@ -415,7 +391,7 @@ MonoBehaviour:
     moraleChange: -1
     _effectString:
     - I think that I forgot my staff in the tower. Could you give me a new one?
-    - Where is that stuff? I think I left it here somewhere
+    - Where is that staff? I think I left it here somewhere
     - I would like a staff. I heard legends about some very good black ones.
     - I can't fight without my old wooden staff
     _notAccomplished: []
@@ -429,8 +405,8 @@ MonoBehaviour:
     prerequisite: 31
     moraleChange: -1
     _effectString:
-    - Give me some discent armor
-    - My life is to valuable. I cant fight without a real armor
+    - Give me some decent armor
+    - My life is too valuable. I cant fight without a real armor
     - Where is my armor?
     - That blacksmith forgot to send me my armor. Where is he?
     _notAccomplished: []
@@ -444,7 +420,7 @@ MonoBehaviour:
     prerequisite: 31
     moraleChange: -1
     _effectString:
-    - It's to dangerous out htere
+    - It's to dangerous out there
     - I dont want to die!
     - Why am I always in the line o fire?
     - I didn't sign up for this mess!
@@ -475,8 +451,8 @@ MonoBehaviour:
     moraleChange: -1
     _effectString:
     - '[name] is wothless! He fled again!'
-    - '[name] calls himself a worrior, but he is nothing, but a coward!'
-    - Maybe if [name] would be more responsable we will win some fights!
+    - '[name] calls himself a warrior, but he is nothing, but a coward!'
+    - Maybe if [name] would be more responsible we will win some fights!
     _notAccomplished: []
     color: 
     monster: 
@@ -505,7 +481,7 @@ MonoBehaviour:
     moraleChange: -1
     _effectString:
     - You should consider giving some more attention to the weaker aswell
-    - Why is it that only [name] gets the best gear?
+    - Why is it that, only [name] gets the best gear?
     - I think you should consider taking some leadership classes!
     _notAccomplished: []
     color: 
@@ -518,8 +494,8 @@ MonoBehaviour:
     prerequisite: 31
     moraleChange: -1
     _effectString:
-    - This farm needs better attention
-    - We should putting up some more scarecraws, our harvest is ruined by birds
+    - This farm needs more attention
+    - We should put up some more scarecraws, our harvest is ruined by birds
     - The farm security is pretty low, people are stealing our crops
     - Consider upgrading the farm if you dont want us to starve
     - We should produce more food, so we can sell some for profit
@@ -532,7 +508,7 @@ MonoBehaviour:
   - name: Bad shop
     labelType: 29
     prerequisite: 31
-    moraleChange: -2
+    moraleChange: -1
     _effectString:
     - We should send some more trade caravans to get better wears in ths shop
     - We should upgrade the shop to fit in more expenisve swords

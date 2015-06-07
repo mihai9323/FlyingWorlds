@@ -26,10 +26,10 @@ public class CharacterPanel : MonoBehaviour {
 		m_armor_item.DisplayItem(character.ArmorItem);
 	
 		m_name.text = character.Name;
-		m_health.text = "Heath:"+character.Health.ToString()+"/"+ character.MaxHealth.ToString();
+		//m_health.text = "Heath:"+character.Health.ToString()+"/"+ character.MaxHealth.ToString();
 		m_armor.text = "Armor:"+character.Armor.ToString();
 		m_dmg.text = "Damage:"+character.Damage.ToString();
-		m_morale.text = "Morale:"+ character.Moral.ToString()+"%";
+		//m_morale.text = "Morale:"+ character.Moral.ToString()+"%";
 		m_trait1.text = TraitManager.GetTrait(character.Traits[0]).name;
 		m_trait2.text = TraitManager.GetTrait(character.Traits[1]).name;
 		m_melee.text = "Melee: "+character.Skills.melee.ToString("n1");

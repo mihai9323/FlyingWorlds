@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 public class CharacterFightController : MonoBehaviour {
@@ -41,25 +41,31 @@ public class CharacterFightController : MonoBehaviour {
 		}
 	}
 	public void FallBack(){
-		if (character != null && character.fightState != FightState.Flee && character.Orders>=2) {
+		if (character != null && character.fightState != FightState.Flee && character.Orders>=1) {
 			character.fightState = FightState.Fallback;
 			character.currentTarget = null;
 			character.Tick();
 		}
 	}
 	public void StandGround(){
-		if (character != null && character.fightState != FightState.Flee  && character.Orders>=1) {
+		if (character != null && character.fightState != FightState.Flee  && character.Orders>=2) {
 			character.fightState = FightState.StandGround;
 			character.currentTarget = null;
 			character.Tick();
 		}
 	}
-	public void Attack(){
-		if (character != null && character.fightState != FightState.Flee && character.Orders>=3) {
-			character.fightState = FightState.Attack;
+	public void AttackClose(){
+		if (character != null && character.fightState != FightState.Flee && character.Orders>=2) {
+			character.fightState = FightState.AttackClose;
 			character.currentTarget = null;
 
 
+		}
+	}
+	public void AttackFar(){
+		if (character != null && character.fightState != FightState.Flee && character.Orders>=3) {
+			character.fightState = FightState.AttackFar;
+			character.currentTarget = null;
 		}
 	}
 }

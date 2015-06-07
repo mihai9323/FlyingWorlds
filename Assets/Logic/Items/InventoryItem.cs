@@ -51,7 +51,7 @@ public class InventoryItem : MonoBehaviour {
 		CharacterManager.SelectedCharacter.CharacterPortrait.LoadCharacter ();
 		CharacterManager.CalculateBestAndWorstGear ();
 		CharacterManager.CheckLabels (LabelManager.checkWhenWeaponsChange);
-		HubManager.ShowCharacter (CharacterManager.SelectedCharacter);
+		HubManager.ShowCharacters (CharacterManager.SelectedCharacter);
 
 
 

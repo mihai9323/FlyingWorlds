@@ -45,66 +45,79 @@ MonoBehaviour:
     buffs: 00000000
     debuffs: 0d000000
     influencedBy: 000000000100000013000000
+    imageSprite: {fileID: 21300000, guid: 791625ed1f249a14c8bdb13c8fc9e036, type: 3}
   - name: Archer
     traitType: 1
     buffs: 01000000
     debuffs: 0e000000
     influencedBy: 020000000300000014000000
-  - name: Wizzard
+    imageSprite: {fileID: 21300000, guid: ae9d7356a39aff54682f7a73ca4c8222, type: 3}
+  - name: Wizard
     traitType: 2
     buffs: 02000000
     debuffs: 0f000000
     influencedBy: 040000000500000015000000
+    imageSprite: {fileID: 21300000, guid: a062c84e955317c4fae3f659cf5ed712, type: 3}
   - name: Knight
     traitType: 3
     buffs: 03000000
     debuffs: 10000000
     influencedBy: 060000000700000016000000
+    imageSprite: {fileID: 21300000, guid: e7740a3e3f7bafa4290fd4302aaeb375, type: 3}
   - name: Coward
     traitType: 4
     buffs: 04000000
     debuffs: 11000000
     influencedBy: 080000000900000017000000
+    imageSprite: {fileID: 21300000, guid: f862ebc5d54e1044487a7be06dc29e27, type: 3}
   - name: Veteran
     traitType: 5
     buffs: 06000000
     debuffs: 13000000
     influencedBy: 0c00000019000000
+    imageSprite: {fileID: 21300000, guid: 55cea05fdee4a1449ba3c501c59bac37, type: 3}
   - name: Fabulous
     traitType: 6
     buffs: 07000000
     debuffs: 14000000
     influencedBy: 1a0000000d000000
+    imageSprite: {fileID: 21300000, guid: df0e78d8894925f4f84617ef45fc2706, type: 3}
   - name: Brave
     traitType: 7
     buffs: 05000000
     debuffs: 12000000
     influencedBy: 0a0000000b00000018000000
-  - name: Clown
+    imageSprite: {fileID: 21300000, guid: a9a78d726f322354a930b9ec82fc18ab, type: 3}
+  - name: Entertainer
     traitType: 8
     buffs: 09000000
     debuffs: 16000000
     influencedBy: 0f00000010000000
+    imageSprite: {fileID: 21300000, guid: 14ac6dbf60458394ab69b6cc001145cd, type: 3}
   - name: Evil
     traitType: 9
     buffs: 10000000
     debuffs: 0a000000
     influencedBy: 0f00000010000000
+    imageSprite: {fileID: 21300000, guid: cb609ea4a63b942478b9d9e43fb838e1, type: 3}
   - name: Farmer
     traitType: 10
     buffs: 0b000000
     debuffs: 18000000
     influencedBy: 110000001c000000
-  - name: Shop Clerk
+    imageSprite: {fileID: 21300000, guid: cea7e7af17f081740b62c522c6c34d1d, type: 3}
+  - name: Merchant
     traitType: 11
     buffs: 0c000000
     debuffs: 19000000
     influencedBy: 120000001d000000
+    imageSprite: {fileID: 21300000, guid: cd7b6b4e64ed8c84bb6db54869f51c0b, type: 3}
   - name: Fair
     traitType: 12
     buffs: 08000000
     debuffs: 15000000
     influencedBy: 1b0000000e000000
+    imageSprite: {fileID: 21300000, guid: 52ad2c389c6e22141a3861a5bb2eedbc, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

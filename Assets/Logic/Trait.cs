@@ -11,6 +11,6 @@ public class Trait {
 	public List<BuffsAndDebuffs.BuffType> debuffs;
 
 	public List<LabelManager.LabelType> influencedBy;
-
+	public Sprite imageSprite;
 
 }

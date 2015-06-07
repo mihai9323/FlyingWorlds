@@ -7,7 +7,7 @@ public class Farm : MonoBehaviour {
 	public int farmLevel = 1;
 	public int upgradeCost{
 		get{
-			return (int)((farmLevel + 1) * 10 * Mathf.Pow(2,farmLevel+1));
+			return (int)((farmLevel + 1) * 500);
 		}
 	}
 	public float priceVariance{
@@ -18,12 +18,18 @@ public class Farm : MonoBehaviour {
 	}
 	public int incomePerTurn{
 		get{
-			return (int)(upgradeCost*.8f * priceVariance);
+			return (int)(farmLevel * (400+20 * GameData.Progression) * priceVariance);
+		}
+	}
+	public int incomePerTurnNextLevel{
+		get{
+			return (int)((farmLevel+1) * (400+20 * GameData.Progression) * priceVariance);
 		}
 	}
 	public void Upgrade(){
 		if (GameData.Pay (upgradeCost)) {
 			farmLevel++;
+			ResourceBar.SetCoinCount();
 			CharacterManager.CheckLabels(LabelManager.checkAfterBuildingUpdate);
 		} else {
 			HubManager.notification.ShowNotification("Your treasury doesn't support this investment!","Oh!");
@@ -34,7 +40,7 @@ public class Farm : MonoBehaviour {
 	public void ShowUpgradeButton(){
 		if (HubManager.interactable) {
 			HubManager.notification.ShowConfirm (
-			"Upgrade to level " + (farmLevel + 1).ToString () + " for " + upgradeCost.ToString () + " and earn " + incomePerTurn.ToString () + "per turn",
+			"Upgrade to level " + (farmLevel + 1).ToString () + " for " + upgradeCost.ToString () + " and earn " + incomePerTurnNextLevel.ToString () + "per turn",
 			"YES",
 			"NO",
 			delegate() {

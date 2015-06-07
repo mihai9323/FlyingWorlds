@@ -35,7 +35,9 @@ public class InventoryManager : MonoBehaviour {
 	
 	
 	private void Awake(){
-		ItemsInInventory = GenerateItems(startItemCount,1,10);
+		//ItemsInInventory = GenerateItems(startItemCount,1,10);
+		ItemsInInventory = GenerateArmor (4, 1, 6);
+		ItemsInInventory.AddRange(GenerateWeapons(4,1,8));
 		ItemsForSale = GenerateItems(shopItemCount, 5,20);
 		s_Instance = this;
 				
@@ -127,6 +129,24 @@ public class InventoryManager : MonoBehaviour {
 		List<Item> generatedItems = new List<Item>();
 		for(int i =0; i<nr; i++){
 			generatedItems.Add(new Item((int)Random.Range(minVal,maxVal),(int)Random.Range(minVal,maxVal),(int)Random.Range(minVal,maxVal)));
+		}
+		return generatedItems;
+	}
+	public static List<Item> GenerateArmor(int nr, float minVal, float maxVal){
+		List<Item> generatedItems = new List<Item>();
+		for(int i =0; i<nr; i++){
+			generatedItems.Add(new Item(Item.ItemType.Armor,(int)Random.Range(minVal,maxVal),(int)Random.Range(minVal,maxVal),(int)Random.Range(minVal,maxVal)));
+		}
+		return generatedItems;
+	}
+	public static List<Item> GenerateWeapons(int nr, float minVal, float maxVal){
+		List<Item> generatedItems = new List<Item>();
+		for(int i =0; i<nr; i++){
+			float r = Random.value;
+			if(r<.3f)generatedItems.Add(new Item(Item.ItemType.Magic,(int)Random.Range(minVal,maxVal),(int)Random.Range(minVal,maxVal),(int)Random.Range(minVal,maxVal)));
+			else if(r<.6f) generatedItems.Add(new Item(Item.ItemType.Melee,(int)Random.Range(minVal,maxVal),(int)Random.Range(minVal,maxVal),(int)Random.Range(minVal,maxVal)));
+			else generatedItems.Add(new Item(Item.ItemType.Ranged,(int)Random.Range(minVal,maxVal),(int)Random.Range(minVal,maxVal),(int)Random.Range(minVal,maxVal)));
+			
 		}
 		return generatedItems;
 	}

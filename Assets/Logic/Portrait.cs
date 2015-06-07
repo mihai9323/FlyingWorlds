@@ -7,6 +7,10 @@ public class Portrait : MonoBehaviour {
 	[SerializeField] Image iBody,iBeard,iEyes,iEyeBrow,iHair,iFrontArm,iMouth,iNose,iWeapon;
 	bool waited;
 	bool activeProfile;
+	[SerializeField] HealthBar healthBar;
+	[SerializeField] MoraleDisplay moraleDisplay;
+	[SerializeField] Text characterNameText;
+	[SerializeField] Image trait1Image, trait2Image;
 	private IEnumerator LoadCoroutine(){
 		yield return null;
 		if (character) {
@@ -20,11 +24,23 @@ public class Portrait : MonoBehaviour {
 		}
 	}
 	private void OnEnable(){
+		if (character != null && character.Ready) {
+			if(healthBar!=null)healthBar.UpdateStatus(character.MaxHealth,character.Health);
+			if(moraleDisplay!=null)moraleDisplay.DisplayPortrait(character.CalculateMoral());
+			if(trait1Image!=null && character.trait0.imageSprite!=null) trait1Image.sprite = character.trait0.imageSprite; 
+			if(trait2Image!=null && character.trait1.imageSprite!=null) trait2Image.sprite = character.trait1.imageSprite;
+		}
+
 		StartCoroutine ("LoadCoroutine");
 	}
 	private void Start(){
-		this.GetComponent<Image> ().color = Color.gray;
-		activeProfile = false;
+		if (this.transform.parent.name == "Grid") {
+			this.GetComponent<Image> ().color = Color.gray;
+			activeProfile = false;
+		}
+		if (characterNameText != null) {
+			characterNameText.text = character.Name;
+		}
 	}
 	public void OpenPortrait(){
 		HubManager.ShowCharacter(character);
@@ -59,6 +75,11 @@ public class Portrait : MonoBehaviour {
 			iWeapon.color = character.Looks.a_weapon.myColor;
 		} else
 			iWeapon.color = new Color (0, 0, 0, 0);
+		if (characterNameText != null) {
+			characterNameText.text = character.Name;
+		}
+		if(trait1Image!=null && character.trait0.imageSprite!=null) trait1Image.sprite = character.trait0.imageSprite; 
+		if(trait2Image!=null && character.trait1.imageSprite!=null) trait2Image.sprite = character.trait1.imageSprite;
 
 	}
 	private void Update(){
@@ -76,6 +97,14 @@ public class Portrait : MonoBehaviour {
 					}
 				}
 			}
+		}
+	}
+
+
+	public void OpenBarracks(){
+		if (HubManager.interactable) {
+			HubManager.HideAll ();
+			HubManager.ShowCharacters (character);
 		}
 	}
 }

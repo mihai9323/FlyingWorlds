@@ -26,6 +26,9 @@ public class QuestUI : MonoBehaviour {
 			StartCoroutine (WriteText (this.quest.calculateQuestString ()));
 		}
 	}
+
+
+
 	private void OnEnable(){
 		if (configured) {
 			if (questTextWritten) {
@@ -45,12 +48,21 @@ public class QuestUI : MonoBehaviour {
 		for(lastChar = 0; lastChar<writeText.Length; lastChar++){
 			this.questText.text+= writeText[lastChar];
 			float t = Random.value;
-			if(t<.2f){
+			if(t<.15f){
 				yield return new WaitForSeconds(t); 
 			}
 		}
 		questTextWritten = true;
 		HubManager.interactable = true;
+	}
+	private void Update(){
+		if (quest!=null && enabled && HubManager.interactable) {
+			if(Input.GetMouseButtonDown (0)){
+				questTextWritten = true;
+				this.questText.text = quest.calculateQuestString();
+				StopAllCoroutines();
+			}
+		}
 	}
 
 

@@ -23,7 +23,8 @@ public class PartyManageButton : MonoBehaviour {
 	}
 
 	public void UpdateImage(){
-		t_Text.text = (affected_character.inFightingParty) ? "BATTLE" : "SLEEPING";
+		t_Text.text = (affected_character.inFightingParty) ?  "READY FOR BATTLE" :"SEND TO BATTLE";
+		button_image.color=  (affected_character.inFightingParty) ? new Color(0.4f,1f,.4f) : new Color(1f,.4f,.4f);
 	}
 
 }

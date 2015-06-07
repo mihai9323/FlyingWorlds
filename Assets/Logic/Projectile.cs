@@ -9,7 +9,9 @@ public class Projectile : MonoBehaviour {
 	[SerializeField]private float areaOfAttack = 1;
 	[SerializeField]private bool rotate = true;
 	[SerializeField]private bool affectedByDayTime = true;
-	[SerializeField]private AudioClip soundClip;
+	[SerializeField]private Animator animator;
+
+	[SerializeField]int dmg;
 	public void ShootCharacter(Vector3 targetPos, int damage, VOID_FUNCTION_CHARACTER OnCharacterResponse){
 		this.transform.parent = FightManager.s_transform;
 		if(enabled)StartCoroutine (WaitForResponse (targetPos, damage, OnCharacterResponse));
@@ -17,6 +19,11 @@ public class Projectile : MonoBehaviour {
 	public void ShootMonster(Vector3 targetMonster,int damage, VOID_FUNCTION_ENEMY OnEnemyResponse){
 		this.transform.parent = FightManager.s_transform;
 		if(enabled)StartCoroutine (WaitForResponse (targetMonster, damage, OnEnemyResponse));
+	}
+	public void Start(){
+		if (animator != null) {
+			animator.SetBool("FireBall",true);
+		}
 	}
 	private void OnDisable(){
 		Destroy (this.gameObject);
@@ -62,7 +69,10 @@ public class Projectile : MonoBehaviour {
 		if (c != null) {
 			c.Hit (damage);
 		}
-		Destroy (this.gameObject, .2f);
+		if (animator != null) {
+			animator.SetBool("Explode",true);
+		}
+		Destroy (this.gameObject, 1f);
 		if(OnCharacterResponse!=null)OnCharacterResponse(c);
 
 	}
@@ -70,7 +80,10 @@ public class Projectile : MonoBehaviour {
 		yield return StartCoroutine(Move(targetPos));
 		Enemy e = FindEnemyTarget ();
 		if(e!=null)e.Hit (damage);
-		Destroy (this.gameObject, .2f);
+		if (animator != null) {
+			animator.SetBool("Explode",true);
+		}
+		Destroy (this.gameObject, 1f);
 		if(OnEnemyResponse!=null)OnEnemyResponse (e);
 	}
 

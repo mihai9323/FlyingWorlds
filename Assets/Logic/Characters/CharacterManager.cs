@@ -7,12 +7,17 @@ public class CharacterManager : MonoBehaviour {
 
 	private static CharacterManager s_Instance;
 
-
+	[SerializeField] bool _generateCharacters;
+	public static bool generateCharacters{
+		get{
+			return s_Instance._generateCharacters;
+		}
+	}
 
 	[SerializeField] Character[] _gameCharacters;
 
 	[SerializeField] string[] _firstName;
-	[SerializeField] string[] _secondName;
+
 	[SerializeField] Transform[] characterSpawnPlaces;
 	public static Dictionary<TraitManager.TraitTypes,List<Character>> charactersByTrait {
 		get{ if(s_Instance._charactersByTrait == null){
@@ -176,21 +181,13 @@ public class CharacterManager : MonoBehaviour {
 		}
 	}
 	
-	public static string GenerateCharacterName(){
-		return s_Instance._firstName[(int)Random.Range(0,s_Instance._firstName.Length)] + " " +
-			   s_Instance._secondName[(int)Random.Range(0,s_Instance._secondName.Length)];
+	public static string GenerateCharacterName(Trait trait0, Trait trait1){
+		return trait1.name+" "+s_Instance._firstName [(int)Random.Range (0, s_Instance._firstName.Length)]+" the "+trait0.name;
+			 
 	}
 
-	public static void MoveAllHere(Vector2 position){
-		foreach (Character c in gameCharacters) {
-			c.MoveCharacterToPosition(position,delegate(Character character) {});
-		}
-	}
-	public static void MoveAllActiveHere(Vector2 position){
-		foreach (Character c in gameCharacters) {
-			if(c.inFightingParty)c.MoveCharacterToPosition(position,delegate(Character character) {});
-		}
-	}
+
+
 	public static bool CheckAllActiveState(FightState state){
 		foreach (Character c in gameCharacters) {
 			if(c.inFightingParty && c.fightState != state){
@@ -217,11 +214,7 @@ public class CharacterManager : MonoBehaviour {
 			}
 		}
 	}
-	public static void ChangeAllStateTo(FightState state){
-		foreach (Character c in gameCharacters) {
-			c.fightState = state;
-		}
-	}
+
 	public static void ChangeAllActiveStateTo(FightState state){
 		foreach (Character c in gameCharacters) {
 			if(c.inFightingParty)c.fightState = state;
@@ -271,7 +264,7 @@ public class CharacterManager : MonoBehaviour {
 			}
 		}
 	}
-	public static void GetCharactersByTraits(){
+	private static void GetCharactersByTraits(){
 		s_Instance._charactersByTrait = new Dictionary<TraitManager.TraitTypes, List<Character>> ();
 		foreach (Character c in gameCharacters) {
 			if(s_Instance._charactersByTrait.ContainsKey(c.Traits[0])) s_Instance._charactersByTrait[c.Traits[0]].Add(c);

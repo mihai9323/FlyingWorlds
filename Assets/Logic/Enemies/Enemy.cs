@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -94,7 +94,10 @@ public class Enemy : MonoBehaviour {
 			callback (this);
 
 	}
-
+	private void Start(){
+		float initZ = Mathf.Lerp(-10,0,Camera.main.WorldToScreenPoint(transform.position).y/Screen.height);
+		transform.position = new Vector3(transform.position.x,transform.position.y,initZ);
+	}
 	public void MoveEnemyToTransform(Transform trans, VOID_FUNCTION_ENEMY callback){
 		movement_target_transform = trans;
 		current_speed = movementSpeed;
@@ -138,7 +141,7 @@ public class Enemy : MonoBehaviour {
 
 	public void GenerateEnemy(bool isBoss = false){
 		if (weapon == null || weapon.itemType == Item.ItemType.None || weapon.Damage == 0) {
-			weapon = new Item (weapon.itemType, GameData.TurnNumber);
+			weapon = new Item (weapon.itemType, GameData.Progression);
 		}
 		looks.GenerateLooks (monsterType);
 		looks.SetActiveWeapon (weapon);
@@ -204,6 +207,9 @@ public class Enemy : MonoBehaviour {
 						Attack (targetCharacter);
 						
 					});
+				}else{
+					looks.StopAnimation ();
+					StartAITick();
 				}
 			
 			}

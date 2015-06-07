@@ -31,6 +31,7 @@ public class NotificationBox : MonoBehaviour {
 		}
 	}
 	public void Hide(){
+
 		this.gameObject.SetActive (false);
 	}
 	public void OkClicked(){

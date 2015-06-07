@@ -10,6 +10,7 @@ public class HubManager : MonoBehaviour {
 	[SerializeField] GameObject m_Characters, m_Character, m_Inventory,m_Shop;
 	[SerializeField] Farm m_farm;
 	[SerializeField] QuestUI m_questUI;
+	[SerializeField] QuestUIStatic m_questUIStatic;
 	[SerializeField] Shop m_shop;
 	[SerializeField] Road m_road;
 	[SerializeField] NotificationBox m_notif;
@@ -19,11 +20,29 @@ public class HubManager : MonoBehaviour {
 	public static Shop shop{get{return s_Instance.m_shop;}}
 	public static Road road{ get { return s_Instance.m_road; } }
 	public static QuestUI questUI{ get { return s_Instance.m_questUI; } }
+	public static QuestUIStatic questUIStatic{get { return s_Instance.m_questUIStatic; } }
 	public static NotificationBox notification{ get { return s_Instance.m_notif; } }
 	public static bool interactable = true;
+	public static bool hintsOn = false;
+	public static bool noPanelOpened{
+		get{
+			bool rValue =  !shop.gameObject.activeInHierarchy && 				   
+					!notification.gameObject.activeInHierarchy && 
+					!s_Instance.m_Characters.gameObject.activeInHierarchy &&
+					!s_Instance.m_Character.gameObject.activeInHierarchy &&
+					!s_Instance.m_Inventory.gameObject.activeInHierarchy &&
+					!s_Instance.m_Shop.gameObject.activeInHierarchy ;
 
+			if(questUI!= null) return rValue && !questUI.gameObject.activeInHierarchy; 
+			if(questUIStatic!= null) return rValue && !questUIStatic.gameObject.activeInHierarchy; 
+			return rValue;  
+
+			
+		}
+	}
 	
 	private void Awake(){
+
 		s_Instance = this;
 		CharacterManager.SelectedCharacter = null;
 	}
@@ -44,9 +63,21 @@ public class HubManager : MonoBehaviour {
 	public static void ShowCharacters(){
 		if (interactable) {
 			HideAll();
+
 			s_Instance.m_Characters.SetActive (true);
 			CharacterManager.SelectedCharacter = null;
 			ShowCharacter(CharacterManager.gameCharacters[0]);
+			ShowInventory();
+		}
+	}
+	//Show functions
+	public static void ShowCharacters(Character c){
+		if (interactable) {
+			HideAll();
+
+			s_Instance.m_Characters.SetActive (true);
+			CharacterManager.SelectedCharacter = c;
+			ShowCharacter(c);
 			ShowInventory();
 		}
 	}
@@ -62,7 +93,7 @@ public class HubManager : MonoBehaviour {
 	}
 	public static void ShowInventory(){
 		if (interactable) {
-		
+
 			InventoryManager.PopulateInventory ();
 			s_Instance.m_Inventory.SetActive (true);
 		}
@@ -70,6 +101,7 @@ public class HubManager : MonoBehaviour {
 	public static void ShowShop(){
 		if (interactable) {
 			HideAll();
+
 			InventoryManager.PopulateInventory ();
 			InventoryManager.PopulateShop ();
 			s_Instance.m_Shop.SetActive (true);
@@ -80,13 +112,17 @@ public class HubManager : MonoBehaviour {
 		HideAll ();
 
 		if (interactable) {
-			s_Instance.m_questUI.gameObject.SetActive(true);
+
+			if(s_Instance.m_questUI!=null)s_Instance.m_questUI.gameObject.SetActive(true);
+			if(s_Instance.m_questUIStatic!=null)s_Instance.m_questUIStatic.gameObject.SetActive(true);
+
 		}
 	}
 
 	//Hide functions
 	public static void HideCharacters(){
 		if (interactable) {
+
 			s_Instance.m_Characters.SetActive (false);
 			HideCharacter ();
 		}
@@ -111,7 +147,8 @@ public class HubManager : MonoBehaviour {
 	}
 	public static void HideQuestUI(){
 		if (interactable) {
-			s_Instance.m_questUI.gameObject.SetActive(false);
+			if(s_Instance.m_questUI!=null)s_Instance.m_questUI.gameObject.SetActive(false);
+			if(s_Instance.m_questUIStatic!=null)s_Instance.m_questUIStatic.gameObject.SetActive(false);
 		}
 	}
 	                             
@@ -119,6 +156,7 @@ public class HubManager : MonoBehaviour {
 		HideQuestUI ();
 		HideShop ();
 		HideCharacters ();
+
 	}
 	//Checks
 	public static bool InventoryOpen{
@@ -129,7 +167,7 @@ public class HubManager : MonoBehaviour {
 
 	private void Update(){
 		if (road.CharactersTravellingToFightScene) {
-			Debug.Log("traveling");
+//			Debug.Log("traveling");
 			if(Input.GetMouseButtonDown(0)){
 				
 				foreach(Character c in CharacterManager.gameCharacters){
@@ -143,6 +181,7 @@ public class HubManager : MonoBehaviour {
 				HubManager.interactable = true;
 			}
 		}
+
 	}
 
 }

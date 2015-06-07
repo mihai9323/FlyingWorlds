@@ -7,15 +7,24 @@ public class Character : MonoBehaviour {
 
 
 	public FightState fightState;
-	public AI ai;
+
 	public string Name;
 	public TraitManager.TraitTypes[] Traits;
 	public Skillset Skills;
 	public CharacterLooks Looks;
 	public Portrait CharacterPortrait;
 
-	public float movementSpeed = 1.0f;
-	public float fleeSpeed = 1.5f;
+
+	public float movementSpeed{
+		get{
+			return _movementSpeed + ((this.weaponItem!=null && this.weaponItem.itemType == Item.ItemType.Melee)? 1.4f:
+			                         (this.weaponItem!=null && this.weaponItem.itemType == Item.ItemType.None)? 1.4f:
+			                         (this.weaponItem==null)? 1.4f:0
+			                         );
+		}
+	}
+	[SerializeField] float _movementSpeed = 1.4f;
+	[SerializeField] float fleeSpeed = 1.5f;
 	public bool inFightingParty;
 	public bool fled;
 
@@ -23,7 +32,7 @@ public class Character : MonoBehaviour {
 	public AudioClip fireBallSound;
 	public AudioClip bowSound;
 	public AudioClip hitSound;
-
+	
 	public Trait trait0{
 		get{
 			return TraitManager.GetTrait(Traits[0]);
@@ -60,10 +69,11 @@ public class Character : MonoBehaviour {
 	[SerializeField] Item weaponItem, armorItem;
 	public int damageDealtInLastBattle;
 	public bool foughtInLastBattle;
-
+	Enemy lockedFarTarget;
+	public Enemy currentTarget;
 	public int Level{
 		get{
-			return Mathf.Max((int)((this.Skills.archery + this.Skills.magic + this.Skills.melee)/5),1);
+			return Mathf.Max((int)((this.Skills.archery + this.Skills.magic + this.Skills.melee)/2.5f),1);
 		}
 	}/// <summary>
 	/// Gets the orders the character follows 
@@ -103,14 +113,14 @@ public class Character : MonoBehaviour {
 	public int MaxHealth{
 		get{
 			
-			return (int)(15+ Level * 5);
+			return (int)(50+ Level * 10);
 		}
 	}
 	public int armor, damage;
 	public float primeTarget;
 	public int Armor {
 		get{
-			return (int)(ArmorItem.Defence *  (BuffInfluence(new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.MoreDefenseSelf,BuffsAndDebuffs.BuffType.LessDefenseSelf},
+			return (int)((ArmorItem.Defence+WeaponItem.Defence) *  (BuffInfluence(new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.MoreDefenseSelf,BuffsAndDebuffs.BuffType.LessDefenseSelf},
 															new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.MoreDefenseSelf,BuffsAndDebuffs.BuffType.LessDefenseSelf},
 															1,
 															CalculateMoral())
@@ -172,7 +182,7 @@ public class Character : MonoBehaviour {
 	private Vector2 movement_target;
 	private float current_speed;
 	private Vector3 origScale;
-	private Character character;
+
 	private Transform movement_target_transform;
 	private void Awake(){
 		labels = new Dictionary<LabelManager.LabelType, Label> ();
@@ -186,15 +196,11 @@ public class Character : MonoBehaviour {
 		primeTarget = PrimeTarget;
 	}
 
-	private void OnDestroy(){
-
-	} 
-
 	public float CalculateMoral(){
 		int moral = 5;
 		foreach (Label l in labels.Values) {
 			if(TraitManager.GetTrait(this.Traits[0]).influencedBy.Contains(l.labelType) || TraitManager.GetTrait(this.Traits[1]).influencedBy.Contains(l.labelType)){
-				moral += l.moraleChange * Mathf.Clamp(GameData.TurnNumber - l.receivedTurn+1,1,5);
+				moral += l.moraleChange * Mathf.Clamp(GameData.Progression - l.receivedTurn+1,1,5);
 			}
 		}
 		if (this == CharacterManager.hasWorstGear) {
@@ -210,7 +216,7 @@ public class Character : MonoBehaviour {
 		int moral = 5;
 		foreach (Label l in labels.Values) {
 			if(TraitManager.GetTrait(this.Traits[0]).influencedBy.Contains(l.labelType) || TraitManager.GetTrait(this.Traits[1]).influencedBy.Contains(l.labelType)){
-				moral += l.moraleChange * Mathf.Clamp(GameData.TurnNumber - l.receivedTurn+1,1,3);
+				moral += l.moraleChange * Mathf.Clamp(GameData.Progression - l.receivedTurn+1,1,3);
 			}
 		}
 		moral = Mathf.Clamp (moral, 0, 10);
@@ -244,10 +250,12 @@ public class Character : MonoBehaviour {
 
 	
 	public void CreateCharacter(){
-		Traits = TraitManager.GetRandomTraitsTypes();
-		Skills.CreateOneSkillset();
-		Name = CharacterManager.GenerateCharacterName();
-		Looks.GenerateLooks ();
+		if (CharacterManager.generateCharacters) {
+			Traits = TraitManager.GetRandomTraitsTypes ();
+			Skills.CreateOneSkillset ();
+			Name = CharacterManager.GenerateCharacterName (trait0,trait1);
+			Looks.GenerateLooks ();
+		} 
 		Health = MaxHealth;
 		Ready = true;
 
@@ -282,13 +290,16 @@ public class Character : MonoBehaviour {
 	public void Hit(int damage,float time=0){
 		if (hitSound != null)
 			AudioSource.PlayClipAtPoint (hitSound, transform.position);
+		Debug.Log ("Get hit");
 		StartCoroutine (BeHitDelayed (time,damage));
 
 	}
 	private IEnumerator BeHitDelayed(float time,int damage){
 		if(time>0)yield return new WaitForSeconds (time);
-		Health -= Mathf.Max (damage-armor,1);
-		if (Health <= MaxHealth * (.5f- CharacterManager.partyFlee*.2f)) {
+		Debug.Log (damage);
+		Health -= Mathf.Max (Mathf.Max (0,damage-armor),1);
+		Debug.Log ("applied dmg:" + Mathf.Max (Mathf.Max (0, damage - armor), 1));
+		if (Health <=Mathf.Max(1, MaxHealth * (.2f- CharacterManager.partyFlee*.2f))) {
 			fightState = FightState.Flee;
 			
 			this.tag = "Dead";
@@ -297,7 +308,7 @@ public class Character : MonoBehaviour {
 
 	public void MoveCharacterToPosition(Vector2 position, VOID_FUNCTION_CHARACTER callback){
 		movement_target = position;
-		current_speed =  (fightState == FightState.Attack || fightState == FightState.Idle)? movementSpeed : fleeSpeed;
+		current_speed =  (fightState == FightState.AttackClose || fightState == FightState.Idle || fightState == FightState.AttackFar)? movementSpeed : fleeSpeed;
 		Looks.StartAnimation (AnimationNames.kWalk);
 		StopCoroutine("MoveToPosition");
 		StopCoroutine ("MoveToTransform");
@@ -329,7 +340,7 @@ public class Character : MonoBehaviour {
 			callback (this);
 
 	}
-	void PlaceOnLayer ()
+	public void PlaceOnLayer ()
 	{
 		float z = Mathf.Lerp (-10, 0, Camera.main.WorldToScreenPoint (transform.position).y / Screen.height);
 		transform.position = new Vector3 (transform.position.x, transform.position.y, z);
@@ -378,7 +389,7 @@ public class Character : MonoBehaviour {
 
 	}
 
-	public Enemy currentTarget;
+
 
 
 	public void MoveCharacterToTransform(Transform trans, VOID_FUNCTION_CHARACTER callback){
@@ -420,8 +431,9 @@ public class Character : MonoBehaviour {
 
 
 
-	private void FindTargetAndAttack(){
-		var target = FindTarget ();
+	private void FindCloseTargetAndAttack(){
+		var target = FindClosestTarget ();
+
 			
 		if (target == null) {
 			StopFight ();
@@ -438,8 +450,29 @@ public class Character : MonoBehaviour {
 		}
 	}
 
-	public void StandGround(){ 
-		var target = FindTarget ();
+	private void FindFarTargetAndAttack(){
+
+		if (lockedFarTarget == null || lockedFarTarget.dead) {
+			lockedFarTarget = FindFurthestTarget ();
+		}
+
+		if (lockedFarTarget == null) {
+			StopFight ();
+		} else {
+			if (IsNewTarget (lockedFarTarget)) {
+				MoveAndAttack (lockedFarTarget);
+			} else if (IsSameTarget (lockedFarTarget)) {
+				if (IsInWeaponRange (lockedFarTarget)) {
+					Attack (lockedFarTarget);						
+				} else {
+					MoveAndAttack (lockedFarTarget);
+				}
+			}
+		}
+	}
+
+	private void StandGround(){ 
+		var target = FindClosestTarget ();
 		if (target == null) {
 			StopFight ();
 		} else {
@@ -458,7 +491,7 @@ public class Character : MonoBehaviour {
 			}
 		}
 	}
-	public void Flee(){
+	private void Flee(){
 		fled = true;
 		MoveCharacterToPosition (FightManager.FleeTarget.position, delegate(Character c) {
 			StopAITick();
@@ -466,40 +499,40 @@ public class Character : MonoBehaviour {
 		});
 	}
 
-	private void MoveAndAttack (Enemy targetCharacter)
+	private void MoveAndAttack (Enemy targetEnemy)
 	{
-		currentTarget = targetCharacter;
-		MoveCharacterToTransform (currentTarget.transform, delegate (Character c) {
-			Attack (targetCharacter);
+		currentTarget = targetEnemy;
+		MoveCharacterToTransform (targetEnemy.transform, delegate (Character c) {
+			Attack (targetEnemy);
 		});
 	}
-	private void Attack (Enemy targetCharacter)
+	private void Attack (Enemy targetEnemy)
 	{
-		if (targetCharacter != null) {
+		if (targetEnemy != null) {
 		
 			Looks.StartAnimation (weaponItem.fightAnimation);
-			FaceDirection((int)(targetCharacter.transform.position.x - this.transform.position.x));
+			FaceDirection((int)(targetEnemy.transform.position.x - this.transform.position.x));
 			if(weaponItem.fightAnimation == AnimationNames.kBowAttack){
-				ShootProjectile(FightManager.arrow,targetCharacter);
+				ShootProjectile(FightManager.arrow,targetEnemy);
 				damageDealtInLastBattle += this.damage;
-				Skills.archery+=.1f;
+				Skills.archery+=.05f;
 				if(bowSound!=null)AudioSource.PlayClipAtPoint(bowSound,this.transform.position);
 
 			}else if(weaponItem.fightAnimation == AnimationNames.kMagicAttack){
-				ShootProjectile(FightManager.fireBall,targetCharacter);
+				ShootProjectile(FightManager.fireBall,targetEnemy);
 				damageDealtInLastBattle += this.damage;
 				Skills.magic+=.1f;
 				if(fireBallSound!=null)AudioSource.PlayClipAtPoint(fireBallSound,this.transform.position);
 
 			}else{
-				if(targetCharacter.Hit (this.damage)){
-					if(this.weaponItem.monstersKilled.ContainsKey(targetCharacter.monsterType)){
-						this.weaponItem.monstersKilled[targetCharacter.monsterType]++;
-					}else this.weaponItem.monstersKilled.Add(targetCharacter.monsterType,1);
+				if(targetEnemy.Hit (this.damage)){
+					if(this.weaponItem.monstersKilled.ContainsKey(targetEnemy.monsterType)){
+						this.weaponItem.monstersKilled[targetEnemy.monsterType]++;
+					}else this.weaponItem.monstersKilled.Add(targetEnemy.monsterType,1);
 				}
 				if(swordSlashSound!=null)AudioSource.PlayClipAtPoint(swordSlashSound,this.transform.position);
 				damageDealtInLastBattle += this.damage;
-				Skills.melee+=.1f;
+				Skills.melee+=.3f;
 
 			}
 
@@ -523,7 +556,7 @@ public class Character : MonoBehaviour {
 		StopAITick ();
 		Looks.StopAnimation ();
 	}
-	private Enemy FindTarget ()
+	private Enemy FindClosestTarget ()
 	{
 		Enemy targetCharacter = null;
 		GameObject gob = GameObject.FindGameObjectsWithTag ("ENEMY").OrderBy (go => Vector3.SqrMagnitude (go.transform.position - transform.position)).FirstOrDefault ();
@@ -531,13 +564,21 @@ public class Character : MonoBehaviour {
 			targetCharacter = gob.GetComponent<Enemy> ();
 		return targetCharacter;
 	}
-	private bool IsNewTarget (Enemy targetCharacter)
+	private Enemy FindFurthestTarget ()
 	{
-		return targetCharacter != null && currentTarget != targetCharacter;
+		Enemy targetCharacter = null;
+		GameObject gob = GameObject.FindGameObjectsWithTag ("ENEMY").OrderBy (go => Vector3.SqrMagnitude (go.transform.position - transform.position)).LastOrDefault ();
+		if (gob != null && gob.GetComponent<Enemy> () != null)
+			targetCharacter = gob.GetComponent<Enemy> ();
+		return targetCharacter;
 	}
-	private bool IsSameTarget (Enemy targetCharacter)
+	private bool IsNewTarget (Enemy targetEnemy)
 	{
-		return targetCharacter == currentTarget;
+		return targetEnemy != null && currentTarget != targetEnemy;
+	}
+	private bool IsSameTarget (Enemy targetEnemy)
+	{
+		return targetEnemy == currentTarget;
 	}
 		
 	private bool IsInWeaponRange (Enemy target, float percent = 1.0f)
@@ -545,23 +586,26 @@ public class Character : MonoBehaviour {
 		return CustomSqrDistance (this.transform.position, target.transform.position) < weaponItem.Range * weaponItem.Range * percent;
 	}
 
-	public void FallBack(){
-		MoveCharacterToPosition (FightManager.FleeTarget.position, delegate(Character c) {
-			fightState = FightState.Flee;
+	private void FallBack(){
+		MoveCharacterToPosition (FightManager.RetreatTarget.position, delegate(Character c) {
+			fightState = FightState.StandGround;
 		});
 		fightState = FightState.Fallback;
 	}
 	private IEnumerator AITick(){
 		while (!fled) {
 			Tick ();
-			yield return new WaitForSeconds(.5f + Random.value*.5f);
+			yield return new WaitForSeconds(.05f + Random.value*.05f);
 		}
 	}
 	public void Tick(){
 		if (!fled) {
 			switch (fightState) {
-			case FightState.Attack:
-				FindTargetAndAttack ();
+			case FightState.AttackClose:
+				FindCloseTargetAndAttack ();
+				break;
+			case FightState.AttackFar:
+				FindFarTargetAndAttack();
 				break;
 			case FightState.Fallback:
 				FallBack ();
@@ -586,5 +630,12 @@ public class Character : MonoBehaviour {
 		RemoveFromParty ();
 		damageDealtInLastBattle = 0;
 		this.Looks.SetLight (Color.white);
+	}
+	private void OnMouseUp(){
+
+		if (GameData.currentScene == GameScenes.Hub && HubManager.interactable && HubManager.noPanelOpened) {
+			Debug.Log ("clicked");
+			HubManager.ShowCharacters(this);
+		}
 	}
 }

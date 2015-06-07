@@ -43,6 +43,8 @@ public class ColorCodes{
 			{.6f,1},{.6f,1},{.0f,.5f}
 		}
 	};
+
+
 	private static Color getColor(int r,int g, int b, int a = 255){
 		return new Color ((float)r / 255, (float)g / 255, (float)b / 255, (float)a / 255);
 	}
@@ -65,8 +67,9 @@ public enum FightState
 	Idle,
 	MovingToBattle,
 	Waiting,
-	Attack,
+	AttackClose,
 	StandGround,
+	AttackFar,
 	Fallback,
 	Flee
 }

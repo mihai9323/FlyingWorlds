@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 [System.Serializable]
 public class Skillset  {
@@ -17,8 +17,8 @@ public class Skillset  {
 		melee = archery = magic = 1;
 	}
 	public void CreateSkillset(bool turnBased){
-		int min = GameData.TurnNumber/2;
-		int max = GameData.TurnNumber;
+		int min = 0;
+		int max = GameData.Progression/2;
 		melee = Random.Range(min,max) + melee;
 		archery = Random.Range (min,max) + archery;
 		magic = Random.Range(min,max) + magic;

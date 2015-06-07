@@ -8,8 +8,13 @@ public class CharacterLooks : MonoBehaviour {
 
 
 
-	[HideInInspector]public BodyPart a_body,a_beard,a_eyes,a_eyebrows,a_hair,a_frontArm,a_mouthes,a_noses,a_weapon;
+	public BodyPart a_body,a_beard,a_eyes,a_eyebrows,a_hair,a_frontArm,a_mouthes,a_noses,a_weapon;
 	private Color bodyColor;
+	private void Start(){
+		if (a_body != null) {
+			bodyColor = a_body.GetComponent<SpriteRenderer> ().color;
+		}
+	}
 	public void GenerateLooks(){
 		(a_body = getAndActivateBodyPart (body)).BuildRandomColor();
 		(a_beard = getAndActivateBodyPart (beards)).BuildRandomColor();
@@ -62,10 +67,14 @@ public class CharacterLooks : MonoBehaviour {
 		}else return null;
 	}
 	private BodyPart getAndActivateBodyPart(BodyPart[] bodyPartsArray){
-		BodyPart bp = getRandomBodyPart (bodyPartsArray);
-		if (bp != null) {
-			bp.gameObject.SetActive(true);
+		foreach (BodyPart b in bodyPartsArray) {
+			b.gameObject.SetActive(false);
 		}
+		BodyPart bp = getRandomBodyPart (bodyPartsArray);
+
+		if (bp != null) {
+			bp.gameObject.SetActive (true);
+		} 
 		return bp;
 	}
 	public void StartAnimation(string animation){
