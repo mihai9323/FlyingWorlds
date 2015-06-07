@@ -78,6 +78,13 @@ public class Item  {
 		Range = 0;
 		monstersKilled = new Dictionary<MonsterTypes,int>();
 	}
+	public Item(Item item, float power){
+		this.itemType = item.itemType;
+		this.Range = item.Range * power;
+		this.Damage = item.Damage * power;
+		this.Defence = item.Defence * power;
+		this.ItemName = item.ItemName;
+	}
 	public Item(ItemType type, int power){
 		this.itemType = type;
 		switch (type) {
