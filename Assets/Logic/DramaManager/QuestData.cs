@@ -14,7 +14,7 @@ namespace DramaPack{
 
 		public bool isBossQuest;
 
-		public string revengeString;
+		[TextArea(5,10)]public string revengeString;
 
 		public float minProgressForQuest;
 		public float progressForWinning;
