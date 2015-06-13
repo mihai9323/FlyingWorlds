@@ -9,7 +9,7 @@ namespace DramaPack{
 
 		}
 		public Status status = Status.notEncountered;
-		public GameObject bossObject;
+		public Enemy bossObject;
 		// Use this for initialization
 
 		protected override void Update () {

@@ -22,7 +22,9 @@ public class EnemyManager : MonoBehaviour {
 
 		int mBoss = 0;
 		//TODO ADD THE BOSS IN THE BATTLE
-
+		if (DramaPack.DramaManager.activeQuest.qd.isBossQuest) {
+			mBoss ++;
+		}
 		
 		LevelEnemies = new Enemy[number+mBoss];
 		for(int i = 0; i<number; i++){
@@ -41,7 +43,16 @@ public class EnemyManager : MonoBehaviour {
 			                                     mPos.z);
 			LevelEnemies[i] = Instantiate(enemyTypes[eType%4],randomSpawnPos,Quaternion.identity) as Enemy;
 			LevelEnemies[i].GenerateEnemy();
-			yield return new WaitForSeconds(.1f);
+			yield return new WaitForSeconds(.1f+Random.Range(0f,3f));
+		}
+		if (DramaPack.DramaManager.activeQuest.qd.isBossQuest) {
+			Vector3 mPos = minPos;
+			Vector3 MPos = maxPos;
+			Vector3 randomSpawnPos = new Vector3(mPos.x + Random.Range(0,MPos.x - mPos.x),
+			                                     mPos.y + Random.Range(0,MPos.y - mPos.y),
+			                                     mPos.z);
+			LevelEnemies[number] = Instantiate(DramaPack.DramaManager.nextBoss.bossObject,randomSpawnPos,Quaternion.identity) as Enemy;
+			LevelEnemies[number].GenerateEnemy(true);
 		}
 
 	}
