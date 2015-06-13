@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 403018}
   - 114: {fileID: 11403018}
   m_Layer: 0
-  m_Name: the devils secret fortune
+  m_Name: a plow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 403020}
   - 114: {fileID: 11403020}
   m_Layer: 0
-  m_Name: the treasure from ancient times
+  m_Name: a plow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ GameObject:
   - 4: {fileID: 403024}
   - 114: {fileID: 11403024}
   m_Layer: 0
-  m_Name: the pirates hidden gold
+  m_Name: excotic fruit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ GameObject:
   - 4: {fileID: 403028}
   - 114: {fileID: 11403028}
   m_Layer: 0
-  m_Name: the mystic jewels
+  m_Name: a bag of magical seeds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ GameObject:
   - 4: {fileID: 403034}
   - 114: {fileID: 11403034}
   m_Layer: 0
-  m_Name: the sacred diamonds
+  m_Name: forgotten plowing techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -186,7 +186,7 @@ GameObject:
   - 4: {fileID: 403038}
   - 114: {fileID: 11403038}
   m_Layer: 0
-  m_Name: the ancient fortune
+  m_Name: rare vegetables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -218,7 +218,7 @@ GameObject:
   - 4: {fileID: 403042}
   - 114: {fileID: 11403042}
   m_Layer: 0
-  m_Name: the wizards magic gems
+  m_Name: excotic fruit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,7 +234,7 @@ GameObject:
   - 4: {fileID: 403044}
   - 114: {fileID: 11403044}
   m_Layer: 0
-  m_Name: the king's riches
+  m_Name: secret planting techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -282,7 +282,7 @@ GameObject:
   - 4: {fileID: 403050}
   - 114: {fileID: 11403050}
   m_Layer: 0
-  m_Name: Blackbeard's forgotten treasure
+  m_Name: expensive spices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -298,7 +298,7 @@ GameObject:
   - 4: {fileID: 403052}
   - 114: {fileID: 11403052}
   m_Layer: 0
-  m_Name: the king's riches
+  m_Name: expensive spices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,7 +376,7 @@ GameObject:
   - 4: {fileID: 403062}
   - 114: {fileID: 11403058}
   m_Layer: 0
-  m_Name: Blackbeard's forgotten treasure
+  m_Name: the devils secret fortune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -392,7 +392,7 @@ GameObject:
   - 4: {fileID: 403064}
   - 114: {fileID: 11403060}
   m_Layer: 0
-  m_Name: the wizards magic gems
+  m_Name: the devils secret fortune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,7 +440,7 @@ GameObject:
   - 4: {fileID: 403070}
   - 114: {fileID: 11403066}
   m_Layer: 0
-  m_Name: the devils secret fortune
+  m_Name: the ancient fortune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -456,7 +456,7 @@ GameObject:
   - 4: {fileID: 403072}
   - 114: {fileID: 11403068}
   m_Layer: 0
-  m_Name: the wizards magic gems
+  m_Name: the pirates hidden gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -488,7 +488,7 @@ GameObject:
   - 4: {fileID: 403076}
   - 114: {fileID: 11403072}
   m_Layer: 0
-  m_Name: the sacred diamonds
+  m_Name: Blackbeard's forgotten treasure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -568,7 +568,7 @@ GameObject:
   - 4: {fileID: 403086}
   - 114: {fileID: 11403082}
   m_Layer: 0
-  m_Name: Blackbeard's forgotten treasure
+  m_Name: the pirates hidden gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -600,7 +600,7 @@ GameObject:
   - 4: {fileID: 403090}
   - 114: {fileID: 11403086}
   m_Layer: 0
-  m_Name: the pirates hidden gold
+  m_Name: the ancient fortune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -978,7 +978,7 @@ GameObject:
   - 4: {fileID: 425174}
   - 114: {fileID: 11425162}
   m_Layer: 0
-  m_Name: secret planting techniques
+  m_Name: better trading routes opening more equipment options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1164,7 +1164,7 @@ GameObject:
   - 4: {fileID: 425198}
   - 114: {fileID: 11425174}
   m_Layer: 0
-  m_Name: Prologue1
+  m_Name: Prologue3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1484,6 +1484,38 @@ GameObject:
   - 114: {fileID: 11434656}
   m_Layer: 0
   m_Name: Demons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &141628
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 441628}
+  - 114: {fileID: 11441628}
+  m_Layer: 0
+  m_Name: Prologue1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &141630
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 441630}
+  - 114: {fileID: 11441630}
+  m_Layer: 0
+  m_Name: Prologue2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2757,7 +2789,7 @@ GameObject:
   - 4: {fileID: 447918}
   - 114: {fileID: 11447916}
   m_Layer: 0
-  m_Name: The Magical Sword
+  m_Name: The Wind Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2773,7 +2805,7 @@ GameObject:
   - 4: {fileID: 447920}
   - 114: {fileID: 11447918}
   m_Layer: 0
-  m_Name: The Dragon Sword
+  m_Name: The Fire Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2821,7 +2853,7 @@ GameObject:
   - 4: {fileID: 447926}
   - 114: {fileID: 11447924}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: The Earth Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2852,7 +2884,7 @@ GameObject:
   - 4: {fileID: 447930}
   - 114: {fileID: 11447926}
   m_Layer: 0
-  m_Name: a plow
+  m_Name: better trading routes opening more equipment options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2900,7 +2932,7 @@ GameObject:
   - 4: {fileID: 455522}
   - 114: {fileID: 11455524}
   m_Layer: 0
-  m_Name: The Blazing Sword
+  m_Name: The Sacred Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2916,7 +2948,7 @@ GameObject:
   - 4: {fileID: 455524}
   - 114: {fileID: 11455526}
   m_Layer: 0
-  m_Name: fertilizer
+  m_Name: a trade caravan allowing for more excotic gear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2948,7 +2980,7 @@ GameObject:
   - 4: {fileID: 455528}
   - 114: {fileID: 11455530}
   m_Layer: 0
-  m_Name: nourishing water
+  m_Name: rare weaponry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2980,7 +3012,7 @@ GameObject:
   - 4: {fileID: 455532}
   - 114: {fileID: 11455534}
   m_Layer: 0
-  m_Name: excotic fruit
+  m_Name: new contacts with stronger weapons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3028,7 +3060,7 @@ GameObject:
   - 4: {fileID: 455538}
   - 114: {fileID: 11455540}
   m_Layer: 0
-  m_Name: fertilizer
+  m_Name: stronger materials
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3060,7 +3092,7 @@ GameObject:
   - 4: {fileID: 455542}
   - 114: {fileID: 11455544}
   m_Layer: 0
-  m_Name: excotic fruit
+  m_Name: new contacts with stronger weapons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3092,7 +3124,7 @@ GameObject:
   - 4: {fileID: 455546}
   - 114: {fileID: 11455548}
   m_Layer: 0
-  m_Name: excotic fruit
+  m_Name: improved equipment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3108,7 +3140,7 @@ GameObject:
   - 4: {fileID: 455548}
   - 114: {fileID: 11455550}
   m_Layer: 0
-  m_Name: a bag of magical seeds
+  m_Name: better trading routes opening more equipment options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3156,7 +3188,7 @@ GameObject:
   - 4: {fileID: 455554}
   - 114: {fileID: 11455556}
   m_Layer: 0
-  m_Name: expensive spices
+  m_Name: upgraded weaponry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3804,7 +3836,7 @@ GameObject:
   - 4: {fileID: 471058}
   - 114: {fileID: 11471050}
   m_Layer: 0
-  m_Name: The Magical Sword
+  m_Name: The Water Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3852,7 +3884,7 @@ GameObject:
   - 4: {fileID: 471064}
   - 114: {fileID: 11471056}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: The Earth Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3868,7 +3900,7 @@ GameObject:
   - 4: {fileID: 471066}
   - 114: {fileID: 11471058}
   m_Layer: 0
-  m_Name: The Dragon Sword
+  m_Name: The Wind Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3916,7 +3948,7 @@ GameObject:
   - 4: {fileID: 471072}
   - 114: {fileID: 11471064}
   m_Layer: 0
-  m_Name: The Thunder Sword
+  m_Name: The Magical Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3932,7 +3964,7 @@ GameObject:
   - 4: {fileID: 471074}
   - 114: {fileID: 11471066}
   m_Layer: 0
-  m_Name: The Magical Sword
+  m_Name: The Leaf Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3980,7 +4012,7 @@ GameObject:
   - 4: {fileID: 471080}
   - 114: {fileID: 11471072}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: The Wind Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3996,7 +4028,7 @@ GameObject:
   - 4: {fileID: 471082}
   - 114: {fileID: 11471074}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: The Molten Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4044,7 +4076,7 @@ GameObject:
   - 4: {fileID: 471088}
   - 114: {fileID: 11471080}
   m_Layer: 0
-  m_Name: The Magical Sword
+  m_Name: The Magical Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4060,7 +4092,7 @@ GameObject:
   - 4: {fileID: 471090}
   - 114: {fileID: 11471082}
   m_Layer: 0
-  m_Name: The Fire Sword
+  m_Name: The Leaf Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4108,7 +4140,7 @@ GameObject:
   - 4: {fileID: 471096}
   - 114: {fileID: 11471088}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: The Dragon Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4124,7 +4156,7 @@ GameObject:
   - 4: {fileID: 471098}
   - 114: {fileID: 11471090}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: The Earth Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4172,7 +4204,7 @@ GameObject:
   - 4: {fileID: 471104}
   - 114: {fileID: 11471096}
   m_Layer: 0
-  m_Name: The Magical Sword
+  m_Name: The Wind Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4203,7 +4235,7 @@ GameObject:
   - 4: {fileID: 471108}
   - 114: {fileID: 11471098}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: The Ice Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4251,7 +4283,7 @@ GameObject:
   - 4: {fileID: 471114}
   - 114: {fileID: 11471104}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: The Fire Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4267,7 +4299,7 @@ GameObject:
   - 4: {fileID: 471116}
   - 114: {fileID: 11471106}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: The Thunder Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4315,7 +4347,7 @@ GameObject:
   - 4: {fileID: 471122}
   - 114: {fileID: 11471112}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: The Water Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4331,7 +4363,7 @@ GameObject:
   - 4: {fileID: 471124}
   - 114: {fileID: 11471114}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: The Water Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4379,7 +4411,7 @@ GameObject:
   - 4: {fileID: 471130}
   - 114: {fileID: 11471120}
   m_Layer: 0
-  m_Name: The Fire Sword
+  m_Name: The Dragon Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4395,7 +4427,7 @@ GameObject:
   - 4: {fileID: 471132}
   - 114: {fileID: 11471122}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: The Earth Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4443,7 +4475,7 @@ GameObject:
   - 4: {fileID: 471138}
   - 114: {fileID: 11471128}
   m_Layer: 0
-  m_Name: The Sacred Sword
+  m_Name: The Ice Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4474,7 +4506,7 @@ GameObject:
   - 4: {fileID: 471142}
   - 114: {fileID: 11471130}
   m_Layer: 0
-  m_Name: The Water Sword
+  m_Name: The Wind Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4522,7 +4554,7 @@ GameObject:
   - 4: {fileID: 471148}
   - 114: {fileID: 11471136}
   m_Layer: 0
-  m_Name: The Magical Sword
+  m_Name: The Earth Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4538,7 +4570,7 @@ GameObject:
   - 4: {fileID: 471150}
   - 114: {fileID: 11471138}
   m_Layer: 0
-  m_Name: The Dragon Sword
+  m_Name: The Fire Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4586,7 +4618,7 @@ GameObject:
   - 4: {fileID: 471156}
   - 114: {fileID: 11471144}
   m_Layer: 0
-  m_Name: The Leaf Sword
+  m_Name: The Mad King's Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4602,7 +4634,7 @@ GameObject:
   - 4: {fileID: 471158}
   - 114: {fileID: 11471146}
   m_Layer: 0
-  m_Name: The Leaf Sword
+  m_Name: The Water Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4650,7 +4682,7 @@ GameObject:
   - 4: {fileID: 471164}
   - 114: {fileID: 11471152}
   m_Layer: 0
-  m_Name: The Molten Sword
+  m_Name: The Molten Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4666,7 +4698,7 @@ GameObject:
   - 4: {fileID: 471166}
   - 114: {fileID: 11471154}
   m_Layer: 0
-  m_Name: The Dragon Sword
+  m_Name: The Wind Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4714,7 +4746,7 @@ GameObject:
   - 4: {fileID: 471172}
   - 114: {fileID: 11471160}
   m_Layer: 0
-  m_Name: The Fire Sword
+  m_Name: The Water Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4730,7 +4762,7 @@ GameObject:
   - 4: {fileID: 471174}
   - 114: {fileID: 11471162}
   m_Layer: 0
-  m_Name: The Water Sword
+  m_Name: The Mad King's Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4778,7 +4810,7 @@ GameObject:
   - 4: {fileID: 471180}
   - 114: {fileID: 11471168}
   m_Layer: 0
-  m_Name: The Dragon Sword
+  m_Name: The Wind Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4794,7 +4826,7 @@ GameObject:
   - 4: {fileID: 471182}
   - 114: {fileID: 11471170}
   m_Layer: 0
-  m_Name: The Water Sword
+  m_Name: The Fire Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4842,7 +4874,7 @@ GameObject:
   - 4: {fileID: 471188}
   - 114: {fileID: 11471176}
   m_Layer: 0
-  m_Name: The Magical Sword
+  m_Name: The Fire Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4873,7 +4905,7 @@ GameObject:
   - 4: {fileID: 471192}
   - 114: {fileID: 11471178}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: The Blazing Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4921,7 +4953,7 @@ GameObject:
   - 4: {fileID: 471198}
   - 114: {fileID: 11471184}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: The Magical Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4937,7 +4969,7 @@ GameObject:
   - 4: {fileID: 471200}
   - 114: {fileID: 11471186}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: The Dragon Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4985,7 +5017,7 @@ GameObject:
   - 4: {fileID: 471206}
   - 114: {fileID: 11471192}
   m_Layer: 0
-  m_Name: None
+  m_Name: The Wind Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5974,6 +6006,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 441628}
+  - {fileID: 441630}
   - {fileID: 425198}
   m_Father: {fileID: 425162}
   m_RootOrder: 11
@@ -5988,7 +6022,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 425196}
-  m_RootOrder: 0
+  m_RootOrder: 2
 --- !u!4 &429836
 Transform:
   m_ObjectHideFlags: 1
@@ -6239,6 +6273,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 425172}
   m_RootOrder: 0
+--- !u!4 &441628
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425196}
+  m_RootOrder: 0
+--- !u!4 &441630
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141630}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425196}
+  m_RootOrder: 1
 --- !u!4 &446394
 Transform:
   m_ObjectHideFlags: 1
@@ -9125,7 +9183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the devils secret fortune
+  name: a plow
   detailString: 'We''ve been promised [name] if we complete the task, '
   rewardType: 4
   rewardItems: []
@@ -9153,7 +9211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the treasure from ancient times
+  name: a plow
   detailString: 'We should try to send a search party as we will get rewarded for
     our trouble with [name], '
   rewardType: 4
@@ -9195,7 +9253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the pirates hidden gold
+  name: excotic fruit
   detailString: 'There is a chance of getting [name], '
   rewardType: 4
   rewardItems: []
@@ -9238,7 +9296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the mystic jewels
+  name: a bag of magical seeds
   detailString: 'We could collect a prize of [name] if we chose to do this, '
   rewardType: 4
   rewardItems: []
@@ -9292,7 +9350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the sacred diamonds
+  name: forgotten plowing techniques
   detailString: 'We will be rewarded with [name] for the town, '
   rewardType: 4
   rewardItems: []
@@ -9333,7 +9391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the ancient fortune
+  name: rare vegetables
   detailString: 'If we help out, the farm will be upgraded with [name], '
   rewardType: 4
   rewardItems: []
@@ -9374,7 +9432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the wizards magic gems
+  name: excotic fruit
   detailString: 'If we complete the task at hand we''ve been promised [name] for the
     village, '
   rewardType: 4
@@ -9403,7 +9461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the king's riches
+  name: secret planting techniques
   detailString: 'The benefits of this would be [name], '
   rewardType: 4
   rewardItems: []
@@ -9457,7 +9515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Blackbeard's forgotten treasure
+  name: expensive spices
   detailString: 'If we do that, [name] will be given us, '
   rewardType: 4
   rewardItems: []
@@ -9485,7 +9543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the king's riches
+  name: expensive spices
   detailString: 'It be worth considering as we will recieve [name] for our trouble, '
   rewardType: 4
   rewardItems: []
@@ -9539,7 +9597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Blackbeard's forgotten treasure
+  name: the devils secret fortune
   detailString: 'as there have been whispers about [name] which would be worth getting. '
   rewardType: 1
   rewardItems: []
@@ -9567,7 +9625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the wizards magic gems
+  name: the devils secret fortune
   detailString: 'if we do that, the merchants will give us [rVal] if we find [name].
     This is surely what we should do. '
   rewardType: 1
@@ -9622,7 +9680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the devils secret fortune
+  name: the ancient fortune
   detailString: 'maybe we could send a search party for [name]. '
   rewardType: 1
   rewardItems: []
@@ -9650,7 +9708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the wizards magic gems
+  name: the pirates hidden gold
   detailString: 'and follow the tales of [name]. '
   rewardType: 1
   rewardItems: []
@@ -9691,7 +9749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the sacred diamonds
+  name: Blackbeard's forgotten treasure
   detailString: 'and try to acquire [name]. '
   rewardType: 1
   rewardItems: []
@@ -9786,7 +9844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Blackbeard's forgotten treasure
+  name: the pirates hidden gold
   detailString: 'to collect [name] which is worth [rVal] coins. This is important
     for us. '
   rewardType: 1
@@ -9830,7 +9888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the pirates hidden gold
+  name: the ancient fortune
   detailString: 'because there is a chance of finding [name] worth [rVal] coins, this
     is a good idea. '
   rewardType: 1
@@ -9983,7 +10041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: 'The victory against [mBoss] was crucial to the future of our journey. '
   rewardData: {fileID: 0}
 --- !u!114 &11425144
 MonoBehaviour:
@@ -9998,6 +10056,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Treasure Quest 3
   detailString: We should run to [cLoc] and kill the [cEne], [mPic]
+  isBossQuest: 0
+  revengeString: 
   minProgressForQuest: 0
   progressForWinning: 2
   progressForLosing: 1
@@ -10029,7 +10089,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: 'Our try at defeating [mBoss] and his minions was a failure and the
+    teams morale has been effected by it.
+
+'
   rewardData: {fileID: 0}
 --- !u!114 &11425148
 MonoBehaviour:
@@ -10087,6 +10150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Treasure Quest 2
   detailString: We should run to [cLoc] and kill the [cEne], [mPic]
+  isBossQuest: 0
+  revengeString: 
   minProgressForQuest: 0
   progressForWinning: 2
   progressForLosing: 1
@@ -10122,9 +10187,11 @@ MonoBehaviour:
   - {fileID: 11425154}
   - {fileID: 11425144}
   prologues:
-  - {fileID: 11425174}
+  - {fileID: 11441628}
   conectors:
   - {fileID: 11425150}
+  miniBossList: []
+  endBossList: []
 --- !u!114 &11425158
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10138,6 +10205,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Morning
   detailString: Morning
+  enemyTypeChances:
+  - .25
+  - .25
+  - .25
+  - .25
   timeColor: {r: .608110607, g: .632352948, b: .381271631, a: 1}
 --- !u!114 &11425160
 MonoBehaviour:
@@ -10152,6 +10224,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Pirate
   detailString: Pirate
+  status: 0
+  bossObject: {fileID: 0}
 --- !u!114 &11425162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10163,7 +10237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: secret planting techniques
+  name: better trading routes opening more equipment options
   detailString: It be worth considering as the shop would be upgraded with [name].
   rewardType: 3
   rewardItems: []
@@ -10193,6 +10267,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Corrupted Knights
   detailString: Corrupted Knights
+  enemyTypeChances:
+  - 0
+  - 0
+  - 0
+  - 0
 --- !u!114 &11425166
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10206,6 +10285,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: The Iron Heights
   detailString: The Iron Heights
+  enemyTypeChances:
+  - 0
+  - 0
+  - 0
+  - 0
   background: {fileID: 0}
 --- !u!114 &11425168
 MonoBehaviour:
@@ -10246,6 +10330,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Treasure Quest
   detailString: We should go to [cLoc] and face the [cEne], [mPic]
+  isBossQuest: 0
+  revengeString: 
   minProgressForQuest: 0
   progressForWinning: 2
   progressForLosing: 1
@@ -10276,8 +10362,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8441e6fd5cf5084caa9096e5c7a3b5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Prologue1
-  detailString: This is a prologue
+  name: Prologue3
+  detailString: In Ahor a little village withstands an enemy army, they are in desperat
+    need for a great leader, who can help them. The enemy have collected a variety
+    of different units to their ranks, evil wizards, pirates, corrupted knight and
+    demon archers. We only got a name of a captian within the enemy ranks, [nBoss].
 --- !u!114 &11429838
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10422,6 +10511,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Mystic Woods
   detailString: Mystic Woods
+  enemyTypeChances:
+  - 0
+  - 0
+  - 0
+  - 0
   background: {fileID: 0}
 --- !u!114 &11432250
 MonoBehaviour:
@@ -10436,6 +10530,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Arcane Tower
   detailString: Arcane Tower
+  enemyTypeChances:
+  - 0
+  - 0
+  - 0
+  - 0
   background: {fileID: 0}
 --- !u!114 &11432252
 MonoBehaviour:
@@ -10450,6 +10549,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Ahor Castle
   detailString: Ahor Castle
+  enemyTypeChances:
+  - 0
+  - 0
+  - 0
+  - 0
   background: {fileID: 0}
 --- !u!114 &11432254
 MonoBehaviour:
@@ -10464,6 +10568,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: The Buccaneer's Bay
   detailString: The Buccaneer's Bay
+  enemyTypeChances:
+  - 0
+  - 0
+  - 0
+  - 0
   background: {fileID: 0}
 --- !u!114 &11432256
 MonoBehaviour:
@@ -10478,6 +10587,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Dusty Desert
   detailString: Dusty Desert
+  enemyTypeChances:
+  - 0
+  - 0
+  - 0
+  - 0
   background: {fileID: 0}
 --- !u!114 &11434648
 MonoBehaviour:
@@ -10492,6 +10606,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Evil Wizards
   detailString: Archer
+  enemyTypeChances:
+  - 0
+  - 0
+  - 0
+  - 0
 --- !u!114 &11434650
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10505,6 +10624,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Pirates
   detailString: Pirates
+  enemyTypeChances:
+  - 0
+  - 0
+  - 0
+  - 0
 --- !u!114 &11434652
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10520,6 +10644,11 @@ MonoBehaviour:
   detailString: 'Day
 
 '
+  enemyTypeChances:
+  - .25
+  - .25
+  - .25
+  - .25
   timeColor: {r: .755907714, g: .875, b: .733455896, a: 1}
 --- !u!114 &11434654
 MonoBehaviour:
@@ -10534,6 +10663,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Night
   detailString: Night
+  enemyTypeChances:
+  - .25
+  - .25
+  - .25
+  - .25
   timeColor: {r: .369809687, g: .521700919, b: .698529422, a: 1}
 --- !u!114 &11434656
 MonoBehaviour:
@@ -10548,6 +10682,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Demons
   detailString: Demons
+  enemyTypeChances:
+  - 0
+  - 0
+  - 0
+  - 0
+--- !u!114 &11441628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8441e6fd5cf5084caa9096e5c7a3b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Prologue1
+  detailString: The lands of Ahor are usually a quiet and peaceful land, however recently
+    it has been invaded by a great evil. Every corner of Ahor have been infected,
+    except for one little village. Here they strive to keep Ahor and its people safe.The
+    only knowledge we have about this evil is the name of an officer in the enemy
+    ranks, [nBoss]. He is evil and wants to corrupt Ahor. In order to restore peace
+    to the land we must fight this evil! Yet the champions of the village are not
+    capable of facing him, they need experienced leader.
+--- !u!114 &11441630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8441e6fd5cf5084caa9096e5c7a3b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Prologue2
+  detailString: Ahor, a land usually inhappited by peaceful citizens, has been invaded
+    by an evil army. We know a name of one of the captains, [nBoss]. He is powerful
+    and is capable of doing great damage to the lands of Ahor. One little village
+    withstands, but in order to overcome this army they are in need of a great leader
 --- !u!114 &11446404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10561,7 +10735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
   detailString: 'Unfortunately the [enemy] at [location] was too strong for us and
-    they took [rew] for themselves. '
+    they took [nrew] for themselves. '
   rewardData: {fileID: 0}
 --- !u!114 &11446406
 MonoBehaviour:
@@ -10576,7 +10750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
   detailString: 'We succeded in the battle of [location], the [enemy] did not stand
-    a chance. [rew] was well earned. '
+    a chance. [nrew] was well earned. '
   rewardData: {fileID: 0}
 --- !u!114 &11446408
 MonoBehaviour:
@@ -10616,7 +10790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 'With [rew] retrieved, the enimies ahead of us will not be able to
+  detailString: 'With [nrew] retrieved, the enimies ahead of us will not be able to
     defeat us. '
   rewardData: {fileID: 0}
 --- !u!114 &11446414
@@ -10631,7 +10805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 'The defeat at [location] was unfortunate, [rew] would really have
+  detailString: 'The defeat at [location] was unfortunate, [nrew] would really have
     made a difference for us. '
   rewardData: {fileID: 0}
 --- !u!114 &11446416
@@ -10646,7 +10820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 'We were not able to overcome the [enemy] at [location], and [rew]
+  detailString: 'We were not able to overcome the [enemy] at [location], and [nrew]
     will now contribute to the enemy army instead of ours. '
   rewardData: {fileID: 0}
 --- !u!114 &11446418
@@ -10661,7 +10835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 'The victory at [location] and the retrieval of [rew] will really
+  detailString: 'The victory at [location] and the retrieval of [nrew] will really
     help the future of our journey. '
   rewardData: {fileID: 0}
 --- !u!114 &11446420
@@ -10702,8 +10876,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: By defeating the [enemy] at [location], we retrieved [rew]. This will
-    increase our chance of vanquishing our enemy
+  detailString: By defeating the [enemy] at [location], we retrieved [nrew]. This
+    will increase our chance of vanquishing our enemy
   rewardData: {fileID: 0}
 --- !u!114 &11446426
 MonoBehaviour:
@@ -10717,7 +10891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: The [enemy] prevented us from retrieving [rew], thus we should look
+  detailString: The [enemy] prevented us from retrieving [nrew], thus we should look
     for something different to help us in our journey.
   rewardData: {fileID: 0}
 --- !u!114 &11446428
@@ -10732,7 +10906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: Our try at retrieving [rew] was prevented by the enemy, we should
+  detailString: Our try at retrieving [nrew] was prevented by the enemy, we should
     look for other things to improve our team.
   rewardData: {fileID: 0}
 --- !u!114 &11446430
@@ -10747,7 +10921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: It was good that we got [rew] from the [enemy], it surely weakenend
+  detailString: It was good that we got [nrew] from the [enemy], it surely weakenend
     their forces.
   rewardData: {fileID: 0}
 --- !u!114 &11446432
@@ -10788,7 +10962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: The farmers are really pleased with the new [rew] from [location].
+  detailString: The farmers are really pleased with the new [nrew] from [location].
   rewardData: {fileID: 0}
 --- !u!114 &11446438
 MonoBehaviour:
@@ -10803,7 +10977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
   detailString: The [enemy] were tough and the farmers are sad that we could not get
-    the [rew] for them.
+    the [nrew] for them.
   rewardData: {fileID: 0}
 --- !u!114 &11446440
 MonoBehaviour:
@@ -10817,7 +10991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 'Without the [rew] the farmers were not able to increase their sales,
+  detailString: 'Without the [nrew] the farmers were not able to increase their sales,
     the villages income remain the same. '
   rewardData: {fileID: 0}
 --- !u!114 &11446442
@@ -10832,8 +11006,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: We succesfully defeated [enemy] and got [rew], it will certainly prove
-    useful for our village.
+  detailString: We succesfully defeated [enemy] and got [nrew], it will certainly
+    prove useful for our village.
   rewardData: {fileID: 0}
 --- !u!114 &11446444
 MonoBehaviour:
@@ -10873,7 +11047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: The retrieved [rew] is going to help our farmers increase the interrest
+  detailString: The retrieved [nrew] is going to help our farmers increase the interrest
     in their product and will give the village a boost to its income.
   rewardData: {fileID: 0}
 --- !u!114 &11446450
@@ -10888,7 +11062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: The battle at [location] was lost and thus we did not retrieve [rew],
+  detailString: The battle at [location] was lost and thus we did not retrieve [nrew],
     maybe in the future we could find something else for the farmers.
   rewardData: {fileID: 0}
 --- !u!114 &11446452
@@ -10903,7 +11077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: The defeat to [enemy] stopped us from retrieving [rew], a great loss
+  detailString: The defeat to [enemy] stopped us from retrieving [nrew], a great loss
     to our farmers.
   rewardData: {fileID: 0}
 --- !u!114 &11446454
@@ -10918,7 +11092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: The [rew] we got from [location], will be of great use to the farmers
+  detailString: The [nrew] we got from [location], will be of great use to the farmers
     and will give us higher outcome from the fields.
   rewardData: {fileID: 0}
 --- !u!114 &11446456
@@ -10960,7 +11134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
   detailString: With the defeat of [enemy] at [location], we were rewarded with a
-    new [rew], it will surely help the wealth of the village
+    new [nrew], it will surely help the wealth of the village
   rewardData: {fileID: 0}
 --- !u!114 &11446462
 MonoBehaviour:
@@ -10974,8 +11148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: Unfortunately we were not able to get [rew] for our farmers, the [enemy]
-    were simply too strong for us.
+  detailString: Unfortunately we were not able to get [nrew] for our farmers, the
+    [enemy] were simply too strong for us.
   rewardData: {fileID: 0}
 --- !u!114 &11446464
 MonoBehaviour:
@@ -10989,7 +11163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: We were unable to retrive [rew] from the [enemy]. The mechant will
+  detailString: We were unable to retrive [nrew] from the [enemy]. The mechant will
     not be able to upgrade his stock.
   rewardData: {fileID: 0}
 --- !u!114 &11446466
@@ -11004,8 +11178,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: The mechant is very pleased with [rew], a great way of improving his
-    stock.
+  detailString: The mechant is very pleased with [nrew], a great way of improving
+    his stock.
   rewardData: {fileID: 0}
 --- !u!114 &11446468
 MonoBehaviour:
@@ -11045,7 +11219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: the battle of [location gave us [rew], it will certainly increase
+  detailString: the battle of [location gave us [nrew], it will certainly increase
     the varity of shop.]
   rewardData: {fileID: 0}
 --- !u!114 &11446474
@@ -11060,7 +11234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: The mechant is not pleased with not getting [rew], the [enemy] were
+  detailString: The mechant is not pleased with not getting [nrew], the [enemy] were
     simply too strong for us.
   rewardData: {fileID: 0}
 --- !u!114 &11446476
@@ -11075,7 +11249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: We were not able to overcome the enemies at [location], [rew] will
+  detailString: We were not able to overcome the enemies at [location], [nrew] will
     be helping the enemy army instead of our mechant.
   rewardData: {fileID: 0}
 --- !u!114 &11446478
@@ -11090,7 +11264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: with [rew] the shop will cetainly improve it varity so we can buy
+  detailString: with [nrew] the shop will cetainly improve it varity so we can buy
     better equipment.
   rewardData: {fileID: 0}
 --- !u!114 &11446480
@@ -11131,8 +11305,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: The battle of [location] was tough, but we succeeded. [rew] will be
-    beneficial to both the mechant and our team.
+  detailString: The battle of [location] was tough, but we succeeded. [nrew] will
+    be beneficial to both the mechant and our team.
   rewardData: {fileID: 0}
 --- !u!114 &11446486
 MonoBehaviour:
@@ -11146,7 +11320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: We were overun by the [enemy] and could not retrive [rew]. The mechant
+  detailString: We were overun by the [enemy] and could not retrive [nrew]. The mechant
     did not get to upgrade his stock.
   rewardData: {fileID: 0}
 --- !u!114 &11446488
@@ -11161,7 +11335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: Without [rew] the mechant will not be able to sell us new equipment.
+  detailString: Without [nrew] the mechant will not be able to sell us new equipment.
   rewardData: {fileID: 0}
 --- !u!114 &11446490
 MonoBehaviour:
@@ -11176,7 +11350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
   detailString: '[location] was a diffucult fight, we managed to retrieve what we
-    came for, [rew]. It will greatly help the mechant.'
+    came for, [nrew]. It will greatly help the mechant.'
   rewardData: {fileID: 0}
 --- !u!114 &11446492
 MonoBehaviour:
@@ -11216,7 +11390,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: Defeating the [enemy] at [location] went succesful, we located [nrew]
+    and have recieved Value for it.
   rewardData: {fileID: 0}
 --- !u!114 &11446498
 MonoBehaviour:
@@ -11230,7 +11405,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: 'The battle at [location] were lost, the power of the [enemy] took
+    us by suprise, [nrew] have been taken by the enemy.
+
+'
   rewardData: {fileID: 0}
 --- !u!114 &11446500
 MonoBehaviour:
@@ -11244,7 +11422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: The enemies at [location] prevented us from retrieving [nrew].
   rewardData: {fileID: 0}
 --- !u!114 &11446502
 MonoBehaviour:
@@ -11258,7 +11436,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: With the victory at [location] and the retrieved [nrew] we are in
+    a good spot.
   rewardData: {fileID: 0}
 --- !u!114 &11446504
 MonoBehaviour:
@@ -11298,7 +11477,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: Retrieving [nrew] went succesfully, the money we got for it has been
+    added to our village.
   rewardData: {fileID: 0}
 --- !u!114 &11446510
 MonoBehaviour:
@@ -11312,7 +11492,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: The defeat at [location] were unfortunate, [nrew] would have been
+    a great contribution to our course.
   rewardData: {fileID: 0}
 --- !u!114 &11446512
 MonoBehaviour:
@@ -11326,7 +11507,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: The [enemy] were too strong for us and they prevented us from retrieving
+    [nrew].
   rewardData: {fileID: 0}
 --- !u!114 &11446514
 MonoBehaviour:
@@ -11340,7 +11522,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: '[enemy] were no match for us, we succesfully defeated them and retrieved
+    [nrew].'
   rewardData: {fileID: 0}
 --- !u!114 &11446516
 MonoBehaviour:
@@ -11380,7 +11563,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: The succes at [location] awarded us with [nrew]. It will prove useful
+    in our further adventure
   rewardData: {fileID: 0}
 --- !u!114 &11446522
 MonoBehaviour:
@@ -11394,7 +11578,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: Unfortunately we were not able to get [nrew] from the [enemy], it
+    would have been a great valueable to have retrieved.
   rewardData: {fileID: 0}
 --- !u!114 &11446524
 MonoBehaviour:
@@ -11408,7 +11593,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: The unfortunate defeat against [mBoss] at [ have lowered the morale
+    of the team.
   rewardData: {fileID: 0}
 --- !u!114 &11446526
 MonoBehaviour:
@@ -11422,7 +11608,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: With the victory against [mBoss], the team has gotten a comfidence
+    boost. They can overcome anything!
   rewardData: {fileID: 0}
 --- !u!114 &11446528
 MonoBehaviour:
@@ -11462,7 +11649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: '[mBoss] was no match for our team, nothing can stop them now.'
   rewardData: {fileID: 0}
 --- !u!114 &11446534
 MonoBehaviour:
@@ -11476,7 +11663,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: '[mBoss] was a difficult challenge, which unfortunately did not go
+    in our favor. '
   rewardData: {fileID: 0}
 --- !u!114 &11446536
 MonoBehaviour:
@@ -11490,7 +11678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: '[mBoss] has proved to be a difficult challenge for our team.'
   rewardData: {fileID: 0}
 --- !u!114 &11446538
 MonoBehaviour:
@@ -11504,7 +11692,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: The lands have been cleared of the evil of [mBoss], the team is confident
+    in their abilities.
   rewardData: {fileID: 0}
 --- !u!114 &11446540
 MonoBehaviour:
@@ -11544,7 +11733,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: '[mBoss] and his army at [location] were no match for our team.
+
+'
   rewardData: {fileID: 0}
 --- !u!114 &11446546
 MonoBehaviour:
@@ -11558,7 +11749,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 
+  detailString: Unfortunately [location] was too well protected by [mBoss] and his
+    army, they were too tough for our team!
   rewardData: {fileID: 0}
 --- !u!114 &11447914
 MonoBehaviour:
@@ -11584,7 +11776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Sword
+  name: The Wind Armor
   detailString: 'and try to send a search party for [name], maybe [rStr] '
   rewardType: 2
   rewardItems:
@@ -11642,7 +11834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Sword
+  name: The Fire Armor
   detailString: 'and get [name] ,with it, [rStr] '
   rewardType: 2
   rewardItems:
@@ -11726,7 +11918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Sword
+  name: The Earth Armor
   detailString: 'because there is a chance of finding [name]. This could be crucial
     to us as [rStr] '
   rewardType: 2
@@ -11785,7 +11977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a plow
+  name: better trading routes opening more equipment options
   detailString: 'The merchant have promised [name] available for our shop if we complete
     the task. '
   rewardType: 3
@@ -11840,7 +12032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Blazing Sword
+  name: The Sacred Armor
   detailString: 'to collect [name] which is very powerful, that way [rStr] '
   rewardType: 2
   rewardItems:
@@ -11898,7 +12090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: fertilizer
+  name: a trade caravan allowing for more excotic gear
   detailString: 'We should try to send a search party as we will get rewarded for
     out trouble with [name] for offer in our shop. '
   rewardType: 3
@@ -11940,7 +12132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: nourishing water
+  name: rare weaponry
   detailString: 'There is a chance of getting [name] to buy in the town. '
   rewardType: 3
   rewardItems: []
@@ -11983,7 +12175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: excotic fruit
+  name: new contacts with stronger weapons
   detailString: We could collect a prize of [name] for the shop in the town, if we
     chose to do this.
   rewardType: 3
@@ -12038,7 +12230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: fertilizer
+  name: stronger materials
   detailString: We will be rewarded with [name] available for the town's shop.
   rewardType: 3
   rewardItems: []
@@ -12079,7 +12271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: excotic fruit
+  name: new contacts with stronger weapons
   detailString: 'If we help out, the shop will be upgraded with [name]. '
   rewardType: 3
   rewardItems: []
@@ -12120,7 +12312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: excotic fruit
+  name: improved equipment
   detailString: We've been promised [name] for the shop, if we complete the task at
     hand.
   rewardType: 3
@@ -12149,7 +12341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a bag of magical seeds
+  name: better trading routes opening more equipment options
   detailString: 'The benefits of this would be the shop being upgraded with [name]. '
   rewardType: 3
   rewardItems: []
@@ -12203,7 +12395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: expensive spices
+  name: upgraded weaponry
   detailString: 'If we do that, the merchant will give us [name] as an upgrade to
     our shop. '
   rewardType: 3
@@ -12685,7 +12877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Sword
+  name: The Water Armor
   detailString: "and collect [name] such that [rStr]\_"
   rewardType: 2
   rewardItems:
@@ -12769,7 +12961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Sword
+  name: The Earth Armor
   detailString: 'and try to aquire [name] because if we possess it, [rStr] '
   rewardType: 2
   rewardItems:
@@ -12827,7 +13019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Sword
+  name: The Wind Armor
   detailString: 'and follow the tales of [name]. If they are true, [rStr] '
   rewardType: 2
   rewardItems:
@@ -12911,7 +13103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Thunder Sword
+  name: The Magical Armor
   detailString: 'maybe we could send a search party for [name] such that [rStre] '
   rewardType: 2
   rewardItems:
@@ -12969,7 +13161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Sword
+  name: The Leaf Armor
   detailString: 'if we do that, we could find [name]. This is surely what we should
     do, such that [rStre] '
   rewardType: 2
@@ -13054,7 +13246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Sword
+  name: The Wind Armor
   detailString: 'as there have been whispers about [name] which would be worth getting.
     In our hands [rStr] '
   rewardType: 2
@@ -13113,7 +13305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Sword
+  name: The Molten Staff
   detailString: 'as there have been whispers about [name] which would be worth getting.
     In our hands [rStr] '
   rewardType: 2
@@ -13198,7 +13390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Sword
+  name: The Magical Staff
   detailString: 'if we do that, we could find [name]. This is surely what we should
     do, such that [rStre] '
   rewardType: 2
@@ -13257,7 +13449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Sword
+  name: The Leaf Staff
   detailString: 'maybe we could send a search party for [name] such that [rStre] '
   rewardType: 2
   rewardItems:
@@ -13341,7 +13533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Sword
+  name: The Dragon Staff
   detailString: 'and follow the tales of [name]. If they are true, [rStr] '
   rewardType: 2
   rewardItems:
@@ -13399,7 +13591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Sword
+  name: The Earth Staff
   detailString: 'and try to aquire [name] because if we possess it, [rStr] '
   rewardType: 2
   rewardItems:
@@ -13483,7 +13675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Sword
+  name: The Wind Staff
   detailString: "and collect [name] such that [rStr]\_"
   rewardType: 2
   rewardItems:
@@ -13541,7 +13733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Sword
+  name: The Ice Staff
   detailString: 'to collect [name] which is very powerful, that way [rStr] '
   rewardType: 2
   rewardItems:
@@ -13625,7 +13817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Sword
+  name: The Fire Staff
   detailString: 'and try to send a search party for [name], maybe [rStr] '
   rewardType: 2
   rewardItems:
@@ -13683,7 +13875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Sword
+  name: The Thunder Staff
   detailString: 'and get [name] ,with it, [rStr] '
   rewardType: 2
   rewardItems:
@@ -13767,7 +13959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Sword
+  name: The Water Staff
   detailString: 'because there is a chance of finding [name]. This could be crucial
     to us as [rStr] '
   rewardType: 2
@@ -13826,7 +14018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Sword
+  name: The Water Bow
   detailString: 'because there is a chance of finding [name]. This could be crucial
     to us as [rStr] '
   rewardType: 2
@@ -13911,7 +14103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Sword
+  name: The Dragon Bow
   detailString: 'and get [name] ,with it, [rStr] '
   rewardType: 2
   rewardItems:
@@ -13969,7 +14161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Sword
+  name: The Earth Bow
   detailString: 'and try to send a search party for [name], maybe [rStr] '
   rewardType: 2
   rewardItems:
@@ -14053,7 +14245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Sacred Sword
+  name: The Ice Bow
   detailString: 'to collect [name] which is very powerful, that way [rStr] '
   rewardType: 2
   rewardItems:
@@ -14111,7 +14303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Sword
+  name: The Wind Sword
   detailString: "and collect [name] such that [rStr]\_"
   rewardType: 2
   rewardItems:
@@ -14195,7 +14387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Sword
+  name: The Earth Bow
   detailString: 'and try to aquire [name] because if we possess it, [rStr] '
   rewardType: 2
   rewardItems:
@@ -14253,7 +14445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Sword
+  name: The Fire Bow
   detailString: 'and follow the tales of [name]. If they are true, [rStr] '
   rewardType: 2
   rewardItems:
@@ -14337,7 +14529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Leaf Sword
+  name: The Mad King's Bow
   detailString: 'maybe we could send a search party for [name] such that [rStre] '
   rewardType: 2
   rewardItems:
@@ -14395,7 +14587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Leaf Sword
+  name: The Water Bow
   detailString: 'if we do that, we could find [name]. This is surely what we should
     do, such that [rStre] '
   rewardType: 2
@@ -14480,7 +14672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Molten Sword
+  name: The Molten Bow
   detailString: 'as there have been whispers about [name] which would be worth getting.
     In our hands [rStr] '
   rewardType: 2
@@ -14539,7 +14731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Sword
+  name: The Wind Sword
   detailString: 'as there have been whispers about [name] which would be worth getting.
     In our hands [rStr] '
   rewardType: 2
@@ -14624,7 +14816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Sword
+  name: The Water Sword
   detailString: 'if we do that, we could find [name]. This is surely what we should
     do, such that [rStre] '
   rewardType: 2
@@ -14683,7 +14875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Sword
+  name: The Mad King's Sword
   detailString: 'maybe we could send a search party for [name] such that [rStre] '
   rewardType: 2
   rewardItems:
@@ -14767,7 +14959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Sword
+  name: The Wind Sword
   detailString: 'and follow the tales of [name]. If they are true, [rStr] '
   rewardType: 2
   rewardItems:
@@ -14825,7 +15017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Sword
+  name: The Fire Sword
   detailString: 'and try to aquire [name] because if we possess it, [rStr] '
   rewardType: 2
   rewardItems:
@@ -14909,7 +15101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Sword
+  name: The Fire Sword
   detailString: "and collect [name] such that [rStr]\_"
   rewardType: 2
   rewardItems:
@@ -14967,7 +15159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Sword
+  name: The Blazing Sword
   detailString: 'to collect [name] which is very powerful, that way [rStr] '
   rewardType: 2
   rewardItems:
@@ -15051,7 +15243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Sword
+  name: The Magical Sword
   detailString: 'and try to send a search party for [name], maybe [rStr] '
   rewardType: 2
   rewardItems:
@@ -15109,7 +15301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Sword
+  name: The Dragon Sword
   detailString: 'and get [name] ,with it, [rStr] '
   rewardType: 2
   rewardItems:
@@ -15193,7 +15385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: None
+  name: The Wind Sword
   detailString: 'because there is a chance of finding [name]. This could be crucial
     to us as [rStr] '
   rewardType: 2
