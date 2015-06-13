@@ -3,7 +3,7 @@ using System.Collections;
 namespace DramaPack{
 	public class MinorPictureData: StringData {
 
-
+		public GameObject possibleRewardsParent;
 		public RewardData[] possibleRewards;
 
 		[HideInInspector]public RewardData rewardData;
@@ -11,6 +11,7 @@ namespace DramaPack{
 		// Use this for initialization
 		protected override void Update () {
 			base.Update ();
+			if(possibleRewardsParent!=null)possibleRewards = possibleRewardsParent.gameObject.GetComponentsInChildren<RewardData> ();
 		}
 		
 		public override string DisplayData(){
