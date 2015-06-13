@@ -6,6 +6,13 @@ namespace DramaPack{
 		protected override void Update () {
 			base.Update ();
 		}
+		public override string DisplayData(){
+			TagReplacePair[] pairs = new TagReplacePair[1]{
 
+				new TagReplacePair ("[nBoss]",DramaManager.nextBoss)
+				
+			};
+			return base.DisplayData (pairs);
+		}
 	}
 }

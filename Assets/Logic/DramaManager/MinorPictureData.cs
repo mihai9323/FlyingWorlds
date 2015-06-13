@@ -11,8 +11,9 @@ namespace DramaPack{
 		}
 		
 		public override string DisplayData(){
-			TagReplacePair[] pairs = new TagReplacePair[1]{
+			TagReplacePair[] pairs = new TagReplacePair[2]{
 				new TagReplacePair ("[rew]", rewardData),
+				new TagReplacePair ("[nBoss]",DramaManager.nextBoss)
 				
 			};
 			return base.DisplayData (pairs);
