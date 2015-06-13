@@ -39,7 +39,7 @@ public class Item  {
 		}
 	}
 
-	private string item_name;
+	[SerializeField]private string item_name;
 	public float Damage;
 	public float Defence;
 	public float Range;
