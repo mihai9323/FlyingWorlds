@@ -10,7 +10,7 @@ public class HubManager : MonoBehaviour {
 	[SerializeField] GameObject m_Characters, m_Character, m_Inventory,m_Shop;
 	[SerializeField] Farm m_farm;
 	[SerializeField] QuestUI m_questUI;
-	[SerializeField] QuestUIStatic m_questUIStatic;
+
 	[SerializeField] Shop m_shop;
 	[SerializeField] Road m_road;
 	[SerializeField] NotificationBox m_notif;
@@ -20,7 +20,7 @@ public class HubManager : MonoBehaviour {
 	public static Shop shop{get{return s_Instance.m_shop;}}
 	public static Road road{ get { return s_Instance.m_road; } }
 	public static QuestUI questUI{ get { return s_Instance.m_questUI; } }
-	public static QuestUIStatic questUIStatic{get { return s_Instance.m_questUIStatic; } }
+
 	public static NotificationBox notification{ get { return s_Instance.m_notif; } }
 	public static bool interactable = true;
 	public static bool hintsOn = false;
@@ -34,7 +34,7 @@ public class HubManager : MonoBehaviour {
 					!s_Instance.m_Shop.gameObject.activeInHierarchy ;
 
 			if(questUI!= null) return rValue && !questUI.gameObject.activeInHierarchy; 
-			if(questUIStatic!= null) return rValue && !questUIStatic.gameObject.activeInHierarchy; 
+
 			return rValue;  
 
 			
@@ -114,7 +114,7 @@ public class HubManager : MonoBehaviour {
 		if (interactable) {
 
 			if(s_Instance.m_questUI!=null)s_Instance.m_questUI.gameObject.SetActive(true);
-			if(s_Instance.m_questUIStatic!=null)s_Instance.m_questUIStatic.gameObject.SetActive(true);
+
 
 		}
 	}
@@ -148,7 +148,7 @@ public class HubManager : MonoBehaviour {
 	public static void HideQuestUI(){
 		if (interactable) {
 			if(s_Instance.m_questUI!=null)s_Instance.m_questUI.gameObject.SetActive(false);
-			if(s_Instance.m_questUIStatic!=null)s_Instance.m_questUIStatic.gameObject.SetActive(false);
+
 		}
 	}
 	                             

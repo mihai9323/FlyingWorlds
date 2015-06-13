@@ -405,8 +405,8 @@ public class Character : MonoBehaviour {
 		this.audio.Play ();
 		movement_target = movement_target_transform.position;
 		float remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
-		float initialDistance = Vector2.Distance(this.transform.position,movement_target);
-		Vector2 initialPosition = transform.position;
+
+
 		float ct = 0;
 		while (remainingDistance>weaponItem.Range*weaponItem.Range && movement_target_transform!=null) {
 			FaceTarget();

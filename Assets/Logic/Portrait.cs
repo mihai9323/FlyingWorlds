@@ -38,7 +38,7 @@ public class Portrait : MonoBehaviour {
 			this.GetComponent<Image> ().color = Color.gray;
 			activeProfile = false;
 		}
-		if (characterNameText != null) {
+		if (characterNameText != null && character!=null) {
 			characterNameText.text = character.Name;
 		}
 	}

@@ -1,13 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using DramaPack;
+
+
 public class FightManager : MonoBehaviour {
 	private static FightManager s_Instance;
 	[SerializeField] Transform minSpawn, maxSpawn;
 	[SerializeField] Enemy[] enemyTypes;
 	[SerializeField] Projectile _fireBall, _arrow;
 	[SerializeField] DramaManager dramaManager;
-	[SerializeField] StaticDramaManager staticDramaManager;
+
 	public static Transform s_transform{
 		get{
 			return s_Instance.transform;
@@ -150,7 +153,7 @@ public class FightManager : MonoBehaviour {
 			GameData.Progression --;
 			GameData.Progression = Mathf.Max(GameData.Progression,0);
 			if(s_Instance.dramaManager!=null)s_Instance.dramaManager.FinishQuest(false);
-			if(s_Instance.staticDramaManager!=null)s_Instance.staticDramaManager.FinishQuest(false);
+	
 			GameData.LoadScene(GameScenes.Hub);
 		}
 	}
@@ -163,7 +166,7 @@ public class FightManager : MonoBehaviour {
 		yield return new WaitForSeconds (time);
 		GameData.Progression +=2;
 		if(s_Instance.dramaManager!=null)s_Instance.dramaManager.FinishQuest(true);
-		if(s_Instance.staticDramaManager!=null)s_Instance.staticDramaManager.FinishQuest(true);
+	
 		Debug.Log("BattleWon!");
 		CleanUpFight();
 		GameData.LoadScene(GameScenes.Hub);

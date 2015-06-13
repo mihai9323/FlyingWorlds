@@ -1,19 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Linq;
 using System.Collections.Generic;
 namespace DramaPack{
 
-	enum QuestType{
-
-
-	}
 
 	/// <summary>
 	/// Data defined for the quests, used to generate quests for the user
 	/// </summary>
 	public class QuestData : StringData {
 
-
+		private int timesPlayed;
+		public float minProgressForQuest;
+		public float progressForWinning;
+		public float progressForLosing;
 
 		public LocationData[] randomLocations;
 		public LocationData[] questLocations;
@@ -21,26 +21,47 @@ namespace DramaPack{
 		public OutcomePair[] outcomePairs;
 		public MinorPictureData[] minorPictures;
 		public EnemyData[] enemies;
+		public RetryQuestData[] retryQuestsData;
+		public float traitRelevance = 1.0f;
+		public TraitManager.TraitTypes[] relevantTraits;
 
 
+		private List<Character> relevantCharacters;
+		[HideInInspector]public Character questGiver;
+		IEnumerator Start(){
+			timesPlayed = 0;
+			while(CharacterManager.charactersByTrait == null){
+				yield return null;
+			}
+			relevantCharacters = new List<Character> ();
+			foreach (TraitManager.TraitTypes t in relevantTraits) {
+				if(CharacterManager.charactersByTrait.ContainsKey(t)){
+					foreach(Character c in CharacterManager.charactersByTrait[t]){
+						relevantCharacters.Add(c);
+					}
+				}
+			}
+		}
 		// Use this for initialization
 		protected override void Update () {
 			base.Update ();
 		}
 
 		public DramaPack.Quest GenerateQuest(){
+			this.timesPlayed++;
 			LocationData rLoc = randomDramaData (randomLocations) as LocationData;
 			LocationData cLoc = randomDramaData (questLocations) as LocationData;
 			MomentData cMoment = randomDramaData (questMoments) as MomentData;
 			OutcomePair outcomePair = randomDramaData (outcomePairs) as OutcomePair;
 			MinorPictureData mpData = randomDramaData (minorPictures) as MinorPictureData;
 			EnemyData eData = randomDramaData (enemies) as EnemyData;
+			RetryQuestData retryQuestData = randomDramaData (retryQuestsData) as RetryQuestData;
 
 			if (cLoc == null || cMoment == null || outcomePair == null || mpData == null || eData == null) {
-
+				Debug.Log("something is null");
 				return null;
 			}
-			return new DramaPack.Quest(rLoc,cLoc,cMoment,eData,outcomePair,mpData,this.name,this.detailString);
+			return new DramaPack.Quest(rLoc,cLoc,cMoment,eData,outcomePair,mpData,this.name,this.detailString,this,retryQuestData);
 		}
 
 		public Object randomDramaData(Object[] dataArray, List<Object> exclData = null){
@@ -63,6 +84,47 @@ namespace DramaPack{
 				return data;
 			}
 		}
+
+		public float Fitness{
+			get{
+				bool isBestFit = false;
+				bool isNoFit= false;
+				if(DramaManager.lastQuest!=null){
+					if(DramaManager.lastFailed && DramaManager.lastQuest.qd == this){
+						isBestFit = true; //best fit => force the ability to restart the quest
+					}
+					if(!DramaManager.lastFailed && DramaManager.lastQuest.qd == this){
+						isNoFit = true; //avoid getting the same quest 2 times in a row
+					}
+				}
+				float progressScore = DramaManager.progression - minProgressForQuest; 
+				if(progressScore <0) isNoFit = true; //we did not progress enough to get this quest
+				float timesEncounteredScore = (float)(timesPlayed);
+				float traitScore = 0;
+				if(relevantCharacters != null){
+					var bestCharacter = (from character 
+										in relevantCharacters
+										where true
+					                    orderby (character.Moral * traitRelevance / 100)
+					                    select character).LastOrDefault();
+					this.questGiver = bestCharacter;
+					traitScore = (1-bestCharacter.CalculateMoral()) * traitRelevance;
+				}else{
+					isNoFit = true; //there are no quest givers => we can not get this quest
+				}
+				if(isNoFit){
+					Debug.Log("Fittness ["+this.name+"]["+(-1).ToString()+"]");
+					return -1;
+				}
+				if(isBestFit){
+					Debug.Log("Fittness ["+this.name+"]["+(0).ToString()+"]");
+					return 0;
+				}
+				Debug.Log("Fittness ["+this.name+"]["+(progressScore + timesEncounteredScore + traitScore).ToString()+"]");
+				return progressScore + timesEncounteredScore + traitScore;
+			}
+		}
+
 	}
 
 }

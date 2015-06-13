@@ -1,5 +1,8 @@
 using UnityEngine;
 using System.Collections;
+using DramaPack;
+
+
 [System.Serializable]
 public class Label  {
 
@@ -183,8 +186,8 @@ public class Label  {
 		return true;
 	}
 	public static bool NobodyFled(out string fledName, out string location){
-		if (DramaManager.previousQuest!=null) {
-			location = DramaManager.previousQuest.location.locationName;
+		if (DramaManager.lastQuest!=null) {
+			location = DramaManager.lastQuest.questLocation.name;
 		} else
 			location = "Last battle";
 		fledName = "";

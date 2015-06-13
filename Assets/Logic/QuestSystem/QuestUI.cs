@@ -1,29 +1,68 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using DramaPack;
 
 public class QuestUI : MonoBehaviour {
 
 	[SerializeField] Text questText;
-	[SerializeField] Portrait characterPortrait;
-	[SerializeField] Image QuestImage;
-	private Quest quest;
+	[SerializeField] Portrait characterPortrait1;
+	[SerializeField] Portrait characterPortrait2;
+	[SerializeField] Image Quest1Image;
+	[SerializeField] Image Quest2Image;
+	[SerializeField] Text quest1Button, quest2Button;
+
+	private Quest quest1,quest2;
 
 	private bool questTextWritten;
 	private int lastChar;
 	private bool configured;
-	public void Configure(Quest quest){
+
+	public void Configure(Quest quest1,Quest quest2){
+		Debug.Log ("Configure 2 quests");
 		configured = true;
-		this.quest = quest;
+		this.quest1 = quest1;
+		this.quest2 = quest2;
+
+		characterPortrait1.character = quest1.qd.questGiver;
+		characterPortrait2.character = quest2.qd.questGiver;
+
+		Quest1Image.sprite = quest1.battle.fightBackground.GetComponent<SpriteRenderer> ().sprite;
+		Quest1Image.color = quest1.battle.dayColor;
+		Quest2Image.sprite = quest2.battle.fightBackground.GetComponent<SpriteRenderer> ().sprite;
+		Quest2Image.color = quest2.battle.dayColor;
+
 		questTextWritten = false;
 		lastChar = 0;
-		characterPortrait.character = quest.questGiver;
+
 		questText.text = "";
-		QuestImage.sprite = quest.battle.fightBackground.GetComponent<SpriteRenderer> ().sprite;
-		QuestImage.color = quest.battle.dayColor;
+
 		if (this.gameObject.activeInHierarchy) {
 			StopAllCoroutines ();
-			StartCoroutine (WriteText (this.quest.calculateQuestString ()));
+			StartCoroutine (WriteText (DramaManager.currentQuestStory));
+		}
+	}
+	public void Configure(Quest quest1){
+		Debug.Log ("Configure 1 quest");
+		configured = true;
+		this.quest1 = quest1;
+
+		
+		characterPortrait1.character = quest1.qd.questGiver;
+		characterPortrait2.character = null;
+		
+		Quest1Image.sprite = quest1.battle.fightBackground.GetComponent<SpriteRenderer> ().sprite;
+		Quest1Image.color = quest1.battle.dayColor;
+		Quest2Image.color = new Color(0,0,0,0);
+		
+		questTextWritten = false;
+		lastChar = 0;
+		
+		questText.text = "";
+		
+		if (this.gameObject.activeInHierarchy) {
+			StopAllCoroutines ();
+			StartCoroutine (WriteText (DramaManager.currentQuestStory));
 		}
 	}
 
@@ -32,10 +71,10 @@ public class QuestUI : MonoBehaviour {
 	private void OnEnable(){
 		if (configured) {
 			if (questTextWritten) {
-				this.questText.text = quest.calculateQuestString ();
+				this.questText.text = DramaManager.currentQuestStory;
 			} else {
 				StopAllCoroutines ();
-				StartCoroutine (WriteText (this.quest.calculateQuestString ()));
+				StartCoroutine (WriteText (DramaManager.currentQuestStory));
 			}
 		}
 	}
@@ -55,15 +94,7 @@ public class QuestUI : MonoBehaviour {
 		questTextWritten = true;
 		HubManager.interactable = true;
 	}
-	private void Update(){
-		if (quest!=null && enabled && HubManager.interactable) {
-			if(Input.GetMouseButtonDown (0)){
-				questTextWritten = true;
-				this.questText.text = quest.calculateQuestString();
-				StopAllCoroutines();
-			}
-		}
-	}
+
 
 
 

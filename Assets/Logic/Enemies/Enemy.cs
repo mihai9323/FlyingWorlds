@@ -27,9 +27,9 @@ public class Enemy : MonoBehaviour {
 	public int Damage{
 		get{
 			switch(weapon.itemType){
-			case Item.ItemType.Magic: return (int)(weapon.Damage * skillset.magic); break;
-			case Item.ItemType.Melee: return (int)(weapon.Damage * skillset.melee); break;
-			case Item.ItemType.Ranged: return (int)(weapon.Damage * skillset.archery);  break;
+			case Item.ItemType.Magic: return (int)(weapon.Damage * skillset.magic);
+			case Item.ItemType.Melee: return (int)(weapon.Damage * skillset.melee);
+			case Item.ItemType.Ranged: return (int)(weapon.Damage * skillset.archery);  
 			}
 			return 0;
 		}
@@ -111,9 +111,9 @@ public class Enemy : MonoBehaviour {
 		this.audio.Play ();
 		movement_target = movement_target_transform.position;
 		float remainingDistance = CustomSqrDistance (this.transform.position, movement_target);
-		float initialDistance = Vector2.Distance(this.transform.position,movement_target);
+
 		Vector2 initialPosition = transform.position;
-		float ct = 0;
+
 		while (remainingDistance>attackRange*attackRange) {
 			float prevX = transform.position.x;
 			float initZ = transform.position.z;

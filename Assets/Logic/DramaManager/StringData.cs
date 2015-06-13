@@ -27,6 +27,18 @@ namespace DramaPack{
 			return detailString;
 		}
 
+		protected StringData GenerateStringData(){
+
+			return GenerateStringData ("stringData");
+		}
+		protected StringData GenerateStringData(string gameObjectName){
+			GameObject g = new GameObject ();
+			g.transform.parent = this.transform;
+			g.name = gameObjectName;
+			return g.AddComponent<StringData> ();
+		}
+
+
 
 	}
 

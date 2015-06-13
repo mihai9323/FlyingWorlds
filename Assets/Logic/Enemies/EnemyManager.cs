@@ -21,11 +21,8 @@ public class EnemyManager : MonoBehaviour {
 
 
 		int mBoss = 0;
-		
-		if ((DramaManager.currentQuest != null && (DramaManager.currentQuest.questType == Quest.QuestType.MinibossQuest || DramaManager.currentQuest.questType == Quest.QuestType.EndBossQuest) )||
-		    (StaticDramaManager.currentQuest!= null && StaticDramaManager.currentQuest.bossPrefab!=null)) {
-			mBoss=1;
-		}
+		//TODO ADD THE BOSS IN THE BATTLE
+
 		
 		LevelEnemies = new Enemy[number+mBoss];
 		for(int i = 0; i<number; i++){
@@ -46,26 +43,7 @@ public class EnemyManager : MonoBehaviour {
 			LevelEnemies[i].GenerateEnemy();
 			yield return new WaitForSeconds(.1f);
 		}
-		if (mBoss == 1) {
-			if(StaticDramaManager.currentQuest!= null && StaticDramaManager.currentQuest.bossPrefab!=null){
-				Vector3 randomSpawnPos = new Vector3(minPos.x + Random.Range(0,maxPos.x - minPos.x),
-				                                     minPos.y + Random.Range(0,maxPos.y - minPos.y),
-				                                     minPos.z + Random.Range(0,maxPos.z - minPos.z));
-				LevelEnemies[number] = Instantiate(StaticDramaManager.currentQuest.bossPrefab,s_Instance.bossSpawnPosition.position,Quaternion.identity) as Enemy;
-				
-				LevelEnemies[number].GenerateEnemy();
-				Debug.Log("eb");
-			}else{
-				Vector3 randomSpawnPos = new Vector3(minPos.x + Random.Range(0,maxPos.x - minPos.x),
-				                                     minPos.y + Random.Range(0,maxPos.y - minPos.y),
-				                                     minPos.z + Random.Range(0,maxPos.z - minPos.z));
-				LevelEnemies[number] = Instantiate(DramaManager.currentQuest.boss.prefab,s_Instance.bossSpawnPosition.position,Quaternion.identity) as Enemy;
-				
-				LevelEnemies[number].GenerateEnemy();
-				Debug.Log("mb");
-			}
-			
-		}
+
 	}
 	public static void CleanUP(){
 		if (LevelEnemies != null) {
