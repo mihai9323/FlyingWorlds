@@ -84,20 +84,22 @@ public class Quest : StringData {
 		{
 
 			if (randomLocation != null) {
-				TagReplacePair[] pairs = new TagReplacePair[5]{
+				TagReplacePair[] pairs = new TagReplacePair[6]{
 					new TagReplacePair ("[rLoc]", randomLocation),
 					new TagReplacePair ("[cLoc]", questLocation),
 					new TagReplacePair ("[cMom]", questTime),
 					new TagReplacePair ("[cEne]", enemyData),
-					new TagReplacePair ("[mPic]", minorPicture)
+					new TagReplacePair ("[mPic]", minorPicture),
+					new TagReplacePair ("[nBoss]", DramaPack.DramaManager.nextBoss)
 				};
 				return base.DisplayData (pairs);
 			} else {
-				TagReplacePair[] pairs = new TagReplacePair[4]{
+				TagReplacePair[] pairs = new TagReplacePair[5]{
 					new TagReplacePair ("[cLoc]", questLocation),
 					new TagReplacePair ("[cMom]", questTime),
 					new TagReplacePair ("[cEne]", enemyData),
-					new TagReplacePair ("[mPic]", minorPicture)
+					new TagReplacePair ("[mPic]", minorPicture),
+					new TagReplacePair ("[nBoss]", DramaPack.DramaManager.nextBoss)
 				};
 				return base.DisplayData (pairs);
 			}
