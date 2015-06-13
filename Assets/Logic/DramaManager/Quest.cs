@@ -38,7 +38,10 @@ public class Quest : StringData {
 			this.qd = qd;
 			this.questState = QuestCompletion.NotSelected;
 			this.retryQuestData = retryQuestData;
+
+			this.minorPicture.ChooseRewardFromArray ();
 			this.minorPicture.rewardData.GenerateName ();
+
 			if (this.outcomePair.positiveOutcome.rewardData.rewardType == RewardData.RewardType.Item) {
 				this.outcomePair.positiveOutcome.rewardData.chosenItem = this.outcomePair.negativeOutcome.rewardData.chosenItem = this.minorPicture.rewardData.chosenItem;
 			} else {

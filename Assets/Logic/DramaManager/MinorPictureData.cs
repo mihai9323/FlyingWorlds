@@ -2,8 +2,11 @@
 using System.Collections;
 namespace DramaPack{
 	public class MinorPictureData: StringData {
-		
-		public RewardData rewardData;
+
+
+		public RewardData[] possibleRewards;
+
+		[HideInInspector]public RewardData rewardData;
 		
 		// Use this for initialization
 		protected override void Update () {
@@ -17,6 +20,10 @@ namespace DramaPack{
 				
 			};
 			return base.DisplayData (pairs);
+		}
+
+		public void ChooseRewardFromArray(){
+			rewardData = possibleRewards[(int)Mathf.Clamp(Random.Range(0,possibleRewards.Length),0,possibleRewards.Length-1)];
 		}
 		
 		

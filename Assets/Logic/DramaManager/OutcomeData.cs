@@ -3,7 +3,7 @@ using System.Collections;
 namespace DramaPack{
 	public class OutcomeData: StringData {
 
-		public RewardData rewardData;
+		[HideInInspector]public RewardData rewardData;
 
 		// Use this for initialization
 		protected override void Update () {
@@ -12,7 +12,7 @@ namespace DramaPack{
 
 		public override string DisplayData(){
 			this.detailString.Replace ("[nrew]", DramaManager.lastQuest.minorPicture.rewardData.chosenName);
-			TagReplacePair[] pairs = new TagReplacePair[5]{
+			TagReplacePair[] pairs = new TagReplacePair[4]{
 				new TagReplacePair ("[rew]", rewardData),
 				new TagReplacePair ("[enemy]",DramaPack.DramaManager.lastQuest.enemyData),
 				new TagReplacePair ("[location]",DramaPack.DramaManager.lastQuest.questLocation),
