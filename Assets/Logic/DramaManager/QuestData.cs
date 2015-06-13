@@ -11,9 +11,17 @@ namespace DramaPack{
 	public class QuestData : StringData {
 
 		private int timesPlayed;
+
+		public bool isBossQuest;
+
+		public string revengeString;
+
 		public float minProgressForQuest;
 		public float progressForWinning;
 		public float progressForLosing;
+
+
+
 
 		public LocationData[] randomLocations;
 		public LocationData[] questLocations;
@@ -25,14 +33,18 @@ namespace DramaPack{
 		public float traitRelevance = 1.0f;
 		public TraitManager.TraitTypes[] relevantTraits;
 
+	
+	
 
 		private List<Character> relevantCharacters;
-		[HideInInspector]public Character questGiver;
+		public Character questGiver;
 		IEnumerator Start(){
 			timesPlayed = 0;
-			while(CharacterManager.charactersByTrait == null){
+			while(!CharacterManager.isReady){
 				yield return null;
 			}
+
+
 			relevantCharacters = new List<Character> ();
 			foreach (TraitManager.TraitTypes t in relevantTraits) {
 				if(CharacterManager.charactersByTrait.ContainsKey(t)){
@@ -61,7 +73,12 @@ namespace DramaPack{
 				Debug.Log("something is null");
 				return null;
 			}
-			return new DramaPack.Quest(rLoc,cLoc,cMoment,eData,outcomePair,mpData,this.name,this.detailString,this,retryQuestData);
+			string detail = this.detailString;
+			if (mpData.rewardData.rewardType == RewardData.RewardType.Progression && DramaManager.nextBoss.status == BossData.Status.encountered) {
+				detail = revengeString;
+			}
+
+			return new DramaPack.Quest(rLoc,cLoc,cMoment,eData,outcomePair,mpData,this.name,detail,this,retryQuestData);
 		}
 
 		public Object randomDramaData(Object[] dataArray, List<Object> exclData = null){
@@ -94,6 +111,7 @@ namespace DramaPack{
 						isBestFit = true; //best fit => force the ability to restart the quest
 					}
 					if(!DramaManager.lastFailed && DramaManager.lastQuest.qd == this){
+						Debug.Log("received quest last time");
 						isNoFit = true; //avoid getting the same quest 2 times in a row
 					}
 				}
@@ -110,6 +128,7 @@ namespace DramaPack{
 					this.questGiver = bestCharacter;
 					traitScore = (1-bestCharacter.CalculateMoral()) * traitRelevance;
 				}else{
+					Debug.Log("no quest give");
 					isNoFit = true; //there are no quest givers => we can not get this quest
 				}
 				if(isNoFit){

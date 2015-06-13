@@ -20,7 +20,7 @@ namespace DramaPack{
 
 		[HideInInspector]public Item chosenItem{
 			get{
-				if(_chosenItem == null) _chosenItem = new Item(rewardItems[(int)Random.Range(0,rewardItems.Length)],3);
+				if(_chosenItem == null) _chosenItem = new Item(rewardItems[(int)Random.Range(0,rewardItems.Length)],DramaManager.progression);
 				return _chosenItem;
 			}
 			set{
@@ -78,7 +78,7 @@ namespace DramaPack{
 				case RewardType.FarmUpgrade: HubManager.farm.farmLevel++; break;
 				case RewardType.ShopUpgrade: HubManager.shop.level++; break;
 				case RewardType.Treasure: GameData.NumberOfCoins+= (int)(DramaPack.DramaManager.progression * int.Parse(this.value.name)); break;
-				case RewardType.Progression: DramaPack.DramaManager.progression+=1.0f; break;
+			case RewardType.Progression: DramaPack.DramaManager.progression+=1.0f; DramaPack.DramaManager.nextBoss.status = BossData.Status.completed; DramaManager.CheckGameWin(); break;
 				case RewardType.Item: InventoryManager.ItemsInInventory.Add (this.chosenItem); break;
 			}
 			chosenName = "";

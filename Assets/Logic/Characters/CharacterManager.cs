@@ -19,6 +19,7 @@ public class CharacterManager : MonoBehaviour {
 	[SerializeField] string[] _firstName;
 
 	[SerializeField] Transform[] characterSpawnPlaces;
+	[SerializeField] bool _isReady;
 	public static Dictionary<TraitManager.TraitTypes,List<Character>> charactersByTrait {
 		get{ if(s_Instance._charactersByTrait == null){
 				GetCharactersByTraits();
@@ -144,12 +145,20 @@ public class CharacterManager : MonoBehaviour {
 			return count == 0;
 		}
 	}
-	
+	public static bool isReady{
+		get{
+			if(s_Instance!=null){
+				return s_Instance._isReady;
+			}else return false;
+		}
+	}
 	private void Awake(){
 		s_Instance = this;
+		s_Instance._isReady = !generateCharacters;
 
 	}
 	private void Start(){
+
 		CreateCharacters();
 		LoadCharactersFromBattle ();
 	}
@@ -162,7 +171,7 @@ public class CharacterManager : MonoBehaviour {
 		CheckLabels (LabelManager.checkSecondWhenComeFromBattle);
 		CheckLabels (LabelManager.checkWhenWeaponsChange);
 		CheckLabels (LabelManager.checkAfterBuildingUpdate);
-
+		s_Instance._isReady = true;
 
 	}
 

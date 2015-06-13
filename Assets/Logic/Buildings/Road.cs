@@ -9,6 +9,24 @@ public class Road : MonoBehaviour {
 
 	public void OnClick(){
 		if (HubManager.interactable) {
+			if(DramaPack.DramaManager.noQuestSelected){
+				HubManager.notification.ShowConfirm("You haven't chosen who you side with for the next quest!",
+				                                     DramaPack.DramaManager.questBest.qd.questGiver.Name,
+				                                     DramaPack.DramaManager.questSecondBest.qd.questGiver.Name,
+				                                     delegate() {
+														DramaPack.DramaManager.ActivateQuest(true);
+														this.OnClick();
+														HubManager.notification.Hide();
+				                                     },
+													 delegate() {
+														DramaPack.DramaManager.ActivateQuest(false);
+														this.OnClick();
+														HubManager.notification.Hide();
+													 });
+
+
+
+			}else
 			if (!CharacterManager.partyEmpty) {
 				if(displayedBattleTutorial){
 					CharactersTravellingToFightScene = true;

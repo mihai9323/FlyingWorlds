@@ -8,23 +8,44 @@ namespace DramaPack{
 		public static bool lastFailed;
 		public static Quest lastQuest;
 		public static Quest activeQuest;
-
+		public static bool noQuestSelected = true;
 		public DramaPack.QuestData[] quests;
 		public DramaPack.PrologueData[] prologues;
 		public DramaPack.ConnectorData[] conectors;
 
+
+
 		public static Quest questBest;
 		public static Quest questSecondBest;
 
-		public static string currentQuestStory;
+		public static string q1,q2,q0;
 
-		private void Start(){
+		public static BossData miniBoss;
+		public static BossData endBoss;
+
+		public static BossData nextBoss{
+			get{
+				if(miniBoss.status == BossData.Status.completed){
+					return endBoss;
+				}else return miniBoss;
+			}
+		}
+
+		public BossData[] miniBossList;
+		public BossData[] endBossList;
+
+		private IEnumerator Start(){
+			while (!CharacterManager.isReady) {
+				yield return null;
+			}
+			miniBoss = miniBossList[(int)(Mathf.Clamp(Random.Range ((int)0,(int)miniBossList.Length),0,miniBossList.Length- 1))];
+			endBoss = endBossList  [(int)(Mathf.Clamp(Random.Range ((int)0,(int)endBossList.Length),0, endBossList.Length - 1))];
 			Select2Quests ();
 
 		}
 
 		public void Select2Quests(){
-
+			noQuestSelected = true;
 			var questData = (from q 
 							in quests
 							where (q.Fitness >= 0)
@@ -50,8 +71,8 @@ namespace DramaPack{
 			}else{
 				questBest = null;
 			}
-			currentQuestStory = QuestStoryBuilder ();
-			Debug.Log (currentQuestStory);
+			QuestStoryBuilder ();
+
 			Debug.Log(questSecondBest.name);
 			Debug.Log ("number of quests found"+questData.Count);
 			if (questData.Count == 1) {
@@ -72,44 +93,64 @@ namespace DramaPack{
 				questBest.SetQuestInactive();
 			}
 			activeQuest.SetQuestActive ();
+			HubManager.questUI.RefreshActive ();
+			noQuestSelected = false;
+		}
+		public static void ActivateQuest(bool bestQuest){
+			if (bestQuest) {
+				activeQuest = questBest;
+				questSecondBest.SetQuestInactive();
+			} else {
+				activeQuest = questSecondBest;
+				questBest.SetQuestInactive();
+			}
+			activeQuest.SetQuestActive ();
+			HubManager.questUI.RefreshActive ();
+			noQuestSelected = false;
 		}
 
-		public string QuestStoryBuilder(){
-			string storyString = "";
+		public void QuestStoryBuilder(){
+
 			Debug.Log ("building story string");
 			if (progression == 0) {
 				Debug.Log("first quest");
 				//This is the first quest of the game
-				storyString = prologues [(int)Mathf.Clamp (Random.Range (0, prologues.Length), 0, prologues.Length - 1)].DisplayData ();
-				storyString += questBest.DisplayDataBefore ();
-				storyString += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
-				storyString += questSecondBest.DisplayDataBefore ();
+				q0 = prologues [(int)Mathf.Clamp (Random.Range (0, prologues.Length), 0, prologues.Length - 1)].DisplayData ();
+				q1 = questBest.DisplayDataBefore ();
+				q2 = questSecondBest.DisplayDataBefore ();
 			} else {
 				Debug.Log("not first quest");
 				if(lastQuest.questState == Quest.QuestCompletion.FinishedSuccessful){
-					Debug.Log("previous quest was succesful");
-					storyString += lastQuest.DisplayDataAfter(true);
-					storyString += questBest.DisplayDataBefore ();
-					storyString += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
-					storyString += questSecondBest.DisplayDataBefore ();
+
+					q0 = lastQuest.DisplayDataAfter(true);
+					q1 = questBest.DisplayDataBefore ();
+					q0 += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
+					q2 = questSecondBest.DisplayDataBefore ();
 				}else{
 					Debug.Log("previous quest was failed");
-					storyString += lastQuest.DisplayDataAfter(false);
-					storyString += questBest.retryQuestData.DisplayData();
-					storyString += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
-					storyString += questSecondBest.DisplayDataBefore();
+					q0 = lastQuest.DisplayDataAfter(false);
+					q1 = questBest.retryQuestData.DisplayData();
+					q0 += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
+					q2 += questSecondBest.DisplayDataBefore();
 
 				}
 
 			}
-			return storyString;
+
 		
 		}
 		public void FinishQuest(bool successful){
-
+			activeQuest.FinishQuest (successful);
+			Select2Quests ();
 		}
 
 
 
+		public static void CheckGameWin ()
+		{
+			if (nextBoss.status == BossData.Status.completed) {
+				Application.LoadLevel (Application.loadedLevel + 1);
+			}
+		}
 	}
 }

@@ -39,8 +39,11 @@ public class Quest : StringData {
 			this.questState = QuestCompletion.NotSelected;
 			this.retryQuestData = retryQuestData;
 			this.minorPicture.rewardData.GenerateName ();
-			this.outcomePair.positiveOutcome.rewardData.chosenItem = this.minorPicture.rewardData.chosenItem;
-			this.outcomePair.negativeOutcome.rewardData.chosenName = this.minorPicture.rewardData.chosenName;
+			if (this.outcomePair.positiveOutcome.rewardData.rewardType == RewardData.RewardType.Item) {
+				this.outcomePair.positiveOutcome.rewardData.chosenItem = this.outcomePair.negativeOutcome.rewardData.chosenItem = this.minorPicture.rewardData.chosenItem;
+			} else {
+				this.outcomePair.positiveOutcome.rewardData.chosenName = this.outcomePair.negativeOutcome.rewardData.chosenName = this.minorPicture.rewardData.chosenName;
+			}
 			this.battle = new Battle (Time.time.ToString(), this.questLocation.name, this.questTime.name, this.questLocation.background, this.questTime.timeColor, this.MonsterChances ());
 			if (FightManager.battles.ContainsKey (battle.id.ToString())) {
 				FightManager.battles[battle.id.ToString()] = this.battle;
@@ -57,7 +60,18 @@ public class Quest : StringData {
 			this.questState = QuestCompletion.NotSelected;
 		}
 		public float[] MonsterChances(){
-				return new float[4]{.25f,.25f,.25f,.25f};
+				float[] f =  new float[4]{0,0,0,0};
+				
+				f [0] = mChances (0);
+				f [1] = mChances (1);
+				f [2] = mChances (2);
+				f [3] = mChances (3);
+
+				return f;
+		}
+
+		float mChances(int index){
+			return (this.questLocation.enemyTypeChances[index] + this.questTime.enemyTypeChances[index] + this.enemyData.enemyTypeChances[index]*2)/4;
 		}
 		/// <summary>
 		///  Displays data relevant to the quest before it is started
@@ -124,6 +138,9 @@ public class Quest : StringData {
 				this.outcomePair.positiveOutcome.rewardData.ApplyReward();
 			} else {
 				this.questState = QuestCompletion.FinishedFailed;
+				if(this.outcomePair.positiveOutcome.rewardData.rewardType == RewardData.RewardType.Progression){
+					DramaManager.nextBoss.status = BossData.Status.encountered;
+				}
 				DramaManager.progression += this.qd.progressForLosing;
 			}
 		}

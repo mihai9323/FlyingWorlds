@@ -4,7 +4,9 @@ using UnityEditor;
 
 
 namespace DramaPack{
-	[ExecuteInEditMode]
+#if ADD_DATA 
+	[ExecuteInEditMode] 
+#endif
 	public class DramaData : MonoBehaviour {
 
 		public string name;
