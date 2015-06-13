@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 403018}
   - 114: {fileID: 11403018}
   m_Layer: 0
-  m_Name: rare vegetables
+  m_Name: a plow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 403020}
   - 114: {fileID: 11403020}
   m_Layer: 0
-  m_Name: fertilizer
+  m_Name: secret planting techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ GameObject:
   - 4: {fileID: 403024}
   - 114: {fileID: 11403024}
   m_Layer: 0
-  m_Name: forgotten plowing techniques
+  m_Name: fertilizer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ GameObject:
   - 4: {fileID: 403028}
   - 114: {fileID: 11403028}
   m_Layer: 0
-  m_Name: nourishing water
+  m_Name: a plow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ GameObject:
   - 4: {fileID: 403034}
   - 114: {fileID: 11403034}
   m_Layer: 0
-  m_Name: a bag of magical seeds
+  m_Name: forgotten plowing techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -186,7 +186,7 @@ GameObject:
   - 4: {fileID: 403038}
   - 114: {fileID: 11403038}
   m_Layer: 0
-  m_Name: a bag of magical seeds
+  m_Name: expensive spices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -218,7 +218,7 @@ GameObject:
   - 4: {fileID: 403042}
   - 114: {fileID: 11403042}
   m_Layer: 0
-  m_Name: nourishing water
+  m_Name: rare vegetables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,7 +234,7 @@ GameObject:
   - 4: {fileID: 403044}
   - 114: {fileID: 11403044}
   m_Layer: 0
-  m_Name: a bag of magical seeds
+  m_Name: forgotten plowing techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -282,7 +282,7 @@ GameObject:
   - 4: {fileID: 403050}
   - 114: {fileID: 11403050}
   m_Layer: 0
-  m_Name: a plow
+  m_Name: nourishing water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -298,7 +298,7 @@ GameObject:
   - 4: {fileID: 403052}
   - 114: {fileID: 11403052}
   m_Layer: 0
-  m_Name: a plow
+  m_Name: a batch of crops
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,7 +376,7 @@ GameObject:
   - 4: {fileID: 403062}
   - 114: {fileID: 11403058}
   m_Layer: 0
-  m_Name: the sacred diamonds
+  m_Name: the king's riches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -392,7 +392,7 @@ GameObject:
   - 4: {fileID: 403064}
   - 114: {fileID: 11403060}
   m_Layer: 0
-  m_Name: the king's riches
+  m_Name: the pirates hidden gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,7 +440,7 @@ GameObject:
   - 4: {fileID: 403070}
   - 114: {fileID: 11403066}
   m_Layer: 0
-  m_Name: the pirates hidden gold
+  m_Name: the king's riches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -456,7 +456,7 @@ GameObject:
   - 4: {fileID: 403072}
   - 114: {fileID: 11403068}
   m_Layer: 0
-  m_Name: Blackbeard's forgotten treasure
+  m_Name: the ancient fortune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -488,7 +488,7 @@ GameObject:
   - 4: {fileID: 403076}
   - 114: {fileID: 11403072}
   m_Layer: 0
-  m_Name: the sacred diamonds
+  m_Name: the treasure from ancient times
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -520,7 +520,7 @@ GameObject:
   - 4: {fileID: 403080}
   - 114: {fileID: 11403076}
   m_Layer: 0
-  m_Name: the pirates hidden gold
+  m_Name: the king's riches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -600,7 +600,7 @@ GameObject:
   - 4: {fileID: 403090}
   - 114: {fileID: 11403086}
   m_Layer: 0
-  m_Name: the sacred diamonds
+  m_Name: the wizards magic gems
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -632,7 +632,7 @@ GameObject:
   - 4: {fileID: 403094}
   - 114: {fileID: 11403090}
   m_Layer: 0
-  m_Name: the wizards magic gems
+  m_Name: the king's riches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -648,7 +648,7 @@ GameObject:
   - 4: {fileID: 403096}
   - 114: {fileID: 11403092}
   m_Layer: 0
-  m_Name: Blackbeard's forgotten treasure
+  m_Name: the devils secret fortune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -946,7 +946,7 @@ GameObject:
   - 4: {fileID: 425174}
   - 114: {fileID: 11425162}
   m_Layer: 0
-  m_Name: safer roads allowing for better items
+  m_Name: sturdier armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2803,7 +2803,7 @@ GameObject:
   - 4: {fileID: 447918}
   - 114: {fileID: 11447916}
   m_Layer: 0
-  m_Name: The Wind Armor
+  m_Name: The Fire Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2867,7 +2867,7 @@ GameObject:
   - 4: {fileID: 447926}
   - 114: {fileID: 11447924}
   m_Layer: 0
-  m_Name: The Wind Armor
+  m_Name: The Magical Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3041,7 +3041,7 @@ GameObject:
   - 4: {fileID: 455522}
   - 114: {fileID: 11455524}
   m_Layer: 0
-  m_Name: The Earth Armor
+  m_Name: The Blazing Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3057,7 +3057,7 @@ GameObject:
   - 4: {fileID: 455524}
   - 114: {fileID: 11455526}
   m_Layer: 0
-  m_Name: rare weaponry
+  m_Name: upgraded weaponry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3089,7 +3089,7 @@ GameObject:
   - 4: {fileID: 455528}
   - 114: {fileID: 11455530}
   m_Layer: 0
-  m_Name: new contacts with stronger weapons
+  m_Name: tougher armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3121,7 +3121,7 @@ GameObject:
   - 4: {fileID: 455532}
   - 114: {fileID: 11455534}
   m_Layer: 0
-  m_Name: safer roads allowing for better items
+  m_Name: rare weaponry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3169,7 +3169,7 @@ GameObject:
   - 4: {fileID: 455538}
   - 114: {fileID: 11455540}
   m_Layer: 0
-  m_Name: tougher armor
+  m_Name: a trade caravan allowing for more excotic gear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3201,7 +3201,7 @@ GameObject:
   - 4: {fileID: 455542}
   - 114: {fileID: 11455544}
   m_Layer: 0
-  m_Name: improved equipment
+  m_Name: rare weaponry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3233,7 +3233,7 @@ GameObject:
   - 4: {fileID: 455546}
   - 114: {fileID: 11455548}
   m_Layer: 0
-  m_Name: improved equipment
+  m_Name: new contacts with stronger weapons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3249,7 +3249,7 @@ GameObject:
   - 4: {fileID: 455548}
   - 114: {fileID: 11455550}
   m_Layer: 0
-  m_Name: rare weaponry
+  m_Name: better trading routes opening more equipment options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3297,7 +3297,7 @@ GameObject:
   - 4: {fileID: 455554}
   - 114: {fileID: 11455556}
   m_Layer: 0
-  m_Name: improved equipment
+  m_Name: safer roads allowing for better items
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3945,7 +3945,7 @@ GameObject:
   - 4: {fileID: 471058}
   - 114: {fileID: 11471050}
   m_Layer: 0
-  m_Name: The Magical Armor
+  m_Name: The Earth Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3993,7 +3993,7 @@ GameObject:
   - 4: {fileID: 471064}
   - 114: {fileID: 11471056}
   m_Layer: 0
-  m_Name: The Thunder Armor
+  m_Name: The Magical Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4073,7 +4073,7 @@ GameObject:
   - 4: {fileID: 471074}
   - 114: {fileID: 11471066}
   m_Layer: 0
-  m_Name: The Magical Armor
+  m_Name: The Water Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4137,7 +4137,7 @@ GameObject:
   - 4: {fileID: 471082}
   - 114: {fileID: 11471074}
   m_Layer: 0
-  m_Name: The Mad King's Staff
+  m_Name: The Dragon Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4185,7 +4185,7 @@ GameObject:
   - 4: {fileID: 471088}
   - 114: {fileID: 11471080}
   m_Layer: 0
-  m_Name: The Leaf Staff
+  m_Name: The Magical Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4201,7 +4201,7 @@ GameObject:
   - 4: {fileID: 471090}
   - 114: {fileID: 11471082}
   m_Layer: 0
-  m_Name: The Magical Staff
+  m_Name: The Leaf Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4249,7 +4249,7 @@ GameObject:
   - 4: {fileID: 471096}
   - 114: {fileID: 11471088}
   m_Layer: 0
-  m_Name: The Fire Staff
+  m_Name: The Dragon Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4265,7 +4265,7 @@ GameObject:
   - 4: {fileID: 471098}
   - 114: {fileID: 11471090}
   m_Layer: 0
-  m_Name: The Magical Staff
+  m_Name: The Fire Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4344,7 +4344,7 @@ GameObject:
   - 4: {fileID: 471108}
   - 114: {fileID: 11471098}
   m_Layer: 0
-  m_Name: The Thunder Staff
+  m_Name: The Ice Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4408,7 +4408,7 @@ GameObject:
   - 4: {fileID: 471116}
   - 114: {fileID: 11471106}
   m_Layer: 0
-  m_Name: The Dragon Staff
+  m_Name: The Mad King's Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4456,7 +4456,7 @@ GameObject:
   - 4: {fileID: 471122}
   - 114: {fileID: 11471112}
   m_Layer: 0
-  m_Name: The Wind Staff
+  m_Name: The Water Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4472,7 +4472,7 @@ GameObject:
   - 4: {fileID: 471124}
   - 114: {fileID: 11471114}
   m_Layer: 0
-  m_Name: The Water Bow
+  m_Name: The Wind Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4520,7 +4520,7 @@ GameObject:
   - 4: {fileID: 471130}
   - 114: {fileID: 11471120}
   m_Layer: 0
-  m_Name: The Mad King's Bow
+  m_Name: The Fire Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4536,7 +4536,7 @@ GameObject:
   - 4: {fileID: 471132}
   - 114: {fileID: 11471122}
   m_Layer: 0
-  m_Name: The Fire Bow
+  m_Name: The Earth Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4584,7 +4584,7 @@ GameObject:
   - 4: {fileID: 471138}
   - 114: {fileID: 11471128}
   m_Layer: 0
-  m_Name: The Earth Bow
+  m_Name: The Sacred Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4615,7 +4615,7 @@ GameObject:
   - 4: {fileID: 471142}
   - 114: {fileID: 11471130}
   m_Layer: 0
-  m_Name: The Fire Sword
+  m_Name: The Wind Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4663,7 +4663,7 @@ GameObject:
   - 4: {fileID: 471148}
   - 114: {fileID: 11471136}
   m_Layer: 0
-  m_Name: The Fire Bow
+  m_Name: The Water Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4679,7 +4679,7 @@ GameObject:
   - 4: {fileID: 471150}
   - 114: {fileID: 11471138}
   m_Layer: 0
-  m_Name: The Leaf Bow
+  m_Name: The Fire Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4743,7 +4743,7 @@ GameObject:
   - 4: {fileID: 471158}
   - 114: {fileID: 11471146}
   m_Layer: 0
-  m_Name: The Magical Bow
+  m_Name: The Water Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4791,7 +4791,7 @@ GameObject:
   - 4: {fileID: 471164}
   - 114: {fileID: 11471152}
   m_Layer: 0
-  m_Name: The Molten Bow
+  m_Name: The Dragon Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4871,7 +4871,7 @@ GameObject:
   - 4: {fileID: 471174}
   - 114: {fileID: 11471162}
   m_Layer: 0
-  m_Name: The Fire Sword
+  m_Name: The Mad King's Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4919,7 +4919,7 @@ GameObject:
   - 4: {fileID: 471180}
   - 114: {fileID: 11471168}
   m_Layer: 0
-  m_Name: The Fire Sword
+  m_Name: The Wind Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4935,7 +4935,7 @@ GameObject:
   - 4: {fileID: 471182}
   - 114: {fileID: 11471170}
   m_Layer: 0
-  m_Name: The Magical Sword
+  m_Name: The Thunder Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4983,7 +4983,7 @@ GameObject:
   - 4: {fileID: 471188}
   - 114: {fileID: 11471176}
   m_Layer: 0
-  m_Name: The Magical Sword
+  m_Name: The Fire Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5014,7 +5014,7 @@ GameObject:
   - 4: {fileID: 471192}
   - 114: {fileID: 11471178}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: The Ice Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5062,7 +5062,7 @@ GameObject:
   - 4: {fileID: 471198}
   - 114: {fileID: 11471184}
   m_Layer: 0
-  m_Name: The Fire Sword
+  m_Name: The Earth Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5078,7 +5078,7 @@ GameObject:
   - 4: {fileID: 471200}
   - 114: {fileID: 11471186}
   m_Layer: 0
-  m_Name: The Mad King's Sword
+  m_Name: The Thunder Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5126,7 +5126,7 @@ GameObject:
   - 4: {fileID: 471206}
   - 114: {fileID: 11471192}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: The Fire Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5143,6 +5143,150 @@ GameObject:
   - 114: {fileID: 11471194}
   m_Layer: 0
   m_Name: Sword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &176802
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476802}
+  - 114: {fileID: 11476802}
+  m_Layer: 0
+  m_Name: Boss Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &176804
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476804}
+  - 114: {fileID: 11476804}
+  m_Layer: 0
+  m_Name: Boss Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &176806
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476806}
+  - 114: {fileID: 11476806}
+  m_Layer: 0
+  m_Name: Boss Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &176808
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476808}
+  - 114: {fileID: 11476808}
+  m_Layer: 0
+  m_Name: Boss Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &176810
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476810}
+  - 114: {fileID: 11476810}
+  m_Layer: 0
+  m_Name: Boss Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &176812
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476812}
+  - 114: {fileID: 11476812}
+  m_Layer: 0
+  m_Name: Boss Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &176814
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476814}
+  - 114: {fileID: 11476814}
+  m_Layer: 0
+  m_Name: Boss Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &176816
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476816}
+  - 114: {fileID: 11476816}
+  m_Layer: 0
+  m_Name: Boss Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &176818
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476818}
+  - 114: {fileID: 11476818}
+  m_Layer: 0
+  m_Name: Boss Quest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6396,6 +6540,15 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 476802}
+  - {fileID: 476804}
+  - {fileID: 476806}
+  - {fileID: 476808}
+  - {fileID: 476810}
+  - {fileID: 476812}
+  - {fileID: 476814}
+  - {fileID: 476816}
+  - {fileID: 476818}
   - {fileID: 451184}
   m_Father: {fileID: 425192}
   m_RootOrder: 1
@@ -7637,7 +7790,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 435218}
-  m_RootOrder: 0
+  m_RootOrder: 9
 --- !u!4 &455520
 Transform:
   m_ObjectHideFlags: 1
@@ -9359,6 +9512,114 @@ Transform:
   m_Children: []
   m_Father: {fileID: 471056}
   m_RootOrder: 0
+--- !u!4 &476802
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176802}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435218}
+  m_RootOrder: 0
+--- !u!4 &476804
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435218}
+  m_RootOrder: 1
+--- !u!4 &476806
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435218}
+  m_RootOrder: 2
+--- !u!4 &476808
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176808}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435218}
+  m_RootOrder: 3
+--- !u!4 &476810
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435218}
+  m_RootOrder: 4
+--- !u!4 &476812
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435218}
+  m_RootOrder: 5
+--- !u!4 &476814
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435218}
+  m_RootOrder: 6
+--- !u!4 &476816
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435218}
+  m_RootOrder: 7
+--- !u!4 &476818
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435218}
+  m_RootOrder: 8
 --- !u!114 &11403016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9384,7 +9645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: rare vegetables
-  detailString: 'We''ve been promised [name] if we complete the task, '
+  detailString: We've been promised [name] if we complete the task,
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403016}
@@ -9412,8 +9673,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: fertilizer
-  detailString: 'We should try to send a search party as we will get rewarded for
-    our trouble with [name], '
+  detailString: We should try to send a search party as we will get rewarded for our
+    trouble with [name],
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403022}
@@ -9454,7 +9715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: forgotten plowing techniques
-  detailString: 'There is a chance of getting [name], '
+  detailString: There is a chance of getting [name],
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403026}
@@ -9497,7 +9758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: nourishing water
-  detailString: 'We could collect a prize of [name] if we chose to do this, '
+  detailString: We could collect a prize of [name] if we chose to do this,
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403030}
@@ -9551,7 +9812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: a bag of magical seeds
-  detailString: 'We will be rewarded with [name] for the town, '
+  detailString: We will be rewarded with [name] for the town,
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403032}
@@ -9592,7 +9853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: a bag of magical seeds
-  detailString: 'If we help out, the farm will be upgraded with [name], '
+  detailString: If we help out, the farm will be upgraded with [name],
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403036}
@@ -9633,8 +9894,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: nourishing water
-  detailString: 'If we complete the task at hand we''ve been promised [name] for the
-    village, '
+  detailString: If we complete the task at hand we've been promised [name] for the
+    village,
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403040}
@@ -9662,7 +9923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: a bag of magical seeds
-  detailString: 'The benefits of this would be [name], '
+  detailString: The benefits of this would be [name],
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403046}
@@ -9716,7 +9977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: a plow
-  detailString: 'If we do that, [name] will be given us, '
+  detailString: If we do that, [name] will be given us,
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403048}
@@ -9744,7 +10005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: a plow
-  detailString: 'It be worth considering as we will recieve [name] for our trouble, '
+  detailString: It be worth considering as we will recieve [name] for our trouble,
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403054}
@@ -9798,7 +10059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: the sacred diamonds
-  detailString: 'as there have been whispers about [name] which would be worth getting. '
+  detailString: as there have been whispers about [name] which would be worth getting
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403056}
@@ -9826,8 +10087,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: the king's riches
-  detailString: 'if we do that, the merchants will give us [rVal] if we find [name].
-    This is surely what we should do. '
+  detailString: if we do that, the merchants will give us [rVal] if we find [name].
+    This is surely what we should do
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403062}
@@ -9881,7 +10142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: the pirates hidden gold
-  detailString: 'maybe we could send a search party for [name]. '
+  detailString: maybe we could send a search party for [name]
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403064}
@@ -9909,7 +10170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Blackbeard's forgotten treasure
-  detailString: 'and follow the tales of [name]. '
+  detailString: and follow the tales of [name]
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403070}
@@ -9950,7 +10211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: the sacred diamonds
-  detailString: 'and try to acquire [name]. '
+  detailString: and try to acquire [name]
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403074}
@@ -9991,7 +10252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: the pirates hidden gold
-  detailString: 'and collect [name]. '
+  detailString: and collect [name]
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403078}
@@ -10045,8 +10306,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: the ancient fortune
-  detailString: 'to collect [name] which is worth [rVal] coins. This is important
-    for us. '
+  detailString: to collect [name] which is worth [rVal] coins. This is important for
+    us
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403080}
@@ -10089,8 +10350,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: the sacred diamonds
-  detailString: 'because there is a chance of finding [name] worth [rVal] coins, this
-    is a good idea. '
+  detailString: because there is a chance of finding [name] worth [rVal] coins, this
+    is a good idea
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403084}
@@ -10131,7 +10392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: the wizards magic gems
-  detailString: 'and try to send a search party for [name]. '
+  detailString: and try to send a search party for [name]
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403088}
@@ -10159,7 +10420,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Blackbeard's forgotten treasure
-  detailString: 'and get [name]. '
+  detailString: and get [name]
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403094}
@@ -10329,7 +10590,7 @@ MonoBehaviour:
   quests:
   - {fileID: 11451176}
   - {fileID: 11425172}
-  - {fileID: 11451184}
+  - {fileID: 11476802}
   prologues:
   - {fileID: 11441628}
   - {fileID: 11441630}
@@ -10523,7 +10784,8 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
-  retryQuestsData: []
+  retryQuestsData:
+  - {fileID: 11435214}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -10983,7 +11245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.RetryQuestData
-  detailString: 
+  detailString: asa
 --- !u!114 &11441628
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12074,7 +12336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Wind Armor
-  detailString: 'and try to send a search party for [name], maybe [rStr] '
+  detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Armor
@@ -12132,7 +12394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Dragon Armor
-  detailString: 'and get [name] ,with it, [rStr] '
+  detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Armor
@@ -12216,8 +12478,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Wind Armor
-  detailString: 'because there is a chance of finding [name]. This could be crucial
-    to us as [rStr] '
+  detailString: because there is a chance of finding [name]. This could be crucial
+    to us as [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Armor
@@ -12275,8 +12537,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: sturdier armor
-  detailString: 'The merchant have promised [name] available for our shop if we complete
-    the task. '
+  detailString: The merchant have promised [name] available for our shop if we complete
+    the task.
   rewardType: 3
   rewardItems: []
   value: {fileID: 11447928}
@@ -12363,7 +12625,8 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
-  retryQuestsData: []
+  retryQuestsData:
+  - {fileID: 11435214}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -12426,15 +12689,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Boss Quest
-  detailString: I'm confident we gathered enough strenght to attack [nBoss]. His army
-    is located at [cLoc] Let's strike and remove this evil from the land!
+  detailString: The [enemy] are all over [location]. They are led by [nBoss], we should
+    head there and defeat him!
   isBossQuest: 1
-  revengeString: Despite our loss against [nBoss] last time around, I'm confident
-    that we are strong enough to defeat him this time. Let's attack him and drive
-    him off this land!
-  minProgressForQuest: 0
-  progressForWinning: 2
-  progressForLosing: 1
+  revengeString: The merchant's trade caravan was attacked by [nBoss] at [location].
+    We should take revenge and make sure we defeat him this time!
+  minProgressForQuest: 3
+  progressForWinning: 1
+  progressForLosing: .25
   randomLocations:
   - {fileID: 11432248}
   - {fileID: 11432250}
@@ -12475,9 +12737,10 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
-  retryQuestsData: []
+  retryQuestsData:
+  - {fileID: 11435214}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 00000000
   questGiver: {fileID: 0}
 --- !u!114 &11455522
 MonoBehaviour:
@@ -12504,7 +12767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Earth Armor
-  detailString: 'to collect [name] which is very powerful, that way [rStr] '
+  detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Blazing Armor
@@ -12562,8 +12825,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: rare weaponry
-  detailString: 'We should try to send a search party as we will get rewarded for
-    out trouble with [name] for offer in our shop. '
+  detailString: We should try to send a search party as we will get rewarded for out
+    trouble with [name] for offer in our shop.
   rewardType: 3
   rewardItems: []
   value: {fileID: 11455528}
@@ -12604,7 +12867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: new contacts with stronger weapons
-  detailString: 'There is a chance of getting [name] to buy in the town. '
+  detailString: There is a chance of getting [name] to buy in the town.
   rewardType: 3
   rewardItems: []
   value: {fileID: 11455532}
@@ -12743,7 +13006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: improved equipment
-  detailString: 'If we help out, the shop will be upgraded with [name]. '
+  detailString: If we help out, the shop will be upgraded with [name].
   rewardType: 3
   rewardItems: []
   value: {fileID: 11455542}
@@ -12813,7 +13076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: rare weaponry
-  detailString: 'The benefits of this would be the shop being upgraded with [name]. '
+  detailString: The benefits of this would be the shop being upgraded with [name].
   rewardType: 3
   rewardItems: []
   value: {fileID: 11455552}
@@ -12867,8 +13130,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: improved equipment
-  detailString: 'If we do that, the merchant will give us [name] as an upgrade to
-    our shop. '
+  detailString: If we do that, the merchant will give us [name] as an upgrade to our
+    shop.
   rewardType: 3
   rewardItems: []
   value: {fileID: 11455554}
@@ -13158,7 +13421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure1
-  detailString: "[rew]\_This would benefit us in the fight against [nBoss] "
+  detailString: '[rew] this would benefit us in the fight against [nBoss] '
   possibleRewardsParent: {fileID: 155556}
   possibleRewards:
   - {fileID: 11471192}
@@ -13214,7 +13477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure2
-  detailString: '[rew] It would certainly help us on our journey '
+  detailString: '[rew] it would certainly help us on our journey '
   possibleRewardsParent: {fileID: 155556}
   possibleRewards:
   - {fileID: 11471192}
@@ -13270,7 +13533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure3
-  detailString: '[rew] This would give us an advantage on the battlefield '
+  detailString: '[rew] this would give us an advantage on the battlefield '
   possibleRewardsParent: {fileID: 155556}
   possibleRewards:
   - {fileID: 11471192}
@@ -13326,7 +13589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure4
-  detailString: '[rew] This would be the best thing to do '
+  detailString: '[rew] this would be the best thing to do '
   possibleRewardsParent: {fileID: 155556}
   possibleRewards:
   - {fileID: 11471192}
@@ -13438,7 +13701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure6
-  detailString: '[rew] We would get a strategic edge over our enemies that way!'
+  detailString: '[rew] we would get a strategic edge over our enemies that way!'
   possibleRewardsParent: {fileID: 155556}
   possibleRewards:
   - {fileID: 11471192}
@@ -13494,7 +13757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure7
-  detailString: '[rew] Surely it would help us improve the team!'
+  detailString: '[rew], surely it would help us improve the team!'
   possibleRewardsParent: {fileID: 155556}
   possibleRewards:
   - {fileID: 11471192}
@@ -13550,7 +13813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure8
-  detailString: "[rew]\_The journey to defeat [nBoss] would most likely get easier"
+  detailString: "[rew],\_the journey to defeat [nBoss] would most likely get easier"
   possibleRewardsParent: {fileID: 155556}
   possibleRewards:
   - {fileID: 11471192}
@@ -13606,7 +13869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure9
-  detailString: '[rew] This way we might be able to defeat [nBoss] without having
+  detailString: '[rew] this way we might be able to defeat [nBoss] without having
     to spend gold on the village! '
   possibleRewardsParent: {fileID: 155556}
   possibleRewards:
@@ -13663,7 +13926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure10
-  detailString: '[rew] Perhaps it would give us an advantage against [nBoss] '
+  detailString: '[rew], perhaps it would give us an advantage against [nBoss] '
   possibleRewardsParent: {fileID: 155556}
   possibleRewards:
   - {fileID: 11471192}
@@ -14009,7 +14272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Magical Armor
-  detailString: "and collect [name] such that [rStr]\_"
+  detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Armor
@@ -14093,7 +14356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Thunder Armor
-  detailString: 'and try to aquire [name] because if we possess it, [rStr] '
+  detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Armor
@@ -14151,7 +14414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Dragon Armor
-  detailString: 'and follow the tales of [name]. If they are true, [rStr] '
+  detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Armor
@@ -14235,7 +14498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Leaf Armor
-  detailString: 'maybe we could send a search party for [name] such that [rStre] '
+  detailString: maybe we could send a search party for [name] such that [rStre]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Armor
@@ -14293,8 +14556,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Magical Armor
-  detailString: 'if we do that, we could find [name]. This is surely what we should
-    do, such that [rStre] '
+  detailString: if we do that, we could find [name]. This is surely what we should
+    do, such that [rStre]
   rewardType: 2
   rewardItems:
   - item_name: The Molten Armor
@@ -14378,8 +14641,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Molten Armor
-  detailString: 'as there have been whispers about [name] which would be worth getting.
-    In our hands [rStr] '
+  detailString: as there have been whispers about [name] which would be worth getting.
+    In our hands [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Molten Armor
@@ -14437,8 +14700,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Mad King's Staff
-  detailString: 'as there have been whispers about [name] which would be worth getting.
-    In our hands [rStr] '
+  detailString: as there have been whispers about [name] which would be worth getting.
+    In our hands [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Molten Staff
@@ -14522,8 +14785,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Leaf Staff
-  detailString: 'if we do that, we could find [name]. This is surely what we should
-    do, such that [rStre] '
+  detailString: if we do that, we could find [name]. This is surely what we should
+    do, such that [rStre]
   rewardType: 2
   rewardItems:
   - item_name: The Molten Staff
@@ -14581,7 +14844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Magical Staff
-  detailString: 'maybe we could send a search party for [name] such that [rStre] '
+  detailString: maybe we could send a search party for [name] such that [rStre]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Staff
@@ -14665,7 +14928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Fire Staff
-  detailString: 'and follow the tales of [name]. If they are true, [rStr] '
+  detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Staff
@@ -14723,7 +14986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Magical Staff
-  detailString: 'and try to aquire [name] because if we possess it, [rStr] '
+  detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Staff
@@ -14807,7 +15070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Magical Staff
-  detailString: "and collect [name] such that [rStr]\_"
+  detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Staff
@@ -14865,7 +15128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Thunder Staff
-  detailString: 'to collect [name] which is very powerful, that way [rStr] '
+  detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Blazing Staff
@@ -14949,7 +15212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Earth Staff
-  detailString: 'and try to send a search party for [name], maybe [rStr] '
+  detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Staff
@@ -15007,7 +15270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Dragon Staff
-  detailString: 'and get [name] ,with it, [rStr] '
+  detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Staff
@@ -15091,8 +15354,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Wind Staff
-  detailString: 'because there is a chance of finding [name]. This could be crucial
-    to us as [rStr] '
+  detailString: because there is a chance of finding [name]. This could be crucial
+    to us as [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Staff
@@ -15150,8 +15413,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Water Bow
-  detailString: 'because there is a chance of finding [name]. This could be crucial
-    to us as [rStr] '
+  detailString: because there is a chance of finding [name]. This could be crucial
+    to us as [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Bow
@@ -15235,7 +15498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Mad King's Bow
-  detailString: 'and get [name] ,with it, [rStr] '
+  detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Bow
@@ -15293,7 +15556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Fire Bow
-  detailString: 'and try to send a search party for [name], maybe [rStr] '
+  detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Bow
@@ -15377,7 +15640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Earth Bow
-  detailString: 'to collect [name] which is very powerful, that way [rStr] '
+  detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Blazing Bow
@@ -15435,7 +15698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Fire Sword
-  detailString: "and collect [name] such that [rStr]\_"
+  detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Sword
@@ -15519,7 +15782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Fire Bow
-  detailString: 'and try to aquire [name] because if we possess it, [rStr] '
+  detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Bow
@@ -15577,7 +15840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Leaf Bow
-  detailString: 'and follow the tales of [name]. If they are true, [rStr] '
+  detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Bow
@@ -15661,7 +15924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Thunder Bow
-  detailString: 'maybe we could send a search party for [name] such that [rStre] '
+  detailString: maybe we could send a search party for [name] such that [rStre]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Bow
@@ -15719,8 +15982,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Magical Bow
-  detailString: 'if we do that, we could find [name]. This is surely what we should
-    do, such that [rStre] '
+  detailString: if we do that, we could find [name]. This is surely what we should
+    do, such that [rStre]
   rewardType: 2
   rewardItems:
   - item_name: The Molten Bow
@@ -15804,8 +16067,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Molten Bow
-  detailString: 'as there have been whispers about [name] which would be worth getting.
-    In our hands [rStr] '
+  detailString: as there have been whispers about [name] which would be worth getting.
+    In our hands [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Molten Bow
@@ -15863,8 +16126,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Molten Sword
-  detailString: 'as there have been whispers about [name] which would be worth getting.
-    In our hands [rStr] '
+  detailString: as there have been whispers about [name] which would be worth getting.
+    In our hands [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Molten Sword
@@ -15948,8 +16211,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Leaf Sword
-  detailString: 'if we do that, we could find [name]. This is surely what we should
-    do, such that [rStre] '
+  detailString: if we do that, we could find [name]. This is surely what we should
+    do, such that [rStre]
   rewardType: 2
   rewardItems:
   - item_name: The Molten Sword
@@ -16007,7 +16270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Fire Sword
-  detailString: 'maybe we could send a search party for [name] such that [rStre] '
+  detailString: maybe we could send a search party for [name] such that [rStre]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Sword
@@ -16091,7 +16354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Fire Sword
-  detailString: 'and follow the tales of [name]. If they are true, [rStr] '
+  detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Sword
@@ -16149,7 +16412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Magical Sword
-  detailString: 'and try to aquire [name] because if we possess it, [rStr] '
+  detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Sword
@@ -16233,7 +16496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Magical Sword
-  detailString: "and collect [name] such that [rStr]\_"
+  detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Sword
@@ -16291,7 +16554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Earth Sword
-  detailString: 'to collect [name] which is very powerful, that way [rStr] '
+  detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Blazing Sword
@@ -16375,7 +16638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Fire Sword
-  detailString: 'and try to send a search party for [name], maybe [rStr] '
+  detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Sword
@@ -16433,7 +16696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Mad King's Sword
-  detailString: 'and get [name] ,with it, [rStr] '
+  detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Sword
@@ -16517,8 +16780,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: The Wind Sword
-  detailString: 'because there is a chance of finding [name]. This could be crucial
-    to us as [rStr] '
+  detailString: because there is a chance of finding [name]. This could be crucial
+    to us as [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Sword
@@ -16579,6 +16842,599 @@ MonoBehaviour:
   detailString: one of our swordsmen would see an increased morale if he gets to use
     it!
   applyToTraits: 06000000
+--- !u!114 &11476802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Boss Quest
+  detailString: I'm confident we gathered enough strenght to attack [nBoss]. His army
+    is located at [cLoc] Let's strike and remove this evil from the land!
+  isBossQuest: 1
+  revengeString: Despite our loss against [nBoss] last time around, I'm confident
+    that we are strong enough to defeat him this time. Let's attack him and drive
+    him off this land!
+  minProgressForQuest: 3
+  progressForWinning: 1
+  progressForLosing: .25
+  randomLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questMoments:
+  - {fileID: 11434654}
+  - {fileID: 11434652}
+  - {fileID: 11425158}
+  outcomePairs:
+  - {fileID: 11446518}
+  - {fileID: 11446516}
+  - {fileID: 11446506}
+  - {fileID: 11446504}
+  - {fileID: 11446494}
+  minorPictures:
+  - {fileID: 11461078}
+  - {fileID: 11461076}
+  - {fileID: 11461074}
+  - {fileID: 11461072}
+  - {fileID: 11461070}
+  - {fileID: 11461068}
+  - {fileID: 11461066}
+  - {fileID: 11461064}
+  - {fileID: 11461062}
+  - {fileID: 11461060}
+  enemies:
+  - {fileID: 11434656}
+  - {fileID: 11434650}
+  - {fileID: 11434648}
+  - {fileID: 11425164}
+  retryQuestsData:
+  - {fileID: 11435214}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
+--- !u!114 &11476804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Boss Quest
+  detailString: '[nBoss] is attacking [location], we should defend the place and try
+    to take out the [nBoss]!'
+  isBossQuest: 1
+  revengeString: We should take revenge against the [nBoss] and attack him now. We've
+    become stronger since last time!
+  minProgressForQuest: 3
+  progressForWinning: 1
+  progressForLosing: .25
+  randomLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questMoments:
+  - {fileID: 11434654}
+  - {fileID: 11434652}
+  - {fileID: 11425158}
+  outcomePairs:
+  - {fileID: 11446518}
+  - {fileID: 11446516}
+  - {fileID: 11446506}
+  - {fileID: 11446504}
+  - {fileID: 11446494}
+  minorPictures:
+  - {fileID: 11461078}
+  - {fileID: 11461076}
+  - {fileID: 11461074}
+  - {fileID: 11461072}
+  - {fileID: 11461070}
+  - {fileID: 11461068}
+  - {fileID: 11461066}
+  - {fileID: 11461064}
+  - {fileID: 11461062}
+  - {fileID: 11461060}
+  enemies:
+  - {fileID: 11434656}
+  - {fileID: 11434650}
+  - {fileID: 11434648}
+  - {fileID: 11425164}
+  retryQuestsData:
+  - {fileID: 11435214}
+  traitRelevance: 1
+  relevantTraits: 02000000
+  questGiver: {fileID: 0}
+--- !u!114 &11476806
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Boss Quest
+  detailString: '[nBoss] is trying to take control of [location]! I think we are strong
+    enough to defeat him!'
+  isBossQuest: 1
+  revengeString: Last time we faced [nBoss] we lost. We have however become stronger
+    sine the previous encounter. I suggest we attack him at [location].
+  minProgressForQuest: 3
+  progressForWinning: 1
+  progressForLosing: .25
+  randomLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questMoments:
+  - {fileID: 11434654}
+  - {fileID: 11434652}
+  - {fileID: 11425158}
+  outcomePairs:
+  - {fileID: 11446518}
+  - {fileID: 11446516}
+  - {fileID: 11446506}
+  - {fileID: 11446504}
+  - {fileID: 11446494}
+  minorPictures:
+  - {fileID: 11461078}
+  - {fileID: 11461076}
+  - {fileID: 11461074}
+  - {fileID: 11461072}
+  - {fileID: 11461070}
+  - {fileID: 11461068}
+  - {fileID: 11461066}
+  - {fileID: 11461064}
+  - {fileID: 11461062}
+  - {fileID: 11461060}
+  enemies:
+  - {fileID: 11434656}
+  - {fileID: 11434650}
+  - {fileID: 11434648}
+  - {fileID: 11425164}
+  retryQuestsData:
+  - {fileID: 11435214}
+  traitRelevance: 1
+  relevantTraits: 02000000
+  questGiver: {fileID: 0}
+--- !u!114 &11476808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Boss Quest
+  detailString: '[location] is currently being overrun by [nBoss] and his [enemy].
+    They are growing stronger by every day that passes. Therefore I suggest we attack
+    them now in order to stop them!'
+  isBossQuest: 1
+  revengeString: The [nBoss] is attacking [location]. We were not able to defeat him
+    last time, but I think we stand a chance now as we are stronger than last time
+    we met him!
+  minProgressForQuest: 3
+  progressForWinning: 1
+  progressForLosing: .25
+  randomLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questMoments:
+  - {fileID: 11434654}
+  - {fileID: 11434652}
+  - {fileID: 11425158}
+  outcomePairs:
+  - {fileID: 11446518}
+  - {fileID: 11446516}
+  - {fileID: 11446506}
+  - {fileID: 11446504}
+  - {fileID: 11446494}
+  minorPictures:
+  - {fileID: 11461078}
+  - {fileID: 11461076}
+  - {fileID: 11461074}
+  - {fileID: 11461072}
+  - {fileID: 11461070}
+  - {fileID: 11461068}
+  - {fileID: 11461066}
+  - {fileID: 11461064}
+  - {fileID: 11461062}
+  - {fileID: 11461060}
+  enemies:
+  - {fileID: 11434656}
+  - {fileID: 11434650}
+  - {fileID: 11434648}
+  - {fileID: 11425164}
+  retryQuestsData:
+  - {fileID: 11435214}
+  traitRelevance: 1
+  relevantTraits: 03000000
+  questGiver: {fileID: 0}
+--- !u!114 &11476810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Boss Quest
+  detailString: The farmers living near [location] are being attacked by [nBoss],
+    we should defend them and defeat [nBoss], such that he longer will terrorize the
+    land!
+  isBossQuest: 1
+  revengeString: We got more intel about [nBoss]. He is conducting some shady business
+    at [location]. We should try and get revenge and attack him!
+  minProgressForQuest: 3
+  progressForWinning: 1
+  progressForLosing: .25
+  randomLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questMoments:
+  - {fileID: 11434654}
+  - {fileID: 11434652}
+  - {fileID: 11425158}
+  outcomePairs:
+  - {fileID: 11446518}
+  - {fileID: 11446516}
+  - {fileID: 11446506}
+  - {fileID: 11446504}
+  - {fileID: 11446494}
+  minorPictures:
+  - {fileID: 11461078}
+  - {fileID: 11461076}
+  - {fileID: 11461074}
+  - {fileID: 11461072}
+  - {fileID: 11461070}
+  - {fileID: 11461068}
+  - {fileID: 11461066}
+  - {fileID: 11461064}
+  - {fileID: 11461062}
+  - {fileID: 11461060}
+  enemies:
+  - {fileID: 11434656}
+  - {fileID: 11434650}
+  - {fileID: 11434648}
+  - {fileID: 11425164}
+  retryQuestsData:
+  - {fileID: 11435214}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
+--- !u!114 &11476812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Boss Quest
+  detailString: The metchant's caravan was attacked by [nBoss] at [location]. We should
+    should help out, I'm sure we are strong enough to defeat him!
+  isBossQuest: 1
+  revengeString: We've gained better skills since last time we faced [nBoss]. We've
+    recieved information about him being located at [location]. I think we should
+    try to take revenge and attack him!
+  minProgressForQuest: 3
+  progressForWinning: 1
+  progressForLosing: .25
+  randomLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questMoments:
+  - {fileID: 11434654}
+  - {fileID: 11434652}
+  - {fileID: 11425158}
+  outcomePairs:
+  - {fileID: 11446518}
+  - {fileID: 11446516}
+  - {fileID: 11446506}
+  - {fileID: 11446504}
+  - {fileID: 11446494}
+  minorPictures:
+  - {fileID: 11461078}
+  - {fileID: 11461076}
+  - {fileID: 11461074}
+  - {fileID: 11461072}
+  - {fileID: 11461070}
+  - {fileID: 11461068}
+  - {fileID: 11461066}
+  - {fileID: 11461064}
+  - {fileID: 11461062}
+  - {fileID: 11461060}
+  enemies:
+  - {fileID: 11434656}
+  - {fileID: 11434650}
+  - {fileID: 11434648}
+  - {fileID: 11425164}
+  retryQuestsData:
+  - {fileID: 11435214}
+  traitRelevance: 1
+  relevantTraits: 03000000
+  questGiver: {fileID: 0}
+--- !u!114 &11476814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Boss Quest
+  detailString: We've grown very strong over our last battles. I feel we have enough
+    strength to defeat [nBoss]. He is currently attending a secret meeting at [location].
+    Let's attack him!
+  isBossQuest: 1
+  revengeString: '[nBoss] is attacking [location]. We lost to him last time around,
+    but if we apply a different strategy this time we might be able to defeat him
+    for good!'
+  minProgressForQuest: 3
+  progressForWinning: 1
+  progressForLosing: .25
+  randomLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questMoments:
+  - {fileID: 11434654}
+  - {fileID: 11434652}
+  - {fileID: 11425158}
+  outcomePairs:
+  - {fileID: 11446518}
+  - {fileID: 11446516}
+  - {fileID: 11446506}
+  - {fileID: 11446504}
+  - {fileID: 11446494}
+  minorPictures:
+  - {fileID: 11461078}
+  - {fileID: 11461076}
+  - {fileID: 11461074}
+  - {fileID: 11461072}
+  - {fileID: 11461070}
+  - {fileID: 11461068}
+  - {fileID: 11461066}
+  - {fileID: 11461064}
+  - {fileID: 11461062}
+  - {fileID: 11461060}
+  enemies:
+  - {fileID: 11434656}
+  - {fileID: 11434650}
+  - {fileID: 11434648}
+  - {fileID: 11425164}
+  retryQuestsData:
+  - {fileID: 11435214}
+  traitRelevance: 1
+  relevantTraits: 02000000
+  questGiver: {fileID: 0}
+--- !u!114 &11476816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Boss Quest
+  detailString: We recieved information that the [nBoss] is at [location]. I suggest
+    we attack at [time] to catch him by surprise!
+  isBossQuest: 1
+  revengeString: '[nBoss] is attacking the farmers at [location]. Despite our previous
+    defeat we should try and help the farmers and attemp to defeat [nBoss]!'
+  minProgressForQuest: 3
+  progressForWinning: 1
+  progressForLosing: .25
+  randomLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questMoments:
+  - {fileID: 11434654}
+  - {fileID: 11434652}
+  - {fileID: 11425158}
+  outcomePairs:
+  - {fileID: 11446518}
+  - {fileID: 11446516}
+  - {fileID: 11446506}
+  - {fileID: 11446504}
+  - {fileID: 11446494}
+  minorPictures:
+  - {fileID: 11461078}
+  - {fileID: 11461076}
+  - {fileID: 11461074}
+  - {fileID: 11461072}
+  - {fileID: 11461070}
+  - {fileID: 11461068}
+  - {fileID: 11461066}
+  - {fileID: 11461064}
+  - {fileID: 11461062}
+  - {fileID: 11461060}
+  enemies:
+  - {fileID: 11434656}
+  - {fileID: 11434650}
+  - {fileID: 11434648}
+  - {fileID: 11425164}
+  retryQuestsData:
+  - {fileID: 11435214}
+  traitRelevance: 1
+  relevantTraits: 03000000
+  questGiver: {fileID: 0}
+--- !u!114 &11476818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Boss Quest
+  detailString: The [nBoss] is on his way to [rlocation]. We could take advantage
+    of this and ambush him at [location]!
+  isBossQuest: 1
+  revengeString: '[nBoss] is still harassing the land as we were not able to kill
+    him. He was last seen at [location]. I suggest we try to face him in battle again,
+    as we have increased in strength since last time!'
+  minProgressForQuest: 3
+  progressForWinning: 1
+  progressForLosing: .25
+  randomLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questLocations:
+  - {fileID: 11432248}
+  - {fileID: 11432250}
+  - {fileID: 11432252}
+  - {fileID: 11432254}
+  - {fileID: 11432256}
+  - {fileID: 11425166}
+  questMoments:
+  - {fileID: 11434654}
+  - {fileID: 11434652}
+  - {fileID: 11425158}
+  outcomePairs:
+  - {fileID: 11446518}
+  - {fileID: 11446516}
+  - {fileID: 11446506}
+  - {fileID: 11446504}
+  - {fileID: 11446494}
+  minorPictures:
+  - {fileID: 11461078}
+  - {fileID: 11461076}
+  - {fileID: 11461074}
+  - {fileID: 11461072}
+  - {fileID: 11461070}
+  - {fileID: 11461068}
+  - {fileID: 11461066}
+  - {fileID: 11461064}
+  - {fileID: 11461062}
+  - {fileID: 11461060}
+  enemies:
+  - {fileID: 11434656}
+  - {fileID: 11434650}
+  - {fileID: 11434648}
+  - {fileID: 11425164}
+  retryQuestsData:
+  - {fileID: 11435214}
+  traitRelevance: 1
+  relevantTraits: 02000000
+  questGiver: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
