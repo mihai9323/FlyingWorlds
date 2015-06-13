@@ -11,11 +11,13 @@ namespace DramaPack{
 		}
 
 		public override string DisplayData(){
-			TagReplacePair[] pairs = new TagReplacePair[4]{
+			this.detailString.Replace ("[nrew]", DramaManager.lastQuest.minorPicture.rewardData.chosenName);
+			TagReplacePair[] pairs = new TagReplacePair[5]{
 				new TagReplacePair ("[rew]", rewardData),
 				new TagReplacePair ("[enemy]",DramaPack.DramaManager.lastQuest.enemyData),
 				new TagReplacePair ("[location]",DramaPack.DramaManager.lastQuest.questLocation),
-				new TagReplacePair ("[nBoss]",DramaManager.nextBoss)
+				new TagReplacePair ("[nBoss]",DramaManager.nextBoss),
+
 
 			};
 			return base.DisplayData (pairs);

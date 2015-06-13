@@ -31,6 +31,9 @@ namespace DramaPack{
 		public string[] namesNonItem;
 		[HideInInspector]public string chosenName{
 			get{
+				if(this.rewardType == RewardType.Item){
+					return chosenItem.ItemName;
+				}else
 				if(string.IsNullOrEmpty(_chosenName)) _chosenName = namesNonItem[(int)Random.Range(0,namesNonItem.Length)];
 				return _chosenName;
 			}
