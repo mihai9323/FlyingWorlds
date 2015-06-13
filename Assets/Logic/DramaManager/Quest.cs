@@ -38,6 +38,9 @@ public class Quest : StringData {
 			this.qd = qd;
 			this.questState = QuestCompletion.NotSelected;
 			this.retryQuestData = retryQuestData;
+			this.minorPicture.rewardData.GenerateName ();
+			this.outcomePair.positiveOutcome.rewardData.chosenItem = this.minorPicture.rewardData.chosenItem;
+			this.outcomePair.negativeOutcome.rewardData.chosenName = this.minorPicture.rewardData.chosenName;
 			this.battle = new Battle (Time.time.ToString(), this.questLocation.name, this.questTime.name, this.questLocation.background, this.questTime.timeColor, this.MonsterChances ());
 			if (FightManager.battles.ContainsKey (battle.id.ToString())) {
 				FightManager.battles[battle.id.ToString()] = this.battle;

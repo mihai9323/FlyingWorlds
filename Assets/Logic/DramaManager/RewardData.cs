@@ -16,6 +16,8 @@ namespace DramaPack{
 
 		public StringData value;
 		public StrategyData strategy;
+
+
 		[HideInInspector]public Item chosenItem{
 			get{
 				if(_chosenItem == null) _chosenItem = new Item(rewardItems[(int)Random.Range(0,rewardItems.Length)],3);
@@ -26,16 +28,39 @@ namespace DramaPack{
 			}
 		}
 		private Item _chosenItem;
+		public string[] namesNonItem;
+		[HideInInspector]public string chosenName{
+			get{
+				if(string.IsNullOrEmpty(_chosenName)) _chosenName = namesNonItem[(int)Random.Range(0,namesNonItem.Length)];
+				return _chosenName;
+			}
+			set{
+				_chosenName = value;
+			}
+		}
+
+
+		private string _chosenName;
 		// Use this for initialization
 		protected override void Update () {
 #if UNITY_EDITOR
 			if(this.rewardType == RewardType.Item){
 				this.name = chosenItem.ItemName;
+			}else{
+				this.name = chosenName;
 			}
 #endif
 			base.Update ();
 		}
-
+		public void GenerateName(){
+			chosenItem = null;
+			chosenName = "";
+			if(this.rewardType == RewardType.Item){
+				this.name = chosenItem.ItemName;
+			}else{
+				this.name = chosenName;
+			}
+		}
 		public override string DisplayData(){
 			List<TagReplacePair> pairs = new List<TagReplacePair> ();
 
@@ -56,6 +81,8 @@ namespace DramaPack{
 				case RewardType.Progression: DramaPack.DramaManager.progression+=1.0f; break;
 				case RewardType.Item: InventoryManager.ItemsInInventory.Add (this.chosenItem); break;
 			}
+			chosenName = "";
+			chosenItem = null;
 		}
 		
 		
