@@ -33,10 +33,27 @@ namespace DramaPack{
 		public float traitRelevance = 1.0f;
 		public TraitManager.TraitTypes[] relevantTraits;
 
-	
-	
 
-		private List<Character> relevantCharacters;
+	
+		private List<Character> relevantCharacters{
+			get{
+				if(_relevantCharacters!=null && _relevantCharacters.Count>0) return _relevantCharacters;
+				else{
+					_relevantCharacters = new List<Character> ();
+					foreach (TraitManager.TraitTypes t in relevantTraits) {
+						if(CharacterManager.charactersByTrait.ContainsKey(t)){
+							foreach(Character c in CharacterManager.charactersByTrait[t]){
+								_relevantCharacters.Add(c);
+							}
+						}
+					}
+
+					return _relevantCharacters;
+				}
+
+			}
+		}
+		private List<Character> _relevantCharacters;
 		public Character questGiver;
 		IEnumerator Start(){
 			timesPlayed = 0;
@@ -45,11 +62,11 @@ namespace DramaPack{
 			}
 
 
-			relevantCharacters = new List<Character> ();
+			_relevantCharacters = new List<Character> ();
 			foreach (TraitManager.TraitTypes t in relevantTraits) {
 				if(CharacterManager.charactersByTrait.ContainsKey(t)){
 					foreach(Character c in CharacterManager.charactersByTrait[t]){
-						relevantCharacters.Add(c);
+						_relevantCharacters.Add(c);
 					}
 				}
 			}
@@ -119,16 +136,17 @@ namespace DramaPack{
 				if(progressScore <0) isNoFit = true; //we did not progress enough to get this quest
 				float timesEncounteredScore = (float)(timesPlayed);
 				float traitScore = 0;
-				if(relevantCharacters != null){
+				if(relevantCharacters != null && relevantCharacters.Count>0){
 					var bestCharacter = (from character 
 										in relevantCharacters
 										where true
 					                    orderby (character.Moral * traitRelevance / 100)
 					                    select character).LastOrDefault();
+					Debug.Log(bestCharacter);
 					this.questGiver = bestCharacter;
 					traitScore = (1-bestCharacter.CalculateMoral()) * traitRelevance;
 				}else{
-					Debug.Log("no quest give");
+					Debug.Log("no quest giver");
 					isNoFit = true; //there are no quest givers => we can not get this quest
 				}
 				if(isNoFit){

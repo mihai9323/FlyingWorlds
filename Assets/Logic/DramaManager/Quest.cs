@@ -41,12 +41,7 @@ public class Quest : StringData {
 
 			this.minorPicture.ChooseRewardFromArray ();
 			this.minorPicture.rewardData.GenerateName ();
-
-			if (this.outcomePair.positiveOutcome.rewardData.rewardType == RewardData.RewardType.Item) {
-				this.outcomePair.positiveOutcome.rewardData.chosenItem = this.outcomePair.negativeOutcome.rewardData.chosenItem = this.minorPicture.rewardData.chosenItem;
-			} else {
-				this.outcomePair.positiveOutcome.rewardData.chosenName = this.outcomePair.negativeOutcome.rewardData.chosenName = this.minorPicture.rewardData.chosenName;
-			}
+			this.outcomePair.positiveOutcome.rewardData = this.outcomePair.negativeOutcome.rewardData = this.minorPicture.rewardData;
 			this.battle = new Battle (Time.time.ToString(), this.questLocation.name, this.questTime.name, this.questLocation.background, this.questTime.timeColor, this.MonsterChances ());
 			if (FightManager.battles.ContainsKey (battle.id.ToString())) {
 				FightManager.battles[battle.id.ToString()] = this.battle;
