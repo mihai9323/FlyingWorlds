@@ -12856,7 +12856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Evil Wizards
-  detailString: Archer
+  detailString: Evil Wizards
   enemyTypeChances:
   - .5
   - .100000001
@@ -21395,9 +21395,9 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance:
-  - .75
-  - .75
-  - 1.5
+  - 1
+  - 1
+  - 1
   relevantTraits: 00000000090000000b000000
   questGiver: {fileID: 0}
 --- !u!114 &11482766
