@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 403018}
   - 114: {fileID: 11403018}
   m_Layer: 0
-  m_Name: nourishing water
+  m_Name: a bag of fertilizer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 403020}
   - 114: {fileID: 11403020}
   m_Layer: 0
-  m_Name: expensive spices
+  m_Name: a bag of magical seeds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ GameObject:
   - 4: {fileID: 403024}
   - 114: {fileID: 11403024}
   m_Layer: 0
-  m_Name: fertilizer
+  m_Name: a plow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ GameObject:
   - 4: {fileID: 403028}
   - 114: {fileID: 11403028}
   m_Layer: 0
-  m_Name: a batch of crops
+  m_Name: a bag of magical seeds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ GameObject:
   - 4: {fileID: 403034}
   - 114: {fileID: 11403034}
   m_Layer: 0
-  m_Name: secret planting techniques
+  m_Name: a handful of expensive spices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -186,7 +186,7 @@ GameObject:
   - 4: {fileID: 403038}
   - 114: {fileID: 11403038}
   m_Layer: 0
-  m_Name: a bag of magical seeds
+  m_Name: forgotten plowing techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -282,7 +282,7 @@ GameObject:
   - 4: {fileID: 403050}
   - 114: {fileID: 11403050}
   m_Layer: 0
-  m_Name: rare vegetables
+  m_Name: a basket of excotic fruit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -298,7 +298,7 @@ GameObject:
   - 4: {fileID: 403052}
   - 114: {fileID: 11403052}
   m_Layer: 0
-  m_Name: secret planting techniques
+  m_Name: a plow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,7 +376,7 @@ GameObject:
   - 4: {fileID: 403062}
   - 114: {fileID: 11403058}
   m_Layer: 0
-  m_Name: the ancient fortune
+  m_Name: the devils secret fortune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -392,7 +392,7 @@ GameObject:
   - 4: {fileID: 403064}
   - 114: {fileID: 11403060}
   m_Layer: 0
-  m_Name: Captain Sparrow's lost jewels
+  m_Name: the ancient fortune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,7 +440,7 @@ GameObject:
   - 4: {fileID: 403070}
   - 114: {fileID: 11403066}
   m_Layer: 0
-  m_Name: the wizards magic gems
+  m_Name: the king's riches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -456,7 +456,7 @@ GameObject:
   - 4: {fileID: 403072}
   - 114: {fileID: 11403068}
   m_Layer: 0
-  m_Name: the devils secret fortune
+  m_Name: the king's riches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -488,7 +488,7 @@ GameObject:
   - 4: {fileID: 403076}
   - 114: {fileID: 11403072}
   m_Layer: 0
-  m_Name: the king's riches
+  m_Name: the wizards magic gems
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -520,7 +520,7 @@ GameObject:
   - 4: {fileID: 403080}
   - 114: {fileID: 11403076}
   m_Layer: 0
-  m_Name: Blackbeard's forgotten treasure
+  m_Name: the king's riches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -568,7 +568,7 @@ GameObject:
   - 4: {fileID: 403086}
   - 114: {fileID: 11403082}
   m_Layer: 0
-  m_Name: Captain Sparrow's lost jewels
+  m_Name: the wizards magic gems
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -600,7 +600,7 @@ GameObject:
   - 4: {fileID: 403090}
   - 114: {fileID: 11403086}
   m_Layer: 0
-  m_Name: the mystic jewels
+  m_Name: Captain Sparrow's lost jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -632,7 +632,7 @@ GameObject:
   - 4: {fileID: 403094}
   - 114: {fileID: 11403090}
   m_Layer: 0
-  m_Name: the king's riches
+  m_Name: Captain Sparrow's lost jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -648,7 +648,7 @@ GameObject:
   - 4: {fileID: 403096}
   - 114: {fileID: 11403092}
   m_Layer: 0
-  m_Name: the king's riches
+  m_Name: the pirates hidden gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -946,7 +946,7 @@ GameObject:
   - 4: {fileID: 425174}
   - 114: {fileID: 11425162}
   m_Layer: 0
-  m_Name: new contacts with stronger weapons
+  m_Name: better trading routes opening more equipment options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1164,7 +1164,7 @@ GameObject:
   - 4: {fileID: 428334}
   - 114: {fileID: 11428334}
   m_Layer: 0
-  m_Name: new contacts with stronger weapons
+  m_Name: sturdier armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3072,7 +3072,7 @@ GameObject:
   - 4: {fileID: 447918}
   - 114: {fileID: 11447916}
   m_Layer: 0
-  m_Name: The Earth Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3088,7 +3088,7 @@ GameObject:
   - 4: {fileID: 447920}
   - 114: {fileID: 11447918}
   m_Layer: 0
-  m_Name: The Mad King's Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3136,7 +3136,7 @@ GameObject:
   - 4: {fileID: 447926}
   - 114: {fileID: 11447924}
   m_Layer: 0
-  m_Name: The Magical Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3310,7 +3310,7 @@ GameObject:
   - 4: {fileID: 455522}
   - 114: {fileID: 11455524}
   m_Layer: 0
-  m_Name: The Thunder Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3326,7 +3326,7 @@ GameObject:
   - 4: {fileID: 455524}
   - 114: {fileID: 11455526}
   m_Layer: 0
-  m_Name: tougher armor
+  m_Name: a trade caravan allowing for more excotic gear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3358,7 +3358,7 @@ GameObject:
   - 4: {fileID: 455528}
   - 114: {fileID: 11455530}
   m_Layer: 0
-  m_Name: upgraded weaponry
+  m_Name: tougher armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3390,7 +3390,7 @@ GameObject:
   - 4: {fileID: 455532}
   - 114: {fileID: 11455534}
   m_Layer: 0
-  m_Name: new contacts with stronger weapons
+  m_Name: tougher armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3438,7 +3438,7 @@ GameObject:
   - 4: {fileID: 455538}
   - 114: {fileID: 11455540}
   m_Layer: 0
-  m_Name: improved equipment
+  m_Name: new contacts with stronger weapons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3470,7 +3470,7 @@ GameObject:
   - 4: {fileID: 455542}
   - 114: {fileID: 11455544}
   m_Layer: 0
-  m_Name: new contacts with stronger weapons
+  m_Name: safer roads allowing for better items
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3502,7 +3502,7 @@ GameObject:
   - 4: {fileID: 455546}
   - 114: {fileID: 11455548}
   m_Layer: 0
-  m_Name: improved equipment
+  m_Name: a trade caravan allowing for more excotic gear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3518,7 +3518,7 @@ GameObject:
   - 4: {fileID: 455548}
   - 114: {fileID: 11455550}
   m_Layer: 0
-  m_Name: upgraded weaponry
+  m_Name: stronger materials
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3566,7 +3566,7 @@ GameObject:
   - 4: {fileID: 455554}
   - 114: {fileID: 11455556}
   m_Layer: 0
-  m_Name: sturdier armor
+  m_Name: safer roads allowing for better items
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4214,7 +4214,7 @@ GameObject:
   - 4: {fileID: 471058}
   - 114: {fileID: 11471050}
   m_Layer: 0
-  m_Name: The Earth Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4262,7 +4262,7 @@ GameObject:
   - 4: {fileID: 471064}
   - 114: {fileID: 11471056}
   m_Layer: 0
-  m_Name: The Thunder Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4278,7 +4278,7 @@ GameObject:
   - 4: {fileID: 471066}
   - 114: {fileID: 11471058}
   m_Layer: 0
-  m_Name: The Fire Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4326,7 +4326,7 @@ GameObject:
   - 4: {fileID: 471072}
   - 114: {fileID: 11471064}
   m_Layer: 0
-  m_Name: The Mad King's Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4342,7 +4342,7 @@ GameObject:
   - 4: {fileID: 471074}
   - 114: {fileID: 11471066}
   m_Layer: 0
-  m_Name: The Water Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4390,7 +4390,7 @@ GameObject:
   - 4: {fileID: 471080}
   - 114: {fileID: 11471072}
   m_Layer: 0
-  m_Name: The Mad King's Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4406,7 +4406,7 @@ GameObject:
   - 4: {fileID: 471082}
   - 114: {fileID: 11471074}
   m_Layer: 0
-  m_Name: The Mad King's Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4454,7 +4454,7 @@ GameObject:
   - 4: {fileID: 471088}
   - 114: {fileID: 11471080}
   m_Layer: 0
-  m_Name: The Leaf Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4470,7 +4470,7 @@ GameObject:
   - 4: {fileID: 471090}
   - 114: {fileID: 11471082}
   m_Layer: 0
-  m_Name: The Fire Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4518,7 +4518,7 @@ GameObject:
   - 4: {fileID: 471096}
   - 114: {fileID: 11471088}
   m_Layer: 0
-  m_Name: The Water Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4534,7 +4534,7 @@ GameObject:
   - 4: {fileID: 471098}
   - 114: {fileID: 11471090}
   m_Layer: 0
-  m_Name: The Thunder Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4582,7 +4582,7 @@ GameObject:
   - 4: {fileID: 471104}
   - 114: {fileID: 11471096}
   m_Layer: 0
-  m_Name: The Wind Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4613,7 +4613,7 @@ GameObject:
   - 4: {fileID: 471108}
   - 114: {fileID: 11471098}
   m_Layer: 0
-  m_Name: The Sacred Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4661,7 +4661,7 @@ GameObject:
   - 4: {fileID: 471114}
   - 114: {fileID: 11471104}
   m_Layer: 0
-  m_Name: The Fire Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4677,7 +4677,7 @@ GameObject:
   - 4: {fileID: 471116}
   - 114: {fileID: 11471106}
   m_Layer: 0
-  m_Name: The Dragon Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4725,7 +4725,7 @@ GameObject:
   - 4: {fileID: 471122}
   - 114: {fileID: 11471112}
   m_Layer: 0
-  m_Name: The Earth Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4741,7 +4741,7 @@ GameObject:
   - 4: {fileID: 471124}
   - 114: {fileID: 11471114}
   m_Layer: 0
-  m_Name: The Wind Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4789,7 +4789,7 @@ GameObject:
   - 4: {fileID: 471130}
   - 114: {fileID: 11471120}
   m_Layer: 0
-  m_Name: The Earth Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4805,7 +4805,7 @@ GameObject:
   - 4: {fileID: 471132}
   - 114: {fileID: 11471122}
   m_Layer: 0
-  m_Name: The Magical Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4853,7 +4853,7 @@ GameObject:
   - 4: {fileID: 471138}
   - 114: {fileID: 11471128}
   m_Layer: 0
-  m_Name: The Ice Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4884,7 +4884,7 @@ GameObject:
   - 4: {fileID: 471142}
   - 114: {fileID: 11471130}
   m_Layer: 0
-  m_Name: The Magical Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4932,7 +4932,7 @@ GameObject:
   - 4: {fileID: 471148}
   - 114: {fileID: 11471136}
   m_Layer: 0
-  m_Name: The Earth Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4948,7 +4948,7 @@ GameObject:
   - 4: {fileID: 471150}
   - 114: {fileID: 11471138}
   m_Layer: 0
-  m_Name: The Fire Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4996,7 +4996,7 @@ GameObject:
   - 4: {fileID: 471156}
   - 114: {fileID: 11471144}
   m_Layer: 0
-  m_Name: The Thunder Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5012,7 +5012,7 @@ GameObject:
   - 4: {fileID: 471158}
   - 114: {fileID: 11471146}
   m_Layer: 0
-  m_Name: The Molten Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5060,7 +5060,7 @@ GameObject:
   - 4: {fileID: 471164}
   - 114: {fileID: 11471152}
   m_Layer: 0
-  m_Name: The Molten Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5076,7 +5076,7 @@ GameObject:
   - 4: {fileID: 471166}
   - 114: {fileID: 11471154}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5124,7 +5124,7 @@ GameObject:
   - 4: {fileID: 471172}
   - 114: {fileID: 11471160}
   m_Layer: 0
-  m_Name: The Leaf Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5140,7 +5140,7 @@ GameObject:
   - 4: {fileID: 471174}
   - 114: {fileID: 11471162}
   m_Layer: 0
-  m_Name: The Mad King's Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5188,7 +5188,7 @@ GameObject:
   - 4: {fileID: 471180}
   - 114: {fileID: 11471168}
   m_Layer: 0
-  m_Name: The Leaf Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5204,7 +5204,7 @@ GameObject:
   - 4: {fileID: 471182}
   - 114: {fileID: 11471170}
   m_Layer: 0
-  m_Name: The Water Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5252,7 +5252,7 @@ GameObject:
   - 4: {fileID: 471188}
   - 114: {fileID: 11471176}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5283,7 +5283,7 @@ GameObject:
   - 4: {fileID: 471192}
   - 114: {fileID: 11471178}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5331,7 +5331,7 @@ GameObject:
   - 4: {fileID: 471198}
   - 114: {fileID: 11471184}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5347,7 +5347,7 @@ GameObject:
   - 4: {fileID: 471200}
   - 114: {fileID: 11471186}
   m_Layer: 0
-  m_Name: The Dragon Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5395,7 +5395,7 @@ GameObject:
   - 4: {fileID: 471206}
   - 114: {fileID: 11471192}
   m_Layer: 0
-  m_Name: The Water Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11784,7 +11784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: nourishing water
+  name: a bag of fertilizer
   detailString: We've been promised [name] if we complete the task,
   rewardType: 4
   rewardItems: []
@@ -11813,7 +11813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: expensive spices
+  name: a bag of magical seeds
   detailString: We should try to send a search party as we will get rewarded for our
     trouble with [name],
   rewardType: 4
@@ -11856,7 +11856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: fertilizer
+  name: a plow
   detailString: There is a chance of getting [name],
   rewardType: 4
   rewardItems: []
@@ -11900,7 +11900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a batch of crops
+  name: a bag of magical seeds
   detailString: We could collect a prize of [name] if we chose to do this,
   rewardType: 4
   rewardItems: []
@@ -11955,7 +11955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: secret planting techniques
+  name: a handful of expensive spices
   detailString: We will be rewarded with [name] for the town,
   rewardType: 4
   rewardItems: []
@@ -11997,7 +11997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a bag of magical seeds
+  name: forgotten plowing techniques
   detailString: If we help out, the farm will be upgraded with [name],
   rewardType: 4
   rewardItems: []
@@ -12124,7 +12124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: rare vegetables
+  name: a basket of excotic fruit
   detailString: If we do that, [name] will be given us,
   rewardType: 4
   rewardItems: []
@@ -12153,7 +12153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: secret planting techniques
+  name: a plow
   detailString: It be worth considering as we will recieve [name] for our trouble,
   rewardType: 4
   rewardItems: []
@@ -12208,7 +12208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the ancient fortune
+  name: the devils secret fortune
   detailString: as there have been whispers about [name] which would be worth getting
   rewardType: 1
   rewardItems: []
@@ -12237,7 +12237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Captain Sparrow's lost jewels
+  name: the ancient fortune
   detailString: if we do that, the merchants will give us [rVal] if we find [name].
     This is surely what we should do
   rewardType: 1
@@ -12293,7 +12293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the wizards magic gems
+  name: the king's riches
   detailString: maybe we could send a search party for [name]
   rewardType: 1
   rewardItems: []
@@ -12322,7 +12322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the devils secret fortune
+  name: the king's riches
   detailString: and follow the tales of [name]
   rewardType: 1
   rewardItems: []
@@ -12364,7 +12364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the king's riches
+  name: the wizards magic gems
   detailString: and try to acquire [name]
   rewardType: 1
   rewardItems: []
@@ -12406,7 +12406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Blackbeard's forgotten treasure
+  name: the king's riches
   detailString: and collect [name]
   rewardType: 1
   rewardItems: []
@@ -12461,7 +12461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Captain Sparrow's lost jewels
+  name: the wizards magic gems
   detailString: to collect [name] which is worth [rVal] coins. This is important for
     us
   rewardType: 1
@@ -12504,7 +12504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the mystic jewels
+  name: Captain Sparrow's lost jewels
   detailString: because there is a chance of finding [name] worth [rVal] coins, this
     is a good idea
   rewardType: 1
@@ -12547,7 +12547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the king's riches
+  name: Captain Sparrow's lost jewels
   detailString: and try to send a search party for [name]
   rewardType: 1
   rewardItems: []
@@ -12576,7 +12576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the king's riches
+  name: the pirates hidden gold
   detailString: and get [name]
   rewardType: 1
   rewardItems: []
@@ -12831,7 +12831,7 @@ MonoBehaviour:
   - .25
   - .5
   - .125
-  timeColor: {r: .608110607, g: .632352948, b: .381271631, a: 1}
+  timeColor: {r: .91911763, g: .74610728, b: .527140975, a: 1}
 --- !u!114 &11425160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12858,7 +12858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: new contacts with stronger weapons
+  name: better trading routes opening more equipment options
   detailString: It be worth considering as the shop would be upgraded with [name].
   rewardType: 3
   rewardItems: []
@@ -13001,8 +13001,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -13062,7 +13068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: new contacts with stronger weapons
+  name: sturdier armor
   detailString: The merchant have promised [name] available for our shop if we complete
     the task.
   rewardType: 3
@@ -13484,7 +13490,7 @@ MonoBehaviour:
   - .5
   - .125
   - .25
-  timeColor: {r: .755907714, g: .875, b: .733455896, a: 1}
+  timeColor: {r: .969168365, g: 1, b: .860294104, a: 1}
 --- !u!114 &11434654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13503,7 +13509,7 @@ MonoBehaviour:
   - .125
   - .125
   - .25
-  timeColor: {r: .369809687, g: .521700919, b: .698529422, a: 1}
+  timeColor: {r: .326286763, g: .464312911, b: .625, a: 1}
 --- !u!114 &11434656
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14785,7 +14791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Armor
+  name: None
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -14848,7 +14854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Armor
+  name: None
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -14937,7 +14943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Armor
+  name: None
   detailString: because there is a chance of finding [name]. This could be crucial
     to us as [rStr]
   rewardType: 2
@@ -15086,8 +15092,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -15192,8 +15204,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - 1
   - .5
@@ -15224,7 +15242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Thunder Sword
+  name: None
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -15287,7 +15305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: tougher armor
+  name: a trade caravan allowing for more excotic gear
   detailString: We should try to send a search party as we will get rewarded for out
     trouble with [name] for offer in our shop.
   rewardType: 3
@@ -15330,7 +15348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: upgraded weaponry
+  name: tougher armor
   detailString: There is a chance of getting [name] to buy in the town.
   rewardType: 3
   rewardItems: []
@@ -15374,7 +15392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: new contacts with stronger weapons
+  name: tougher armor
   detailString: We could collect a prize of [name] for the shop in the town, if we
     chose to do this.
   rewardType: 3
@@ -15430,7 +15448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: improved equipment
+  name: new contacts with stronger weapons
   detailString: We will be rewarded with [name] available for the town's shop.
   rewardType: 3
   rewardItems: []
@@ -15472,7 +15490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: new contacts with stronger weapons
+  name: safer roads allowing for better items
   detailString: If we help out, the shop will be upgraded with [name].
   rewardType: 3
   rewardItems: []
@@ -15514,7 +15532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: improved equipment
+  name: a trade caravan allowing for more excotic gear
   detailString: We've been promised [name] for the shop, if we complete the task at
     hand.
   rewardType: 3
@@ -15544,7 +15562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: upgraded weaponry
+  name: stronger materials
   detailString: The benefits of this would be the shop being upgraded with [name].
   rewardType: 3
   rewardItems: []
@@ -15599,7 +15617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: sturdier armor
+  name: safer roads allowing for better items
   detailString: If we do that, the merchant will give us [name] as an upgrade to our
     shop.
   rewardType: 3
@@ -16735,7 +16753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Armor
+  name: None
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -16824,7 +16842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Thunder Armor
+  name: None
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -16887,7 +16905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Armor
+  name: None
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -16976,7 +16994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Armor
+  name: None
   detailString: maybe we could send a search party for [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -17039,7 +17057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Armor
+  name: None
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStr]
   rewardType: 2
@@ -17129,7 +17147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Armor
+  name: None
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -17193,7 +17211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Staff
+  name: None
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -17283,7 +17301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Leaf Staff
+  name: None
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStr]
   rewardType: 2
@@ -17347,7 +17365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Staff
+  name: None
   detailString: maybe we could send a search party for [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -17436,7 +17454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Staff
+  name: None
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -17499,7 +17517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Thunder Staff
+  name: None
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -17588,7 +17606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Staff
+  name: None
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -17651,7 +17669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Sacred Staff
+  name: None
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -17740,7 +17758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Staff
+  name: None
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -17803,7 +17821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Staff
+  name: None
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -17892,7 +17910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Staff
+  name: None
   detailString: because there is a chance of finding [name]. This could be crucial
     to us as [rStr]
   rewardType: 2
@@ -17956,7 +17974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Bow
+  name: None
   detailString: because there is a chance of finding [name]. This could be crucial
     to us as [rStr]
   rewardType: 2
@@ -18046,7 +18064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Bow
+  name: None
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -18109,7 +18127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Bow
+  name: None
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -18198,7 +18216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Ice Bow
+  name: None
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -18261,7 +18279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Sword
+  name: None
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -18350,7 +18368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Bow
+  name: None
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -18413,7 +18431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Bow
+  name: None
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -18502,7 +18520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Thunder Bow
+  name: None
   detailString: maybe we could send a search party for [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -18565,7 +18583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Molten Bow
+  name: None
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStr]
   rewardType: 2
@@ -18655,7 +18673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Molten Bow
+  name: None
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -18719,7 +18737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Sword
+  name: None
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -18809,7 +18827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Leaf Sword
+  name: None
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStr]
   rewardType: 2
@@ -18873,7 +18891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Sword
+  name: None
   detailString: maybe we could send a search party for [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -18962,7 +18980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Leaf Sword
+  name: None
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -19025,7 +19043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Sword
+  name: None
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -19114,7 +19132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Sword
+  name: None
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -19177,7 +19195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Sword
+  name: None
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -19266,7 +19284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Sword
+  name: None
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -19329,7 +19347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Sword
+  name: None
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -19418,7 +19436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Sword
+  name: None
   detailString: because there is a chance of finding [name]. This could be crucial
     to us as [rStr]
   rewardType: 2
@@ -19539,8 +19557,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - 1
   - .5
@@ -19600,8 +19624,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - 1
   - .5
@@ -19661,8 +19691,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - 1
   - .5
@@ -19724,8 +19760,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - 1
   - .5
@@ -19786,8 +19828,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - 1
   - .5
@@ -19848,8 +19896,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - 1
   - .5
@@ -19911,8 +19965,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - 1
   - .5
@@ -19972,8 +20032,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - 1
   - .5
@@ -20034,8 +20100,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - 1
   - .5
@@ -20103,8 +20175,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - .75
@@ -20171,8 +20249,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - .75
@@ -20240,8 +20324,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - .75
@@ -20309,8 +20399,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - .75
@@ -20378,8 +20474,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - .75
@@ -20447,8 +20549,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - .75
@@ -20516,8 +20624,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - .75
@@ -20585,8 +20699,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - .75
@@ -20655,8 +20775,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - .75
@@ -20723,8 +20849,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - .75
@@ -20793,8 +20925,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -20862,8 +21000,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -20932,8 +21076,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -21002,8 +21152,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -21071,8 +21227,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -21140,8 +21302,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -21209,8 +21377,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -21278,8 +21452,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -21347,8 +21527,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -21416,8 +21602,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -21485,8 +21677,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - 1
@@ -21553,8 +21751,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - 1
@@ -21622,8 +21826,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - 1
@@ -21692,8 +21902,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - 1
@@ -21761,8 +21977,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - 1
@@ -21830,8 +22052,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - 1
@@ -21899,8 +22127,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - 1
@@ -21968,8 +22202,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - 1
@@ -22037,8 +22277,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - 1
@@ -22105,8 +22351,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .5
   - 1
@@ -22173,8 +22425,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - 1
   - 1
@@ -22242,8 +22500,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -22311,8 +22575,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -22380,8 +22650,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -22449,8 +22725,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -22519,8 +22801,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -22588,8 +22876,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
@@ -22657,8 +22951,14 @@ MonoBehaviour:
   - {fileID: 11434650}
   - {fileID: 11434648}
   - {fileID: 11425164}
+  retryQuestsParent: {fileID: 145826}
   retryQuestsData:
   - {fileID: 11445826}
+  - {fileID: 11445824}
+  - {fileID: 11445822}
+  - {fileID: 11445820}
+  - {fileID: 11445818}
+  - {fileID: 11445816}
   traitRelevance:
   - .75
   - .75
