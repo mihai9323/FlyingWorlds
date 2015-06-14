@@ -67,10 +67,19 @@ public class Quest : StringData {
 				f [1] = mChances (1);
 				f [2] = mChances (2);
 				f [3] = mChances (3);
-
+				f = normalizeFloatArray (f);
 				return f;
 		}
-
+		float[] normalizeFloatArray(float[] fArray){
+			float sum = 0;
+			foreach (float f in fArray) {
+				sum+= f;
+			}
+			for (int i = 0; i<fArray.Length; i++) {
+				fArray[i] /=sum;
+			}
+			return fArray;
+		}
 		float mChances(int index){
 			return (this.questLocation.enemyTypeChances[index] + this.questTime.enemyTypeChances[index] + this.enemyData.enemyTypeChances[index]*2)/4;
 		}
