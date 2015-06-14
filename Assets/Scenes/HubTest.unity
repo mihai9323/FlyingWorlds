@@ -319,6 +319,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11482764, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+      propertyPath: traitRelevance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 11451184, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
       propertyPath: retryQuestsData.Array.size
       value: 1
@@ -682,6 +686,18 @@ Prefab:
     - target: {fileID: 11451184, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
       propertyPath: relevantTraits.Array.data[0]
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11482764, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+      propertyPath: traitRelevance.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11482764, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+      propertyPath: traitRelevance.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11482764, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+      propertyPath: traitRelevance.Array.data[2]
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
@@ -3879,8 +3895,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 02000000
+  traitRelevance: []
+  relevantTraits: 000000000900000005000000
   questGiver: {fileID: 0}
 --- !u!1 &80562498
 GameObject:
@@ -5586,8 +5602,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 010000000c0000000b000000
   questGiver: {fileID: 0}
 --- !u!1 &131596404
 GameObject:
@@ -6397,8 +6413,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 000000000900000005000000
   questGiver: {fileID: 0}
 --- !u!1 &150551196
 GameObject:
@@ -6752,8 +6768,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 01000000040000000b000000
   questGiver: {fileID: 0}
 --- !u!1 &167851758
 GameObject:
@@ -7023,8 +7039,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 010000000c0000000a000000
   questGiver: {fileID: 0}
 --- !u!1 &171584291
 GameObject:
@@ -7801,8 +7817,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 01000000040000000a000000
   questGiver: {fileID: 0}
 --- !u!1 &189985682
 GameObject:
@@ -11633,8 +11649,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 00000000090000000b000000
   questGiver: {fileID: 0}
 --- !u!1 &280101526
 GameObject:
@@ -14226,8 +14242,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 000000000900000005000000
   questGiver: {fileID: 0}
 --- !u!1 &329846333
 GameObject:
@@ -15250,8 +15266,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &355087039
 GameObject:
@@ -16269,8 +16285,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 03000000
+  traitRelevance: []
+  relevantTraits: 020000000c00000008000000
   questGiver: {fileID: 0}
 --- !u!1 &373903090
 GameObject:
@@ -19534,8 +19550,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &434932867
 GameObject:
@@ -20975,8 +20991,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 030000000c00000006000000
   questGiver: {fileID: 0}
 --- !u!1 &467645772
 GameObject:
@@ -22445,8 +22461,11 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance:
+  - 1
+  - 1
+  - 1
+  relevantTraits: 00000000090000000b000000
   questGiver: {fileID: 0}
 --- !u!1 &502350282
 GameObject:
@@ -22879,8 +22898,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 00000000040000000a000000
   questGiver: {fileID: 0}
 --- !u!1 &506203760
 GameObject:
@@ -24059,8 +24078,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 02000000
+  traitRelevance: []
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &528326575
 GameObject:
@@ -25465,8 +25484,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 01000000040000000a000000
   questGiver: {fileID: 0}
 --- !u!1 &551628501
 GameObject:
@@ -26264,8 +26283,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 030000000700000006000000
   questGiver: {fileID: 0}
 --- !u!1 &560501582
 GameObject:
@@ -27425,7 +27444,54 @@ MonoBehaviour:
   quests:
   - {fileID: 2035165756}
   - {fileID: 904493213}
+  - {fileID: 1761010190}
+  - {fileID: 1818236823}
+  - {fileID: 1511519064}
+  - {fileID: 867742152}
+  - {fileID: 2083123235}
+  - {fileID: 1418539794}
+  - {fileID: 463762110}
+  - {fileID: 329606932}
   - {fileID: 434876791}
+  - {fileID: 80341480}
+  - {fileID: 528234784}
+  - {fileID: 1480448427}
+  - {fileID: 1092927926}
+  - {fileID: 373403116}
+  - {fileID: 737081568}
+  - {fileID: 1540905739}
+  - {fileID: 1363419228}
+  - {fileID: 1101165629}
+  - {fileID: 652213468}
+  - {fileID: 968073684}
+  - {fileID: 504723246}
+  - {fileID: 189847350}
+  - {fileID: 549977352}
+  - {fileID: 1620268847}
+  - {fileID: 171176209}
+  - {fileID: 1034293918}
+  - {fileID: 1171523555}
+  - {fileID: 1095494568}
+  - {fileID: 1448110502}
+  - {fileID: 1664221816}
+  - {fileID: 1784195453}
+  - {fileID: 351253221}
+  - {fileID: 1416210745}
+  - {fileID: 1231065511}
+  - {fileID: 907986824}
+  - {fileID: 559675800}
+  - {fileID: 2074799248}
+  - {fileID: 150231881}
+  - {fileID: 1670054564}
+  - {fileID: 1886648723}
+  - {fileID: 167587882}
+  - {fileID: 1972091737}
+  - {fileID: 590272599}
+  - {fileID: 131039082}
+  - {fileID: 278679841}
+  - {fileID: 1870090462}
+  - {fileID: 1725753989}
+  - {fileID: 501320947}
   prologues:
   - {fileID: 2042036470}
   - {fileID: 1045869176}
@@ -27434,8 +27500,14 @@ MonoBehaviour:
   - {fileID: 423921870}
   miniBossList:
   - {fileID: 862118783}
-  endBossList:
+  - {fileID: 963933534}
   - {fileID: 1581453924}
+  - {fileID: 744549314}
+  endBossList:
+  - {fileID: 862118783}
+  - {fileID: 963933534}
+  - {fileID: 1581453924}
+  - {fileID: 744549314}
 --- !u!1 &588253319
 GameObject:
   m_ObjectHideFlags: 0
@@ -27781,8 +27853,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 02000000070000000b000000
   questGiver: {fileID: 0}
 --- !u!1 &592283029
 GameObject:
@@ -30769,8 +30841,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 01000000040000000a000000
   questGiver: {fileID: 0}
 --- !u!1 &652305320
 GameObject:
@@ -35203,8 +35275,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 02000000
+  traitRelevance: []
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &737542611
 GameObject:
@@ -41971,8 +42043,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 020000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &869934234
 GameObject:
@@ -43736,8 +43808,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Treasure Quest
-  detailString: The [nBoss] is sending a caravan with [rname] to [rlocation]. We should
-    intercept it at [location], [mPic]
+  detailString: '[nBoss] is sending a caravan with [rname] to [rlocation]. We should
+    intercept it at [location], [mPic]'
   isBossQuest: 0
   revengeString: 
   minProgressForQuest: 0
@@ -43785,8 +43857,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 030000000c00000006000000
   questGiver: {fileID: 0}
 --- !u!1 &906408625
 GameObject:
@@ -43920,8 +43992,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 020000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &909289477
 GameObject:
@@ -46299,8 +46371,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 03000000070000000a000000
   questGiver: {fileID: 0}
 --- !u!1 &970870631
 GameObject:
@@ -48786,8 +48858,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 03000000070000000a000000
   questGiver: {fileID: 0}
 --- !u!1 &1038443282
 GameObject:
@@ -51566,8 +51638,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 000000000900000005000000
   questGiver: {fileID: 0}
 --- !u!1 &1095218160
 GameObject:
@@ -51715,8 +51787,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 01000000040000000a000000
   questGiver: {fileID: 0}
 --- !u!1 &1095726618
 GameObject:
@@ -52085,8 +52157,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 955684679}
-  traitRelevance: 1
-  relevantTraits: 04000000
+  traitRelevance: []
+  relevantTraits: 040000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &1104409503
 GameObject:
@@ -53432,7 +53504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f93b871a88ed0114185b64590c520b2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _generateCharacters: 0
+  _generateCharacters: 1
   _gameCharacters:
   - {fileID: 179590111}
   - {fileID: 1741660841}
@@ -56749,8 +56821,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 01000000040000000a000000
   questGiver: {fileID: 0}
 --- !u!1 &1171978317
 GameObject:
@@ -60196,8 +60268,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 000000000c00000005000000
   questGiver: {fileID: 0}
 --- !u!1 &1232188249
 GameObject:
@@ -66942,8 +67014,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 02000000
+  traitRelevance: []
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &1365270165
 GameObject:
@@ -69784,8 +69856,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 020000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &1416455131
 GameObject:
@@ -70083,8 +70155,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &1421428454
 GameObject:
@@ -71205,8 +71277,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 000000000900000005000000
   questGiver: {fileID: 0}
 --- !u!1 &1450053865
 GameObject:
@@ -72755,8 +72827,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 03000000
+  traitRelevance: []
+  relevantTraits: 020000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &1482213909
 GameObject:
@@ -73885,8 +73957,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &1515098676
 GameObject:
@@ -75076,8 +75148,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 03000000
+  traitRelevance: []
+  relevantTraits: 000000000c00000005000000
   questGiver: {fileID: 0}
 --- !u!1 &1541663701
 GameObject:
@@ -78711,8 +78783,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 02000000070000000a000000
   questGiver: {fileID: 0}
 --- !u!1 &1621057326
 GameObject:
@@ -80822,8 +80894,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &1664530999
 GameObject:
@@ -81373,8 +81445,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 955684679}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 01000000040000000b000000
   questGiver: {fileID: 0}
 --- !u!1 &1671110173
 GameObject:
@@ -83287,8 +83359,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 03000000070000000b000000
   questGiver: {fileID: 0}
 --- !u!1 &1731447170
 GameObject:
@@ -84977,8 +85049,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &1761750533
 GameObject:
@@ -85948,8 +86020,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 020000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &1786881434
 GameObject:
@@ -87288,8 +87360,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 020000000900000005000000
   questGiver: {fileID: 0}
 --- !u!1 &1818871551
 GameObject:
@@ -89890,8 +89962,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 02000000040000000b000000
   questGiver: {fileID: 0}
 --- !u!1 &1870544804
 GameObject:
@@ -90933,8 +91005,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 955684679}
-  traitRelevance: 1
-  relevantTraits: 09000000
+  traitRelevance: []
+  relevantTraits: 09000000090000000b000000
   questGiver: {fileID: 0}
 --- !u!1 &1886979657
 GameObject:
@@ -95543,8 +95615,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 01000000040000000b000000
   questGiver: {fileID: 0}
 --- !u!1 &1976387663
 GameObject:
@@ -98197,7 +98269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Treasure Quest
-  detailString: We should go to [cLoc] and face the [cEne], [mPic]
+  detailString: We should go to [location] and face the [enemy], [mPic]
   isBossQuest: 0
   revengeString: 
   minProgressForQuest: 0
@@ -98245,8 +98317,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &2036180090
 GameObject:
@@ -100163,8 +100235,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!1 &2075338370
 GameObject:
@@ -100719,8 +100791,8 @@ MonoBehaviour:
   - {fileID: 302080555}
   retryQuestsData:
   - {fileID: 1469531264}
-  traitRelevance: 1
-  relevantTraits: 01000000
+  traitRelevance: []
+  relevantTraits: 000000000c00000005000000
   questGiver: {fileID: 0}
 --- !u!1 &2086478326
 GameObject:

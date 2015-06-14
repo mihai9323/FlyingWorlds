@@ -30,8 +30,12 @@ namespace DramaPack{
 		public MinorPictureData[] minorPictures;
 		public EnemyData[] enemies;
 		public RetryQuestData[] retryQuestsData;
-		public float traitRelevance = 1.0f;
+		public float[] traitRelevance;
 		public TraitManager.TraitTypes[] relevantTraits;
+
+		private Dictionary<TraitManager.TraitTypes,float> relevanceTraitPair;
+
+
 
 
 	
@@ -55,6 +59,19 @@ namespace DramaPack{
 		}
 		private List<Character> _relevantCharacters;
 		public Character questGiver;
+
+		private void Awake(){
+			if (traitRelevance.Length < relevantTraits.Length) {
+				traitRelevance = new float[relevantTraits.Length];
+
+			}
+			relevanceTraitPair = new Dictionary<TraitManager.TraitTypes, float> ();
+			for (int i = 0; i<relevantTraits.Length; i++) {
+				if(!relevanceTraitPair.ContainsKey(relevantTraits[i])){
+				relevanceTraitPair.Add(relevantTraits[i],traitRelevance[i]);
+				}
+			}
+		}
 		IEnumerator Start(){
 			timesPlayed = 0;
 			while(!CharacterManager.isReady){
@@ -144,14 +161,19 @@ namespace DramaPack{
 				float timesEncounteredScore = (float)(timesPlayed);
 				float traitScore = 0;
 				if(relevantCharacters != null && relevantCharacters.Count>0){
-					var bestCharacter = (from character 
-										in relevantCharacters
-										where true
-					                    orderby (character.Moral * traitRelevance / 100)
-					                    select character).LastOrDefault();
+
+					Character bestCharacter = null;
+					float bestScore = 0;
+					for(int i =0;i<relevantCharacters.Count; i++){
+						float r = relevantCharacters[i].Moral * traitRelevance[i] / 100;
+						if(bestScore < r){
+							bestScore = r;
+							bestCharacter = relevantCharacters[i];
+						}
+					}
 					Debug.Log(bestCharacter);
 					this.questGiver = bestCharacter;
-					traitScore = (1-bestCharacter.CalculateMoral()) * traitRelevance;
+					traitScore = bestScore;
 				}else{
 					Debug.Log("no quest giver");
 					isNoFit = true; //there are no quest givers => we can not get this quest

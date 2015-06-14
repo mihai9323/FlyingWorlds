@@ -14,6 +14,8 @@ namespace DramaPack{
 		public DramaPack.ConnectorData[] conectors;
 
 
+		public static int nrOfQuests;
+
 
 		public static Quest questBest;
 		public static Quest questSecondBest;
@@ -51,6 +53,7 @@ namespace DramaPack{
 		}
 
 		public void Select2Quests(){
+			nrOfQuests = 0;
 			Debug.Log ("Select 2 quests");
 			noQuestSelected = true;
 			var questData = (from q 
@@ -68,12 +71,19 @@ namespace DramaPack{
 					Debug.Log("Best quest is not the same");
 					questBest = questData[0].GenerateQuest();
 				}
-
+				nrOfQuests = 1;
 
 				if(questData.Count>1){
-					Debug.Log("Selected second quests");
-					questSecondBest = questData[1].GenerateQuest();
-					Debug.Log(questSecondBest.name);
+					foreach(QuestData qd in questData){
+						if(qd.questGiver != questBest.qd.questGiver){
+							nrOfQuests = 2;
+							Debug.Log("Selected second quests");
+							questSecondBest = qd.GenerateQuest();
+							Debug.Log(questSecondBest.name);
+							break;
+						}
+					}
+
 				}else{
 					questSecondBest = null;
 				}
@@ -83,7 +93,7 @@ namespace DramaPack{
 			QuestStoryBuilder ();
 
 			Debug.Log(questSecondBest.name);
-			Debug.Log ("number of quests found"+questData.Count);
+			Debug.Log ("number of quests found:"+questData.Count);
 			if (questData.Count == 1) {
 				HubManager.questUI.Configure (questBest);
 			} else if(questData.Count>1){
@@ -123,9 +133,15 @@ namespace DramaPack{
 		}
 
 		public void QuestStoryBuilder(){
-			if (questSecondBest == null) {
+
+
+			if (nrOfQuests == 1) {
 				questSecondBest = questBest.qd.GenerateQuest ();
-				Debug.Log("Second quest was null");
+				Debug.Log ("Second quest was null");
+			} else {
+				while(questBest.questLocation == questSecondBest.questLocation){
+					questSecondBest = questBest.qd.GenerateQuest ();
+				}
 			}
 			Debug.Log ("building story string");
 			if (progression == 0) {
