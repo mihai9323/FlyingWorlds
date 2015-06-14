@@ -165,7 +165,15 @@ namespace DramaPack{
 					Character bestCharacter = null;
 					float bestScore = 0;
 					for(int i =0;i<relevantCharacters.Count; i++){
-						float r = relevantCharacters[i].Moral * traitRelevance[i] / 100;
+						float f1= 0.01f,f2 = 0.01f;
+						if(relevanceTraitPair.ContainsKey(relevantCharacters[i].Traits[0])){
+							f1 =  relevanceTraitPair[relevantCharacters[i].Traits[0]];
+						}
+						if(relevanceTraitPair.ContainsKey(relevantCharacters[i].Traits[1])){
+							f2 =  relevanceTraitPair[relevantCharacters[i].Traits[1]];
+						}
+						float relevance = Mathf.Max(f1,f2);
+						float r = relevantCharacters[i].Moral * relevance / 100;
 						if(bestScore < r){
 							bestScore = r;
 							bestCharacter = relevantCharacters[i];
