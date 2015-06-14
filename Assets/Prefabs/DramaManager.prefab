@@ -1535,6 +1535,197 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &145806
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445806}
+  - 114: {fileID: 11445806}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &145808
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445808}
+  - 114: {fileID: 11445808}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &145810
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445810}
+  - 114: {fileID: 11445810}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &145812
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445812}
+  - 114: {fileID: 11445812}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &145814
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445814}
+  - 114: {fileID: 11445814}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &145816
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445816}
+  - 114: {fileID: 11445816}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &145818
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445818}
+  - 114: {fileID: 11445818}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &145820
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445820}
+  - 114: {fileID: 11445820}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &145822
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445822}
+  - 114: {fileID: 11445822}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &145824
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445824}
+  - 114: {fileID: 11445824}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &145826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445826}
+  m_Layer: 0
+  m_Name: RetryQuests
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &145828
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445828}
+  - 114: {fileID: 11445826}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &146394
 GameObject:
   m_ObjectHideFlags: 1
@@ -6656,6 +6847,7 @@ Transform:
   - {fileID: 425160}
   - {fileID: 425182}
   - {fileID: 425196}
+  - {fileID: 445826}
   - {fileID: 435214}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -7172,8 +7364,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 435216}
+  - {fileID: 445806}
+  - {fileID: 445808}
+  - {fileID: 445810}
+  - {fileID: 445812}
+  - {fileID: 445814}
   m_Father: {fileID: 425162}
-  m_RootOrder: 12
+  m_RootOrder: 13
 --- !u!4 &435216
 Transform:
   m_ObjectHideFlags: 1
@@ -7232,6 +7429,156 @@ Transform:
   m_Children: []
   m_Father: {fileID: 425196}
   m_RootOrder: 1
+--- !u!4 &445806
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435214}
+  m_RootOrder: 1
+--- !u!4 &445808
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145808}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435214}
+  m_RootOrder: 2
+--- !u!4 &445810
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435214}
+  m_RootOrder: 3
+--- !u!4 &445812
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435214}
+  m_RootOrder: 4
+--- !u!4 &445814
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 435214}
+  m_RootOrder: 5
+--- !u!4 &445816
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 445826}
+  m_RootOrder: 5
+--- !u!4 &445818
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 445826}
+  m_RootOrder: 4
+--- !u!4 &445820
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145820}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 445826}
+  m_RootOrder: 3
+--- !u!4 &445822
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 445826}
+  m_RootOrder: 2
+--- !u!4 &445824
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 445826}
+  m_RootOrder: 1
+--- !u!4 &445826
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145826}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 445828}
+  - {fileID: 445824}
+  - {fileID: 445822}
+  - {fileID: 445820}
+  - {fileID: 445818}
+  - {fileID: 445816}
+  m_Father: {fileID: 425162}
+  m_RootOrder: 12
+--- !u!4 &445828
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 445826}
+  m_RootOrder: 0
 --- !u!4 &446394
 Transform:
   m_ObjectHideFlags: 1
@@ -11231,8 +11578,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 420
+  detailString: 420
 --- !u!114 &11403058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11301,8 +11648,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 423
+  detailString: 423
 --- !u!114 &11403064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11314,8 +11661,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 601
+  detailString: 601
 --- !u!114 &11403066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11383,8 +11730,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 409
+  detailString: 409
 --- !u!114 &11403072
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11424,8 +11771,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 542
+  detailString: 542
 --- !u!114 &11403076
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11465,8 +11812,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 459
+  detailString: 459
 --- !u!114 &11403080
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11478,8 +11825,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 610
+  detailString: 610
 --- !u!114 &11403082
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11520,10 +11867,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: '500
-
-'
+  name: 390
+  detailString: 390
 --- !u!114 &11403086
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11564,8 +11909,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 513
+  detailString: 513
 --- !u!114 &11403090
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11633,8 +11978,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 478
+  detailString: 478
 --- !u!114 &11425136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11973,9 +12318,9 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 09000000
   questGiver: {fileID: 0}
 --- !u!114 &11425174
 MonoBehaviour:
@@ -12433,7 +12778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.RetryQuestData
-  detailString: asa
+  detailString: Despite the loss I suggest we try again! [pmPic]
 --- !u!114 &11441628
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12469,6 +12814,157 @@ MonoBehaviour:
     by an evil army. We know a name of one of the captains, [nBoss]. He is powerful
     and is capable of doing great damage to the lands of Ahor. One little village
     withstands, but in order to overcome this army they are in need of a great leader
+--- !u!114 &11445806
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: Even though we failed the last battle I think we should launch a counter
+    attack! [pmPic]
+--- !u!114 &11445808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: I believe we can win the battle of [plocation] if we change our strategy!
+    Let's go back! [pmPic]
+--- !u!114 &11445810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: I felt we could have won the last battle! I'm convinced we'll win
+    if we strike again! Come on let's do it! [pmPic]
+--- !u!114 &11445812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: It would be worth making another push at [plocation] as it would benefit
+    our cause. We should attack again! [pmPic]
+--- !u!114 &11445814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: Despite the loss I suggest we go back [pmPic]
+--- !u!114 &11445816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: Despite the loss I suggest we go back [pmPic]
+--- !u!114 &11445818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: It would be worth making another push at [plocation] as it would benefit
+    our cause. We should attack again! [pmPic]
+--- !u!114 &11445820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: I felt we could have won the last battle! I'm convinced we'll win
+    if we strike again! Come on let's do it! [pmPic]
+--- !u!114 &11445822
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: I believe we can win the battle of [plocation] if we change our strategy!
+    Let's go back! [pmPic]
+--- !u!114 &11445824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: Even though we failed the last battle I think we should launch a counter
+    attack! [pmPic]
+--- !u!114 &11445826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: Despite the loss I suggest we try again! [pmPic]
 --- !u!114 &11446404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13138,7 +13634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
   detailString: Defeating the [enemy] at [location] went succesful, we located [nrew]
-    and have recieved Value for it.
+    and have recieved [value] for it.
   rewardData: {fileID: 0}
 --- !u!114 &11446498
 MonoBehaviour:
@@ -13183,8 +13679,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: With the victory at [location] and the retrieved [nrew] we are in
-    a good spot.
+  detailString: With the victory at [location] and the retrieved [nrew] giving u more
+    money to spend on weapons.
   rewardData: {fileID: 0}
 --- !u!114 &11446504
 MonoBehaviour:
@@ -13815,7 +14311,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -13925,9 +14421,9 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 00000000
+  relevantTraits: 04000000
   questGiver: {fileID: 0}
 --- !u!114 &11455522
 MonoBehaviour:
@@ -18091,7 +18587,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -18156,7 +18652,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 02000000
   questGiver: {fileID: 0}
@@ -18221,7 +18717,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 02000000
   questGiver: {fileID: 0}
@@ -18288,7 +18784,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 03000000
   questGiver: {fileID: 0}
@@ -18354,7 +18850,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -18420,7 +18916,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 03000000
   questGiver: {fileID: 0}
@@ -18487,7 +18983,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 02000000
   questGiver: {fileID: 0}
@@ -18552,7 +19048,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 03000000
   questGiver: {fileID: 0}
@@ -18618,7 +19114,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 02000000
   questGiver: {fileID: 0}
@@ -18682,7 +19178,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -18745,7 +19241,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -18809,7 +19305,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -18873,7 +19369,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -18937,7 +19433,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19001,7 +19497,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19065,7 +19561,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19129,7 +19625,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19194,7 +19690,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19257,7 +19753,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19322,7 +19818,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19386,7 +19882,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19451,7 +19947,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19516,7 +20012,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19580,7 +20076,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19644,7 +20140,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19708,7 +20204,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19772,7 +20268,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19836,7 +20332,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19900,7 +20396,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -19964,7 +20460,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20027,7 +20523,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20091,7 +20587,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20156,7 +20652,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20220,7 +20716,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20284,7 +20780,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20348,7 +20844,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20412,7 +20908,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20476,7 +20972,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20539,7 +21035,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20602,7 +21098,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20667,7 +21163,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20731,7 +21227,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20795,7 +21291,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20859,7 +21355,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20924,7 +21420,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20988,7 +21484,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -21052,7 +21548,7 @@ MonoBehaviour:
   - {fileID: 11434648}
   - {fileID: 11425164}
   retryQuestsData:
-  - {fileID: 11435214}
+  - {fileID: 11445826}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
