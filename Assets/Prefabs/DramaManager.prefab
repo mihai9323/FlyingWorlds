@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 403018}
   - 114: {fileID: 11403018}
   m_Layer: 0
-  m_Name: a plow
+  m_Name: fertilizer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 403020}
   - 114: {fileID: 11403020}
   m_Layer: 0
-  m_Name: secret planting techniques
+  m_Name: a batch of crops
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ GameObject:
   - 4: {fileID: 403024}
   - 114: {fileID: 11403024}
   m_Layer: 0
-  m_Name: fertilizer
+  m_Name: a bag of magical seeds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ GameObject:
   - 4: {fileID: 403028}
   - 114: {fileID: 11403028}
   m_Layer: 0
-  m_Name: a plow
+  m_Name: a bag of magical seeds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ GameObject:
   - 4: {fileID: 403034}
   - 114: {fileID: 11403034}
   m_Layer: 0
-  m_Name: forgotten plowing techniques
+  m_Name: a plow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -186,7 +186,7 @@ GameObject:
   - 4: {fileID: 403038}
   - 114: {fileID: 11403038}
   m_Layer: 0
-  m_Name: expensive spices
+  m_Name: a bag of magical seeds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -218,7 +218,7 @@ GameObject:
   - 4: {fileID: 403042}
   - 114: {fileID: 11403042}
   m_Layer: 0
-  m_Name: rare vegetables
+  m_Name: fertilizer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,7 +234,7 @@ GameObject:
   - 4: {fileID: 403044}
   - 114: {fileID: 11403044}
   m_Layer: 0
-  m_Name: forgotten plowing techniques
+  m_Name: secret planting techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -282,7 +282,7 @@ GameObject:
   - 4: {fileID: 403050}
   - 114: {fileID: 11403050}
   m_Layer: 0
-  m_Name: nourishing water
+  m_Name: secret planting techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -298,7 +298,7 @@ GameObject:
   - 4: {fileID: 403052}
   - 114: {fileID: 11403052}
   m_Layer: 0
-  m_Name: a batch of crops
+  m_Name: rare vegetables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -360,7 +360,7 @@ GameObject:
   - 4: {fileID: 403060}
   - 114: {fileID: 11403056}
   m_Layer: 0
-  m_Name: 500
+  m_Name: 420
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,7 +376,7 @@ GameObject:
   - 4: {fileID: 403062}
   - 114: {fileID: 11403058}
   m_Layer: 0
-  m_Name: the king's riches
+  m_Name: the mystic jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -392,7 +392,7 @@ GameObject:
   - 4: {fileID: 403064}
   - 114: {fileID: 11403060}
   m_Layer: 0
-  m_Name: the pirates hidden gold
+  m_Name: the ancient fortune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -408,7 +408,7 @@ GameObject:
   - 4: {fileID: 403066}
   - 114: {fileID: 11403062}
   m_Layer: 0
-  m_Name: 500
+  m_Name: 423
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -424,7 +424,7 @@ GameObject:
   - 4: {fileID: 403068}
   - 114: {fileID: 11403064}
   m_Layer: 0
-  m_Name: 500
+  m_Name: 601
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,7 +440,7 @@ GameObject:
   - 4: {fileID: 403070}
   - 114: {fileID: 11403066}
   m_Layer: 0
-  m_Name: the king's riches
+  m_Name: the wizards magic gems
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -456,7 +456,7 @@ GameObject:
   - 4: {fileID: 403072}
   - 114: {fileID: 11403068}
   m_Layer: 0
-  m_Name: the ancient fortune
+  m_Name: Captain Sparrow's lost jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -472,7 +472,7 @@ GameObject:
   - 4: {fileID: 403074}
   - 114: {fileID: 11403070}
   m_Layer: 0
-  m_Name: 500
+  m_Name: 409
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -488,7 +488,7 @@ GameObject:
   - 4: {fileID: 403076}
   - 114: {fileID: 11403072}
   m_Layer: 0
-  m_Name: the treasure from ancient times
+  m_Name: Blackbeard's forgotten treasure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -504,7 +504,7 @@ GameObject:
   - 4: {fileID: 403078}
   - 114: {fileID: 11403074}
   m_Layer: 0
-  m_Name: 500
+  m_Name: 542
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -520,7 +520,7 @@ GameObject:
   - 4: {fileID: 403080}
   - 114: {fileID: 11403076}
   m_Layer: 0
-  m_Name: the king's riches
+  m_Name: the mystic jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -536,7 +536,7 @@ GameObject:
   - 4: {fileID: 403082}
   - 114: {fileID: 11403078}
   m_Layer: 0
-  m_Name: 500
+  m_Name: 459
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -552,7 +552,7 @@ GameObject:
   - 4: {fileID: 403084}
   - 114: {fileID: 11403080}
   m_Layer: 0
-  m_Name: 500
+  m_Name: 610
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -568,7 +568,7 @@ GameObject:
   - 4: {fileID: 403086}
   - 114: {fileID: 11403082}
   m_Layer: 0
-  m_Name: the ancient fortune
+  m_Name: the pirates hidden gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -584,7 +584,7 @@ GameObject:
   - 4: {fileID: 403088}
   - 114: {fileID: 11403084}
   m_Layer: 0
-  m_Name: 500
+  m_Name: 390
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -600,7 +600,7 @@ GameObject:
   - 4: {fileID: 403090}
   - 114: {fileID: 11403086}
   m_Layer: 0
-  m_Name: the wizards magic gems
+  m_Name: the pirates hidden gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -616,7 +616,7 @@ GameObject:
   - 4: {fileID: 403092}
   - 114: {fileID: 11403088}
   m_Layer: 0
-  m_Name: 500
+  m_Name: 513
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -632,7 +632,7 @@ GameObject:
   - 4: {fileID: 403094}
   - 114: {fileID: 11403090}
   m_Layer: 0
-  m_Name: the king's riches
+  m_Name: the mystic jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -648,7 +648,7 @@ GameObject:
   - 4: {fileID: 403096}
   - 114: {fileID: 11403092}
   m_Layer: 0
-  m_Name: the devils secret fortune
+  m_Name: Blackbeard's forgotten treasure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -664,7 +664,7 @@ GameObject:
   - 4: {fileID: 403098}
   - 114: {fileID: 11403094}
   m_Layer: 0
-  m_Name: 500
+  m_Name: 478
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -915,7 +915,7 @@ GameObject:
   - 4: {fileID: 425170}
   - 114: {fileID: 11425160}
   m_Layer: 0
-  m_Name: MWizard
+  m_Name: Dangalf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -946,7 +946,7 @@ GameObject:
   - 4: {fileID: 425174}
   - 114: {fileID: 11425162}
   m_Layer: 0
-  m_Name: sturdier armor
+  m_Name: rare weaponry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3010,7 +3010,7 @@ GameObject:
   - 4: {fileID: 447920}
   - 114: {fileID: 11447918}
   m_Layer: 0
-  m_Name: The Dragon Armor
+  m_Name: The Mad King's Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3058,7 +3058,7 @@ GameObject:
   - 4: {fileID: 447926}
   - 114: {fileID: 11447924}
   m_Layer: 0
-  m_Name: The Magical Armor
+  m_Name: The Earth Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3152,7 +3152,7 @@ GameObject:
   - 4: {fileID: 451178}
   - 114: {fileID: 11451178}
   m_Layer: 0
-  m_Name: MPirate
+  m_Name: Orval 'Crazy' Clark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3168,7 +3168,7 @@ GameObject:
   - 4: {fileID: 451180}
   - 114: {fileID: 11451180}
   m_Layer: 0
-  m_Name: Demon
+  m_Name: Smaxon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3184,7 +3184,7 @@ GameObject:
   - 4: {fileID: 451182}
   - 114: {fileID: 11451182}
   m_Layer: 0
-  m_Name: Knight
+  m_Name: Baron von schmutzige Schuhe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3248,7 +3248,7 @@ GameObject:
   - 4: {fileID: 455524}
   - 114: {fileID: 11455526}
   m_Layer: 0
-  m_Name: upgraded weaponry
+  m_Name: new contacts with stronger weapons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3280,7 +3280,7 @@ GameObject:
   - 4: {fileID: 455528}
   - 114: {fileID: 11455530}
   m_Layer: 0
-  m_Name: tougher armor
+  m_Name: improved equipment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3312,7 +3312,7 @@ GameObject:
   - 4: {fileID: 455532}
   - 114: {fileID: 11455534}
   m_Layer: 0
-  m_Name: rare weaponry
+  m_Name: better trading routes opening more equipment options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3392,7 +3392,7 @@ GameObject:
   - 4: {fileID: 455542}
   - 114: {fileID: 11455544}
   m_Layer: 0
-  m_Name: rare weaponry
+  m_Name: a trade caravan allowing for more excotic gear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3424,7 +3424,7 @@ GameObject:
   - 4: {fileID: 455546}
   - 114: {fileID: 11455548}
   m_Layer: 0
-  m_Name: new contacts with stronger weapons
+  m_Name: tougher armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3440,7 +3440,7 @@ GameObject:
   - 4: {fileID: 455548}
   - 114: {fileID: 11455550}
   m_Layer: 0
-  m_Name: better trading routes opening more equipment options
+  m_Name: stronger materials
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3488,7 +3488,7 @@ GameObject:
   - 4: {fileID: 455554}
   - 114: {fileID: 11455556}
   m_Layer: 0
-  m_Name: safer roads allowing for better items
+  m_Name: tougher armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4136,7 +4136,7 @@ GameObject:
   - 4: {fileID: 471058}
   - 114: {fileID: 11471050}
   m_Layer: 0
-  m_Name: The Earth Armor
+  m_Name: The Water Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4200,7 +4200,7 @@ GameObject:
   - 4: {fileID: 471066}
   - 114: {fileID: 11471058}
   m_Layer: 0
-  m_Name: The Dragon Armor
+  m_Name: The Fire Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4248,7 +4248,7 @@ GameObject:
   - 4: {fileID: 471072}
   - 114: {fileID: 11471064}
   m_Layer: 0
-  m_Name: The Leaf Armor
+  m_Name: The Fire Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4264,7 +4264,7 @@ GameObject:
   - 4: {fileID: 471074}
   - 114: {fileID: 11471066}
   m_Layer: 0
-  m_Name: The Water Armor
+  m_Name: The Molten Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4312,7 +4312,7 @@ GameObject:
   - 4: {fileID: 471080}
   - 114: {fileID: 11471072}
   m_Layer: 0
-  m_Name: The Molten Armor
+  m_Name: The Mad King's Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4328,7 +4328,7 @@ GameObject:
   - 4: {fileID: 471082}
   - 114: {fileID: 11471074}
   m_Layer: 0
-  m_Name: The Dragon Staff
+  m_Name: The Molten Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4376,7 +4376,7 @@ GameObject:
   - 4: {fileID: 471088}
   - 114: {fileID: 11471080}
   m_Layer: 0
-  m_Name: The Magical Staff
+  m_Name: The Leaf Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4392,7 +4392,7 @@ GameObject:
   - 4: {fileID: 471090}
   - 114: {fileID: 11471082}
   m_Layer: 0
-  m_Name: The Leaf Staff
+  m_Name: The Magical Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4440,7 +4440,7 @@ GameObject:
   - 4: {fileID: 471096}
   - 114: {fileID: 11471088}
   m_Layer: 0
-  m_Name: The Dragon Staff
+  m_Name: The Water Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4456,7 +4456,7 @@ GameObject:
   - 4: {fileID: 471098}
   - 114: {fileID: 11471090}
   m_Layer: 0
-  m_Name: The Fire Staff
+  m_Name: The Water Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4504,7 +4504,7 @@ GameObject:
   - 4: {fileID: 471104}
   - 114: {fileID: 11471096}
   m_Layer: 0
-  m_Name: The Magical Staff
+  m_Name: The Wind Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4535,7 +4535,7 @@ GameObject:
   - 4: {fileID: 471108}
   - 114: {fileID: 11471098}
   m_Layer: 0
-  m_Name: The Ice Staff
+  m_Name: The Thunder Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4583,7 +4583,7 @@ GameObject:
   - 4: {fileID: 471114}
   - 114: {fileID: 11471104}
   m_Layer: 0
-  m_Name: The Earth Staff
+  m_Name: The Wind Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4599,7 +4599,7 @@ GameObject:
   - 4: {fileID: 471116}
   - 114: {fileID: 11471106}
   m_Layer: 0
-  m_Name: The Mad King's Staff
+  m_Name: The Dragon Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4647,7 +4647,7 @@ GameObject:
   - 4: {fileID: 471122}
   - 114: {fileID: 11471112}
   m_Layer: 0
-  m_Name: The Water Staff
+  m_Name: The Wind Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4663,7 +4663,7 @@ GameObject:
   - 4: {fileID: 471124}
   - 114: {fileID: 11471114}
   m_Layer: 0
-  m_Name: The Wind Bow
+  m_Name: The Water Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4711,7 +4711,7 @@ GameObject:
   - 4: {fileID: 471130}
   - 114: {fileID: 11471120}
   m_Layer: 0
-  m_Name: The Fire Bow
+  m_Name: The Earth Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4727,7 +4727,7 @@ GameObject:
   - 4: {fileID: 471132}
   - 114: {fileID: 11471122}
   m_Layer: 0
-  m_Name: The Earth Bow
+  m_Name: The Water Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4775,7 +4775,7 @@ GameObject:
   - 4: {fileID: 471138}
   - 114: {fileID: 11471128}
   m_Layer: 0
-  m_Name: The Sacred Bow
+  m_Name: The Blazing Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4918,7 +4918,7 @@ GameObject:
   - 4: {fileID: 471156}
   - 114: {fileID: 11471144}
   m_Layer: 0
-  m_Name: The Thunder Bow
+  m_Name: The Fire Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4934,7 +4934,7 @@ GameObject:
   - 4: {fileID: 471158}
   - 114: {fileID: 11471146}
   m_Layer: 0
-  m_Name: The Water Bow
+  m_Name: The Molten Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4998,7 +4998,7 @@ GameObject:
   - 4: {fileID: 471166}
   - 114: {fileID: 11471154}
   m_Layer: 0
-  m_Name: The Molten Sword
+  m_Name: The Dragon Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5046,7 +5046,7 @@ GameObject:
   - 4: {fileID: 471172}
   - 114: {fileID: 11471160}
   m_Layer: 0
-  m_Name: The Leaf Sword
+  m_Name: The Molten Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5062,7 +5062,7 @@ GameObject:
   - 4: {fileID: 471174}
   - 114: {fileID: 11471162}
   m_Layer: 0
-  m_Name: The Mad King's Sword
+  m_Name: The Thunder Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5110,7 +5110,7 @@ GameObject:
   - 4: {fileID: 471180}
   - 114: {fileID: 11471168}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: The Fire Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5126,7 +5126,7 @@ GameObject:
   - 4: {fileID: 471182}
   - 114: {fileID: 11471170}
   m_Layer: 0
-  m_Name: The Thunder Sword
+  m_Name: The Water Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5174,7 +5174,7 @@ GameObject:
   - 4: {fileID: 471188}
   - 114: {fileID: 11471176}
   m_Layer: 0
-  m_Name: The Fire Sword
+  m_Name: The Water Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5205,7 +5205,7 @@ GameObject:
   - 4: {fileID: 471192}
   - 114: {fileID: 11471178}
   m_Layer: 0
-  m_Name: The Ice Sword
+  m_Name: The Thunder Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5253,7 +5253,7 @@ GameObject:
   - 4: {fileID: 471198}
   - 114: {fileID: 11471184}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: The Wind Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5269,7 +5269,7 @@ GameObject:
   - 4: {fileID: 471200}
   - 114: {fileID: 11471186}
   m_Layer: 0
-  m_Name: The Thunder Sword
+  m_Name: The Dragon Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5317,7 +5317,7 @@ GameObject:
   - 4: {fileID: 471206}
   - 114: {fileID: 11471192}
   m_Layer: 0
-  m_Name: The Fire Sword
+  m_Name: The Earth Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6146,7 +6146,7 @@ GameObject:
   - 4: {fileID: 497920}
   - 114: {fileID: 11497920}
   m_Layer: 0
-  m_Name: Knight
+  m_Name: 'Lord Carac '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6162,7 +6162,7 @@ GameObject:
   - 4: {fileID: 497922}
   - 114: {fileID: 11497922}
   m_Layer: 0
-  m_Name: Demon
+  m_Name: Iztitakkel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6178,7 +6178,7 @@ GameObject:
   - 4: {fileID: 497924}
   - 114: {fileID: 11497924}
   m_Layer: 0
-  m_Name: Pirate
+  m_Name: Lewis 'Mad Eyes' Southey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6194,7 +6194,7 @@ GameObject:
   - 4: {fileID: 497926}
   - 114: {fileID: 11497926}
   m_Layer: 0
-  m_Name: Wizard
+  m_Name: Eplehugast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11293,7 +11293,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: rare vegetables
+  name: fertilizer
   detailString: We've been promised [name] if we complete the task,
   rewardType: 4
   rewardItems: []
@@ -11321,7 +11321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: fertilizer
+  name: a batch of crops
   detailString: We should try to send a search party as we will get rewarded for our
     trouble with [name],
   rewardType: 4
@@ -11363,7 +11363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: forgotten plowing techniques
+  name: a bag of magical seeds
   detailString: There is a chance of getting [name],
   rewardType: 4
   rewardItems: []
@@ -11406,7 +11406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: nourishing water
+  name: a bag of magical seeds
   detailString: We could collect a prize of [name] if we chose to do this,
   rewardType: 4
   rewardItems: []
@@ -11460,7 +11460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a bag of magical seeds
+  name: a plow
   detailString: We will be rewarded with [name] for the town,
   rewardType: 4
   rewardItems: []
@@ -11542,7 +11542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: nourishing water
+  name: fertilizer
   detailString: If we complete the task at hand we've been promised [name] for the
     village,
   rewardType: 4
@@ -11571,7 +11571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a bag of magical seeds
+  name: secret planting techniques
   detailString: The benefits of this would be [name],
   rewardType: 4
   rewardItems: []
@@ -11625,7 +11625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a plow
+  name: secret planting techniques
   detailString: If we do that, [name] will be given us,
   rewardType: 4
   rewardItems: []
@@ -11653,7 +11653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a plow
+  name: rare vegetables
   detailString: It be worth considering as we will recieve [name] for our trouble,
   rewardType: 4
   rewardItems: []
@@ -11707,7 +11707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the sacred diamonds
+  name: the mystic jewels
   detailString: as there have been whispers about [name] which would be worth getting
   rewardType: 1
   rewardItems: []
@@ -11735,7 +11735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the king's riches
+  name: the ancient fortune
   detailString: if we do that, the merchants will give us [rVal] if we find [name].
     This is surely what we should do
   rewardType: 1
@@ -11790,7 +11790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the pirates hidden gold
+  name: the wizards magic gems
   detailString: maybe we could send a search party for [name]
   rewardType: 1
   rewardItems: []
@@ -11818,7 +11818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Blackbeard's forgotten treasure
+  name: Captain Sparrow's lost jewels
   detailString: and follow the tales of [name]
   rewardType: 1
   rewardItems: []
@@ -11859,7 +11859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the sacred diamonds
+  name: Blackbeard's forgotten treasure
   detailString: and try to acquire [name]
   rewardType: 1
   rewardItems: []
@@ -11900,7 +11900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the pirates hidden gold
+  name: the mystic jewels
   detailString: and collect [name]
   rewardType: 1
   rewardItems: []
@@ -11954,7 +11954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the ancient fortune
+  name: the pirates hidden gold
   detailString: to collect [name] which is worth [rVal] coins. This is important for
     us
   rewardType: 1
@@ -11996,7 +11996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the sacred diamonds
+  name: the pirates hidden gold
   detailString: because there is a chance of finding [name] worth [rVal] coins, this
     is a good idea
   rewardType: 1
@@ -12038,7 +12038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the wizards magic gems
+  name: the mystic jewels
   detailString: and try to send a search party for [name]
   rewardType: 1
   rewardItems: []
@@ -12346,7 +12346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: safer roads allowing for better items
+  name: rare weaponry
   detailString: It be worth considering as the shop would be upgraded with [name].
   rewardType: 3
   rewardItems: []
@@ -12470,17 +12470,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161038}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461038}
+  - {fileID: 11461036}
+  - {fileID: 11461034}
+  - {fileID: 11461032}
+  - {fileID: 11461030}
+  - {fileID: 11461028}
+  - {fileID: 11461026}
+  - {fileID: 11461024}
+  - {fileID: 11461022}
+  - {fileID: 11461020}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -12709,7 +12710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure8
   detailString: "[rew]\_giving us the possibility of greater income from the farm,
-    which would attribute to our chances when [nBoss]!"
+    which would attribute to our chances against [nBoss]!"
   possibleRewardsParent: {fileID: 103056}
   possibleRewards:
   - {fileID: 11403018}
@@ -14191,7 +14192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Armor
+  name: The Fire Armor
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -14249,7 +14250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Armor
+  name: The Mad King's Armor
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -14333,7 +14334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Armor
+  name: The Earth Armor
   detailString: because there is a chance of finding [name]. This could be crucial
     to us as [rStr]
   rewardType: 2
@@ -14466,17 +14467,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161038}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461038}
+  - {fileID: 11461036}
+  - {fileID: 11461034}
+  - {fileID: 11461032}
+  - {fileID: 11461030}
+  - {fileID: 11461028}
+  - {fileID: 11461026}
+  - {fileID: 11461024}
+  - {fileID: 11461022}
+  - {fileID: 11461020}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -14579,6 +14581,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -14627,7 +14630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Armor
+  name: The Blazing Armor
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -14685,7 +14688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: rare weaponry
+  name: new contacts with stronger weapons
   detailString: We should try to send a search party as we will get rewarded for out
     trouble with [name] for offer in our shop.
   rewardType: 3
@@ -14727,7 +14730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: new contacts with stronger weapons
+  name: improved equipment
   detailString: There is a chance of getting [name] to buy in the town.
   rewardType: 3
   rewardItems: []
@@ -14770,7 +14773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: safer roads allowing for better items
+  name: better trading routes opening more equipment options
   detailString: We could collect a prize of [name] for the shop in the town, if we
     chose to do this.
   rewardType: 3
@@ -14825,7 +14828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: tougher armor
+  name: a trade caravan allowing for more excotic gear
   detailString: We will be rewarded with [name] available for the town's shop.
   rewardType: 3
   rewardItems: []
@@ -14866,7 +14869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: improved equipment
+  name: a trade caravan allowing for more excotic gear
   detailString: If we help out, the shop will be upgraded with [name].
   rewardType: 3
   rewardItems: []
@@ -14907,7 +14910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: improved equipment
+  name: tougher armor
   detailString: We've been promised [name] for the shop, if we complete the task at
     hand.
   rewardType: 3
@@ -14936,7 +14939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: rare weaponry
+  name: stronger materials
   detailString: The benefits of this would be the shop being upgraded with [name].
   rewardType: 3
   rewardItems: []
@@ -14990,7 +14993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: improved equipment
+  name: tougher armor
   detailString: If we do that, the merchant will give us [name] as an upgrade to our
     shop.
   rewardType: 3
@@ -16132,7 +16135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Armor
+  name: The Water Armor
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -16216,7 +16219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Thunder Armor
+  name: The Magical Armor
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -16274,7 +16277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Armor
+  name: The Fire Armor
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -16358,7 +16361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Leaf Armor
+  name: The Fire Armor
   detailString: maybe we could send a search party for [name] such that [rStre]
   rewardType: 2
   rewardItems:
@@ -16416,7 +16419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Armor
+  name: The Molten Armor
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStre]
   rewardType: 2
@@ -16501,7 +16504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Molten Armor
+  name: The Mad King's Armor
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -16560,7 +16563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Staff
+  name: The Molten Staff
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -16788,7 +16791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Staff
+  name: The Water Staff
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -16846,7 +16849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Staff
+  name: The Water Staff
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -16930,7 +16933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Staff
+  name: The Wind Staff
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -17072,7 +17075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Staff
+  name: The Wind Staff
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -17358,7 +17361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Bow
+  name: The Earth Bow
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -17416,7 +17419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Bow
+  name: The Water Bow
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -17500,7 +17503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Bow
+  name: The Blazing Bow
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -17558,7 +17561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Sword
+  name: The Wind Sword
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -17642,7 +17645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Bow
+  name: The Water Bow
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -17700,7 +17703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Leaf Bow
+  name: The Fire Bow
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -17784,7 +17787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Thunder Bow
+  name: The Fire Bow
   detailString: maybe we could send a search party for [name] such that [rStre]
   rewardType: 2
   rewardItems:
@@ -17842,7 +17845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Bow
+  name: The Molten Bow
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStre]
   rewardType: 2
@@ -17927,7 +17930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Molten Bow
+  name: The Dragon Bow
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -17986,7 +17989,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Molten Sword
+  name: The Dragon Sword
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -18071,7 +18074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Leaf Sword
+  name: The Molten Sword
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStre]
   rewardType: 2
@@ -18130,7 +18133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Sword
+  name: The Thunder Sword
   detailString: maybe we could send a search party for [name] such that [rStre]
   rewardType: 2
   rewardItems:
@@ -18272,7 +18275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Sword
+  name: The Water Sword
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -18356,7 +18359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Sword
+  name: The Water Sword
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -18414,7 +18417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Sword
+  name: The Thunder Sword
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -18498,7 +18501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Sword
+  name: The Wind Sword
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -18556,7 +18559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Sword
+  name: The Dragon Sword
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -18640,7 +18643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Sword
+  name: The Earth Sword
   detailString: because there is a chance of finding [name]. This could be crucial
     to us as [rStr]
   rewardType: 2
@@ -18748,6 +18751,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -18816,6 +18820,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -18884,6 +18889,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -18954,6 +18960,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19023,6 +19030,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19092,6 +19100,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19162,6 +19171,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19230,6 +19240,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19299,6 +19310,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19366,6 +19378,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19432,6 +19445,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19499,6 +19513,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19566,6 +19581,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19633,6 +19649,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19700,6 +19717,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19767,6 +19785,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19834,6 +19853,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19902,6 +19922,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -19968,6 +19989,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 0}
   minorPictures:
   - {fileID: 11461078}
   - {fileID: 11461076}
@@ -20036,17 +20058,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 129838}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11429838}
+  - {fileID: 11429840}
+  - {fileID: 11429842}
+  - {fileID: 11429844}
+  - {fileID: 11429846}
+  - {fileID: 11429848}
+  - {fileID: 11429850}
+  - {fileID: 11429852}
+  - {fileID: 11429854}
+  - {fileID: 11425138}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -20103,17 +20126,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 129838}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11429838}
+  - {fileID: 11429840}
+  - {fileID: 11429842}
+  - {fileID: 11429844}
+  - {fileID: 11429846}
+  - {fileID: 11429848}
+  - {fileID: 11429850}
+  - {fileID: 11429852}
+  - {fileID: 11429854}
+  - {fileID: 11425138}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -20171,17 +20195,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 129838}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11429838}
+  - {fileID: 11429840}
+  - {fileID: 11429842}
+  - {fileID: 11429844}
+  - {fileID: 11429846}
+  - {fileID: 11429848}
+  - {fileID: 11429850}
+  - {fileID: 11429852}
+  - {fileID: 11429854}
+  - {fileID: 11425138}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -20239,17 +20264,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 129838}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11429838}
+  - {fileID: 11429840}
+  - {fileID: 11429842}
+  - {fileID: 11429844}
+  - {fileID: 11429846}
+  - {fileID: 11429848}
+  - {fileID: 11429850}
+  - {fileID: 11429852}
+  - {fileID: 11429854}
+  - {fileID: 11425138}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -20306,17 +20332,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 129838}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11429838}
+  - {fileID: 11429840}
+  - {fileID: 11429842}
+  - {fileID: 11429844}
+  - {fileID: 11429846}
+  - {fileID: 11429848}
+  - {fileID: 11429850}
+  - {fileID: 11429852}
+  - {fileID: 11429854}
+  - {fileID: 11425138}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -20373,17 +20400,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 129838}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11429838}
+  - {fileID: 11429840}
+  - {fileID: 11429842}
+  - {fileID: 11429844}
+  - {fileID: 11429846}
+  - {fileID: 11429848}
+  - {fileID: 11429850}
+  - {fileID: 11429852}
+  - {fileID: 11429854}
+  - {fileID: 11425138}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -20440,17 +20468,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 129838}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11429838}
+  - {fileID: 11429840}
+  - {fileID: 11429842}
+  - {fileID: 11429844}
+  - {fileID: 11429846}
+  - {fileID: 11429848}
+  - {fileID: 11429850}
+  - {fileID: 11429852}
+  - {fileID: 11429854}
+  - {fileID: 11425138}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -20507,17 +20536,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 129838}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11429838}
+  - {fileID: 11429840}
+  - {fileID: 11429842}
+  - {fileID: 11429844}
+  - {fileID: 11429846}
+  - {fileID: 11429848}
+  - {fileID: 11429850}
+  - {fileID: 11429852}
+  - {fileID: 11429854}
+  - {fileID: 11425138}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -20574,17 +20604,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 129838}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11429838}
+  - {fileID: 11429840}
+  - {fileID: 11429842}
+  - {fileID: 11429844}
+  - {fileID: 11429846}
+  - {fileID: 11429848}
+  - {fileID: 11429850}
+  - {fileID: 11429852}
+  - {fileID: 11429854}
+  - {fileID: 11425138}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -20641,17 +20672,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 129838}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11429838}
+  - {fileID: 11429840}
+  - {fileID: 11429842}
+  - {fileID: 11429844}
+  - {fileID: 11429846}
+  - {fileID: 11429848}
+  - {fileID: 11429850}
+  - {fileID: 11429852}
+  - {fileID: 11429854}
+  - {fileID: 11425138}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -20708,17 +20740,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161044}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461040}
+  - {fileID: 11461042}
+  - {fileID: 11461044}
+  - {fileID: 11461046}
+  - {fileID: 11461048}
+  - {fileID: 11461050}
+  - {fileID: 11461052}
+  - {fileID: 11461054}
+  - {fileID: 11461056}
+  - {fileID: 11461058}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -20774,6 +20807,7 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161044}
   minorPictures:
   - {fileID: 11461040}
   - {fileID: 11461042}
@@ -20841,17 +20875,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161044}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461040}
+  - {fileID: 11461042}
+  - {fileID: 11461044}
+  - {fileID: 11461046}
+  - {fileID: 11461048}
+  - {fileID: 11461050}
+  - {fileID: 11461052}
+  - {fileID: 11461054}
+  - {fileID: 11461056}
+  - {fileID: 11461058}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -20909,17 +20944,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161044}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461040}
+  - {fileID: 11461042}
+  - {fileID: 11461044}
+  - {fileID: 11461046}
+  - {fileID: 11461048}
+  - {fileID: 11461050}
+  - {fileID: 11461052}
+  - {fileID: 11461054}
+  - {fileID: 11461056}
+  - {fileID: 11461058}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -20976,17 +21012,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161044}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461040}
+  - {fileID: 11461042}
+  - {fileID: 11461044}
+  - {fileID: 11461046}
+  - {fileID: 11461048}
+  - {fileID: 11461050}
+  - {fileID: 11461052}
+  - {fileID: 11461054}
+  - {fileID: 11461056}
+  - {fileID: 11461058}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -21043,17 +21080,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161044}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461040}
+  - {fileID: 11461042}
+  - {fileID: 11461044}
+  - {fileID: 11461046}
+  - {fileID: 11461048}
+  - {fileID: 11461050}
+  - {fileID: 11461052}
+  - {fileID: 11461054}
+  - {fileID: 11461056}
+  - {fileID: 11461058}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -21110,17 +21148,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161044}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461040}
+  - {fileID: 11461042}
+  - {fileID: 11461044}
+  - {fileID: 11461046}
+  - {fileID: 11461048}
+  - {fileID: 11461050}
+  - {fileID: 11461052}
+  - {fileID: 11461054}
+  - {fileID: 11461056}
+  - {fileID: 11461058}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -21177,17 +21216,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161044}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461040}
+  - {fileID: 11461042}
+  - {fileID: 11461044}
+  - {fileID: 11461046}
+  - {fileID: 11461048}
+  - {fileID: 11461050}
+  - {fileID: 11461052}
+  - {fileID: 11461054}
+  - {fileID: 11461056}
+  - {fileID: 11461058}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -21244,17 +21284,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161044}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461040}
+  - {fileID: 11461042}
+  - {fileID: 11461044}
+  - {fileID: 11461046}
+  - {fileID: 11461048}
+  - {fileID: 11461050}
+  - {fileID: 11461052}
+  - {fileID: 11461054}
+  - {fileID: 11461056}
+  - {fileID: 11461058}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -21310,17 +21351,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161044}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461040}
+  - {fileID: 11461042}
+  - {fileID: 11461044}
+  - {fileID: 11461046}
+  - {fileID: 11461048}
+  - {fileID: 11461050}
+  - {fileID: 11461052}
+  - {fileID: 11461054}
+  - {fileID: 11461056}
+  - {fileID: 11461058}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -21376,17 +21418,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161038}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461038}
+  - {fileID: 11461036}
+  - {fileID: 11461034}
+  - {fileID: 11461032}
+  - {fileID: 11461030}
+  - {fileID: 11461028}
+  - {fileID: 11461026}
+  - {fileID: 11461024}
+  - {fileID: 11461022}
+  - {fileID: 11461020}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -21444,17 +21487,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161038}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461038}
+  - {fileID: 11461036}
+  - {fileID: 11461034}
+  - {fileID: 11461032}
+  - {fileID: 11461030}
+  - {fileID: 11461028}
+  - {fileID: 11461026}
+  - {fileID: 11461024}
+  - {fileID: 11461022}
+  - {fileID: 11461020}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -21511,17 +21555,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161038}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461038}
+  - {fileID: 11461036}
+  - {fileID: 11461034}
+  - {fileID: 11461032}
+  - {fileID: 11461030}
+  - {fileID: 11461028}
+  - {fileID: 11461026}
+  - {fileID: 11461024}
+  - {fileID: 11461022}
+  - {fileID: 11461020}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -21578,17 +21623,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161038}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461038}
+  - {fileID: 11461036}
+  - {fileID: 11461034}
+  - {fileID: 11461032}
+  - {fileID: 11461030}
+  - {fileID: 11461028}
+  - {fileID: 11461026}
+  - {fileID: 11461024}
+  - {fileID: 11461022}
+  - {fileID: 11461020}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -21645,17 +21691,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161038}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461038}
+  - {fileID: 11461036}
+  - {fileID: 11461034}
+  - {fileID: 11461032}
+  - {fileID: 11461030}
+  - {fileID: 11461028}
+  - {fileID: 11461026}
+  - {fileID: 11461024}
+  - {fileID: 11461022}
+  - {fileID: 11461020}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -21713,17 +21760,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161038}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461038}
+  - {fileID: 11461036}
+  - {fileID: 11461034}
+  - {fileID: 11461032}
+  - {fileID: 11461030}
+  - {fileID: 11461028}
+  - {fileID: 11461026}
+  - {fileID: 11461024}
+  - {fileID: 11461022}
+  - {fileID: 11461020}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -21780,17 +21828,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161038}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461038}
+  - {fileID: 11461036}
+  - {fileID: 11461034}
+  - {fileID: 11461032}
+  - {fileID: 11461030}
+  - {fileID: 11461028}
+  - {fileID: 11461026}
+  - {fileID: 11461024}
+  - {fileID: 11461022}
+  - {fileID: 11461020}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -21847,17 +21896,18 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
+  minorPictureParent: {fileID: 161038}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461038}
+  - {fileID: 11461036}
+  - {fileID: 11461034}
+  - {fileID: 11461032}
+  - {fileID: 11461030}
+  - {fileID: 11461028}
+  - {fileID: 11461026}
+  - {fileID: 11461024}
+  - {fileID: 11461022}
+  - {fileID: 11461020}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}

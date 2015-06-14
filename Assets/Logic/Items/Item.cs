@@ -84,6 +84,8 @@ public class Item  {
 		this.Damage = item.Damage * power;
 		this.Defence = item.Defence * power;
 		this.ItemName = item.ItemName;
+		monstersKilled = new Dictionary<MonsterTypes,int>();
+
 	}
 	public Item(ItemType type, int power){
 		this.itemType = type;
