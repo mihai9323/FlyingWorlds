@@ -6,7 +6,8 @@ public class EndForm : MonoBehaviour {
 	[SerializeField] string url;
 	[SerializeField] UnityEngine.UI.InputField feedback;
 	[SerializeField] ToggleGroup q1,q2;
-
+	[SerializeField] GameObject credits;
+	[SerializeField] GameObject childContainer;
 	public void OnClick(){
 		if (Valid()) {
 			StartCoroutine(sendFeedback());
@@ -30,6 +31,9 @@ public class EndForm : MonoBehaviour {
 		form.AddField ("story2", q2.value);
 		www = new WWW (url, form);
 		yield return www;
+		childContainer.SetActive (false);
+		credits.SetActive (true);
+		yield return new WaitForSeconds (5.0f);
 		Application.Quit ();
 	}
 	private bool Valid(){
