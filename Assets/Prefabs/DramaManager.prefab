@@ -12492,7 +12492,7 @@ MonoBehaviour:
   - .75
   - .75
   - 1.5
-  relevantTraits: 09000000090000000b000000
+  relevantTraits: 08000000090000000b000000
   questGiver: {fileID: 0}
 --- !u!114 &11425174
 MonoBehaviour:
@@ -13149,7 +13149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 'Unfortunately the [enemy] at [location] was too strong for us and
+  detailString: 'Unfortunately the [enemy] at [location] were too strong for us and
     they took [nrew] for themselves. '
   rewardData: {fileID: 0}
 --- !u!114 &11446406
@@ -13634,8 +13634,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: the battle of [location gave us [nrew], it will certainly increase
-    the varity of shop.]
+  detailString: the battle of [location] gave us [nrew], it will certainly increase
+    the varity of shop.
   rewardData: {fileID: 0}
 --- !u!114 &11446474
 MonoBehaviour:
@@ -14601,7 +14601,7 @@ MonoBehaviour:
   - 1
   - .5
   - .5
-  relevantTraits: 040000000400000008000000
+  relevantTraits: 040000000700000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11455522
 MonoBehaviour:
@@ -18716,7 +18716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Boss Quest
   detailString: I'm confident we gathered enough strenght to attack [nBoss]. His army
-    is located at [cLoc] Let's strike and remove this evil from the land!
+    is located at [location] Let's strike and remove this evil from the land!
   isBossQuest: 1
   revengeString: Despite our loss against [nBoss] last time around, I'm confident
     that we are strong enough to defeat him this time. Let's attack him and drive
@@ -20677,8 +20677,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Treasure Quest
-  detailString: The [nBoss] is sending a troops carrying [rname] to [rlocation]. We
-    could intercept them at [location] [mPic]
+  detailString: '[nBoss] is sending troops carrying [rname] to [rlocation]. We could
+    intercept them at [location] [mPic]'
   isBossQuest: 0
   revengeString: 
   minProgressForQuest: 1.5
@@ -20744,7 +20744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Treasure Quest
-  detailString: We should go to [cLoc] and face the [cEne], [mPic]
+  detailString: We should go to [location] and face the [enemy], [mPic]
   isBossQuest: 0
   revengeString: 
   minProgressForQuest: 1.5
