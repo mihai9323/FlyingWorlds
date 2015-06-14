@@ -17,7 +17,7 @@ public class PersistentData : MonoBehaviour {
 		previousMiniBossName = "";
 		previousFarmLevel = 1;
 		previousShopLevel = 1;
-		previousItems = null;
+		previousItems = new Item[0];
 	}
 	private void Update(){
 		if (Input.GetKeyUp (KeyCode.S)) {

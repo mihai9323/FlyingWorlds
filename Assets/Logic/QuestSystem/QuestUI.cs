@@ -134,6 +134,16 @@ public class QuestUI : MonoBehaviour {
 		HubManager.interactable = true;
 	}
 
+	private void Update(){
+		if(Input.GetMouseButtonDown(0) && configured && !HubManager.hintsOn){
+			StopAllCoroutines();
+			questTextWritten = true;
+			HubManager.interactable = true;
+			this.questText0.text = DramaManager.q0;
+			this.questText1.text = DramaManager.q1;
+			this.questText2.text = DramaManager.q2;
+		}
+	}
 
 
 
