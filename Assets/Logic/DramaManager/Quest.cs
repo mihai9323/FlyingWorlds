@@ -42,7 +42,7 @@ public class Quest : StringData {
 			this.minorPicture.ChooseRewardFromArray ();
 			this.minorPicture.rewardData.GenerateName ();
 			this.outcomePair.positiveOutcome.rewardData = this.outcomePair.negativeOutcome.rewardData = this.minorPicture.rewardData;
-			this.battle = new Battle (Time.time.ToString(), this.questLocation.name, this.questTime.name, this.questLocation.background, this.questTime.timeColor, this.MonsterChances ());
+			this.battle = new Battle (IdGenerator(), this.questLocation.name, this.questTime.name, this.questLocation.background, this.questTime.timeColor, this.MonsterChances ());
 			if (FightManager.battles.ContainsKey (battle.id.ToString())) {
 				FightManager.battles[battle.id.ToString()] = this.battle;
 			} else {
@@ -50,9 +50,12 @@ public class Quest : StringData {
 			}
 
 		}
+		private string IdGenerator(){
+			return Time.time.ToString () + this.DisplayDataBefore ().Length.ToString ()  + Random.value.ToString ();
+		}
 		public void SetQuestActive(){
 			this.questState = QuestCompletion.Active;
-			GameData.nextBattleID = this.battle.id;
+
 		}
 		public void SetQuestInactive(){
 			this.questState = QuestCompletion.NotSelected;

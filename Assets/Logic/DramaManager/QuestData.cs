@@ -123,14 +123,17 @@ namespace DramaPack{
 			get{
 				bool isBestFit = false;
 				bool isNoFit= false;
-				if(DramaManager.lastQuest!=null){
+				if(DramaManager.progression>0){
 					if(DramaManager.lastFailed && DramaManager.lastQuest.qd == this){
+						Debug.Log ("Receive the same quest as last time");
 						isBestFit = true; //best fit => force the ability to restart the quest
 					}
 					if(!DramaManager.lastFailed && DramaManager.lastQuest.qd == this){
 						Debug.Log("received quest last time");
 						isNoFit = true; //avoid getting the same quest 2 times in a row
 					}
+				}else{
+					Debug.Log("No last quest");
 				}
 				float progressScore = DramaManager.progression - minProgressForQuest; 
 				if(progressScore <0) isNoFit = true; //we did not progress enough to get this quest

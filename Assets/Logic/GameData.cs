@@ -11,7 +11,7 @@ public class GameData:MonoBehaviour  {
 	[SerializeField] string _nextBattleID;
 
 	public static string prevBattleID;
-	public static string nextBattleID{ get { return s_Instance._nextBattleID; } set { if(value != s_Instance._nextBattleID) prevBattleID = s_Instance._nextBattleID; s_Instance._nextBattleID = value; } }
+	public static string nextBattleID{ get { return s_Instance._nextBattleID; } set { if(value != s_Instance._nextBattleID) prevBattleID = s_Instance._nextBattleID; s_Instance._nextBattleID = value; Debug.Log("battle ID changed to:"+nextBattleID); } }
 	private static GameScenes _currentScene;
 	public static GameScenes currentScene{
 		get{

@@ -19,8 +19,12 @@ namespace DramaPack{
 			string championName = championNameWithTrait ();
 			str = str.Replace ("[trait]",championName);
 			foreach (TagReplacePair trp in pairs) {
+				if(trp.stringData!=null){
 				trp.stringData.detailString = trp.stringData.DisplayData();
 				str = str.Replace(trp.tag, trp.stringData.detailString);
+				}else if(!string.IsNullOrEmpty(trp.replaceWith)){
+					str = str.Replace(trp.tag,trp.replaceWith);
+				}
 			}
 			return str;
 		}

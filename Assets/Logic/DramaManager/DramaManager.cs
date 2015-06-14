@@ -54,9 +54,11 @@ namespace DramaPack{
 
 			if (questData != null && questData.Count > 0) {
 				Debug.Log("Selected first quest");
-				if(lastQuest!=null && questData[0] == lastQuest.qd){
+				if(progression>0 && (questData[0] == lastQuest.qd || lastQuest.questState != Quest.QuestCompletion.FinishedSuccessful)){
+					Debug.Log("Best quest is the same");
 					questBest = lastQuest;
 				}else{
+					Debug.Log("Best quest is not the same");
 					questBest = questData[0].GenerateQuest();
 				}
 
@@ -87,11 +89,14 @@ namespace DramaPack{
 		public void ChooseActiveQuest(bool bestQuest){
 			if (bestQuest) {
 				activeQuest = questBest;
+				Debug.Log(questBest+" "+activeQuest);
 				questSecondBest.SetQuestInactive();
 			} else {
 				activeQuest = questSecondBest;
+				Debug.Log(questSecondBest+" "+activeQuest);
 				questBest.SetQuestInactive();
 			}
+			GameData.nextBattleID = activeQuest.battle.id;
 			activeQuest.SetQuestActive ();
 			HubManager.questUI.RefreshActive ();
 			noQuestSelected = false;
@@ -104,6 +109,7 @@ namespace DramaPack{
 				activeQuest = questSecondBest;
 				questBest.SetQuestInactive();
 			}
+			GameData.nextBattleID = activeQuest.battle.id;
 			activeQuest.SetQuestActive ();
 			HubManager.questUI.RefreshActive ();
 			noQuestSelected = false;
@@ -122,13 +128,13 @@ namespace DramaPack{
 				Debug.Log("not first quest");
 				if(lastQuest.questState == Quest.QuestCompletion.FinishedSuccessful){
 
-					q0 = lastQuest.DisplayDataAfter(true);
+					q0 = lastQuest.outcomePair.positiveOutcome.DisplayData();
 					q1 = questBest.DisplayDataBefore ();
 					q0 += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
 					q2 = questSecondBest.DisplayDataBefore ();
 				}else{
 					Debug.Log("previous quest was failed");
-					q0 = lastQuest.DisplayDataAfter(false);
+					q0 = lastQuest.outcomePair.negativeOutcome.DisplayData();
 					q1 = questBest.retryQuestData.DisplayData();
 					q0 += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
 					q2 += questSecondBest.DisplayDataBefore();
@@ -140,7 +146,11 @@ namespace DramaPack{
 		
 		}
 		public void FinishQuest(bool successful){
+			Debug.Log ("FINISHED QUEST");
+			Debug.Log (activeQuest);
+			lastQuest = activeQuest;
 			activeQuest.FinishQuest (successful);
+		
 			Select2Quests ();
 		}
 

@@ -18,9 +18,15 @@ namespace DramaPack{
 			Debug.Log (str);
 			str = str.Replace ("[name]", this.name);
 			foreach (TagReplacePair trp in pairs) {
-				trp.stringData.detailString = trp.stringData.DisplayData();
-				str = str.Replace(trp.tag, trp.stringData.detailString);
-			}
+				if(trp.stringData!=null){
+					trp.stringData.detailString = trp.stringData.DisplayData();
+					str = str.Replace(trp.tag, trp.stringData.detailString);
+				}else if(!string.IsNullOrEmpty(trp.replaceWith)){
+					str = str.Replace(trp.tag,trp.replaceWith);
+					}
+
+				}
+
 			return str;
 		}
 		public virtual string DisplayData(){
@@ -46,10 +52,16 @@ namespace DramaPack{
 	public class TagReplacePair{
 		public string tag;
 		public StringData stringData;
-
-		public TagReplacePair(string tag, StringData stringData){
+		public string replaceWith;
+		public TagReplacePair(string tag, StringData stringData, string replaceWith =""){
 			this.tag = tag;
 			this.stringData = stringData;
+			this.replaceWith = replaceWith;
+		}
+		public TagReplacePair(string tag,string replaceWith){
+			this.tag = tag;
+			this.stringData = null;
+			this.replaceWith = replaceWith;
 		}
 	}
 }
