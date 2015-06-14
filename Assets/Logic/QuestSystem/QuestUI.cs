@@ -63,6 +63,7 @@ public class QuestUI : MonoBehaviour {
 		Quest2Image.color = new Color(0,0,0,0);
 		
 		questTextWritten = false;
+
 		lastChar = 0;
 		
 		questText0.text = "";

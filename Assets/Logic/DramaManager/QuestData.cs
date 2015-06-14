@@ -27,6 +27,9 @@ namespace DramaPack{
 		public LocationData[] questLocations;
 		public MomentData[] questMoments;
 		public OutcomePair[] outcomePairs;
+
+
+		public GameObject minorPictureParent;
 		public MinorPictureData[] minorPictures;
 		public EnemyData[] enemies;
 		public RetryQuestData[] retryQuestsData;
@@ -91,6 +94,7 @@ namespace DramaPack{
 		// Use this for initialization
 		protected override void Update () {
 			base.Update ();
+			if(minorPictureParent!=null)minorPictures = minorPictureParent.gameObject.GetComponentsInChildren<MinorPictureData> ();
 		}
 
 		public DramaPack.Quest GenerateQuest(){
@@ -144,6 +148,7 @@ namespace DramaPack{
 			get{
 				bool isBestFit = false;
 				bool isNoFit= false;
+				float questDiversity = 0;
 				if(DramaManager.progression>0){
 					if(DramaManager.lastFailed && DramaManager.lastQuest.qd == this){
 						Debug.Log ("Receive the same quest as last time");
@@ -152,6 +157,10 @@ namespace DramaPack{
 					if(!DramaManager.lastFailed && DramaManager.lastQuest.qd == this){
 						Debug.Log("received quest last time");
 						isNoFit = true; //avoid getting the same quest 2 times in a row
+					}
+					if(this.minorPictures[0].rewardData.rewardType == DramaManager.lastQuest.minorPicture.rewardData.rewardType){
+						questDiversity = 2;
+						Debug.Log("<color=blue>The quests are not diverse enough</color>");
 					}
 				}else{
 					Debug.Log("No last quest");
@@ -173,7 +182,7 @@ namespace DramaPack{
 							f2 =  relevanceTraitPair[relevantCharacters[i].Traits[1]];
 						}
 						float relevance = Mathf.Max(f1,f2);
-						float r = relevantCharacters[i].Moral * relevance / 100;
+						float r = relevantCharacters[i].CalculateMoral();// * relevance;
 						if(bestScore < r){
 							bestScore = r;
 							bestCharacter = relevantCharacters[i];
@@ -181,7 +190,7 @@ namespace DramaPack{
 					}
 					Debug.Log(bestCharacter);
 					this.questGiver = bestCharacter;
-					traitScore = bestScore;
+					traitScore = 1-bestScore;
 				}else{
 					Debug.Log("no quest giver");
 					isNoFit = true; //there are no quest givers => we can not get this quest
@@ -194,8 +203,9 @@ namespace DramaPack{
 					Debug.Log("Fittness ["+this.name+"]["+(0).ToString()+"]");
 					return 0;
 				}
+
 				Debug.Log("Fittness ["+this.name+"]["+(progressScore + timesEncounteredScore + traitScore).ToString()+"]");
-				return progressScore + timesEncounteredScore + traitScore;
+				return progressScore + timesEncounteredScore + traitScore + questDiversity;
 			}
 		}
 

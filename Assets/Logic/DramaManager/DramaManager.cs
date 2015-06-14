@@ -61,7 +61,7 @@ namespace DramaPack{
 							where (q.Fitness >= 0)
 							orderby q.Fitness
 			                 select q).ToList ();
-
+			Debug.Log ("<color=red>"+questData [0].Fitness + " " + questData [1].Fitness+"</color>");
 			if (questData != null && questData.Count > 0) {
 				Debug.Log("Selected first quest");
 				if(progression>0 && (questData[0] == lastQuest.qd || lastQuest.questState != Quest.QuestCompletion.FinishedSuccessful)){
@@ -163,7 +163,7 @@ namespace DramaPack{
 					q0 = lastQuest.outcomePair.negativeOutcome.DisplayData();
 					q1 = questBest.retryQuestData.DisplayData();
 					q0 += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
-					q2 += questSecondBest.DisplayDataBefore();
+					q2 = questSecondBest.DisplayDataBefore();
 
 				}
 
