@@ -15,7 +15,7 @@ GameObject:
   - 54: {fileID: 5442762}
   - 82: {fileID: 8275738}
   m_Layer: 0
-  m_Name: Boss_Wizzard
+  m_Name: MiniBoss_Wizard
   m_TagString: ENEMY
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,7 +81,7 @@ Transform:
   m_GameObject: {fileID: 142756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -.185000002, y: .550000012, z: -.200000003}
-  m_LocalScale: {x: .899999976, y: .899999976, z: .899999976}
+  m_LocalScale: {x: .800000012, y: .800000012, z: .800000012}
   m_Children:
   - {fileID: 442762}
   - {fileID: 442758}
@@ -265,13 +265,14 @@ MonoBehaviour:
   fightState: 0
   looks: {fileID: 11442756}
   skillset:
-    melee: 3
-    archery: 2
-    magic: 6
-    health: 3000
+    melee: 1
+    archery: 1
+    magic: 1
+    health: 500
   weapon:
-    Damage: 10
-    Defence: 20
+    item_name: 
+    Damage: 15
+    Defence: 1
     Range: 10
     shine: 0
     itemType: 4

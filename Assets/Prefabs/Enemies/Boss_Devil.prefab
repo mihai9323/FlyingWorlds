@@ -312,11 +312,12 @@ MonoBehaviour:
   looks: {fileID: 11434070}
   skillset:
     melee: 1
-    archery: 6
+    archery: 2
     magic: 1
     health: 2000
   weapon:
-    Damage: 10
+    item_name: 
+    Damage: 20
     Defence: 1
     Range: 10
     shine: 0

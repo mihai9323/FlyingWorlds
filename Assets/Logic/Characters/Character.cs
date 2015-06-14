@@ -102,8 +102,8 @@ public class Character : MonoBehaviour {
 			return iThink();
 		}	
 	}
-	private int health;
-	public int Health {
+	private float health;
+	public float Health {
 		get{ return health;}
 		set {
 			health = (int)Mathf.Clamp(value,0,MaxHealth);
@@ -113,20 +113,25 @@ public class Character : MonoBehaviour {
 	public int MaxHealth{
 		get{
 			
-			return (int)(50+ Level * 10);
+			return (int)(80+ Level * 20);
 		}
 	}
 	public int armor, damage;
 	public float primeTarget;
 	public int Armor {
 		get{
-			return (int)((ArmorItem.Defence+WeaponItem.Defence) *  (BuffInfluence(new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.MoreDefenseSelf,BuffsAndDebuffs.BuffType.LessDefenseSelf},
+			float v =  ((ArmorItem.Defence+WeaponItem.Defence) *  (BuffInfluence(new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.MoreDefenseSelf,BuffsAndDebuffs.BuffType.LessDefenseSelf},
 															new BuffsAndDebuffs.BuffType[2]{BuffsAndDebuffs.BuffType.MoreDefenseSelf,BuffsAndDebuffs.BuffType.LessDefenseSelf},
 															1,
 															CalculateMoral())
 			             					  +CharacterManager.partyDefence
 			                                  + (float)Level/10)
 			);
+		
+			float rv = (2f/Mathf.PI) * Mathf.Atan(v/200f) * 100;
+
+			return Mathf.Clamp(Mathf.RoundToInt(rv),0,1000);
+		
 		}
 	}
 
@@ -297,8 +302,9 @@ public class Character : MonoBehaviour {
 	private IEnumerator BeHitDelayed(float time,int damage){
 		if(time>0)yield return new WaitForSeconds (time);
 		Debug.Log (damage);
-		Health -= Mathf.Max (Mathf.Max (0,damage-armor),1);
-		Debug.Log ("applied dmg:" + Mathf.Max (Mathf.Max (0, damage - armor), 1));
+		float armorAsPartOfTheDamage = (float)((float)damage * ((float)armor / 100f));
+		Health -= Mathf.Max (Mathf.Max (0,(float)damage-armorAsPartOfTheDamage),1);
+		Debug.Log ("applied dmg:" + Mathf.Max (Mathf.Max (0, damage - armorAsPartOfTheDamage), 1)+" reductionPercent:"+((float)armor/100).ToString());
 		if (Health <=Mathf.Max(1, MaxHealth * (.2f- CharacterManager.partyFlee*.2f))) {
 			fightState = FightState.Flee;
 			

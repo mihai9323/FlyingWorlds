@@ -282,7 +282,8 @@ MonoBehaviour:
     magic: 1
     health: 800
   weapon:
-    Damage: 20
+    item_name: 
+    Damage: 15
     Defence: 2
     Range: 2
     shine: 0

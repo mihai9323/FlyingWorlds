@@ -280,9 +280,10 @@ MonoBehaviour:
     melee: 1
     archery: 1
     magic: 1
-    health: 40
+    health: 50
   weapon:
-    Damage: 5
+    item_name: 
+    Damage: 8
     Defence: 2
     Range: 1.39999998
     shine: 0

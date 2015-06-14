@@ -20,7 +20,7 @@ public class GameData:MonoBehaviour  {
 	}
 	private void Awake(){
 		s_Instance = this;
-		numberOfCoins = 2000;
+		numberOfCoins = 3000;
 		Progression = 1;
 		_currentScene = GameScenes.Hub;
 	}
