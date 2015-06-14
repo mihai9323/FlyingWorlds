@@ -167,7 +167,7 @@ namespace DramaPack{
 				Debug.Log ("Second quest was null");
 			} else {
 				while(questBest.questLocation == questSecondBest.questLocation){
-					questSecondBest = questBest.qd.GenerateQuest ();
+					questSecondBest = questSecondBest.qd.GenerateQuest ();
 				}
 			}
 			Debug.Log ("building story string");
