@@ -2015,7 +2015,7 @@ GameObject:
   - 4: {fileID: 43620172}
   - 114: {fileID: 43620173}
   m_Layer: 0
-  m_Name: a batch of crops
+  m_Name: forgotten plowing techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8629,7 +8629,7 @@ GameObject:
   - 4: {fileID: 212269115}
   - 114: {fileID: 212269116}
   m_Layer: 0
-  m_Name: None
+  m_Name: The Molten Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9502,7 +9502,7 @@ GameObject:
   - 4: {fileID: 233308738}
   - 114: {fileID: 233308739}
   m_Layer: 0
-  m_Name: None
+  m_Name: The Magical Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28117,9 +28117,10 @@ Transform:
   - {fileID: 21866965}
   - {fileID: 519958696}
   - {fileID: 1301990152}
-  - {fileID: 2036521117}
+  - {fileID: 634875354}
   - {fileID: 1254039162}
   - {fileID: 712351563}
+  - {fileID: 2036521117}
   m_Father: {fileID: 0}
   m_RootOrder: 6
 --- !u!114 &582305109
@@ -28186,9 +28187,9 @@ MonoBehaviour:
   - {fileID: 1725753989}
   - {fileID: 501320947}
   prologues:
-  - {fileID: 2042036470}
-  - {fileID: 1045869176}
-  - {fileID: 1957408379}
+  - {fileID: 1562485876}
+  - {fileID: 689707020}
+  - {fileID: 2041146435}
   secondPrologues: []
   conectors:
   - {fileID: 488683789}
@@ -29140,7 +29141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Night
-  detailString: Night
+  detailString: Night'
   enemyTypeChances:
   - .5
   - .125
@@ -30255,6 +30256,36 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &634875353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 136184, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 634875354}
+  m_Layer: 0
+  m_Name: Prologues
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &634875354
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 436184, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 634875353}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1562485875}
+  - {fileID: 689707019}
+  - {fileID: 2041146434}
+  m_Father: {fileID: 582305108}
+  m_RootOrder: 11
 --- !u!1 &634885887
 GameObject:
   m_ObjectHideFlags: 0
@@ -32535,7 +32566,7 @@ GameObject:
   - 4: {fileID: 671955854}
   - 114: {fileID: 671955855}
   m_Layer: 0
-  m_Name: sturdier armor
+  m_Name: a trade caravan allowing for more excotic gear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33842,6 +33873,51 @@ Transform:
   - {fileID: 1388894039}
   m_Father: {fileID: 204952071}
   m_RootOrder: 1
+--- !u!1 &689707018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 136180, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 689707019}
+  - 114: {fileID: 689707020}
+  m_Layer: 0
+  m_Name: Prologue2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &689707019
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 436180, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 689707018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 634875354}
+  m_RootOrder: 1
+--- !u!114 &689707020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11436180, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 689707018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8441e6fd5cf5084caa9096e5c7a3b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Prologue2
+  detailString: Ahor, a land usually inhabited by peaceful citizens, has been invaded
+    by an evil army. We know a name of one of the captains, [nBoss]. He is powerful
+    and is capable of doing great damage to the lands of Ahor. One little village
+    withstands, but in order to overcome this army they are in need of a great leader
 --- !u!1 &689865827
 GameObject:
   m_ObjectHideFlags: 0
@@ -39212,7 +39288,7 @@ GameObject:
   - 4: {fileID: 785179329}
   - 114: {fileID: 785179330}
   m_Layer: 0
-  m_Name: None
+  m_Name: The Wind Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43674,9 +43750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Day
-  detailString: 'Day
-
-'
+  detailString: Day
   enemyTypeChances:
   - .125
   - .5
@@ -49373,7 +49447,7 @@ GameObject:
   - 4: {fileID: 1020333902}
   - 114: {fileID: 1020333903}
   m_Layer: 0
-  m_Name: None
+  m_Name: The Mad King's Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50711,10 +50785,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Prologue2
-  detailString: Ahor, a land usually inhabited by peaceful citizens, has been invaded
-    by an evil army. We know a name of one of the captains, [nBoss]. He is powerful
-    and is capable of doing great damage to the lands of Ahor. One little village
-    withstands, but in order to overcome this army they are in need of a great leader
+  detailString: After many years of peace in Ahor, the lands have been attacked once
+    again. The villager are again looking to you as their commander. This time you
+    will face [nBoss], a high ranked officer in the enemy army. He is stronger than
+    anything we have yet faced. The weapons used against [pBoss] have been prepared,
+    but as they have not been used for a quite a while, they have become slighty rusty.
 --- !u!1 &1046350758
 GameObject:
   m_ObjectHideFlags: 0
@@ -58645,7 +58720,7 @@ GameObject:
   - 4: {fileID: 1173213639}
   - 114: {fileID: 1173213640}
   m_Layer: 0
-  m_Name: None
+  m_Name: The Magical Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70656,7 +70731,7 @@ GameObject:
   - 4: {fileID: 1400315887}
   - 114: {fileID: 1400315888}
   m_Layer: 0
-  m_Name: None
+  m_Name: The Sacred Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78107,6 +78182,54 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 781612022}
   m_GameObject: {fileID: 1561046407}
+--- !u!1 &1562485874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 136186, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1562485875}
+  - 114: {fileID: 1562485876}
+  m_Layer: 0
+  m_Name: Prologue1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1562485875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 436186, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1562485874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 634875354}
+  m_RootOrder: 0
+--- !u!114 &1562485876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11436184, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1562485874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8441e6fd5cf5084caa9096e5c7a3b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Prologue1
+  detailString: The lands of Ahor are usually a quiet and peaceful land, however recently
+    it has been invaded by a great evil. Every corner of Ahor have been infected,
+    except for one little village. Here they strive to keep Ahor and its people safe.
+    The only knowledge we have about this evil is the name of an officer in the enemy
+    ranks, [nBoss]. He is evil and wants to corrupt Ahor. In order to restore peace
+    to the land we must fight this evil! Yet the champions of the village are not
+    capable of facing him, they need experienced leader.
 --- !u!1 &1562521028
 GameObject:
   m_ObjectHideFlags: 0
@@ -96976,10 +97099,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Prologue3
-  detailString: In Ahor a little village withstands an enemy army, they are in desperat
-    need for a great leader, who can help them. The enemy have collected a variety
-    of different units to their ranks, evil wizards, pirates, corrupted knight and
-    demon archers. We only got a name of a captian within the enemy ranks, [nBoss].
+  detailString: 'years have passed since the defeat of [pBoss], a new generation of
+    villagers is inhapitating the village and now they face a new invasion. [nBoss]
+    is attacking Ahor, and the villagers are again looking to you as their commander.
+    They have prepared the swords used against [pBoss], but after being stashed away
+    for qutie a while, they have less sharp. '
 --- !u!1 &1957691933
 GameObject:
   m_ObjectHideFlags: 0
@@ -100923,7 +101047,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2036521117}
   m_Layer: 0
-  m_Name: Prologues
+  m_Name: Prologues2ndPlaythrough
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100943,7 +101067,7 @@ Transform:
   - {fileID: 1045869175}
   - {fileID: 1957408378}
   m_Father: {fileID: 582305108}
-  m_RootOrder: 11
+  m_RootOrder: 14
 --- !u!1 &2036766192
 GameObject:
   m_ObjectHideFlags: 0
@@ -101252,6 +101376,51 @@ MonoBehaviour:
   detailString: It was good that we got [nrew] from the [enemy], it surely weakenend
     their forces.
   rewardData: {fileID: 0}
+--- !u!1 &2041146433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 136182, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2041146434}
+  - 114: {fileID: 2041146435}
+  m_Layer: 0
+  m_Name: Prologue3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2041146434
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 436182, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 2041146433}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 634875354}
+  m_RootOrder: 2
+--- !u!114 &2041146435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11436182, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 2041146433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8441e6fd5cf5084caa9096e5c7a3b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Prologue3
+  detailString: In Ahor a little village withstands an enemy army, they are in desperat
+    need for a great leader, who can help them. The enemy have collected a variety
+    of different units to their ranks, evil wizards, pirates, corrupted knight and
+    demon archers. We only got a name of a captian within the enemy ranks, [nBoss].
 --- !u!1 &2042036468
 GameObject:
   m_ObjectHideFlags: 0
@@ -101293,13 +101462,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Prologue1
-  detailString: The lands of Ahor are usually a quiet and peaceful land, however recently
-    it has been invaded by a great evil. Every corner of Ahor have been infected,
-    except for one little village. Here they strive to keep Ahor and its people safe.
-    The only knowledge we have about this evil is the name of an officer in the enemy
-    ranks, [nBoss]. He is evil and wants to corrupt Ahor. In order to restore peace
-    to the land we must fight this evil! Yet the champions of the village are not
-    capable of facing him, they need experienced leader.
+  detailString: "For 100 years the lands of Ahor have been peaceful. No one tried
+    to take over as [pBoss]\_and [pmBoss] did... Until now, a new enemy is threating
+    Ahor, his is name is [nBoss]. His army are stronger than anything we have seen
+    before. The village once more calls for you as their commander. The weapons used
+    to defeat [pBoss] has been pulled up from the armory, in slighty worse shape than
+    last time they were used."
 --- !u!1 &2045602048
 GameObject:
   m_ObjectHideFlags: 0
