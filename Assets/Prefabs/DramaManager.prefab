@@ -13590,10 +13590,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Prologue3
   detailString: 'Years have passed since the defeat of [pBoss], a new generation of
-    villagers is inhapitating the village and now they face a new invasion. [nBoss]
+    villagers is inhabitating the village and now they face a new invasion. [nBoss]
     is attacking Ahor, and the villagers are again looking to you as their commander.
     They have prepared the swords used against [pBoss], but after being stashed away
-    for qutie a while, they have less sharp. '
+    for qutie a while, they have become less sharp. '
 --- !u!114 &11428332
 MonoBehaviour:
   m_ObjectHideFlags: 1
