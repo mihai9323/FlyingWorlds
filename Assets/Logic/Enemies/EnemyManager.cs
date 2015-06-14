@@ -43,7 +43,7 @@ public class EnemyManager : MonoBehaviour {
 			                                     mPos.z);
 			LevelEnemies[i] = Instantiate(enemyTypes[eType%4],randomSpawnPos,Quaternion.identity) as Enemy;
 			LevelEnemies[i].GenerateEnemy();
-			yield return new WaitForSeconds(.1f+Random.Range(0f,3f));
+			yield return new WaitForSeconds(.1f+Random.Range(0f,1f));
 		}
 		if (DramaPack.DramaManager.activeQuest.qd.isBossQuest) {
 			Vector3 mPos = minPos;

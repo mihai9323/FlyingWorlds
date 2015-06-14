@@ -80,10 +80,12 @@ public class Item  {
 	}
 	public Item(Item item, float power){
 		this.itemType = item.itemType;
-		this.Range = item.Range * power;
-		this.Damage = item.Damage * power;
-		this.Defence = item.Defence * power;
+		this.Range = Mathf.RoundToInt(item.Range + power * Random.value);
+		this.Damage = Mathf.RoundToInt(item.Damage + power  * Random.value);
+		this.Defence = Mathf.RoundToInt(item.Defence + power  * Random.value * 2);
 		this.ItemName = item.ItemName;
+		if (itemType == ItemType.Melee)
+			this.Range = 1;
 		monstersKilled = new Dictionary<MonsterTypes,int>();
 
 	}

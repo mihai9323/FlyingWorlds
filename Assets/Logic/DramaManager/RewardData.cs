@@ -20,7 +20,7 @@ namespace DramaPack{
 
 		[HideInInspector]public Item chosenItem{
 			get{
-				if(_chosenItem == null) _chosenItem = new Item(rewardItems[(int)Random.Range(0,rewardItems.Length)],DramaManager.progression+ HubManager.shop.level * 9);
+				if(_chosenItem == null) _chosenItem = new Item(rewardItems[(int)Random.Range(0,rewardItems.Length)],Mathf.Clamp (DramaManager.progression+ HubManager.shop.level * 3,HubManager.shop.level * 6, HubManager.shop.level * 18));
 				return _chosenItem;
 			}
 			set{
