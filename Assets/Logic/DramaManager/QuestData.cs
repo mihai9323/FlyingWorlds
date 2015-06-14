@@ -33,6 +33,7 @@ namespace DramaPack{
 		public GameObject minorPictureParent;
 		public MinorPictureData[] minorPictures;
 		public EnemyData[] enemies;
+		public GameObject retryQuestsParent;
 		public RetryQuestData[] retryQuestsData;
 		public float[] traitRelevance;
 		public TraitManager.TraitTypes[] relevantTraits;
@@ -98,6 +99,7 @@ namespace DramaPack{
 
 			if(outcomePairsParent!=null)outcomePairs = outcomePairsParent.gameObject.GetComponentsInChildren<OutcomePair> ();
 			if(minorPictureParent!=null)minorPictures = minorPictureParent.gameObject.GetComponentsInChildren<MinorPictureData> ();
+			if(retryQuestsParent!=null)retryQuestsData = retryQuestsParent.gameObject.GetComponentsInChildren<RetryQuestData> ();
 		}
 
 		public DramaPack.Quest GenerateQuest(){
