@@ -915,7 +915,7 @@ GameObject:
   - 4: {fileID: 425170}
   - 114: {fileID: 11425160}
   m_Layer: 0
-  m_Name: Wizard
+  m_Name: MWizard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3152,7 +3152,7 @@ GameObject:
   - 4: {fileID: 451178}
   - 114: {fileID: 11451178}
   m_Layer: 0
-  m_Name: Pirate
+  m_Name: MPirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6136,6 +6136,70 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &197920
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 497920}
+  - 114: {fileID: 11497920}
+  m_Layer: 0
+  m_Name: Knight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &197922
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 497922}
+  - 114: {fileID: 11497922}
+  m_Layer: 0
+  m_Name: Demon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &197924
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 497924}
+  - 114: {fileID: 11497924}
+  m_Layer: 0
+  m_Name: Pirate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &197926
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 497926}
+  - 114: {fileID: 11497926}
+  m_Layer: 0
+  m_Name: Wizard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &403016
 Transform:
   m_ObjectHideFlags: 1
@@ -6873,10 +6937,14 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 497924}
+  - {fileID: 497922}
+  - {fileID: 497920}
+  - {fileID: 497926}
+  - {fileID: 425170}
   - {fileID: 451178}
   - {fileID: 451180}
   - {fileID: 451182}
-  - {fileID: 425170}
   m_Father: {fileID: 425162}
   m_RootOrder: 2
 --- !u!4 &425168
@@ -6907,7 +6975,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 425166}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!4 &425172
 Transform:
   m_ObjectHideFlags: 1
@@ -8765,7 +8833,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 425166}
-  m_RootOrder: 0
+  m_RootOrder: 5
 --- !u!4 &451180
 Transform:
   m_ObjectHideFlags: 1
@@ -8777,7 +8845,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 425166}
-  m_RootOrder: 1
+  m_RootOrder: 6
 --- !u!4 &451182
 Transform:
   m_ObjectHideFlags: 1
@@ -8789,7 +8857,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 425166}
-  m_RootOrder: 2
+  m_RootOrder: 7
 --- !u!4 &451184
 Transform:
   m_ObjectHideFlags: 1
@@ -11153,6 +11221,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 451176}
   m_RootOrder: 2
+--- !u!4 &497920
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425166}
+  m_RootOrder: 2
+--- !u!4 &497922
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425166}
+  m_RootOrder: 1
+--- !u!4 &497924
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425166}
+  m_RootOrder: 0
+--- !u!4 &497926
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425166}
+  m_RootOrder: 3
 --- !u!114 &11403016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12176,15 +12292,15 @@ MonoBehaviour:
   conectors:
   - {fileID: 11425150}
   miniBossList:
+  - {fileID: 11425160}
   - {fileID: 11451178}
   - {fileID: 11451180}
   - {fileID: 11451182}
-  - {fileID: 11425160}
   endBossList:
-  - {fileID: 11451178}
-  - {fileID: 11451180}
-  - {fileID: 11451182}
-  - {fileID: 11425160}
+  - {fileID: 11497924}
+  - {fileID: 11497922}
+  - {fileID: 11497920}
+  - {fileID: 11497926}
 --- !u!114 &11425158
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12215,10 +12331,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 642ba0974f5cb2a4bad13835ec65400e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Eplehugast
-  detailString: Eplehugast
+  name: Dangalf
+  detailString: Dengalf
   status: 0
-  bossObject: {fileID: 11442754, guid: 032d3a754c3844949a5ac48ddd4316c5, type: 2}
+  bossObject: {fileID: 11442754, guid: 3733b5816b3fc044fb37ba5e0be86926, type: 2}
 --- !u!114 &11425162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14379,10 +14495,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 642ba0974f5cb2a4bad13835ec65400e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Lewis 'Mad Eyes' Southey
-  detailString: Lewis 'Mad Eyes' Southey
+  name: Orval 'Crazy' Clark
+  detailString: Orval 'Crazy' Clark
   status: 0
-  bossObject: {fileID: 11408646, guid: 7bf2f4096c2d13440a2e11f92fc8a375, type: 2}
+  bossObject: {fileID: 11408646, guid: 3dee9ba3a7142a64b820b3a62d5b0408, type: 2}
 --- !u!114 &11451180
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14394,10 +14510,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 642ba0974f5cb2a4bad13835ec65400e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Iztitakkel
-  detailString: Iztitakkel
+  name: Smaxon
+  detailString: Smaxon
   status: 0
-  bossObject: {fileID: 11434072, guid: 036fa189be2f2374890a6351c512a3ce, type: 2}
+  bossObject: {fileID: 11434072, guid: 38a105d7f17e6b64885846b490f2ec68, type: 2}
 --- !u!114 &11451182
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14412,7 +14528,7 @@ MonoBehaviour:
   name: Baron von schmutzige Schuhe
   detailString: Baron von schmutzige Schuhe
   status: 0
-  bossObject: {fileID: 11408646, guid: 47e84e235f90f0b4fb25f8485885a24a, type: 2}
+  bossObject: {fileID: 11408646, guid: 12b798868548c0a46bd779bd6064f7f6, type: 2}
 --- !u!114 &11451184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -18596,7 +18712,7 @@ MonoBehaviour:
   revengeString: Despite our loss against [nBoss] last time around, I'm confident
     that we are strong enough to defeat him this time. Let's attack him and drive
     him off this land!
-  minProgressForQuest: 3
+  minProgressForQuest: 5
   progressForWinning: 1
   progressForLosing: .25
   randomLocations:
@@ -18661,7 +18777,7 @@ MonoBehaviour:
   isBossQuest: 1
   revengeString: We should take revenge against the [nBoss] and attack him now. We've
     become stronger since last time!
-  minProgressForQuest: 3
+  minProgressForQuest: 5
   progressForWinning: 1
   progressForLosing: .25
   randomLocations:
@@ -18726,7 +18842,7 @@ MonoBehaviour:
   isBossQuest: 1
   revengeString: Last time we faced [nBoss] we lost. We have however become stronger
     sine the previous encounter. I suggest we attack him at [location].
-  minProgressForQuest: 3
+  minProgressForQuest: 5
   progressForWinning: 1
   progressForLosing: .25
   randomLocations:
@@ -18793,7 +18909,7 @@ MonoBehaviour:
   revengeString: The [nBoss] is attacking [location]. We were not able to defeat him
     last time, but I think we stand a chance now as we are stronger than last time
     we met him!
-  minProgressForQuest: 3
+  minProgressForQuest: 5
   progressForWinning: 1
   progressForLosing: .25
   randomLocations:
@@ -18859,7 +18975,7 @@ MonoBehaviour:
   isBossQuest: 1
   revengeString: We got more intel about [nBoss]. He is conducting some shady business
     at [location]. We should try and get revenge and attack him!
-  minProgressForQuest: 3
+  minProgressForQuest: 5
   progressForWinning: 1
   progressForLosing: .25
   randomLocations:
@@ -20469,7 +20585,7 @@ MonoBehaviour:
     could intercept them at [location] [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: 1.5
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -20532,7 +20648,7 @@ MonoBehaviour:
   detailString: We should go to [cLoc] and face the [cEne], [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: 1.5
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -20596,7 +20712,7 @@ MonoBehaviour:
     guarded at [time], we should head there [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: 1.5
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -20661,7 +20777,7 @@ MonoBehaviour:
     and defeat them [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: 1.5
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -20725,7 +20841,7 @@ MonoBehaviour:
     go there [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: 1
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -20789,7 +20905,7 @@ MonoBehaviour:
     attack them [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: 1
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -20853,7 +20969,7 @@ MonoBehaviour:
     [mPic]'
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: 1
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -20917,7 +21033,7 @@ MonoBehaviour:
     I suggest we head there [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: 1
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -20981,7 +21097,7 @@ MonoBehaviour:
     we face it, it would be wise to head to [location] [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: 1
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -21044,7 +21160,7 @@ MonoBehaviour:
   detailString: 'The [enemy] are all over [location] we should head there [mPic] '
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: 1
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -21605,6 +21721,66 @@ MonoBehaviour:
   traitRelevance: 1
   relevantTraits: 01000000040000000b000000
   questGiver: {fileID: 0}
+--- !u!114 &11497920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 642ba0974f5cb2a4bad13835ec65400e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 'Lord Carac '
+  detailString: 'Lord Carac '
+  status: 0
+  bossObject: {fileID: 11408646, guid: 47e84e235f90f0b4fb25f8485885a24a, type: 2}
+--- !u!114 &11497922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 642ba0974f5cb2a4bad13835ec65400e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Iztitakkel
+  detailString: Iztitakkel
+  status: 0
+  bossObject: {fileID: 11434072, guid: 036fa189be2f2374890a6351c512a3ce, type: 2}
+--- !u!114 &11497924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 642ba0974f5cb2a4bad13835ec65400e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Lewis 'Mad Eyes' Southey
+  detailString: Lewis 'Mad Eyes' Southey
+  status: 0
+  bossObject: {fileID: 11408646, guid: 7bf2f4096c2d13440a2e11f92fc8a375, type: 2}
+--- !u!114 &11497926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 642ba0974f5cb2a4bad13835ec65400e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Eplehugast
+  detailString: Eplehugast
+  status: 0
+  bossObject: {fileID: 11442754, guid: 032d3a754c3844949a5ac48ddd4316c5, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
