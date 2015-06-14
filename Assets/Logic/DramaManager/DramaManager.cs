@@ -40,11 +40,18 @@ namespace DramaPack{
 			}
 			miniBoss = miniBossList[(int)(Mathf.Clamp(Random.Range ((int)0,(int)miniBossList.Length),0,miniBossList.Length- 1))];
 			endBoss = endBossList  [(int)(Mathf.Clamp(Random.Range ((int)0,(int)endBossList.Length),0, endBossList.Length - 1))];
+			while (miniBoss.name == endBoss.name) {
+				miniBoss = miniBossList[(int)(Mathf.Clamp(Random.Range ((int)0,(int)miniBossList.Length),0,miniBossList.Length- 1))];
+				endBoss = endBossList  [(int)(Mathf.Clamp(Random.Range ((int)0,(int)endBossList.Length),0, endBossList.Length - 1))];
+
+			}
+
 			Select2Quests ();
 
 		}
 
 		public void Select2Quests(){
+			Debug.Log ("Select 2 quests");
 			noQuestSelected = true;
 			var questData = (from q 
 							in quests
@@ -116,7 +123,10 @@ namespace DramaPack{
 		}
 
 		public void QuestStoryBuilder(){
-
+			if (questSecondBest == null) {
+				questSecondBest = questBest.qd.GenerateQuest ();
+				Debug.Log("Second quest was null");
+			}
 			Debug.Log ("building story string");
 			if (progression == 0) {
 				Debug.Log("first quest");
@@ -150,7 +160,7 @@ namespace DramaPack{
 			Debug.Log (activeQuest);
 			lastQuest = activeQuest;
 			activeQuest.FinishQuest (successful);
-		
+			lastFailed = !successful;
 			Select2Quests ();
 		}
 

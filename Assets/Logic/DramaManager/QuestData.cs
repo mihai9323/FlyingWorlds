@@ -80,6 +80,10 @@ namespace DramaPack{
 			this.timesPlayed++;
 			LocationData rLoc = randomDramaData (randomLocations) as LocationData;
 			LocationData cLoc = randomDramaData (questLocations) as LocationData;
+			while (rLoc.name == cLoc.name) {
+				rLoc = randomDramaData (randomLocations) as LocationData;
+				cLoc = randomDramaData (questLocations) as LocationData;
+			}
 			MomentData cMoment = randomDramaData (questMoments) as MomentData;
 			OutcomePair outcomePair = randomDramaData (outcomePairs) as OutcomePair;
 			MinorPictureData mpData = randomDramaData (minorPictures) as MinorPictureData;

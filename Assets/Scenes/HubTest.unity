@@ -2811,6 +2811,49 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &54997918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145810, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 54997919}
+  - 114: {fileID: 54997920}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &54997919
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 445810, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 54997918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 712351563}
+  m_RootOrder: 3
+--- !u!114 &54997920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11445810, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 54997918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: I felt we could have won the last battle! I'm convinced we'll win
+    if we strike again! Come on let's do it! [pmPic]
 --- !u!1 &57245867
 GameObject:
   m_ObjectHideFlags: 0
@@ -3835,7 +3878,7 @@ MonoBehaviour:
   - {fileID: 1603119758}
   - {fileID: 302080555}
   retryQuestsData:
-  - {fileID: 955684679}
+  - {fileID: 1469531264}
   traitRelevance: 1
   relevantTraits: 02000000
   questGiver: {fileID: 0}
@@ -5453,6 +5496,99 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 130463774}
+--- !u!1 &131039080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182772, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 131039081}
+  - 114: {fileID: 131039082}
+  m_Layer: 0
+  m_Name: Shop Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &131039081
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482772, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 131039080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1127944481}
+  m_RootOrder: 5
+--- !u!114 &131039082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482772, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 131039080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: The surrounding area of [location] is being attacked by [enemy]. I
+    think we should help out in order to improve our relations. [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &131596404
 GameObject:
   m_ObjectHideFlags: 0
@@ -6172,6 +6308,98 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 500
   detailString: 500
+--- !u!1 &150231879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182762, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 150231880}
+  - 114: {fileID: 150231881}
+  m_Layer: 0
+  m_Name: Item Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &150231880
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482762, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 150231879}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 298078903}
+  m_RootOrder: 9
+--- !u!114 &150231881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482762, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 150231879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: 'The [enemy] are all over [location] we should head there [mPic] '
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &150551196
 GameObject:
   m_ObjectHideFlags: 0
@@ -6434,6 +6662,99 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 162820303}
+--- !u!1 &167587880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182778, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 167587881}
+  - 114: {fileID: 167587882}
+  m_Layer: 0
+  m_Name: Shop Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &167587881
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482778, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 167587880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1127944481}
+  m_RootOrder: 2
+--- !u!114 &167587882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482778, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 167587880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: '[location] got materials which we could put to good use in the town''s
+    shop. I suggest we head there and retrieve them. [mPic]'
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &167851758
 GameObject:
   m_ObjectHideFlags: 0
@@ -6611,6 +6932,100 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 781612022}
   m_GameObject: {fileID: 169465360}
+--- !u!1 &171176207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182726, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 171176208}
+  - 114: {fileID: 171176209}
+  m_Layer: 0
+  m_Name: Farm Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &171176208
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482726, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 171176207}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1187870438}
+  m_RootOrder: 6
+--- !u!114 &171176209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482730, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 171176207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: The surrounding farmland of [location] is being attacked by [enemy].
+    I think we should help out in order to improve our relation with the farmers there.
+    [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &171584291
 GameObject:
   m_ObjectHideFlags: 0
@@ -7296,6 +7711,99 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: DramaPack.MajorPictureData
   detailString: 
+--- !u!1 &189847348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182732, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 189847349}
+  - 114: {fileID: 189847350}
+  m_Layer: 0
+  m_Name: Farm Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &189847349
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482732, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 189847348}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1187870438}
+  m_RootOrder: 3
+--- !u!114 &189847350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482736, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 189847348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: There has been rumours about [rname] at [location]. It is currently
+    overrun by [enemy], we should defeat them [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &189985682
 GameObject:
   m_ObjectHideFlags: 0
@@ -11035,6 +11543,99 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 276701776}
+--- !u!1 &278679839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182770, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 278679840}
+  - 114: {fileID: 278679841}
+  m_Layer: 0
+  m_Name: Shop Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &278679840
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482770, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 278679839}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1127944481}
+  m_RootOrder: 6
+--- !u!114 &278679841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482770, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 278679839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: It is inevitable that a dangerous battle will be approaching us, before
+    we face it, it would be wise to head to [location] [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &280101526
 GameObject:
   m_ObjectHideFlags: 0
@@ -12459,6 +13060,43 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 297052879}
+--- !u!1 &298078902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182746, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 298078903}
+  m_Layer: 0
+  m_Name: ItemQuests
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &298078903
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482746, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 298078902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1448110501}
+  - {fileID: 1664221815}
+  - {fileID: 1784195452}
+  - {fileID: 351253220}
+  - {fileID: 1416210744}
+  - {fileID: 1231065510}
+  - {fileID: 907986823}
+  - {fileID: 559675799}
+  - {fileID: 2074799247}
+  - {fileID: 150231880}
+  m_Father: {fileID: 1891895699}
+  m_RootOrder: 3
 --- !u!1 &301169618
 GameObject:
   m_ObjectHideFlags: 0
@@ -13499,6 +14137,98 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 328998143}
+--- !u!1 &329606930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182718, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 329606931}
+  - 114: {fileID: 329606932}
+  m_Layer: 0
+  m_Name: Treasure Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &329606931
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482718, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 329606930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1175516480}
+  m_RootOrder: 9
+--- !u!114 &329606932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482722, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 329606930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: 'The [enemy] are all over [location] we should head there [mPic] '
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &329846333
 GameObject:
   m_ObjectHideFlags: 0
@@ -14429,6 +15159,100 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 350157959}
+--- !u!1 &351253219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182750, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 351253220}
+  - 114: {fileID: 351253221}
+  m_Layer: 0
+  m_Name: Item Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &351253220
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482750, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 351253219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 298078903}
+  m_RootOrder: 3
+--- !u!114 &351253221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482750, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 351253219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: There has been rumours about an ancient artifact called [rname] at
+    [location]. Unfortunately it is currently overrun by [enemy], but we could try
+    and defeat them [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &355087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -15444,7 +16268,7 @@ MonoBehaviour:
   - {fileID: 1603119758}
   - {fileID: 302080555}
   retryQuestsData:
-  - {fileID: 955684679}
+  - {fileID: 1469531264}
   traitRelevance: 1
   relevantTraits: 03000000
   questGiver: {fileID: 0}
@@ -18709,7 +19533,7 @@ MonoBehaviour:
   - {fileID: 1603119758}
   - {fileID: 302080555}
   retryQuestsData:
-  - {fileID: 955684679}
+  - {fileID: 1469531264}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -20060,6 +20884,100 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 462964764}
+--- !u!1 &463762108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182716, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 463762109}
+  - 114: {fileID: 463762110}
+  m_Layer: 0
+  m_Name: Treasure Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &463762109
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482716, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 463762108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1175516480}
+  m_RootOrder: 8
+--- !u!114 &463762110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482720, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 463762108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: The [nBoss] is attacking [rlocation]. As we are not strong enough
+    to beat him, we should take advantage of his distraction and head to [location]
+    [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &467645772
 GameObject:
   m_ObjectHideFlags: 0
@@ -21438,6 +22356,98 @@ Transform:
   - {fileID: 1366501918}
   m_Father: {fileID: 0}
   m_RootOrder: 5
+--- !u!1 &501320945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182764, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 501320946}
+  - 114: {fileID: 501320947}
+  m_Layer: 0
+  m_Name: Shop Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &501320946
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482764, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 501320945}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1127944481}
+  m_RootOrder: 9
+--- !u!114 &501320947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482764, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 501320945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: 'The [enemy] are all over [location] we should head there [mPic] '
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &502350282
 GameObject:
   m_ObjectHideFlags: 0
@@ -21779,6 +22789,99 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 504271323}
+--- !u!1 &504723244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182734, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 504723245}
+  - 114: {fileID: 504723246}
+  m_Layer: 0
+  m_Name: Farm Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &504723245
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482734, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 504723244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1187870438}
+  m_RootOrder: 2
+--- !u!114 &504723246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482738, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 504723244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: Some of our farmers were attacked at [location] while trying to get
+    [rname] for the farm. I suggest we head there! [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &506203760
 GameObject:
   m_ObjectHideFlags: 0
@@ -22457,6 +23560,49 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 518017433}
+--- !u!1 &519734752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145824, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 519734753}
+  - 114: {fileID: 519734754}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &519734753
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 445824, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 519734752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1254039162}
+  m_RootOrder: 1
+--- !u!114 &519734754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11445824, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 519734752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: Even though we failed the last battle I think we should launch a counter
+    attack! [pmPic]
 --- !u!1 &519958695
 GameObject:
   m_ObjectHideFlags: 0
@@ -22912,7 +24058,7 @@ MonoBehaviour:
   - {fileID: 1603119758}
   - {fileID: 302080555}
   retryQuestsData:
-  - {fileID: 955684679}
+  - {fileID: 1469531264}
   traitRelevance: 1
   relevantTraits: 02000000
   questGiver: {fileID: 0}
@@ -23615,8 +24761,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 409
+  detailString: 409
 --- !u!1 &537381087
 GameObject:
   m_ObjectHideFlags: 0
@@ -24229,6 +25375,99 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 781612022}
   m_GameObject: {fileID: 548169324}
+--- !u!1 &549977350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182730, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 549977351}
+  - 114: {fileID: 549977352}
+  m_Layer: 0
+  m_Name: Farm Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &549977351
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482730, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 549977350}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1187870438}
+  m_RootOrder: 4
+--- !u!114 &549977352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482734, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 549977350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: '[location] is currently overrun by [enemy], we should defeat them.
+    [mPic]'
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &551628501
 GameObject:
   m_ObjectHideFlags: 0
@@ -24935,6 +26174,99 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 556051787}
+--- !u!1 &559675798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182758, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 559675799}
+  - 114: {fileID: 559675800}
+  m_Layer: 0
+  m_Name: Item Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &559675799
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482758, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 559675798}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 298078903}
+  m_RootOrder: 7
+--- !u!114 &559675800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482758, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 559675798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: We met a traveler who talked about a powerful artifact at [location].
+    I suggest we head there [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &560501582
 GameObject:
   m_ObjectHideFlags: 0
@@ -26074,6 +27406,7 @@ Transform:
   - {fileID: 519958696}
   - {fileID: 1301990152}
   - {fileID: 2036521117}
+  - {fileID: 1254039162}
   - {fileID: 712351563}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -26090,8 +27423,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quests:
-  - {fileID: 1670054564}
-  - {fileID: 1886648723}
+  - {fileID: 2035165756}
+  - {fileID: 904493213}
   - {fileID: 434876791}
   prologues:
   - {fileID: 2042036470}
@@ -26357,6 +27690,100 @@ MonoBehaviour:
   - {fileID: 1886979659}
   - {fileID: 283523420}
   rewardData: {fileID: 1122499971}
+--- !u!1 &590272597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182774, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 590272598}
+  - 114: {fileID: 590272599}
+  m_Layer: 0
+  m_Name: Shop Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &590272598
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482774, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 590272597}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1127944481}
+  m_RootOrder: 4
+--- !u!114 &590272599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482774, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 590272597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: Close members of the merchant's family is living at [location] which
+    currently is being attacked by [enemy]. We should try and bring peace back to
+    the area. [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &592283029
 GameObject:
   m_ObjectHideFlags: 0
@@ -29252,6 +30679,99 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.18000007, y: 3.29999995, z: 7.86999989}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &652213466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182738, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 652213467}
+  - 114: {fileID: 652213468}
+  m_Layer: 0
+  m_Name: Farm Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &652213467
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482738, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 652213466}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1187870438}
+  m_RootOrder: 0
+--- !u!114 &652213468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482740, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 652213466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: A foreign merchant's trade caravan was attacked at [location], and
+    needs help. [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &652305320
 GameObject:
   m_ObjectHideFlags: 0
@@ -30777,8 +32297,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 542
+  detailString: 542
 --- !u!1 &682777909
 GameObject:
   m_ObjectHideFlags: 0
@@ -31024,8 +32544,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: With the victory at [location] and the retrieved [nrew] we are in
-    a good spot.
+  detailString: With the victory at [location] and the retrieved [nrew] giving u more
+    money to spend on weapons.
   rewardData: {fileID: 0}
 --- !u!1 &687102386
 GameObject:
@@ -32506,8 +34026,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 955684678}
+  - {fileID: 1271614533}
+  - {fileID: 2036180091}
+  - {fileID: 54997919}
+  - {fileID: 1487958856}
+  - {fileID: 1952611136}
   m_Father: {fileID: 582305108}
-  m_RootOrder: 12
+  m_RootOrder: 13
 --- !u!1 &716711479
 GameObject:
   m_ObjectHideFlags: 0
@@ -33677,7 +35202,7 @@ MonoBehaviour:
   - {fileID: 1603119758}
   - {fileID: 302080555}
   retryQuestsData:
-  - {fileID: 955684679}
+  - {fileID: 1469531264}
   traitRelevance: 1
   relevantTraits: 02000000
   questGiver: {fileID: 0}
@@ -34217,8 +35742,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 642ba0974f5cb2a4bad13835ec65400e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Wizard
-  detailString: Wizard
+  name: Eplehugast
+  detailString: Eplehugast
   status: 0
   bossObject: {fileID: 11442754, guid: 032d3a754c3844949a5ac48ddd4316c5, type: 2}
 --- !u!1 &745549441
@@ -40288,8 +41813,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 642ba0974f5cb2a4bad13835ec65400e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Pirate
-  detailString: Pirate
+  name: Lewis 'Mad Eyes' Southey
+  detailString: Lewis 'Mad Eyes' Southey
   status: 0
   bossObject: {fileID: 11408646, guid: 7bf2f4096c2d13440a2e11f92fc8a375, type: 2}
 --- !u!1 &866792839
@@ -40356,6 +41881,99 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 866792839}
+--- !u!1 &867742150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182710, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 867742151}
+  - 114: {fileID: 867742152}
+  m_Layer: 0
+  m_Name: Treasure Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &867742151
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482710, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 867742150}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1175516480}
+  m_RootOrder: 5
+--- !u!114 &867742152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482714, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 867742150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: The [enemy] are guarding [rname] at [location]. I think we should
+    attack them [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &869934234
 GameObject:
   m_ObjectHideFlags: 0
@@ -40492,6 +42110,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positiveOutcome: {fileID: 1663386612}
   negativeOutcome: {fileID: 1422538784}
+--- !u!1 &873544138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145818, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 873544139}
+  - 114: {fileID: 873544140}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &873544139
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 445818, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 873544138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1254039162}
+  m_RootOrder: 4
+--- !u!114 &873544140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11445818, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 873544138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: It would be worth making another push at [plocation] as it would benefit
+    our cause. We should attack again! [pmPic]
 --- !u!1 &875694136
 GameObject:
   m_ObjectHideFlags: 0
@@ -42034,6 +43695,99 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &904493211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182698, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 904493212}
+  - 114: {fileID: 904493213}
+  m_Layer: 0
+  m_Name: Treasure Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &904493212
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482698, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 904493211}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1175516480}
+  m_RootOrder: 1
+--- !u!114 &904493213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482704, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 904493211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: The [nBoss] is sending a caravan with [rname] to [rlocation]. We should
+    intercept it at [location], [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &906408625
 GameObject:
   m_ObjectHideFlags: 0
@@ -42076,6 +43830,99 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 500
   detailString: 500
+--- !u!1 &907986822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182756, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 907986823}
+  - 114: {fileID: 907986824}
+  m_Layer: 0
+  m_Name: Item Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &907986823
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482756, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 907986822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 298078903}
+  m_RootOrder: 6
+--- !u!114 &907986824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482756, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 907986822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: '[location] is known for having hidden artifacts, we should there
+    [mPic]'
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &909289477
 GameObject:
   m_ObjectHideFlags: 0
@@ -44070,10 +45917,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 642ba0974f5cb2a4bad13835ec65400e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Demon
-  detailString: 'Demon
-
-'
+  name: Iztitakkel
+  detailString: Iztitakkel
   status: 0
   bossObject: {fileID: 11434072, guid: 036fa189be2f2374890a6351c512a3ce, type: 2}
 --- !u!1 &964990456
@@ -44364,6 +46209,99 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 966536251}
+--- !u!1 &968073682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182740, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 968073683}
+  - 114: {fileID: 968073684}
+  m_Layer: 0
+  m_Name: Farm Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &968073683
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482740, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 968073682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1187870438}
+  m_RootOrder: 1
+--- !u!114 &968073684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482742, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 968073682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: The area of [location] is dangerous and the local farmers are being
+    attacked by [nBoss] minions. I suggest we help them out. [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &970870631
 GameObject:
   m_ObjectHideFlags: 0
@@ -46757,6 +48695,100 @@ MonoBehaviour:
   detailString: We were overun by the [enemy] and could not retrive [nrew]. The mechant
     did not get to upgrade his stock.
   rewardData: {fileID: 0}
+--- !u!1 &1034293916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182724, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1034293917}
+  - 114: {fileID: 1034293918}
+  m_Layer: 0
+  m_Name: Farm Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1034293917
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482724, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1034293916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1187870438}
+  m_RootOrder: 7
+--- !u!114 &1034293918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482728, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1034293916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: We are going to face a difficult battle in the near future, however
+    before we face it, I suggest we improve our farm with [rname] by bringing peace
+    back to [location].  [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1038443282
 GameObject:
   m_ObjectHideFlags: 0
@@ -47207,8 +49239,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 459
+  detailString: 459
 --- !u!1 &1045843688
 GameObject:
   m_ObjectHideFlags: 0
@@ -49533,7 +51565,7 @@ MonoBehaviour:
   - {fileID: 1603119758}
   - {fileID: 302080555}
   retryQuestsData:
-  - {fileID: 955684679}
+  - {fileID: 1469531264}
   traitRelevance: 1
   relevantTraits: 01000000
   questGiver: {fileID: 0}
@@ -49592,6 +51624,100 @@ MonoBehaviour:
   - {fileID: 189985684}
   - {fileID: 486487204}
   rewardData: {fileID: 1122499971}
+--- !u!1 &1095494566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182720, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1095494567}
+  - 114: {fileID: 1095494568}
+  m_Layer: 0
+  m_Name: Farm Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1095494567
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482720, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1095494566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1187870438}
+  m_RootOrder: 9
+--- !u!114 &1095494568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482724, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1095494566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: The [nBoss] is attacking [rlocation]. We cannot defeat him yet, however
+    with him being distracted we could take advantage of this and bring peace back
+    to [location]. [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1095726618
 GameObject:
   m_ObjectHideFlags: 0
@@ -51934,7 +54060,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1127944481}
   m_Layer: 0
-  m_Name: TreasureQuests
+  m_Name: ShopQuests
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51952,8 +54078,16 @@ Transform:
   m_Children:
   - {fileID: 1670054563}
   - {fileID: 1886648722}
+  - {fileID: 167587881}
+  - {fileID: 1972091736}
+  - {fileID: 590272598}
+  - {fileID: 131039081}
+  - {fileID: 278679840}
+  - {fileID: 1870090461}
+  - {fileID: 1725753988}
+  - {fileID: 501320946}
   m_Father: {fileID: 1891895699}
-  m_RootOrder: 0
+  m_RootOrder: 4
 --- !u!1 &1129317695
 GameObject:
   m_ObjectHideFlags: 0
@@ -54525,6 +56659,99 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1171523553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182722, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1171523554}
+  - 114: {fileID: 1171523555}
+  m_Layer: 0
+  m_Name: Farm Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1171523554
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482722, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1171523553}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1187870438}
+  m_RootOrder: 8
+--- !u!114 &1171523555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482726, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1171523553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: Our contacts at [location] are being attacked. Let's help them out!
+    [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1171978317
 GameObject:
   m_ObjectHideFlags: 0
@@ -55042,6 +57269,43 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1173978743}
+--- !u!1 &1175516479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182702, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1175516480}
+  m_Layer: 0
+  m_Name: TreasureQuests
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1175516480
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482702, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1175516479}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2035165755}
+  - {fileID: 904493212}
+  - {fileID: 1761010189}
+  - {fileID: 1818236822}
+  - {fileID: 1511519063}
+  - {fileID: 867742151}
+  - {fileID: 2083123234}
+  - {fileID: 1418539793}
+  - {fileID: 463762109}
+  - {fileID: 329606931}
+  m_Father: {fileID: 1891895699}
+  m_RootOrder: 0
 --- !u!1 &1176900505
 GameObject:
   m_ObjectHideFlags: 0
@@ -56238,6 +58502,43 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1187289332}
+--- !u!1 &1187870437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182736, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1187870438}
+  m_Layer: 0
+  m_Name: FarmQuests
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1187870438
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482736, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1187870437}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 652213467}
+  - {fileID: 968073683}
+  - {fileID: 504723245}
+  - {fileID: 189847349}
+  - {fileID: 549977351}
+  - {fileID: 1620268846}
+  - {fileID: 171176208}
+  - {fileID: 1034293917}
+  - {fileID: 1171523554}
+  - {fileID: 1095494567}
+  m_Father: {fileID: 1891895699}
+  m_RootOrder: 2
 --- !u!1 &1189072769
 GameObject:
   m_ObjectHideFlags: 0
@@ -57805,6 +60106,99 @@ Transform:
   - {fileID: 80562499}
   m_Father: {fileID: 1308752921}
   m_RootOrder: 8
+--- !u!1 &1231065509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182754, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1231065510}
+  - 114: {fileID: 1231065511}
+  m_Layer: 0
+  m_Name: Item Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1231065510
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482754, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1231065509}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 298078903}
+  m_RootOrder: 5
+--- !u!114 &1231065511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482754, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1231065509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: The [enemy] are guarding [rname] at [location]. I think we should
+    attack them [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1232188249
 GameObject:
   m_ObjectHideFlags: 0
@@ -59041,6 +61435,39 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1253953785}
+--- !u!1 &1254039161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145826, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1254039162}
+  m_Layer: 0
+  m_Name: RetryQuests
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1254039162
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 445826, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1254039161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1469531263}
+  - {fileID: 519734753}
+  - {fileID: 2065403042}
+  - {fileID: 1993243669}
+  - {fileID: 873544139}
+  - {fileID: 1943327653}
+  m_Father: {fileID: 582305108}
+  m_RootOrder: 12
 --- !u!1001 &1257834336
 Prefab:
   m_ObjectHideFlags: 0
@@ -59263,10 +61690,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: '500
-
-'
+  name: 390
+  detailString: 390
 --- !u!1 &1260617802
 GameObject:
   m_ObjectHideFlags: 0
@@ -60322,6 +62747,49 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1271614532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145806, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1271614533}
+  - 114: {fileID: 1271614534}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1271614533
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 445806, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1271614532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 712351563}
+  m_RootOrder: 1
+--- !u!114 &1271614534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11445806, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1271614532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: Even though we failed the last battle I think we should launch a counter
+    attack! [pmPic]
 --- !u!1 &1273581205
 GameObject:
   m_ObjectHideFlags: 0
@@ -63738,8 +66206,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 478
+  detailString: 478
 --- !u!1 &1352832709
 GameObject:
   m_ObjectHideFlags: 0
@@ -64473,7 +66941,7 @@ MonoBehaviour:
   - {fileID: 1603119758}
   - {fileID: 302080555}
   retryQuestsData:
-  - {fileID: 955684679}
+  - {fileID: 1469531264}
   traitRelevance: 1
   relevantTraits: 02000000
   questGiver: {fileID: 0}
@@ -67226,6 +69694,99 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 500
   detailString: 500
+--- !u!1 &1416210743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182752, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1416210744}
+  - 114: {fileID: 1416210745}
+  m_Layer: 0
+  m_Name: Item Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1416210744
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482752, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1416210743}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 298078903}
+  m_RootOrder: 4
+--- !u!114 &1416210745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482752, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1416210743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: I heard words of [rname] located at [location]! We might be able to
+    go there [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1416455131
 GameObject:
   m_ObjectHideFlags: 0
@@ -67430,8 +69991,101 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 601
+  detailString: 601
+--- !u!1 &1418539792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182714, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1418539793}
+  - 114: {fileID: 1418539794}
+  m_Layer: 0
+  m_Name: Treasure Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1418539793
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482714, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1418539792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1175516480}
+  m_RootOrder: 7
+--- !u!114 &1418539794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482718, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1418539792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: The land of Ahor is filled with treasure, we should head to [location]
+    [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1421428454
 GameObject:
   m_ObjectHideFlags: 0
@@ -68462,6 +71116,98 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1443118981}
+--- !u!1 &1448110500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182744, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1448110501}
+  - 114: {fileID: 1448110502}
+  m_Layer: 0
+  m_Name: Item Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1448110501
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482744, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1448110500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 298078903}
+  m_RootOrder: 0
+--- !u!114 &1448110502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482746, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1448110500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: We should go to [cLoc] and face the [cEne], [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1450053865
 GameObject:
   m_ObjectHideFlags: 0
@@ -68905,8 +71651,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 420
+  detailString: 420
 --- !u!1 &1459393212
 GameObject:
   m_ObjectHideFlags: 0
@@ -69354,6 +72100,48 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1469428590}
+--- !u!1 &1469531262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145828, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1469531263}
+  - 114: {fileID: 1469531264}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1469531263
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 445828, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1469531262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1254039162}
+  m_RootOrder: 0
+--- !u!114 &1469531264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11445826, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1469531262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: Despite the loss I suggest we try again! [pmPic]
 --- !u!1 &1472110742
 GameObject:
   m_ObjectHideFlags: 0
@@ -69966,7 +72754,7 @@ MonoBehaviour:
   - {fileID: 1603119758}
   - {fileID: 302080555}
   retryQuestsData:
-  - {fileID: 955684679}
+  - {fileID: 1469531264}
   traitRelevance: 1
   relevantTraits: 03000000
   questGiver: {fileID: 0}
@@ -70163,6 +72951,49 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 781612022}
   m_GameObject: {fileID: 1486062974}
+--- !u!1 &1487958855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145812, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1487958856}
+  - 114: {fileID: 1487958857}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1487958856
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 445812, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1487958855}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 712351563}
+  m_RootOrder: 4
+--- !u!114 &1487958857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11445812, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1487958855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: It would be worth making another push at [plocation] as it would benefit
+    our cause. We should attack again! [pmPic]
 --- !u!1 &1490185603
 GameObject:
   m_ObjectHideFlags: 0
@@ -70964,6 +73795,99 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1511183265}
+--- !u!1 &1511519062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182708, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1511519063}
+  - 114: {fileID: 1511519064}
+  m_Layer: 0
+  m_Name: Treasure Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1511519063
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482708, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1511519062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1175516480}
+  m_RootOrder: 4
+--- !u!114 &1511519064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482712, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1511519062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: I heard words of a golden opportunity at [location]! We might be able
+    to go there [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1515098676
 GameObject:
   m_ObjectHideFlags: 0
@@ -72151,7 +75075,7 @@ MonoBehaviour:
   - {fileID: 1603119758}
   - {fileID: 302080555}
   retryQuestsData:
-  - {fileID: 955684679}
+  - {fileID: 1469531264}
   traitRelevance: 1
   relevantTraits: 03000000
   questGiver: {fileID: 0}
@@ -73952,8 +76876,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 642ba0974f5cb2a4bad13835ec65400e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Knight
-  detailString: Knight
+  name: Baron von schmutzige Schuhe
+  detailString: Baron von schmutzige Schuhe
   status: 0
   bossObject: {fileID: 11408646, guid: 47e84e235f90f0b4fb25f8485885a24a, type: 2}
 --- !u!1 &1583063684
@@ -75697,6 +78621,99 @@ Transform:
   - {fileID: 916780834}
   m_Father: {fileID: 840157102}
   m_RootOrder: 0
+--- !u!1 &1620268845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182728, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1620268846}
+  - 114: {fileID: 1620268847}
+  m_Layer: 0
+  m_Name: Farm Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1620268846
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482728, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1620268845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1187870438}
+  m_RootOrder: 5
+--- !u!114 &1620268847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482732, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1620268845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: The farmers living near [location] had [rname] stolen from them by
+    [enemy]. We should try to retrieve it! [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1621057326
 GameObject:
   m_ObjectHideFlags: 0
@@ -77715,6 +80732,99 @@ MonoBehaviour:
   detailString: the battle of [location gave us [nrew], it will certainly increase
     the varity of shop.]
   rewardData: {fileID: 0}
+--- !u!1 &1664221814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182742, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1664221815}
+  - 114: {fileID: 1664221816}
+  m_Layer: 0
+  m_Name: Item Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1664221815
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482742, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1664221814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 298078903}
+  m_RootOrder: 1
+--- !u!114 &1664221816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482744, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1664221814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: The [nBoss] is sending a troops carrying [rname] to [rlocation]. We
+    could intercept them at [location] [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1664530999
 GameObject:
   m_ObjectHideFlags: 0
@@ -78183,7 +81293,7 @@ GameObject:
   - 4: {fileID: 1670054563}
   - 114: {fileID: 1670054564}
   m_Layer: 0
-  m_Name: Treasure Quest
+  m_Name: Shop Quest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78214,12 +81324,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Treasure Quest
-  detailString: We should go to [cLoc] and face the [cEne], [mPic]
+  detailString: A foreign merchant's trade caravan was attacked at [location], and
+    needs help. [mPic]
   isBossQuest: 0
   revengeString: 
   minProgressForQuest: 0
-  progressForWinning: 2
-  progressForLosing: 1
+  progressForWinning: 1
+  progressForLosing: .5
   randomLocations:
   - {fileID: 1222665940}
   - {fileID: 384988102}
@@ -79960,8 +83071,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 610
+  detailString: 610
 --- !u!1 &1725378302
 GameObject:
   m_ObjectHideFlags: 0
@@ -80085,6 +83196,100 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1725642817}
+--- !u!1 &1725753987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182766, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1725753988}
+  - 114: {fileID: 1725753989}
+  m_Layer: 0
+  m_Name: Shop Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1725753988
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482766, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1725753987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1127944481}
+  m_RootOrder: 8
+--- !u!114 &1725753989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482766, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1725753987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: The [nBoss] is attacking [rlocation]. As we are not strong enough
+    to beat him, we should take advantage of his distraction and head to [location]
+    [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1731447170
 GameObject:
   m_ObjectHideFlags: 0
@@ -81682,6 +84887,99 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 781612022}
   m_GameObject: {fileID: 1759771664}
+--- !u!1 &1761010188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182704, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1761010189}
+  - 114: {fileID: 1761010190}
+  m_Layer: 0
+  m_Name: Treasure Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1761010189
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482704, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1761010188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1175516480}
+  m_RootOrder: 2
+--- !u!114 &1761010190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482708, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1761010188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: '[location] got a secret entrance which is not well guarded at [time],
+    we should head there [mPic]'
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1761750533
 GameObject:
   m_ObjectHideFlags: 0
@@ -82290,8 +85588,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 423
+  detailString: 423
 --- !u!1 &1776532400
 GameObject:
   m_ObjectHideFlags: 0
@@ -82560,6 +85858,99 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 500
   detailString: 500
+--- !u!1 &1784195451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182748, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1784195452}
+  - 114: {fileID: 1784195453}
+  m_Layer: 0
+  m_Name: Item Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1784195452
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482748, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1784195451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 298078903}
+  m_RootOrder: 2
+--- !u!114 &1784195453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482748, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1784195451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: I got intel that [location] got a hidden passage which is not well
+    guarded at [time], we should head there [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1786881434
 GameObject:
   m_ObjectHideFlags: 0
@@ -83807,6 +87198,99 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   T_HealthValue: {fileID: 397810892}
   _healthBar: {fileID: 1388190734}
+--- !u!1 &1818236821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182706, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1818236822}
+  - 114: {fileID: 1818236823}
+  m_Layer: 0
+  m_Name: Treasure Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1818236822
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482706, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1818236821}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1175516480}
+  m_RootOrder: 3
+--- !u!114 &1818236823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482710, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1818236821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: There has been rumours about [rname] at [location]. It is currently
+    overrun by [enemy], we should defeat them [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1818871551
 GameObject:
   m_ObjectHideFlags: 0
@@ -85690,7 +89174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
   detailString: Defeating the [enemy] at [location] went succesful, we located [nrew]
-    and have recieved Value for it.
+    and have recieved [value] for it.
   rewardData: {fileID: 0}
 --- !u!1 &1860771126
 GameObject:
@@ -86316,6 +89800,99 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1867184043}
+--- !u!1 &1870090460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182768, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1870090461}
+  - 114: {fileID: 1870090462}
+  m_Layer: 0
+  m_Name: Shop Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1870090461
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482768, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1870090460}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1127944481}
+  m_RootOrder: 7
+--- !u!114 &1870090462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482768, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1870090460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: Our contacts at [location] are being attacked. Let's help them out!
+    [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1870544804
 GameObject:
   m_ObjectHideFlags: 0
@@ -87275,7 +90852,7 @@ GameObject:
   - 4: {fileID: 1886648722}
   - 114: {fileID: 1886648723}
   m_Layer: 0
-  m_Name: Treasure Quest
+  m_Name: Shop Quest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87306,12 +90883,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Treasure Quest
-  detailString: We should go to [cLoc] and face the [cEne], [mPic]
+  detailString: The roads at [location] are dangerous as [nBoss] minions are terrorising
+    any travel on them. Therefore the merchant cannot send any caravans on this traderout,
+    We should help him out. [mPic]
   isBossQuest: 0
   revengeString: 
   minProgressForQuest: 0
-  progressForWinning: 2
-  progressForLosing: 1
+  progressForWinning: 1
+  progressForLosing: .5
   randomLocations:
   - {fileID: 1222665940}
   - {fileID: 384988102}
@@ -87630,8 +91209,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1127944481}
+  - {fileID: 1175516480}
   - {fileID: 1541810119}
+  - {fileID: 1187870438}
+  - {fileID: 298078903}
+  - {fileID: 1127944481}
   m_Father: {fileID: 582305108}
   m_RootOrder: 6
 --- !u!1 &1894287541
@@ -90105,6 +93687,48 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1943327652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145816, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1943327653}
+  - 114: {fileID: 1943327654}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1943327653
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 445816, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1943327652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1254039162}
+  m_RootOrder: 5
+--- !u!114 &1943327654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11445816, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1943327652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: Despite the loss I suggest we go back [pmPic]
 --- !u!1 &1943502021
 GameObject:
   m_ObjectHideFlags: 0
@@ -90678,6 +94302,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1951955251}
+--- !u!1 &1952611135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145814, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1952611136}
+  - 114: {fileID: 1952611137}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1952611136
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 445814, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1952611135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 712351563}
+  m_RootOrder: 5
+--- !u!114 &1952611137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11445814, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1952611135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: Despite the loss I suggest we go back [pmPic]
 --- !u!1 &1956279177
 GameObject:
   m_ObjectHideFlags: 0
@@ -91787,6 +95453,99 @@ MonoBehaviour:
   - {fileID: 681547920}
   - {fileID: 535351613}
   rewardData: {fileID: 1122499971}
+--- !u!1 &1972091735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182776, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1972091736}
+  - 114: {fileID: 1972091737}
+  m_Layer: 0
+  m_Name: Shop Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1972091736
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482776, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1972091735}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1127944481}
+  m_RootOrder: 3
+--- !u!114 &1972091737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482776, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1972091735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: '[location] is currently overrun by [enemy], we should defeat them
+    [mPic]'
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &1976387663
 GameObject:
   m_ObjectHideFlags: 0
@@ -92788,6 +96547,49 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1990104853}
+--- !u!1 &1993243668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145820, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1993243669}
+  - 114: {fileID: 1993243670}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1993243669
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 445820, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1993243668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1254039162}
+  m_RootOrder: 3
+--- !u!114 &1993243670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11445820, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 1993243668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: I felt we could have won the last battle! I'm convinced we'll win
+    if we strike again! Come on let's do it! [pmPic]
 --- !u!1 &1993713720
 GameObject:
   m_ObjectHideFlags: 0
@@ -94354,6 +98156,141 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &2035165754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182700, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2035165755}
+  - 114: {fileID: 2035165756}
+  m_Layer: 0
+  m_Name: Treasure Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2035165755
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482700, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 2035165754}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1175516480}
+  m_RootOrder: 0
+--- !u!114 &2035165756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482706, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 2035165754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: We should go to [cLoc] and face the [cEne], [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
+--- !u!1 &2036180090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145808, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2036180091}
+  - 114: {fileID: 2036180092}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2036180091
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 445808, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 2036180090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 712351563}
+  m_RootOrder: 2
+--- !u!114 &2036180092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11445808, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 2036180090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: I believe we can win the battle of [plocation] if we change our strategy!
+    Let's go back! [pmPic]
 --- !u!1 &2036521116
 GameObject:
   m_ObjectHideFlags: 0
@@ -95775,6 +99712,49 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &2065403041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145822, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2065403042}
+  - 114: {fileID: 2065403043}
+  m_Layer: 0
+  m_Name: DramaPack.RetryQuestData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2065403042
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 445822, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 2065403041}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1254039162}
+  m_RootOrder: 2
+--- !u!114 &2065403043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11445822, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 2065403041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89e3d648d2a51e49bae559c717202d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.RetryQuestData
+  detailString: I believe we can win the battle of [plocation] if we change our strategy!
+    Let's go back! [pmPic]
 --- !u!1 &2067810390
 GameObject:
   m_ObjectHideFlags: 0
@@ -96093,6 +100073,99 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2072180801}
+--- !u!1 &2074799246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182760, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2074799247}
+  - 114: {fileID: 2074799248}
+  m_Layer: 0
+  m_Name: Item Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2074799247
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482760, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 2074799246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 298078903}
+  m_RootOrder: 8
+--- !u!114 &2074799248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482760, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 2074799246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: It is inevitable that a dangerous battle will be approaching us, before
+    we face it, it would be wise to head to [location] [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &2075338370
 GameObject:
   m_ObjectHideFlags: 0
@@ -96556,6 +100629,99 @@ Transform:
   - {fileID: 1571550325}
   m_Father: {fileID: 179590110}
   m_RootOrder: 0
+--- !u!1 &2083123233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 182712, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2083123234}
+  - 114: {fileID: 2083123235}
+  m_Layer: 0
+  m_Name: Treasure Quest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2083123234
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 482712, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 2083123233}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1175516480}
+  m_RootOrder: 6
+--- !u!114 &2083123235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11482716, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 6012095}
+  m_GameObject: {fileID: 2083123233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Treasure Quest
+  detailString: It is inevitable that a dangerous battle will be approaching us, before
+    we face it, it would be wise to head to [location] [mPic]
+  isBossQuest: 0
+  revengeString: 
+  minProgressForQuest: 0
+  progressForWinning: 1
+  progressForLosing: .5
+  randomLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questLocations:
+  - {fileID: 1222665940}
+  - {fileID: 384988102}
+  - {fileID: 184904528}
+  - {fileID: 2070644537}
+  - {fileID: 1537592184}
+  - {fileID: 1303890777}
+  questMoments:
+  - {fileID: 604992789}
+  - {fileID: 878472552}
+  - {fileID: 287013611}
+  outcomePairs:
+  - {fileID: 2060559805}
+  - {fileID: 1660519530}
+  - {fileID: 194753855}
+  - {fileID: 2141869465}
+  - {fileID: 43351145}
+  minorPictures:
+  - {fileID: 140194377}
+  - {fileID: 1095218162}
+  - {fileID: 1527429853}
+  - {fileID: 1614285587}
+  - {fileID: 754366851}
+  - {fileID: 582303940}
+  - {fileID: 2051093656}
+  - {fileID: 1979134726}
+  - {fileID: 1405457790}
+  - {fileID: 1123530156}
+  enemies:
+  - {fileID: 1148153806}
+  - {fileID: 148164443}
+  - {fileID: 1603119758}
+  - {fileID: 302080555}
+  retryQuestsData:
+  - {fileID: 1469531264}
+  traitRelevance: 1
+  relevantTraits: 01000000
+  questGiver: {fileID: 0}
 --- !u!1 &2086478326
 GameObject:
   m_ObjectHideFlags: 0
@@ -97254,8 +101420,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 500
-  detailString: 500
+  name: 513
+  detailString: 513
 --- !u!1 &2104886786
 GameObject:
   m_ObjectHideFlags: 0

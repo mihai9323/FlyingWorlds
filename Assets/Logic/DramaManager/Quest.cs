@@ -82,22 +82,24 @@ public class Quest : StringData {
 		{
 
 			if (randomLocation != null) {
-				TagReplacePair[] pairs = new TagReplacePair[6]{
-					new TagReplacePair ("[rLoc]", randomLocation),
-					new TagReplacePair ("[cLoc]", questLocation),
-					new TagReplacePair ("[cMom]", questTime),
-					new TagReplacePair ("[cEne]", enemyData),
+				TagReplacePair[] pairs = new TagReplacePair[7]{
+					new TagReplacePair ("[rlocation]", randomLocation),
+					new TagReplacePair ("[location]", questLocation),
+					new TagReplacePair ("[time]", questTime),
+					new TagReplacePair ("[enemy]", enemyData),
 					new TagReplacePair ("[mPic]", minorPicture),
-					new TagReplacePair ("[nBoss]", DramaPack.DramaManager.nextBoss)
+					new TagReplacePair ("[nBoss]", DramaPack.DramaManager.nextBoss),
+					new TagReplacePair ("[rname]", minorPicture.rewardData.chosenName)
 				};
 				return base.DisplayData (pairs);
 			} else {
-				TagReplacePair[] pairs = new TagReplacePair[5]{
-					new TagReplacePair ("[cLoc]", questLocation),
-					new TagReplacePair ("[cMom]", questTime),
-					new TagReplacePair ("[cEne]", enemyData),
+				TagReplacePair[] pairs = new TagReplacePair[6]{
+					new TagReplacePair ("[location]", questLocation),
+					new TagReplacePair ("[time]", questTime),
+					new TagReplacePair ("[enemy]", enemyData),
 					new TagReplacePair ("[mPic]", minorPicture),
-					new TagReplacePair ("[nBoss]", DramaPack.DramaManager.nextBoss)
+					new TagReplacePair ("[nBoss]", DramaPack.DramaManager.nextBoss),
+					new TagReplacePair ("[rname]", minorPicture.rewardData.chosenName)
 				};
 				return base.DisplayData (pairs);
 			}
