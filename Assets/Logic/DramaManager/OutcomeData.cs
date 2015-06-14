@@ -19,7 +19,7 @@ namespace DramaPack{
 				new TagReplacePair ("[location]",DramaPack.DramaManager.lastQuest.questLocation),
 				new TagReplacePair ("[nBoss]",DramaManager.nextBoss),
 				new TagReplacePair ("[mBoss]",DramaManager.miniBoss),
-				new TagReplacePair("[nrew]", rewardData.chosenName)
+				new TagReplacePair("[nrew]", rewardData.name)
 
 			};
 			return base.DisplayData (pairs);
