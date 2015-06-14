@@ -7,7 +7,7 @@ public class GameData:MonoBehaviour  {
 	private static int numberOfCoins;
 	public GameObject hubScene, fightScene;
 
-	public static int Progression = 1;
+	public static int Progression;
 	[SerializeField] string _nextBattleID;
 
 	public static string prevBattleID;
@@ -25,7 +25,7 @@ public class GameData:MonoBehaviour  {
 		_currentScene = GameScenes.Hub;
 	}
 	private void Start(){
-
+		Progression = PersistentData.previousGameDataProgression;
 
 		prevBattleID = nextBattleID;
 		_currentScene = GameScenes.None;

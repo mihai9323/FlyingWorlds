@@ -151,7 +151,7 @@ public class FightManager : MonoBehaviour {
 			Debug.Log("BattleLost!");
 			CleanUpFight();
 			GameData.Progression --;
-			GameData.Progression = Mathf.Max(GameData.Progression,0);
+			GameData.Progression = Mathf.Max(GameData.Progression,PersistentData.previousGameDataProgression);
 			if(s_Instance.dramaManager!=null)s_Instance.dramaManager.FinishQuest(false);
 	
 			GameData.LoadScene(GameScenes.Hub);

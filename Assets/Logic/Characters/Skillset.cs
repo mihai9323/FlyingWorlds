@@ -17,6 +17,7 @@ public class Skillset  {
 		melee = archery = magic = 1;
 	}
 	public void CreateSkillset(bool turnBased){
+		Debug.Log ("<color=blue>Progression: " + GameData.Progression + "</color>");
 		int min = GameData.Progression/2;
 		int max = GameData.Progression;
 		melee = Random.Range(min,max) + melee;

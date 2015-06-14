@@ -286,7 +286,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Development
+  m_Text: World Development
 --- !u!222 &14356088
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4230,7 +4230,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Demanding
+  m_Text: Phyiscally Demanding
 --- !u!222 &554950123
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6170,7 +6170,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Curiosity
+  m_Text: World Curiosity
 --- !u!222 &880680695
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11947,7 +11947,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Participation
+  m_Text: Social Participation
 --- !u!222 &1713081228
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14514,7 +14514,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cooperating
+  m_Text: Social Cooperation
 --- !u!222 &2071327043
 CanvasRenderer:
   m_ObjectHideFlags: 0

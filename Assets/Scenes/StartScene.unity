@@ -4955,7 +4955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   url: http://jocoi.hostreo.com/NewParticipant.php
-  gameVersion: Without Drama Manager
+  gameVersion: With New Drama
   age: {fileID: 543963595}
   playTime: {fileID: 2031885755}
   sex: {fileID: 1375155394}

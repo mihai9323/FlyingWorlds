@@ -10,6 +10,7 @@ public class PersistentData : MonoBehaviour {
 		previousFarmLevel = HubManager.farm.farmLevel;
 		previousShopLevel = HubManager.shop.level;
 		previousItems = InventoryManager.ItemsInInventory.ToArray();
+		previousGameDataProgression = GameData.Progression;
 	}
 	public static void ClearData(){
 		HasDataStored = false;
@@ -17,6 +18,7 @@ public class PersistentData : MonoBehaviour {
 		previousMiniBossName = "";
 		previousFarmLevel = 1;
 		previousShopLevel = 1;
+		previousGameDataProgression = 1;
 		previousItems = new Item[0];
 	}
 
@@ -91,7 +93,7 @@ public class PersistentData : MonoBehaviour {
 			foreach(Item i in previousItems){
 				if(i.Damage+i.Defence>sVal) sVal = i.Damage+i.Defence;
 			}
-			return sVal;
+			return sVal * 3f/4f;
 		}
 	}
 	public static void StoreItem(Item item, int index){
