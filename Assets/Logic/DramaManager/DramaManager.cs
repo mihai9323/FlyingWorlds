@@ -11,6 +11,7 @@ namespace DramaPack{
 		public static bool noQuestSelected = true;
 		public DramaPack.QuestData[] quests;
 		public DramaPack.PrologueData[] prologues;
+		public DramaPack.PrologueData[] secondPrologues;
 		public DramaPack.ConnectorData[] conectors;
 
 
@@ -36,10 +37,27 @@ namespace DramaPack{
 		public BossData[] miniBossList;
 		public BossData[] endBossList;
 
+
+		private void ResetStatics(){
+			miniBoss = endBoss = null;
+			q1 = q2 = q0 = "";
+			nrOfQuests = 0;
+			questBest = null;
+			questSecondBest = null;
+			progression = 0;
+			lastFailed = false;
+			lastQuest = null;
+			activeQuest = null;
+			noQuestSelected = true;
+		}
+
 		private IEnumerator Start(){
+
+			ResetStatics ();
 			while (!CharacterManager.isReady) {
 				yield return null;
 			}
+
 			miniBoss = miniBossList[(int)(Mathf.Clamp(Random.Range ((int)0,(int)miniBossList.Length),0,miniBossList.Length- 1))];
 			endBoss = endBossList  [(int)(Mathf.Clamp(Random.Range ((int)0,(int)endBossList.Length),0, endBossList.Length - 1))];
 			while (miniBoss.name == endBoss.name) {
@@ -174,7 +192,12 @@ namespace DramaPack{
 			if (progression == 0) {
 				Debug.Log("first quest");
 				//This is the first quest of the game
-				q0 = prologues [(int)Mathf.Clamp (Random.Range (0, prologues.Length), 0, prologues.Length - 1)].DisplayData ();
+				if(string.IsNullOrEmpty(PersistentData.previousEndBossName)){
+					q0 = prologues [(int)Mathf.Clamp (Random.Range (0, prologues.Length), 0, prologues.Length - 1)].DisplayData ();
+				}else{
+					q0 = secondPrologues [(int)Mathf.Clamp (Random.Range (0, secondPrologues.Length), 0, secondPrologues.Length - 1)].DisplayData ();
+				}
+
 				q1 = questBest.DisplayDataBefore ();
 				q2 = questSecondBest.DisplayDataBefore ();
 			} else {
@@ -213,8 +236,10 @@ namespace DramaPack{
 		public static void CheckGameWin ()
 		{
 			if (nextBoss.status == BossData.Status.completed) {
+				PersistentData.Save();
 				Application.LoadLevel (Application.loadedLevel + 1);
 			}
 		}
+
 	}
 }

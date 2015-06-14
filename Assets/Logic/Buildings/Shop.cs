@@ -25,6 +25,10 @@ public class Shop : MonoBehaviour {
 	[SerializeField] GameObject BuyButton,SwapButton,SellButton;
 	[SerializeField] GameObject Empty;
 
+	private void Start(){
+		this.level = PersistentData.previousShopLevel;
+	}
+
 	public float priceVariance{
 		get{
 			return CharacterManager.GetPartyBonus(new BuffsAndDebuffs.BuffType[1]{BuffsAndDebuffs.BuffType.ShopDiscount},

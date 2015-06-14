@@ -36,8 +36,17 @@ public class InventoryManager : MonoBehaviour {
 	
 	private void Awake(){
 		//ItemsInInventory = GenerateItems(startItemCount,1,10);
-		ItemsInInventory = GenerateArmor (4, 1, 6);
-		ItemsInInventory.AddRange(GenerateWeapons(4,1,8));
+		if (PersistentData.previousItems == null || PersistentData.previousItems.Length == 0) {
+			ItemsInInventory = GenerateArmor (4, 1, 6);
+			ItemsInInventory.AddRange(GenerateWeapons(4,1,8));
+
+		} else {
+			ItemsInInventory = new List<Item>();
+			foreach(Item item in PersistentData.previousItems){
+				ItemsInInventory.Add (item);
+			}
+		}
+
 		ItemsForSale = GenerateItems(shopItemCount, 5,20);
 		s_Instance = this;
 				

@@ -5,6 +5,11 @@ public class Farm : MonoBehaviour {
 	[SerializeField] UpgradeButton upgradeButton;
 
 	public int farmLevel = 1;
+
+	private void Start(){
+		farmLevel = PersistentData.previousFarmLevel;
+	}
+
 	public int upgradeCost{
 		get{
 			return (int)((farmLevel + 1) * 500);
@@ -18,12 +23,12 @@ public class Farm : MonoBehaviour {
 	}
 	public int incomePerTurn{
 		get{
-			return (int)(farmLevel * (400+20 * GameData.Progression) * priceVariance);
+			return (int)(farmLevel * (400+20 * DramaPack.DramaManager.progression) * priceVariance);
 		}
 	}
 	public int incomePerTurnNextLevel{
 		get{
-			return (int)((farmLevel+1) * (400+20 * GameData.Progression) * priceVariance);
+			return (int)((farmLevel+1) * (400+20 * DramaPack.DramaManager.progression) * priceVariance);
 		}
 	}
 	public void Upgrade(){

@@ -22,7 +22,7 @@ public class Skillset  {
 		melee = Random.Range(min,max) + melee;
 		archery = Random.Range (min,max) + archery;
 		magic = Random.Range(min,max) + magic;
-		health = Random.Range (min, max) + health; 
+		health = Random.Range (min, max) * ((float)health/5f) + health; 
 
 	}
 }

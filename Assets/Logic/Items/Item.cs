@@ -161,28 +161,28 @@ public class Item  {
 	}
 	
 	private Color CalculateColor(){
-		if (Damage + Defence < 5) {
+		if (Damage + Defence < 5 + PersistentData.startValue) {
 			colorName = "Gray";
 			return Color.gray;
-		} else if (Damage + Defence < 10) {
+		} else if (Damage + Defence < 10 + PersistentData.startValue) {
 			colorName = "White";
 			return Color.white;
-		} else if (Damage + Defence < 18) {
+		} else if (Damage + Defence < 18 + PersistentData.startValue) {
 			colorName = "Green";
 			return Color.green;
-		} else if (Damage + Defence < 25) {
+		} else if (Damage + Defence < 25 + PersistentData.startValue) {
 			colorName = "Yellow";
 			return Color.yellow;
-		} else if (Damage + Defence < 35) {
+		} else if (Damage + Defence < 35 + PersistentData.startValue) {
 			colorName = "Cyan";
 			return Color.cyan;
-		}else if (Damage + Defence < 42) {
+		}else if (Damage + Defence < 42 + PersistentData.startValue) {
 			colorName = "Blue";
 			return Color.blue;
-		}else if (Damage + Defence < 50) {
+		}else if (Damage + Defence < 50 + PersistentData.startValue) {
 			colorName = "Red";
 			return Color.red;
-		}else if (Damage + Defence < 60) {
+		}else if (Damage + Defence < 60 + PersistentData.startValue) {
 			colorName = "Magenta";
 			return Color.magenta;
 		} else {

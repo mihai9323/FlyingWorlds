@@ -21,7 +21,7 @@ public class GameData:MonoBehaviour  {
 	private void Awake(){
 		s_Instance = this;
 		numberOfCoins = 3000;
-		Progression = 1;
+		Progression = PersistentData.previousGameDataProgression;
 		_currentScene = GameScenes.Hub;
 	}
 	private void Start(){
