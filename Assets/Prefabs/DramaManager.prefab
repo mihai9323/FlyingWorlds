@@ -12672,7 +12672,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 'The victory against [mBoss] was crucial to the future of our journey. '
+  detailString: The victory against [mBoss] was crucial to the future of our journey
+    as now we face the supreme leader, [nBoss]. When he is defeated the rest of the
+    army will flee and peace should once more spread througout Ahor.
   rewardData: {fileID: 0}
 --- !u!114 &11425146
 MonoBehaviour:
@@ -13547,8 +13549,8 @@ MonoBehaviour:
   name: Prologue1
   detailString: The lands of Ahor are usually a quiet and peaceful land, however recently
     it has been invaded by a great evil. Every corner of Ahor have been infected,
-    except for one little village. Here they strive to keep Ahor and its people safe.The
-    only knowledge we have about this evil is the name of an officer in the enemy
+    except for one little village. Here they strive to keep Ahor and its people safe.
+    The only knowledge we have about this evil is the name of an officer in the enemy
     ranks, [nBoss]. He is evil and wants to corrupt Ahor. In order to restore peace
     to the land we must fight this evil! Yet the champions of the village are not
     capable of facing him, they need experienced leader.
@@ -13787,7 +13789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 'With [nrew] retrieved, the enimies ahead of us will not be able to
+  detailString: 'With [nrew] retrieved, the enemies ahead of us will not be able to
     defeat us. '
   rewardData: {fileID: 0}
 --- !u!114 &11446414
@@ -14605,8 +14607,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: With the victory against [mBoss], the team has gotten a comfidence
-    boost. They can overcome anything!
+  detailString: "With the victory against [mBoss], the team has gotten a comfidence
+    boost. They can overcome anything! \nWith [mBoss]\_defeated the enemy ranks have
+    been weakened. We got information about the leader of the enemy army from one
+    of the dying enemies at the last battle. His name is [nBoss] and defeating him
+    will bring peace to Ahor once and for all."
   rewardData: {fileID: 0}
 --- !u!114 &11446528
 MonoBehaviour:
@@ -14646,7 +14651,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: '[mBoss] was no match for our team, nothing can stop them now.'
+  detailString: "[mBoss] was no match for our team, nothing can stop them now. \nIn
+    the battle we acquired intel about the evil controlling [mBoss], his name is [nBoss]
+    and to finally bring peace to Ahor we need to defeat him."
   rewardData: {fileID: 0}
 --- !u!114 &11446534
 MonoBehaviour:
@@ -14689,8 +14696,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: The lands have been cleared of the evil of [mBoss], the team is confident
-    in their abilities.
+  detailString: 'The lands have been cleared of the evil of [mBoss], the team is confident
+    in their abilities. On his deathbed [mBoss] whispered the name of his superior,
+    [nBoss]. Killing him should make the remaining demons disappear so that Ahor can
+    be at peace once more. '
   rewardData: {fileID: 0}
 --- !u!114 &11446540
 MonoBehaviour:
@@ -14730,7 +14739,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: '[mBoss] and his army at [location] were no match for our team.
+  detailString: '[mBoss] and his army at [location] were no match for our team. Yet
+    there is not peace in Ahor, the evil army is still occupying areas. We managed
+    to gather some intel on who the Evil Wizards and Demons are working for, his name
+    is [nBoss]. When he is defeated Ahor can finaly be at peace.
 
 '
   rewardData: {fileID: 0}
@@ -15644,7 +15656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure9
-  detailString: '[rew] With upgraded gear we should be able to defeat the {nBoss]'
+  detailString: '[rew] With upgraded gear we should be able to defeat the [nBoss]'
   possibleRewardsParent: {fileID: 128336}
   possibleRewards:
   - {fileID: 11428334}
@@ -22458,7 +22470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Shop Quest
-  detailString: Close members of the merchant's family is living at [location] which
+  detailString: Close members of the merchant's family are living at [location] which
     currently is being attacked by [enemy]. We should try and bring peace back to
     the area. [mPic]
   isBossQuest: 0
