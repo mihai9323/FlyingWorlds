@@ -38976,7 +38976,7 @@ Prefab:
       objectReference: {fileID: 1734525446}
     - target: {fileID: 22469932, guid: 0b91a24b5b64b1f48a7899e52bf55d74, type: 2}
       propertyPath: m_SizeDelta.y
-      value: -255.5
+      value: -345.5
       objectReference: {fileID: 0}
     - target: {fileID: 22469884, guid: 0b91a24b5b64b1f48a7899e52bf55d74, type: 2}
       propertyPath: m_AnchorMax.x
@@ -38996,11 +38996,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22462576, guid: 0b91a24b5b64b1f48a7899e52bf55d74, type: 2}
       propertyPath: m_SizeDelta.y
-      value: -244
+      value: -334
       objectReference: {fileID: 0}
     - target: {fileID: 22469800, guid: 0b91a24b5b64b1f48a7899e52bf55d74, type: 2}
       propertyPath: m_SizeDelta.y
-      value: -78.1499939
+      value: -168.149994
       objectReference: {fileID: 0}
     - target: {fileID: 22469892, guid: 0b91a24b5b64b1f48a7899e52bf55d74, type: 2}
       propertyPath: m_AnchorMax.x
@@ -39129,6 +39129,18 @@ Prefab:
     - target: {fileID: 22469884, guid: 0b91a24b5b64b1f48a7899e52bf55d74, type: 2}
       propertyPath: m_AnchorMin.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11462578, guid: 0b91a24b5b64b1f48a7899e52bf55d74, type: 2}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11469752, guid: 0b91a24b5b64b1f48a7899e52bf55d74, type: 2}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11469930, guid: 0b91a24b5b64b1f48a7899e52bf55d74, type: 2}
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b91a24b5b64b1f48a7899e52bf55d74, type: 2}
@@ -54177,7 +54189,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
+  m_Text: 
 --- !u!114 &1109265143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62043,7 +62055,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
+  m_Text: 
 --- !u!114 &1232188252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95538,7 +95550,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
+  m_Text: 
 --- !u!222 &1929100137
 CanvasRenderer:
   m_ObjectHideFlags: 0
