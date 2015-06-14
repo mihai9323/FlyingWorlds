@@ -135,7 +135,7 @@ public class QuestUI : MonoBehaviour {
 	}
 
 	private void Update(){
-		if(Input.GetMouseButtonDown(0) && configured && !HubManager.hintsOn){
+		if(Input.GetMouseButtonDown(0) && configured && DramaManager.progression>0 || Time.timeSinceLevelLoad>5){
 			StopAllCoroutines();
 			questTextWritten = true;
 			HubManager.interactable = true;
