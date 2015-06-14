@@ -183,13 +183,13 @@ namespace DramaPack{
 
 					q0 = lastQuest.outcomePair.positiveOutcome.DisplayData();
 					q1 = questBest.DisplayDataBefore ();
-				//	q0 += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
+					q0 += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
 					q2 = questSecondBest.DisplayDataBefore ();
 				}else{
 					Debug.Log("previous quest was failed");
 					q0 = lastQuest.outcomePair.negativeOutcome.DisplayData();
 					q1 = questBest.retryQuestData.DisplayData();
-				//	q0 += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
+					q0 += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
 					q2 = questSecondBest.DisplayDataBefore();
 
 				}

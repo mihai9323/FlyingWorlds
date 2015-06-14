@@ -113,7 +113,7 @@ public class Character : MonoBehaviour {
 	public int MaxHealth{
 		get{
 			
-			return (int)(80+ Level * 20);
+			return (int)(130+ Level * 20);
 		}
 	}
 	public int armor, damage;
