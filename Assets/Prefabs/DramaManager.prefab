@@ -13547,8 +13547,8 @@ MonoBehaviour:
   name: Prologue1
   detailString: The lands of Ahor are usually a quiet and peaceful land, however recently
     it has been invaded by a great evil. Every corner of Ahor have been infected,
-    except for one little village. Here they strive to keep Ahor and its people safe.The
-    only knowledge we have about this evil is the name of an officer in the enemy
+    except for one little village. Here they strive to keep Ahor and its people safe.
+    The only knowledge we have about this evil is the name of an officer in the enemy
     ranks, [nBoss]. He is evil and wants to corrupt Ahor. In order to restore peace
     to the land we must fight this evil! Yet the champions of the village are not
     capable of facing him, they need experienced leader.
@@ -13787,7 +13787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 'With [nrew] retrieved, the enimies ahead of us will not be able to
+  detailString: 'With [nrew] retrieved, the enemies ahead of us will not be able to
     defeat us. '
   rewardData: {fileID: 0}
 --- !u!114 &11446414
@@ -15644,7 +15644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure9
-  detailString: '[rew] With upgraded gear we should be able to defeat the {nBoss]'
+  detailString: '[rew] With upgraded gear we should be able to defeat the [nBoss]'
   possibleRewardsParent: {fileID: 128336}
   possibleRewards:
   - {fileID: 11428334}
@@ -22458,7 +22458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Shop Quest
-  detailString: Close members of the merchant's family is living at [location] which
+  detailString: Close members of the merchant's family are living at [location] which
     currently is being attacked by [enemy]. We should try and bring peace back to
     the area. [mPic]
   isBossQuest: 0
