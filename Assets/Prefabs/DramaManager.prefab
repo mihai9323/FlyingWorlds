@@ -20775,16 +20775,16 @@ MonoBehaviour:
   - {fileID: 11446504}
   - {fileID: 11446494}
   minorPictures:
-  - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
+  - {fileID: 11461040}
+  - {fileID: 11461042}
+  - {fileID: 11461044}
+  - {fileID: 11461046}
+  - {fileID: 11461048}
+  - {fileID: 11461050}
+  - {fileID: 11461052}
+  - {fileID: 11461054}
+  - {fileID: 11461056}
+  - {fileID: 11461058}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
