@@ -162,7 +162,7 @@ namespace DramaPack{
 				float traitScore = 0;
 				if(relevantCharacters != null && relevantCharacters.Count>0){
 
-					Character bestCharacter = null;
+					Character bestCharacter = relevantCharacters[0];
 					float bestScore = 0;
 					for(int i =0;i<relevantCharacters.Count; i++){
 						float f1= 0.01f,f2 = 0.01f;
