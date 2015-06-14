@@ -89,7 +89,8 @@ namespace DramaPack{
 
 				if(questData.Count>1){
 					foreach(QuestData qd in questData){
-						if(qd.questGiver.Traits != questBest.qd.questGiver.Traits){
+						if(qd.questGiver.Traits != questBest.qd.questGiver.Traits &&
+						   qd.minorPictureParent != questBest.qd.minorPictureParent){
 							nrOfQuests = 2;
 							Debug.Log("Selected second quests");
 							questSecondBest = qd.GenerateQuest();
