@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 403018}
   - 114: {fileID: 11403018}
   m_Layer: 0
-  m_Name: fertilizer
+  m_Name: rare vegetables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 403020}
   - 114: {fileID: 11403020}
   m_Layer: 0
-  m_Name: a batch of crops
+  m_Name: forgotten plowing techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ GameObject:
   - 4: {fileID: 403024}
   - 114: {fileID: 11403024}
   m_Layer: 0
-  m_Name: a bag of magical seeds
+  m_Name: expensive spices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ GameObject:
   - 4: {fileID: 403028}
   - 114: {fileID: 11403028}
   m_Layer: 0
-  m_Name: a bag of magical seeds
+  m_Name: excotic fruit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ GameObject:
   - 4: {fileID: 403034}
   - 114: {fileID: 11403034}
   m_Layer: 0
-  m_Name: a plow
+  m_Name: rare vegetables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -186,7 +186,7 @@ GameObject:
   - 4: {fileID: 403038}
   - 114: {fileID: 11403038}
   m_Layer: 0
-  m_Name: a bag of magical seeds
+  m_Name: a plow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -218,7 +218,7 @@ GameObject:
   - 4: {fileID: 403042}
   - 114: {fileID: 11403042}
   m_Layer: 0
-  m_Name: fertilizer
+  m_Name: forgotten plowing techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,7 +234,7 @@ GameObject:
   - 4: {fileID: 403044}
   - 114: {fileID: 11403044}
   m_Layer: 0
-  m_Name: secret planting techniques
+  m_Name: expensive spices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -282,7 +282,7 @@ GameObject:
   - 4: {fileID: 403050}
   - 114: {fileID: 11403050}
   m_Layer: 0
-  m_Name: secret planting techniques
+  m_Name: rare vegetables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,7 +376,7 @@ GameObject:
   - 4: {fileID: 403062}
   - 114: {fileID: 11403058}
   m_Layer: 0
-  m_Name: the mystic jewels
+  m_Name: the king's riches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -392,7 +392,7 @@ GameObject:
   - 4: {fileID: 403064}
   - 114: {fileID: 11403060}
   m_Layer: 0
-  m_Name: the ancient fortune
+  m_Name: the mystic jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,7 +440,7 @@ GameObject:
   - 4: {fileID: 403070}
   - 114: {fileID: 11403066}
   m_Layer: 0
-  m_Name: the wizards magic gems
+  m_Name: the treasure from ancient times
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -456,7 +456,7 @@ GameObject:
   - 4: {fileID: 403072}
   - 114: {fileID: 11403068}
   m_Layer: 0
-  m_Name: Captain Sparrow's lost jewels
+  m_Name: the king's riches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -520,7 +520,7 @@ GameObject:
   - 4: {fileID: 403080}
   - 114: {fileID: 11403076}
   m_Layer: 0
-  m_Name: the mystic jewels
+  m_Name: Captain Sparrow's lost jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -632,7 +632,7 @@ GameObject:
   - 4: {fileID: 403094}
   - 114: {fileID: 11403090}
   m_Layer: 0
-  m_Name: the mystic jewels
+  m_Name: the treasure from ancient times
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -648,7 +648,7 @@ GameObject:
   - 4: {fileID: 403096}
   - 114: {fileID: 11403092}
   m_Layer: 0
-  m_Name: Blackbeard's forgotten treasure
+  m_Name: the pirates hidden gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -946,7 +946,7 @@ GameObject:
   - 4: {fileID: 425174}
   - 114: {fileID: 11425162}
   m_Layer: 0
-  m_Name: rare weaponry
+  m_Name: new contacts with stronger weapons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3072,7 +3072,7 @@ GameObject:
   - 4: {fileID: 447918}
   - 114: {fileID: 11447916}
   m_Layer: 0
-  m_Name: The Fire Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3088,7 +3088,7 @@ GameObject:
   - 4: {fileID: 447920}
   - 114: {fileID: 11447918}
   m_Layer: 0
-  m_Name: The Mad King's Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3136,7 +3136,7 @@ GameObject:
   - 4: {fileID: 447926}
   - 114: {fileID: 11447924}
   m_Layer: 0
-  m_Name: The Earth Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3310,7 +3310,7 @@ GameObject:
   - 4: {fileID: 455522}
   - 114: {fileID: 11455524}
   m_Layer: 0
-  m_Name: The Blazing Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3326,7 +3326,7 @@ GameObject:
   - 4: {fileID: 455524}
   - 114: {fileID: 11455526}
   m_Layer: 0
-  m_Name: new contacts with stronger weapons
+  m_Name: tougher armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3358,7 +3358,7 @@ GameObject:
   - 4: {fileID: 455528}
   - 114: {fileID: 11455530}
   m_Layer: 0
-  m_Name: improved equipment
+  m_Name: tougher armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3390,7 +3390,7 @@ GameObject:
   - 4: {fileID: 455532}
   - 114: {fileID: 11455534}
   m_Layer: 0
-  m_Name: better trading routes opening more equipment options
+  m_Name: rare weaponry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3470,7 +3470,7 @@ GameObject:
   - 4: {fileID: 455542}
   - 114: {fileID: 11455544}
   m_Layer: 0
-  m_Name: a trade caravan allowing for more excotic gear
+  m_Name: upgraded weaponry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3502,7 +3502,7 @@ GameObject:
   - 4: {fileID: 455546}
   - 114: {fileID: 11455548}
   m_Layer: 0
-  m_Name: tougher armor
+  m_Name: better trading routes opening more equipment options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3518,7 +3518,7 @@ GameObject:
   - 4: {fileID: 455548}
   - 114: {fileID: 11455550}
   m_Layer: 0
-  m_Name: stronger materials
+  m_Name: safer roads allowing for better items
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3566,7 +3566,7 @@ GameObject:
   - 4: {fileID: 455554}
   - 114: {fileID: 11455556}
   m_Layer: 0
-  m_Name: tougher armor
+  m_Name: stronger materials
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4214,7 +4214,7 @@ GameObject:
   - 4: {fileID: 471058}
   - 114: {fileID: 11471050}
   m_Layer: 0
-  m_Name: The Water Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4262,7 +4262,7 @@ GameObject:
   - 4: {fileID: 471064}
   - 114: {fileID: 11471056}
   m_Layer: 0
-  m_Name: The Magical Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4278,7 +4278,7 @@ GameObject:
   - 4: {fileID: 471066}
   - 114: {fileID: 11471058}
   m_Layer: 0
-  m_Name: The Fire Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4326,7 +4326,7 @@ GameObject:
   - 4: {fileID: 471072}
   - 114: {fileID: 11471064}
   m_Layer: 0
-  m_Name: The Fire Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4342,7 +4342,7 @@ GameObject:
   - 4: {fileID: 471074}
   - 114: {fileID: 11471066}
   m_Layer: 0
-  m_Name: The Molten Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4390,7 +4390,7 @@ GameObject:
   - 4: {fileID: 471080}
   - 114: {fileID: 11471072}
   m_Layer: 0
-  m_Name: The Mad King's Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4406,7 +4406,7 @@ GameObject:
   - 4: {fileID: 471082}
   - 114: {fileID: 11471074}
   m_Layer: 0
-  m_Name: The Molten Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4454,7 +4454,7 @@ GameObject:
   - 4: {fileID: 471088}
   - 114: {fileID: 11471080}
   m_Layer: 0
-  m_Name: The Leaf Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4470,7 +4470,7 @@ GameObject:
   - 4: {fileID: 471090}
   - 114: {fileID: 11471082}
   m_Layer: 0
-  m_Name: The Magical Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4518,7 +4518,7 @@ GameObject:
   - 4: {fileID: 471096}
   - 114: {fileID: 11471088}
   m_Layer: 0
-  m_Name: The Water Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4534,7 +4534,7 @@ GameObject:
   - 4: {fileID: 471098}
   - 114: {fileID: 11471090}
   m_Layer: 0
-  m_Name: The Water Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4582,7 +4582,7 @@ GameObject:
   - 4: {fileID: 471104}
   - 114: {fileID: 11471096}
   m_Layer: 0
-  m_Name: The Wind Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4613,7 +4613,7 @@ GameObject:
   - 4: {fileID: 471108}
   - 114: {fileID: 11471098}
   m_Layer: 0
-  m_Name: The Thunder Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4661,7 +4661,7 @@ GameObject:
   - 4: {fileID: 471114}
   - 114: {fileID: 11471104}
   m_Layer: 0
-  m_Name: The Wind Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4677,7 +4677,7 @@ GameObject:
   - 4: {fileID: 471116}
   - 114: {fileID: 11471106}
   m_Layer: 0
-  m_Name: The Dragon Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4725,7 +4725,7 @@ GameObject:
   - 4: {fileID: 471122}
   - 114: {fileID: 11471112}
   m_Layer: 0
-  m_Name: The Wind Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4741,7 +4741,7 @@ GameObject:
   - 4: {fileID: 471124}
   - 114: {fileID: 11471114}
   m_Layer: 0
-  m_Name: The Water Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4789,7 +4789,7 @@ GameObject:
   - 4: {fileID: 471130}
   - 114: {fileID: 11471120}
   m_Layer: 0
-  m_Name: The Earth Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4805,7 +4805,7 @@ GameObject:
   - 4: {fileID: 471132}
   - 114: {fileID: 11471122}
   m_Layer: 0
-  m_Name: The Water Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4853,7 +4853,7 @@ GameObject:
   - 4: {fileID: 471138}
   - 114: {fileID: 11471128}
   m_Layer: 0
-  m_Name: The Blazing Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4884,7 +4884,7 @@ GameObject:
   - 4: {fileID: 471142}
   - 114: {fileID: 11471130}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4932,7 +4932,7 @@ GameObject:
   - 4: {fileID: 471148}
   - 114: {fileID: 11471136}
   m_Layer: 0
-  m_Name: The Water Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4948,7 +4948,7 @@ GameObject:
   - 4: {fileID: 471150}
   - 114: {fileID: 11471138}
   m_Layer: 0
-  m_Name: The Fire Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4996,7 +4996,7 @@ GameObject:
   - 4: {fileID: 471156}
   - 114: {fileID: 11471144}
   m_Layer: 0
-  m_Name: The Fire Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5012,7 +5012,7 @@ GameObject:
   - 4: {fileID: 471158}
   - 114: {fileID: 11471146}
   m_Layer: 0
-  m_Name: The Molten Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5060,7 +5060,7 @@ GameObject:
   - 4: {fileID: 471164}
   - 114: {fileID: 11471152}
   m_Layer: 0
-  m_Name: The Dragon Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5076,7 +5076,7 @@ GameObject:
   - 4: {fileID: 471166}
   - 114: {fileID: 11471154}
   m_Layer: 0
-  m_Name: The Dragon Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5124,7 +5124,7 @@ GameObject:
   - 4: {fileID: 471172}
   - 114: {fileID: 11471160}
   m_Layer: 0
-  m_Name: The Molten Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5140,7 +5140,7 @@ GameObject:
   - 4: {fileID: 471174}
   - 114: {fileID: 11471162}
   m_Layer: 0
-  m_Name: The Thunder Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5188,7 +5188,7 @@ GameObject:
   - 4: {fileID: 471180}
   - 114: {fileID: 11471168}
   m_Layer: 0
-  m_Name: The Fire Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5204,7 +5204,7 @@ GameObject:
   - 4: {fileID: 471182}
   - 114: {fileID: 11471170}
   m_Layer: 0
-  m_Name: The Water Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5252,7 +5252,7 @@ GameObject:
   - 4: {fileID: 471188}
   - 114: {fileID: 11471176}
   m_Layer: 0
-  m_Name: The Water Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5283,7 +5283,7 @@ GameObject:
   - 4: {fileID: 471192}
   - 114: {fileID: 11471178}
   m_Layer: 0
-  m_Name: The Thunder Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5331,7 +5331,7 @@ GameObject:
   - 4: {fileID: 471198}
   - 114: {fileID: 11471184}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5347,7 +5347,7 @@ GameObject:
   - 4: {fileID: 471200}
   - 114: {fileID: 11471186}
   m_Layer: 0
-  m_Name: The Dragon Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5395,7 +5395,7 @@ GameObject:
   - 4: {fileID: 471206}
   - 114: {fileID: 11471192}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11436,7 +11436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: fertilizer
+  name: rare vegetables
   detailString: We've been promised [name] if we complete the task,
   rewardType: 4
   rewardItems: []
@@ -11464,7 +11464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a batch of crops
+  name: forgotten plowing techniques
   detailString: We should try to send a search party as we will get rewarded for our
     trouble with [name],
   rewardType: 4
@@ -11506,7 +11506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a bag of magical seeds
+  name: expensive spices
   detailString: There is a chance of getting [name],
   rewardType: 4
   rewardItems: []
@@ -11549,7 +11549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a bag of magical seeds
+  name: excotic fruit
   detailString: We could collect a prize of [name] if we chose to do this,
   rewardType: 4
   rewardItems: []
@@ -11603,7 +11603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a plow
+  name: rare vegetables
   detailString: We will be rewarded with [name] for the town,
   rewardType: 4
   rewardItems: []
@@ -11644,7 +11644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a bag of magical seeds
+  name: a plow
   detailString: If we help out, the farm will be upgraded with [name],
   rewardType: 4
   rewardItems: []
@@ -11685,7 +11685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: fertilizer
+  name: forgotten plowing techniques
   detailString: If we complete the task at hand we've been promised [name] for the
     village,
   rewardType: 4
@@ -11714,7 +11714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: secret planting techniques
+  name: expensive spices
   detailString: The benefits of this would be [name],
   rewardType: 4
   rewardItems: []
@@ -11768,7 +11768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: secret planting techniques
+  name: rare vegetables
   detailString: If we do that, [name] will be given us,
   rewardType: 4
   rewardItems: []
@@ -11850,7 +11850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the mystic jewels
+  name: the king's riches
   detailString: as there have been whispers about [name] which would be worth getting
   rewardType: 1
   rewardItems: []
@@ -11878,7 +11878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the ancient fortune
+  name: the mystic jewels
   detailString: if we do that, the merchants will give us [rVal] if we find [name].
     This is surely what we should do
   rewardType: 1
@@ -11933,7 +11933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the wizards magic gems
+  name: the treasure from ancient times
   detailString: maybe we could send a search party for [name]
   rewardType: 1
   rewardItems: []
@@ -11961,7 +11961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Captain Sparrow's lost jewels
+  name: the king's riches
   detailString: and follow the tales of [name]
   rewardType: 1
   rewardItems: []
@@ -12043,7 +12043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the mystic jewels
+  name: Captain Sparrow's lost jewels
   detailString: and collect [name]
   rewardType: 1
   rewardItems: []
@@ -12181,7 +12181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the mystic jewels
+  name: the treasure from ancient times
   detailString: and try to send a search party for [name]
   rewardType: 1
   rewardItems: []
@@ -12209,7 +12209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Blackbeard's forgotten treasure
+  name: the pirates hidden gold
   detailString: and get [name]
   rewardType: 1
   rewardItems: []
@@ -12489,7 +12489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: rare weaponry
+  name: new contacts with stronger weapons
   detailString: It be worth considering as the shop would be upgraded with [name].
   rewardType: 3
   rewardItems: []
@@ -12607,12 +12607,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146464}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446468}
+  - {fileID: 11446470}
+  - {fileID: 11446480}
+  - {fileID: 11446482}
+  - {fileID: 11446492}
   minorPictureParent: {fileID: 161038}
   minorPictures:
   - {fileID: 11461038}
@@ -14403,7 +14404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Armor
+  name: None
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -14461,7 +14462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Armor
+  name: None
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -14545,7 +14546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Armor
+  name: None
   detailString: because there is a chance of finding [name]. This could be crucial
     to us as [rStr]
   rewardType: 2
@@ -14664,12 +14665,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146464}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446468}
+  - {fileID: 11446470}
+  - {fileID: 11446480}
+  - {fileID: 11446482}
+  - {fileID: 11446492}
   minorPictureParent: {fileID: 161038}
   minorPictures:
   - {fileID: 11461038}
@@ -14778,12 +14780,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146528}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446528}
+  - {fileID: 11446530}
+  - {fileID: 11446540}
+  - {fileID: 11446542}
+  - {fileID: 11425136}
   minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
@@ -14824,7 +14827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Blazing Armor
+  name: None
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -14882,7 +14885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: new contacts with stronger weapons
+  name: tougher armor
   detailString: We should try to send a search party as we will get rewarded for out
     trouble with [name] for offer in our shop.
   rewardType: 3
@@ -14924,7 +14927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: improved equipment
+  name: tougher armor
   detailString: There is a chance of getting [name] to buy in the town.
   rewardType: 3
   rewardItems: []
@@ -14967,7 +14970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: better trading routes opening more equipment options
+  name: rare weaponry
   detailString: We could collect a prize of [name] for the shop in the town, if we
     chose to do this.
   rewardType: 3
@@ -15063,7 +15066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a trade caravan allowing for more excotic gear
+  name: upgraded weaponry
   detailString: If we help out, the shop will be upgraded with [name].
   rewardType: 3
   rewardItems: []
@@ -15104,7 +15107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: tougher armor
+  name: better trading routes opening more equipment options
   detailString: We've been promised [name] for the shop, if we complete the task at
     hand.
   rewardType: 3
@@ -15133,7 +15136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: stronger materials
+  name: safer roads allowing for better items
   detailString: The benefits of this would be the shop being upgraded with [name].
   rewardType: 3
   rewardItems: []
@@ -15187,7 +15190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: tougher armor
+  name: stronger materials
   detailString: If we do that, the merchant will give us [name] as an upgrade to our
     shop.
   rewardType: 3
@@ -16322,7 +16325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Armor
+  name: None
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -16406,7 +16409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Armor
+  name: None
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -16464,7 +16467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Armor
+  name: None
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -16548,7 +16551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Armor
+  name: None
   detailString: maybe we could send a search party for [name] such that [rStre]
   rewardType: 2
   rewardItems:
@@ -16606,7 +16609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Molten Armor
+  name: None
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStre]
   rewardType: 2
@@ -16691,7 +16694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Armor
+  name: None
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -16750,7 +16753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Molten Staff
+  name: None
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -16835,7 +16838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Leaf Staff
+  name: None
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStre]
   rewardType: 2
@@ -16894,7 +16897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Staff
+  name: None
   detailString: maybe we could send a search party for [name] such that [rStre]
   rewardType: 2
   rewardItems:
@@ -16978,7 +16981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Staff
+  name: None
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -17036,7 +17039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Staff
+  name: None
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -17120,7 +17123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Staff
+  name: None
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -17178,7 +17181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Thunder Staff
+  name: None
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -17262,7 +17265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Staff
+  name: None
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -17320,7 +17323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Staff
+  name: None
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -17404,7 +17407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Staff
+  name: None
   detailString: because there is a chance of finding [name]. This could be crucial
     to us as [rStr]
   rewardType: 2
@@ -17463,7 +17466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Bow
+  name: None
   detailString: because there is a chance of finding [name]. This could be crucial
     to us as [rStr]
   rewardType: 2
@@ -17548,7 +17551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Bow
+  name: None
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -17606,7 +17609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Bow
+  name: None
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -17690,7 +17693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Blazing Bow
+  name: None
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -17748,7 +17751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Sword
+  name: None
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -17832,7 +17835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Bow
+  name: None
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -17890,7 +17893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Bow
+  name: None
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -17974,7 +17977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Bow
+  name: None
   detailString: maybe we could send a search party for [name] such that [rStre]
   rewardType: 2
   rewardItems:
@@ -18032,7 +18035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Molten Bow
+  name: None
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStre]
   rewardType: 2
@@ -18117,7 +18120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Bow
+  name: None
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -18176,7 +18179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Sword
+  name: None
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -18261,7 +18264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Molten Sword
+  name: None
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStre]
   rewardType: 2
@@ -18320,7 +18323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Thunder Sword
+  name: None
   detailString: maybe we could send a search party for [name] such that [rStre]
   rewardType: 2
   rewardItems:
@@ -18404,7 +18407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Sword
+  name: None
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -18462,7 +18465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Sword
+  name: None
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -18546,7 +18549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Sword
+  name: None
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -18604,7 +18607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Thunder Sword
+  name: None
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -18688,7 +18691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Sword
+  name: None
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -18746,7 +18749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Sword
+  name: None
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -18830,7 +18833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Sword
+  name: None
   detailString: because there is a chance of finding [name]. This could be crucial
     to us as [rStr]
   rewardType: 2
@@ -18932,12 +18935,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146528}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446528}
+  - {fileID: 11446530}
+  - {fileID: 11446540}
+  - {fileID: 11446542}
+  - {fileID: 11425136}
   minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
@@ -18992,12 +18996,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146528}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446528}
+  - {fileID: 11446530}
+  - {fileID: 11446540}
+  - {fileID: 11446542}
+  - {fileID: 11425136}
   minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
@@ -19052,12 +19057,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146528}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446528}
+  - {fileID: 11446530}
+  - {fileID: 11446540}
+  - {fileID: 11446542}
+  - {fileID: 11425136}
   minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
@@ -19114,12 +19120,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146528}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446528}
+  - {fileID: 11446530}
+  - {fileID: 11446540}
+  - {fileID: 11446542}
+  - {fileID: 11425136}
   minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
@@ -19175,12 +19182,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146528}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446528}
+  - {fileID: 11446530}
+  - {fileID: 11446540}
+  - {fileID: 11446542}
+  - {fileID: 11425136}
   minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
@@ -19236,12 +19244,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146528}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446528}
+  - {fileID: 11446530}
+  - {fileID: 11446540}
+  - {fileID: 11446542}
+  - {fileID: 11425136}
   minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
@@ -19298,12 +19307,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146528}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446528}
+  - {fileID: 11446530}
+  - {fileID: 11446540}
+  - {fileID: 11446542}
+  - {fileID: 11425136}
   minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
@@ -19358,12 +19368,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146528}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446528}
+  - {fileID: 11446530}
+  - {fileID: 11446540}
+  - {fileID: 11446542}
+  - {fileID: 11425136}
   minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
@@ -19419,12 +19430,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146528}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446528}
+  - {fileID: 11446530}
+  - {fileID: 11446540}
+  - {fileID: 11446542}
+  - {fileID: 11425136}
   minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
@@ -19478,6 +19490,7 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 0}
   outcomePairs:
   - {fileID: 11446518}
   - {fileID: 11446516}
@@ -19545,6 +19558,7 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 0}
   outcomePairs:
   - {fileID: 11446518}
   - {fileID: 11446516}
@@ -19613,6 +19627,7 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 0}
   outcomePairs:
   - {fileID: 11446518}
   - {fileID: 11446516}
@@ -19681,6 +19696,7 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 0}
   outcomePairs:
   - {fileID: 11446518}
   - {fileID: 11446516}
@@ -19749,6 +19765,7 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 0}
   outcomePairs:
   - {fileID: 11446518}
   - {fileID: 11446516}
@@ -19817,6 +19834,7 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 0}
   outcomePairs:
   - {fileID: 11446518}
   - {fileID: 11446516}
@@ -19885,6 +19903,7 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 0}
   outcomePairs:
   - {fileID: 11446518}
   - {fileID: 11446516}
@@ -19953,6 +19972,7 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 0}
   outcomePairs:
   - {fileID: 11446518}
   - {fileID: 11446516}
@@ -20022,6 +20042,7 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 0}
   outcomePairs:
   - {fileID: 11446518}
   - {fileID: 11446516}
@@ -20089,6 +20110,7 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 0}
   outcomePairs:
   - {fileID: 11446518}
   - {fileID: 11446516}
@@ -20158,12 +20180,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146450}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446458}
+  - {fileID: 11446456}
+  - {fileID: 11446446}
+  - {fileID: 11446444}
+  - {fileID: 11446434}
   minorPictureParent: {fileID: 129838}
   minorPictures:
   - {fileID: 11429838}
@@ -20226,12 +20249,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146450}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446458}
+  - {fileID: 11446456}
+  - {fileID: 11446446}
+  - {fileID: 11446444}
+  - {fileID: 11446434}
   minorPictureParent: {fileID: 129838}
   minorPictures:
   - {fileID: 11429838}
@@ -20295,12 +20319,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146450}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446458}
+  - {fileID: 11446456}
+  - {fileID: 11446446}
+  - {fileID: 11446444}
+  - {fileID: 11446434}
   minorPictureParent: {fileID: 129838}
   minorPictures:
   - {fileID: 11429838}
@@ -20364,12 +20389,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146450}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446458}
+  - {fileID: 11446456}
+  - {fileID: 11446446}
+  - {fileID: 11446444}
+  - {fileID: 11446434}
   minorPictureParent: {fileID: 129838}
   minorPictures:
   - {fileID: 11429838}
@@ -20432,12 +20458,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146450}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446458}
+  - {fileID: 11446456}
+  - {fileID: 11446446}
+  - {fileID: 11446444}
+  - {fileID: 11446434}
   minorPictureParent: {fileID: 129838}
   minorPictures:
   - {fileID: 11429838}
@@ -20500,12 +20527,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146450}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446458}
+  - {fileID: 11446456}
+  - {fileID: 11446446}
+  - {fileID: 11446444}
+  - {fileID: 11446434}
   minorPictureParent: {fileID: 129838}
   minorPictures:
   - {fileID: 11429838}
@@ -20568,12 +20596,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146450}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446458}
+  - {fileID: 11446456}
+  - {fileID: 11446446}
+  - {fileID: 11446444}
+  - {fileID: 11446434}
   minorPictureParent: {fileID: 129838}
   minorPictures:
   - {fileID: 11429838}
@@ -20636,12 +20665,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146450}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446458}
+  - {fileID: 11446456}
+  - {fileID: 11446446}
+  - {fileID: 11446444}
+  - {fileID: 11446434}
   minorPictureParent: {fileID: 129838}
   minorPictures:
   - {fileID: 11429838}
@@ -20704,12 +20734,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146450}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446458}
+  - {fileID: 11446456}
+  - {fileID: 11446446}
+  - {fileID: 11446444}
+  - {fileID: 11446434}
   minorPictureParent: {fileID: 129838}
   minorPictures:
   - {fileID: 11429838}
@@ -20772,12 +20803,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146450}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446458}
+  - {fileID: 11446456}
+  - {fileID: 11446446}
+  - {fileID: 11446444}
+  - {fileID: 11446434}
   minorPictureParent: {fileID: 129838}
   minorPictures:
   - {fileID: 11429838}
@@ -20840,12 +20872,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146400}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446408}
+  - {fileID: 11446410}
+  - {fileID: 11446420}
+  - {fileID: 11446422}
+  - {fileID: 11446432}
   minorPictureParent: {fileID: 161044}
   minorPictures:
   - {fileID: 11461040}
@@ -20907,12 +20940,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146400}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446408}
+  - {fileID: 11446410}
+  - {fileID: 11446420}
+  - {fileID: 11446422}
+  - {fileID: 11446432}
   minorPictureParent: {fileID: 161044}
   minorPictures:
   - {fileID: 11461040}
@@ -20975,12 +21009,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146400}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446408}
+  - {fileID: 11446410}
+  - {fileID: 11446420}
+  - {fileID: 11446422}
+  - {fileID: 11446432}
   minorPictureParent: {fileID: 161044}
   minorPictures:
   - {fileID: 11461040}
@@ -21044,12 +21079,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146400}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446408}
+  - {fileID: 11446410}
+  - {fileID: 11446420}
+  - {fileID: 11446422}
+  - {fileID: 11446432}
   minorPictureParent: {fileID: 161044}
   minorPictures:
   - {fileID: 11461040}
@@ -21112,12 +21148,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146400}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446408}
+  - {fileID: 11446410}
+  - {fileID: 11446420}
+  - {fileID: 11446422}
+  - {fileID: 11446432}
   minorPictureParent: {fileID: 161044}
   minorPictures:
   - {fileID: 11461040}
@@ -21180,12 +21217,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146400}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446408}
+  - {fileID: 11446410}
+  - {fileID: 11446420}
+  - {fileID: 11446422}
+  - {fileID: 11446432}
   minorPictureParent: {fileID: 161044}
   minorPictures:
   - {fileID: 11461040}
@@ -21248,12 +21286,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146400}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446408}
+  - {fileID: 11446410}
+  - {fileID: 11446420}
+  - {fileID: 11446422}
+  - {fileID: 11446432}
   minorPictureParent: {fileID: 161044}
   minorPictures:
   - {fileID: 11461040}
@@ -21316,12 +21355,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146400}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446408}
+  - {fileID: 11446410}
+  - {fileID: 11446420}
+  - {fileID: 11446422}
+  - {fileID: 11446432}
   minorPictureParent: {fileID: 161044}
   minorPictures:
   - {fileID: 11461040}
@@ -21384,12 +21424,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146400}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446408}
+  - {fileID: 11446410}
+  - {fileID: 11446420}
+  - {fileID: 11446422}
+  - {fileID: 11446432}
   minorPictureParent: {fileID: 161044}
   minorPictures:
   - {fileID: 11461040}
@@ -21451,12 +21492,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146400}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446408}
+  - {fileID: 11446410}
+  - {fileID: 11446420}
+  - {fileID: 11446422}
+  - {fileID: 11446432}
   minorPictureParent: {fileID: 161044}
   minorPictures:
   - {fileID: 11461040}
@@ -21518,12 +21560,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146464}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446468}
+  - {fileID: 11446470}
+  - {fileID: 11446480}
+  - {fileID: 11446482}
+  - {fileID: 11446492}
   minorPictureParent: {fileID: 161038}
   minorPictures:
   - {fileID: 11461038}
@@ -21587,12 +21630,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146464}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446468}
+  - {fileID: 11446470}
+  - {fileID: 11446480}
+  - {fileID: 11446482}
+  - {fileID: 11446492}
   minorPictureParent: {fileID: 161038}
   minorPictures:
   - {fileID: 11461038}
@@ -21655,12 +21699,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146464}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446468}
+  - {fileID: 11446470}
+  - {fileID: 11446480}
+  - {fileID: 11446482}
+  - {fileID: 11446492}
   minorPictureParent: {fileID: 161038}
   minorPictures:
   - {fileID: 11461038}
@@ -21723,12 +21768,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146464}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446468}
+  - {fileID: 11446470}
+  - {fileID: 11446480}
+  - {fileID: 11446482}
+  - {fileID: 11446492}
   minorPictureParent: {fileID: 161038}
   minorPictures:
   - {fileID: 11461038}
@@ -21791,12 +21837,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146464}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446468}
+  - {fileID: 11446470}
+  - {fileID: 11446480}
+  - {fileID: 11446482}
+  - {fileID: 11446492}
   minorPictureParent: {fileID: 161038}
   minorPictures:
   - {fileID: 11461038}
@@ -21860,12 +21907,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146464}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446468}
+  - {fileID: 11446470}
+  - {fileID: 11446480}
+  - {fileID: 11446482}
+  - {fileID: 11446492}
   minorPictureParent: {fileID: 161038}
   minorPictures:
   - {fileID: 11461038}
@@ -21928,12 +21976,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146464}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446468}
+  - {fileID: 11446470}
+  - {fileID: 11446480}
+  - {fileID: 11446482}
+  - {fileID: 11446492}
   minorPictureParent: {fileID: 161038}
   minorPictures:
   - {fileID: 11461038}
@@ -21996,12 +22045,13 @@ MonoBehaviour:
   - {fileID: 11434654}
   - {fileID: 11434652}
   - {fileID: 11425158}
+  outcomePairsParent: {fileID: 146464}
   outcomePairs:
-  - {fileID: 11446518}
-  - {fileID: 11446516}
-  - {fileID: 11446506}
-  - {fileID: 11446504}
-  - {fileID: 11446494}
+  - {fileID: 11446468}
+  - {fileID: 11446470}
+  - {fileID: 11446480}
+  - {fileID: 11446482}
+  - {fileID: 11446492}
   minorPictureParent: {fileID: 161038}
   minorPictures:
   - {fileID: 11461038}
