@@ -7,9 +7,11 @@ namespace DramaPack{
 			base.Update ();
 		}
 		public override string DisplayData(){
-			TagReplacePair[] pairs = new TagReplacePair[1]{
+			TagReplacePair[] pairs = new TagReplacePair[3]{
 
-				new TagReplacePair ("[nBoss]",DramaManager.nextBoss)
+				new TagReplacePair ("[nBoss]",DramaManager.nextBoss),
+				new TagReplacePair ("[pmBoss]",PersistentData.previousMiniBossName),
+				new TagReplacePair ("[pBoss]",PersistentData.previousEndBossName)
 				
 			};
 			return base.DisplayData (pairs);
