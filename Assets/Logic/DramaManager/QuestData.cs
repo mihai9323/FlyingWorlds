@@ -26,6 +26,7 @@ namespace DramaPack{
 		public LocationData[] randomLocations;
 		public LocationData[] questLocations;
 		public MomentData[] questMoments;
+		public GameObject outcomePairsParent;
 		public OutcomePair[] outcomePairs;
 
 
@@ -94,6 +95,8 @@ namespace DramaPack{
 		// Use this for initialization
 		protected override void Update () {
 			base.Update ();
+
+			if(outcomePairsParent!=null)outcomePairs = outcomePairsParent.gameObject.GetComponentsInChildren<MinorPictureData> ();
 			if(minorPictureParent!=null)minorPictures = minorPictureParent.gameObject.GetComponentsInChildren<MinorPictureData> ();
 		}
 
@@ -208,10 +211,11 @@ namespace DramaPack{
 					return 0;
 				}
 
-				Debug.Log("Fittness ["+this.name+"]["+(progressScore + timesEncounteredScore + traitScore).ToString()+"]");
+				Debug.Log("Fittness ["+this.name+"]["+(progressScore + timesEncounteredScore + traitScore+questDiversity).ToString()+"]");
 				return progressScore + timesEncounteredScore + traitScore + questDiversity;
 			}
 		}
+	
 
 	}
 

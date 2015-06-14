@@ -52,10 +52,24 @@ namespace DramaPack{
 
 		}
 
+		private QuestData[] ShuffleQuests(QuestData[] qs){
+			var rand = new System.Random();
+			for (int i = qs.Length - 1; i > 0; i--)
+			{
+				int n = rand.Next(i + 1);
+				QuestData temp = qs[i];
+				qs[i] = qs[n];
+				qs[n] = temp;
+			}
+			return qs;
+		}
+
 		public void Select2Quests(){
 			nrOfQuests = 0;
 			Debug.Log ("Select 2 quests");
 			noQuestSelected = true;
+			quests = ShuffleQuests (quests);
+
 			var questData = (from q 
 							in quests
 							where (q.Fitness >= 0)
@@ -75,7 +89,7 @@ namespace DramaPack{
 
 				if(questData.Count>1){
 					foreach(QuestData qd in questData){
-						if(qd.questGiver != questBest.qd.questGiver){
+						if(qd.questGiver.Traits != questBest.qd.questGiver.Traits){
 							nrOfQuests = 2;
 							Debug.Log("Selected second quests");
 							questSecondBest = qd.GenerateQuest();
@@ -156,13 +170,13 @@ namespace DramaPack{
 
 					q0 = lastQuest.outcomePair.positiveOutcome.DisplayData();
 					q1 = questBest.DisplayDataBefore ();
-					q0 += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
+				//	q0 += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
 					q2 = questSecondBest.DisplayDataBefore ();
 				}else{
 					Debug.Log("previous quest was failed");
 					q0 = lastQuest.outcomePair.negativeOutcome.DisplayData();
 					q1 = questBest.retryQuestData.DisplayData();
-					q0 += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
+				//	q0 += conectors [(int)Mathf.Clamp (Random.Range (0, conectors.Length), 0, conectors.Length - 1)].DisplayData ();
 					q2 = questSecondBest.DisplayDataBefore();
 
 				}

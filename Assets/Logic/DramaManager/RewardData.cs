@@ -81,7 +81,7 @@ namespace DramaPack{
 				case RewardType.FarmUpgrade: HubManager.farm.farmLevel++; break;
 				case RewardType.ShopUpgrade: HubManager.shop.level++; break;
 				case RewardType.Treasure: GameData.NumberOfCoins+= (int)(DramaPack.DramaManager.progression * int.Parse(this.value.name)); break;
-			case RewardType.Progression: DramaPack.DramaManager.progression+=1.0f; DramaPack.DramaManager.nextBoss.status = BossData.Status.completed; DramaManager.CheckGameWin(); break;
+				case RewardType.Progression:  DramaPack.DramaManager.nextBoss.status = BossData.Status.completed; DramaManager.CheckGameWin(); break;
 				case RewardType.Item: InventoryManager.ItemsInInventory.Add (this.chosenItem); break;
 			}
 			chosenName = "";
