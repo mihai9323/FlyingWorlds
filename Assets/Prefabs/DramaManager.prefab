@@ -11793,15 +11793,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!114 &11403020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11823,15 +11823,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!114 &11403022
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11865,15 +11865,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!114 &11403026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11909,15 +11909,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!114 &11403030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11964,15 +11964,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!114 &11403036
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12006,15 +12006,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!114 &11403040
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12049,15 +12049,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!114 &11403044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12078,15 +12078,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!114 &11403046
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12133,15 +12133,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!114 &11403052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12162,15 +12162,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!114 &11403054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22193,9 +22193,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Shop Quest
-  detailString: The [nBoss] is attacking [rlocation]. As we are not strong enough
-    to beat him, we should take advantage of his distraction and head to [location]
-    [mPic]
+  detailString: '[nBoss] is attacking [rlocation]. As we are not strong enough to
+    beat him, we should take advantage of his distraction and head to [location] [mPic]'
   isBossQuest: 0
   revengeString: 
   minProgressForQuest: 0
