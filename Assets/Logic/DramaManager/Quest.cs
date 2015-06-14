@@ -89,7 +89,7 @@ public class Quest : StringData {
 					new TagReplacePair ("[enemy]", enemyData),
 					new TagReplacePair ("[mPic]", minorPicture),
 					new TagReplacePair ("[nBoss]", DramaPack.DramaManager.nextBoss),
-					new TagReplacePair ("[rname]", minorPicture.rewardData.chosenName)
+					new TagReplacePair ("[rname]", minorPicture.rewardData.name)
 				};
 				return base.DisplayData (pairs);
 			} else {
@@ -99,7 +99,7 @@ public class Quest : StringData {
 					new TagReplacePair ("[enemy]", enemyData),
 					new TagReplacePair ("[mPic]", minorPicture),
 					new TagReplacePair ("[nBoss]", DramaPack.DramaManager.nextBoss),
-					new TagReplacePair ("[rname]", minorPicture.rewardData.chosenName)
+					new TagReplacePair ("[rname]", minorPicture.rewardData.name)
 				};
 				return base.DisplayData (pairs);
 			}

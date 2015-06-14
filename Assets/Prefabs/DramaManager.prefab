@@ -16552,7 +16552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: None
-  detailString: maybe we could send a search party for [name] such that [rStre]
+  detailString: maybe we could send a search party for [name] such that [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Armor
@@ -16611,7 +16611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: None
   detailString: if we do that, we could find [name]. This is surely what we should
-    do, such that [rStre]
+    do, such that [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Molten Armor
@@ -16840,7 +16840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: None
   detailString: if we do that, we could find [name]. This is surely what we should
-    do, such that [rStre]
+    do, such that [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Molten Staff
@@ -16898,7 +16898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: None
-  detailString: maybe we could send a search party for [name] such that [rStre]
+  detailString: maybe we could send a search party for [name] such that [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Staff
@@ -17978,7 +17978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: None
-  detailString: maybe we could send a search party for [name] such that [rStre]
+  detailString: maybe we could send a search party for [name] such that [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Bow
@@ -18037,7 +18037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: None
   detailString: if we do that, we could find [name]. This is surely what we should
-    do, such that [rStre]
+    do, such that [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Molten Bow
@@ -18266,7 +18266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: None
   detailString: if we do that, we could find [name]. This is surely what we should
-    do, such that [rStre]
+    do, such that [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Molten Sword
@@ -18324,7 +18324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: None
-  detailString: maybe we could send a search party for [name] such that [rStre]
+  detailString: maybe we could send a search party for [name] such that [rStr]
   rewardType: 2
   rewardItems:
   - item_name: The Fire Sword
