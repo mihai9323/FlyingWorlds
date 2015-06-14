@@ -102,17 +102,17 @@ namespace DramaPack{
 
 		public DramaPack.Quest GenerateQuest(){
 			this.timesPlayed++;
-			LocationData rLoc = randomDramaData (randomLocations) as LocationData;
-			LocationData cLoc = randomDramaData (questLocations) as LocationData;
+			LocationData rLoc = RandomDramaData (randomLocations) as LocationData;
+			LocationData cLoc = RandomDramaData (questLocations) as LocationData;
 			while (rLoc.name == cLoc.name) {
-				rLoc = randomDramaData (randomLocations) as LocationData;
-				cLoc = randomDramaData (questLocations) as LocationData;
+				rLoc = RandomDramaData (randomLocations) as LocationData;
+				cLoc = RandomDramaData (questLocations) as LocationData;
 			}
-			MomentData cMoment = randomDramaData (questMoments) as MomentData;
-			OutcomePair outcomePair = randomDramaData (outcomePairs) as OutcomePair;
-			MinorPictureData mpData = randomDramaData (minorPictures) as MinorPictureData;
-			EnemyData eData = randomDramaData (enemies) as EnemyData;
-			RetryQuestData retryQuestData = randomDramaData (retryQuestsData) as RetryQuestData;
+			MomentData cMoment = RandomDramaData (questMoments) as MomentData;
+			OutcomePair outcomePair = RandomDramaData (outcomePairs) as OutcomePair;
+			MinorPictureData mpData = RandomDramaData (minorPictures) as MinorPictureData;
+			EnemyData eData = RandomDramaData (enemies) as EnemyData;
+			RetryQuestData retryQuestData = RandomDramaData (retryQuestsData) as RetryQuestData;
 
 			if (cLoc == null || cMoment == null || outcomePair == null || mpData == null || eData == null) {
 				Debug.Log("something is null");
@@ -130,26 +130,7 @@ namespace DramaPack{
 
 		}
 
-		public Object randomDramaData(Object[] dataArray, List<Object> exclData = null){
-			if(exclData == null){
-				if(dataArray == null) return null;
-				if(dataArray.Length == 0) return null;
-				return dataArray[Mathf.Clamp(Random.Range(0, dataArray.Length),0, dataArray.Length-1)];
-			}else{
-				if(dataArray == null || dataArray.Length == 0) return null;
-				Object data = dataArray[Mathf.Clamp(Random.Range(0, dataArray.Length),0, dataArray.Length-1)];
-				int tries = 0;
-				while(exclData.Contains(data)){
-					tries++;
-					data = dataArray[Mathf.Clamp(Random.Range(0, dataArray.Length),0, dataArray.Length-1)];
-					if(tries >50){
-						Debug.LogWarning("Random Drama Data timed out. To many exclData instances generated");
-						return null;
-						}
-				}
-				return data;
-			}
-		}
+
 
 		public float Fitness{
 			get{

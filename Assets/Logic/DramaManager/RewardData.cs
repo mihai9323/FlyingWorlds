@@ -15,8 +15,10 @@ namespace DramaPack{
 		public Item[] rewardItems;
 
 		public StringData value;
-		public StrategyData strategy;
 
+		public GameObject strategyDataParent;
+		public StrategyData[] strategies;
+		private StrategyData chosenStrategy;
 
 		[HideInInspector]public Item chosenItem{
 			get{
@@ -52,10 +54,14 @@ namespace DramaPack{
 			}else{
 				this.name = chosenName;
 			}
+		
+				
+			if(strategyDataParent!=null)strategies = strategyDataParent.gameObject.GetComponentsInChildren<StrategyData> ();
+
 #endif
 			base.Update ();
 		}
-		public void GenerateName(){
+		public void GenerateNameAndStrategy(){
 			chosenItem = null;
 			chosenName = "";
 			if(this.rewardType == RewardType.Item){
@@ -63,14 +69,15 @@ namespace DramaPack{
 			}else{
 				this.name = chosenName;
 			}
+			chosenStrategy = RandomDramaData (strategies) as StrategyData;
 		}
 		public override string DisplayData(){
 			List<TagReplacePair> pairs = new List<TagReplacePair> ();
 
 			if (value != null)
 				pairs.Add (new TagReplacePair ("[rVal]", value));
-			if (strategy != null) {
-				pairs.Add(new TagReplacePair("[rStr]", strategy));
+			if (strategies != null) {
+				pairs.Add(new TagReplacePair("[rStr]", chosenStrategy));
 			}
 
 			return base.DisplayData (pairs.ToArray());

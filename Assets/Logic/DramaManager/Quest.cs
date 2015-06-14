@@ -40,7 +40,7 @@ public class Quest : StringData {
 			this.retryQuestData = retryQuestData;
 
 			this.minorPicture.ChooseRewardFromArray ();
-			this.minorPicture.rewardData.GenerateName ();
+			this.minorPicture.rewardData.GenerateNameAndStrategy ();
 			this.outcomePair.positiveOutcome.rewardData = this.outcomePair.negativeOutcome.rewardData = this.minorPicture.rewardData;
 			this.battle = new Battle (IdGenerator(), this.questLocation.name, this.questTime.name, this.questLocation.background, this.questTime.timeColor, this.MonsterChances ());
 			if (FightManager.battles.ContainsKey (battle.id.ToString())) {

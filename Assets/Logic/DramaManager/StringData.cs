@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+
+
 namespace DramaPack{
 	[System.Serializable]
 	public class StringData : DramaData {
@@ -43,7 +46,26 @@ namespace DramaPack{
 			g.name = gameObjectName;
 			return g.AddComponent<StringData> ();
 		}
-
+		public virtual Object RandomDramaData(Object[] dataArray, List<Object> exclData = null){
+			if(exclData == null){
+				if(dataArray == null) return null;
+				if(dataArray.Length == 0) return null;
+				return dataArray[Mathf.Clamp(Random.Range(0, dataArray.Length),0, dataArray.Length-1)];
+			}else{
+				if(dataArray == null || dataArray.Length == 0) return null;
+				Object data = dataArray[Mathf.Clamp(Random.Range(0, dataArray.Length),0, dataArray.Length-1)];
+				int tries = 0;
+				while(exclData.Contains(data)){
+					tries++;
+					data = dataArray[Mathf.Clamp(Random.Range(0, dataArray.Length),0, dataArray.Length-1)];
+					if(tries >50){
+						Debug.LogWarning("Random Drama Data timed out. To many exclData instances generated");
+						return null;
+					}
+				}
+				return data;
+			}
+		}
 
 
 	}

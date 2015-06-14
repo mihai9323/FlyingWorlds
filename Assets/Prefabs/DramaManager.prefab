@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 403018}
   - 114: {fileID: 11403018}
   m_Layer: 0
-  m_Name: secret planting techniques
+  m_Name: a bag of magical seeds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 403020}
   - 114: {fileID: 11403020}
   m_Layer: 0
-  m_Name: a plow
+  m_Name: forgotten plowing techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ GameObject:
   - 4: {fileID: 403028}
   - 114: {fileID: 11403028}
   m_Layer: 0
-  m_Name: secret planting techniques
+  m_Name: rare vegetables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ GameObject:
   - 4: {fileID: 403034}
   - 114: {fileID: 11403034}
   m_Layer: 0
-  m_Name: secret planting techniques
+  m_Name: rare vegetables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -218,7 +218,7 @@ GameObject:
   - 4: {fileID: 403042}
   - 114: {fileID: 11403042}
   m_Layer: 0
-  m_Name: rare vegetables
+  m_Name: a plow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,7 +234,7 @@ GameObject:
   - 4: {fileID: 403044}
   - 114: {fileID: 11403044}
   m_Layer: 0
-  m_Name: secret planting techniques
+  m_Name: a batch of crops
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -282,7 +282,7 @@ GameObject:
   - 4: {fileID: 403050}
   - 114: {fileID: 11403050}
   m_Layer: 0
-  m_Name: a batch of crops
+  m_Name: a bag of magical seeds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -298,7 +298,7 @@ GameObject:
   - 4: {fileID: 403052}
   - 114: {fileID: 11403052}
   m_Layer: 0
-  m_Name: excotic fruit
+  m_Name: a plow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,7 +376,7 @@ GameObject:
   - 4: {fileID: 403062}
   - 114: {fileID: 11403058}
   m_Layer: 0
-  m_Name: the wizards magic gems
+  m_Name: the king's riches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -392,7 +392,7 @@ GameObject:
   - 4: {fileID: 403064}
   - 114: {fileID: 11403060}
   m_Layer: 0
-  m_Name: the king's riches
+  m_Name: the mystic jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,7 +440,7 @@ GameObject:
   - 4: {fileID: 403070}
   - 114: {fileID: 11403066}
   m_Layer: 0
-  m_Name: the wizards magic gems
+  m_Name: the devils secret fortune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -456,7 +456,7 @@ GameObject:
   - 4: {fileID: 403072}
   - 114: {fileID: 11403068}
   m_Layer: 0
-  m_Name: the devils secret fortune
+  m_Name: Captain Sparrow's lost jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -488,7 +488,7 @@ GameObject:
   - 4: {fileID: 403076}
   - 114: {fileID: 11403072}
   m_Layer: 0
-  m_Name: the devils secret fortune
+  m_Name: the ancient fortune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -520,7 +520,7 @@ GameObject:
   - 4: {fileID: 403080}
   - 114: {fileID: 11403076}
   m_Layer: 0
-  m_Name: Blackbeard's forgotten treasure
+  m_Name: the mystic jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -600,7 +600,7 @@ GameObject:
   - 4: {fileID: 403090}
   - 114: {fileID: 11403086}
   m_Layer: 0
-  m_Name: the ancient fortune
+  m_Name: the sacred diamonds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -632,7 +632,7 @@ GameObject:
   - 4: {fileID: 403094}
   - 114: {fileID: 11403090}
   m_Layer: 0
-  m_Name: Captain Sparrow's lost jewels
+  m_Name: Blackbeard's forgotten treasure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -648,7 +648,7 @@ GameObject:
   - 4: {fileID: 403096}
   - 114: {fileID: 11403092}
   m_Layer: 0
-  m_Name: the pirates hidden gold
+  m_Name: Captain Sparrow's lost jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -946,7 +946,7 @@ GameObject:
   - 4: {fileID: 425174}
   - 114: {fileID: 11425162}
   m_Layer: 0
-  m_Name: improved equipment
+  m_Name: sturdier armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1164,7 +1164,7 @@ GameObject:
   - 4: {fileID: 428334}
   - 114: {fileID: 11428334}
   m_Layer: 0
-  m_Name: stronger materials
+  m_Name: a trade caravan allowing for more excotic gear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3072,7 +3072,7 @@ GameObject:
   - 4: {fileID: 447918}
   - 114: {fileID: 11447916}
   m_Layer: 0
-  m_Name: The Fire Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3088,7 +3088,7 @@ GameObject:
   - 4: {fileID: 447920}
   - 114: {fileID: 11447918}
   m_Layer: 0
-  m_Name: The Dragon Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3136,7 +3136,7 @@ GameObject:
   - 4: {fileID: 447926}
   - 114: {fileID: 11447924}
   m_Layer: 0
-  m_Name: The Earth Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3310,7 +3310,7 @@ GameObject:
   - 4: {fileID: 455522}
   - 114: {fileID: 11455524}
   m_Layer: 0
-  m_Name: The Ice Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3326,7 +3326,7 @@ GameObject:
   - 4: {fileID: 455524}
   - 114: {fileID: 11455526}
   m_Layer: 0
-  m_Name: safer roads allowing for better items
+  m_Name: tougher armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3358,7 +3358,7 @@ GameObject:
   - 4: {fileID: 455528}
   - 114: {fileID: 11455530}
   m_Layer: 0
-  m_Name: a trade caravan allowing for more excotic gear
+  m_Name: better trading routes opening more equipment options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3390,7 +3390,7 @@ GameObject:
   - 4: {fileID: 455532}
   - 114: {fileID: 11455534}
   m_Layer: 0
-  m_Name: upgraded weaponry
+  m_Name: rare weaponry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3438,7 +3438,7 @@ GameObject:
   - 4: {fileID: 455538}
   - 114: {fileID: 11455540}
   m_Layer: 0
-  m_Name: rare weaponry
+  m_Name: better trading routes opening more equipment options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3470,7 +3470,7 @@ GameObject:
   - 4: {fileID: 455542}
   - 114: {fileID: 11455544}
   m_Layer: 0
-  m_Name: tougher armor
+  m_Name: upgraded weaponry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3502,7 +3502,7 @@ GameObject:
   - 4: {fileID: 455546}
   - 114: {fileID: 11455548}
   m_Layer: 0
-  m_Name: new contacts with stronger weapons
+  m_Name: upgraded weaponry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3518,7 +3518,7 @@ GameObject:
   - 4: {fileID: 455548}
   - 114: {fileID: 11455550}
   m_Layer: 0
-  m_Name: stronger materials
+  m_Name: safer roads allowing for better items
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3566,7 +3566,7 @@ GameObject:
   - 4: {fileID: 455554}
   - 114: {fileID: 11455556}
   m_Layer: 0
-  m_Name: rare weaponry
+  m_Name: better trading routes opening more equipment options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4214,7 +4214,7 @@ GameObject:
   - 4: {fileID: 471058}
   - 114: {fileID: 11471050}
   m_Layer: 0
-  m_Name: The Magical Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4262,7 +4262,7 @@ GameObject:
   - 4: {fileID: 471064}
   - 114: {fileID: 11471056}
   m_Layer: 0
-  m_Name: The Earth Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4278,7 +4278,7 @@ GameObject:
   - 4: {fileID: 471066}
   - 114: {fileID: 11471058}
   m_Layer: 0
-  m_Name: The Water Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4326,7 +4326,7 @@ GameObject:
   - 4: {fileID: 471072}
   - 114: {fileID: 11471064}
   m_Layer: 0
-  m_Name: The Magical Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4342,7 +4342,7 @@ GameObject:
   - 4: {fileID: 471074}
   - 114: {fileID: 11471066}
   m_Layer: 0
-  m_Name: The Water Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4390,7 +4390,7 @@ GameObject:
   - 4: {fileID: 471080}
   - 114: {fileID: 11471072}
   m_Layer: 0
-  m_Name: The Dragon Armor
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4406,7 +4406,7 @@ GameObject:
   - 4: {fileID: 471082}
   - 114: {fileID: 11471074}
   m_Layer: 0
-  m_Name: The Mad King's Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4454,7 +4454,7 @@ GameObject:
   - 4: {fileID: 471088}
   - 114: {fileID: 11471080}
   m_Layer: 0
-  m_Name: The Wind Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4470,7 +4470,7 @@ GameObject:
   - 4: {fileID: 471090}
   - 114: {fileID: 11471082}
   m_Layer: 0
-  m_Name: The Magical Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4518,7 +4518,7 @@ GameObject:
   - 4: {fileID: 471096}
   - 114: {fileID: 11471088}
   m_Layer: 0
-  m_Name: The Fire Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4534,7 +4534,7 @@ GameObject:
   - 4: {fileID: 471098}
   - 114: {fileID: 11471090}
   m_Layer: 0
-  m_Name: The Water Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4582,7 +4582,7 @@ GameObject:
   - 4: {fileID: 471104}
   - 114: {fileID: 11471096}
   m_Layer: 0
-  m_Name: The Wind Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4613,7 +4613,7 @@ GameObject:
   - 4: {fileID: 471108}
   - 114: {fileID: 11471098}
   m_Layer: 0
-  m_Name: The Sacred Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4661,7 +4661,7 @@ GameObject:
   - 4: {fileID: 471114}
   - 114: {fileID: 11471104}
   m_Layer: 0
-  m_Name: The Wind Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4677,7 +4677,7 @@ GameObject:
   - 4: {fileID: 471116}
   - 114: {fileID: 11471106}
   m_Layer: 0
-  m_Name: The Mad King's Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4725,7 +4725,7 @@ GameObject:
   - 4: {fileID: 471122}
   - 114: {fileID: 11471112}
   m_Layer: 0
-  m_Name: The Magical Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4741,7 +4741,7 @@ GameObject:
   - 4: {fileID: 471124}
   - 114: {fileID: 11471114}
   m_Layer: 0
-  m_Name: The Earth Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4789,7 +4789,7 @@ GameObject:
   - 4: {fileID: 471130}
   - 114: {fileID: 11471120}
   m_Layer: 0
-  m_Name: The Earth Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4805,7 +4805,7 @@ GameObject:
   - 4: {fileID: 471132}
   - 114: {fileID: 11471122}
   m_Layer: 0
-  m_Name: The Magical Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4853,7 +4853,7 @@ GameObject:
   - 4: {fileID: 471138}
   - 114: {fileID: 11471128}
   m_Layer: 0
-  m_Name: The Blazing Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4884,7 +4884,7 @@ GameObject:
   - 4: {fileID: 471142}
   - 114: {fileID: 11471130}
   m_Layer: 0
-  m_Name: The Magical Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4932,7 +4932,7 @@ GameObject:
   - 4: {fileID: 471148}
   - 114: {fileID: 11471136}
   m_Layer: 0
-  m_Name: The Magical Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4948,7 +4948,7 @@ GameObject:
   - 4: {fileID: 471150}
   - 114: {fileID: 11471138}
   m_Layer: 0
-  m_Name: The Dragon Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4996,7 +4996,7 @@ GameObject:
   - 4: {fileID: 471156}
   - 114: {fileID: 11471144}
   m_Layer: 0
-  m_Name: The Magical Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5012,7 +5012,7 @@ GameObject:
   - 4: {fileID: 471158}
   - 114: {fileID: 11471146}
   m_Layer: 0
-  m_Name: The Water Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5060,7 +5060,7 @@ GameObject:
   - 4: {fileID: 471164}
   - 114: {fileID: 11471152}
   m_Layer: 0
-  m_Name: The Wind Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5076,7 +5076,7 @@ GameObject:
   - 4: {fileID: 471166}
   - 114: {fileID: 11471154}
   m_Layer: 0
-  m_Name: The Dragon Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5124,7 +5124,7 @@ GameObject:
   - 4: {fileID: 471172}
   - 114: {fileID: 11471160}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5140,7 +5140,7 @@ GameObject:
   - 4: {fileID: 471174}
   - 114: {fileID: 11471162}
   m_Layer: 0
-  m_Name: The Leaf Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5188,7 +5188,7 @@ GameObject:
   - 4: {fileID: 471180}
   - 114: {fileID: 11471168}
   m_Layer: 0
-  m_Name: The Water Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5204,7 +5204,7 @@ GameObject:
   - 4: {fileID: 471182}
   - 114: {fileID: 11471170}
   m_Layer: 0
-  m_Name: The Fire Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5252,7 +5252,7 @@ GameObject:
   - 4: {fileID: 471188}
   - 114: {fileID: 11471176}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5283,7 +5283,7 @@ GameObject:
   - 4: {fileID: 471192}
   - 114: {fileID: 11471178}
   m_Layer: 0
-  m_Name: The Sacred Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5331,7 +5331,7 @@ GameObject:
   - 4: {fileID: 471198}
   - 114: {fileID: 11471184}
   m_Layer: 0
-  m_Name: The Earth Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5347,7 +5347,7 @@ GameObject:
   - 4: {fileID: 471200}
   - 114: {fileID: 11471186}
   m_Layer: 0
-  m_Name: The Dragon Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5395,7 +5395,7 @@ GameObject:
   - 4: {fileID: 471206}
   - 114: {fileID: 11471192}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6214,6 +6214,198 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &195528
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495528}
+  - 114: {fileID: 11495528}
+  m_Layer: 0
+  m_Name: Staff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &195530
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495530}
+  - 114: {fileID: 11495530}
+  m_Layer: 0
+  m_Name: Armor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &195532
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495532}
+  - 114: {fileID: 11495532}
+  m_Layer: 0
+  m_Name: Sword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &195534
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495534}
+  - 114: {fileID: 11495534}
+  m_Layer: 0
+  m_Name: Bow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &195536
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495536}
+  - 114: {fileID: 11495536}
+  m_Layer: 0
+  m_Name: Sword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &195538
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495538}
+  - 114: {fileID: 11495538}
+  m_Layer: 0
+  m_Name: Sword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &195540
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495540}
+  - 114: {fileID: 11495540}
+  m_Layer: 0
+  m_Name: Bow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &195542
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495542}
+  - 114: {fileID: 11495542}
+  m_Layer: 0
+  m_Name: Bow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &195544
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495544}
+  - 114: {fileID: 11495544}
+  m_Layer: 0
+  m_Name: Staff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &195546
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495546}
+  - 114: {fileID: 11495546}
+  m_Layer: 0
+  m_Name: Staff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &195548
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495548}
+  - 114: {fileID: 11495548}
+  m_Layer: 0
+  m_Name: Armor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &195550
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495550}
+  - 114: {fileID: 11495550}
+  m_Layer: 0
+  m_Name: Armor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &197920
 GameObject:
   m_ObjectHideFlags: 1
@@ -6954,7 +7146,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 471046}
-  m_RootOrder: 0
+  m_RootOrder: 3
 --- !u!4 &425160
 Transform:
   m_ObjectHideFlags: 1
@@ -9690,6 +9882,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 495530}
+  - {fileID: 495548}
+  - {fileID: 495550}
   - {fileID: 425156}
   m_Father: {fileID: 425152}
   m_RootOrder: 3
@@ -9703,6 +9898,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 495528}
+  - {fileID: 495544}
+  - {fileID: 495546}
   - {fileID: 471050}
   m_Father: {fileID: 425152}
   m_RootOrder: 2
@@ -9717,7 +9915,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 471048}
-  m_RootOrder: 0
+  m_RootOrder: 3
 --- !u!4 &471052
 Transform:
   m_ObjectHideFlags: 1
@@ -9729,7 +9927,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 471054}
-  m_RootOrder: 0
+  m_RootOrder: 3
 --- !u!4 &471054
 Transform:
   m_ObjectHideFlags: 1
@@ -9740,6 +9938,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 495534}
+  - {fileID: 495540}
+  - {fileID: 495542}
   - {fileID: 471052}
   m_Father: {fileID: 425152}
   m_RootOrder: 1
@@ -9753,6 +9954,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 495532}
+  - {fileID: 495536}
+  - {fileID: 495538}
   - {fileID: 471208}
   m_Father: {fileID: 425152}
   m_RootOrder: 0
@@ -10733,7 +10937,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 471056}
-  m_RootOrder: 0
+  m_RootOrder: 3
 --- !u!4 &476802
 Transform:
   m_ObjectHideFlags: 1
@@ -11364,6 +11568,150 @@ Transform:
   m_Children: []
   m_Father: {fileID: 451176}
   m_RootOrder: 2
+--- !u!4 &495528
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 471048}
+  m_RootOrder: 0
+--- !u!4 &495530
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 471046}
+  m_RootOrder: 0
+--- !u!4 &495532
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 471056}
+  m_RootOrder: 0
+--- !u!4 &495534
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195534}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 471054}
+  m_RootOrder: 0
+--- !u!4 &495536
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 471056}
+  m_RootOrder: 1
+--- !u!4 &495538
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 471056}
+  m_RootOrder: 2
+--- !u!4 &495540
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195540}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 471054}
+  m_RootOrder: 1
+--- !u!4 &495542
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 471054}
+  m_RootOrder: 2
+--- !u!4 &495544
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 471048}
+  m_RootOrder: 1
+--- !u!4 &495546
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 471048}
+  m_RootOrder: 2
+--- !u!4 &495548
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 471046}
+  m_RootOrder: 1
+--- !u!4 &495550
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 471046}
+  m_RootOrder: 2
 --- !u!4 &497920
 Transform:
   m_ObjectHideFlags: 1
@@ -11436,12 +11784,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: rare vegetables
+  name: a bag of magical seeds
   detailString: We've been promised [name] if we complete the task,
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403016}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a bag of magical seeds
   - fertilizer
@@ -11470,7 +11819,8 @@ MonoBehaviour:
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403022}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a bag of magical seeds
   - fertilizer
@@ -11506,12 +11856,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: expensive spices
+  name: forgotten plowing techniques
   detailString: There is a chance of getting [name],
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403026}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a bag of magical seeds
   - fertilizer
@@ -11549,12 +11900,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: excotic fruit
+  name: rare vegetables
   detailString: We could collect a prize of [name] if we chose to do this,
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403030}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a bag of magical seeds
   - fertilizer
@@ -11608,7 +11960,8 @@ MonoBehaviour:
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403032}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a bag of magical seeds
   - fertilizer
@@ -11644,12 +11997,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a plow
+  name: a bag of magical seeds
   detailString: If we help out, the farm will be upgraded with [name],
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403036}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a bag of magical seeds
   - fertilizer
@@ -11685,13 +12039,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: forgotten plowing techniques
+  name: a plow
   detailString: If we complete the task at hand we've been promised [name] for the
     village,
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403040}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a bag of magical seeds
   - fertilizer
@@ -11714,12 +12069,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: expensive spices
+  name: a batch of crops
   detailString: The benefits of this would be [name],
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403046}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a bag of magical seeds
   - fertilizer
@@ -11768,12 +12124,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: rare vegetables
+  name: a bag of magical seeds
   detailString: If we do that, [name] will be given us,
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403048}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a bag of magical seeds
   - fertilizer
@@ -11796,12 +12153,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: rare vegetables
+  name: a plow
   detailString: It be worth considering as we will recieve [name] for our trouble,
   rewardType: 4
   rewardItems: []
   value: {fileID: 11403054}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a bag of magical seeds
   - fertilizer
@@ -11855,7 +12213,8 @@ MonoBehaviour:
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403056}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - Blackbeard's forgotten treasure
   - Captain Sparrow's lost jewels
@@ -11884,7 +12243,8 @@ MonoBehaviour:
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403062}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - Blackbeard's forgotten treasure
   - Captain Sparrow's lost jewels
@@ -11933,12 +12293,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the treasure from ancient times
+  name: the devils secret fortune
   detailString: maybe we could send a search party for [name]
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403064}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - Blackbeard's forgotten treasure
   - Captain Sparrow's lost jewels
@@ -11961,12 +12322,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the king's riches
+  name: Captain Sparrow's lost jewels
   detailString: and follow the tales of [name]
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403070}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - Blackbeard's forgotten treasure
   - Captain Sparrow's lost jewels
@@ -12002,12 +12364,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Blackbeard's forgotten treasure
+  name: the ancient fortune
   detailString: and try to acquire [name]
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403074}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - Blackbeard's forgotten treasure
   - Captain Sparrow's lost jewels
@@ -12043,12 +12406,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Captain Sparrow's lost jewels
+  name: the mystic jewels
   detailString: and collect [name]
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403078}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - Blackbeard's forgotten treasure
   - Captain Sparrow's lost jewels
@@ -12097,13 +12461,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the pirates hidden gold
+  name: the king's riches
   detailString: to collect [name] which is worth [rVal] coins. This is important for
     us
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403080}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - Blackbeard's forgotten treasure
   - Captain Sparrow's lost jewels
@@ -12139,13 +12504,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the pirates hidden gold
+  name: the sacred diamonds
   detailString: because there is a chance of finding [name] worth [rVal] coins, this
     is a good idea
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403084}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - Blackbeard's forgotten treasure
   - Captain Sparrow's lost jewels
@@ -12181,12 +12547,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the treasure from ancient times
+  name: Blackbeard's forgotten treasure
   detailString: and try to send a search party for [name]
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403088}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - Blackbeard's forgotten treasure
   - Captain Sparrow's lost jewels
@@ -12209,12 +12576,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the pirates hidden gold
+  name: Captain Sparrow's lost jewels
   detailString: and get [name]
   rewardType: 1
   rewardItems: []
   value: {fileID: 11403094}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - Blackbeard's forgotten treasure
   - Captain Sparrow's lost jewels
@@ -12363,9 +12731,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Armor
-  detailString: '[trait] would be able to put it to good use, as all enemies seems
-    to attack him!'
-  applyToTraits: 06000000
+  detailString: '[trait] would be able to withstand a lot of attackers!'
+  applyToTraits: 03000000
 --- !u!114 &11425156
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12489,12 +12856,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: new contacts with stronger weapons
+  name: sturdier armor
   detailString: It be worth considering as the shop would be upgraded with [name].
   rewardType: 3
   rewardItems: []
   value: {fileID: 11425170}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a trade caravan allowing for more excotic gear
   - rare weaponry
@@ -12692,13 +13060,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: sturdier armor
+  name: a trade caravan allowing for more excotic gear
   detailString: The merchant have promised [name] available for our shop if we complete
     the task.
   rewardType: 3
   rewardItems: []
   value: {fileID: 11428336}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a trade caravan allowing for more excotic gear
   - rare weaponry
@@ -14449,7 +14818,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11447914}
-  strategy: {fileID: 11425152}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11447918
 MonoBehaviour:
@@ -14507,7 +14877,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11447920}
-  strategy: {fileID: 11425152}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11447920
 MonoBehaviour:
@@ -14592,7 +14963,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11447922}
-  strategy: {fileID: 11425152}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11447926
 MonoBehaviour:
@@ -14612,7 +14984,8 @@ MonoBehaviour:
   rewardType: 0
   rewardItems: []
   value: {fileID: 11447928}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - Progression
 --- !u!114 &11447928
@@ -14872,7 +15245,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11455522}
-  strategy: {fileID: 11425152}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11455526
 MonoBehaviour:
@@ -14891,7 +15265,8 @@ MonoBehaviour:
   rewardType: 3
   rewardItems: []
   value: {fileID: 11455528}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a trade caravan allowing for more excotic gear
   - rare weaponry
@@ -14927,12 +15302,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: tougher armor
+  name: better trading routes opening more equipment options
   detailString: There is a chance of getting [name] to buy in the town.
   rewardType: 3
   rewardItems: []
   value: {fileID: 11455532}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a trade caravan allowing for more excotic gear
   - rare weaponry
@@ -14976,7 +15352,8 @@ MonoBehaviour:
   rewardType: 3
   rewardItems: []
   value: {fileID: 11455536}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a trade caravan allowing for more excotic gear
   - rare weaponry
@@ -15025,12 +15402,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a trade caravan allowing for more excotic gear
+  name: better trading routes opening more equipment options
   detailString: We will be rewarded with [name] available for the town's shop.
   rewardType: 3
   rewardItems: []
   value: {fileID: 11455538}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a trade caravan allowing for more excotic gear
   - rare weaponry
@@ -15071,7 +15449,8 @@ MonoBehaviour:
   rewardType: 3
   rewardItems: []
   value: {fileID: 11455542}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a trade caravan allowing for more excotic gear
   - rare weaponry
@@ -15107,13 +15486,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: better trading routes opening more equipment options
+  name: upgraded weaponry
   detailString: We've been promised [name] for the shop, if we complete the task at
     hand.
   rewardType: 3
   rewardItems: []
   value: {fileID: 11455546}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a trade caravan allowing for more excotic gear
   - rare weaponry
@@ -15141,7 +15521,8 @@ MonoBehaviour:
   rewardType: 3
   rewardItems: []
   value: {fileID: 11455552}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a trade caravan allowing for more excotic gear
   - rare weaponry
@@ -15190,13 +15571,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: stronger materials
+  name: better trading routes opening more equipment options
   detailString: If we do that, the merchant will give us [name] as an upgrade to our
     shop.
   rewardType: 3
   rewardItems: []
   value: {fileID: 11455554}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem:
   - a trade caravan allowing for more excotic gear
   - rare weaponry
@@ -16297,7 +16679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Staff
-  detailString: '[trait]''s spells would be able to banish more demons!'
+  detailString: the power of the wizards magic would increase!
   applyToTraits: 02000000
 --- !u!114 &11471048
 MonoBehaviour:
@@ -16311,8 +16693,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Bow
-  detailString: the archers would most likely appreaciate it and perhaps fight better
-    in battle!
+  detailString: our greatest archer could use this weapon to kill with ease, if our
+    knights can keep the enemies distracted!
   applyToTraits: 06000000
 --- !u!114 &11471050
 MonoBehaviour:
@@ -16370,7 +16752,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471052}
-  strategy: {fileID: 11425152}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471052
 MonoBehaviour:
@@ -16454,7 +16837,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471054}
-  strategy: {fileID: 11425152}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471058
 MonoBehaviour:
@@ -16512,7 +16896,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471060}
-  strategy: {fileID: 11425152}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471060
 MonoBehaviour:
@@ -16596,7 +16981,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471062}
-  strategy: {fileID: 11425152}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471066
 MonoBehaviour:
@@ -16655,7 +17041,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471068}
-  strategy: {fileID: 11425152}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471068
 MonoBehaviour:
@@ -16740,7 +17127,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471070}
-  strategy: {fileID: 11425152}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471074
 MonoBehaviour:
@@ -16799,7 +17187,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471076}
-  strategy: {fileID: 11471046}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471076
 MonoBehaviour:
@@ -16884,7 +17273,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471078}
-  strategy: {fileID: 11471046}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471082
 MonoBehaviour:
@@ -16942,7 +17332,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471084}
-  strategy: {fileID: 11471046}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471084
 MonoBehaviour:
@@ -17026,7 +17417,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471086}
-  strategy: {fileID: 11471046}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471090
 MonoBehaviour:
@@ -17084,7 +17476,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471092}
-  strategy: {fileID: 11471046}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471092
 MonoBehaviour:
@@ -17168,7 +17561,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471094}
-  strategy: {fileID: 11471046}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471098
 MonoBehaviour:
@@ -17226,7 +17620,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471100}
-  strategy: {fileID: 11471046}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471100
 MonoBehaviour:
@@ -17310,7 +17705,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471102}
-  strategy: {fileID: 11471046}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471106
 MonoBehaviour:
@@ -17368,7 +17764,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471108}
-  strategy: {fileID: 11471046}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471108
 MonoBehaviour:
@@ -17453,7 +17850,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471110}
-  strategy: {fileID: 11471046}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471114
 MonoBehaviour:
@@ -17512,7 +17910,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471116}
-  strategy: {fileID: 11471048}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471116
 MonoBehaviour:
@@ -17596,7 +17995,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471118}
-  strategy: {fileID: 11471048}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471122
 MonoBehaviour:
@@ -17654,7 +18054,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471124}
-  strategy: {fileID: 11471048}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471124
 MonoBehaviour:
@@ -17738,7 +18139,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471126}
-  strategy: {fileID: 11471048}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471130
 MonoBehaviour:
@@ -17796,7 +18198,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471132}
-  strategy: {fileID: 11471048}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471132
 MonoBehaviour:
@@ -17880,7 +18283,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471134}
-  strategy: {fileID: 11471048}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471138
 MonoBehaviour:
@@ -17938,7 +18342,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471140}
-  strategy: {fileID: 11471048}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471140
 MonoBehaviour:
@@ -18022,7 +18427,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471142}
-  strategy: {fileID: 11471048}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471146
 MonoBehaviour:
@@ -18081,7 +18487,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471148}
-  strategy: {fileID: 11471048}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471148
 MonoBehaviour:
@@ -18166,7 +18573,8 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471150}
-  strategy: {fileID: 11471048}
+  strategyDataParent: {fileID: 0}
+  strategies: []
   namesNonItem: []
 --- !u!114 &11471154
 MonoBehaviour:
@@ -18225,7 +18633,12 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471156}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 171056}
+  strategies:
+  - {fileID: 11495532}
+  - {fileID: 11495536}
+  - {fileID: 11495538}
+  - {fileID: 11471194}
   namesNonItem: []
 --- !u!114 &11471156
 MonoBehaviour:
@@ -18310,7 +18723,12 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471158}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 171056}
+  strategies:
+  - {fileID: 11495532}
+  - {fileID: 11495536}
+  - {fileID: 11495538}
+  - {fileID: 11471194}
   namesNonItem: []
 --- !u!114 &11471162
 MonoBehaviour:
@@ -18368,7 +18786,12 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471164}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 171056}
+  strategies:
+  - {fileID: 11495532}
+  - {fileID: 11495536}
+  - {fileID: 11495538}
+  - {fileID: 11471194}
   namesNonItem: []
 --- !u!114 &11471164
 MonoBehaviour:
@@ -18452,7 +18875,12 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471166}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 171056}
+  strategies:
+  - {fileID: 11495532}
+  - {fileID: 11495536}
+  - {fileID: 11495538}
+  - {fileID: 11471194}
   namesNonItem: []
 --- !u!114 &11471170
 MonoBehaviour:
@@ -18510,7 +18938,12 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471172}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 171056}
+  strategies:
+  - {fileID: 11495532}
+  - {fileID: 11495536}
+  - {fileID: 11495538}
+  - {fileID: 11471194}
   namesNonItem: []
 --- !u!114 &11471172
 MonoBehaviour:
@@ -18594,7 +19027,12 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471174}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 171056}
+  strategies:
+  - {fileID: 11495532}
+  - {fileID: 11495536}
+  - {fileID: 11495538}
+  - {fileID: 11471194}
   namesNonItem: []
 --- !u!114 &11471178
 MonoBehaviour:
@@ -18652,7 +19090,12 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471180}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 171056}
+  strategies:
+  - {fileID: 11495532}
+  - {fileID: 11495536}
+  - {fileID: 11495538}
+  - {fileID: 11471194}
   namesNonItem: []
 --- !u!114 &11471180
 MonoBehaviour:
@@ -18736,7 +19179,12 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471182}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 171056}
+  strategies:
+  - {fileID: 11495532}
+  - {fileID: 11495536}
+  - {fileID: 11495538}
+  - {fileID: 11471194}
   namesNonItem: []
 --- !u!114 &11471186
 MonoBehaviour:
@@ -18794,7 +19242,12 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471188}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 171056}
+  strategies:
+  - {fileID: 11495532}
+  - {fileID: 11495536}
+  - {fileID: 11495538}
+  - {fileID: 11471194}
   namesNonItem: []
 --- !u!114 &11471188
 MonoBehaviour:
@@ -18879,7 +19332,12 @@ MonoBehaviour:
     itemOwner: {fileID: 0}
     colorName: 
   value: {fileID: 11471190}
-  strategy: {fileID: 11471194}
+  strategyDataParent: {fileID: 171056}
+  strategies:
+  - {fileID: 11495532}
+  - {fileID: 11495536}
+  - {fileID: 11495538}
+  - {fileID: 11471194}
   namesNonItem: []
 --- !u!114 &11471194
 MonoBehaviour:
@@ -18893,8 +19351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Sword
-  detailString: one of our swordsmen would see an increased morale if he gets to use
-    it!
+  detailString: our best swordman would be able to slash the enemies to pieces!
   applyToTraits: 06000000
 --- !u!114 &11476802
 MonoBehaviour:
@@ -22077,6 +22534,178 @@ MonoBehaviour:
   - 1.5
   relevantTraits: 01000000040000000b000000
   questGiver: {fileID: 0}
+--- !u!114 &11495528
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a10bcfd077d6742afca2710a32c869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Staff
+  detailString: '[trait]''s spells would be able to banish more demons!'
+  applyToTraits: 02000000
+--- !u!114 &11495530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a10bcfd077d6742afca2710a32c869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Armor
+  detailString: '[trait] would be able to put it to good use, as all enemies seems
+    to attack him!'
+  applyToTraits: 06000000
+--- !u!114 &11495532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a10bcfd077d6742afca2710a32c869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Sword
+  detailString: one of our swordsmen would see an increased morale if he gets to use
+    it!
+  applyToTraits: 00000000
+--- !u!114 &11495534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a10bcfd077d6742afca2710a32c869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Bow
+  detailString: the team's greatest archer would contribute to our damage greatly!
+  applyToTraits: 06000000
+--- !u!114 &11495536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a10bcfd077d6742afca2710a32c869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Sword
+  detailString: the team's greatest swordsman would be able to put up a better fight!
+  applyToTraits: 00000000
+--- !u!114 &11495538
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a10bcfd077d6742afca2710a32c869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Sword
+  detailString: our strongest swordsman would be very effective!
+  applyToTraits: 06000000
+--- !u!114 &11495540
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a10bcfd077d6742afca2710a32c869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Bow
+  detailString: the archers would most likely appreaciate it and perhaps fight better
+    in battle!
+  applyToTraits: 06000000
+--- !u!114 &11495542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a10bcfd077d6742afca2710a32c869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Bow
+  detailString: one of our archers would be able to kill from long distances!
+  applyToTraits: 06000000
+--- !u!114 &11495544
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a10bcfd077d6742afca2710a32c869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Staff
+  detailString: the team's greatest wizard would be able to kill enemies before they
+    even reach us!
+  applyToTraits: 02000000
+--- !u!114 &11495546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a10bcfd077d6742afca2710a32c869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Staff
+  detailString: the most experienced wizard would be able to cast stronger spells!
+  applyToTraits: 02000000
+--- !u!114 &11495548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a10bcfd077d6742afca2710a32c869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Armor
+  detailString: the team's greatest knight would be able to keep all the enemies away!
+  applyToTraits: 06000000
+--- !u!114 &11495550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a10bcfd077d6742afca2710a32c869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Armor
+  detailString: the greatest knight in the team would probably do better in battle!
+  applyToTraits: 06000000
 --- !u!114 &11497920
 MonoBehaviour:
   m_ObjectHideFlags: 1
