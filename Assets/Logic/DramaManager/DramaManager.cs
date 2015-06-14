@@ -60,7 +60,12 @@ namespace DramaPack{
 
 			miniBoss = miniBossList[(int)(Mathf.Clamp(Random.Range ((int)0,(int)miniBossList.Length),0,miniBossList.Length- 1))];
 			endBoss = endBossList  [(int)(Mathf.Clamp(Random.Range ((int)0,(int)endBossList.Length),0, endBossList.Length - 1))];
-			while (miniBoss.name == endBoss.name) {
+			while (miniBoss.name == endBoss.name ||
+			       miniBoss.name == PersistentData.previousMiniBossName ||
+			       miniBoss.name == PersistentData.previousEndBossName ||
+			       endBoss.name == PersistentData.previousMiniBossName ||
+			       endBoss.name == PersistentData.previousEndBossName 
+			       ) {
 				miniBoss = miniBossList[(int)(Mathf.Clamp(Random.Range ((int)0,(int)miniBossList.Length),0,miniBossList.Length- 1))];
 				endBoss = endBossList  [(int)(Mathf.Clamp(Random.Range ((int)0,(int)endBossList.Length),0, endBossList.Length - 1))];
 
