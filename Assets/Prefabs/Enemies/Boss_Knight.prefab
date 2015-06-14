@@ -105,7 +105,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108650}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.185000002, y: .550000012, z: -.200000003}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: .899999976, y: .899999976, z: .899999976}
   m_Children:
   - {fileID: 408646}
@@ -290,6 +290,7 @@ MonoBehaviour:
     itemType: 2
     itemOwner: {fileID: 0}
     colorName: 
+  fObject: {fileID: 11439412, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
   fightAnimationName: SwordAttack
   swordSlashSound: {fileID: 8300000, guid: e01dc7d4ed77a41dd86895ff9fd503c5, type: 3}
   fireBallSound: {fileID: 8300000, guid: 98d2ce729321149468f77254a52f3ad6, type: 3}

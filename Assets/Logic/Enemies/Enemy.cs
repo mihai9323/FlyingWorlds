@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour {
 	public EnemyLooks looks;
 	public Skillset skillset;
 	public Item weapon;
+	public FollowObject fObject;
 	[SerializeField] string fightAnimationName;
 
 	private float attackRange{
@@ -47,6 +48,8 @@ public class Enemy : MonoBehaviour {
 	[SerializeField]private float current_speed, movementSpeed;
 	public bool Hit(int damage){
 		currentHealth -= damage;
+		if (this.fObject != null)
+			this.fObject.healthBar.UpdateStatus (this.MaxHealth, currentHealth);
 		if (hitSound != null)
 			AudioSource.PlayClipAtPoint (hitSound, transform.position);
 		if (currentHealth <= 1) {
@@ -97,6 +100,14 @@ public class Enemy : MonoBehaviour {
 	private void Start(){
 		float initZ = Mathf.Lerp(-10,0,Camera.main.WorldToScreenPoint(transform.position).y/Screen.height);
 		transform.position = new Vector3(transform.position.x,transform.position.y,initZ);
+		if (fObject != null) {
+			this.fObject = Instantiate (fObject) as FollowObject;
+			this.fObject.StartFollow (this.transform);
+			this.fObject.healthBar.UpdateStatus (this.MaxHealth, this.currentHealth);
+		}
+	}
+	private void OnDestroy(){
+		if (fObject != null) Destroy (this.fObject.gameObject);
 	}
 	public void MoveEnemyToTransform(Transform trans, VOID_FUNCTION_ENEMY callback){
 		movement_target_transform = trans;

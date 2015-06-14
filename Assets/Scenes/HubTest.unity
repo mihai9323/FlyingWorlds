@@ -2015,7 +2015,7 @@ GameObject:
   - 4: {fileID: 43620172}
   - 114: {fileID: 43620173}
   m_Layer: 0
-  m_Name: expensive spices
+  m_Name: a batch of crops
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2046,7 +2046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: expensive spices
+  name: a batch of crops
   detailString: We should try to send a search party as we will get rewarded for our
     trouble with [name],
   rewardType: 4
@@ -2056,15 +2056,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!1 &46168211
 GameObject:
   m_ObjectHideFlags: 0
@@ -3496,8 +3496,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - 1
   - .5
@@ -3803,7 +3809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Armor
+  name: None
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -4420,7 +4426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: new contacts with stronger weapons
+  name: tougher armor
   detailString: The merchant have promised [name] available for our shop if we complete
     the task.
   rewardType: 3
@@ -4694,7 +4700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Bow
+  name: None
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -5322,8 +5328,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -6131,8 +6143,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - 1
@@ -6546,8 +6564,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -6822,8 +6846,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -7605,8 +7635,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -7654,7 +7690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Captain Sparrow's lost jewels
+  name: the treasure from ancient times
   detailString: if we do that, the merchants will give us [rVal] if we find [name].
     This is surely what we should do
   rewardType: 1
@@ -7940,7 +7976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: fertilizer
+  name: a basket of excotic fruit
   detailString: There is a chance of getting [name],
   rewardType: 4
   rewardItems: []
@@ -7949,15 +7985,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!1 &194753853
 GameObject:
   m_ObjectHideFlags: 0
@@ -8593,7 +8629,7 @@ GameObject:
   - 4: {fileID: 212269115}
   - 114: {fileID: 212269116}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8624,7 +8660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Sword
+  name: None
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -9035,7 +9071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Staff
+  name: None
   detailString: maybe we could send a search party for [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -9210,7 +9246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: new contacts with stronger weapons
+  name: better trading routes opening more equipment options
   detailString: If we help out, the shop will be upgraded with [name].
   rewardType: 3
   rewardItems: []
@@ -9414,6 +9450,48 @@ Prefab:
   m_RootGameObject: {fileID: 737542611}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &230042553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190846, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 230042554}
+  - 114: {fileID: 230042555}
+  m_Layer: 0
+  m_Name: DramaPack.StringData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &230042554
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490846, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 230042553}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.91110206, y: 1.47640097, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1529550058}
+  m_RootOrder: 0
+--- !u!114 &230042555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490846, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 230042553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.StringData
+  detailString: 
 --- !u!1 &233308737
 GameObject:
   m_ObjectHideFlags: 0
@@ -9424,7 +9502,7 @@ GameObject:
   - 4: {fileID: 233308738}
   - 114: {fileID: 233308739}
   m_Layer: 0
-  m_Name: The Earth Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9455,7 +9533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Staff
+  name: None
   detailString: because there is a chance of finding [name]. This could be crucial
     to us as [rStr]
   rewardType: 2
@@ -10928,7 +11006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: improved equipment
+  name: rare weaponry
   detailString: We will be rewarded with [name] available for the town's shop.
   rewardType: 3
   rewardItems: []
@@ -11926,8 +12004,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -12108,7 +12192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Armor
+  name: None
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -12264,7 +12348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Staff
+  name: None
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -12867,7 +12951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Leaf Sword
+  name: None
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStr]
   rewardType: 2
@@ -13604,7 +13688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Armor
+  name: None
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -14151,6 +14235,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 318093128}
+--- !u!1 &322371211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190838, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 322371212}
+  - 114: {fileID: 322371213}
+  m_Layer: 0
+  m_Name: DramaPack.StringData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &322371212
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490838, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 322371211}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.91110206, y: 1.47640097, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1169082038}
+  m_RootOrder: 1
+--- !u!114 &322371213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490838, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 322371211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.StringData
+  detailString: 
 --- !u!1 &324674633
 GameObject:
   m_ObjectHideFlags: 0
@@ -14589,8 +14715,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - .75
@@ -14838,7 +14970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Sword
+  name: None
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -14890,6 +15022,106 @@ MonoBehaviour:
   - {fileID: 2000129802}
   - {fileID: 982750899}
   namesNonItem: []
+--- !u!1 &333914938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 139412, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 333914939}
+  - 222: {fileID: 333914943}
+  - 114: {fileID: 333914942}
+  - 114: {fileID: 333914941}
+  - 114: {fileID: 333914940}
+  m_Layer: 5
+  m_Name: HealthBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &333914939
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22439412, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 333914938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1061587924}
+  m_Father: {fileID: 1534928702}
+  m_RootOrder: 0
+  m_AnchorMin: {x: .5, y: .5}
+  m_AnchorMax: {x: .5, y: .5}
+  m_AnchoredPosition: {x: -129.899963, y: 0}
+  m_SizeDelta: {x: 259.799988, y: 26.2000008}
+  m_Pivot: {x: 0, y: .5}
+--- !u!114 &333914940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11439406, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 333914938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d345b877c99742459b0f6ca0374ea0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  T_HealthValue: {fileID: 480615129}
+  _healthBar: {fileID: 1061587924}
+--- !u!114 &333914941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11439408, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 333914938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: .286764681, g: 0, b: 0, a: .517647088}
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &333914942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11439410, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 333914938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: 390
+  m_PreferredHeight: 30
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+--- !u!222 &333914943
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22239412, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 333914938}
 --- !u!1001 &334772761
 Prefab:
   m_ObjectHideFlags: 0
@@ -15623,8 +15855,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - 1
@@ -15672,7 +15910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Sword
+  name: None
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -16643,8 +16881,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - 1
   - .5
@@ -17192,7 +17436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the devils secret fortune
+  name: the ancient fortune
   detailString: and follow the tales of [name]
   rewardType: 1
   rewardItems: []
@@ -18195,7 +18439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Captain Sparrow's lost jewels
+  name: Blackbeard's forgotten treasure
   detailString: to collect [name] which is worth [rVal] coins. This is important for
     us
   rewardType: 1
@@ -18939,7 +19183,7 @@ Transform:
   - {fileID: 301169619}
   - {fileID: 1277835429}
   m_Father: {fileID: 1301990152}
-  m_RootOrder: 0
+  m_RootOrder: 5
 --- !u!114 &423921870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18953,7 +19197,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.ConnectorData
-  detailString: '[qg1] might have a point, but maybe we should also listen to [qg2]'
+  detailString: '
+
+    [qg1] and [qg2] have been fighting over where we should go next, listen to both
+    of them and you make the decision.'
   characterName0: {fileID: 301169620}
   characterName1: {fileID: 1277835430}
 --- !u!1 &424023878
@@ -19970,8 +20217,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - 1
   - .5
@@ -21416,8 +21669,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - .75
@@ -21728,7 +21987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Thunder Armor
+  name: None
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -21861,6 +22120,77 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 479807158}
+--- !u!1 &480615128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 139408, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 480615131}
+  - 222: {fileID: 480615130}
+  - 114: {fileID: 480615129}
+  m_Layer: 5
+  m_Name: HealthText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &480615129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11439400, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 480615128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 22
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: '50/50
+
+'
+--- !u!222 &480615130
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22239408, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 480615128}
+--- !u!224 &480615131
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22439408, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 480615128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1061587924}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 1.8954277e-05}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!1 &480623619
 GameObject:
   m_ObjectHideFlags: 0
@@ -22166,7 +22496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the ancient fortune
+  name: the devils secret fortune
   detailString: as there have been whispers about [name] which would be worth getting
   rewardType: 1
   rewardItems: []
@@ -22294,6 +22624,55 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 488256073}
+--- !u!1 &488683787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190860, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 488683788}
+  - 114: {fileID: 488683789}
+  m_Layer: 0
+  m_Name: DramaPack.ConnectorData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &488683788
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490860, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 488683787}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1178023274}
+  - {fileID: 1744465203}
+  m_Father: {fileID: 1301990152}
+  m_RootOrder: 0
+--- !u!114 &488683789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490860, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 488683787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3240790ecf683489de4ee7652511d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.ConnectorData
+  detailString: '
+
+    The team has not yet come to an agreement on what to do next, [qg1] might have
+    a point, but maybe we should also listen to [qg2]'
+  characterName0: {fileID: 1178023275}
+  characterName1: {fileID: 1744465204}
 --- !u!1 &492422735
 GameObject:
   m_ObjectHideFlags: 0
@@ -22897,8 +23276,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - 1
   - 1
@@ -23336,8 +23721,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -24512,8 +24903,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - 1
   - .5
@@ -24707,7 +25104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Sword
+  name: None
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -25167,7 +25564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: secret planting techniques
+  name: a bag of magical seeds
   detailString: It be worth considering as we will recieve [name] for our trouble,
   rewardType: 4
   rewardItems: []
@@ -25176,15 +25573,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!1 &536336623
 GameObject:
   m_ObjectHideFlags: 0
@@ -25929,8 +26326,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -26733,8 +27136,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - 1
@@ -27952,6 +28361,11 @@ MonoBehaviour:
   - {fileID: 1045869176}
   - {fileID: 1957408379}
   conectors:
+  - {fileID: 488683789}
+  - {fileID: 1538096671}
+  - {fileID: 1529550059}
+  - {fileID: 1126979614}
+  - {fileID: 1169082039}
   - {fileID: 423921870}
   miniBossList:
   - {fileID: 744549314}
@@ -28258,7 +28672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Shop Quest
-  detailString: Close members of the merchant's family is living at [location] which
+  detailString: Close members of the merchant's family are living at [location] which
     currently is being attacked by [enemy]. We should try and bring peace back to
     the area. [mPic]
   isBossQuest: 0
@@ -28308,8 +28722,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -30535,7 +30955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure9
-  detailString: '[rew] With upgraded gear we should be able to defeat the {nBoss]'
+  detailString: '[rew] With upgraded gear we should be able to defeat the [nBoss]'
   possibleRewardsParent: {fileID: 1885080021}
   possibleRewards:
   - {fileID: 99435086}
@@ -30937,6 +31357,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 500
   detailString: 500
+--- !u!1 &644797590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190844, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 644797591}
+  - 114: {fileID: 644797592}
+  m_Layer: 0
+  m_Name: DramaPack.StringData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &644797591
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490844, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 644797590}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.91110206, y: 1.47640097, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1126979613}
+  m_RootOrder: 0
+--- !u!114 &644797592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490844, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 644797590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.StringData
+  detailString: 
 --- !u!1 &645861260
 GameObject:
   m_ObjectHideFlags: 0
@@ -31388,8 +31850,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -32237,7 +32705,7 @@ GameObject:
   - 4: {fileID: 671955854}
   - 114: {fileID: 671955855}
   m_Layer: 0
-  m_Name: new contacts with stronger weapons
+  m_Name: sturdier armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32268,7 +32736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: new contacts with stronger weapons
+  name: sturdier armor
   detailString: We could collect a prize of [name] for the shop in the town, if we
     chose to do this.
   rewardType: 3
@@ -32792,7 +33260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: rare vegetables
+  name: a batch of crops
   detailString: If we do that, [name] will be given us,
   rewardType: 4
   rewardItems: []
@@ -32801,15 +33269,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!1 &682198658
 GameObject:
   m_ObjectHideFlags: 0
@@ -33506,8 +33974,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: The lands have been cleared of the evil of [mBoss], the team is confident
-    in their abilities.
+  detailString: 'The lands have been cleared of the evil of [mBoss], the team is confident
+    in their abilities. On his deathbed [mBoss] whispered the name of his superior,
+    [nBoss]. Killing him should make the remaining demons disappear so that Ahor can
+    be at peace once more. '
   rewardData: {fileID: 0}
 --- !u!1 &688997396
 GameObject:
@@ -34003,7 +34473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: secret planting techniques
+  name: a basket of excotic fruit
   detailString: We will be rewarded with [name] for the town,
   rewardType: 4
   rewardItems: []
@@ -34012,15 +34482,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!1 &702277896
 GameObject:
   m_ObjectHideFlags: 0
@@ -35868,8 +36338,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - 1
   - .5
@@ -36457,7 +36933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Bow
+  name: None
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -36550,7 +37026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Molten Bow
+  name: None
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStr]
   rewardType: 2
@@ -37695,7 +38171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Sword
+  name: None
   detailString: because there is a chance of finding [name]. This could be crucial
     to us as [rStr]
   rewardType: 2
@@ -38906,7 +39382,7 @@ GameObject:
   - 4: {fileID: 785179329}
   - 114: {fileID: 785179330}
   m_Layer: 0
-  m_Name: The Magical Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38937,7 +39413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Bow
+  name: None
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -40085,7 +40561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Staff
+  name: None
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -40270,7 +40746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the king's riches
+  name: the ancient fortune
   detailString: and try to send a search party for [name]
   rewardType: 1
   rewardItems: []
@@ -41915,7 +42391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: secret planting techniques
+  name: a plow
   detailString: The benefits of this would be [name],
   rewardType: 4
   rewardItems: []
@@ -41924,15 +42400,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!1 &856560441
 GameObject:
   m_ObjectHideFlags: 0
@@ -42780,8 +43256,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - .75
@@ -43575,7 +44057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Thunder Bow
+  name: None
   detailString: maybe we could send a search party for [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -44647,8 +45129,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - .75
@@ -44787,8 +45275,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - 1
@@ -44903,6 +45397,114 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 912017483}
+--- !u!1001 &912255464
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -642.25116
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 640
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_Pivot.x
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_Pivot.y
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_LocalScale.y
+      value: .00499999989
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439408, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_Color.a
+      value: .517647088
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439402, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_Color.a
+      value: .360784322
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439402, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_Color.r
+      value: .647058845
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439402, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_Color.g
+      value: .0380622819
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439402, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+      propertyPath: m_Color.b
+      value: .0380622819
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+  m_RootGameObject: {fileID: 1534928701}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &913299143
 GameObject:
   m_ObjectHideFlags: 0
@@ -46146,7 +46748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Sword
+  name: None
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -47222,8 +47824,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -47917,7 +48525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Dragon Staff
+  name: None
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -49004,7 +49612,7 @@ GameObject:
   - 4: {fileID: 1020333902}
   - 114: {fileID: 1020333903}
   m_Layer: 0
-  m_Name: The Earth Bow
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49035,7 +49643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Bow
+  name: None
   detailString: and get [name] ,with it, [rStr]
   rewardType: 2
   rewardItems:
@@ -49173,7 +49781,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: '[mBoss] was no match for our team, nothing can stop them now.'
+  detailString: "[mBoss] was no match for our team, nothing can stop them now. \nIn
+    the battle we acquired intel about the evil controlling [mBoss], his name is [nBoss]
+    and to finally bring peace to Ahor we need to defeat him."
   rewardData: {fileID: 0}
 --- !u!1 &1026162887
 GameObject:
@@ -49768,8 +50378,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -50594,6 +51210,48 @@ MonoBehaviour:
   detailString: With the defeat of [enemy] at [location], we were rewarded with a
     new [nrew], it will surely help the wealth of the village
   rewardData: {fileID: 0}
+--- !u!1 &1050593713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190856, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1050593714}
+  - 114: {fileID: 1050593715}
+  m_Layer: 0
+  m_Name: DramaPack.StringData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1050593714
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490856, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1050593713}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.91110206, y: 1.47640097, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1538096670}
+  m_RootOrder: 0
+--- !u!114 &1050593715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490856, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1050593713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.StringData
+  detailString: 
 --- !u!1 &1050941885
 GameObject:
   m_ObjectHideFlags: 0
@@ -51042,6 +51700,91 @@ Transform:
   m_Children: []
   m_Father: {fileID: 99435087}
   m_RootOrder: 0
+--- !u!1 &1061587923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 139410, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1061587924}
+  - 222: {fileID: 1061587927}
+  - 114: {fileID: 1061587926}
+  - 114: {fileID: 1061587925}
+  m_Layer: 5
+  m_Name: HealthLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1061587924
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22439410, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 1061587923}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 480615131}
+  m_Father: {fileID: 333914939}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: .5}
+  m_AnchorMax: {x: 0, y: .5}
+  m_AnchoredPosition: {x: 128.300003, y: 0}
+  m_SizeDelta: {x: 261.579987, y: 26}
+  m_Pivot: {x: .5, y: .5}
+--- !u!114 &1061587925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11439402, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 1061587923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: .647058845, g: .0380622819, b: .0380622819, a: .360784322}
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &1061587926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11439404, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 1061587923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: 390
+  m_PreferredHeight: 30
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+--- !u!222 &1061587927
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22239410, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 1061587923}
 --- !u!1 &1063752344
 GameObject:
   m_ObjectHideFlags: 0
@@ -52614,8 +53357,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - 1
   - .5
@@ -52768,8 +53517,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -53134,8 +53889,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
-  - {fileID: 955684679}
+  - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - 1
   - .5
@@ -54743,7 +55504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the king's riches
+  name: Blackbeard's forgotten treasure
   detailString: and get [name]
   rewardType: 1
   rewardItems: []
@@ -55106,6 +55867,55 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1126752139}
+--- !u!1 &1126979612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190842, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1126979613}
+  - 114: {fileID: 1126979614}
+  m_Layer: 0
+  m_Name: DramaPack.ConnectorData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1126979613
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490842, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1126979612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 644797591}
+  - {fileID: 1564978443}
+  m_Father: {fileID: 1301990152}
+  m_RootOrder: 3
+--- !u!114 &1126979614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490842, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1126979612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3240790ecf683489de4ee7652511d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.ConnectorData
+  detailString: '
+
+    Two party members are having indifferences on what to do next,[qg1] feels that
+    his suggestion is better than [qg2]'
+  characterName0: {fileID: 644797592}
+  characterName1: {fileID: 1564978444}
 --- !u!1 &1127944480
 GameObject:
   m_ObjectHideFlags: 0
@@ -57092,7 +57902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Armor
+  name: None
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -57574,6 +58384,56 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1165819245}
+--- !u!1 &1169082037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190836, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1169082038}
+  - 114: {fileID: 1169082039}
+  m_Layer: 0
+  m_Name: DramaPack.ConnectorData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1169082038
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490836, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1169082037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2108137474}
+  - {fileID: 322371212}
+  m_Father: {fileID: 1301990152}
+  m_RootOrder: 4
+--- !u!114 &1169082039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490836, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1169082037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3240790ecf683489de4ee7652511d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.ConnectorData
+  detailString: '
+
+    There is currently two options to where we should head next, [qg1] believes his
+    suggestion is where we should go, where as [qg2] shares different ideas and suggests
+    we do something else.'
+  characterName0: {fileID: 2108137475}
+  characterName1: {fileID: 322371213}
 --- !u!1 &1169600320
 GameObject:
   m_ObjectHideFlags: 0
@@ -57810,8 +58670,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -58103,7 +58969,7 @@ GameObject:
   - 4: {fileID: 1173213639}
   - 114: {fileID: 1173213640}
   m_Layer: 0
-  m_Name: The Wind Sword
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58134,7 +59000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Sword
+  name: None
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -58462,6 +59328,48 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+--- !u!1 &1178023273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190858, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1178023274}
+  - 114: {fileID: 1178023275}
+  m_Layer: 0
+  m_Name: DramaPack.StringData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1178023274
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490858, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1178023273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.91110206, y: 1.47640097, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 488683788}
+  m_RootOrder: 0
+--- !u!114 &1178023275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490858, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1178023273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.StringData
+  detailString: 
 --- !u!1 &1178856656
 GameObject:
   m_ObjectHideFlags: 0
@@ -59286,6 +60194,48 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1 &1184960181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190850, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1184960182}
+  - 114: {fileID: 1184960183}
+  m_Layer: 0
+  m_Name: DramaPack.StringData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1184960182
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490850, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1184960181}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.91110206, y: 1.47640097, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1529550058}
+  m_RootOrder: 1
+--- !u!114 &1184960183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490850, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1184960181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.StringData
+  detailString: 
 --- !u!1 &1186503316
 GameObject:
   m_ObjectHideFlags: 0
@@ -60182,7 +61132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Armor
+  name: None
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -61263,8 +62213,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - 1
@@ -61512,7 +62468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 'With [nrew] retrieved, the enimies ahead of us will not be able to
+  detailString: 'With [nrew] retrieved, the enemies ahead of us will not be able to
     defeat us. '
   rewardData: {fileID: 0}
 --- !u!1 &1243226024
@@ -61875,7 +62831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Thunder Sword
+  name: None
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -64323,7 +65279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a bag of magical seeds
+  name: a batch of crops
   detailString: If we help out, the farm will be upgraded with [name],
   rewardType: 4
   rewardItems: []
@@ -64332,15 +65288,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!1 &1282604010
 GameObject:
   m_ObjectHideFlags: 0
@@ -64905,7 +65861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Blackbeard's forgotten treasure
+  name: the devils secret fortune
   detailString: and collect [name]
   rewardType: 1
   rewardItems: []
@@ -65314,6 +66270,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 488683788}
+  - {fileID: 1538096670}
+  - {fileID: 1529550058}
+  - {fileID: 1126979613}
+  - {fileID: 1169082038}
   - {fileID: 423921869}
   m_Father: {fileID: 582305108}
   m_RootOrder: 10
@@ -68186,8 +69147,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - 1
   - .5
@@ -70013,7 +70980,7 @@ GameObject:
   - 4: {fileID: 1400315887}
   - 114: {fileID: 1400315888}
   m_Layer: 0
-  m_Name: The Sacred Staff
+  m_Name: None
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70044,7 +71011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Sacred Staff
+  name: None
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -71086,8 +72053,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - 1
@@ -71390,8 +72363,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - .75
@@ -71812,7 +72791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: nourishing water
+  name: a vial of nourishing water
   detailString: We've been promised [name] if we complete the task,
   rewardType: 4
   rewardItems: []
@@ -71821,15 +72800,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!1 &1432918457
 GameObject:
   m_ObjectHideFlags: 0
@@ -71871,7 +72850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the wizards magic gems
+  name: the pirates hidden gold
   detailString: maybe we could send a search party for [name]
   rewardType: 1
   rewardItems: []
@@ -72519,8 +73498,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - 1
@@ -72568,7 +73553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Sword
+  name: None
   detailString: maybe we could send a search party for [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -74070,8 +75055,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - 1
   - .5
@@ -75251,8 +76242,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - .75
@@ -75592,7 +76589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: upgraded weaponry
+  name: a trade caravan allowing for more excotic gear
   detailString: There is a chance of getting [name] to buy in the town.
   rewardType: 3
   rewardItems: []
@@ -76026,6 +77023,55 @@ MonoBehaviour:
   - {fileID: 189985684}
   - {fileID: 486487204}
   rewardData: {fileID: 1122499971}
+--- !u!1 &1529550057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190848, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1529550058}
+  - 114: {fileID: 1529550059}
+  m_Layer: 0
+  m_Name: DramaPack.ConnectorData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1529550058
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490848, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1529550057}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 230042554}
+  - {fileID: 1184960182}
+  m_Father: {fileID: 1301990152}
+  m_RootOrder: 2
+--- !u!114 &1529550059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490848, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1529550057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3240790ecf683489de4ee7652511d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.ConnectorData
+  detailString: '
+
+    We have two options of what to do next, we can either side with [qg1], and do
+    what he wants or maybe we go on  [qg2]''s quest.'
+  characterName0: {fileID: 230042555}
+  characterName1: {fileID: 1184960183}
 --- !u!1 &1530151169
 GameObject:
   m_ObjectHideFlags: 0
@@ -76070,6 +77116,116 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positiveOutcome: {fileID: 1025753857}
   negativeOutcome: {fileID: 648020424}
+--- !u!1 &1534928701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 139406, guid: aba87015f40469a41bd15c9832bf4fae, type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1534928702}
+  - 223: {fileID: 1534928705}
+  - 114: {fileID: 1534928704}
+  - 114: {fileID: 1534928703}
+  - 114: {fileID: 1534928706}
+  m_Layer: 5
+  m_Name: FObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1534928702
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22439406, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 1534928701}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .00499999989, y: .00499999989, z: 0}
+  m_Children:
+  - {fileID: 333914939}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -642.25116, y: 0}
+  m_SizeDelta: {x: 640, y: 360}
+  m_Pivot: {x: .5, y: .5}
+--- !u!114 &1534928703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11439398, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 1534928701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1534928704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11439396, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 1534928701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1534928705
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22339412, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 1534928701}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!114 &1534928706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11439412, guid: aba87015f40469a41bd15c9832bf4fae,
+    type: 2}
+  m_PrefabInternal: {fileID: 912255464}
+  m_GameObject: {fileID: 1534928701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 009c311a9d28bab409bc26c6273d5117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: {x: 0, y: 1, z: 0}
+  targetObject: {fileID: 0}
+  healthBar: {fileID: 333914940}
 --- !u!1 &1536759796
 GameObject:
   m_ObjectHideFlags: 0
@@ -76111,7 +77267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Staff
+  name: None
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -76212,6 +77368,55 @@ MonoBehaviour:
   - 1
   - 1.20000005
   background: {fileID: 966368903}
+--- !u!1 &1538096669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190854, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1538096670}
+  - 114: {fileID: 1538096671}
+  m_Layer: 0
+  m_Name: DramaPack.ConnectorData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1538096670
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490854, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1538096669}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1050593714}
+  - {fileID: 1695001137}
+  m_Father: {fileID: 1301990152}
+  m_RootOrder: 1
+--- !u!114 &1538096671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490854, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1538096669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3240790ecf683489de4ee7652511d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.ConnectorData
+  detailString: '
+
+    Two members of the team have different oppinions on what to do next, we can either
+    do what [qg1] wants or side with [qg2].'
+  characterName0: {fileID: 1050593715}
+  characterName1: {fileID: 1695001138}
 --- !u!1 &1538865566
 GameObject:
   m_ObjectHideFlags: 0
@@ -76444,8 +77649,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - 1
   - .5
@@ -77158,7 +78369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Ice Bow
+  name: None
   detailString: to collect [name] which is very powerful, that way [rStr]
   rewardType: 2
   rewardItems:
@@ -77458,6 +78669,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1562535725}
+--- !u!1 &1564978442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190840, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1564978443}
+  - 114: {fileID: 1564978444}
+  m_Layer: 0
+  m_Name: DramaPack.StringData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1564978443
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490840, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1564978442}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.91110206, y: 1.47640097, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1126979613}
+  m_RootOrder: 1
+--- !u!114 &1564978444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490840, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1564978442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.StringData
+  detailString: 
 --- !u!1 &1568740420
 GameObject:
   m_ObjectHideFlags: 0
@@ -77709,7 +78962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Leaf Staff
+  name: None
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStr]
   rewardType: 2
@@ -78967,7 +80220,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: 'The victory against [mBoss] was crucial to the future of our journey. '
+  detailString: The victory against [mBoss] was crucial to the future of our journey
+    as now we face the supreme leader, [nBoss]. When he is defeated the rest of the
+    army will flee and peace should once more spread througout Ahor.
   rewardData: {fileID: 0}
 --- !u!1 &1601959939
 GameObject:
@@ -79010,8 +80265,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: With the victory against [mBoss], the team has gotten a comfidence
-    boost. They can overcome anything!
+  detailString: "With the victory against [mBoss], the team has gotten a comfidence
+    boost. They can overcome anything! \nWith [mBoss]\_defeated the enemy ranks have
+    been weakened. We got information about the leader of the enemy army from one
+    of the dying enemies at the last battle. His name is [nBoss] and defeating him
+    will bring peace to Ahor once and for all."
   rewardData: {fileID: 0}
 --- !u!1 &1602056392
 GameObject:
@@ -80094,8 +81352,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -81535,7 +82799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: new contacts with stronger weapons
+  name: sturdier armor
   detailString: It be worth considering as the shop would be upgraded with [name].
   rewardType: 3
   rewardItems: []
@@ -82211,8 +83475,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - 1
@@ -82767,8 +84037,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
-  - {fileID: 955684679}
+  - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -83313,7 +84589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: a batch of crops
+  name: a handful of expensive spices
   detailString: We could collect a prize of [name] if we chose to do this,
   rewardType: 4
   rewardItems: []
@@ -83322,15 +84598,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!1 &1691165079
 GameObject:
   m_ObjectHideFlags: 0
@@ -83402,6 +84678,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1691165079}
+--- !u!1 &1695001136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190852, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1695001137}
+  - 114: {fileID: 1695001138}
+  m_Layer: 0
+  m_Name: DramaPack.StringData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1695001137
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490852, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1695001136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.91110206, y: 1.47640097, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1538096670}
+  m_RootOrder: 1
+--- !u!114 &1695001138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490852, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1695001136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.StringData
+  detailString: 
 --- !u!1 &1699078782
 GameObject:
   m_ObjectHideFlags: 0
@@ -84106,7 +85424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Fire Staff
+  name: None
   detailString: and try to send a search party for [name], maybe [rStr]
   rewardType: 2
   rewardItems:
@@ -84519,7 +85837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: improved equipment
+  name: better trading routes opening more equipment options
   detailString: We've been promised [name] for the shop, if we complete the task at
     hand.
   rewardType: 3
@@ -84643,9 +85961,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Shop Quest
-  detailString: The [nBoss] is attacking [rlocation]. As we are not strong enough
-    to beat him, we should take advantage of his distraction and head to [location]
-    [mPic]
+  detailString: '[nBoss] is attacking [rlocation]. As we are not strong enough to
+    beat him, we should take advantage of his distraction and head to [location] [mPic]'
   isBossQuest: 0
   revengeString: 
   minProgressForQuest: 0
@@ -84693,8 +86010,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -84972,7 +86295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Thunder Staff
+  name: None
   detailString: and try to aquire [name] because if we possess it, [rStr]
   rewardType: 2
   rewardItems:
@@ -85603,6 +86926,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1743472923}
+--- !u!1 &1744465202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190862, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1744465203}
+  - 114: {fileID: 1744465204}
+  m_Layer: 0
+  m_Name: DramaPack.StringData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1744465203
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490862, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1744465202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.91110206, y: 1.47640097, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 488683788}
+  m_RootOrder: 1
+--- !u!114 &1744465204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490862, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 1744465202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.StringData
+  detailString: 
 --- !u!1 &1750564181
 GameObject:
   m_ObjectHideFlags: 0
@@ -86393,8 +87758,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - .75
@@ -87369,8 +88740,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - 1
@@ -88072,7 +89449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Mad King's Armor
+  name: None
   detailString: maybe we could send a search party for [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -88719,8 +90096,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - .75
@@ -91327,8 +92710,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -91458,7 +92847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Leaf Sword
+  name: None
   detailString: and follow the tales of [name]. If they are true, [rStr]
   rewardType: 2
   rewardItems:
@@ -92461,8 +93850,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
-  - {fileID: 955684679}
+  - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -92510,7 +93905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Water Armor
+  name: None
   detailString: if we do that, we could find [name]. This is surely what we should
     do, such that [rStr]
   rewardType: 2
@@ -93405,7 +94800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Magical Armor
+  name: None
   detailString: because there is a chance of finding [name]. This could be crucial
     to us as [rStr]
   rewardType: 2
@@ -94566,7 +95961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Molten Bow
+  name: None
   detailString: as there have been whispers about [name] which would be worth getting.
     In our hands [rStr]
   rewardType: 2
@@ -96549,7 +97944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: the mystic jewels
+  name: the treasure from ancient times
   detailString: because there is a chance of finding [name] worth [rVal] coins, this
     is a good idea
   rewardType: 1
@@ -97092,8 +98487,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .75
   - .75
@@ -97424,7 +98825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Earth Sword
+  name: None
   detailString: and collect [name] such that [rStr]
   rewardType: 2
   rewardItems:
@@ -99890,8 +101291,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - .75
@@ -100094,7 +101501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: tougher armor
+  name: upgraded weaponry
   detailString: We should try to send a search party as we will get rewarded for out
     trouble with [name] for offer in our shop.
   rewardType: 3
@@ -100322,8 +101729,8 @@ MonoBehaviour:
   name: Prologue1
   detailString: The lands of Ahor are usually a quiet and peaceful land, however recently
     it has been invaded by a great evil. Every corner of Ahor have been infected,
-    except for one little village. Here they strive to keep Ahor and its people safe.The
-    only knowledge we have about this evil is the name of an officer in the enemy
+    except for one little village. Here they strive to keep Ahor and its people safe.
+    The only knowledge we have about this evil is the name of an officer in the enemy
     ranks, [nBoss]. He is evil and wants to corrupt Ahor. In order to restore peace
     to the land we must fight this evil! Yet the champions of the village are not
     capable of facing him, they need experienced leader.
@@ -100634,7 +102041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: upgraded weaponry
+  name: improved equipment
   detailString: The benefits of this would be the shop being upgraded with [name].
   rewardType: 3
   rewardItems: []
@@ -101819,8 +103226,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - 1
@@ -102380,8 +103793,14 @@ MonoBehaviour:
   - {fileID: 148164443}
   - {fileID: 1603119758}
   - {fileID: 302080555}
+  retryQuestsParent: {fileID: 1254039161}
   retryQuestsData:
   - {fileID: 1469531264}
+  - {fileID: 519734754}
+  - {fileID: 2065403043}
+  - {fileID: 1993243670}
+  - {fileID: 873544140}
+  - {fileID: 1943327654}
   traitRelevance:
   - .5
   - .75
@@ -103198,6 +104617,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2106060073}
+--- !u!1 &2108137473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190834, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2108137474}
+  - 114: {fileID: 2108137475}
+  m_Layer: 0
+  m_Name: DramaPack.StringData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2108137474
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 490834, guid: edbe7b71bc498364ab8693c0b76735d5, type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 2108137473}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.91110206, y: 1.47640097, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1169082038}
+  m_RootOrder: 0
+--- !u!114 &2108137475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11490834, guid: edbe7b71bc498364ab8693c0b76735d5,
+    type: 2}
+  m_PrefabInternal: {fileID: 234488528}
+  m_GameObject: {fileID: 2108137473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: DramaPack.StringData
+  detailString: 
 --- !u!1 &2108813985
 GameObject:
   m_ObjectHideFlags: 0
@@ -104088,7 +105549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: secret planting techniques
+  name: a vial of nourishing water
   detailString: If we complete the task at hand we've been promised [name] for the
     village,
   rewardType: 4
@@ -104098,15 +105559,15 @@ MonoBehaviour:
   strategies: []
   namesNonItem:
   - a bag of magical seeds
-  - fertilizer
+  - a bag of fertilizer
   - a plow
   - a batch of crops
-  - nourishing water
+  - a vial of nourishing water
   - forgotten plowing techniques
   - secret planting techniques
-  - rare vegetables
-  - expensive spices
-  - excotic fruit
+  - a bunch of rare vegetables
+  - a handful of expensive spices
+  - a basket of excotic fruit
 --- !u!1 &2124650585
 GameObject:
   m_ObjectHideFlags: 0
@@ -104350,7 +105811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: The Wind Bow
+  name: None
   detailString: because there is a chance of finding [name]. This could be crucial
     to us as [rStr]
   rewardType: 2
@@ -104508,7 +105969,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DramaPack.OutcomeData
-  detailString: '[mBoss] and his army at [location] were no match for our team.
+  detailString: '[mBoss] and his army at [location] were no match for our team. Yet
+    there is not peace in Ahor, the evil army is still occupying areas. We managed
+    to gather some intel on who the Evil Wizards and Demons are working for, his name
+    is [nBoss]. When he is defeated Ahor can finaly be at peace.
 
 '
   rewardData: {fileID: 0}
