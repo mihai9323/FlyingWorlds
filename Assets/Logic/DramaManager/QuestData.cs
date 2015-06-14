@@ -96,7 +96,7 @@ namespace DramaPack{
 		protected override void Update () {
 			base.Update ();
 
-			if(outcomePairsParent!=null)outcomePairs = outcomePairsParent.gameObject.GetComponentsInChildren<MinorPictureData> ();
+			if(outcomePairsParent!=null)outcomePairs = outcomePairsParent.gameObject.GetComponentsInChildren<OutcomePair> ();
 			if(minorPictureParent!=null)minorPictures = minorPictureParent.gameObject.GetComponentsInChildren<MinorPictureData> ();
 		}
 
