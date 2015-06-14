@@ -88,6 +88,7 @@ namespace DramaPack{
 				nrOfQuests = 1;
 
 				if(questData.Count>1){
+					questSecondBest = null;
 					foreach(QuestData qd in questData){
 						if(qd.questGiver.Traits != questBest.qd.questGiver.Traits &&
 						   qd.minorPictureParent != questBest.qd.minorPictureParent){
@@ -96,6 +97,17 @@ namespace DramaPack{
 							questSecondBest = qd.GenerateQuest();
 							Debug.Log(questSecondBest.name);
 							break;
+						}
+					}
+					if(questSecondBest == null){
+						foreach(QuestData qd in questData){
+							if(qd.questGiver.Traits != questBest.qd.questGiver.Traits){
+								nrOfQuests = 2;
+								Debug.Log("Selected second quests");
+								questSecondBest = qd.GenerateQuest();
+								Debug.Log(questSecondBest.name);
+								break;
+							}
 						}
 					}
 
