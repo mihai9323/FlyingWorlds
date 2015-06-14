@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 403018}
   - 114: {fileID: 11403018}
   m_Layer: 0
-  m_Name: a vial of nourishing water
+  m_Name: secret planting techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 403020}
   - 114: {fileID: 11403020}
   m_Layer: 0
-  m_Name: a batch of crops
+  m_Name: forgotten plowing techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ GameObject:
   - 4: {fileID: 403024}
   - 114: {fileID: 11403024}
   m_Layer: 0
-  m_Name: a basket of excotic fruit
+  m_Name: rare vegetables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ GameObject:
   - 4: {fileID: 403028}
   - 114: {fileID: 11403028}
   m_Layer: 0
-  m_Name: a handful of expensive spices
+  m_Name: forgotten plowing techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ GameObject:
   - 4: {fileID: 403034}
   - 114: {fileID: 11403034}
   m_Layer: 0
-  m_Name: a basket of excotic fruit
+  m_Name: nourishing water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -186,7 +186,7 @@ GameObject:
   - 4: {fileID: 403038}
   - 114: {fileID: 11403038}
   m_Layer: 0
-  m_Name: a batch of crops
+  m_Name: secret planting techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -218,7 +218,7 @@ GameObject:
   - 4: {fileID: 403042}
   - 114: {fileID: 11403042}
   m_Layer: 0
-  m_Name: a vial of nourishing water
+  m_Name: forgotten plowing techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,7 +234,7 @@ GameObject:
   - 4: {fileID: 403044}
   - 114: {fileID: 11403044}
   m_Layer: 0
-  m_Name: a plow
+  m_Name: excotic fruit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -282,7 +282,7 @@ GameObject:
   - 4: {fileID: 403050}
   - 114: {fileID: 11403050}
   m_Layer: 0
-  m_Name: a batch of crops
+  m_Name: secret planting techniques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -298,7 +298,7 @@ GameObject:
   - 4: {fileID: 403052}
   - 114: {fileID: 11403052}
   m_Layer: 0
-  m_Name: a bag of magical seeds
+  m_Name: a batch of crops
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,7 +376,7 @@ GameObject:
   - 4: {fileID: 403062}
   - 114: {fileID: 11403058}
   m_Layer: 0
-  m_Name: the devils secret fortune
+  m_Name: the king's riches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -392,7 +392,7 @@ GameObject:
   - 4: {fileID: 403064}
   - 114: {fileID: 11403060}
   m_Layer: 0
-  m_Name: the treasure from ancient times
+  m_Name: the pirates hidden gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,7 +440,7 @@ GameObject:
   - 4: {fileID: 403070}
   - 114: {fileID: 11403066}
   m_Layer: 0
-  m_Name: the pirates hidden gold
+  m_Name: the ancient fortune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -456,7 +456,7 @@ GameObject:
   - 4: {fileID: 403072}
   - 114: {fileID: 11403068}
   m_Layer: 0
-  m_Name: the ancient fortune
+  m_Name: the pirates hidden gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -488,7 +488,7 @@ GameObject:
   - 4: {fileID: 403076}
   - 114: {fileID: 11403072}
   m_Layer: 0
-  m_Name: the king's riches
+  m_Name: the treasure from ancient times
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -520,7 +520,7 @@ GameObject:
   - 4: {fileID: 403080}
   - 114: {fileID: 11403076}
   m_Layer: 0
-  m_Name: the devils secret fortune
+  m_Name: Captain Sparrow's lost jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -600,7 +600,7 @@ GameObject:
   - 4: {fileID: 403090}
   - 114: {fileID: 11403086}
   m_Layer: 0
-  m_Name: the treasure from ancient times
+  m_Name: the pirates hidden gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -632,7 +632,7 @@ GameObject:
   - 4: {fileID: 403094}
   - 114: {fileID: 11403090}
   m_Layer: 0
-  m_Name: the ancient fortune
+  m_Name: the mystic jewels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -648,7 +648,7 @@ GameObject:
   - 4: {fileID: 403096}
   - 114: {fileID: 11403092}
   m_Layer: 0
-  m_Name: Blackbeard's forgotten treasure
+  m_Name: the ancient fortune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -946,7 +946,7 @@ GameObject:
   - 4: {fileID: 425174}
   - 114: {fileID: 11425162}
   m_Layer: 0
-  m_Name: sturdier armor
+  m_Name: better trading routes opening more equipment options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1116,7 +1116,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 425196}
   m_Layer: 0
-  m_Name: Prologues
+  m_Name: Prologues2ndPlaythrough
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1164,7 +1164,7 @@ GameObject:
   - 4: {fileID: 428334}
   - 114: {fileID: 11428334}
   m_Layer: 0
-  m_Name: tougher armor
+  m_Name: improved equipment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1576,6 +1576,69 @@ GameObject:
   - 4: {fileID: 435218}
   m_Layer: 0
   m_Name: BossQuests
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &136180
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 436180}
+  - 114: {fileID: 11436180}
+  m_Layer: 0
+  m_Name: Prologue2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &136182
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 436182}
+  - 114: {fileID: 11436182}
+  m_Layer: 0
+  m_Name: Prologue3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &136184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 436184}
+  m_Layer: 0
+  m_Name: Prologues
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &136186
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 436186}
+  - 114: {fileID: 11436184}
+  m_Layer: 0
+  m_Name: Prologue1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3326,7 +3389,7 @@ GameObject:
   - 4: {fileID: 455524}
   - 114: {fileID: 11455526}
   m_Layer: 0
-  m_Name: upgraded weaponry
+  m_Name: safer roads allowing for better items
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3358,7 +3421,7 @@ GameObject:
   - 4: {fileID: 455528}
   - 114: {fileID: 11455530}
   m_Layer: 0
-  m_Name: a trade caravan allowing for more excotic gear
+  m_Name: safer roads allowing for better items
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3390,7 +3453,7 @@ GameObject:
   - 4: {fileID: 455532}
   - 114: {fileID: 11455534}
   m_Layer: 0
-  m_Name: sturdier armor
+  m_Name: a trade caravan allowing for more excotic gear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3438,7 +3501,7 @@ GameObject:
   - 4: {fileID: 455538}
   - 114: {fileID: 11455540}
   m_Layer: 0
-  m_Name: rare weaponry
+  m_Name: better trading routes opening more equipment options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3470,7 +3533,7 @@ GameObject:
   - 4: {fileID: 455542}
   - 114: {fileID: 11455544}
   m_Layer: 0
-  m_Name: better trading routes opening more equipment options
+  m_Name: tougher armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3502,7 +3565,7 @@ GameObject:
   - 4: {fileID: 455546}
   - 114: {fileID: 11455548}
   m_Layer: 0
-  m_Name: better trading routes opening more equipment options
+  m_Name: stronger materials
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3518,7 +3581,7 @@ GameObject:
   - 4: {fileID: 455548}
   - 114: {fileID: 11455550}
   m_Layer: 0
-  m_Name: improved equipment
+  m_Name: safer roads allowing for better items
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3566,7 +3629,7 @@ GameObject:
   - 4: {fileID: 455554}
   - 114: {fileID: 11455556}
   m_Layer: 0
-  m_Name: sturdier armor
+  m_Name: new contacts with stronger weapons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4613,7 +4676,7 @@ GameObject:
   - 4: {fileID: 471108}
   - 114: {fileID: 11471098}
   m_Layer: 0
-  m_Name: None
+  m_Name: The Sacred Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4725,7 +4788,7 @@ GameObject:
   - 4: {fileID: 471122}
   - 114: {fileID: 11471112}
   m_Layer: 0
-  m_Name: None
+  m_Name: The Magical Staff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4789,7 +4852,7 @@ GameObject:
   - 4: {fileID: 471130}
   - 114: {fileID: 11471120}
   m_Layer: 0
-  m_Name: None
+  m_Name: The Mad King's Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4805,7 +4868,7 @@ GameObject:
   - 4: {fileID: 471132}
   - 114: {fileID: 11471122}
   m_Layer: 0
-  m_Name: None
+  m_Name: The Wind Bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5076,7 +5139,7 @@ GameObject:
   - 4: {fileID: 471166}
   - 114: {fileID: 11471154}
   m_Layer: 0
-  m_Name: None
+  m_Name: The Molten Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5331,7 +5394,7 @@ GameObject:
   - 4: {fileID: 471198}
   - 114: {fileID: 11471184}
   m_Layer: 0
-  m_Name: None
+  m_Name: The Magical Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7421,9 +7484,10 @@ Transform:
   - {fileID: 425136}
   - {fileID: 425160}
   - {fileID: 425182}
-  - {fileID: 425196}
+  - {fileID: 436184}
   - {fileID: 445826}
   - {fileID: 435214}
+  - {fileID: 425196}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &425164
@@ -7675,7 +7739,7 @@ Transform:
   - {fileID: 441630}
   - {fileID: 425198}
   m_Father: {fileID: 425162}
-  m_RootOrder: 11
+  m_RootOrder: 14
 --- !u!4 &425198
 Transform:
   m_ObjectHideFlags: 1
@@ -8071,6 +8135,57 @@ Transform:
   - {fileID: 451184}
   m_Father: {fileID: 425192}
   m_RootOrder: 1
+--- !u!4 &436180
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 436184}
+  m_RootOrder: 1
+--- !u!4 &436182
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136182}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 436184}
+  m_RootOrder: 2
+--- !u!4 &436184
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136184}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 436186}
+  - {fileID: 436180}
+  - {fileID: 436182}
+  m_Father: {fileID: 425162}
+  m_RootOrder: 11
+--- !u!4 &436186
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136186}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 436184}
+  m_RootOrder: 0
 --- !u!4 &441628
 Transform:
   m_ObjectHideFlags: 1
@@ -13236,9 +13351,9 @@ MonoBehaviour:
   - {fileID: 11482766}
   - {fileID: 11482764}
   prologues:
-  - {fileID: 11441628}
-  - {fileID: 11441630}
-  - {fileID: 11425174}
+  - {fileID: 11436184}
+  - {fileID: 11436180}
+  - {fileID: 11436182}
   conectors:
   - {fileID: 11490860}
   - {fileID: 11490854}
@@ -13470,10 +13585,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Prologue3
-  detailString: In Ahor a little village withstands an enemy army, they are in desperat
-    need for a great leader, who can help them. The enemy have collected a variety
-    of different units to their ranks, evil wizards, pirates, corrupted knight and
-    demon archers. We only got a name of a captian within the enemy ranks, [nBoss].
+  detailString: 'years have passed since the defeat of [pBoss], a new generation of
+    villagers is inhapitating the village and now they face a new invasion. [nBoss]
+    is attacking Ahor, and the villagers are again looking to you as their commander.
+    They have prepared the swords used against [pBoss], but after being stashed away
+    for qutie a while, they have less sharp. '
 --- !u!114 &11428332
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13925,9 +14041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Day
-  detailString: 'Day
-
-'
+  detailString: Day
   enemyTypeChances:
   - .125
   - .5
@@ -13946,7 +14060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Night
-  detailString: Night
+  detailString: Night'
   enemyTypeChances:
   - .5
   - .125
@@ -13984,12 +14098,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: DramaPack.RetryQuestData
   detailString: asa
---- !u!114 &11441628
+--- !u!114 &11436180
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 141628}
+  m_GameObject: {fileID: 136180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8441e6fd5cf5084caa9096e5c7a3b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Prologue2
+  detailString: Ahor, a land usually inhabited by peaceful citizens, has been invaded
+    by an evil army. We know a name of one of the captains, [nBoss]. He is powerful
+    and is capable of doing great damage to the lands of Ahor. One little village
+    withstands, but in order to overcome this army they are in need of a great leader
+--- !u!114 &11436182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8441e6fd5cf5084caa9096e5c7a3b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Prologue3
+  detailString: In Ahor a little village withstands an enemy army, they are in desperat
+    need for a great leader, who can help them. The enemy have collected a variety
+    of different units to their ranks, evil wizards, pirates, corrupted knight and
+    demon archers. We only got a name of a captian within the enemy ranks, [nBoss].
+--- !u!114 &11436184
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136186}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8441e6fd5cf5084caa9096e5c7a3b5e, type: 3}
@@ -14003,6 +14149,24 @@ MonoBehaviour:
     ranks, [nBoss]. He is evil and wants to corrupt Ahor. In order to restore peace
     to the land we must fight this evil! Yet the champions of the village are not
     capable of facing him, they need experienced leader.
+--- !u!114 &11441628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8441e6fd5cf5084caa9096e5c7a3b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Prologue1
+  detailString: "For 100 years the lands of Ahor have been peaceful. No one tried
+    to take over as [pBoss]\_and [pmBoss] did... Until now, a new enemy is threating
+    Ahor, his is name is [nBoss]. His army are stronger than anything we have seen
+    before. The village once more calls for you as their commander. The weapons used
+    to defeat [pBoss] has been pulled up from the armory, in slighty worse shape than
+    last time they were used."
 --- !u!114 &11441630
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14015,10 +14179,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Prologue2
-  detailString: Ahor, a land usually inhabited by peaceful citizens, has been invaded
-    by an evil army. We know a name of one of the captains, [nBoss]. He is powerful
-    and is capable of doing great damage to the lands of Ahor. One little village
-    withstands, but in order to overcome this army they are in need of a great leader
+  detailString: After many years of peace in Ahor, the lands have been attacked once
+    again. The villager are again looking to you as their commander. This time you
+    will face [nBoss], a high ranked officer in the enemy army. He is stronger than
+    anything we have yet faced. The weapons used against [pBoss] have been prepared,
+    but as they have not been used for a quite a while, they have become slighty rusty.
 --- !u!114 &11445806
 MonoBehaviour:
   m_ObjectHideFlags: 1
