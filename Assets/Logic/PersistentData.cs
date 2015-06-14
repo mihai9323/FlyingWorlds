@@ -19,13 +19,7 @@ public class PersistentData : MonoBehaviour {
 		previousShopLevel = 1;
 		previousItems = new Item[0];
 	}
-	private void Update(){
-		if (Input.GetKeyUp (KeyCode.S)) {
-			Save ();
-		} else if (Input.GetKeyUp (KeyCode.C)) {
-			ClearData();
-		}
-	}
+
 	public static bool HasDataStored{
 		get{
 			return PlayerPrefs.GetInt("hasData",0) == 1;
@@ -91,11 +85,11 @@ public class PersistentData : MonoBehaviour {
 			}
 		}
 	}
-	public static int startValue{
+	public static float startValue{
 		get{
-			int sVal = 0;
+			float sVal = 0;
 			foreach(Item i in previousItems){
-				if(i.Value>sVal) sVal = i.Value;
+				if(i.Damage+i.Defence>sVal) sVal = i.Damage+i.Defence;
 			}
 			return sVal;
 		}

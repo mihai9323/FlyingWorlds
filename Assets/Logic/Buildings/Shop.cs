@@ -27,6 +27,7 @@ public class Shop : MonoBehaviour {
 
 	private void Start(){
 		this.level = PersistentData.previousShopLevel;
+		this.OnEnable ();
 	}
 
 	public float priceVariance{
