@@ -1138,6 +1138,84 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &128332
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 428332}
+  - 114: {fileID: 11428332}
+  m_Layer: 0
+  m_Name: MinorPictureForTreasure1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &128334
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 428334}
+  - 114: {fileID: 11428334}
+  m_Layer: 0
+  m_Name: sturdier armor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &128336
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 428336}
+  m_Layer: 0
+  m_Name: ShopReward
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &128338
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 428338}
+  m_Layer: 0
+  m_Name: TreasureMinorPicture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &128340
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 428340}
+  - 114: {fileID: 11428336}
+  m_Layer: 0
+  m_Name: 500
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &129836
 GameObject:
   m_ObjectHideFlags: 1
@@ -3073,7 +3151,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 447928}
   m_Layer: 0
-  m_Name: ShopReward
+  m_Name: BossReward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3089,7 +3167,7 @@ GameObject:
   - 4: {fileID: 447930}
   - 114: {fileID: 11447926}
   m_Layer: 0
-  m_Name: sturdier armor
+  m_Name: Progression
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4012,7 +4090,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 461082}
   m_Layer: 0
-  m_Name: TreasureMinorPicture
+  m_Name: BossMinorPicture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6754,10 +6832,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 461082}
+  - {fileID: 428338}
   - {fileID: 461044}
   - {fileID: 461038}
   - {fileID: 429838}
+  - {fileID: 461082}
   m_Father: {fileID: 425162}
   m_RootOrder: 8
 --- !u!4 &425138
@@ -7003,7 +7082,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 425184}
-  m_Father: {fileID: 447928}
+  m_Father: {fileID: 428336}
   m_RootOrder: 9
 --- !u!4 &425176
 Transform:
@@ -7079,6 +7158,7 @@ Transform:
   - {fileID: 403058}
   - {fileID: 455556}
   - {fileID: 403056}
+  - {fileID: 428336}
   - {fileID: 447928}
   m_Father: {fileID: 425162}
   m_RootOrder: 4
@@ -7171,6 +7251,87 @@ Transform:
   m_Children: []
   m_Father: {fileID: 425196}
   m_RootOrder: 2
+--- !u!4 &428332
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 428338}
+  m_RootOrder: 0
+--- !u!4 &428334
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 428340}
+  m_Father: {fileID: 428336}
+  m_RootOrder: 0
+--- !u!4 &428336
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 428334}
+  - {fileID: 455524}
+  - {fileID: 455528}
+  - {fileID: 455532}
+  - {fileID: 455538}
+  - {fileID: 455542}
+  - {fileID: 455546}
+  - {fileID: 455548}
+  - {fileID: 455554}
+  - {fileID: 425174}
+  m_Father: {fileID: 425186}
+  m_RootOrder: 3
+--- !u!4 &428338
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 428332}
+  - {fileID: 461080}
+  - {fileID: 461078}
+  - {fileID: 461076}
+  - {fileID: 461074}
+  - {fileID: 461072}
+  - {fileID: 461070}
+  - {fileID: 461068}
+  - {fileID: 461066}
+  - {fileID: 461064}
+  m_Father: {fileID: 425136}
+  m_RootOrder: 0
+--- !u!4 &428340
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 428334}
+  m_RootOrder: 0
 --- !u!4 &429836
 Transform:
   m_ObjectHideFlags: 1
@@ -8752,17 +8913,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 447930}
-  - {fileID: 455524}
-  - {fileID: 455528}
-  - {fileID: 455532}
-  - {fileID: 455538}
-  - {fileID: 455542}
-  - {fileID: 455546}
-  - {fileID: 455548}
-  - {fileID: 455554}
-  - {fileID: 425174}
   m_Father: {fileID: 425186}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!4 &447930
 Transform:
   m_ObjectHideFlags: 1
@@ -8906,7 +9058,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 455526}
-  m_Father: {fileID: 447928}
+  m_Father: {fileID: 428336}
   m_RootOrder: 1
 --- !u!4 &455526
 Transform:
@@ -8931,7 +9083,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 455530}
-  m_Father: {fileID: 447928}
+  m_Father: {fileID: 428336}
   m_RootOrder: 2
 --- !u!4 &455530
 Transform:
@@ -8956,7 +9108,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 455534}
-  m_Father: {fileID: 447928}
+  m_Father: {fileID: 428336}
   m_RootOrder: 3
 --- !u!4 &455534
 Transform:
@@ -8993,7 +9145,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 455536}
-  m_Father: {fileID: 447928}
+  m_Father: {fileID: 428336}
   m_RootOrder: 4
 --- !u!4 &455540
 Transform:
@@ -9018,7 +9170,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 455540}
-  m_Father: {fileID: 447928}
+  m_Father: {fileID: 428336}
   m_RootOrder: 5
 --- !u!4 &455544
 Transform:
@@ -9043,7 +9195,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 455544}
-  m_Father: {fileID: 447928}
+  m_Father: {fileID: 428336}
   m_RootOrder: 6
 --- !u!4 &455548
 Transform:
@@ -9056,7 +9208,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 455550}
-  m_Father: {fileID: 447928}
+  m_Father: {fileID: 428336}
   m_RootOrder: 7
 --- !u!4 &455550
 Transform:
@@ -9093,7 +9245,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 455552}
-  m_Father: {fileID: 447928}
+  m_Father: {fileID: 428336}
   m_RootOrder: 8
 --- !u!4 &455556
 Transform:
@@ -9405,7 +9557,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 461082}
+  m_Father: {fileID: 428338}
   m_RootOrder: 9
 --- !u!4 &461066
 Transform:
@@ -9417,7 +9569,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 461082}
+  m_Father: {fileID: 428338}
   m_RootOrder: 8
 --- !u!4 &461068
 Transform:
@@ -9429,7 +9581,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 461082}
+  m_Father: {fileID: 428338}
   m_RootOrder: 7
 --- !u!4 &461070
 Transform:
@@ -9441,7 +9593,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 461082}
+  m_Father: {fileID: 428338}
   m_RootOrder: 6
 --- !u!4 &461072
 Transform:
@@ -9453,7 +9605,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 461082}
+  m_Father: {fileID: 428338}
   m_RootOrder: 5
 --- !u!4 &461074
 Transform:
@@ -9465,7 +9617,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 461082}
+  m_Father: {fileID: 428338}
   m_RootOrder: 4
 --- !u!4 &461076
 Transform:
@@ -9477,7 +9629,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 461082}
+  m_Father: {fileID: 428338}
   m_RootOrder: 3
 --- !u!4 &461078
 Transform:
@@ -9489,7 +9641,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 461082}
+  m_Father: {fileID: 428338}
   m_RootOrder: 2
 --- !u!4 &461080
 Transform:
@@ -9501,7 +9653,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 461082}
+  m_Father: {fileID: 428338}
   m_RootOrder: 1
 --- !u!4 &461082
 Transform:
@@ -9514,17 +9666,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 461084}
-  - {fileID: 461080}
-  - {fileID: 461078}
-  - {fileID: 461076}
-  - {fileID: 461074}
-  - {fileID: 461072}
-  - {fileID: 461070}
-  - {fileID: 461068}
-  - {fileID: 461066}
-  - {fileID: 461064}
   m_Father: {fileID: 425136}
-  m_RootOrder: 0
+  m_RootOrder: 4
 --- !u!4 &461084
 Transform:
   m_ObjectHideFlags: 1
@@ -12511,6 +12654,74 @@ MonoBehaviour:
     need for a great leader, who can help them. The enemy have collected a variety
     of different units to their ranks, evil wizards, pirates, corrupted knight and
     demon archers. We only got a name of a captian within the enemy ranks, [nBoss].
+--- !u!114 &11428332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e0272468575a0409ef321d51e19036, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: MinorPictureForTreasure1
+  detailString: '[rew] as it would benefit us in the fight against [nBoss]'
+  possibleRewardsParent: {fileID: 0}
+  possibleRewards:
+  - {fileID: 11403092}
+  - {fileID: 11403090}
+  - {fileID: 11403086}
+  - {fileID: 11403082}
+  - {fileID: 11403076}
+  - {fileID: 11403072}
+  - {fileID: 11403068}
+  - {fileID: 11403066}
+  - {fileID: 11403060}
+  - {fileID: 11403058}
+  rewardData: {fileID: 11403092}
+--- !u!114 &11428334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: sturdier armor
+  detailString: The merchant have promised [name] available for our shop if we complete
+    the task.
+  rewardType: 3
+  rewardItems: []
+  value: {fileID: 11428336}
+  strategy: {fileID: 11471194}
+  namesNonItem:
+  - a trade caravan allowing for more excotic gear
+  - rare weaponry
+  - sturdier armor
+  - improved equipment
+  - better trading routes opening more equipment options
+  - stronger materials
+  - safer roads allowing for better items
+  - new contacts with stronger weapons
+  - tougher armor
+  - upgraded weaponry
+--- !u!114 &11428336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cc37541ec28ad49bae298eec93b4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 500
+  detailString: 500
 --- !u!114 &11429838
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14393,24 +14604,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24247573bc430e4badbf957fee1e4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: sturdier armor
-  detailString: The merchant have promised [name] available for our shop if we complete
-    the task.
-  rewardType: 3
+  name: Progression
+  detailString: '....
+
+'
+  rewardType: 0
   rewardItems: []
   value: {fileID: 11447928}
   strategy: {fileID: 11471194}
   namesNonItem:
-  - a trade caravan allowing for more excotic gear
-  - rare weaponry
-  - sturdier armor
-  - improved equipment
-  - better trading routes opening more equipment options
-  - stronger materials
-  - safer roads allowing for better items
-  - new contacts with stronger weapons
-  - tougher armor
-  - upgraded weaponry
+  - Progression
 --- !u!114 &11447928
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14581,18 +14784,9 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
-  minorPictureParent: {fileID: 0}
+  minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -15024,9 +15218,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure10
   detailString: '[rew] This would most likely give us an advantage against [nBoss]'
-  possibleRewardsParent: {fileID: 147928}
+  possibleRewardsParent: {fileID: 128336}
   possibleRewards:
-  - {fileID: 11447926}
+  - {fileID: 11428334}
   - {fileID: 11455526}
   - {fileID: 11455530}
   - {fileID: 11455534}
@@ -15050,9 +15244,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure9
   detailString: '[rew] With upgraded gear we should be able to defeat the {nBoss]'
-  possibleRewardsParent: {fileID: 147928}
+  possibleRewardsParent: {fileID: 128336}
   possibleRewards:
-  - {fileID: 11447926}
+  - {fileID: 11428334}
   - {fileID: 11455526}
   - {fileID: 11455530}
   - {fileID: 11455534}
@@ -15077,9 +15271,9 @@ MonoBehaviour:
   name: MinorPictureForTreasure8
   detailString: "[rew]\_With the possibility of buying better equipment we will have
     a great chance when facing [nBoss]"
-  possibleRewardsParent: {fileID: 147928}
+  possibleRewardsParent: {fileID: 128336}
   possibleRewards:
-  - {fileID: 11447926}
+  - {fileID: 11428334}
   - {fileID: 11455526}
   - {fileID: 11455530}
   - {fileID: 11455534}
@@ -15103,9 +15297,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure7
   detailString: '[rew] Our team would become stronger than ever with improved items.'
-  possibleRewardsParent: {fileID: 147928}
+  possibleRewardsParent: {fileID: 128336}
   possibleRewards:
-  - {fileID: 11447926}
+  - {fileID: 11428334}
   - {fileID: 11455526}
   - {fileID: 11455530}
   - {fileID: 11455534}
@@ -15129,9 +15323,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure6
   detailString: '[rew] This would make our journey for justice easier!'
-  possibleRewardsParent: {fileID: 147928}
+  possibleRewardsParent: {fileID: 128336}
   possibleRewards:
-  - {fileID: 11447926}
+  - {fileID: 11428334}
   - {fileID: 11455526}
   - {fileID: 11455530}
   - {fileID: 11455534}
@@ -15155,9 +15349,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure5
   detailString: "[rew]\x03 Battles would become easier with better equipment!"
-  possibleRewardsParent: {fileID: 147928}
+  possibleRewardsParent: {fileID: 128336}
   possibleRewards:
-  - {fileID: 11447926}
+  - {fileID: 11428334}
   - {fileID: 11455526}
   - {fileID: 11455530}
   - {fileID: 11455534}
@@ -15181,9 +15375,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure4
   detailString: '[rew] We would become unstoppable this way!'
-  possibleRewardsParent: {fileID: 147928}
+  possibleRewardsParent: {fileID: 128336}
   possibleRewards:
-  - {fileID: 11447926}
+  - {fileID: 11428334}
   - {fileID: 11455526}
   - {fileID: 11455530}
   - {fileID: 11455534}
@@ -15207,9 +15401,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure3
   detailString: '[rew] With improved gear, we would be able to take on anyone!'
-  possibleRewardsParent: {fileID: 147928}
+  possibleRewardsParent: {fileID: 128336}
   possibleRewards:
-  - {fileID: 11447926}
+  - {fileID: 11428334}
   - {fileID: 11455526}
   - {fileID: 11455530}
   - {fileID: 11455534}
@@ -15233,9 +15427,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure2
   detailString: '[rew] It would certainly help us on our journey.'
-  possibleRewardsParent: {fileID: 147928}
+  possibleRewardsParent: {fileID: 128336}
   possibleRewards:
-  - {fileID: 11447926}
+  - {fileID: 11428334}
   - {fileID: 11455526}
   - {fileID: 11455530}
   - {fileID: 11455534}
@@ -15260,9 +15454,9 @@ MonoBehaviour:
   name: MinorPictureForTreasure1
   detailString: '[rew] With better equipment in the shop we could equip our men with
     better items.'
-  possibleRewardsParent: {fileID: 147928}
+  possibleRewardsParent: {fileID: 128336}
   possibleRewards:
-  - {fileID: 11447926}
+  - {fileID: 11428334}
   - {fileID: 11455526}
   - {fileID: 11455530}
   - {fileID: 11455534}
@@ -16081,19 +16275,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: MinorPictureForTreasure1
-  detailString: '[rew] as it would benefit us in the fight against [nBoss]'
+  detailString: '....
+
+'
   possibleRewardsParent: {fileID: 0}
   possibleRewards:
-  - {fileID: 11403092}
-  - {fileID: 11403090}
-  - {fileID: 11403086}
-  - {fileID: 11403082}
-  - {fileID: 11403076}
-  - {fileID: 11403072}
-  - {fileID: 11403068}
-  - {fileID: 11403066}
-  - {fileID: 11403060}
-  - {fileID: 11403058}
+  - {fileID: 11447926}
   rewardData: {fileID: 11403092}
 --- !u!114 &11471046
 MonoBehaviour:
@@ -18751,18 +18938,9 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
-  minorPictureParent: {fileID: 0}
+  minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -18820,18 +18998,9 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
-  minorPictureParent: {fileID: 0}
+  minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -18889,18 +19058,9 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
-  minorPictureParent: {fileID: 0}
+  minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -18960,18 +19120,9 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
-  minorPictureParent: {fileID: 0}
+  minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -19030,18 +19181,9 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
-  minorPictureParent: {fileID: 0}
+  minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -19100,18 +19242,9 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
-  minorPictureParent: {fileID: 0}
+  minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -19171,18 +19304,9 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
-  minorPictureParent: {fileID: 0}
+  minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -19240,18 +19364,9 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
-  minorPictureParent: {fileID: 0}
+  minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -19310,18 +19425,9 @@ MonoBehaviour:
   - {fileID: 11446506}
   - {fileID: 11446504}
   - {fileID: 11446494}
-  minorPictureParent: {fileID: 0}
+  minorPictureParent: {fileID: 161082}
   minorPictures:
   - {fileID: 11461078}
-  - {fileID: 11461076}
-  - {fileID: 11461074}
-  - {fileID: 11461072}
-  - {fileID: 11461070}
-  - {fileID: 11461068}
-  - {fileID: 11461066}
-  - {fileID: 11461064}
-  - {fileID: 11461062}
-  - {fileID: 11461060}
   enemies:
   - {fileID: 11434656}
   - {fileID: 11434650}
@@ -19380,7 +19486,7 @@ MonoBehaviour:
   - {fileID: 11446494}
   minorPictureParent: {fileID: 0}
   minorPictures:
-  - {fileID: 11461078}
+  - {fileID: 11428332}
   - {fileID: 11461076}
   - {fileID: 11461074}
   - {fileID: 11461072}
@@ -19447,7 +19553,7 @@ MonoBehaviour:
   - {fileID: 11446494}
   minorPictureParent: {fileID: 0}
   minorPictures:
-  - {fileID: 11461078}
+  - {fileID: 11428332}
   - {fileID: 11461076}
   - {fileID: 11461074}
   - {fileID: 11461072}
@@ -19515,7 +19621,7 @@ MonoBehaviour:
   - {fileID: 11446494}
   minorPictureParent: {fileID: 0}
   minorPictures:
-  - {fileID: 11461078}
+  - {fileID: 11428332}
   - {fileID: 11461076}
   - {fileID: 11461074}
   - {fileID: 11461072}
@@ -19583,7 +19689,7 @@ MonoBehaviour:
   - {fileID: 11446494}
   minorPictureParent: {fileID: 0}
   minorPictures:
-  - {fileID: 11461078}
+  - {fileID: 11428332}
   - {fileID: 11461076}
   - {fileID: 11461074}
   - {fileID: 11461072}
@@ -19651,7 +19757,7 @@ MonoBehaviour:
   - {fileID: 11446494}
   minorPictureParent: {fileID: 0}
   minorPictures:
-  - {fileID: 11461078}
+  - {fileID: 11428332}
   - {fileID: 11461076}
   - {fileID: 11461074}
   - {fileID: 11461072}
@@ -19719,7 +19825,7 @@ MonoBehaviour:
   - {fileID: 11446494}
   minorPictureParent: {fileID: 0}
   minorPictures:
-  - {fileID: 11461078}
+  - {fileID: 11428332}
   - {fileID: 11461076}
   - {fileID: 11461074}
   - {fileID: 11461072}
@@ -19787,7 +19893,7 @@ MonoBehaviour:
   - {fileID: 11446494}
   minorPictureParent: {fileID: 0}
   minorPictures:
-  - {fileID: 11461078}
+  - {fileID: 11428332}
   - {fileID: 11461076}
   - {fileID: 11461074}
   - {fileID: 11461072}
@@ -19855,7 +19961,7 @@ MonoBehaviour:
   - {fileID: 11446494}
   minorPictureParent: {fileID: 0}
   minorPictures:
-  - {fileID: 11461078}
+  - {fileID: 11428332}
   - {fileID: 11461076}
   - {fileID: 11461074}
   - {fileID: 11461072}
@@ -19924,7 +20030,7 @@ MonoBehaviour:
   - {fileID: 11446494}
   minorPictureParent: {fileID: 0}
   minorPictures:
-  - {fileID: 11461078}
+  - {fileID: 11428332}
   - {fileID: 11461076}
   - {fileID: 11461074}
   - {fileID: 11461072}
@@ -19991,7 +20097,7 @@ MonoBehaviour:
   - {fileID: 11446494}
   minorPictureParent: {fileID: 0}
   minorPictures:
-  - {fileID: 11461078}
+  - {fileID: 11428332}
   - {fileID: 11461076}
   - {fileID: 11461074}
   - {fileID: 11461072}
