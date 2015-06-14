@@ -12437,7 +12437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Shop Quest
   detailString: The roads at [location] are dangerous as [nBoss] minions are terrorising
     any travel on them. Therefore the merchant cannot send any caravans on this traderout,
     We should help him out. [mPic]
@@ -14434,7 +14434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Shop Quest
   detailString: A foreign merchant's trade caravan was attacked at [location], and
     needs help. [mPic]
   isBossQuest: 0
@@ -19339,7 +19339,7 @@ MonoBehaviour:
     intercept it at [location], [mPic]'
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: .5
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -19405,7 +19405,7 @@ MonoBehaviour:
   detailString: We should go to [location] and face the [enemy], [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: .5
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -19472,7 +19472,7 @@ MonoBehaviour:
     we should head there [mPic]'
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: .5
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -19539,7 +19539,7 @@ MonoBehaviour:
     overrun by [enemy], we should defeat them [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: .5
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -19606,7 +19606,7 @@ MonoBehaviour:
     to go there [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: .5
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -19673,7 +19673,7 @@ MonoBehaviour:
     attack them [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: .5
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -19740,7 +19740,7 @@ MonoBehaviour:
     we face it, it would be wise to head to [location] [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: .5
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -19807,7 +19807,7 @@ MonoBehaviour:
     [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: .5
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -19875,7 +19875,7 @@ MonoBehaviour:
     [mPic]
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: .5
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -19941,7 +19941,7 @@ MonoBehaviour:
   detailString: 'The [enemy] are all over [location] we should head there [mPic] '
   isBossQuest: 0
   revengeString: 
-  minProgressForQuest: 0
+  minProgressForQuest: .5
   progressForWinning: 1
   progressForLosing: .5
   randomLocations:
@@ -20003,7 +20003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Farm Quest
   detailString: The [nBoss] is attacking [rlocation]. We cannot defeat him yet, however
     with him being distracted we could take advantage of this and bring peace back
     to [location]. [mPic]
@@ -20071,7 +20071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Farm Quest
   detailString: Our contacts at [location] are being attacked. Let's help them out!
     [mPic]
   isBossQuest: 0
@@ -20138,7 +20138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Farm Quest
   detailString: We are going to face a difficult battle in the near future, however
     before we face it, I suggest we improve our farm with [rname] by bringing peace
     back to [location].  [mPic]
@@ -20206,7 +20206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Farm Quest
   detailString: The surrounding farmland of [location] is being attacked by [enemy].
     I think we should help out in order to improve our relation with the farmers there.
     [mPic]
@@ -20274,7 +20274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Farm Quest
   detailString: The farmers living near [location] had [rname] stolen from them by
     [enemy]. We should try to retrieve it! [mPic]
   isBossQuest: 0
@@ -20341,7 +20341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Farm Quest
   detailString: '[location] is currently overrun by [enemy], we should defeat them.
     [mPic]'
   isBossQuest: 0
@@ -20408,7 +20408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Farm Quest
   detailString: There has been rumours about [rname] at [location]. It is currently
     overrun by [enemy], we should defeat them [mPic]
   isBossQuest: 0
@@ -20475,7 +20475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Farm Quest
   detailString: Some of our farmers were attacked at [location] while trying to get
     [rname] for the farm. I suggest we head there! [mPic]
   isBossQuest: 0
@@ -20542,7 +20542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Farm Quest
   detailString: A foreign merchant's trade caravan was attacked at [location], and
     needs help. [mPic]
   isBossQuest: 0
@@ -20609,7 +20609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Farm Quest
   detailString: The area of [location] is dangerous and the local farmers are being
     attacked by [nBoss] minions. I suggest we help them out. [mPic]
   isBossQuest: 0
@@ -20676,7 +20676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Item Quest
   detailString: '[nBoss] is sending troops carrying [rname] to [rlocation]. We could
     intercept them at [location] [mPic]'
   isBossQuest: 0
@@ -20743,7 +20743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Item Quest
   detailString: We should go to [location] and face the [enemy], [mPic]
   isBossQuest: 0
   revengeString: 
@@ -20809,7 +20809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Item Quest
   detailString: I got intel that [location] got a hidden passage which is not well
     guarded at [time], we should head there [mPic]
   isBossQuest: 0
@@ -20876,7 +20876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Item Quest
   detailString: There has been rumours about an ancient artifact called [rname] at
     [location]. Unfortunately it is currently overrun by [enemy], but we could try
     and defeat them [mPic]
@@ -20944,7 +20944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Item Quest
   detailString: I heard words of [rname] located at [location]! We might be able to
     go there [mPic]
   isBossQuest: 0
@@ -21011,7 +21011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Item Quest
   detailString: The [enemy] are guarding [rname] at [location]. I think we should
     attack them [mPic]
   isBossQuest: 0
@@ -21078,7 +21078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Item Quest
   detailString: '[location] is known for having hidden artifacts, we should there
     [mPic]'
   isBossQuest: 0
@@ -21145,7 +21145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Item Quest
   detailString: We met a traveler who talked about a powerful artifact at [location].
     I suggest we head there [mPic]
   isBossQuest: 0
@@ -21212,7 +21212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Item Quest
   detailString: It is inevitable that a dangerous battle will be approaching us, before
     we face it, it would be wise to head to [location] [mPic]
   isBossQuest: 0
@@ -21279,7 +21279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Item Quest
   detailString: 'The [enemy] are all over [location] we should head there [mPic] '
   isBossQuest: 0
   revengeString: 
@@ -21345,7 +21345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Shop Quest
   detailString: 'The [enemy] are all over [location] we should head there [mPic] '
   isBossQuest: 0
   revengeString: 
@@ -21411,7 +21411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Shop Quest
   detailString: The [nBoss] is attacking [rlocation]. As we are not strong enough
     to beat him, we should take advantage of his distraction and head to [location]
     [mPic]
@@ -21479,7 +21479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Shop Quest
   detailString: Our contacts at [location] are being attacked. Let's help them out!
     [mPic]
   isBossQuest: 0
@@ -21546,7 +21546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Shop Quest
   detailString: It is inevitable that a dangerous battle will be approaching us, before
     we face it, it would be wise to head to [location] [mPic]
   isBossQuest: 0
@@ -21613,7 +21613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Shop Quest
   detailString: The surrounding area of [location] is being attacked by [enemy]. I
     think we should help out in order to improve our relations. [mPic]
   isBossQuest: 0
@@ -21680,7 +21680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Shop Quest
   detailString: Close members of the merchant's family is living at [location] which
     currently is being attacked by [enemy]. We should try and bring peace back to
     the area. [mPic]
@@ -21748,7 +21748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Shop Quest
   detailString: '[location] is currently overrun by [enemy], we should defeat them
     [mPic]'
   isBossQuest: 0
@@ -21815,7 +21815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb30b948f214814bb76f7f331f22414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Treasure Quest
+  name: Shop Quest
   detailString: '[location] got materials which we could put to good use in the town''s
     shop. I suggest we head there and retrieve them. [mPic]'
   isBossQuest: 0
