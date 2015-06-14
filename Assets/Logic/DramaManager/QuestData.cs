@@ -119,8 +119,12 @@ namespace DramaPack{
 			if (mpData.rewardData.rewardType == RewardData.RewardType.Progression && DramaManager.nextBoss.status == BossData.Status.encountered) {
 				detail = revengeString;
 			}
+			GameObject g = new GameObject ("quest");
+			Quest q = g.AddComponent<Quest> ();
+			q.ConfigQuest(rLoc,cLoc,cMoment,eData,outcomePair,mpData,this.name,detail,this,retryQuestData);
+			return q;
 
-			return new DramaPack.Quest(rLoc,cLoc,cMoment,eData,outcomePair,mpData,this.name,detail,this,retryQuestData);
+
 		}
 
 		public Object randomDramaData(Object[] dataArray, List<Object> exclData = null){

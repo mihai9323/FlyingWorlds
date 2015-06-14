@@ -25,7 +25,7 @@ public class Quest : StringData {
 		}
 		public QuestCompletion questState;
 
-		public Quest(LocationData randomLocation, LocationData questLocation, MomentData questTime, EnemyData enemyData, OutcomePair outcomePair, MinorPictureData minorPicture,string name, string detailString, QuestData qd, RetryQuestData retryQuestData){
+		public void ConfigQuest(LocationData randomLocation, LocationData questLocation, MomentData questTime, EnemyData enemyData, OutcomePair outcomePair, MinorPictureData minorPicture,string name, string detailString, QuestData qd, RetryQuestData retryQuestData){
 
 			this.randomLocation = randomLocation;
 			this.questLocation = questLocation;
