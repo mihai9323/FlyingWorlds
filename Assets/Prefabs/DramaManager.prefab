@@ -12121,7 +12121,54 @@ MonoBehaviour:
   quests:
   - {fileID: 11482706}
   - {fileID: 11482704}
+  - {fileID: 11482708}
+  - {fileID: 11482710}
+  - {fileID: 11482712}
+  - {fileID: 11482714}
+  - {fileID: 11482716}
+  - {fileID: 11482718}
+  - {fileID: 11482720}
+  - {fileID: 11482722}
   - {fileID: 11476802}
+  - {fileID: 11476804}
+  - {fileID: 11476806}
+  - {fileID: 11476808}
+  - {fileID: 11476810}
+  - {fileID: 11476812}
+  - {fileID: 11476814}
+  - {fileID: 11476816}
+  - {fileID: 11476818}
+  - {fileID: 11451184}
+  - {fileID: 11482740}
+  - {fileID: 11482742}
+  - {fileID: 11482738}
+  - {fileID: 11482736}
+  - {fileID: 11482734}
+  - {fileID: 11482732}
+  - {fileID: 11482730}
+  - {fileID: 11482728}
+  - {fileID: 11482726}
+  - {fileID: 11482724}
+  - {fileID: 11482746}
+  - {fileID: 11482744}
+  - {fileID: 11482748}
+  - {fileID: 11482750}
+  - {fileID: 11482752}
+  - {fileID: 11482754}
+  - {fileID: 11482756}
+  - {fileID: 11482758}
+  - {fileID: 11482760}
+  - {fileID: 11482762}
+  - {fileID: 11451176}
+  - {fileID: 11425172}
+  - {fileID: 11482778}
+  - {fileID: 11482776}
+  - {fileID: 11482774}
+  - {fileID: 11482772}
+  - {fileID: 11482770}
+  - {fileID: 11482768}
+  - {fileID: 11482766}
+  - {fileID: 11482764}
   prologues:
   - {fileID: 11441628}
   - {fileID: 11441630}
@@ -12130,8 +12177,14 @@ MonoBehaviour:
   - {fileID: 11425150}
   miniBossList:
   - {fileID: 11451178}
-  endBossList:
+  - {fileID: 11451180}
   - {fileID: 11451182}
+  - {fileID: 11425160}
+  endBossList:
+  - {fileID: 11451178}
+  - {fileID: 11451180}
+  - {fileID: 11451182}
+  - {fileID: 11425160}
 --- !u!114 &11425158
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12320,7 +12373,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 09000000
+  relevantTraits: 02000000090000000b000000
   questGiver: {fileID: 0}
 --- !u!114 &11425174
 MonoBehaviour:
@@ -14313,7 +14366,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 01000000040000000b000000
   questGiver: {fileID: 0}
 --- !u!114 &11451178
 MonoBehaviour:
@@ -14423,7 +14476,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 04000000
+  relevantTraits: 030000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11455522
 MonoBehaviour:
@@ -18589,7 +18642,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11476804
 MonoBehaviour:
@@ -18654,7 +18707,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 02000000
+  relevantTraits: 000000000900000005000000
   questGiver: {fileID: 0}
 --- !u!114 &11476806
 MonoBehaviour:
@@ -18719,7 +18772,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 02000000
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11476808
 MonoBehaviour:
@@ -18786,7 +18839,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 03000000
+  relevantTraits: 020000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11476810
 MonoBehaviour:
@@ -18852,7 +18905,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 000000000900000005000000
   questGiver: {fileID: 0}
 --- !u!114 &11476812
 MonoBehaviour:
@@ -18918,7 +18971,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 03000000
+  relevantTraits: 020000000c00000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11476814
 MonoBehaviour:
@@ -18985,7 +19038,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 02000000
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11476816
 MonoBehaviour:
@@ -19050,7 +19103,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 03000000
+  relevantTraits: 000000000c00000005000000
   questGiver: {fileID: 0}
 --- !u!114 &11476818
 MonoBehaviour:
@@ -19116,7 +19169,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 02000000
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11482704
 MonoBehaviour:
@@ -19130,8 +19183,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Treasure Quest
-  detailString: The [nBoss] is sending a caravan with [rname] to [rlocation]. We should
-    intercept it at [location], [mPic]
+  detailString: '[nBoss] is sending a caravan with [rname] to [rlocation]. We should
+    intercept it at [location], [mPic]'
   isBossQuest: 0
   revengeString: 
   minProgressForQuest: 0
@@ -19180,7 +19233,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 030000000c00000006000000
   questGiver: {fileID: 0}
 --- !u!114 &11482706
 MonoBehaviour:
@@ -19194,7 +19247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Treasure Quest
-  detailString: We should go to [cLoc] and face the [cEne], [mPic]
+  detailString: We should go to [location] and face the [enemy], [mPic]
   isBossQuest: 0
   revengeString: 
   minProgressForQuest: 0
@@ -19243,7 +19296,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11482708
 MonoBehaviour:
@@ -19307,7 +19360,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11482710
 MonoBehaviour:
@@ -19371,7 +19424,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 020000000900000005000000
   questGiver: {fileID: 0}
 --- !u!114 &11482712
 MonoBehaviour:
@@ -19435,7 +19488,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11482714
 MonoBehaviour:
@@ -19499,7 +19552,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 020000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11482716
 MonoBehaviour:
@@ -19563,7 +19616,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 000000000c00000005000000
   questGiver: {fileID: 0}
 --- !u!114 &11482718
 MonoBehaviour:
@@ -19627,7 +19680,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11482720
 MonoBehaviour:
@@ -19692,7 +19745,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 030000000c00000006000000
   questGiver: {fileID: 0}
 --- !u!114 &11482722
 MonoBehaviour:
@@ -19755,7 +19808,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 000000000900000005000000
   questGiver: {fileID: 0}
 --- !u!114 &11482724
 MonoBehaviour:
@@ -19820,7 +19873,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 01000000040000000a000000
   questGiver: {fileID: 0}
 --- !u!114 &11482726
 MonoBehaviour:
@@ -19884,7 +19937,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 01000000040000000a000000
   questGiver: {fileID: 0}
 --- !u!114 &11482728
 MonoBehaviour:
@@ -19949,7 +20002,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 03000000070000000a000000
   questGiver: {fileID: 0}
 --- !u!114 &11482730
 MonoBehaviour:
@@ -20014,7 +20067,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 010000000c0000000a000000
   questGiver: {fileID: 0}
 --- !u!114 &11482732
 MonoBehaviour:
@@ -20078,7 +20131,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 02000000070000000a000000
   questGiver: {fileID: 0}
 --- !u!114 &11482734
 MonoBehaviour:
@@ -20142,7 +20195,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 01000000040000000a000000
   questGiver: {fileID: 0}
 --- !u!114 &11482736
 MonoBehaviour:
@@ -20206,7 +20259,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 01000000040000000a000000
   questGiver: {fileID: 0}
 --- !u!114 &11482738
 MonoBehaviour:
@@ -20270,7 +20323,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 00000000040000000a000000
   questGiver: {fileID: 0}
 --- !u!114 &11482740
 MonoBehaviour:
@@ -20334,7 +20387,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 01000000040000000a000000
   questGiver: {fileID: 0}
 --- !u!114 &11482742
 MonoBehaviour:
@@ -20398,7 +20451,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 03000000070000000a000000
   questGiver: {fileID: 0}
 --- !u!114 &11482744
 MonoBehaviour:
@@ -20462,7 +20515,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11482746
 MonoBehaviour:
@@ -20525,7 +20578,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 000000000900000005000000
   questGiver: {fileID: 0}
 --- !u!114 &11482748
 MonoBehaviour:
@@ -20589,7 +20642,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 020000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11482750
 MonoBehaviour:
@@ -20654,7 +20707,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11482752
 MonoBehaviour:
@@ -20718,7 +20771,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 020000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11482754
 MonoBehaviour:
@@ -20782,7 +20835,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 000000000c00000005000000
   questGiver: {fileID: 0}
 --- !u!114 &11482756
 MonoBehaviour:
@@ -20846,7 +20899,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 020000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11482758
 MonoBehaviour:
@@ -20910,7 +20963,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 030000000700000006000000
   questGiver: {fileID: 0}
 --- !u!114 &11482760
 MonoBehaviour:
@@ -20974,7 +21027,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 010000000400000008000000
   questGiver: {fileID: 0}
 --- !u!114 &11482762
 MonoBehaviour:
@@ -21037,7 +21090,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 000000000900000005000000
   questGiver: {fileID: 0}
 --- !u!114 &11482764
 MonoBehaviour:
@@ -21100,7 +21153,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 00000000090000000b000000
   questGiver: {fileID: 0}
 --- !u!114 &11482766
 MonoBehaviour:
@@ -21165,7 +21218,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 03000000070000000b000000
   questGiver: {fileID: 0}
 --- !u!114 &11482768
 MonoBehaviour:
@@ -21229,7 +21282,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 02000000040000000b000000
   questGiver: {fileID: 0}
 --- !u!114 &11482770
 MonoBehaviour:
@@ -21293,7 +21346,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 00000000090000000b000000
   questGiver: {fileID: 0}
 --- !u!114 &11482772
 MonoBehaviour:
@@ -21357,7 +21410,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 010000000c0000000b000000
   questGiver: {fileID: 0}
 --- !u!114 &11482774
 MonoBehaviour:
@@ -21422,7 +21475,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 02000000070000000b000000
   questGiver: {fileID: 0}
 --- !u!114 &11482776
 MonoBehaviour:
@@ -21486,7 +21539,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 01000000040000000b000000
   questGiver: {fileID: 0}
 --- !u!114 &11482778
 MonoBehaviour:
@@ -21550,7 +21603,7 @@ MonoBehaviour:
   retryQuestsData:
   - {fileID: 11445826}
   traitRelevance: 1
-  relevantTraits: 01000000
+  relevantTraits: 01000000040000000b000000
   questGiver: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
